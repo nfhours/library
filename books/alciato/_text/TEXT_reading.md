@@ -1386,7 +1386,7 @@ Et nulla iustos vtilitate iuuant.
 
 Колонтитул: LVXVRIA. 81
 Кустод: 
-Сигнатура: [?]
+Сигнатура: F
 Маргиналии:
 
 ## Кадр 0088 · с. 82
@@ -1394,10 +1394,10 @@ Et nulla iustos vtilitate iuuant.
 [ЗАГОЛОВОК: Tumulus meretricis.]
 [ЗАГОЛОВОК: Διαλογιστικῶς.]
 [ГРАВЮРА: без подписи]
-Quis tumulus? Cuia vrna? Ephyræ est Laidos.
+Quis tumulus? Cuia vrna? Ephyrææ est Laidos.
 ab, non
 Erubuit tantum perdere Parca decus?
-Nulla fuit tum formæ. illam iam carpserat ætas,
+Nulla fuit tum forma. illam iam carpserat ætas,
 Iam speculum Veneri cauta dicarat anus.
 Quid scalptus sibi vult aries, quem parte leæna
 Vnguibus apprehensum posteriore tenet?
@@ -1432,7 +1432,7 @@ Qui miser obscœno captus amore perit.
 Sole satæ Circes tam magna potentia fertur,
 Verterit vt multos in noua monstra viros.
 Testis equûm domitor Picus, tum Scylla biformis,
-Atque Ithaci postquàm vina bibère sues.
+Atque Ithaci postquàm vina bibêre sues.
 Indicat illustri meretricem nomine Circe,
 Et rationem animi perdere, quisquis amat.
 
@@ -1527,7 +1527,7 @@ Parua velut limax spreto Remora impete venti,
 Remorumq;, ratem sistere sola potest.
 Sic quosdam ingenio, & virtute ad sidera vectos,
 Detinet in medio tramite, causa leuis:
-Anxialis veluti est: vel qui meretricius ardor
+Anxia lis veluti est: vel qui meretricius ardor
 Egregijs iuuenes seuocat à studijs.
 
 Колонтитул: 90 DESIDIA.
@@ -1542,8 +1542,8 @@ Egregijs iuuenes seuocat à studijs.
 Ignaui ardeolam stellarum effingere serui
 Et studia, & mores fabula prisca fuit.
 Quæ famulū Asteriā volucris sumpsisse figurā:
-Est commenta: fidet sit penes historicos.
-Degener hic veluti quicæuet in aëre falco est,
+Est commenta: fides sit penes historicos.
+Degener hic veluti qui cæuet in aëre falco est,
 Dictus ab antiquis vatibus ardelio.
 
 Колонтитул: DESIDIA. 91
@@ -1556,7 +1556,7 @@ Dictus ab antiquis vatibus ardelio.
 [ЗАГОЛОВОК: AVARITIA.]
 [ЗАГОЛОВОК: Auaritia.]
 [ГРАВЮРА: без подписи]
-Heu miser in mediis sitiens stat Tantalus vndis,
+Heu miser in medijs sitiens stat Tantalus vndis,
 Et poma esuriens proxima, habere nequit.
 Nomine mutato de te id dicetur auare,
 Qui, quasi non habeas, non frueris quod habes.
@@ -1589,7 +1589,7 @@ Seq; rubo, aut dura carice pauper alit.
 [ЗАГОЛОВОК: In aulicos.]
 [ГРАВЮРА: без подписи]
 Vana Palatinos quos educat aula clientes,
-Dicitur auratis nectere comp[?].
+Dicitur auratis nectere compedibus[?].
 [ВИНЬЕТКА: концовка]
 
 Колонтитул: 94 AVARITIA.
@@ -1603,7 +1603,7 @@ Dicitur auratis nectere comp[?].
 [ГРАВЮРА: без подписи]
 Quæ rostro (clystere velut) sibi proluit aluum
 Ibis, Nilaicis cognita littoribus,
-Transijt opprobrij in nomē: quo Publius hostem
+Transijt opprobrij in nomen: quo Publius hostem
 Naso suum appellat, Battiadésque suum.
 
 Колонтитул: AVARITIA. 95
@@ -1708,7 +1708,7 @@ Arbusto geminæ non bene Ficedulæ.
 
 [ЗАГОЛОВОК: Captiuus ob gulam.]
 [ГРАВЮРА: без подписи]
-Regna'orq; penus, mensæq; arrosor herilis
+Regna[?]orq; penus, mensæq; arrosor herilis
 Ostrea mus summis vidit hiulca labris.
 Qu[?]s tenerā apponēs barbā falsa ossa momordit,
 Ast ea clausérunt tacta repentè domum.
@@ -1726,10 +1726,10 @@ Semet in obscurum qui dederat tumulum.
 [ГРАВЮРА: без подписи]
 Voce boat torua, pralargo est gutture, rostrum
 Instar habet nasi multiforisq; tubæ.
-Deformem rabulam, addictum ven[?]riq;,gulaq;
+Deformem rabulam, addictum ventriq;, gulæq;
 Signabit, volucer cùm truo pictus erit.
 
-Колонтитул: [?]VLA. 103
+Колонтитул: GVLA. 103
 Кустод: 
 Сигнатура: G 4
 Маргиналии:
@@ -1739,7 +1739,7 @@ Signabit, volucer cùm truo pictus erit.
 [ЗАГОЛОВОК: DOCTORVM AGNOMINA.]
 [ГРАВЮРА: без подписи]
 Moris vetusti est, aliqua professoribus
-Superadyci cognomina.
+Superadijci cognomina.
 Faciles apertosq; explicans tantùm locos,
 Canon vocatur Curtius.
 Reuoluitur qui eodem, & iteratq; nimis
@@ -1756,7 +1756,7 @@ Obscurus & confusus, vt Picus fuit,
 Labyrinthus appellabitur.
 Nimis breuis, multa amputans, vt Claudius,
 Mucronis agnomen feret.
-Qui vel'columnas voce rumpit, Parpalus,
+Qui vel columnas voce rumpit, Parpalus,
 Dictus truo est scholasticis.
 Contra est vocatus, tenuis esset Albius
 Quòd voce, vespertilio.
@@ -1820,7 +1820,7 @@ Quæ certæ secum commoda sortis habent.
 
 [ЗАГОЛОВОК: In iuuentam.]
 [ГРАВЮРА: без подписи]
-Natus vterque Iouis, tener atque imberbis vierq;,
+Natus vterque Iouis, tener atque imberbis vterq;,
 Quem Latona tulit, quem tulit & Semele,
 Saluete, æterna simul & florete iuuenta,
 Numine sit vestro quæ diuturna mihi.
@@ -1882,7 +1882,7 @@ Bella gerunt fortes, callidus astra tenet.
 
 [ЗАГОЛОВОК: Quæ supra nos, nihil ad nos.]
 [ГРАВЮРА: без подписи]
-Caucasi a æternùm pendens in rupe Prometheus
+Caucasia æternùm pendens in rupe Prometheus
 Diripitur sacri præpetis vngue iecur.
 Et nollet fecisse hominem: figulosq; perosus
 Accensam rapto damnat ab igne facem.
@@ -1903,7 +1903,7 @@ In mare præcipitem cæra liquata daret,
 Nunc te cæra eadem, feruensq; exuscitat ignis,
 Exemplo vt doceas dogmata certa tuo.
 Astrologus caueat quicquam prędicere. præceps
-Nam eadet impostor, dum super astra volat.
+Nam cadet impostor, dum super astra volat.
 
 Колонтитул: ASTROLOGIA. 113
 Кустод: 
@@ -1933,9 +1933,9 @@ Securus fati, quod iacet ante pedes.
 [ГРАВЮРА: без подписи]
 Aspice vt inuictus vires auriga leonis,
 Expressus gemma pusio vincat amor:
-Vtq; manu hac scuticã tenet, hac vt flectit habenas,
+Vtq; manu hac scuticā tenet, hac vt flectit habenas,
 Vtq; est in pueri plurimus ore decor.
-Dira lues procul esto: feram qui viuere talem
+Dira lues procul esto: feram qui vincere talem
 Est potis, à nobis temperet ánne manus?
 
 Колонтитул: AMOR. 115
@@ -1974,7 +1974,7 @@ Dum demonstrat vti est fortior ignis amor.
 
 [ЗАГОЛОВОК: In studiosum captum Amore.]
 [ГРАВЮРА: без подписи]
-Immersus studijs, dicundo & iuré peritus,
+Immersus studijs, dicundo & iure peritus,
 Et maximus libellio,
 Helianiran amat, quantùm nec Thracius vnquã
 Princeps sororis pellicem.
@@ -1988,19 +1988,19 @@ Num sat sub Ida est vincere?
 
 ## Кадр 0125 · с. 119
 
-[ЗАГОЛОВОК: Αυτέρως, id amor virtutis.]
-[ЗАГОЛОВОК: Διαλογιστικώς.]
+[ЗАГОЛОВОК: Αντέρως, id amor virtutis.]
+[ЗАГОЛОВОК: Διαλογιστικῶς.]
 [ГРАВЮРА: без подписи]
 Dic vbi sunt incurui arcus? vbi tela Cupido:
-Mollia quẽt iuuenum figere corda soles?
+Mollia qu[?] iuuenum figere corda soles?
 Fax vbi tristis? vbi pennæ? tres vnde corollas
 Fert manus? vnde aliam tempora cincta gerũt?
-Haud mihi vulgari est, (hospes) cũ Cypride qcquã
+Haud mihi vulgari est, (hospes) cũ Cypride ꝗcquã
 Vlla voluptatis nos neque forma tulit,
 Sed puris hominum succendo mentibus ignes
 Disciplinæ: animos astraq; ad alta traho.
 Quattuor eq; ipsa texo virtute corollas,
-Quarum quæ Sophiæ est, tempora prima tege[?].
+Quarum quæ Sophiæ est, tempora prima teg[?].
 
 Колонтитул: AMOR. 119
 Кустод: 
@@ -2009,16 +2009,2027 @@ Quarum quæ Sophiæ est, tempora prima tege[?].
 
 ## Кадр 0126 · с. 120
 
-[ЗАГОЛОВОК: Αυτέρως, Amor virtutis, alium Cupidinem superans.]
+[ЗАГОЛОВОК: Αντέρως, Amor virtutis, alium Cupidinem superans.]
 [ГРАВЮРА: без подписи]
 Aligerum, aligeroq; inimicum pinxit Amori,
 Arcu arcũ, atq; ignes igne domans Nemesis.
-Vtquæ alijs fecit patiatur. at hic puer olim
+Vt quæ alijs fecit patiatur. at hic puer olim
 Intrepidus gestans tela, miser lachrymat.
 Ter spuit, inq; sinus imos (res mira) crematur
 Igne ignis, furias odit Amoris Amor.
 
 Колонтитул: 120 AMOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0127 · с. 121
+
+[ЗАГОЛОВОК: Dulcia quandoque amara fieri.]
+[ГРАВЮРА: без подписи]
+Matre procul licta, paulùm secesserat infans
+Lydius: hunc diræ sed rapuistis apes.
+Venerat hic ad vos placidas ratus esse volucres,
+Cùm nec ita inmitis vipera sæua foret.
+Quæ datis ah, dulci stimulos pro munere mellis.
+Proh dolor, Heu sine te gratia nulla datur.
+
+Колонтитул: AMOR. 121
+Кустод: 
+Сигнатура: H 5
+Маргиналии:
+
+## Кадр 0128 · с. 122
+
+[ЗАГОЛОВОК: Ferè simile ex Theocrito.]
+[ГРАВЮРА: без подписи]
+Alueolis dum mella legit: percussit Amorem
+Furacem mala apes, & summis spicula liquit
+In digitis: tumido gemit at puer anxius vngue.
+Et quatit errabundus humum: Veneriq; dolorem
+Indicat, & grauiter queritur, quod apicula paruũ
+Ipsa inferre animal tam noxia vulnera possit.
+Cui ridens Venus, Hanc imitaris tu quoque dixit
+Nate feram: qui das tot noxia vulnera paruus.
+
+Колонтитул: 122 AMOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0129 · с. 123
+
+[ЗАГОЛОВОК: In statuam Amoris.]
+[ГРАВЮРА: без подписи]
+Quis sit amor, plures olim cecinêre Poëtæ,
+Eius qui vario nomine gesta ferunt.
+Conuenit hoc, ꝙ veste caret, quòd corpore paruus.
+Tela, alasq; ferens, lumina nulla tenet.
+Hæc ora, hic habitusq; Dei est. Sed dicere tantos
+Si licet in vates, falsa subesse reor.
+Eccur nudus agat? diuo quasi pallia desint,
+Qui cunctas domiti possidet orbis opes.
+
+Колонтитул: AMOR. 123
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0130 · с. 124
+
+Aut quì quæso niues boreamq; euadere nudus,
+Alpinum potuit, strictaq; prata gelu?
+Si puer est, puerúmne vocas qui Nestora vincit?
+An nosti Ascræi carmina docta senis?
+Inconstans puer, hic obdurans: pectora quæ iam
+Trans adijt, nunquàm linquere sponte potest.
+At pharêtras & tela gerit, quid inutile pondus?
+An curuare infans cornua dura valet?
+Alas curúe tenet, quas nescit in æthera ferre?
+Inscius in volucrum flectere tela iecur.
+Serpit humi, semperq; virûm mortalia corda
+Lædit: & haud alas saxeus inde mouet.
+Si cæcus, vittamq; gerit, quid tænia cæco
+Vtilis est? ideo num minus ille videt?
+Quisue sagittiferum credat, qui lumine captus?
+Hic certa, ast cæci spicula vana mouet.
+Igneus est aiunt, versatq; in pectore flammas.
+Cur age viuit adhuc? omnia flamma vorat.
+Quinetiam tumidis cur non extinguitur vndis,
+Naiadum quoties mollia corda subit?
+At tu ne tantis capiare erroribus audi,
+Verus quid sit Amor carmina nostra ferent.
+Iucundus labor est, lasciua per ocia. signum
+Illius est, nigro punica glans clypeo.
+
+Колонтитул: 124 AMOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0131 · с. 125
+
+[ЗАГОЛОВОК: In obliuionem patriæ.]
+[ГРАВЮРА: без подписи]
+Iam dudum missa patria, oblitusq; tuorum,
+Quos tibi seu sanguis, siue parauit amor,
+Romam habitas: nec cura domū subit vlla reuerti.
+Aeternæ tantùm te capit vrbis honos.
+Sic Ithacûm præmissa manus dulcedine Loti
+Liquerat & patriam, liquerat atque ducem.
+
+Колонтитул: AMOR. 125
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0132 · с. 126
+
+[ЗАГОЛОВОК: Sirenes.]
+[ГРАВЮРА: без подписи]
+Absque alis volucres, & cruribus absque puellas,
+Rostro absq; & pisces, qui tamen ore canant:
+Quis putet esse vllos? iungi hæc natura negauit
+Sirenes fieri sed potuisse docent.
+Illicitum est mulier, quæ in piscem desinit atrum,
+Plurima quòd secum monstra libido vehit.
+Aspectu, verbis, animi candore, trahuntur,
+Parthenope, Ligia, Leucosiaq; viri.
+Has musæ explumant, has atque illudit Vlysses.
+Scilicet est doctis cum meretrice nihil.
+
+Колонтитул: 126 AMOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0133 · с. 127
+
+[ЗАГОЛОВОК: Senex puellam amans.]
+[ГРАВЮРА: надпись: SEPVLCHRVM]
+Dum Sophocles (quamuis affecta ætate) puellam
+A quæstu Archippen ad sua vota trahit,
+Allicit & pretio, tulit ægrè insana iuuentus
+Ob zelum, & tali carmine vtrunque notat.
+Noctua vt in tumulis, super vtq; cadauera bubo,
+Talis apud Sophoclem nostra puella sedet.
+
+Колонтитул: AMOR. 127
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0134 · с. 128
+
+[ЗАГОЛОВОК: In colores.]
+[ГРАВЮРА: без подписи]
+Index mœstitiæ est pullus color: vtimur omnes
+Hoc habitu, tumulis cùm damus inferias.
+At synceri animi, & mentis stola candida puræ.
+Hinc syndon sacris linea grata viris.
+Nos sperare docet viridis. Spes dicitur esse.
+In viridi, quoties irrita rêtro cadit.
+
+Колонтитул: 128 AMOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0135 · с. 129
+
+Est cupidis flauus color, est & amantibus aptus,
+Et scortis, & quẽis spes sua certa fuit.
+At ruber armatos equites exornet amictus,
+Indicet & pueros erubuisse pudor.
+Cæruleus nautas, & qui cœlestia vates
+Attoniti nimia relligione petunt.
+Vilia sunt giluis natiuaq; vellera birris:
+Qualia lignipedes stragula habere solent.
+Quem curæ ingentes cruciant, vel zelus amoris
+Creditur hic fulua non malè veste tegi.
+Quisquis sorte sua contentus, ianthina gestet,
+Fortunæ æquanimis tædia quiq; ferat.
+Vt varia est natura coloribus in gignendis,
+Sic alijs aliud: sed sua cuique placent.
+[ВИНЬЕТКА: концовка]
+
+Колонтитул: AMOR. 129
+Кустод: 
+Сигнатура: I
+Маргиналии:
+
+## Кадр 0136 · с. 130
+
+[ЗАГОЛОВОК: FORTVNA.]
+[ЗАГОЛОВОК: Virtuti, Fortuna comes.]
+[ГРАВЮРА: без подписи]
+Anguibus implicitis, geminis caduceus alis:
+Inter Amalthææ cornua rectus adest.
+Pollentes sic mente viros, fandiq; peritos
+Indicat, vt rerum copia multa beet.
+
+Колонтитул: 130 FORTVNA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0137 · с. 131
+
+[ЗАГОЛОВОК: Fortuna, Virtutem superans.]
+[ГРАВЮРА: без подписи]
+Cæsareo postquàm superatus milite, vidit
+Ciuili vndantem sanguine Pharsaliam:
+Iamiam stricturus moribunda in pectora ferrum,
+Audaci hos Brutus protulit ore sonos.
+Infelix Virtus & solis prouida verbis,
+Fortunam in rebus cur sequeris dominam?
+
+Колонтитул: FORTVNA. 131
+Кустод: 
+Сигнатура: I 2
+Маргиналии:
+
+## Кадр 0138 · с. 132
+
+[ЗАГОЛОВОК: Paupertatem summis ingenijs obesse, ne prouehantur.]
+[ГРАВЮРА: без подписи]
+Dextra tenet lapidem: manus altera sustinet alas.
+Vt me pluma leuat: sic graue mergit onus.
+Ingenio poteram superas volitare per arces,
+Me nisi paupertas inuida deprimeret.
+
+Колонтитул: 13[?] FORTVNA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0139 · с. 133
+
+[ЗАГОЛОВОК: In occasionem.]
+[ЗАГОЛОВОК: Διαλογιστικῶς.]
+[ГРАВЮРА: без подписи]
+Iysippi hoc opus est, Sycion cui patria. Tu quis?
+Cuncta domans capti temporis articulus.
+Cur pinnis stas? vsque rotor. Talaria plantis
+Cur retines? Passim me leuis aura rapit.
+In dextra est tenuis dic vnde nouacula? Acutum
+Omni acie hoc signum me magis esse docet.
+Cur in frõte coma? Occurrẽs vt prẽdar. At heus tu
+Dic cur pars calua est posterior capitis?
+Ne semel alipedem si quis permittat abire,
+Ne possim apprehenso postmodò crine capi.
+Tali opifex nos arte, tui causa, edidit hospes.
+Vtq; omnes moneam: pergula aperta tenet.
+
+Колонтитул: FORTVNA. 133
+Кустод: 
+Сигнатура: I 3[?]
+Маргиналии:
+
+## Кадр 0140 · с. 134
+
+[ЗАГОЛОВОК: In subitum terrorem.]
+[ГРАВЮРА: без подписи]
+Effuso cernens fugientes agmine turmas,
+Quis mea nunc inflat cornua? Faunus ait.
+[ВИНЬЕТКА: концовка]
+
+Колонтитул: 134 FORTVNA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0141 · с. 135
+
+[ЗАГОЛОВОК: In illaudata laudantes.]
+[ГРАВЮРА: без подписи]
+Ingentet Galatûm semermi milite turmas,
+Spem præter trepidus fuderat Antiochus,
+Lucarum cùm sæua boum vis, ira proboscis,
+Tum primùm hostiles corripuisset equos.
+Ergo trophæa locans Elephantis imagine pinxit,
+Insuper & socijs occîderamus ait,
+Bellua seruasset ni nos fœdissima barrus.
+Vt superasse iuuat, sic superasse pudet.
+
+Колонтитул: FORTVNA. 135
+Кустод: 
+Сигнатура: I 4
+Маргиналии:
+
+## Кадр 0142 · с. 136
+
+[ЗАГОЛОВОК: In momentaneam felicitatem.]
+[ГРАВЮРА: без подписи]
+Aëriam propter creuisse Cucurbita pinum
+Dicitur: & grandi luxuriasse coma.
+Cùm ramos complexa, ipsumq; egressa cacumen,
+Se præstare alijs credidit arboribus.
+Cui pinus: Nimiùm breuis est hæc gloria. nam te
+Protinus adueniet quæ malè perdet hyems.
+
+Колонтитул: 136 FORTVNA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0143 · с. 137
+
+[ЗАГОЛОВОК: Ex damno alterius, alterius vtilitas.]
+[ГРАВЮРА: без подписи]
+Dum sæuis ruerent in mutua vulnera telis,
+Vngue leæna ferox, dente timendus aper,
+Accurrit vultur spectatum, & prandia captat.
+Gloria victoris, præda futura sua est.
+
+Колонтитул: FORTVNA. 137
+Кустод: 
+Сигнатура: I 5
+Маргиналии:
+
+## Кадр 0144 · с. 138
+
+[ЗАГОЛОВОК: Bonis auspicijs incipiendum.]
+[ГРАВЮРА: без подписи]
+Auspicijs rès cœpta malis, bene cedere nescit.
+Felici quæ sunt omine facta, iuuant.
+Quicquid agis, mustella tibi si occurrat, omitte;
+Signa malæ hæc sortis bestia praua gerit.
+
+Колонтитул: 138 FORTVNA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0145 · с. 139
+
+[ЗАГОЛОВОК: Nil reliqui.]
+[ГРАВЮРА: без подписи]
+Scilicet hoc deerat, post tot mala denique nostris
+Locustæ vt raperent, quicquid inesset, agris.
+Vidimus innumeras Euro duce tendere turmas,
+Qualia non Atylæ, castráue Xerxis erant.
+Hæ fœnum, milium, farra omnia consumpserunt,
+Spes & in angusto est, stant nisi vota super.
+
+Колонтитул: FORTVNA. 139
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0146 · с. 140
+
+[ЗАГОЛОВОК: Malè parta, malè dilabuntur.]
+[ГРАВЮРА: без подписи]
+Miluus edax, nimiæ quem nausea torserat escæ,
+Hei mihi mater ait viscera ab ore fluunt.
+Illa autem: quid fles? cur hæc tua viscera credas,
+Qui rapto viuens sola aliena vomis?
+
+Колонтитул: 140 FORTVNA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0147 · с. 141
+
+[ЗАГОЛОВОК: Semper presto esse infortunia.]
+[ГРАВЮРА: без подписи]
+Ludebant parili tres olim ætate puellæ
+Sortibus: ad Stygias quæ prior iret aquas.
+Ast cui iactato malè cesserat alea talo,
+Ridebat sortis cæca puella suæ.
+Cùm subitò icta caput labente est mortua tecto,
+Soluit & audacis debita fata ioci.
+Rebus in aduersis mala sors non fallitur: ast in
+Faustis, nec precibus, nec locus est manui.
+
+Колонтитул: FORTVNA. 141
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0148 · с. 142
+
+[ЗАГОЛОВОК: Remedia in arduo, mala in prono esse.]
+[ГРАВЮРА: без подписи]
+Aetherijs postquàm deiecit sedibus Aten
+Iuppiter: heu vexat quàm mala noxa viros?
+Euolat hæc pedibus celer, & pernicibus alis,
+Intactumq; nihil casibus esse sinit.
+Ergo Litæ, proles Iouis, hanc comitantur euntem,
+Sarturæ quicquid fecerit illa mali.
+Sed quia segnipedes, luscæ, lassæq; senecta,
+Nil nisi pòst, longo tempore restituunt.
+
+Колонтитул: 142 FORTVNA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0149 · с. 143
+
+[ЗАГОЛОВОК: HONOR.]
+[ЗАГОЛОВОК: Ex arduis perpetuum nomen.]
+[ГРАВЮРА: без подписи]
+Crediderat platani ramis sua pignora passer,
+Et bene: ni sæuo visa dracone forent.
+Glutijt hic pullos omnes, miseramq; parentem
+Saxeus, & tali dignus obire nece.
+Hæc, nisi mentitur Calchas, monumenta laboris
+Sunt longi, cuius fama perennis e[?]t.
+
+Колонтитул: HONOR. 143
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0150 · с. 144
+
+[ЗАГОЛОВОК: Ex literarum studijs immortalitatem acquiri.]
+[ГРАВЮРА: без подписи]
+Neptuni tubicen, cuius pars vltima cetum,
+Aequoreum facies indicat esse Deum:
+Serpentis medio Triton comprenditur orbe,
+Qui caudam inserto mordicus ore tenet.
+Fama viros animo insignes, præclaraq; gesta
+Prosequitur: toto mandat & orbe legi.
+
+Колонтитул: 144 HONOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0151 · с. 145
+
+[ЗАГОЛОВОК: Tumulus Ioannis Galeacij Vicecomitis, primi Ducis Mediol.]
+[ГРАВЮРА: надпись: CESENADEGO · RIMANO · ANCONA · PORTODERAVENA · RAVENA · BIBIENA · MOTESCIO · FIRENSA · PERVRA · TVRNI · PISA · SIENA · CIRLI · EIGENE · BOLSENA · MOTEARGETATO · CITAVECHIA · ROMA · MARTAFIVME · GIGLIO · CAPOLINARE; на ленте: TON [?] TIΣME]
+Pro tumulo pone Italiam, pone arma, Ducesq;,
+Et mare, quod geminos mugit adusq; sinus.
+Adde his barbariem conantem irrūpere frustra,
+Et mercede emptas in fera bella manus.
+Anguiger est summò sistens in culmine, dicat:
+Quis paruis magnam me superimposuit?
+
+Колонтитул: HONOR. 145
+Кустод: 
+Сигнатура: K
+Маргиналии:
+
+## Кадр 0152 · с. 146
+
+[ЗАГОЛОВОК: Optimus ciuis.]
+[ГРАВЮРА: без подписи]
+Dum iustis patriã Thrasybulus vindicat armis,
+Dumq; simultates ponere quemque iubet,
+Concors ordo omnis magni instar muneris, illi
+Palladiæ sertum frondis habere dedit.
+Cinge comã Thrasybule, geras hũc solus honorem,
+In magna nemo est æmulus vrbe tibi.
+
+Колонтитул: 146 HONOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0153 · с. 147
+
+[ЗАГОЛОВОК: Strenuorum immortale nomen.]
+[ГРАВЮРА: надпись: ACHILLIS · M]
+Aeacidæ tumulum Rhœtæo in littore cernis,
+Quem plerunque pedes visitat alba Thetis.
+Obtegitur semper viridi lapis hic amarantho,
+Quòd nunquàm herois sit moriturus honos.
+Hic Graiũ murus. magni nex Hectoris. Haud plus
+Debet Mæonidæ, quàm sibi Mæonides.
+
+Колонтитул: HONOR. 147
+Кустод: 
+Сигнатура: K 2
+Маргиналии:
+
+## Кадр 0154 · с. 148
+
+[ЗАГОЛОВОК: Nobiles & generosi.]
+[ГРАВЮРА: без подписи]
+Aurea Cæcropias nectebat fibula vestes:
+Cui coniuncta tenax dente cicada fuit.
+Calceus Arcadico suberat cui lunula ritu,
+Gestatur patribus mullea Romulidis:
+Indigenas quòd se adsererent: hæc signa tulerunt
+Antiqua illustres nobilitate viri.
+
+Колонтитул: 148 HONOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0155 · с. 149
+
+[ЗАГОЛОВОК: Duodecim certamina Herculis.]
+[ЗАГОЛОВОК: Α᾿λληγορικῶς.]
+[ГРАВЮРА: без подписи]
+Roboris inuicti superat facundia laudes:
+Dicta Sophistarum laqueosq; resoluit inanes.
+Non furor, aut rabies virtute potentior vlla est.
+Continuum ob cursum sapienti opulentia cedit.
+
+Колонтитул: HONOR. 149
+Кустод: Spernit
+Сигнатура: K 3
+Маргиналии:
+
+## Кадр 0156 · с. 150
+
+Spernit auaritiam, nec rapto aut fœnore gaudet.
+Vincit, fœmineos spoliatq; insignibus actus.
+Expurgat sordes, & cultum mentibus addit.
+Illicitos odit coitus, abigitq; nocentes.
+Barbaries, feritasq; dat impia denique pœnam.
+Vnius virtus collectos dissipat hostes.
+Inuehit in patriam externis bona plurima ab oris.
+Docta per ora virũ volat, & non interit vnquam.
+[ВИНЬЕТКА: концовка]
+
+Колонтитул: 150 HONOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0157 · с. 151
+
+[ЗАГОЛОВОК: In nothos.]
+[ГРАВЮРА: без подписи]
+Herculeos spurij semper celebretis honores:
+Nam vestri princeps ordinis ille fuit.
+Nec prius esse deus potuit, quàm sugeret infans
+Lac, sibi quod fraudis nescia Iuno dabat.
+
+Колонтитул: HONOR. 151
+Кустод: 
+Сигнатура: K 4
+Маргиналии:
+
+## Кадр 0158 · с. 152
+
+[ЗАГОЛОВОК: Imparilitas.]
+[ГРАВЮРА: без подписи]
+Vt sublime volans tenuem secat aëra falco,
+Vt pascuntur humi graculus, anser, anas:
+Sic summū scandit super æthera Pindarus ingēs,
+Sic scit humi tantùm serpere Bacchilydes.
+
+Колонтитул: 152 HONOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0159 · с. 153
+
+[ЗАГОЛОВОК: In desciscentes.]
+[ГРАВЮРА: без подписи]
+Quòd fine egregios turpi maculaueris orsus,
+In noxamq; tuum verteris officium,
+Fecisti, quod capra, sui mulctraria lactis
+Cùm ferit, & proprias calce profundit opes.
+
+Колонтитул: HONOR. 153
+Кустод: 
+Сигнатура: K 5
+Маргиналии:
+
+## Кадр 0160 · с. 154
+
+[ЗАГОЛОВОК: Aemulatio impar.]
+[ГРАВЮРА: без подписи]
+Altiuolam miluus comitatur degener harpam,
+Et prædæ partem sæpe cadentis habet.
+Mullum prosequitur qui spretas sargus ab illo,
+Præteritasq; auidus deuorat ore dapes.
+Sic mecum Oenocrates agit: at deserta studentum
+Vtitur hoc lippo curia tanquam oculo.
+
+Колонтитул: 154 HONOR.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0161 · с. 155
+
+[ЗАГОЛОВОК: Albutij ad Alciatū, suadentis vt de tumultibus Italicis se subducat: & in Gallia profiteatur.]
+[ГРАВЮРА: без подписи]
+Quæ dedit hos fructus arbor, cœlo aduena nostro,
+Venit ab Eoo Persidis axe prius:
+Translatu facta est melior: quæ noxia quondam
+In patria: hîc nobis dulcia poma gerit.
+Fert folium linguæ, fert poma simillima cordi,
+Alciate hinc vitam degere disce tuam.
+Tu procul à patria in pretio es maiore futurus:
+Multùm corde sapis, nec minus ore vales.
+
+Колонтитул: HONOR. 155
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0162 · с. 156
+
+[ЗАГОЛОВОК: PRINCEPS.]
+[ЗАГОЛОВОК: Princeps subditorum incolumitatem procurans.]
+[ГРАВЮРА: без подписи]
+Titanij quoties conturbant æquora fratres,
+Tum miseros nautas anchora iacta iuuat.
+Hanc pius erga homines Delphin cōplectitur: imis
+Tutius vt possit figier illa vadis.
+Quàm decet hæc memores gestare insignia Reges?
+Anchora quod nautis, se populo esse suo?
+
+Колонтитул: 156 PRINCEPS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0163 · с. 157
+
+[ЗАГОЛОВОК: In Senatum boni principis.]
+[ЗАГОЛОВОК: DIALOGISMVS.]
+[ГРАВЮРА: без подписи]
+Effigies manibus truncæ ante altaria diuûm
+Hic resident: quarum lumine capta prior.
+Signa Potestatis summæ, Sanctiq; Senatus
+Thebanis fuerant ista reperta viris.
+Cur resident? Quia mēte graues decet esse quieta
+Iuridicos: animo nec variare leui.
+Cur sine sunt manibus? Capiant ne xenia: nec se
+Pollicitis flecti muneribúsue sinant.
+Cæcus at est princeps. quòd solis auribus, absq;
+Affectu, constans iussa Senatus agit.
+
+Колонтитул: PRINCEPS. 157
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0164 · с. 158
+
+[ЗАГОЛОВОК: Quod non capit Christus, rapit fiscus.]
+[ГРАВЮРА: без подписи]
+Exprimit humentes, quas iam madefecerat antè
+Spongiolas, cupidi Principis arcta manus.
+Prouehit ad summum fures: quos déinde coërcet,
+Vertat vt in fiscum quæ malè parta suum.
+
+Колонтитул: 158 PRINCEPS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0165 · с. 159
+
+[ЗАГОЛОВОК: Opulentia tyranni paupertas subiectorum.]
+[ГРАВЮРА: без подписи]
+Humani quod splen est corporis, in populi re
+Hoc Cæsar fiscum dixerat esse suum.
+Splene aucto, reliqui tabescunt corporis artus.
+Fisco aucto, arguitur ciuica pauperies.
+
+Колонтитул: PRINCEPS. 159
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0166 · с. 160
+
+[ЗАГОЛОВОК: Consiliarij Principum.]
+[ГРАВЮРА: без подписи]
+Heroum genitos, & magnum fertur Achillem
+In stabulis Chiron erudijsse suis.
+Semiferum doctorem, & semiuirum centaurum,
+Assideat quisquis regibus, esse decet.
+Est fera, dum violat socios, dum proterit hostes:
+Estq; homo, dum simulat se populo esse pium.
+
+Колонтитул: 160 RESPVBLICA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0167 · с. 161
+
+[ЗАГОЛОВОК: Principis clementia.]
+[ГРАВЮРА: без подписи]
+Vesparũ quòd nulla vnquam Rex spicula figet:
+Quodq; alijs duplo corpore maior erit.
+Arguet imperium clemens, moderataq; regna,
+Sanctaq; iudicibus credita iura bonis.
+
+Колонтитул: PRINCEPS. 161
+Кустод: 
+Сигнатура: L
+Маргиналии:
+
+## Кадр 0168 · с. 162
+
+[ЗАГОЛОВОК: RESPVBLICA.]
+[ЗАГОЛОВОК: Salus publica.]
+[ГРАВЮРА: без подписи]
+Phœbigena erectis Epidaurius insidet aris,
+Mitis, & immani conditur angue Deus.
+Accurrunt ægri, veniatq; salutifer orant:
+Annuit, atque ratas efficit ille preces.
+
+Колонтитул: 162 RESPVBLICA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0169 · с. 163
+
+[ЗАГОЛОВОК: Respublica liberata.]
+[ГРАВЮРА: надпись: BRVTI · NOMISMA]
+Cæsaris exitio, ceu libertate recepta,
+Hæc ducibus Brutis cusa moneta fuit.
+Ensiculi in primis, quẽis pileus insuper adstat,
+Qualem missa manu seruitia accipiunt.
+
+Колонтитул: RESPVBLICA. 163
+Кустод: 
+Сигнатура: L 2
+Маргиналии:
+
+## Кадр 0170 · с. 164
+
+[ЗАГОЛОВОК: VITA.]
+[ЗАГОЛОВОК: In vitam humanam.]
+[ГРАВЮРА: без подписи]
+Plus solito humanæ nunc defle incommoda vitæ,
+Heraclite: scatet pluribus illa malis.
+Tu rursus (si quando aliâs) extolle cachinnum
+Democrite: illa magis ludicra facta fuit.
+Intereà hæc cernens meditor, qua denique tecum
+Fine fleam, aut tecum quomodo splene iocer.
+
+Колонтитул: 164 VITA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0171 · с. 165
+
+[ЗАГОЛОВОК: Aere quandoque salutem redimendam.]
+[ГРАВЮРА: без подписи]
+Et pedibus segnis, tumida & propendulus aluo,
+Hac tamen insidias effugit arte fiber.
+Mordicus ipse sibi medicata virilia vellit,
+Atque abicit, sese gnarus ob illa peti.
+Huius ab exemplo disces non parcere rebus,
+Et vitam vt redimas, hostibus æra dare.
+
+Колонтитул: VITA. 165
+Кустод: 
+Сигнатура: L 3
+Маргиналии:
+
+## Кадр 0172 · с. 166
+
+[ЗАГОЛОВОК: MORS.]
+[ЗАГОЛОВОК: Cum laruis non luctandum.]
+[ГРАВЮРА: без подписи]
+Aeacidæ moriens percussu cuspidis Hector:,
+Qui toties hostẽis vicerat antè suos:
+Comprimere haud potuit vocẽ, insultantibus illis,
+Dum curru, & pedibus nectere vincla parãt.
+Distrahite vt libitum est: sic cassi luce leonis
+Conuellunt barbam vel timidi lepôres.
+
+Колонтитул: 166 MORS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0173 · с. 167
+
+[ЗАГОЛОВОК: De Morte, & Amore.]
+[ГРАВЮРА: без подписи]
+Errabat socio Mors iuncta Cupidine. secum
+Mors pharêtras, paruus tela gerebat Amor.
+Diuertêre simul, simul vna & nocte cubârunt,
+Cæcus Amor, Mors hoc tempore cæca fuit.
+Alter enim alterius malè ꝓuida spicula sumpsit:
+Mors aurata, tenet ossea tela puer.
+Debuit inde senex qui nunc Acheronticus esse:
+Ecce amat, & capiti florea serta parat.
+Ast ego mutato quia Amor me perculit arcu,
+Deficio: inijciunt & mihi fata manum.
+Parce puer, Mors signa tenens victricia parce.
+Fac ego amem: subeat fac Acheronta senex.
+
+Колонтитул: MORS. 167
+Кустод: 
+Сигнатура: L 4
+Маргиналии:
+
+## Кадр 0174 · с. 168
+
+[ЗАГОЛОВОК: In formosam fato præreptam.]
+[ГРАВЮРА: без подписи]
+Cur puerū Mors ausa dolis es carpere Amorem?
+Tela tua vt iaceret: dum propria esse putat.
+[ВИНЬЕТКА: концовка]
+
+Колонтитул: 168 MORS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0175 · с. 169
+
+[ЗАГОЛОВОК: In mortem præproperam.]
+[ГРАВЮРА: надпись: D · SEPVLCRVM · M]
+Qui teneras forma allexit, torsitq; puellas,
+Pulchrior, & tota nobilis vrbe puer,
+Occîdit ante diem, nulli mage flendus (Aresti)
+Quàm tibi, cui casto iunctus amore fuit.
+Ergo illi tumulum tanti monumenta doloris
+Astruis: & querulis vocibus astra feris.
+Me sine abis dilecte? neque amplius ibimus vnà?
+Nec mecum in studijs ocia grata teres?
+Sed te terra teget, sed fati, Gorgonis ora,
+Delphinesq;, tui signa dolenda dabunt.
+
+Колонтитул: MORS. 169
+Кустод: 
+Сигнатура: L 5
+Маргиналии:
+
+## Кадр 0176 · с. 170
+
+[ЗАГОЛОВОК: Terminus.]
+[ГРАВЮРА: надпись: NVLLI CEDO]
+Quadratum infoditur firmissima tessera saxum,
+Stat cirrata super pectore imago tenus,
+Et sese nulli profitetur cedere, talis
+Terminus est, homines qui scopus vnus agit.
+Est immota dies, præfixaq; tempora fatis,
+Deq; ferunt primis vltima iudicium.
+
+Колонтитул: 170 MORS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0177 · с. 171
+
+[ЗАГОЛОВОК: Opulenti hæreditas.]
+[ГРАВЮРА: без подписи]
+Patroclum falsis rapiunt hinc Troës in armis,
+Hinc socij, atque omnis turba Pelasga vetat.
+Obtinet exuuias Hector, Græciq; cadauer.
+Hæc fabella agitur, cùm vir opimus obit.
+Maxima rixa oritur, tandem sed transigit hæres,
+Et coruis aliquid, vulturijsq; sinit.
+
+Колонтитул: MORS. 171
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0178 · с. 172
+
+[ЗАГОЛОВОК: AMICITIA.]
+[ЗАГОЛОВОК: Amicitia etiam post mortem durans.]
+[ГРАВЮРА: без подписи]
+Arentem senio, nudam quoque frondibus vlmum,
+Complexa est viridi vitis opaca coma.
+Agnoscitq; vices naturæ: & grata parenti
+Officij reddit mutua iura suo.
+Exemploq; monet, tales nos quærere amicos,
+Quos neque disiungat fœdere summa dies.
+
+Колонтитул: 172 AMICITIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0179 · с. 173
+
+[ЗАГОЛОВОК: Mutuum auxilium.]
+[ГРАВЮРА: без подписи]
+Loripedem sublatum humeris fert lumine captus:
+Et socij hæc oculis munera retribuit.
+Quo caret alteruter, concors sic præstat vterq;,
+Mutuat hic oculos, mutuat ille pedes.
+
+Колонтитул: AMICITIA. 173
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0180 · с. 174
+
+[ЗАГОЛОВОК: Auxilium nunquàm deficiens.]
+[ГРАВЮРА: без подписи]
+Bina pericla vnis effugi sedulus armis,
+Cùm premererq; sôlo, cùm premererq; salo.
+Incolumem ex acie clypeus me præstitit. idem
+Nauifragum apprensus littora adusque tulit.
+
+Колонтитул: 174 AMICITIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0181 · с. 175
+
+[ЗАГОЛОВОК: Gratiæ.]
+[ГРАВЮРА: без подписи]
+Tres Charites Veneri assistunt, dominamq; sequuntur,
+Hincq; voluptates, atque alimenta parant.
+Lætitiam Euphrosyne, speciosum Aglaia nitorem,
+Suadela est Pithus, blandus & ore lepos.
+Cur nudæ? mentis quoniam candore venustas
+Constat, & eximia simplicitate placet.
+
+Колонтитул: AMICITIA. 175
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0182 · с. 176
+
+An quia nil referunt ingrati: atq; arcula inanis,
+Est charitum? qui dat munera, nudus eget.
+Addita cur nuper pedibus talaria? bis dat
+Qui citò dat. minimi gratia tarda pretij est.
+Implicitis vlnis cur vertitur altera? gratus
+Fœnerat. huic remanent vna abeunte duæ.
+Iuppiter ijs genitor, cœli de semine diuas
+Omnibus acceptas edidit Eurynome.
+[ВИНЬЕТКА: концовка]
+
+Колонтитул: 176 AMICITIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0183 · с. 177
+
+[ЗАГОЛОВОК: HOSTILITAS.]
+[ЗАГОЛОВОК: In detractores.]
+[ГРАВЮРА: без подписи]
+Audent flagriferi matulæ, stupidiq; magistri
+Bilem in me impuri pectoris euomere:
+Quid faciam? reddámne vices? sed nónne cicadam
+Ala vna obstreperam corripuisse ferar?
+Quid prodest muscas operosis pellere flabris?
+Negligere est satius, perdere quod nequeas.
+
+Колонтитул: HOSTILITAS. 177
+Кустод: 
+Сигнатура: M
+Маргиналии:
+
+## Кадр 0184 · с. 178
+
+[ЗАГОЛОВОК: Inanis impetus.]
+[ГРАВЮРА: без подписи]
+Lunarem noctu (vt speculum) canis inspicit orbem:
+Seq; videns, altum credit inesse canem,
+Et latrat: sed frustra agitur vox irrita ventis,
+Et peragit cursus surda Diana suos.
+
+Колонтитул: 178 HOSTILITAS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0185 · с. 179
+
+[ЗАГОЛОВОК: Aliquid mali, propter vicinum malum.]
+[ЗАГОЛОВОК: Προσωποπεῖα.]
+[ГРАВЮРА: без подписи]
+Raptabat torrens ollas, quarum vna metallo,
+Altera erat figuli terrea facta manu.
+Hànc igitur rogat illa: velit sibi proxima ferri:
+Iuncta vt præcipites vtraque sistat aquas.
+Cui lutea, Haud nobis tua sunt commercia curæ,
+Ne mihi proximitas hæc mala multa ferat.
+Nam seu te nobis, seu nos tibi conferat vnda:
+Ipsa ego te fragilis sospite sola terar.
+
+Колонтитул: HOSTILLITAS. 179
+Кустод: 
+Сигнатура: M 2
+Маргиналии:
+
+## Кадр 0186 · с. 180
+
+[ЗАГОЛОВОК: In eum qui truculentia suorum perierit.]
+[ЗАГОЛОВОК: PROSOPOPEIA.]
+[ГРАВЮРА: без подписи]
+Delphinem inuitum me in littora compulit æstus,
+Exemplum infido quanta pericla mari.
+Nam si nec proprijs Neptunus parcit alumnis,
+Quis tutos homines nauibus esse putet?
+
+Колонтитул: 180 HOSTILLITAS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0187 · с. 181
+
+[ЗАГОЛОВОК: Εχθρῶν ἄδωρα δῶρα, In dona hostium.]
+[ГРАВЮРА: без подписи]
+Bellorum cœpisse ferunt monumenta vicissim
+Scutiferum Aiacem, Hectoraq; Iliacum.
+Balthea Priamides, rigidũ Thelamonius ensem,
+Instrumenta suæ cœpit vterque necis.
+Ensis enim Aiacem cõfecit, at Hectora functum
+Traxêre Aemonijs cingula nexa rotis.
+Sic titulo obsequij, quæ mittunt hostibus hostes
+Munera, venturi præscia fata ferunt.
+
+Колонтитул: HOSTILITAS. 181
+Кустод: 
+Сигнатура: M 3
+Маргиналии:
+
+## Кадр 0188 · с. 182
+
+[ЗАГОЛОВОК: A minimis quoque timendum.]
+[ГРАВЮРА: без подписи]
+Bella gerit Scarabæus, & hostem prouocat vltrò,
+Robore & inferior, consilio superat.
+Nam plumis aquilæ clàm se neq; cognitus abdit,
+Hostilem vt nidum summa per astra petat.
+Ouaq; confodiens, prohibet spem crescere prolis.
+Hocq; modo illatum dedecus vltus abit.
+
+Колонтитул: 182 HOSTILITAS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0189 · с. 183
+
+[ЗАГОЛОВОК: Obnoxia infirmitas.]
+[ГРАВЮРА: без подписи]
+Pisciculos orata rapit medio æquore sardas,
+Ni fugiant pauidæ, summa marisq; petant.
+Ast ibi sunt mergis fulicisq; voracibus esca.
+Eheu intuta manens vndique debilitas.
+
+Колонтитул: HOSTILITAS. 183
+Кустод: 
+Сигнатура: M 4
+Маргиналии:
+
+## Кадр 0190 · с. 184
+
+[ЗАГОЛОВОК: Vel post mortem formidolosi.]
+[ГРАВЮРА: без подписи]
+Cætera mutescent, coriumq; silebit ouillum,
+Si confecta lupi tympana pelle sonent.
+Hanc mēbrana ouium sic exhorrescit, vt hostem,
+Exanimis quanuis non ferat exanimem.
+Sic cute detracta Cischas, in tympana versus,
+Bœhemos potuit vincere pontifices.
+
+Колонтитул: 184 HOSTILITAS.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0191 · с. 185
+
+[ЗАГОЛОВОК: VINDICTA.]
+[ЗАГОЛОВОК: Iusta vindicta.]
+[ГРАВЮРА: без подписи]
+Dum residet Cyclops sinuosi in faucibus antri,
+Hæc secum teneras concinit inter oues.
+Pascite vos herbas: socijs ego pascar Achiuis,
+Postremumq; Vtin viscera nostra ferent.
+Audijt hæc Itachus, Cyclopaq; lumine cassum
+Reddidit. En pœnas vt suus author habet?
+
+Колонтитул: VINDICTA. 185
+Кустод: 
+Сигнатура: M 5
+Маргиналии:
+
+## Кадр 0192 · с. 186
+
+[ЗАГОЛОВОК: Iusta vltio.]
+[ГРАВЮРА: без подписи]
+Raptabat volucres captum pede coruus in auras
+Scorpion, audaci præmia parta gulæ.
+Ast ille infuso sensim per membra veneno,
+Raptorem in stygias compulit vltor aquas.
+O risu res digna. alijs qui fata parabat,
+Ipse perit: proprijs succubuitq; dolis.
+
+Колонтитул: 186 VINDICTA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0193 · с. 187
+
+[ЗАГОЛОВОК: Parem delinquentis, & suasoris culpam esse.]
+[ГРАВЮРА: без подписи]
+Præconem lituo perflantem classica, victrix
+Captiuum in tetro carcere turba tenet.
+Quẽis ille excusat: quòd nec sit strenuus armis,
+Vllius aut sæuo læserit ense latus.
+Huic illi: Quin ipse magis timidissime peccas,
+Qui clangore alios æris in arma cies.
+
+Колонтитул: VINDICTA. 187
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0194 · с. 188
+
+[ЗАГОЛОВОК: Alius peccat, alius plectitur.]
+[ГРАВЮРА: без подписи]
+Arripit vt lapidem catulus, morsuq; fatigat,
+Nec percussori mutua damna facit.
+Sic plerique sinunt veros elabier hosteis.
+Et quos nulla grauat noxia, dente petunt.
+
+Колонтитул: 188 VINDICTA:
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0195 · с. 189
+
+[ЗАГОЛОВОК: Insani gladius.]
+[ГРАВЮРА: без подписи]
+Setigeri medius stabat gregis ensifer Aiax,
+Cæde suum, credens cædere Tantalidas.
+Hostia sic tanquam sus succedanea pœnas
+Pro Laërtiade, pro caueaq; dabat.
+Nescit obesse suis furor hostibus, errat ab ictu,
+Consilijq; impos in sua damna ruit.
+
+Колонтитул: VINDICTA. 189
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0196 · с. 190
+
+[ЗАГОЛОВОК: PAX.]
+[ГРАВЮРА: без подписи]
+Turrigeris humeris, dentis quoq; barrus eburni,
+Quì superare ferox Martia bella solet,
+Supposuit nunc colla iugo: stimulisq; subactus,
+Cæsareos currus ad pia templa vehit.
+Vel fera cognoscit concordes vndique gentes.
+Proiectisq; armis munia pacis obit.
+
+Колонтитул: 190 PAX.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0197 · с. 191
+
+[ЗАГОЛОВОК: Ex bello pax.]
+[ГРАВЮРА: без подписи]
+En galea, intrepidus quam miles gesserat: & quæ
+Sæpius hostili sparsa cruore fuit.
+Parta pace apibus tenuis concessit in vsum
+Alueoli: atque fauos grataq; mella gerit.
+Arma procul iaceant: fas sit tunc sumere bellum:
+Quando aliter pacis non potes arte frui.
+
+Колонтитул: PAX. 191
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0198 · с. 192
+
+[ЗАГОЛОВОК: Ex pace vbertas.]
+[ГРАВЮРА: без подписи]
+Grandibus ex spicis tenues contexe corollas,
+Quas circum alterno palmite vitis eat.
+His comptę Halcionet trãquilli in marmoris vnda
+Nidificant, pullos inuolucresq; fouent.
+Lætus erit Cereri, Baccho quoque fertilis annus,
+Aequorei si rex alitis instar erit.
+
+Колонтитул: 192 PAX.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0199 · с. 193
+
+[ЗАГОЛОВОК: Doctos doctis obloqui nefas esse.]
+[ГРАВЮРА: без подписи]
+Quid rapis heu Progne vocalem sæua Cicadam,
+Pignoribusq; tuis fercula dira paras?
+Stridula stridentem, vernam verna, hospita lædis
+Hospitam, & aligeram penniger ales auem?
+Ergo abice hanc prædam. nã musica pectora summum est
+Alterum ab alterius dente perire nefas.
+
+Колонтитул: SCIENTIA. 193
+Кустод: 
+Сигнатура: N
+Маргиналии:
+
+## Кадр 0200 · с. 194
+
+[ЗАГОЛОВОК: Eloquentia Fortitudine præstantior.]
+[ГРАВЮРА: без подписи]
+Arcum læua tenet: rigidam fert dextera clauam,
+Contegit & Nemees corpora nuda leo.
+Herculis hæc igitur facies. non conuenit illud
+Quòd vetus & senio tempora cana gerit.
+Quid quod lingua illi leuibus traiecta cathenis,
+Quẽis fissa facileis allicit aure viros?
+Anné quòd Alciden lingua non robore Galli
+Præstantem, populis iura dedisse ferunt?
+Cedunt arma togæ, & quamuis durissima corda
+Eloquio pollens ad sua vota trahit.
+
+Колонтитул: 194 SCIENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0201 · с. 195
+
+[ЗАГОЛОВОК: Facundia difficilis.]
+[ГРАВЮРА: без подписи]
+Antidotum Aeææ medicata in pocula Circes
+Mercurium hoc Ithaco fama dedisse fuit.
+Moly vocant, id vix radice euellitur atra,
+Purpureus: sed flos, lactis & instar habet.
+Eloquij candor facundiaq; allicit omnes:
+Sed multi res est tanta laboris opus.
+
+Колонтитул: SCIENTIA. 195
+Кустод: 
+Сигнатура: N 2
+Маргиналии:
+
+## Кадр 0202 · с. 196
+
+[ЗАГОЛОВОК: Antiquissima quæque commentitia.]
+[ЗАГОЛОВОК: APOLOGESIS.]
+[ГРАВЮРА: без подписи]
+Pellenæe senex, cui forma est histrica, Proteu,
+Qui modò membra viri fers, modò mẽbra feri.
+Dic age, quæ species ratio te vertit in omnes,
+Nulla sit vt vario certa figura tibi?
+Signa vetustatis, primæui & præfero secli:
+De quo quisque suo somniat arbitrio.
+
+Колонтитул: 196 SCIENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0203 · с. 197
+
+[ЗАГОЛОВОК: Insignia Poëtarum.]
+[ГРАВЮРА: без подписи]
+Gentiles clypeos sunt qui in Iouis alite gestant,
+Sunt quibus aut Serpens, aut Leo signa ferunt.
+Dira sed hæc Vatum fugiant animalia ceras,
+Doctaq; sustineat stemmata pulcher Olor.
+Hic Phœbo sacer, & nostræ regionis alumnus:
+Rex, olim veteres seruat adhuc titulos.
+
+Колонтитул: SCIENTIA. 197
+Кустод: 
+Сигнатура: N 3
+Маргиналии:
+
+## Кадр 0204 · с. 198
+
+[ЗАГОЛОВОК: Musicam Dijs curæ esse.]
+[ГРАВЮРА: без подписи]
+Locrensis posuit tibi Delphice Phœbe cicadam
+Eunomus hanc, palmæ signa decora suæ.
+Certabat plectro Sparthyn commissus in hostem,
+Et percussa sonum pollice fila dabant.
+Trita fides rauco cœpit cùm stridere bombo,
+Legitimum harmonies & vitiare melos,
+Tum Citharæ argutans suauis sese intulit ales,
+Quæ fractam impleret voce cicada fidem.
+Quæq; allecta, soni ad legem descendit ab altis
+Saltibus, vt nobis garrula ferret opem.
+Ergo tuæ vt firmus stet honos ( ò sancte ) cicadæ,
+Pro cithara hic fidicen æneus ipsa sedet.
+
+Колонтитул: 198 SCIENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0205 · с. 199
+
+[ЗАГОЛОВОК: Litera occidit, spiritus viuificat.]
+[ГРАВЮРА: без подписи]
+Vipereos Cadmus dentes vt credidit aruis,
+Seuit & Aonio semina dira sôlo:
+Terrigenûm clypeata cohors exorta virorum est,
+Hostili inter se qui cecidêre manu.
+Euasêre quibus monitu Tritonidos armis
+Abiectis data pax, dextraq; iuncta fuit.
+Primus Agenorides elemẽta, notasq; magistris
+Tradidit, ijs suauem iunxit & harmoniam.
+Quorum discipulos contraria plurima vexant,
+Non nisi Palladia quæ dirimuntur ope.
+
+Колонтитул: SCIENTIA. 199
+Кустод: 
+Сигнатура: N 4
+Маргиналии:
+
+## Кадр 0206 · с. 200
+
+[ЗАГОЛОВОК: Dicta septem sapientum.]
+[ГРАВЮРА: надпись: NVLLICEDO]
+Hæc habeas: septem Sapientum effingere dicta,
+Atque ea picturis qui celebrare velis.
+Optimus in rebus modus est (Cleobulus vt inquit,)
+Hoc trutinæ examen, siue libella docet.
+Noscere se Chilon Spartanus quenque iubebat.
+Hoc specula in manibus, vitraq; sumpta dabũt.
+
+Колонтитул: 100 SCIENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+Нумерация: на странице напечатано 100, ожидалось 200 (опечатка печати)
+
+## Кадр 0207 · с. 201
+
+Quod Periander ait, fræna adde Corinthius iræ:
+Pulegium admotum naribus efficiet.
+Pittacus at ne quid (dixit) nimis. hæc eadem aiunt,
+Contracto qui gith ore liquefaciunt.
+Respexisse Solon finem iubet. vltimus agris,
+Terminus, haud magno cesserit ipse Ioui.
+Heu quàm vera Bias, Est copia magna malorum:
+Musmoni insideat effice Sardus eques.
+Ne præs esto (Thales dixit) sic illita visco
+In laqueos sociam parra, meropsq; trahit.
+[ВИНЬЕТКА: концовка]
+
+Колонтитул: SCIENTIA. 201
+Кустод: 
+Сигнатура: N 5
+Маргиналии:
+
+## Кадр 0208 · с. 202
+
+[ЗАГОЛОВОК: IGNORANTIA.]
+[ЗАГОЛОВОК: Submouendam ignorantiam.]
+[ЗАГОЛОВОК: Διαλογισμός.]
+[ГРАВЮРА: без подписи]
+Quod mōstrū id? Sphinx est. Cur cādida virginisor[?],
+Et volucrum pennas, crura leonis habet?
+Hanc faciem assumpsit rerum ignorantia: tanti
+Scilicet est triplex causa & origo mali.
+Sunt quos ingeniū leue, sunt quos blanda voluptas,
+Sunt & quos faciunt corda superba rudes.
+At quibus est notum, quid Delphica littera possit:
+Præcipitis monstri guttura dira secant.
+Nāq; vir ipe, bipesq; tripesq; & quadrupes idē est,
+Primaq; prudentis laurea, nosse virum.
+
+Колонтитул: 202 IGNORANTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0209 · с. 203
+
+[ЗАГОЛОВОК: Mentem, non formam plus pollere.]
+[ГРАВЮРА: без подписи]
+Ingressa vulpes in Choragi pergulam,
+Fabrè expolitū inuenit humanum caput,
+Sic eleganter fabricatum, vt spiritus
+Solùm deesset, cæteris viuisceret.
+Id illa cùm sumpsisset in manus, ait:
+Hoc quale caput est, sed cerebrum non habet.
+
+Колонтитул: IGNORANTIA. 203
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0210 · с. 204
+
+[ЗАГОЛОВОК: Diues indoctus.]
+[ГРАВЮРА: без подписи]
+Tranat aquas residēs precioso in vellere Phrixus,
+Et flauam impauidus per mare scandit ouem.
+Ecquid id est? vir sensu hebeti, sed diuite gaza,
+Coniugis aut serui quem regit arbitrium.
+
+Колонтитул: 204 IGNORANTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0211 · с. 205
+
+[ЗАГОЛОВОК: MATRIMONIVM.]
+[ЗАГОЛОВОК: In fidem vxoriam.]
+[ГРАВЮРА: без подписи]
+Ecce puella, viro quæ dextra iungitur. Ecce
+Vt sedet: vt catulus lusitat ante pedes?
+Hæc fidei est species: Veneris quā si educat ardor,
+Malorum in læua non malè ramus erit.
+Poma etenim Veneris sunt, sic Schenēida vicit
+Hippomenes. petijt sic Galathea virum.
+
+Колонтитул: MATRIMONIVM. 205
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0212 · с. 206
+
+[ЗАГОЛОВОК: Reuerentiam in matrimonio requiri.]
+[ГРАВЮРА: без подписи]
+Cùm furit in Venerem: pelagi se in littore sistit
+Vipera: & ab stomacho dira venena vomit.
+Murænamq; ciens, ingentia sibila tollit,
+At subitò amplexus appetit illa viri.
+Maxima debetur thalamo reuerentia, coniunx
+Alternum debet coniugi & obsequium.
+
+Колонтитул: 206 MATRIMONIVM.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0213 · с. 207
+
+[ЗАГОЛОВОК: In fœcunditatem sibi ipsi damnosam.]
+[ГРАВЮРА: без подписи]
+Ludibrium pueris lapides iacientibus, hoc me
+In triuio posuit rusticà cura nucem.
+Quæ laceris ramis perstrictoq; ardua libro,
+Certatim fundis per latus omne petor.
+Quid sterili posset contingere turpius? eheu,
+Infelix: fructus in mea damna fero.
+
+Колонтитул: MATRIMONIVM. 207
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0214 · с. 208
+
+[ЗАГОЛОВОК: Amor filiorum.]
+[ГРАВЮРА: без подписи]
+Ante diem vernam boreali cana palumbes
+Frigore nidificat, præcoqua & oua fouet:
+Mollius & pulli vt iaceant, sibi vellicat alas,
+Quēis nuda hyberno deficit ipsa gelu.
+Fcq;d Colchi pudet, vel te Procne improba? mortē
+Cùm volucris propriæ prolis amore subit?
+
+Колонтитул: 208 MATRIMONIVM.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0215 · с. 209
+
+[ЗАГОЛОВОК: Pietas filiorum in parentes.]
+[ГРАВЮРА: без подписи]
+Per medios hosteis patriæ, cùm ferret ab igne
+Aeneas humeris dulce parentis onus.
+Parcite (dicebat) vobis sene adorea rapto
+Nulla erit: erepro sed patre summa mihi.
+
+Колонтитул: MATRIMONIVM. 209
+Кустод: 
+Сигнатура: O
+Маргиналии:
+
+## Кадр 0216 · с. 210
+
+[ЗАГОЛОВОК: Mulieris famam, non formam, vulgatam esse oportere.]
+[ЗАГОЛОВОК: DIALOGISMVS.]
+[ГРАВЮРА: без подписи]
+Alma Venus quænā hæc facies, quid denotat illa
+Testudo, molli quam pede Diua premis?
+Me sic effinxit Phidias, sexumq; referri
+Fœmineum, nostra iussit ab effigie.
+Quodq; manere domi, & tacitas decet esse puellas,
+Supposuit pedibus talia signa meis.
+
+Колонтитул: 210 MATRIMONIVM.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0217 · с. 211
+
+[ЗАГОЛОВОК: In pudoris statuam.]
+[ГРАВЮРА: без подписи]
+Penelope desponsa sequi cupiebat Vlyssem,
+Ni secum Icarius mallet habere pater.
+Ille Ithacam, hic offert Sparten. manet anxia virgo.
+Hinc pater, inde viri mutuus vrget amor.
+Ergo sedens velat vultus, obnubit ocellos.
+Ista verecundi signa pudoris erant.
+Quēs sibi prælatum Icarius cognouit Vlyssem,
+Hocq; pudori aram schemate constituit.
+
+Колонтитул: MATRIMONIVM. 211
+Кустод: 
+Сигнатура: O i
+Маргиналии:
+
+## Кадр 0218 · с. 212
+
+[ЗАГОЛОВОК: Nupta contagioso.]
+[ГРАВЮРА: без подписи]
+Dij meliora pijs (Mezenti) cur age sic me
+Compellas? emptus quòd tibi dote gener.
+Gallica, quem scabies dira & mentagra perurit:
+Hoc est quidnam aliud (dic mihi sæue pater)
+Corpora corporibus, quàm iungere mortua viuis,
+Efferaq; Etrusci facta nouare ducis?
+
+Колонтитул: 212 MATRIMONIVM.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0219 · с. 213
+
+[ЗАГОЛОВОК: ARBORES]
+[ЗАГОЛОВОК: Cupressus.]
+[ГРАВЮРА: без подписи]
+Indicat effigies metæ, nomenq; Cupressi
+Tractandos parili conditione suos.
+[ЗАГОЛОВОК: ALIVD.]
+Funestæ est arbor, procerum monumẽta Cupressus,
+Quale Apium plebis, comere fronde solet.
+[ЗАГОЛОВОК: ALIVD.]
+Pulchra coma est, pulchro digestæq; ordine frõdes,
+Sed fructus nullos hæc coma pulchra gerit.
+
+Колонтитул: ARBORES. 213
+Кустод: 
+Сигнатура: O 3
+Маргиналии:
+
+## Кадр 0220 · с. 214
+
+[ЗАГОЛОВОК: Quercus.]
+[ГРАВЮРА: без подписи]
+Grata Ioui est quercus, qui nos seruatq;, fouetq;,
+Seruanti ciuem querna corona datur.
+[ЗАГОЛОВОК: ALIVD.]
+Glande aluit veteres, sola nunc proficit vmbra,
+Sic quoque sic arbos officiosa Iouis.
+
+Колонтитул: 214 ARBORES.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0221 · с. 215
+
+[ЗАГОЛОВОК: Salix.]
+[ГРАВЮРА: без подписи]
+Quòd frugisperdem salicem vocitârit Homerus,
+Cliterijs homines moribus absimilat.
+
+Колонтитул: ARBORES. 215
+Кустод: 
+Сигнатура: O 4
+Маргиналии:
+
+## Кадр 0222 · с. 216
+
+[ЗАГОЛОВОК: Abies.]
+[ГРАВЮРА: без подписи]
+Apta fretis abies in montibus editur altis:
+Est & in aduersis maxima commoditas.
+
+Колонтитул: 216 ARBORES.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0223 · с. 217
+
+[ЗАГОЛОВОК: Picea.]
+[ГРАВЮРА: без подписи]
+At picea emittat nullos quòd stirpe stolones:
+Illius est index, qui sine prole perit.
+
+Колонтитул: ARBORES. 217
+Кустод: 
+Сигнатура: O 5
+Маргиналии:
+
+## Кадр 0224 · с. 218
+
+[ЗАГОЛОВОК: Cotonea.]
+[ГРАВЮРА: без подписи]
+Poma nouis tribui debere Cydonia nuptis
+Dicitur antiquus constituisse Solon.
+Grata ori & stomacho cùm sint, vt & halitus illis
+Sit suauis, blandus manet & ore lepos.
+
+Колонтитул: 218 ARBORES.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0225 · с. 219
+
+[ЗАГОЛОВОК: Hedera.]
+[ГРАВЮРА: без подписи]
+Haud quaquã arescẽs hederæ est arbuscula, Cisso
+Quæ puero Bacchum dona dedisse ferunt:
+Errabunda, procax, auratis fulua corymbis,
+Exterius viridis, cætera pallor habet.
+Hinc aptis vates cingunt sua tempora sertis:
+Pallescunt studijs, laus diuturna viret.
+
+Колонтитул: ARBORES. 219
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0226 · с. 220
+
+[ЗАГОЛОВОК: Ilex.]
+[ГРАВЮРА: без подписи]
+Duritie nimia quòd sese rumperet ilex,
+Symbola ciuilis seditionis habet.
+
+Колонтитул: 220 ARBORES.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0227 · с. 221
+
+[ЗАГОЛОВОК: Malus medica.]
+[ГРАВЮРА: без подписи]
+Aurea sunt Veneris poma hæc: iucundus amaror
+Indicat, est Græcis sic γλυκυπί[?] amor.
+
+Колонтитул: ARBORES. 221
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0228 · с. 222
+
+[ЗАГОЛОВОК: Buxus.]
+[ГРАВЮРА: без подписи]
+Perpetuò viridis, crispoq; cacumine buxus,
+Vnde est disparibus fistula facta modis,
+Delitijs apta est teneris, & amantibus arbor.
+Pallor inest illi, pallet & omnis amans.
+
+Колонтитул: 222 ARBORES.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0229 · с. 223
+
+[ЗАГОЛОВОК: Morus.]
+[ГРАВЮРА: без подписи]
+Serior at Morus nunquàm nisi frigore lapso
+Germinat: & sapiens nomina falsa gerit.
+
+Колонтитул: ARBORES. 223
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0230 · с. 224
+
+[ЗАГОЛОВОК: Amygdalus.]
+[ГРАВЮРА: без подписи]
+Cur properans folijs præmittis amygdale flores?
+Odi pupillos præcocis ingenij.
+
+Колонтитул: 224 ARBORES.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0231 · с. 225
+
+[ЗАГОЛОВОК: Laurus.]
+[ГРАВЮРА: без подписи]
+Præscia venturi laurus fert signa salutis.
+Subdita puluillo somnia vera facit.
+[: ALVD.]
+Debetur Carolo superatis laurea Pœnis:
+Victrices ornent talia serta comas.
+
+Колонтитул: ARBORES. 225
+Кустод: 
+Сигнатура: P
+Маргиналии:
+
+## Кадр 0232 · с. 226
+
+[ЗАГОЛОВОК: Populus alba.]
+[ГРАВЮРА: без подписи]
+Herculeos crines bicolor quòd populus ornet,
+Temporis alternat noxq;, diesq; vices.
+
+Колонтитул: 226 ARBORES.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0233 · с. index
+
+[ЗАГОЛОВОК: INDEX EMBLEMATVM IN IOCOS COMMVNES DIGESTORVM.]
+[ЗАГОЛОВОК: EMBL. DEDIC.]
+Ad illustrissimum Maximilianum &c. 7
+Mediolanum 8
+Nunquam procrastinandum 9
+[ЗАГОЛОВОК: DEVS, SIVE RELIGIO.]
+In Deo lætandum 10
+Sapientia humana, stultitia est apud Deum 11
+Ficta Religio 12
+Non tibi,sed religioni. 13
+Quà Dij vocant,eundum 14
+[ЗАГОЛОВОК: VIRTVTES.]
+[ЗАГОЛОВОК: FIDES.]
+Fidei Symbolum 15
+Fœdera 16
+Silentium 17
+Non vulganda consilia 18
+Nec quæstioni quidem cedendum 19
+[ЗАГОЛОВОК: PRVDENTIA.]
+Consilio,ac virtute Chimæram superari : id est, fortiores, & deceptores 20
+Vigilantia,& custodia 21
+Νῆφε [?] μέμνης ἀπιστεῖν ἄρθρα ταῦτα τῶν φρενῶν ἢ[?]  ? Τί δ' ἔρξα? Τί μοι δ' ἔδον οὐκ ἐτελέσθην 23
+Prudentes 24
+Prudes, magis quàm loquax 25
+Maturandum 26
+In deprehensum 27
+Custodiendas virgines 28
+Vino Prudentiam augeri 29
+Prudentes vino abstinent 30
+In statuam Bacchi 31
+Gramen 33
+[ЗАГОЛОВОК: IVSTITIA.]
+Nec verbo,nec facto quęquam lædendum 34
+Tandem, tandem Iustitia obtinet 35
+Etiam ferocissimos domari 36
+Gratiam referendam 37
+Abstinentia 38
+Bonis à diuitibus nihil timendum 39
+[ЗАГОЛОВОК: FORTITVDO.]
+Signa fortium 40
+Ανεχου [?] απεχου 41
+In adulari nescientes 42
+Obdurādu aduersus vrgētia 43
+Omnia mea mecum porto 44
+[ЗАГОЛОВОК: CONCORDIA.]
+Concordiæ Symbolum 45
+Concordia 46
+Concordia insuperabilis 47
+Vnum nihil, duos plurimum posse 48
+Firmissima cōuelli nō posse 49
+[ЗАГОЛОВОК: SPES.]
+Spes proxima 50
+
+Колонтитул: 
+Кустод: 
+Сигнатура: P 2
+Маргиналии:
+
+## Кадр 0234 · с. index
+
+In simulachrum Spei 51
+In dies meliora 53
+Illicitum non sperandum 54
+[ЗАГОЛОВОК: PVDICITIA. 55]
+[ЗАГОЛОВОК: VITIA.]
+[ЗАГОЛОВОК: PERFIDIA.]
+In Victoriam dolo partam 56
+In fraudulentos 57
+Dolus in suos 58
+Maledicentia 59
+In receptatores sicariorum 60
+In adulatores 61
+Ei qui semel sua prodegerit,aliena credi,non oportere 62
+[ЗАГОЛОВОК: STVLTITIA.]
+Temeritas 63
+Furor,& rabies 64
+In temerarios 65
+In eos qui supra vires æquam audent 66
+Impossibile 67
+Cuculi 68
+Vespertilio 69
+Aliud 70
+Ira 71
+In eum, qui sibijpsi damnum apparat 72
+Fatuitas 73
+Obliuio paupertatis 74
+[ЗАГОЛОВОК: SVPERBIA.]
+Superbia 75
+Impudentia 76
+Philautia 77
+Garrulitas 78
+[ЗАГОЛОВОК: INVIDIA.]
+Inuidia 79
+[ЗАГОЛОВОК: LVXVRIA.]
+Luxuria 80
+Luxuriosorum opes 81
+Tumulus Meretricis 82
+In amatores Meretricum 83
+Cauendum à Meretricibus 84
+Aniuletum Veneris 85
+Inuiolabiles telo Cupidinis 86
+Lasciuia 87
+[ЗАГОЛОВОК: DESIDIA.]
+Desidia 88
+Desidiam abijciendam 89
+In facilè à Virtute desciscentes 90
+Ignaui 91
+[ЗАГОЛОВОК: AVARITIA.]
+Auaritia 92
+In auaros 93
+In Aulicos 94
+In Sordidos 95
+In diuites publico malo 96
+In auaros, Vel quib9 melior cōditio ab extraneis offertur 97
+[ЗАГОЛОВОК: GVLA.]
+Gula 98
+Ocni effigies 99
+In Parasitos 100
+Paruam culinā duobus ganeonibus non sufficere 101
+Captiuus ob gulam 102
+In Garrulum, & Gulosum 103
+Natura 104
+[ЗАГОЛОВОК: DOCTORVM AGNOMINA. 104]
+Vis Naturæ 106
+Ars Naturam adiuuat 107
+In Iuuentam 108
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0235 · с. index
+
+In quatuor tempora anni 109
+[ЗАГОЛОВОК: ASTROLOGIA.]
+Scyphus Nestoris 110
+Quæ supra nos,nihil ad nos 112
+In Astrologos 113
+Qui alta cōteplātur cadere 114
+[ЗАГОЛОВОК: AMOR.]
+Potētissimus affectus Amor 115
+Potentia amoris 116
+Vis amoris 117
+In studiosum amore captū 118
+Αντέρως. id est,amor virtutis 119
+Αντέρως. Amor Virtutis alium Cupidinem superans 120
+Dulcia quādoq; amara fieri 121
+Ferè simile,ex Theocrito 122
+In statuam Amoris 123
+In obliuionem patriæ 125
+Sirenes 126
+Senex puellam amans 127
+Colores 128
+[ЗАГОЛОВОК: FORTVNA.]
+Virtuti Fortuna comes 130
+Fortuna Virtutem superans 131
+Paupertatem summis ingenijs obesse,ne prouehantur 132
+In Occasionem 133
+In subitum terrorem 134
+In illaudata laudantes 135
+In momentaneā felicitatem 136
+Ex damno alterius vtilitas 137
+Bonis auspicijs incipiēdum 138
+Nil reliqui 139
+Malè parta,malè dilabūtur 140
+Sēper pręsto esse infortunia 141
+Remedia in arduo,mala in prono esse 142
+[ЗАГОЛОВОК: HONOR.]
+Ex arduis perpetuū nomen 143
+Ex literarum studijs immortalitatem acquiri 144
+Tumulus Ioannis Galeacij Vicecomitis,Primi Ducis Mediolanensis 145
+Optimus ciuis 146
+Strenuorum immortale nomen 147
+Nobiles,ac generosi 148
+Duodecim certamina Herculis 149
+In nothos 151
+Imparilitas 152
+In descisoentes 153
+Aemulatio impar 154
+Albutij ad D.Alciatū suadentis vt &c. 155
+[ЗАГОЛОВОК: PRINCEPS.]
+Princeps subditorum incolumitatem procurans 156
+In Senatum boni Principis 157
+Quod non capit Christus,rapit Fiscus 158
+Opulentia tyranni paupertas subiectorum 159
+Consiliarij Principum 160
+Principis clementia 161
+[ЗАГОЛОВОК: RESPVBLICA.]
+Salus publica 162
+Respublica liberata 163
+[ЗАГОЛОВОК: VITA.]
+In vitam humanam 164
+Aere quandoque salutem redimendam 165
+
+Колонтитул: 
+Кустод: 
+Сигнатура: P 3
+Маргиналии:
+
+## Кадр 0236 · с. index
+
+[ЗАГОЛОВОК: MORS.]
+Cum Laruis non luctādum 166
+De Morte,& Amore 167
+In formosam fato ptæreptā 168
+In mortem præproperam 169
+Terminus 170
+Opulenti hæreditas 171
+[ЗАГОЛОВОК: AMICITIA.]
+Amicitia etiam post mortem durans 172
+Mutuum auxilium 173
+Auxiliū nunquā deficiens 174
+Gratiæ 175
+[ЗАГОЛОВОК: HOSTILITAS.]
+In detractores 177
+Inanis impetus 178
+Aliquid mali, propter vicinum malum 179
+In eum qui truculentia suorum perierit 180
+Εχθρῶν, ἄδωρα δῶρα. In dona hostium 181
+Aminimis quoque timēdū 182
+Obnoxia infirmitas 183
+Vel post mortem formidolosi 184
+[ЗАГОЛОВОК: VINDICTA.]
+Iusta vindicta 185
+Iusta vltio 186
+Parem delinquentis, & suasoris culpam esse 187
+Alius peccat,alius plectitur 188
+Insani gladius 189
+[ЗАГОЛОВОК: PAX.]
+Pax 190
+Ex bello pax 191
+Ex Pace vbertas 192
+[ЗАГОЛОВОК: SCIENTIA.]
+Doctos Doctis obloqui nefas esse 193
+Eloquentia,fortitudine præstātior 194
+Facundia difficilis 295
+Antiquissima quæque cōmentitia 196
+Insignia Poëtarum 197
+Musicam Dijs curæ esse 198
+Litera occidit : Spiritus viuificat 199
+Dicta septem sapientum 220
+[ЗАГОЛОВОК: IGNORANTIA.]
+Submouendā ignorantiam 202
+Mentem,nō formam plus pollere 203
+Diues indoctus 204
+[ЗАГОЛОВОК: MATRIMONIVM.]
+In fidem vxoriam 205
+Reuerentiā in matrimonio requiri 206
+In fœcunditatem sibijpsi damnosam 207
+Amor filiorum 208
+Pietas filiorum in parentes 209
+Mulieris famam , non formam vulgatam esse oportere 210
+In pudoris statuam 211
+Nuptam contagioso 213
+[ЗАГОЛОВОК: ARBORES.]
+Cupressus 213
+Aliud ibidem
+Aliud ibidem
+Quercus 214
+Aliud ibidem
+Salix 215
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0237 · с. index
+
+Abies 216
+Picea 217
+Cotonea 218
+Hedera 220
+Ilex 220
+Malus medica 221
+Buxus 222
+Morus 223
+Amygdalus 224
+Laurus 225
+Populus alba. 226
+FINIS.
+Lugduni,
+Excudebat Mathias Bonhomme.
+
+Колонтитул: 
 Кустод: 
 Сигнатура: 
 Маргиналии:
