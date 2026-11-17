@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "222";
+  var APP_VER = "223";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -115,7 +115,7 @@
 
   // шрифты и стили
   function addLink(href){ var l=document.createElement("link"); l.rel="stylesheet"; l.href=href; document.head.appendChild(l); }
-  addLink("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English:ital@0;1&display=swap");
+  addLink("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=IM+Fell+English:ital@0;1&display=swap");
   var existingLink = document.querySelector('link[data-ic]');
   if(existingLink && existingLink.getAttribute("data-ic")!==APP_VER){ existingLink.remove(); existingLink=null; }
   if(!existingLink){
@@ -3054,7 +3054,7 @@
   // Пилот «перевод в рамке страницы»: у этих эмблем перевод набирается HTML-текстом в поле для текста (области «вычитания» crops.json,
   // fit.json), поверх plates/; «Оригинал» — pages/ (фото страницы с латынью). Остальные — страницы целиком, как раньше.
   var ALC_PILOT = {"alc10":1,"alc17":1,"alc31":1,"alc55":1,"alc82":1,"alc119":1,"alc123":1,"alc149":1,"alc196":1,"intro-2":1};
-  var ALC_FIT_FLOOR = 10, ALC_FIT_CAP = 0.036, ALC_LH = [1.3, 1.22, 1.15, 1.1];
+  var ALC_FIT_FLOOR = 11, ALC_FIT_CAP = 0.05, ALC_PAD_X = 0.04, ALC_PAD_Y = 0.03, ALC_LH = [1.3, 1.22, 1.15, 1.1];
   var alcMode = "tr";
   try{ if(localStorage.getItem("ic-alc-mode") === "orig") alcMode = "orig"; }catch(e){}
   function alcIsFit(book, it){
@@ -3066,7 +3066,7 @@
   function alcFieldItems(book, it, tt){
     var A = book.alc, pgs = A.pages[it.id] || [], items = [], out = pgs.map(function(){ return []; });
     if(tt.subheading) items.push({lab:tt.subheading});
-    (tt.epigrams||[]).forEach(function(e){ if(e.label) items.push({lab:e.label}); (e.reading||[]).forEach(function(l){ items.push({l:l}); }); });
+    (tt.epigrams||[]).forEach(function(e){ if(e.label) items.push({lab:e.label}); (e.reading||[]).forEach(function(l, i){ items.push({l:l, ev:i % 2 === 1}); }); });
     var cur = 0, used = 0, last = pgs.length - 1;
     items.forEach(function(x){
       if(cur < last && used >= A.fit[pgs[cur][0]].n){ cur++; used = 0; }
@@ -3085,28 +3085,40 @@
           '<img class="ic-alc-pl" src="'+esc(H+"plates/"+pg[0]+".webp")+'" width="'+pg[1]+'" height="'+pg[2]+'" alt="'+alt+'">'+
           '<img class="ic-alc-or" data-src="'+esc(H+"pages/"+pg[0]+".webp")+'" width="'+pg[1]+'" height="'+pg[2]+'" alt="'+alt+'"'+(alcMode==="orig" ? ' src="'+esc(H+"pages/"+pg[0]+".webp")+'"' : "")+'>'+
           '<div class="ic-alc-fld" data-pg="'+pg[0]+'" style="left:'+f[0]+'%;top:'+f[1]+'%;width:'+f[2]+'%;height:'+f[3]+'%"><div class="ic-alc-in">'+
-            per[k].map(function(x){ return x.lab !== undefined ? '<span class="ic-alc-fl">'+esc(x.lab)+'</span>' : '<span class="ic-alc-fv">'+esc(x.l)+'</span>'; }).join("")+
+            per[k].map(function(x){ return x.lab !== undefined ? '<span class="ic-alc-fl">'+esc(x.lab)+'</span>' : '<span class="ic-alc-fv'+(x.ev ? " ic-alc-ev" : "")+'">'+esc(x.l)+'</span>'; }).join("")+
           '</div></div></figure>';
       }).join("")+'</div>';
   }
-  // Подбор кегля под поле (до показа): верхний предел — латиница в печати (доля ширины страницы), нижний — читаемый на iPhone;
+  // Подбор кегля под поле (до показа): наибольший кегль, при котором текст по высоте заполняет поле (с внутренними полями 4 % / 3 %), верхний предел — доля ширины страницы, нижний — 11 px;
   // не влезло на нижнем пределе — меньше межстрочный; всё равно не влезло — data-fit="over" (текст не обрезается).
+  // Порядок уступок, если на нижнем пределе (11 px) не влезло: межстрочный 1.3 → 1.1, затем отступ чётных строк 1.2em → 0.6em → 0,
+  // затем внутренние поля (вертикальные, потом горизонтальные) вдвое/до нуля. Нигде не влезло — кегль ниже 11 px (data-fit="sub"), чтобы текст не вылезал из поля.
+  var ALC_STEPS = [[1.3,1.2,1,1],[1.22,1.2,1,1],[1.15,1.2,1,1],[1.1,1.2,1,1],[1.1,0.6,1,1],[1.1,0,1,1],[1.1,0,0.5,1],[1.1,0,0.5,0.5],[1.1,0,0,0.5],[1.1,0,0,0]];
   function alcFitField(fl){
     var fig = fl.parentNode, inn = fl.firstChild, W = fig.clientWidth; if(!W || !inn) return;
-    var w = fl.clientWidth, h = fl.clientHeight, cap = Math.max(ALC_FIT_FLOOR, W * ALC_FIT_CAP), lh = ALC_LH[0], fs, state = "ok";
-    function fits(f, l){ inn.style.fontSize = f+"px"; inn.style.lineHeight = l; return inn.offsetHeight <= h + 0.5 && inn.scrollWidth <= w + 0.5; }
-    if(fits(cap, lh)) fs = cap;
-    else if(fits(ALC_FIT_FLOOR, lh)){
-      var lo = ALC_FIT_FLOOR, hi = cap;
-      for(var i = 0; i < 8; i++){ var mid = (lo + hi) / 2; if(fits(mid, lh)) lo = mid; else hi = mid; }
-      fs = lo;
-    } else {
-      fs = ALC_FIT_FLOOR; state = "over";
-      for(var k = 1; k < ALC_LH.length; k++){ if(fits(fs, ALC_LH[k])){ lh = ALC_LH[k]; state = "lh"; break; } }
-      if(state === "over") lh = ALC_LH[ALC_LH.length - 1];
+    var fw = fl.offsetWidth, fh = fl.offsetHeight, cap = Math.max(ALC_FIT_FLOOR, W * ALC_FIT_CAP), st, w, h;
+    function setStep(q){
+      var px = Math.round(fw * ALC_PAD_X * q[3] * 100) / 100, py = Math.round(fh * ALC_PAD_Y * q[2] * 100) / 100;
+      fl.style.padding = py+"px "+px+"px"; inn.style.setProperty("--ind", q[1]+"em"); inn.style.lineHeight = q[0];
+      w = fl.clientWidth - 2*px; h = fl.clientHeight - 2*py;
     }
-    fs = Math.floor(fs * 100) / 100; fits(fs, lh);
-    fl.setAttribute("data-fit", state); fl.setAttribute("data-fs", fs); fl.setAttribute("data-lh", lh);
+    function fits(f){ inn.style.fontSize = f+"px"; return inn.offsetHeight <= h + 0.5 && inn.scrollWidth <= w + 0.5; }
+    var si = 0, fs = ALC_FIT_FLOOR;
+    for(; si < ALC_STEPS.length; si++){ setStep(ALC_STEPS[si]); if(fits(ALC_FIT_FLOOR)) break; }
+    var over = si === ALC_STEPS.length; if(over) si = ALC_STEPS.length - 1;
+    setStep(ALC_STEPS[si]);
+    if(over){ // крайняя мера: кегль ниже предела, чтобы текст не вылезал из поля (data-fit="sub")
+      var l2 = 7, h2 = ALC_FIT_FLOOR; fs = l2;
+      for(var j = 0; j < 8; j++){ var m2 = (l2 + h2) / 2; if(fits(m2)) l2 = m2; else h2 = m2; }
+      fs = l2;
+    } else {
+      if(fits(cap)) fs = cap;
+      else { var lo = ALC_FIT_FLOOR, hi = cap; for(var i = 0; i < 8; i++){ var mid = (lo + hi) / 2; if(fits(mid)) lo = mid; else hi = mid; } fs = lo; }
+    }
+    fs = Math.floor(fs * 100) / 100; fits(fs);
+    st = ALC_STEPS[si];
+    fl.setAttribute("data-fit", over ? "sub" : si ? "relaxed" : "ok"); fl.setAttribute("data-fs", fs);
+    fl.setAttribute("data-lh", st[0]); fl.setAttribute("data-relax", si ? "lh"+st[0]+" ind"+st[1]+" py"+st[2]+" px"+st[3] : "");
     fl.style.visibility = "";
   }
   function alcFitAll(){ var r = root.querySelectorAll(".ic-alc-fld"); for(var i = 0; i < r.length; i++) alcFitField(r[i]); }

@@ -2,8 +2,8 @@
  * Скриншоты out/alc-fit-<lang>-<id>-<w>.png (в чат не читать). BASE=http://localhost:8975/index.html node check_alc_fit.js */
 const { webkit, devices } = require('playwright'); const path=require('path');
 const BASE=process.env.BASE||'http://localhost:8975/index.html', OUT=path.join(__dirname,'out'); const W=ms=>new Promise(r=>setTimeout(r,ms));
-const IDS=['alc10','alc17','alc31','alc55','alc82','alc119','alc123','alc149','alc196','intro-2'], SHOT3=['alc17','alc31','alc149'];
-const FLOOR=10; let bad=0,n=0, lhRed=[]; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':'FAIL ')+name+(x!==undefined?' '+x:'')); };
+const IDS=['alc10','alc17','alc31','alc55','alc82','alc119','alc123','alc149','alc196','intro-2'], SHOT3=["alc17","alc31","alc123"];
+const FLOOR=11; let bad=0,n=0, lhRed=[]; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':'FAIL ')+name+(x!==undefined?' '+x:'')); };
 (async()=>{ const br=await webkit.launch(); const errs=[];
  for(const vw of [390,430]){
   const ctx=await br.newContext({...devices['iPhone 13'],viewport:{width:vw,height:844}}), p=await ctx.newPage();
@@ -15,12 +15,14 @@ const FLOOR=10; let bad=0,n=0, lhRed=[]; const ok=(name,c,x)=>{ n++; if(!c) bad+
     await p.waitForSelector('.ic-alc-fld',{timeout:8000}).catch(()=>{});
     await p.evaluate(()=>document.fonts&&document.fonts.ready); await W(500);
     const r=await p.evaluate(()=>[...document.querySelectorAll('.ic-alc-fld')].map(f=>{ const i=f.firstChild, fr=f.getBoundingClientRect(), ir=i.getBoundingClientRect();
-      return {pg:f.dataset.pg,fit:f.dataset.fit,fs:+f.dataset.fs,lh:+f.dataset.lh,fh:Math.round(fr.height),ih:Math.round(ir.height),fw:Math.round(fr.width),sw:i.scrollWidth,vis:getComputedStyle(f).visibility,lines:i.children.length,
-        inside:ir.top>=fr.top-1&&ir.bottom<=fr.bottom+1&&i.scrollWidth<=f.clientWidth+1,sel:getComputedStyle(f).userSelect||getComputedStyle(f).webkitUserSelect,tag:f.firstChild.tagName}; }));
+      return {pg:f.dataset.pg,fit:f.dataset.fit,fs:+f.dataset.fs,lh:+f.dataset.lh,rx:f.dataset.relax,fh:Math.round(fr.height),ih:Math.round(ir.height),fw:Math.round(fr.width),sw:i.scrollWidth,vis:getComputedStyle(f).visibility,lines:i.children.length,
+        inside:ir.top>=fr.top-1&&ir.bottom<=fr.bottom+1&&i.scrollWidth<=f.clientWidth+1,sel:getComputedStyle(f).userSelect||getComputedStyle(f).webkitUserSelect,ty:(()=>{const c=getComputedStyle(i);return {st:c.fontStyle,w:c.fontWeight,c:c.color,o:c.opacity};})()}; }));
     const tag=L+' '+id+' @'+vw;
     ok(tag+' fields present, visible',r.length>0&&r.every(x=>x.vis==='visible'),r.length);
-    ok(tag+' text inside field, fs>=floor',r.every(x=>x.inside&&x.fs>=FLOOR-0.01),r.map(x=>x.fs+'px/'+x.lh+' '+x.ih+'/'+x.fh+(x.inside?'':' OVER')).join(' | '));
-    if(r.some(x=>x.fit==='lh')) lhRed.push(tag+' lh '+r.filter(x=>x.fit==='lh').map(x=>x.lh).join('/'));
+    ok(tag+' text inside field (no overflow)',r.every(x=>x.inside),r.map(x=>x.ih+'/'+x.fh+(x.inside?'':' OVER')).join(' | '));
+    ok(tag+' fs>='+FLOOR+'px',r.every(x=>x.fs>=FLOOR-0.01),r.map(x=>x.fs+'px/'+x.lh).join(' | '));
+    ok(tag+' typography: italic 600, ink, opacity 1',r.every(x=>x.ty.st==='italic'&&x.ty.w==='600'&&x.ty.c==='rgb(28, 24, 19)'&&x.ty.o==='1'),JSON.stringify(r[0].ty));
+    if(r.some(x=>x.rx)) lhRed.push(tag+' '+r.filter(x=>x.rx).map(x=>x.rx).join(' / '));
     if(vw===390&&(L==='ru'||SHOT3.includes(id))||(vw===430&&false)) await p.locator('.ic-alc-fitfigs').screenshot({path:path.join(OUT,'alc-fit-'+L+'-'+id+'.png')});
    }
   }

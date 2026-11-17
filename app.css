@@ -1932,7 +1932,8 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-alc-fitfigs[data-mode="tr"] .ic-alc-or{visibility:hidden}
 .ic .ic-alc-fitfigs[data-mode="orig"] .ic-alc-pl,.ic .ic-alc-fitfigs[data-mode="orig"] .ic-alc-fld{visibility:hidden}
 .ic .ic-alc-fld{position:absolute;display:flex;align-items:center;box-sizing:border-box;color:var(--ink,#1c1813);-webkit-user-select:text;user-select:text;cursor:text}
-.ic .ic-alc-in{width:100%;font-style:italic;text-align:left;hyphens:manual;-webkit-hyphens:manual;overflow-wrap:break-word}
+.ic .ic-alc-in{width:100%;font-family:var(--serif);font-style:italic;font-weight:600;color:var(--ink);opacity:1;text-align:left;hyphens:manual;-webkit-hyphens:manual;overflow-wrap:break-word}
 .ic .ic-alc-fv{display:block;padding-left:1.1em;text-indent:-1.1em}
-.ic .ic-alc-fl{display:block;text-align:center;font-style:normal;letter-spacing:.1em;text-transform:uppercase;font-size:.85em;margin:.1em 0}
+.ic .ic-alc-fv.ic-alc-ev{padding-left:calc(1.1em + var(--ind,1.2em))}
+.ic .ic-alc-fl{display:block;text-align:center;font-style:normal;font-weight:500;font-variant-caps:all-small-caps;font-feature-settings:"smcp","c2sc";letter-spacing:.14em;text-transform:none;margin:.15em 0}
 .ic .ic-rp-alc .ic-alc-figs.ic-alc-fitfigs{width:min(100vw,560px);max-width:none;margin-left:calc((100% - min(100vw,560px))/2)}
