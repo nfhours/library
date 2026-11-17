@@ -30,7 +30,10 @@
       "text_frtrans": [
         "¶Vois comme un peintre habile a fait l'aigle de Jupiter / emporter l'enfant troyen à travers les plus hauts astres. / Qui croirait Jupiter touché par l'amour d'un enfant ? / Dis-moi, d'où le vieillard aveugle de Méonie a-t-il inventé cela ? / Le conseil et l'esprit, en qui un dieu trouve sa joie — / celui qui les possède est cru ravi auprès du très-haut Jupiter."
       ],
-      "group_frtrans": "Dieu, ou la Religion."
+      "group_frtrans": "Dieu, ou la Religion.",
+      "section": "DEVS SIVE RELIGIO",
+      "section_ru": "Бог, или Религия",
+      "section_en": "God, or Religion"
     },
     {
       "id": "alc11",
@@ -61,7 +64,10 @@
       "text_frtrans": [
         "¶Que dirai-je ? de quel nom appellerai-je ce monstre / biforme, qui n'est ni homme ni dragon ? / Un homme sans pieds, un serpent sans sa partie supérieure — / on peut l'appeler homme aux pieds de serpent, ou serpent à tête d'homme. / L'homme finit en serpent, le serpent commence en homme, / et il n'est ni tout à fait homme, ni tout à fait bête. / Ainsi jadis Cécrops régna sur la docte Athènes, / ainsi la terre, notre mère, enfanta les géants. / Cette figure est l'image de l'homme rusé mais sans religion, / qui ne se soucie que des choses de la terre."
       ],
-      "group_frtrans": "Dieu, ou la Religion."
+      "group_frtrans": "Dieu, ou la Religion.",
+      "section": "DEVS SIVE RELIGIO",
+      "section_ru": "Бог, или Религия",
+      "section_en": "God, or Religion"
     },
     {
       "id": "alc12",
@@ -92,7 +98,10 @@
       "text_frtrans": [
         "¶Une très belle courtisane siège sur un trône royal, / portant une robe insigne de pourpre honorifique. / À tous elle verse à boire d'une coupe pleine, / tandis qu'autour d'elle gît, ivre, la foule renversée. / Ainsi désigne-t-on Babylone : qui par cette forme séduisante / et par une religion feinte prend au piège les sots."
       ],
-      "group_frtrans": "Dieu, ou la Religion."
+      "group_frtrans": "Dieu, ou la Religion.",
+      "section": "DEVS SIVE RELIGIO",
+      "section_ru": "Бог, или Религия",
+      "section_en": "God, or Religion"
     },
     {
       "id": "alc13",
@@ -123,7 +132,10 @@
       "text_frtrans": [
         "¶Un âne lent portait l'effigie d'Isis, / ayant sur son dos courbé les vénérables mystères. / Et quiconque le rencontrait adorait révérencieusement la déesse, / offrant de pieuses prières, les genoux fléchis. / Mais l'âne croyait que cet honneur lui était rendu / à lui-même, et s'enflait tout bouffi d'orgueil : / jusqu'à ce que l'ânier, le domptant à coups de fouet, lui dît : / « Tu n'es pas le dieu, baudet ; tu ne fais que porter le dieu. »"
       ],
-      "group_frtrans": "Dieu, ou la Religion."
+      "group_frtrans": "Dieu, ou la Religion.",
+      "section": "DEVS SIVE RELIGIO",
+      "section_ru": "Бог, или Религия",
+      "section_en": "God, or Religion"
     },
     {
       "id": "alc14",
@@ -154,7 +166,10 @@
       "text_frtrans": [
         "¶Au carrefour s'élève un tas de pierres : au-dessus / se dresse l'image tronquée d'un dieu, sculptée jusqu'à la poitrine. / C'est donc le tertre de Mercure. Voyageur, suspends / des guirlandes au dieu qui te montre le droit chemin. / Nous sommes tous au carrefour, et sur ce sentier de la vie / nous nous égarons, si le dieu lui-même ne nous montre la voie."
       ],
-      "group_frtrans": "Dieu, ou la Religion."
+      "group_frtrans": "Dieu, ou la Religion.",
+      "section": "DEVS SIVE RELIGIO",
+      "section_ru": "Бог, или Религия",
+      "section_en": "God, or Religion"
     },
     {
       "id": "alc15",
@@ -185,7 +200,10 @@
       "text_frtrans": [
         "¶Que l'Honneur soit peint, vêtu de pourpre de Tyr, / et que la Vérité, nue, joigne sa droite à la sienne. / Et qu'entre eux se tienne l'Amour chaste, dont les tempes / soient ceintes de roses, plus beau que le Cupidon de Dioné. / Ces signes constituent la Foi : la révérence de l'honneur / que l'Amour nourrit, et que la Vérité enfante et fait croître."
       ],
-      "group_frtrans": "Vertus. La Foi."
+      "group_frtrans": "Vertus. La Foi.",
+      "section": "FIDES",
+      "section_ru": "Верность",
+      "section_en": "Faith"
     },
     {
       "id": "alc16",
@@ -216,7 +234,10 @@
       "text_frtrans": [
         "¶Cette cithare, qu'on dit avoir la forme d'une barque de pêcheur, / la Muse latine aussi la revendique pour sienne. / Reçois-la, Duc : que ce présent te plaise en ce temps / où tu te prépares à nouer de nouvelles alliances avec tes alliés. / Il est difficile, sinon à un homme savant, d'accorder tant de cordes, / et si une seule corde n'est pas bien tendue, / ou se rompt (ce qui arrive aisément), tout le charme de la conque se perd, / et ce chant excellent devient inutile. / Ainsi s'unissent en alliance les princes d'Italie ; à la concorde / rien n'est à craindre, tant que l'amour demeure constant entre vous. / Mais si l'un d'eux fait défection (comme on le voit si souvent), / toute cette harmonie se résout en néant."
       ],
-      "group_frtrans": "Vertus. La Foi."
+      "group_frtrans": "Vertus. La Foi.",
+      "section": "FIDES",
+      "section_ru": "Верность",
+      "section_en": "Faith"
     },
     {
       "id": "alc17",
@@ -247,7 +268,10 @@
       "text_frtrans": [
         "¶Quand il se tait, l'insensé ne diffère en rien du sage. / La langue, et sa propre voix, sont l'indice de la folie. / Qu'il serre donc les lèvres, et du doigt marque le silence, / et qu'il se change lui-même en l'Harpocrate d'Égypte."
       ],
-      "group_frtrans": "Vertus. La Foi."
+      "group_frtrans": "Vertus. La Foi.",
+      "section": "FIDES",
+      "section_ru": "Верность",
+      "section_en": "Faith"
     },
     {
       "id": "alc18",
@@ -278,7 +302,10 @@
       "text_frtrans": [
         "¶Le monstre que, derrière un seuil aveugle, dans une obscure / ténèbre, Dédale enferma dans les cachettes de Cnossos — / la phalange romaine en porte l'image dans ses combats, / et les enseignes superbes brillent de l'homme mi-taureau. / Et cela nous avertit que les conseils secrets des chefs / doivent demeurer cachés : un dessein connu de l'ennemi lui nuit."
       ],
-      "group_frtrans": "Vertus. La Foi."
+      "group_frtrans": "Vertus. La Foi.",
+      "section": "FIDES",
+      "section_ru": "Верность",
+      "section_en": "Faith"
     },
     {
       "id": "alc19",
@@ -309,7 +336,10 @@
       "text_frtrans": [
         "¶La lionne que tu vois sculptée sur la citadelle Cécropienne / fut, ô hôte, ne le sais-tu pas, l'amie d'Harmodios. / On voulut ainsi montrer l'âme ardente de cette femme virile / sous la forme d'une bête sauvage, ou parce qu'elle portait ce nom. / Pour n'avoir, torturée sur le chevalet, trahi personne / par aucun aveu, Iphicrate la fit représenter sans langue."
       ],
-      "group_frtrans": "Vertus. La Foi."
+      "group_frtrans": "Vertus. La Foi.",
+      "section": "FIDES",
+      "section_ru": "Верность",
+      "section_en": "Faith"
     },
     {
       "id": "alc20",
@@ -340,7 +370,10 @@
       "text_frtrans": [
         "¶Bellérophon, en cavalier courageux, put vaincre la Chimère / et terrasser les monstres de la terre de Lycie. / Ainsi toi, porté sur les ailes de Pégase, tu aspires à l'éther, / et par le conseil de l'esprit tu domptes les monstres superbes."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc21",
@@ -371,7 +404,10 @@
       "text_frtrans": [
         "¶Parce que le coq chantant donne le signal de l'aube qui approche, / et rappelle les mains des serviteurs à leurs tâches nouvelles, / on sculpte son image de bronze sur les tours sacrées, / pour qu'elle rappelle à l'esprit vigilant les choses d'en haut. / Le lion aussi est un gardien, car il dort les yeux ouverts : / c'est pourquoi on le place devant les portes des temples."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc22",
@@ -402,7 +438,10 @@
       "text_frtrans": [
         "¶« Ne crois pas à la légère », dit Épicharme, « et ne sois point intempérant » — / voilà les nerfs et les membres de l'esprit humain. / Voici la main pourvue d'yeux, ne croyant que ce qu'elle voit. Voici / le pouliot, herbe de l'antique sobriété, / par laquelle, la montrant, Héraclite apaisa la foule / et calma ce peuple accablé d'une sédition tumultueuse."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc23",
@@ -433,7 +472,10 @@
       "text_frtrans": [
         "¶Le Samien, très célèbre fondateur de l'école italique, / enferma lui-même sa doctrine en un bref vers : / « En quoi ai-je failli ? Que fais-je ? Quel devoir laissé-je inaccompli ? » — / pressant chacun de se rendre à soi-même ce compte. / On dit qu'il apprit cela du vol des grues migrantes, / qui portent dans leurs pattes une pierre saisie, / pour ne point faiblir, et que les vents mauvais ne les emportent de leur route — / de cette même manière la vie des hommes devait être réglée."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc24",
@@ -464,7 +506,10 @@
       "text_frtrans": [
         "¶Janus aux deux visages, toi qui connais déjà le passé et l'avenir, / et qui, tourné en arrière, vois les railleries comme tu les vois devant toi, / pourquoi te fait-on avec tant d'yeux, tant de visages ? N'est-ce pas / parce que cette forme enseigne que l'homme prudent doit être circonspect ?"
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc25",
@@ -495,7 +540,10 @@
       "text_frtrans": [
         "¶La chouette donne ses armes à l'Athènes de Cécrops, / la chouette, parmi les oiseaux, oiseau du sage conseil. / À juste titre elle est consacrée au service de Minerve armée, / à la place même qu'occupait jadis la corneille bavarde."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc26",
@@ -526,7 +574,10 @@
       "text_frtrans": [
         "¶Toutes choses commandent à la fois de se hâter promptement et de temporiser — / que ce ne soit ni précipitation excessive, ni trop long délai. / Ceci te le montrera : le javelot lié au rémora ; / celui-ci est lent, tandis que les traits lancés de la main volent."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc27",
@@ -557,7 +608,10 @@
       "text_frtrans": [
         "¶Depuis longtemps déjà, où que tu fuies, je te poursuis : mais maintenant / enfin tu es pris, tombé dans nos filets. / Tu ne pourras plus échapper à nos forces. / Nous avons serré l'anguille dans la feuille de figuier."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc28",
@@ -588,7 +642,10 @@
       "text_frtrans": [
         "¶Voici la vraie effigie de Pallas, la vierge : ici / le Dragon, qui se tient devant les pieds de sa maîtresse. / Pourquoi cet animal est-il le compagnon de la déesse ? La garde des choses / lui est confiée ; ainsi veille-t-il sur les bois et les temples sacrés. / De même il faut veiller sur les jeunes filles non mariées / d'une attention sans relâche : l'amour tend partout ses filets."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc29",
@@ -619,7 +676,10 @@
       "text_frtrans": [
         "¶Ici le père Bacchus et Pallas, tous deux ensemble, / tiennent un temple commun, l'une et l'autre vrais enfants de Jupiter : / elle naquit de sa tête, lui se dégagea de sa cuisse ; / à elle l'on doit l'usage de l'olivier, lui le premier découvrit le vin pur. / Ils sont unis à bon droit : car si quelque homme abstinent déteste / le vin, il ne ressentira aucun secours de la déesse."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc30",
@@ -650,7 +710,10 @@
       "text_frtrans": [
         "¶Pourquoi tourmentez-vous mes branches ? Je suis l'arbre de Pallas : / emportez d'ici ces grappes. La vierge fuit Bacchus."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc31",
@@ -681,7 +744,10 @@
       "text_frtrans": [
         "¶« Père Bacchus, qui t'a connu de son œil mortel ? / Et quelle main savante a façonné tes membres ? » / « Praxitèle, qui me vit ravissant la fille de Gnosos, / et me peignit tel que j'étais en ce temps-là. » / « Pourquoi es-tu jeune, et ta barbe encore printanière d'un tendre duvet, / toi qui pourrais surpasser en âge le vieillard de Pylos ? » / « Si tu apprends un jour à ménager mes dons, / jeune homme, tu auras toujours le cœur vaillant. / Les tambourins ne manquent point à ses mains, ni les cornes à sa tête : / à qui (sinon aux insensés) de tels signes conviennent-ils ? / Voici ce que j'enseigne : qui abuse de mon présent reçoit / des cornes, et, devenu fou, agite de molles sistres. / Que signifie cette couleur presque ardente sur ses membres ? (Puisse / ce présage nous être épargné) — ou bien toi-même brûles-tu de feux humains ? / Quand ma mère, du ventre de Sémélé, m'arracha par la foudre / vomissant le feu, on me plongea, couvert de poussière, dans les eaux. / De là vient la sagesse de qui nous dilue bien dans les eaux limpides, / et qui ne brûle point son foie d'un feu trop ardent. / Mais apprends-moi maintenant comment tu veux être mêlé ? et par quelle / règle, en pleine santé, peut-on te prendre sans danger ? / Qu'il ajoute un quart d'eau, celui qui désire boire une coupe / de Falerne : ainsi plaisent mes coupes, selon cet usage. / Tiens-toi dans la limite d'une hémine : car qui s'efforce d'aller / au-delà — vif d'abord, mais bientôt ivre, s'emporte en fureur. / Chose trop pénible, en vérité. Les gorges sont suspendues à toi, douce / tu coules. Hélas, rien d'utile ne s'obtient aisément. »"
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc33",
@@ -712,7 +778,10 @@
       "text_frtrans": [
         "¶Les sénateurs décernèrent à Fabius la couronne d'herbe, / pour avoir par ses atermoiements brisé les Carthaginois et Hannibal. / L'alouette cache son nid dans l'herbe recourbée, / dit-on communément ; ainsi abrite-t-elle ses petits. / Elle est sacrée à Saturne et à Mars ; l'ayant goûtée, Glaucus / Polyidos, croit-on, devint un dieu. / Par ces indices on lui attribue à bon droit protection et salut : / et cette herbe verdoyante a autant de nœuds que de doigts."
       ],
-      "group_frtrans": "Prudence."
+      "group_frtrans": "Prudence.",
+      "section": "PRVDENTIA",
+      "section_ru": "Благоразумие",
+      "section_en": "Prudence"
     },
     {
       "id": "alc34",
@@ -743,7 +812,10 @@
       "text_frtrans": [
         "¶Némésis poursuit et surveille les pas de l'homme, / et retient son coude d'une main au dur frein. / Afin que tu ne fasses point de mal, ni ne profères de méchantes paroles — / elle ordonne qu'en toutes choses règne la mesure."
       ],
-      "group_frtrans": "Justice."
+      "group_frtrans": "Justice.",
+      "section": "IVSTITIA",
+      "section_ru": "Справедливость",
+      "section_en": "Justice"
     },
     {
       "id": "alc35",
@@ -774,7 +846,10 @@
       "text_frtrans": [
         "¶Le bouclier du petit-fils d'Éaque, trempé du sang d'Hector, / que l'assemblée inique des Grecs donna au fils d'Ithaque, / le plus juste Neptune le saisit, jeté à la mer / dans le naufrage, afin qu'il pût rejoindre son vrai maître. / Car la vague le porta jusqu'au tertre côtier d'Ajax, / où elle mugit, et de cette voix frappe le tombeau : / « Tu as vaincu, fils de Télamon, tu es plus digne de ces armes. / Il est juste que la passion cède à la justice. »"
       ],
-      "group_frtrans": "Justice."
+      "group_frtrans": "Justice.",
+      "section": "IVSTITIA",
+      "section_ru": "Справедливость",
+      "section_en": "Justice"
     },
     {
       "id": "alc36",
@@ -805,7 +880,10 @@
       "text_frtrans": [
         "¶Après que l'éloquence romaine, Cicéron détruit, / eut péri, fléau amer de sa propre patrie, / le vainqueur monta en char et y attela des lions, / et contraignit leurs cous rudes à subir le joug, / voulant signifier par cette énigme qu'Antoine / avait soumis par ses armes des chefs magnanimes."
       ],
-      "group_frtrans": "Justice."
+      "group_frtrans": "Justice.",
+      "section": "IVSTITIA",
+      "section_ru": "Справедливость",
+      "section_en": "Justice"
     },
     {
       "id": "alc37",
@@ -836,7 +914,10 @@
       "text_frtrans": [
         "¶La cigogne, insigne de piété en son nid aérien, / réchauffe ses petits sans plumes, gage précieux. / Et elle attend que semblables présents lui soient rendus en retour, / chaque fois que sa mère vieillie aura besoin de ce secours. / Et la pieuse progéniture ne trompe point cet espoir, mais porte / les corps las de ses parents sur ses épaules, et leur donne la becquée."
       ],
-      "group_frtrans": "Justice."
+      "group_frtrans": "Justice.",
+      "section": "IVSTITIA",
+      "section_ru": "Справедливость",
+      "section_en": "Justice"
     },
     {
       "id": "alc38",
@@ -867,7 +948,10 @@
       "text_frtrans": [
         "¶Sur les tombeaux de marbre, d'un côté de la colonne / se dresse une aiguière, de l'autre on peut voir un bassin à laver. / Cette figure nous rappelle qu'il convient que la parole soit dite sans souillure, / et que le défunt ait eu les mains pures."
       ],
-      "group_frtrans": "Justice."
+      "group_frtrans": "Justice.",
+      "section": "IVSTITIA",
+      "section_ru": "Справедливость",
+      "section_en": "Justice"
     },
     {
       "id": "alc39",
@@ -898,7 +982,10 @@
       "text_frtrans": [
         "¶Marius, joint à moi par un mur contigu, et aussi / Subbardus, noms connus sur notre forum, / ces hommes bien pourvus d'argent bâtissent et s'emploient, même sans raison, / hélas, à obstruer de toutes parts mes fenêtres. / Malheureux que je suis, que, tel Phinée, deux / Harpyes ravissent, pour me chasser de ma propre demeure. / Mon intégrité, et mon esprit, chercheur d'honnêteté, / périront, si ne viennent à eux ni Zétès ni Calaïs."
       ],
-      "group_frtrans": "Justice."
+      "group_frtrans": "Justice.",
+      "section": "IVSTITIA",
+      "section_ru": "Справедливость",
+      "section_en": "Justice"
     },
     {
       "id": "alc40",
@@ -929,7 +1016,10 @@
       "text_frtrans": [
         "¶« Quelle cause t'engage, oiseau de Saturne, à te percher si haut / sur le tertre du grand Aristomène ? » / « Voici ce que j'annonce : autant je l'emporte en force parmi les oiseaux, / autant Aristomène l'emportait parmi les demi-dieux. / Que les timides colombes se posent sur les tombes des timides ; / nous, les aigles, donnons nos signes propices aux intrépides. »"
       ],
-      "group_frtrans": "Force."
+      "group_frtrans": "Force.",
+      "section": "FORTITVDO",
+      "section_ru": "Мужество",
+      "section_en": "Fortitude"
     },
     {
       "id": "alc41",
@@ -960,7 +1050,10 @@
       "text_frtrans": [
         "¶Il faut à l'homme savoir supporter avec patience une triste fortune, / et souvent craindre un bonheur trop grand. / « Supporte et abstiens-toi » (disait Épictète) ; il convient / d'endurer bien des choses, et de retenir ses mains de l'illicite. / Ainsi le taureau, entravé du jarret droit, se soumet / à l'autorité du conducteur ; ainsi se retient-il des génisses pleines."
       ],
-      "group_frtrans": "Force."
+      "group_frtrans": "Force.",
+      "section": "FORTITVDO",
+      "section_ru": "Мужество",
+      "section_en": "Fortitude"
     },
     {
       "id": "alc42",
@@ -991,7 +1084,10 @@
       "text_frtrans": [
         "¶Tu désires savoir pourquoi les rênes thessaliennes changent si souvent / de maîtres, et cherchent à avoir divers conducteurs : / elles ne savent ni flatter ni caresser qui que ce soit, / coutume que possède toute cour royale. / Mais, tel un coursier de noble race, elle jette de son dos / tout écuyer qui ne sait la gouverner. / Mais il n'est pas non plus permis au maître de s'emporter : la seule vengeance / est de contraindre la bête farouche à porter un mors plus dur."
       ],
-      "group_frtrans": "Force."
+      "group_frtrans": "Force.",
+      "section": "FORTITVDO",
+      "section_ru": "Мужество",
+      "section_en": "Fortitude"
     },
     {
       "id": "alc43",
@@ -1022,7 +1118,10 @@
       "text_frtrans": [
         "¶Le palmier résiste au poids, et se redresse en voûte ; / plus on le presse, plus il soulève le fardeau. / Il porte aussi d'odorantes et douces friandises, des glands / auxquels, sur les tables, revient le premier honneur. / Va, enfant, et, grimpant par les branches, cueille-les : celui dont l'esprit / sera constant emportera une digne récompense."
       ],
-      "group_frtrans": "Force."
+      "group_frtrans": "Force.",
+      "section": "FORTITVDO",
+      "section_ru": "Мужество",
+      "section_en": "Fortitude"
     },
     {
       "id": "alc44",
@@ -1053,7 +1152,10 @@
       "text_frtrans": [
         "¶Le pauvre Hun, misérable habitant des rives scythiques, / les membres livides brûlés d'un gel perpétuel, / qui ne connaît ni les richesses de Cérès ni les dons de Bacchus, / possède pourtant toujours de précieuses couvertures : / car des peaux de souris le serrent de toutes parts. / Seuls ses yeux sont découverts, tout le reste il le tient couvert. / Ainsi ne craint-il point le voleur, ainsi méprise-t-il vents et pluies, / en sûreté parmi les hommes, en sûreté parmi les dieux."
       ],
-      "group_frtrans": "Force."
+      "group_frtrans": "Force.",
+      "section": "FORTITVDO",
+      "section_ru": "Мужество",
+      "section_en": "Fortitude"
     },
     {
       "id": "alc45",
@@ -1084,7 +1186,10 @@
       "text_frtrans": [
         "¶Admirable est la concorde des corneilles dans leur vie commune, / et leur fidélité mutuelle est inviolée. / C'est pourquoi ces oiseaux portent le sceptre : car tous / les chefs, assurément, se maintiennent et tombent par le consentement du peuple ; / et si on l'ôte du milieu, la discorde précipitée / accourt, et entraîne avec elle les destins des royaumes."
       ],
-      "group_frtrans": "Concorde."
+      "group_frtrans": "Concorde.",
+      "section": "CONCORDIA",
+      "section_ru": "Согласие",
+      "section_en": "Concord"
     },
     {
       "id": "alc46",
@@ -1115,7 +1220,10 @@
       "text_frtrans": [
         "¶Lorsque Rome préparait ses chefs pour la guerre civile, / et que la terre de Mars s'effondrait par ses propres forces, / c'était coutume, quand les troupes se rangeaient du même parti, / de se donner les mains droites jointes comme gage mutuel. / Ceci est une image d'alliance : tel est le signe de la Concorde — / que ceux que l'amour unit, la main elle-même les unisse aussi."
       ],
-      "group_frtrans": "Concorde."
+      "group_frtrans": "Concorde.",
+      "section": "CONCORDIA",
+      "section_ru": "Согласие",
+      "section_en": "Concord"
     },
     {
       "id": "alc47",
@@ -1146,7 +1254,10 @@
       "text_frtrans": [
         "¶Entre les trois frères régnait la concorde. / Si grande était leur piété mutuelle, et leur amour unique, / qu'invincibles aux forces humaines ils tenaient / un vaste royaume, appelés d'un seul nom, Géryon."
       ],
-      "group_frtrans": "Concorde."
+      "group_frtrans": "Concorde.",
+      "section": "CONCORDIA",
+      "section_ru": "Согласие",
+      "section_en": "Concord"
     },
     {
       "id": "alc48",
@@ -1177,7 +1288,10 @@
       "text_frtrans": [
         "¶Le fils de Laërte, et avec lui le fils de Tydée, / cette cire habile, œuvre de Zénalis, les a représentés. / L'un excelle par la force, l'autre par l'acuité de l'esprit, / et pourtant ni l'un ni l'autre ne se passe du secours de son compagnon. / Quand deux marchent unis, la victoire est certaine. / Seul, l'homme est délaissé soit par l'esprit, soit par le bras."
       ],
-      "group_frtrans": "Concorde."
+      "group_frtrans": "Concorde.",
+      "section": "CONCORDIA",
+      "section_ru": "Согласие",
+      "section_en": "Concord"
     },
     {
       "id": "alc49",
@@ -1208,7 +1322,10 @@
       "text_frtrans": [
         "¶Que l'Océan, père, soulève toutes ses vagues, / et que toi, Turc barbare, boives tout le Danube — / tu ne forceras pourtant pas la frontière, tant que César / Charles donnera aux peuples ses étendards de guerre. / Ainsi les chênes sacrés se tiennent sur de fermes racines, / quand même les vents secouent leurs feuilles sèches."
       ],
-      "group_frtrans": "Concorde."
+      "group_frtrans": "Concorde.",
+      "section": "CONCORDIA",
+      "section_ru": "Согласие",
+      "section_en": "Concord"
     },
     {
       "id": "alc50",
@@ -1239,7 +1356,10 @@
       "text_frtrans": [
         "¶Notre république est agitée d'innombrables tempêtes, / et seul demeure l'espoir d'un salut à venir : / tel un navire qu'au milieu de la mer les vents / emportent, et qui déjà s'entrouvre sous les eaux salées. / Mais si paraissent les astres brillants des frères d'Hélène, / le bon espoir rend le courage perdu."
       ],
-      "group_frtrans": "Espérance."
+      "group_frtrans": "Espérance.",
+      "section": "SPES",
+      "section_ru": "Надежда",
+      "section_en": "Hope"
     },
     {
       "id": "alc51",
@@ -1270,7 +1390,10 @@
       "text_frtrans": [
         "¶« Quelle déesse, aux astres contemplés d'un visage si joyeux ? / De quel pinceau fut rendue ton image ? » / « Les mains d'Elpidius l'ont faite. On me nomme celle / qui, Bonne Espérance, offre un prompt secours aux malheureux. » / « Pourquoi ton manteau est-il vert ? » — « Parce que sous ma conduite tout reverdit. » / « Pourquoi portes-tu en main les armes brisées de la mort ? » / « Ce qu'il convient aux vivants d'espérer, je le refuse aux ensevelis. / Pourquoi sièges-tu, oisive, sous le couvercle d'une jarre ? » / « Je restai seule au logis, tandis que tous les maux volaient alentour, / comme l'enseigna la vénérable Muse du vieillard d'Ascra. » / « Quel oiseau t'accompagne ? » — « La corneille, oiseau augural très fidèle ; / même quand elle ne peut dire «c'est bien», elle dit «ce sera». » / « Quels sont tes compagnons ? » — « Le Bon Succès, et le prompt Cupidon. » / « Qui marche devant toi ? » — « On les nomme les songes vains des veilleurs. » / « Qui se tient jointe à toi ? » — « Rhamnusie, vengeresse des crimes — / afin, sans doute, que tu n'espères rien que ce qui est permis. »"
       ],
-      "group_frtrans": "Espérance."
+      "group_frtrans": "Espérance.",
+      "section": "SPES",
+      "section_ru": "Надежда",
+      "section_en": "Hope"
     },
     {
       "id": "alc53",
@@ -1301,7 +1424,10 @@
       "text_frtrans": [
         "¶Le groin d'un jeune porc hérissé m'a offert, au nouvel an, / mon client, disant : « Reçois ce présent pour ton ventre. » / Il avance toujours, et jamais ne regarde en arrière, / arrachant avidement l'herbe de son mufle recourbé. / Même est le souci des hommes : que l'espoir, une fois ébranlé, / ne recule point en arrière — et que ce qui vient après soit meilleur encore."
       ],
-      "group_frtrans": "Espérance."
+      "group_frtrans": "Espérance.",
+      "section": "SPES",
+      "section_ru": "Надежда",
+      "section_en": "Hope"
     },
     {
       "id": "alc54",
@@ -1332,7 +1458,10 @@
       "text_frtrans": [
         "¶L'Espérance et Némésis se tiennent ensemble devant nos autels, / afin, sans doute, que tu n'espères rien sinon ce qui est permis."
       ],
-      "group_frtrans": "Espérance."
+      "group_frtrans": "Espérance.",
+      "section": "SPES",
+      "section_ru": "Надежда",
+      "section_en": "Hope"
     },
     {
       "id": "alc55",
@@ -1363,7 +1492,10 @@
       "text_frtrans": [
         "¶Si l'épouse du maître commet l'inceste dans la maison, le porphyrion / perd courage et meurt de douleur. / La cause en est cachée dans les secrets de la nature : que cet oiseau / soit le signe certain d'une pudeur sincère."
       ],
-      "group_frtrans": "Pudeur."
+      "group_frtrans": "Pudeur.",
+      "section": "PVDICITIA",
+      "section_ru": "Целомудрие",
+      "section_en": "Chastity"
     },
     {
       "id": "alc56",
@@ -1394,7 +1526,10 @@
       "text_frtrans": [
         "¶Moi, la Vertu, je baigne de mes larmes le tertre d'Ajax, / misérable, les cheveux blanchis et arrachés. / Voilà donc ce qui me restait encore : être vaincue, / devant un juge grec, et que la ruse l'emporte sur la cause la plus forte."
       ],
-      "group_frtrans": "Vices. Perfidie."
+      "group_frtrans": "Vices. Perfidie.",
+      "section": "PERFIDIA",
+      "section_ru": "Вероломство",
+      "section_en": "Treachery"
     },
     {
       "id": "alc57",
@@ -1425,7 +1560,10 @@
       "text_frtrans": [
         "¶Le petit lézard, le corps semé de taches noires étoilées, / le stellion, qui habite les cachettes et les tombeaux creux, / porte peint sur lui l'emblème de l'envie et de la perfide tromperie. / Hélas, trop bien connu des jeunes épouses jalouses. / Car quiconque boit le vin où fut noyé / un stellion voit son visage se couvrir de taches hideuses. / De là vient la fréquente vengeance, trompant par ce vin la maîtresse / que l'amant délaisse, une fois perdue la fleur de sa beauté."
       ],
-      "group_frtrans": "Vices. Perfidie."
+      "group_frtrans": "Vices. Perfidie.",
+      "section": "PERFIDIA",
+      "section_ru": "Вероломство",
+      "section_en": "Treachery"
     },
     {
       "id": "alc58",
@@ -1456,7 +1594,10 @@
       "text_frtrans": [
         "¶Le canard appelant, bien nourri, aux plumes d'azur, / accoutumé à aller et venir vers ses maîtres. / Apercevant voler dans les airs des bandes de ses semblables, / il cancane, et se joint à leur troupe, / jusqu'à les mener, imprudents, sous les filets tendus. / Les captifs se débattent en criant, mais lui-même, complice, se tait. / Oiseau perfide, il se souille du sang de ses proches, / serviable aux autres, funeste aux siens."
       ],
-      "group_frtrans": "Vices. Perfidie."
+      "group_frtrans": "Vices. Perfidie.",
+      "section": "PERFIDIA",
+      "section_ru": "Вероломство",
+      "section_en": "Treachery"
     },
     {
       "id": "alc59",
@@ -1487,7 +1628,10 @@
       "text_frtrans": [
         "¶On dit que sur le tombeau d'Archiloque sont sculptées dans le marbre / des guêpes, sûrs sceaux d'une langue méchante."
       ],
-      "group_frtrans": "Vices. Perfidie."
+      "group_frtrans": "Vices. Perfidie.",
+      "section": "PERFIDIA",
+      "section_ru": "Вероломство",
+      "section_en": "Treachery"
     },
     {
       "id": "alc60",
@@ -1518,7 +1662,10 @@
       "text_frtrans": [
         "¶Une bande de brigands et de voleurs, farouche escorte, t'accompagne / par la ville — cohorte ceinte d'épées terribles. / Et ainsi, prodigue, tu te crois d'âme généreuse, / parce que ta marmite attire une foule de malfaiteurs. / Voici un nouvel Actéon, qui, après avoir pris des cornes, / s'est livré lui-même en proie à ses propres chiens."
       ],
-      "group_frtrans": "Vices. Perfidie."
+      "group_frtrans": "Vices. Perfidie.",
+      "section": "PERFIDIA",
+      "section_ru": "Вероломство",
+      "section_en": "Treachery"
     },
     {
       "id": "alc61",
@@ -1549,7 +1696,10 @@
       "text_frtrans": [
         "¶Toujours bouche ouverte, toujours aspirant et rejetant / le ténu souffle d'air dont il se nourrit, le caméléon / change de visage et prend des couleurs variées, / hormis le rouge ou le blanc. / Ainsi le flatteur se nourrit de la faveur populaire, / et, bouche ouverte, dévore tout. / Et il n'imite que les sombres mœurs du prince, / sans rien savoir de ce qui est pur et chaste."
       ],
-      "group_frtrans": "Vices. Perfidie."
+      "group_frtrans": "Vices. Perfidie.",
+      "section": "PERFIDIA",
+      "section_ru": "Вероломство",
+      "section_en": "Treachery"
     },
     {
       "id": "alc62",
@@ -1580,7 +1730,10 @@
       "text_frtrans": [
         "¶Pourquoi amasses-tu ton nid au sein de la Colchidienne ? Hélas, / oiseau sans discernement, pourquoi confies-tu si mal tes petits à cette mère ? / La cruelle Médée, très farouche mère, a perdu / ses propres enfants — et tu espères qu'elle épargnera les tiens ?"
       ],
-      "group_frtrans": "Vices. Perfidie."
+      "group_frtrans": "Vices. Perfidie.",
+      "section": "PERFIDIA",
+      "section_ru": "Вероломство",
+      "section_en": "Treachery"
     },
     {
       "id": "alc63",
@@ -1611,7 +1764,10 @@
       "text_frtrans": [
         "¶Il est emporté tête baissée, et en vain le cocher / tend les rênes, traîné par un cheval à la bouche effrénée. / Ne te fie pas aisément à celui que nulle raison ne gouverne, / et qui, témérairement, n'est mené que par son propre caprice."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc64",
@@ -1642,7 +1798,10 @@
       "text_frtrans": [
         "¶Un bouclier porte peint le mufle d'un lion furieux, / et sur son rebord supérieur un vers est gravé : / « Ceci est la terreur des hommes » — dont le possesseur, fils d'Atrée, / le magnanime Agamemnon, portait de tels emblèmes."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc65",
@@ -1673,7 +1832,10 @@
       "text_frtrans": [
         "¶Tu vois Phaéton, cocher du char paternel, / qui osa diriger les chevaux du Soleil vomissant le feu. / Après avoir répandu sur la terre de très grands incendies, / il tomba, misérable, par témérité et ignorance, du haut de l'essieu. / Ainsi maints rois, portés par les roues de la Fortune jusqu'aux astres, / que pousse une ambition juvénile, finissent de même : / après un grand désastre, et du genre humain, et du leur propre, / ils paient enfin la peine de tous leurs crimes."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc66",
@@ -1704,7 +1866,10 @@
       "text_frtrans": [
         "¶Pendant qu'il dort, pendant que d'un doux sommeil il restaure son corps / sous le pin, tenant sa massue et ses autres armes, / la tribu des Pygmées croit pouvoir terrasser Alcide / de mort — ne connaissant guère ses propres forces. / Mais lui, réveillé, les écrase comme des puces, / et les emporte, empêtrés, dans la peau du féroce lion."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc67",
@@ -1735,7 +1900,10 @@
       "text_frtrans": [
         "¶Tu laves l'Éthiopien — pourquoi en vain ? Ah, cesse. Nul ne peut / éclaircir les ténèbres de la noire nuit."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc68",
@@ -1766,7 +1934,10 @@
       "text_frtrans": [
         "¶Pourquoi beaucoup appellent-ils les gens des champs, race rustique, / « coucous » ? Quelle en fut la raison alléguée ? / Le coucou chante au début du printemps, au moment même / où qui n'a pas encore taillé sa vigne est, à bon droit, noté pour paresse. / Il pond son œuf dans des nids étrangers, tel celui / dont la femme trahit le lit conjugal par adultère."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc69",
@@ -1797,7 +1968,10 @@
       "text_frtrans": [
         "¶Les auteurs rapportent que de cet oiseau semblable à la chauve-souris, / le disciple de Socrate, Chéréphon, tira son surnom. / L'homme avait le visage sombre et une petite voix stridente — / d'une telle marque il put être ainsi flétri."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc70",
@@ -1828,7 +2002,10 @@
       "text_frtrans": [
         "¶Celle qui ne vole que le soir, qui est borgne à la lumière, / qui, tout en portant des ailes, a pour le reste l'aspect d'une souris, / s'applique en premier lieu à ceux qui ont mauvaise renommée, / qui se cachent et redoutent le jugement. / Puis aux philosophes qui, cherchant les choses célestes, / s'aveuglent les yeux et ne voient que le faux. / Enfin aux rusés, qui, ménageant secrètement les deux partis, / n'acquièrent la confiance d'aucun des deux."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc71",
@@ -1859,7 +2036,10 @@
       "text_frtrans": [
         "¶Les anciens nommaient Alcée la queue du lion, / par l'aiguillon de laquelle il conçoit une lourde colère. / Quand monte la bile jaune, et que la douleur s'exaspère / de noire bile, elle éveille des fureurs indomptables."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc72",
@@ -1890,7 +2070,10 @@
       "text_frtrans": [
         "¶Moi, chèvre, j'allaite maintenant, non de mon gré, un louveteau de mon pis, / parce que le soin mal avisé et trop prévoyant du berger l'ordonne. / Dès qu'il aura grandi à mes côtés, il me dévorera après mon pis. / La méchanceté ne fléchit devant aucun service rendu."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc73",
@@ -1921,7 +2104,10 @@
       "text_frtrans": [
         "¶Tu t'étonnes qu'en mon vers on t'appelle Otus [hibou], / alors que ton vieux nom ancestral est Othon. / Le hibou huppé a des plumes semblables à celles de la chouette ; / quand il danse, l'oiseleur habile s'empare de l'oiseau. / De là nous appelons « otos » les sots, faciles à prendre — / reçois donc toi aussi ce nom qui te convient."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc74",
@@ -1952,7 +2138,10 @@
       "text_frtrans": [
         "¶Quand le loup cervier affamé dévore sa proie, / et que, pressé par la faim, il engloutit le faon capturé, / s'il advient qu'il regarde ailleurs, ou détourne les yeux, / oubliant la nourriture même qu'il tient dans sa griffe, / il se met en quête d'une proie incertaine (tant est grand l'oubli). / Qui par sottise a négligé son bien cherche celui d'autrui."
       ],
-      "group_frtrans": "Folie."
+      "group_frtrans": "Folie.",
+      "section": "STVLTITIA",
+      "section_ru": "Глупость",
+      "section_en": "Folly"
     },
     {
       "id": "alc75",
@@ -1983,7 +2172,10 @@
       "text_frtrans": [
         "¶Voici statue de statue, et marbre tiré du marbre : / Niobé, qui osa, insolente, se comparer aux dieux. / L'orgueil est vice féminin, et révèle la dureté / du visage et de l'esprit, telle qu'elle réside dans la pierre."
       ],
-      "group_frtrans": "Orgueil."
+      "group_frtrans": "Orgueil.",
+      "section": "SVPERBIA",
+      "section_ru": "Гордыня",
+      "section_en": "Pride"
     },
     {
       "id": "alc76",
@@ -2014,7 +2206,10 @@
       "text_frtrans": [
         "¶Femme jusqu'à l'aine, ceinte plus bas de petits / monstres aboyants, telle était Scylla biforme. / On tient pour monstres l'avarice, l'audace, le rapt. / Mais Scylla, c'est quiconque n'a nulle pudeur sur le visage."
       ],
-      "group_frtrans": "Orgueil."
+      "group_frtrans": "Orgueil.",
+      "section": "SVPERBIA",
+      "section_ru": "Гордыня",
+      "section_en": "Pride"
     },
     {
       "id": "alc77",
@@ -2045,7 +2240,10 @@
       "text_frtrans": [
         "¶Parce que ta beauté, Narcisse, te plaisait trop à toi-même, / tu fus changé en fleur, et en plante d'un fameux engourdissement. / L'amour-propre est le flétrissement et le fléau du génie : il a perdu / et perd encore nombre d'hommes savants, / qui, rejetant la méthode des anciens, cherchent des doctrines nouvelles, / et ne transmettent rien que leurs propres fantaisies."
       ],
-      "group_frtrans": "Orgueil."
+      "group_frtrans": "Orgueil.",
+      "section": "SVPERBIA",
+      "section_ru": "Гордыня",
+      "section_en": "Pride"
     },
     {
       "id": "alc78",
@@ -2076,7 +2274,10 @@
       "text_frtrans": [
         "¶Pourquoi, bavarde Procné, romps-tu mon sommeil matinal, / et chantes-tu, fille de Daulis, de ta bouche bruyante ? / Térée, devenu huppe, méritait bien qu'on préférât / arracher sa langue intempérante au fil de l'épée plutôt qu'au cri."
       ],
-      "group_frtrans": "Orgueil."
+      "group_frtrans": "Orgueil.",
+      "section": "SVPERBIA",
+      "section_ru": "Гордыня",
+      "section_en": "Pride"
     },
     {
       "id": "alc79",
@@ -2107,7 +2308,10 @@
       "text_frtrans": [
         "¶Une femme hâve, mangeant chair de vipère, / dont les yeux souffrent, et qui dévore son propre cœur, / que la maigreur et la pâleur accablent, et qui porte une arme / épineuse à la main. Ainsi peint-on l'Envie."
       ],
-      "group_frtrans": "Envie."
+      "group_frtrans": "Envie.",
+      "section": "INVIDIA",
+      "section_ru": "Зависть",
+      "section_en": "Envy"
     },
     {
       "id": "alc80",
@@ -2138,7 +2342,10 @@
       "text_frtrans": [
         "¶Faune aux pieds de chèvre, les tempes ceintes de chenille, / porte les symboles certains d'une Vénus sans mesure. / La chenille est lascive, et le bouc juge de la volupté, / et les satyres ont toujours coutume d'aimer les nymphes."
       ],
-      "group_frtrans": "Luxure."
+      "group_frtrans": "Luxure.",
+      "section": "LVXVRIA",
+      "section_ru": "Роскошество",
+      "section_en": "Luxury"
     },
     {
       "id": "alc81",
@@ -2169,7 +2376,10 @@
       "text_frtrans": [
         "¶Sur des rochers aériens, au rebord du plus haut roc, / le figuier sauvage produit des fruits âpres et immatures, / que mangent les corbeaux, que dévore l'impudente corneille, / fruits qui ne servent en rien à l'usage des hommes. / Ainsi des richesses des sots jouissent parasites et courtisanes : / et par nulle utilité elles n'aident les justes."
       ],
-      "group_frtrans": "Luxure."
+      "group_frtrans": "Luxure.",
+      "section": "LVXVRIA",
+      "section_ru": "Роскошество",
+      "section_en": "Luxury"
     },
     {
       "id": "alc82",
@@ -2200,7 +2410,10 @@
       "text_frtrans": [
         "¶« Quel est ce tombeau ? De qui cette urne ? » — « C'est celle de Laïs de Corinthe. » / « La Parque a-t-elle rougi de perdre une si grande beauté ? » / « Il n'y avait alors plus de beauté ; l'âge déjà l'avait flétrie ; / déjà la vieille, prudente, avait dédié son miroir à Vénus. » / « Que signifie ce bélier sculpté, que par-derrière une lionne / tient saisi de ses griffes ? » / « Que, de même, elle-même tenait ses amants captifs : / le bélier est le mâle du troupeau, l'amant est retenu par la croupe. »"
       ],
-      "group_frtrans": "Luxure."
+      "group_frtrans": "Luxure.",
+      "section": "LVXVRIA",
+      "section_ru": "Роскошество",
+      "section_en": "Luxury"
     },
     {
       "id": "alc83",
@@ -2231,7 +2444,10 @@
       "text_frtrans": [
         "¶Le pêcheur, revêtu de la toison velue d'une chèvre, / ayant ajouté à sa tête deux cornes, / trompe, debout sur le haut du rivage, le sarge amoureux : / que l'ardeur pour le troupeau camus pousse dans les filets. / La chèvre figure la courtisane, le sarge devient semblable à l'amant, / qui, misérable, pris d'un amour infâme, périt."
       ],
-      "group_frtrans": "Luxure."
+      "group_frtrans": "Luxure.",
+      "section": "LVXVRIA",
+      "section_ru": "Роскошество",
+      "section_en": "Luxury"
     },
     {
       "id": "alc84",
@@ -2262,7 +2478,10 @@
       "text_frtrans": [
         "¶Si grande, dit-on, est la puissance de Circé, fille du Soleil, / qu'elle changea bien des hommes en monstres inouïs. / Témoin le dompteur de chevaux Picus, puis Scylla biforme, / et les pourceaux que devinrent, après avoir bu son vin, les compagnons d'Ulysse. / Sous le nom illustre de Circé on désigne la courtisane, / et le fait que quiconque aime perd la raison."
       ],
-      "group_frtrans": "Luxure."
+      "group_frtrans": "Luxure.",
+      "section": "LVXVRIA",
+      "section_ru": "Роскошество",
+      "section_en": "Luxury"
     },
     {
       "id": "alc85",
@@ -2293,7 +2512,10 @@
       "text_frtrans": [
         "¶Cypris ensevelit, sous les feuilles de laitue, Adonis sans vie, / les aines percées par la dent féroce du sanglier. / De là la laitue résiste au champ de la génération / autant que la chenille lascive peut à peine l'exciter."
       ],
-      "group_frtrans": "Luxure."
+      "group_frtrans": "Luxure.",
+      "section": "LVXVRIA",
+      "section_ru": "Роскошество",
+      "section_en": "Luxury"
     },
     {
       "id": "alc86",
@@ -2324,7 +2546,10 @@
       "text_frtrans": [
         "¶Pour que l'amour cruel ne te vainque, ni qu'aucune femme / ne déchire ton esprit par des arts magiques : / qu'on te procure l'oiseau bachique, la bergeronnette, / que tu placeras dans un cercle à quatre rayons, / de sorte que, du bec et de la queue, et des deux ailes repliées, elle forme une croix — / telle sera l'amulette contre tout sortilège. / On dit que, par ce signe de Vénus, Jason de Pagases / ne put être atteint par les charmes de Phase."
       ],
-      "group_frtrans": "Luxure."
+      "group_frtrans": "Luxure.",
+      "section": "LVXVRIA",
+      "section_ru": "Роскошество",
+      "section_en": "Luxury"
     },
     {
       "id": "alc87",
@@ -2355,7 +2580,10 @@
       "text_frtrans": [
         "¶On croit que la souris blanche désigne / délices et mollesse, mais la raison ne m'en est pas bien claire. / Est-ce que sa nature est lascive, et son désir grand ? / Ou parce qu'elle orne de sa fourrure les jeunes Romaines ? / Beaucoup nomment la souris sarmate « zibeline », / et célèbre, d'un parfum suave, est le musc d'Arabie."
       ],
-      "group_frtrans": "Luxure."
+      "group_frtrans": "Luxure.",
+      "section": "LVXVRIA",
+      "section_ru": "Роскошество",
+      "section_en": "Luxury"
     },
     {
       "id": "alc88",
@@ -2386,7 +2614,10 @@
       "text_frtrans": [
         "¶L'Essénien reste assis, oisif, sous le boisseau, observant les astres, / et dessous il cache à la vue le flambeau allumé. / La nonchalance, sous l'apparence de la droiture, voilée d'un capuchon, / n'aide par son utilité ni elle-même, ni les autres."
       ],
-      "group_frtrans": "Paresse."
+      "group_frtrans": "Paresse.",
+      "section": "DESIDIA",
+      "section_ru": "Леность",
+      "section_en": "Sloth"
     },
     {
       "id": "alc89",
@@ -2417,7 +2648,10 @@
       "text_frtrans": [
         "¶Que l'indolent s'en aille. Car fixer sa demeure sous le boisseau, / les saints enseignements du vieillard de Samos nous le défendent. / Lève-toi donc, et accoutume tes mains au dur labeur, / afin que l'heure de demain te donne ta part mesurée de nourriture."
       ],
-      "group_frtrans": "Paresse."
+      "group_frtrans": "Paresse.",
+      "section": "DESIDIA",
+      "section_ru": "Леность",
+      "section_en": "Sloth"
     },
     {
       "id": "alc90",
@@ -2448,7 +2682,10 @@
       "text_frtrans": [
         "¶Tel le petit rémora, méprisant l'assaut du vent, / peut seul arrêter le navire avec ses rames, / ainsi certains, portés vers les astres par leur talent et leur vertu, / sont retenus à mi-chemin par une cause légère : / tel un procès angoissant, ou telle l'ardeur vénale / qui détourne les jeunes gens de leurs nobles études."
       ],
-      "group_frtrans": "Paresse."
+      "group_frtrans": "Paresse.",
+      "section": "DESIDIA",
+      "section_ru": "Леность",
+      "section_en": "Sloth"
     },
     {
       "id": "alc91",
@@ -2479,7 +2716,10 @@
       "text_frtrans": [
         "¶C'était une ancienne fable que les serviteurs paresseux / se faisaient, par leur forme et leurs mœurs, pareils au héron des étoiles (ardeola), / prenant, disait-on, la figure de l'oiseau servante d'Astérie : / ceci est fiction ; que les historiens en répondent. / Tel est ce dégénéré, comme un faucon qui tournoie oisivement dans l'air, / nommé par les anciens poètes « ardélion » (le remuant inutile)."
       ],
-      "group_frtrans": "Paresse."
+      "group_frtrans": "Paresse.",
+      "section": "DESIDIA",
+      "section_ru": "Леность",
+      "section_en": "Sloth"
     },
     {
       "id": "alc92",
@@ -2510,7 +2750,10 @@
       "text_frtrans": [
         "¶Hélas, le malheureux Tantale se tient, assoiffé, au milieu des eaux, / et, affamé, ne peut atteindre les fruits tout proches. / Le nom seul changé, on dira cela de toi, avare, / qui, comme si tu ne l'avais pas, ne jouis point de ce que tu as."
       ],
-      "group_frtrans": "Avarice."
+      "group_frtrans": "Avarice.",
+      "section": "AVARITIA",
+      "section_ru": "Скупость",
+      "section_en": "Avarice"
     },
     {
       "id": "alc93",
@@ -2541,7 +2784,10 @@
       "text_frtrans": [
         "¶Septitius, le plus riche de tous les hommes, vieillard dont nul / ne possède de champs plus vastes. / Se privant lui-même de son propre plaisir, et des tables dressées, / il ne dévore rien que des bettes et de dures raves. / À qui le comparerai-je, lui que l'abondance rend indigent ? / À l'âne, peut-être ? Il en est bien l'image. / Car l'âne porte sur son dos de précieuses victuailles, / et lui-même, pauvre, se nourrit de ronce ou de dure laîche."
       ],
-      "group_frtrans": "Avarice."
+      "group_frtrans": "Avarice.",
+      "section": "AVARITIA",
+      "section_ru": "Скупость",
+      "section_en": "Avarice"
     },
     {
       "id": "alc94",
@@ -2572,7 +2818,10 @@
       "text_frtrans": [
         "¶La vaine cour palatine, qui élève ses clients, / on dit qu'elle les enchaîne de fers dorés."
       ],
-      "group_frtrans": "Avarice."
+      "group_frtrans": "Avarice.",
+      "section": "AVARITIA",
+      "section_ru": "Скупость",
+      "section_en": "Avarice"
     },
     {
       "id": "alc95",
@@ -2603,7 +2852,10 @@
       "text_frtrans": [
         "¶L'ibis, qui de son bec (comme d'un clystère) se purge le ventre, / connu sur les rives du Nil, / est devenu une injure proverbiale : ainsi Publius / Naso nomme son ennemi, et le Battiade le sien."
       ],
-      "group_frtrans": "Avarice."
+      "group_frtrans": "Avarice.",
+      "section": "AVARITIA",
+      "section_ru": "Скупость",
+      "section_en": "Avarice"
     },
     {
       "id": "alc96",
@@ -2634,7 +2886,10 @@
       "text_frtrans": [
         "¶Qui pêche les anguilles, s'il parcourt des fleuves limpides, / s'il ose aborder des lacs sans vase, / repartira bredouille, et perdra sa peine : qu'il agite donc beaucoup / le fond et que sa rame trouble les eaux limpides — / il deviendra riche. Ainsi, pour ceux-là, l'État troublé est profit, / qui, en temps de paix, resserrés par les lois, ont faim."
       ],
-      "group_frtrans": "Avarice."
+      "group_frtrans": "Avarice.",
+      "section": "AVARITIA",
+      "section_ru": "Скупость",
+      "section_en": "Avarice"
     },
     {
       "id": "alc97",
@@ -2665,7 +2920,10 @@
       "text_frtrans": [
         "¶Assis sur un dauphin, Arion sillonne les flots d'azur, / et de ce chant charme les oreilles et retient la bouche. / Combien l'esprit de l'homme avare est plus cruel que celui des bêtes : / nous, ravis par les hommes, sommes sauvés par les poissons."
       ],
-      "group_frtrans": "Avarice."
+      "group_frtrans": "Avarice.",
+      "section": "AVARITIA",
+      "section_ru": "Скупость",
+      "section_en": "Avarice"
     },
     {
       "id": "alc98",
@@ -2696,7 +2954,10 @@
       "text_frtrans": [
         "¶On peint un homme au ventre gonflé comme de blé, pareil à celui des grues, / portant en ses mains un goéland ou un pélican. / Telle fut la forme de Denys, et telle celle d'Apicius, / et de ceux que rend célèbres une gourmandise délicate."
       ],
-      "group_frtrans": "Gourmandise."
+      "group_frtrans": "Gourmandise.",
+      "section": "GVLA",
+      "section_ru": "Чревоугодие",
+      "section_en": "Gluttony"
     },
     {
       "id": "alc99",
@@ -2727,7 +2988,10 @@
       "text_frtrans": [
         "¶Infatigable, il ne cesse de tresser une corde de genêt, / joignant de sa main habile les fils humides. / Mais autant il en tord à grand-peine en de nombreuses heures, / aussitôt l'ânesse au ventre oisif la dévore. / De même, la femme, pareille à cette bête, auprès d'un mari complaisant, / ravit ses gains et dissipe son bien."
       ],
-      "group_frtrans": "Gourmandise."
+      "group_frtrans": "Gourmandise.",
+      "section": "GVLA",
+      "section_ru": "Чревоугодие",
+      "section_en": "Gluttony"
     },
     {
       "id": "alc100",
@@ -2758,7 +3022,10 @@
       "text_frtrans": [
         "¶Reçois de nous ce présent, ces écrevisses de rivière, / dons qui conviennent à tes mœurs. / Elles ont les yeux vigilants, et maintes rangées / de pinces armées comme des ciseaux, et le plus grand des ventres. / Ainsi pend devant toi un ventre au gras abdomen, / et des pieds agiles, et des aiguillons adaptés au pied. / Quand, vagabond aux carrefours et aux bancs des tables, tu erres, / et lances sur les autres de fausses railleries mordantes."
       ],
-      "group_frtrans": "Gourmandise."
+      "group_frtrans": "Gourmandise.",
+      "section": "GVLA",
+      "section_ru": "Чревоугодие",
+      "section_en": "Gluttony"
     },
     {
       "id": "alc101",
@@ -2789,7 +3056,10 @@
       "text_frtrans": [
         "¶Dans le peu, il n'est rien à gagner pour quiconque : et un seul / arbrisseau ne nourrit point deux rouges-gorges. / AUTRE. / Dans le mince il n'est nul espoir de gain : et sur un seul / arbrisseau deux fauvettes à figues s'accordent mal."
       ],
-      "group_frtrans": "Gourmandise."
+      "group_frtrans": "Gourmandise.",
+      "section": "GVLA",
+      "section_ru": "Чревоугодие",
+      "section_en": "Gluttony"
     },
     {
       "id": "alc102",
@@ -2820,7 +3090,10 @@
       "text_frtrans": [
         "¶La souris, rongeuse des domaines, de la table et du garde-manger du maître, / vit les huîtres entrouvrant leurs lèvres béantes. / Y présentant sa tendre moustache, elle mordit les os trompeurs, / mais celles-ci, à peine touchées, refermèrent soudain leur demeure. / Et elles tinrent le voleur surpris dans une noire prison, / lui qui s'était lui-même livré à un sombre tombeau."
       ],
-      "group_frtrans": "Gourmandise."
+      "group_frtrans": "Gourmandise.",
+      "section": "GVLA",
+      "section_ru": "Чревоугодие",
+      "section_en": "Gluttony"
     },
     {
       "id": "alc103",
@@ -2851,7 +3124,10 @@
       "text_frtrans": [
         "¶Il crie d'une voix farouche, sa gorge est fort large ; son bec / a la forme d'un nez et d'une trompe à mille trous. / Il désignera le plaideur difforme et criard, adonné au ventre et à la gueule, / quand l'oiseau sera peint avec une louche."
       ],
-      "group_frtrans": "Gourmandise."
+      "group_frtrans": "Gourmandise.",
+      "section": "GVLA",
+      "section_ru": "Чревоугодие",
+      "section_en": "Gluttony"
     },
     {
       "id": "alc104",
@@ -2882,7 +3158,10 @@
       "text_frtrans": [
         "¶C'est une ancienne coutume d'ajouter aux professeurs / quelques surnoms. / Celui qui n'explique que les passages faciles et clairs, / est appelé Curtius le Bref-Canon. / Celui qui revient sans cesse sur le même point et répète à l'excès, / est le Méandre, comme Parisius. / Obscur et confus, tel que fut Picus, / sera appelé Labyrinthe. / Trop bref, retranchant beaucoup, tel Claudius, / portera le surnom de Pointe-d'épée. / Qui même brise les colonnes de sa voix, Parpalus, / les écoliers l'appellent Butor. / À l'inverse, Albius, qui avait la voix ténue, / fut appelé Chauve-souris. / Et celui qui mutile les dernières syllabes, / est dit l'Hirondelle-Épaisse. / Qui, sourd aux autres, ne veut parler que lui-même, / est l'Étourneau, comme dit le proverbe. / Celui-ci zézaie, celui-là est rauque, cet autre bavarde. / Celui-ci siffle comme la vipère. / Cet autre s'agite de la bouche et des narines : / à celui-là la langue fait l'office d'une tarière. / Un autre hoquette, et tousse en hésitant : / un autre crache comme une bruine. / Autant il y a de vices dans les choses humaines, / autant naissent de surnoms."
       ],
-      "group_frtrans": "Surnoms des savants."
+      "group_frtrans": "Surnoms des savants.",
+      "section": "DOCTORVM AGNOMINA",
+      "section_ru": "Прозвища учёных",
+      "section_en": "Epithets of the learned"
     },
     {
       "id": "alc106",
@@ -2913,7 +3192,10 @@
       "text_frtrans": [
         "¶Les peuples honorent Pan (c'est là nommer la nature des choses), / homme à demi-chèvre, et dieu à demi-homme. / Il est homme jusqu'aux reins, car la vertu mise en nous, / naissant du cœur, siège en la haute citadelle du sommet. / De là vient aussi qu'il est bouc, car la nature nous prolonge à travers les siècles / par l'accouplement : comme les oiseaux, les écailleux, les bêtes brutes, les fauves. / Ce qu'il a de commun avec les autres êtres vivants, le bouc le manifeste — / signe de luxure, portant les marques ouvertes de Vénus. / Les uns ont attribué la sagesse au cœur, d'autres au cerveau. / Les parties inférieures, elles, ne connaissent ni mesure ni raison."
       ],
-      "group_frtrans": "Nature."
+      "group_frtrans": "Nature.",
+      "section": "NATVRA",
+      "section_ru": "Природа",
+      "section_en": "Nature"
     },
     {
       "id": "alc107",
@@ -2944,7 +3226,10 @@
       "text_frtrans": [
         "¶Comme Fortune siège sur une sphère, ainsi Hermès siège sur un cube : / celui-ci préside aux arts, celle-là aux hasards divers. / Contre la puissance de la Fortune l'art fut créé : mais l'art lui-même, / quand la fortune est mauvaise, a souvent besoin de secours. / Apprenez donc les bons arts, jeunesse studieuse, / qui portent avec eux les avantages d'un sort assuré."
       ],
-      "group_frtrans": "Nature."
+      "group_frtrans": "Nature.",
+      "section": "NATVRA",
+      "section_ru": "Природа",
+      "section_en": "Nature"
     },
     {
       "id": "alc108",
@@ -2975,7 +3260,10 @@
       "text_frtrans": [
         "¶Tous deux fils de Jupiter, tous deux tendres et imberbes — / celui que Latone enfanta, et celui que Sémélé enfanta, / salut à vous, et fleurissez ensemble en une jeunesse éternelle ; / que par votre divine volonté elle me dure aussi longtemps. / Toi, par le vin, tu soignes les soucis ; toi, par le régime, tu dissous les maux, / afin que la tardive vieillesse n'approche que d'un pas lent."
       ],
-      "group_frtrans": "Nature."
+      "group_frtrans": "Nature.",
+      "section": "NATVRA",
+      "section_ru": "Природа",
+      "section_en": "Nature"
     },
     {
       "id": "alc109",
@@ -3006,7 +3294,10 @@
       "text_frtrans": [
         "¶L'oiseau pinson annonce l'arrivée de l'hiver. / Vers nous, au nouveau printemps, revient la bavarde hirondelle. / Le coucou indique qu'il faut attendre l'été. / Ce n'est qu'en automne qu'on peut voir les becfigues."
       ],
-      "group_frtrans": "Nature."
+      "group_frtrans": "Nature.",
+      "section": "NATVRA",
+      "section_ru": "Природа",
+      "section_en": "Nature"
     },
     {
       "id": "alc110",
@@ -3037,7 +3328,10 @@
       "text_frtrans": [
         "¶Reçois cette coupe de Nestor, à double fond, / qu'une lourde masse d'argent façonna de son travail. / Autour se dressent quatre anses à clous d'or : / sur chacune une colombe est posée. / Seul le très vieux Nestor put la soulever. / M'enseigneras-tu, fils de Méonie, ce que voulait dire la Muse ? / La coupe elle-même est le ciel : sa couleur en est argentée ; / les clous d'or sont les astres du ciel. / On pense que ce sont les Pléiades, qu'il appela colombes. / Les deux ombilics des anses, grande et petite, sont les Ourses. / Ceci, le sage Nestor le comprend par un long usage : / les braves font la guerre, l'habile possède les astres."
       ],
-      "group_frtrans": "Astrologie."
+      "group_frtrans": "Astrologie.",
+      "section": "ASTROLOGIA",
+      "section_ru": "Астрология",
+      "section_en": "Astrology"
     },
     {
       "id": "alc112",
@@ -3068,7 +3362,10 @@
       "text_frtrans": [
         "¶Prométhée, à jamais suspendu au rocher du Caucase, / a le foie déchiré par la serre de l'oiseau sacré — / pour n'avoir pas voulu que l'homme fût fait, et, haïssant les potiers [créateurs], / il est condamné pour le flambeau allumé au feu dérobé. / Les cœurs des sages sont rongés de soucis divers, / eux qui prétendent connaître les affaires du ciel et les alternances des dieux."
       ],
-      "group_frtrans": "Astrologie."
+      "group_frtrans": "Astrologie.",
+      "section": "ASTROLOGIA",
+      "section_ru": "Астрология",
+      "section_en": "Astrology"
     },
     {
       "id": "alc113",
@@ -3099,7 +3396,10 @@
       "text_frtrans": [
         "¶Icare, emporté au-dessus des cieux et de l'air, jusqu'à ce que / la cire fondue te précipitât dans la mer, / aujourd'hui cette même cire, et le feu brûlant, te ranime, / afin que par ton exemple tu enseignes des vérités certaines. / Que l'astrologue se garde de prédire quoi que ce soit à la légère, / car lui aussi est un imposteur, tant qu'il vole au-dessus des astres."
       ],
-      "group_frtrans": "Astrologie."
+      "group_frtrans": "Astrologie.",
+      "section": "ASTROLOGIA",
+      "section_ru": "Астрология",
+      "section_en": "Astrology"
     },
     {
       "id": "alc114",
@@ -3130,7 +3430,10 @@
       "text_frtrans": [
         "¶Tandis qu'avec la glu il trompe les grives, qu'au lacet il prend les alouettes, / et qu'il transperce d'un trait jeté la grue au vol élevé, / l'oiseleur imprudent du pied heurte une dipsade : celle-ci, / vengeresse du mal, de sa gueule lance le venin. / Ainsi meurt celui qui, l'arc bandé, regarde les astres, / insouciant du destin qui gît devant ses pieds."
       ],
-      "group_frtrans": "Astrologie."
+      "group_frtrans": "Astrologie.",
+      "section": "ASTROLOGIA",
+      "section_ru": "Астрология",
+      "section_en": "Astrology"
     },
     {
       "id": "alc115",
@@ -3161,7 +3464,10 @@
       "text_frtrans": [
         "¶Vois comme l'invincible force du cocher-lion, / gravée sur cette gemme, un petit Amour la vainc plus nettement encore : / comme d'une main il tient le fouet, de l'autre il mène les rênes, / et combien de grâce habite le visage de l'enfant. / Que cette cruelle contagion reste loin de nous : car celui qui peut / vaincre une telle bête, épargnerait-il nos mains ?"
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc116",
@@ -3192,7 +3498,10 @@
       "text_frtrans": [
         "¶Vois comme l'Amour nu rit, et regarde avec calme ? / Il n'a ni flambeau, ni arc qu'il courbe. / Mais l'une de ses mains porte des fleurs, l'autre un poisson, / à savoir pour donner ses lois à la terre et à la mer."
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc117",
@@ -3223,7 +3532,10 @@
       "text_frtrans": [
         "¶Le dieu ailé a brisé par le feu la foudre ailée, / montrant par là combien le feu de l'amour est plus fort."
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc118",
@@ -3254,7 +3566,10 @@
       "text_frtrans": [
         "¶Plongé dans l'étude, habile en l'art de parler et en droit, / et le plus grand rédacteur de requêtes, / il aime Hélianire autant que jamais le prince de Thrace / n'aima la rivale de sa sœur. / Pourquoi, Cypris, as-tu de nouveau vaincu Pallas devant un autre juge ? / N'était-ce pas assez de vaincre une fois, sous l'Ida ?"
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc119",
@@ -3285,7 +3600,10 @@
       "text_frtrans": [
         "¶« Dis-moi, où sont tes arcs recourbés ? où sont tes traits, Cupidon, / dont tu as coutume de percer les tendres cœurs des jeunes gens ? / Où est ton sombre flambeau ? où sont tes ailes ? pourquoi ta main porte-t-elle trois couronnes ? / Pourquoi tes tempes en portent-elles une autre encore ? » / « Je ne suis pas de ceux du commun, étranger : nulle volupté égale à Cypris, / nulle beauté ne nous a jamais émus, / mais j'allume dans les esprits purs des hommes les feux / du savoir : je tire les âmes vers les hautes étoiles. / Et moi-même je tresse quatre couronnes de vertu, / dont celle de la Sagesse ceint le premier mes tempes. »"
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc120",
@@ -3316,7 +3634,10 @@
       "text_frtrans": [
         "¶Némésis l'a peint ailé, ennemi de l'Amour ailé, / domptant l'arc par l'arc, et le feu par le feu, / afin qu'il souffre ce qu'il fit subir aux autres. Et cet enfant, jadis / portant intrépidement ses armes, pleure à présent, misérable. / Trois fois il crache, et — chose étrange — jusqu'au fond de sa poitrine / il est consumé d'un feu par le feu : l'Amour hait les fureurs de l'Amour."
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc121",
@@ -3347,7 +3668,10 @@
       "text_frtrans": [
         "¶Sa mère laissée un peu à l'écart, l'enfant lydien / s'était éloigné un instant : mais vous, cruelles abeilles, l'avez assailli. / Il était venu vers vous, vous croyant de paisibles oiseaux, / alors que la vipère même, si farouche, ne l'eût pas été autant. / Ah, quels aiguillons vous donnez en échange du doux présent du miel ! / Ô douleur ! Hélas, sans toi nulle grâce ne se donne."
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc122",
@@ -3378,7 +3702,10 @@
       "text_frtrans": [
         "¶Tandis qu'il butinait le miel des ruches, une méchante abeille piqua / le voleur Amour, et laissa son dard / au bout de ses doigts : l'enfant gémit, anxieux de son doigt enflé, / et, errant, frappe le sol du pied ; à Vénus sa douleur / il montre, et se plaint amèrement que si petite / créature, une abeille, puisse infliger de si cuisantes blessures. / Vénus, riant, lui dit : « Toi aussi tu ressembles / à cette bête, mon fils : petit, et pourtant tu causes tant de douloureuses blessures. »"
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc123",
@@ -3409,7 +3736,10 @@
       "text_frtrans": [
         "¶Qui est l'Amour, bien des poètes jadis l'ont chanté, / rapportant ses hauts faits sous des noms divers. / Sur un point ils s'accordent : qu'il est sans vêtement, petit de corps, / qu'il porte traits et ailes, et n'a point d'yeux. / Tel est, dit-on, le visage et l'habit du dieu. Mais s'il est permis / de contredire de si grands poètes, je crois qu'il y a là du faux. / Pourquoi agirait-il nu ? comme si manquaient les manteaux à ce dieu / qui possède toutes les richesses du monde soumis. / Ou comment, nu, pourrait-il supporter Borée et les neiges, / et les prés alpins figés de gel ? / S'il est enfant, appelles-tu enfant celui qui surpasse Nestor ? / Ne connais-tu pas les doctes chants du vieillard d'Ascra ? / Enfant inconstant, dit-on — mais tenace ici : le cœur où une fois / il est entré, jamais de son plein gré il ne le quitte. / Mais il porte carquois et traits — pourquoi ce poids inutile ? / Un nourrisson peut-il bander un arc si rude ? / Il tient des ailes recourbées, qu'il ne sait porter dans l'éther ? / Et pourtant, sans adresse, il atteint le foie des oiseaux en plein vol. / Il rampe à terre, et toujours blesse le cœur mortel / des hommes : et pourtant, étant de pierre, il n'y agite nulle aile. / S'il est aveugle et porte un bandeau, à quoi sert ce bandeau à un aveugle ? / En voit-il moins pour autant ? / Et qui croirait porteur de flèches celui que la lumière a quitté ? / Lui, visant juste, bien qu'aveugle, lance des traits que d'autres lancent en vain. / On dit qu'il est de feu, et qu'il retourne des flammes en sa poitrine. / Pourquoi donc vit-il encore ? la flamme dévore tout. / Pourquoi même ne s'éteint-il pas dans les flots gonflés, / chaque fois qu'il pénètre les tendres cœurs des Naïades ? / Mais toi, pour n'être pas pris en de telles erreurs, écoute : / ce qu'est le véritable Amour, nos vers te l'apprendront. / C'est un travail agréable, au sein d'un loisir voluptueux ; son emblème / est la grenade punique sur un bouclier noir."
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc125",
@@ -3440,7 +3770,10 @@
       "text_frtrans": [
         "¶Depuis longtemps déjà, ayant quitté ta patrie, et oublieux des tiens / que t'ont donnés le sang ou l'amour, / tu habites Rome : et nul souci de revenir chez toi ne te vient à l'esprit. / Seul l'honneur de la ville éternelle te captive. / Ainsi la troupe envoyée en avant des gens d'Ithaque, séduite par la douceur du lotos, / avait quitté et sa patrie, et quitté son chef."
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc126",
@@ -3471,7 +3804,10 @@
       "text_frtrans": [
         "¶Des oiseaux sans ailes, des jeunes filles sans jambes, / des poissons sans bec, et qui pourtant chantent de la bouche : / qui croirait que cela existe ? La nature a refusé cette union, / mais on enseigne que des sirènes purent néanmoins se former. / Est illicite la femme qui finit en poisson noir, / car la luxure porte avec elle maints monstres. / Par le regard, les paroles, l'éclat apparent de l'âme, elles attirent / les hommes — Parthénope, Ligie et Leucosie. / Les Muses les déplument, et Ulysse se rit d'elles. / Il est clair que les savants n'ont rien à faire avec une courtisane."
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc127",
@@ -3502,7 +3838,10 @@
       "text_frtrans": [
         "¶Tandis que Sophocle (bien qu'avancé en âge) attire à ses désirs / Archippè, fille de petite vertu, / et la séduit par l'argent, la jeunesse insensée, par jalousie, / en prit ombrage, et par ce vers flétrit l'un et l'autre : / « Comme la chouette sur les tombeaux, le hibou sur les cadavres des urnes, / ainsi, près de Sophocle, siège notre jeune fille. »"
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc128",
@@ -3533,7 +3872,10 @@
       "text_frtrans": [
         "¶Le noir est l'indice du deuil : tous nous usons / de cette tenue, quand nous offrons nos hommages aux tombeaux. / Mais la robe blanche est celle de l'âme sincère et de l'esprit pur : / de là le lin agréable aux hommes voués au sacré. / Le vert nous enseigne à espérer. On dit que l'espoir / est « en herbe » chaque fois qu'il retombe, déçu, en arrière. / Le jaune sied aux avides, et convient aussi aux amants, / et aux courtisanes, et à ceux dont l'espoir fut assuré. / Mais que le rouge pare le manteau des cavaliers en armes, / et qu'il révèle la pudeur qui fait rougir les jeunes garçons. / Le bleu azur sied aux marins, et aux devins qui, / frappés d'un excès de piété, recherchent les choses célestes. / Vils sont les draps fauves, de laine naturelle non teinte, / tels que portent d'ordinaire, en guise de couvertures, les paysans à sabots de bois. / Celui que tourmentent de grands soucis, ou la jalousie amoureuse, / on croit qu'il est, non sans raison, vêtu de fauve. / Et quiconque, satisfait de son sort, porte le violet, / supporte avec sérénité les tourments de la Fortune. / Comme la nature est variée dans la production des couleurs, / ainsi diffère-t-elle pour chacun : mais chacun aime la sienne."
       ],
-      "group_frtrans": "Amour."
+      "group_frtrans": "Amour.",
+      "section": "AMOR",
+      "section_ru": "Любовь",
+      "section_en": "Love"
     },
     {
       "id": "alc130",
@@ -3564,7 +3906,10 @@
       "text_frtrans": [
         "¶Le caducée, enlacé de serpents, à deux ailes, / se dresse tout droit entre les cornes d'Amalthée. / Ainsi désigne-t-il les hommes puissants par l'esprit et habiles à gérer leurs biens, / afin qu'une abondante richesse les comble."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc131",
@@ -3595,7 +3940,10 @@
       "text_frtrans": [
         "¶Après avoir été vaincu par l'armée de César, et vu / Pharsale inondée du sang de la guerre civile, / déjà prêt à plonger le fer dans sa poitrine mourante, / Brutus, d'une bouche hardie, proféra ces paroles : / « Malheureuse Vertu, prévoyante seulement en paroles, / pourquoi, dans les faits, suis-tu la Fortune comme ta maîtresse ? »"
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc132",
@@ -3626,7 +3974,10 @@
       "text_frtrans": [
         "¶La main droite tient une pierre : l'autre main soutient des ailes. / Comme la plume m'élève, ainsi le lourd fardeau me submerge. / Par mon génie je pourrais voler à travers les citadelles d'en haut, / si l'envieuse pauvreté ne me tirait vers le bas."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc133",
@@ -3657,7 +4008,10 @@
       "text_frtrans": [
         "¶« Ceci est l'œuvre de Lysippe, dont la patrie est Sicyone. Et toi, qui es-tu ? » / « L'instant du temps saisi, domptant toutes choses. » / « Pourquoi te tiens-tu sur des ailes ? » — « Je tourne sans cesse. » — « Pourquoi gardes-tu / des sandales ailées aux pieds ? » — « Un vent léger m'emporte partout. » / « Dans ta main droite, dis-moi, d'où vient ce mince rasoir ? » — « Ce signe enseigne / que je suis plus tranchante que toute lame. » / « Pourquoi une mèche sur le front ? » — « Pour qu'on puisse me saisir à ma rencontre. Mais, dis-moi, / pourquoi l'arrière de ta tête est-il chauve ? » / « Afin que, si l'on me laisse une fois partir sur mon pied ailé, / on ne puisse ensuite me rattraper en saisissant mes cheveux par-derrière. » / « C'est par un tel art que l'artisan nous créa, pour toi, étranger, / et pour avertir tous les hommes : ma boutique reste ouverte. »"
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc134",
@@ -3688,7 +4042,10 @@
       "text_frtrans": [
         "¶Voyant les troupes fuir en désordre dispersé, / « Qui donc souffle à présent dans mes cornes ? » dit Faune."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc135",
@@ -3719,7 +4076,10 @@
       "text_frtrans": [
         "¶Contre toute attente, le craintif Antiochus avait énormément défait / les troupes des Galates, soldats à peine armés, / quand la force féroce des « bœufs de Lucanie » [les éléphants], la rage de leurs trompes, / pour la première fois avait bousculé les chevaux ennemis. / Dressant donc son trophée, il y peignit l'image d'un éléphant, / et ajouta : « Nous, alliés, eussions été massacrés, / si cette très hideuse bête, le barrus, ne nous avait sauvés. » / Autant il est doux de vaincre, autant il est honteux de vaincre ainsi."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc136",
@@ -3750,7 +4110,10 @@
       "text_frtrans": [
         "¶On dit que la courge avait poussé près d'un pin aérien, / et qu'elle s'était épanouie en un ample feuillage. / Ayant embrassé ses branches, et dépassé sa cime même, / elle se crut supérieure aux autres arbres. / Le pin lui dit : « Trop brève est cette gloire. Car toi, / l'hiver qui vient bientôt te perdra méchamment. »"
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc137",
@@ -3781,7 +4144,10 @@
       "text_frtrans": [
         "¶Tandis qu'ils se ruaient l'un sur l'autre en blessures farouches, / la lionne féroce de sa griffe, le sanglier redoutable de sa dent, / accourt le vautour pour regarder, et guette son festin. / La gloire du vainqueur deviendra sa future proie."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc138",
@@ -3812,7 +4178,10 @@
       "text_frtrans": [
         "¶Une entreprise commencée sous de mauvais auspices ne sait réussir. / Ce qui est fait sous un heureux présage en tire profit. / Où que tu ailles, si une belette croise ta route, renonce : / ce vilain animal porte les signes d'une mauvaise destinée."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc139",
@@ -3843,7 +4212,10 @@
       "text_frtrans": [
         "¶Voilà, sans doute, ce qui manquait : qu'après tant de maux, enfin, / les sauterelles ravissent à nos champs tout ce qui s'y trouvait. / Nous avons vu d'innombrables légions s'avancer sous la conduite de l'Eurus, / telles que n'en eurent ni les camps d'Attila, ni ceux de Xerxès. / Elles ont tout dévoré, le foin, le millet, tous les blés, / et l'espoir est à présent à l'étroit, à moins que les prières ne l'emportent."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc140",
@@ -3874,7 +4246,10 @@
       "text_frtrans": [
         "¶Le milan vorace, que tourmentait une excessive nausée de nourriture, / dit : « Hélas, mère, mes entrailles s'écoulent de ma bouche. » / Elle répond : « Pourquoi pleures-tu ? Pourquoi crois-tu que ce soient tes propres entrailles, / toi qui, vivant de rapine, ne vomis jamais que le bien d'autrui ? »"
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc141",
@@ -3905,7 +4280,10 @@
       "text_frtrans": [
         "¶Trois jeunes filles de même âge jouaient jadis / au sort : laquelle irait la première aux eaux du Styx. / Mais celle à qui le dé jeté avait mal échu, / riait, aveugle à son propre destin. / Quand soudain, frappée à la tête par un toit qui s'effondrait, elle mourut, / et paya la dette due à sa hardie plaisanterie. / Dans l'adversité, le mauvais sort ne trompe pas ; mais dans / la prospérité, ni les prières ni la main prévoyante n'ont de pouvoir."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc142",
@@ -3936,7 +4314,10 @@
       "text_frtrans": [
         "¶Après que Jupiter eut précipité Até des demeures éthérées, / hélas, combien de maux cruels tourmentent les hommes ! / Elle s'envole, rapide de pieds et d'ailes agiles, / et ne laisse rien d'intact aux malheurs. / C'est pourquoi les Litae, filles de Jupiter, l'accompagnent dans sa marche, / pour réparer tout le mal qu'elle a fait. / Mais comme elles sont lentes de pied, borgnes et lasses de vieillesse, / elles ne réparent rien sinon après, et longtemps après."
       ],
-      "group_frtrans": "Fortune."
+      "group_frtrans": "Fortune.",
+      "section": "FORTVNA",
+      "section_ru": "Фортуна",
+      "section_en": "Fortune"
     },
     {
       "id": "alc143",
@@ -3967,7 +4348,10 @@
       "text_frtrans": [
         "¶Le moineau avait confié ses petits aux branches du platane, / et bien lui en eût pris, n'eût été l'œil d'un dragon farouche. / Celui-ci dévora tous les petits, et la pauvre mère, / puis se pétrifia, digne d'une telle fin. / Ces prodiges, si Calchas ne ment pas, sont les signes d'un long / labeur, dont la renommée sera éternelle."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc144",
@@ -3998,7 +4382,10 @@
       "text_frtrans": [
         "¶Le trompette de Neptune, dont la partie inférieure est baleine, / son aspect indique qu'il est un dieu de la mer : / Triton est enserré au milieu d'un anneau de serpent, / qui tient sa propre queue mordue entre ses dents. / La renommée accompagne les hommes insignes par l'esprit et leurs hauts faits, / et ordonne qu'on les lise par toute la terre."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc145",
@@ -4029,7 +4416,10 @@
       "text_frtrans": [
         "¶Pour tombeau, figure-toi l'Italie, figure les armes et les chefs, / et la mer, qui mugit jusqu'à ses deux golfes. / Ajoute à cela la barbarie tentant vainement de faire irruption, / et les troupes achetées à prix d'argent pour de féroces guerres. / Que le porte-serpent, debout au plus haut sommet, le dise lui-même : / « Qui m'a, moi si grand, placé au-dessus de si petits ? »"
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc146",
@@ -4060,7 +4450,10 @@
       "text_frtrans": [
         "¶Tandis que Thrasybule, par de justes armes, délivre sa patrie, / et ordonne à chacun de déposer ses haines, / tout l'ordre, d'un commun accord, comme en un don insigne, / lui donna de porter une couronne de feuillage de Pallas. / « Ceins tes cheveux, Thrasybule, porte seul cet honneur ; / dans la grande cité, nul n'est ton rival. »"
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc147",
@@ -4091,7 +4484,10 @@
       "text_frtrans": [
         "¶Tu vois sur le rivage de Rhétée le tombeau du petit-fils d'Éaque [Achille], / que souvent de ses pieds visite la blanche Thétis. / Cette pierre est toujours couverte d'un amarante toujours vert, / car jamais l'honneur du héros ne mourra. / Lui, le rempart des Grecs, le meurtrier du grand Hector. Il ne doit pas / davantage au fils de Méonie [Homère] que le fils de Méonie ne lui doit."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc148",
@@ -4122,7 +4518,10 @@
       "text_frtrans": [
         "¶Une fibule d'or agrafait les vêtements des Cécropides : / une cigale, ferme de ses mandibules, y était jointe. / Sous la chaussure, selon le rite arcadien, se trouvait un croissant, / que portent chez les descendants de Romulus les patriciens. / Pour montrer qu'ils étaient des fils du sol natal, ces signes furent portés / par des hommes illustrés d'une noblesse antique."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc149",
@@ -4153,7 +4552,10 @@
       "text_frtrans": [
         "¶L'éloquence surpasse les louanges d'une force invincible : / elle dénoue les discours des sophistes et leurs vains filets. / Nulle fureur, nulle rage n'est plus puissante que la vertu. / Devant la persévérance constante, même l'opulence cède au sage. / Il méprise l'avarice, ne se réjouit ni du vol ni de l'usure. / Il triomphe, et dépouille les actes féminins de leurs insignes. / Il purge les souillures, et ajoute la culture aux esprits. / Il hait les unions illicites, et chasse les coupables. / La barbarie et l'impie férocité subissent enfin leur peine. / La vertu d'un seul homme disperse les ennemis assemblés. / Il rapporte à sa patrie maints biens de rivages étrangers. / Sa gloire savante vole sur les bouches des hommes, et jamais ne périt."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc151",
@@ -4184,7 +4586,10 @@
       "text_frtrans": [
         "¶Enfants naturels, célébrez toujours les honneurs d'Hercule : / car il fut le premier de votre ordre. / Et il ne put devenir dieu avant d'avoir, encore nourrisson, tété / le lait que, sans se douter de la ruse, Junon lui donnait."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc152",
@@ -4215,7 +4620,10 @@
       "text_frtrans": [
         "¶Comme le faucon, volant haut, fend l'air ténu, / comme la choucas, l'oie, le canard paissent au sol : / ainsi le grand Pindare s'élève au-dessus de l'éther, / ainsi Bacchylide ne sait que ramper sur la terre."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc153",
@@ -4246,7 +4654,10 @@
       "text_frtrans": [
         "¶Pour avoir souillé d'une tache honteuse ta noble origine, / et changé en dommage ton propre devoir, / tu as fait comme la chèvre, qui, du sabot, / renverse le pot de son propre lait et répand sa propre richesse."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc154",
@@ -4277,7 +4688,10 @@
       "text_frtrans": [
         "¶Le milan dégénéré accompagne le faucon au vol altier, / et obtient souvent une part de sa proie tombante. / De même le sargue poursuit le mulet dédaigné par lui, / et, avide, dévore de sa bouche les restes du festin d'autrui. / Ainsi, avec moi, Œnocrate partage les retraites des studieux ; / la curie se sert de lui comme d'un œil chassieux."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc155",
@@ -4308,7 +4722,10 @@
       "text_frtrans": [
         "¶L'arbre qui donna ces fruits, étranger venu sous notre ciel, / vint jadis de l'axe oriental de Perse : / transplanté, il devint meilleur ; ce qui jadis était nuisible / dans sa patrie, porte ici pour nous de doux fruits. / Il porte la feuille semblable à une langue, il porte des fruits très semblables au cœur — / Alciat, apprends de là à conduire ta vie. / Toi, loin de ta patrie, tu seras tenu en plus grand prix : / tu es très sage de cœur, et non moins puissant de bouche."
       ],
-      "group_frtrans": "Honneur."
+      "group_frtrans": "Honneur.",
+      "section": "HONOR",
+      "section_ru": "Честь",
+      "section_en": "Honour"
     },
     {
       "id": "alc156",
@@ -4339,7 +4756,10 @@
       "text_frtrans": [
         "¶Chaque fois que les frères Titans troublent les flots, / alors l'ancre jetée vient en aide aux marins malheureux. / Le dauphin, ami des hommes, l'enlace, afin qu'elle puisse / se fixer plus sûrement dans les bas-fonds. / Combien il sied aux rois attentifs de porter cet emblème : / que ce que l'ancre est aux marins, eux-mêmes le soient à leur peuple."
       ],
-      "group_frtrans": "Le Prince."
+      "group_frtrans": "Le Prince.",
+      "section": "PRINCEPS",
+      "section_ru": "Государь",
+      "section_en": "The Prince"
     },
     {
       "id": "alc157",
@@ -4370,7 +4790,10 @@
       "text_frtrans": [
         "¶Des effigies sans mains siègent ici devant les autels des dieux : / dont la première a les yeux crevés. / Ces insignes du pouvoir suprême et du saint Sénat / avaient été imaginés par les hommes thébains. / Pourquoi siègent-elles ? Parce qu'il convient que les juges soient / graves d'esprit et paisibles, et ne changent pas au gré d'une humeur légère. / Pourquoi sont-elles sans mains ? Pour ne point recevoir de présents, ni se laisser / fléchir par des promesses ou des dons. / Mais leur chef est aveugle, car, guidé des seules oreilles, sans / passion, il exécute constamment les ordres du Sénat."
       ],
-      "group_frtrans": "Le Prince."
+      "group_frtrans": "Le Prince.",
+      "section": "PRINCEPS",
+      "section_ru": "Государь",
+      "section_en": "The Prince"
     },
     {
       "id": "alc158",
@@ -4401,7 +4824,10 @@
       "text_frtrans": [
         "¶Elle presse les éponges humides, déjà imbibées auparavant, / la main avide et resserrée d'un Prince cupide. / Il élève les voleurs jusqu'au sommet, puis les châtie, / afin de tourner à son fisc ce qui fut mal acquis."
       ],
-      "group_frtrans": "Le Prince."
+      "group_frtrans": "Le Prince.",
+      "section": "PRINCEPS",
+      "section_ru": "Государь",
+      "section_en": "The Prince"
     },
     {
       "id": "alc159",
@@ -4432,7 +4858,10 @@
       "text_frtrans": [
         "¶Ce qu'est la rate pour le corps humain, César l'avait dit / être, dans les affaires de l'État, son fisc. / La rate grossissant, les autres membres du corps dépérissent. / Le fisc grossissant, la pauvreté des citoyens se révèle."
       ],
-      "group_frtrans": "Le Prince."
+      "group_frtrans": "Le Prince.",
+      "section": "PRINCEPS",
+      "section_ru": "Государь",
+      "section_en": "The Prince"
     },
     {
       "id": "alc160",
@@ -4463,7 +4892,10 @@
       "text_frtrans": [
         "¶On rapporte que Chiron, dans ses étables, éleva / les fils des héros, et parmi eux le grand Achille. / Précepteur mi-bête, centaure mi-homme — / tel il convient que soit quiconque siège auprès des rois. / Il est bête, quand il viole les alliés, quand il foule aux pieds les ennemis ; / et il est homme, quand il feint devant le peuple d'être pieux."
       ],
-      "group_frtrans": "Le Prince."
+      "group_frtrans": "Le Prince.",
+      "section": "RESPVBLICA",
+      "section_ru": "Государство",
+      "section_en": "The Commonwealth"
     },
     {
       "id": "alc161",
@@ -4494,7 +4926,10 @@
       "text_frtrans": [
         "¶Que jamais le roi des abeilles n'enfonce son aiguillon, / et qu'il soit, par le corps, deux fois plus grand que les autres, / cela attestera un pouvoir clément, des royaumes modérés, / et des lois sacrées confiées à de bons juges."
       ],
-      "group_frtrans": "Le Prince."
+      "group_frtrans": "Le Prince.",
+      "section": "RESPVBLICA",
+      "section_ru": "Государство",
+      "section_en": "The Commonwealth"
     },
     {
       "id": "alc162",
@@ -4525,7 +4960,10 @@
       "text_frtrans": [
         "¶Le fils de Phébus, l'Épidaurien, siège sur des autels dressés, / dieu clément, revêtu de la forme d'un serpent immense. / Les malades accourent, et prient le dieu salutaire de venir : / il acquiesce, et exauce leurs vœux."
       ],
-      "group_frtrans": "La République."
+      "group_frtrans": "La République.",
+      "section": "RESPVBLICA",
+      "section_ru": "Государство",
+      "section_en": "The Commonwealth"
     },
     {
       "id": "alc163",
@@ -4556,7 +4994,10 @@
       "text_frtrans": [
         "¶À la mort de César, comme si la liberté eût été recouvrée, / cette monnaie fut frappée par les chefs Brutus. / D'abord deux petits poignards, au-dessus desquels se dresse un bonnet, / tel que le reçoivent les esclaves affranchis de la main de leur maître."
       ],
-      "group_frtrans": "La République."
+      "group_frtrans": "La République.",
+      "section": "RESPVBLICA",
+      "section_ru": "Государство",
+      "section_en": "The Commonwealth"
     },
     {
       "id": "alc164",
@@ -4587,7 +5028,10 @@
       "text_frtrans": [
         "¶Pleure maintenant les maux de la vie humaine plus que de coutume, / Héraclite : elle fourmille encore de bien plus de maux. / Toi, au contraire (si jamais), redouble ton rire, / Démocrite : elle est devenue plus ridicule encore. / Cependant, voyant cela, je me demande avec quelle fin / je pleurerai avec toi, ou de quelle humeur je plaisanterai avec toi."
       ],
-      "group_frtrans": "La vie."
+      "group_frtrans": "La vie.",
+      "section": "VITA",
+      "section_ru": "Жизнь",
+      "section_en": "Life"
     },
     {
       "id": "alc165",
@@ -4618,7 +5062,10 @@
       "text_frtrans": [
         "¶Lent de pieds, et le ventre gonflé et pendant, / le castor échappe pourtant aux embûches par cet art : / lui-même, des dents, s'arrache ses parties viriles médicinales, / et les rejette, sachant que c'est pour elles qu'on le poursuit. / De son exemple tu apprendras à ne pas épargner tes biens, / et, pour racheter ta vie, à donner argent aux ennemis."
       ],
-      "group_frtrans": "La vie."
+      "group_frtrans": "La vie.",
+      "section": "VITA",
+      "section_ru": "Жизнь",
+      "section_en": "Life"
     },
     {
       "id": "alc166",
@@ -4649,7 +5096,10 @@
       "text_frtrans": [
         "¶Hector, mourant sous le coup de lance du petit-fils d'Éaque, / lui qui tant de fois avait vaincu ses ennemis auparavant, / ne put, de sa voix, réduire au silence ceux qui l'insultaient, / tandis qu'ils préparaient d'attacher des liens au char et à ses pieds. / « Déchirez-moi comme il vous plaira : ainsi, le lion une fois privé de vie, / même les lièvres peureux osent tirer sur sa barbe. »"
       ],
-      "group_frtrans": "La mort."
+      "group_frtrans": "La mort.",
+      "section": "MORS",
+      "section_ru": "Смерть",
+      "section_en": "Death"
     },
     {
       "id": "alc167",
@@ -4680,7 +5130,10 @@
       "text_frtrans": [
         "¶La Mort errait, compagne de Cupidon. Avec elle / la Mort portait un carquois, le petit Amour portait ses traits. / Ils firent halte ensemble, et dormirent ensemble la même nuit — / aveugle, l'Amour l'était toujours ; mais la Mort, cette fois, le fut aussi. / Car l'un et l'autre, par imprévoyance, prirent les traits de l'autre : / la Mort tient les flèches dorées, l'enfant les armes d'os. / De là, un vieillard qui devrait être maintenant chez Achéron, / voici qu'il aime, et prépare pour sa tête des guirlandes de fleurs. / Mais moi, parce que l'Amour m'a frappé de l'arc interverti, / je défaille, et les destins déjà mettent la main sur moi. / « Épargne-moi, enfant ; Mort, qui portes les enseignes victorieuses, épargne-moi. / Fais que j'aime encore : fais qu'à ma place le vieillard descende aux Enfers. »"
       ],
-      "group_frtrans": "La mort."
+      "group_frtrans": "La mort.",
+      "section": "MORS",
+      "section_ru": "Смерть",
+      "section_en": "Death"
     },
     {
       "id": "alc168",
@@ -4711,7 +5164,10 @@
       "text_frtrans": [
         "¶Pourquoi, Mort, as-tu osé par ruse frapper l'enfant Amour ? / Pour qu'il lançât tes traits, croyant les siens propres."
       ],
-      "group_frtrans": "La mort."
+      "group_frtrans": "La mort.",
+      "section": "MORS",
+      "section_ru": "Смерть",
+      "section_en": "Death"
     },
     {
       "id": "alc169",
@@ -4742,7 +5198,10 @@
       "text_frtrans": [
         "¶Celui qui par sa beauté séduisait et tourmentait les tendres jeunes filles, / le plus beau et le plus noble garçon de toute la ville, / mourut avant l'heure, à pleurer par nul plus / que par toi, Arestès, à qui un chaste amour l'unissait. / Aussi lui élèves-tu un tombeau, monument d'une si grande douleur, / et frappes-tu les astres de tes voix plaintives. / « Tu pars sans moi, bien-aimé ? Et nous n'irons plus ensemble ? / Et tu ne passeras plus avec moi ces loisirs chers à nos études ? » / Mais la terre te couvrira, et les visages de Gorgone, et les dauphins, / donneront sur ta tombe les signes à jamais douloureux de ton destin."
       ],
-      "group_frtrans": "La mort."
+      "group_frtrans": "La mort.",
+      "section": "MORS",
+      "section_ru": "Смерть",
+      "section_en": "Death"
     },
     {
       "id": "alc170",
@@ -4773,7 +5232,10 @@
       "text_frtrans": [
         "¶Une pierre carrée, borne très ferme, est enfoncée en terre, / au-dessus se dresse, bouclée, une image jusqu'à la poitrine, / et elle déclare ne céder à personne ; tel / est Terme, le but unique vers lequel tendent les hommes. / Le jour est immobile, et les temps sont fixés par les destins, / et les derniers jours portent jugement sur les premiers actes."
       ],
-      "group_frtrans": "La mort."
+      "group_frtrans": "La mort.",
+      "section": "MORS",
+      "section_ru": "Смерть",
+      "section_en": "Death"
     },
     {
       "id": "alc171",
@@ -4804,7 +5266,10 @@
       "text_frtrans": [
         "¶D'un côté les Troyens ravissent Patrocle sous de fausses armes, / de l'autre ses compagnons, et toute la foule pélasge, s'y opposent. / Hector obtient les dépouilles, et les Grecs le cadavre. / Cette même fable se joue quand meurt un homme riche. / Une très grande querelle naît, mais enfin l'héritier l'emporte, / et laisse quelque chose aux corbeaux et aux vautours."
       ],
-      "group_frtrans": "La mort."
+      "group_frtrans": "La mort.",
+      "section": "MORS",
+      "section_ru": "Смерть",
+      "section_en": "Death"
     },
     {
       "id": "alc172",
@@ -4835,7 +5300,10 @@
       "text_frtrans": [
         "¶L'orme desséché par la vieillesse, et dépouillé même de ses feuilles, / la vigne ombreuse l'a enlacé de son vert feuillage. / Elle reconnaît les vicissitudes de la nature, et, reconnaissante envers son soutien, / lui rend un devoir mutuel. / Par cet exemple elle nous invite à chercher de tels amis / que même le dernier jour ne puisse disjoindre, par la loi de l'amitié."
       ],
-      "group_frtrans": "Amitié."
+      "group_frtrans": "Amitié.",
+      "section": "AMICITIA",
+      "section_ru": "Дружба",
+      "section_en": "Friendship"
     },
     {
       "id": "alc173",
@@ -4866,7 +5334,10 @@
       "text_frtrans": [
         "¶L'aveugle porte sur ses épaules celui dont les pieds sont perclus : / et celui-ci lui rend en retour le service de ses yeux. / Ce dont manque l'un, l'autre, en bonne entente, le lui fournit ainsi : / celui-ci prête ses yeux, celui-là prête ses pieds."
       ],
-      "group_frtrans": "Amitié."
+      "group_frtrans": "Amitié.",
+      "section": "AMICITIA",
+      "section_ru": "Дружба",
+      "section_en": "Friendship"
     },
     {
       "id": "alc174",
@@ -4897,7 +5368,10 @@
       "text_frtrans": [
         "¶J'ai échappé avec soin à deux périls par une seule arme, / quand j'étais accablé par le soleil, et quand j'étais accablé par la mer. / Le bouclier m'a préservé sain et sauf du combat ; ce même bouclier, / saisi par moi, m'a porté, naufragé, jusqu'au rivage."
       ],
-      "group_frtrans": "Amitié."
+      "group_frtrans": "Amitié.",
+      "section": "AMICITIA",
+      "section_ru": "Дружба",
+      "section_en": "Friendship"
     },
     {
       "id": "alc175",
@@ -4928,7 +5402,10 @@
       "text_frtrans": [
         "¶Trois Grâces assistent Vénus, et suivent leur maîtresse, / et d'elles viennent les plaisirs et les subsistances. / Euphrosyne est la joie, Aglaé l'éclat splendide, / Pitho est la persuasion, et la grâce caressante de la bouche. / Pourquoi nues ? Parce que la beauté réside dans la pureté de l'âme, / et plaît par son excellente simplicité. / Ou bien parce que les ingrats ne rendent rien, et que le coffret / des Grâces est vide ? Qui fait des dons reste lui-même nu et dans le besoin. / Pourquoi leur a-t-on récemment ajouté des sandales ailées aux pieds ? Il donne deux fois, / celui qui donne vite. La gratitude tardive vaut bien peu. / Pourquoi l'une se retourne-t-elle, les bras entrelacés aux autres ? Le reconnaissant / rend au double. Deux lui restent, tandis qu'une s'en va. / Jupiter est leur père ; de la semence du ciel, Eurynomé / enfanta ces déesses, accueillies de tous avec amour."
       ],
-      "group_frtrans": "Amitié."
+      "group_frtrans": "Amitié.",
+      "section": "AMICITIA",
+      "section_ru": "Дружба",
+      "section_en": "Friendship"
     },
     {
       "id": "alc177",
@@ -4959,7 +5436,10 @@
       "text_frtrans": [
         "¶Osent, ces sots battus de verges et ces maîtres stupides, / vomir sur moi le fiel de leur cœur impur : / que faire ? dois-je rendre la pareille ? mais ne paraîtrait-il pas sauvage / de saisir d'une seule aile une cigale bruyante ? / À quoi bon chasser les mouches à grand renfort d'éventail ? / Mieux vaut négliger ce qu'on ne peut détruire."
       ],
-      "group_frtrans": "Hostilité."
+      "group_frtrans": "Hostilité.",
+      "section": "HOSTILITAS",
+      "section_ru": "Вражда",
+      "section_en": "Enmity"
     },
     {
       "id": "alc178",
@@ -4990,7 +5470,10 @@
       "text_frtrans": [
         "¶Le chien, la nuit, contemple le disque de la lune comme un miroir : / et, s'y voyant, croit qu'il y a là-haut un autre chien, / et aboie ; mais en vain s'élève sa voix inutile, pur vent, / et, sourde à lui, Diane poursuit sa course."
       ],
-      "group_frtrans": "Hostilité."
+      "group_frtrans": "Hostilité.",
+      "section": "HOSTILITAS",
+      "section_ru": "Вражда",
+      "section_en": "Enmity"
     },
     {
       "id": "alc179",
@@ -5021,7 +5504,10 @@
       "text_frtrans": [
         "¶Un torrent emportait deux marmites, dont l'une était de métal, / l'autre faite de terre par la main du potier. / Celle-ci donc est priée par l'autre de se tenir tout près d'elle, / afin que, jointes, elles résistent toutes deux aux eaux précipitées. / À quoi la marmite d'argile répond : « Je n'ai nul souci de ton commerce, / de peur que cette proximité ne m'apporte bien des maux. / Car, que le flot te porte vers moi, ou moi vers toi, / moi, fragile, seule je me briserai, tandis que toi, tu resteras intacte. »"
       ],
-      "group_frtrans": "Hostilité."
+      "group_frtrans": "Hostilité.",
+      "section": "HOSTILITAS",
+      "section_ru": "Вражда",
+      "section_en": "Enmity"
     },
     {
       "id": "alc180",
@@ -5052,7 +5538,10 @@
       "text_frtrans": [
         "¶Malgré moi, dauphin, la marée m'a poussé sur le rivage — / exemple de combien grands périls recèle une mer infidèle. / Car si Neptune n'épargne même pas ses propres nourrissons, / qui croirait les hommes en sûreté sur leurs navires ?"
       ],
-      "group_frtrans": "Hostilité."
+      "group_frtrans": "Hostilité.",
+      "section": "HOSTILITAS",
+      "section_ru": "Вражда",
+      "section_en": "Enmity"
     },
     {
       "id": "alc181",
@@ -5083,7 +5572,10 @@
       "text_frtrans": [
         "¶On rapporte que l'échange de présents de guerre commença entre / Ajax porte-bouclier et Hector d'Ilion. / Le fils de Priam reçut le baudrier, le fils de Télamon le dur glaive ; / l'un et l'autre reçut l'instrument de sa propre mort. / Car le glaive acheva Ajax, et Hector, une fois sans vie, / fut traîné, ses liens noués aux roues thessaliennes. / Ainsi les présents qu'au titre de courtoisie les ennemis envoient à leurs ennemis / portent en eux la prescience du destin à venir."
       ],
-      "group_frtrans": "Hostilité."
+      "group_frtrans": "Hostilité.",
+      "section": "HOSTILITAS",
+      "section_ru": "Вражда",
+      "section_en": "Enmity"
     },
     {
       "id": "alc182",
@@ -5114,7 +5606,10 @@
       "text_frtrans": [
         "¶Le scarabée fait la guerre, et provoque lui-même son ennemi, / inférieur en force, il l'emporte par la ruse. / Car, caché et inconnu parmi les plumes de l'aigle, il se dissimule, / afin d'atteindre le nid ennemi à travers les plus hautes étoiles. / Et, perçant les œufs, il empêche l'espoir de la descendance de croître. / Ainsi s'en va-t-il, vengé de l'affront qu'on lui avait fait."
       ],
-      "group_frtrans": "Hostilité."
+      "group_frtrans": "Hostilité.",
+      "section": "HOSTILITAS",
+      "section_ru": "Вражда",
+      "section_en": "Enmity"
     },
     {
       "id": "alc183",
@@ -5145,7 +5640,10 @@
       "text_frtrans": [
         "¶La dorade saisit au milieu de la mer les petites sardines, / si, craintives, elles ne fuient vers la surface des eaux. / Mais là elles deviennent la proie des voraces plongeons et foulques. / Hélas, de toutes parts, la faiblesse ne trouve nul lieu sûr."
       ],
-      "group_frtrans": "Hostilité."
+      "group_frtrans": "Hostilité.",
+      "section": "HOSTILITAS",
+      "section_ru": "Вражда",
+      "section_en": "Enmity"
     },
     {
       "id": "alc184",
@@ -5176,7 +5674,10 @@
       "text_frtrans": [
         "¶Tout le reste se taira, et le cuir de brebis se taira aussi, / si résonnent des tambours faits de peau de loup. / Cette membrane de brebis redoute tant la peau du loup, comme un ennemi, / que, même sans vie, elle ne supporte pas la peau sans vie. / Ainsi Jizka, s'étant fait écorcher et sa peau changée en tambour, / put vaincre les évêques de Bohême même après sa mort."
       ],
-      "group_frtrans": "Hostilité."
+      "group_frtrans": "Hostilité.",
+      "section": "HOSTILITAS",
+      "section_ru": "Вражда",
+      "section_en": "Enmity"
     },
     {
       "id": "alc185",
@@ -5207,7 +5708,10 @@
       "text_frtrans": [
         "¶Tandis que le Cyclope siège à l'entrée sinueuse de son antre, / il chante cela pour lui-même parmi ses tendres brebis : / « Paissez, herbes ; moi, je me repaîtrai de mes compagnons achéens, / et pour finir, qu'ils emportent nos entrailles. » / L'Ithacien entendit cela, et priva le Cyclope / de la vue. Voyez comme l'auteur du mal en porte la peine !"
       ],
-      "group_frtrans": "Vengeance."
+      "group_frtrans": "Vengeance.",
+      "section": "VINDICTA",
+      "section_ru": "Месть",
+      "section_en": "Vengeance"
     },
     {
       "id": "alc186",
@@ -5238,7 +5742,10 @@
       "text_frtrans": [
         "¶Un corbeau emportait dans les airs, saisi par ses serres, / un scorpion, butin acquis pour sa gorge audacieuse. / Mais celui-ci, versant peu à peu son venin dans ses membres, / précipita, vengeur, son ravisseur dans les eaux stygiennes. / Ô chose digne de rire ! Celui qui préparait la mort des autres / périt lui-même, et succomba à ses propres artifices."
       ],
-      "group_frtrans": "Vengeance."
+      "group_frtrans": "Vengeance.",
+      "section": "VINDICTA",
+      "section_ru": "Месть",
+      "section_en": "Vengeance"
     },
     {
       "id": "alc187",
@@ -5269,7 +5776,10 @@
       "text_frtrans": [
         "¶La foule victorieuse tient captif dans une horrible prison / un héraut qui soufflait de son cor les appels au combat. / Il s'excuse, disant qu'il n'est point vaillant aux armes, / ni n'a blessé le flanc de personne de son épée féroce. / On lui répond : « Au contraire, c'est toi qui pèches le plus lâchement, / toi qui, par le fracas de l'airain, pousses les autres aux armes. »"
       ],
-      "group_frtrans": "Vengeance."
+      "group_frtrans": "Vengeance.",
+      "section": "VINDICTA",
+      "section_ru": "Месть",
+      "section_en": "Vengeance"
     },
     {
       "id": "alc188",
@@ -5300,7 +5810,10 @@
       "text_frtrans": [
         "¶Comme le petit chien saisit une pierre et s'épuise à la mordre, / sans causer en retour aucun dommage à celui qui l'a lancée, / ainsi la plupart laissent échapper leurs véritables ennemis, / et s'attaquent de leurs dents à ceux qu'aucune faute n'accable."
       ],
-      "group_frtrans": "Vengeance."
+      "group_frtrans": "Vengeance.",
+      "section": "VINDICTA",
+      "section_ru": "Месть",
+      "section_en": "Vengeance"
     },
     {
       "id": "alc189",
@@ -5331,7 +5844,10 @@
       "text_frtrans": [
         "¶Ajax, épée en main, se tenait au milieu du troupeau hérissé, / massacrant ses propres bêtes, croyant massacrer les fils de Tantale. / Ainsi la victime porcine, servant de substitut, payait la peine / à la place du fils de Laërte, à la place du conseil des chefs. / La fureur ne sait nuire à ses ennemis, elle manque son coup, / et, privée de raison, se précipite vers sa propre ruine."
       ],
-      "group_frtrans": "Vengeance."
+      "group_frtrans": "Vengeance.",
+      "section": "VINDICTA",
+      "section_ru": "Месть",
+      "section_en": "Vengeance"
     },
     {
       "id": "alc190",
@@ -5362,7 +5878,10 @@
       "text_frtrans": [
         "¶L'éléphant aux épaules chargées de tours, à la dent d'ivoire, / qui d'ordinaire triomphe farouchement des guerres de Mars, / a maintenant plié le cou sous le joug, et, pressé par l'aiguillon, / traîne le char de César vers les temples pieux. / Même la bête sauvage reconnaît de toutes parts les peuples réconciliés, / et, ayant déposé les armes, s'adonne aux travaux de la paix."
       ],
-      "group_frtrans": "Paix."
+      "group_frtrans": "Paix.",
+      "section": "PAX",
+      "section_ru": "Мир",
+      "section_en": "Peace"
     },
     {
       "id": "alc191",
@@ -5393,7 +5912,10 @@
       "text_frtrans": [
         "¶Voici le casque qu'un soldat intrépide avait jadis porté, et qui / fut si souvent éclaboussé du sang de l'ennemi. / La paix acquise, il est cédé au mince usage / des abeilles, en forme de ruche ; il porte maintenant rayons et miel agréable. / Que les armes gisent au loin : qu'il soit permis alors de reprendre la guerre, / seulement quand autrement tu ne peux jouir de l'art de la paix."
       ],
-      "group_frtrans": "Paix."
+      "group_frtrans": "Paix.",
+      "section": "PAX",
+      "section_ru": "Мир",
+      "section_en": "Peace"
     },
     {
       "id": "alc192",
@@ -5424,7 +5946,10 @@
       "text_frtrans": [
         "¶Tresse de fins chapeaux faits de grands épis, / autour desquels se love le sarment alterné de la vigne. / Parées de ces couronnes, les alcyons, sur l'onde calme de la mer, / font leur nid, et réchauffent leurs petits sans plumes. / L'année sera joyeuse pour Cérès, et féconde aussi pour Bacchus, / si le roi se montre semblable à cet oiseau des mers."
       ],
-      "group_frtrans": "Paix."
+      "group_frtrans": "Paix.",
+      "section": "PAX",
+      "section_ru": "Мир",
+      "section_en": "Peace"
     },
     {
       "id": "alc193",
@@ -5455,7 +5980,10 @@
       "text_frtrans": [
         "¶Pourquoi, hélas, cruelle Procné, ravis-tu la cigale chantante, / et prépares-tu à tes petits ce mets affreux ? / Toi, stridente, tu blesses la stridente ; toi, hôtesse du printemps, tu blesses / l'hôtesse du printemps ; toi, oiseau ailé, tu blesses l'oiseau ailé ? / Rejette donc cette proie. Car pour les cœurs voués à la musique, le pire / des crimes est de périr l'un sous la dent de l'autre."
       ],
-      "group_frtrans": "Science."
+      "group_frtrans": "Science.",
+      "section": "SCIENTIA",
+      "section_ru": "Знание",
+      "section_en": "Knowledge"
     },
     {
       "id": "alc194",
@@ -5486,7 +6014,10 @@
       "text_frtrans": [
         "¶De la gauche il tient l'arc, de la droite il porte la lourde massue, / et le lion de Némée couvre son corps nu. / Tel est donc le visage d'Hercule. Mais cela ne s'accorde pas, / que ses tempes portent la blancheur chenue de l'âge. / Et que dire de sa langue, percée de légères chaînettes, / par lesquelles il attire doucement les hommes par l'oreille fendue ? / N'est-ce pas qu'on rapporte que l'Hercule gaulois donna aux peuples / leurs lois, non par la force, mais par la langue ? / Les armes cèdent devant la toge, et celui qui excelle par l'éloquence / entraîne à ses volontés même les cœurs les plus durs."
       ],
-      "group_frtrans": "Science."
+      "group_frtrans": "Science.",
+      "section": "SCIENTIA",
+      "section_ru": "Знание",
+      "section_en": "Knowledge"
     },
     {
       "id": "alc195",
@@ -5517,7 +6048,10 @@
       "text_frtrans": [
         "¶On rapporte que Mercure donna cet antidote à l'Ithacien / contre les coupes empoisonnées de Circé d'Éa. / On l'appelle moly ; on l'arrache à grand-peine, noir / à la racine, mais sa fleur a l'aspect du lait. / L'éclat de l'éloquence et le don de la parole attirent tous les hommes : / mais c'est là une chose qui exige un très grand travail."
       ],
-      "group_frtrans": "Science."
+      "group_frtrans": "Science.",
+      "section": "SCIENTIA",
+      "section_ru": "Знание",
+      "section_en": "Knowledge"
     },
     {
       "id": "alc196",
@@ -5548,7 +6082,10 @@
       "text_frtrans": [
         "¶Vieillard de Pellène, à l'allure de comédien, Protée, / qui tantôt portes les membres d'un homme, tantôt ceux d'une bête, / dis-moi donc, quelle raison te change en toutes ces formes, / au point que nulle figure certaine ne te demeure, si variable ? / « Je porte les signes de la vieillesse, de l'âge primitif, / dont chacun rêve à sa propre guise. »"
       ],
-      "group_frtrans": "Science."
+      "group_frtrans": "Science.",
+      "section": "SCIENTIA",
+      "section_ru": "Знание",
+      "section_en": "Knowledge"
     },
     {
       "id": "alc197",
@@ -5579,7 +6116,10 @@
       "text_frtrans": [
         "¶Il en est qui portent sur leur écu de famille l'oiseau de Jupiter, / il en est dont les armes portent le Serpent, ou le Lion. / Mais que ces farouches animaux fuient les sceaux de cire des Poètes, / et que le beau Cygne soutienne les doctes armoiries. / Cet oiseau, sacré à Phébus et né de notre contrée, / roi, garde depuis toujours ses antiques titres."
       ],
-      "group_frtrans": "Science."
+      "group_frtrans": "Science.",
+      "section": "SCIENTIA",
+      "section_ru": "Знание",
+      "section_en": "Knowledge"
     },
     {
       "id": "alc198",
@@ -5610,7 +6150,10 @@
       "text_frtrans": [
         "¶Eunome de Locres t'a dédié, Phébus de Delphes, cette cigale, / signe gracieux de sa palme. / Il rivalisait au plectre, opposé à son ennemi spartiate, / et les cordes touchées du pouce rendaient leur son. / Quand la corde usée se mit à grincer d'un son rauque, / gâtant l'harmonie et la mélodie légitimes, / alors un oiseau au doux ramage, se posant sur la cithare, / vint, cigale, remplir de sa voix la corde brisée. / Attirée, elle descendit des hautes forêts à la loi du son, / pour nous apporter, bavarde, son secours. / Aussi, pour que ton honneur, ô sainte cigale, demeure ferme, / voici que, à la place d'une cithare, siège ici ce joueur de cithare de bronze."
       ],
-      "group_frtrans": "Science."
+      "group_frtrans": "Science.",
+      "section": "SCIENTIA",
+      "section_ru": "Знание",
+      "section_en": "Knowledge"
     },
     {
       "id": "alc199",
@@ -5641,7 +6184,10 @@
       "text_frtrans": [
         "¶Quand Cadmos confia aux champs les dents du serpent, / et sema dans le sol aonien ces graines funestes, / surgit une cohorte armée de bouclier, née de la terre, / qui tomba sous les coups de main ennemie entre eux. / Ceux d'entre eux qui en réchappèrent, sur l'avis de la Tritonide, / ayant déposé les armes, scellèrent la paix et joignirent leurs mains droites. / Le fils d'Agénor le premier transmit aux maîtres les éléments et les signes, / et y joignit une douce harmonie. / Leurs disciples sont tourmentés de maintes contradictions, / qui ne se résolvent que par le secours de Pallas."
       ],
-      "group_frtrans": "Science."
+      "group_frtrans": "Science.",
+      "section": "SCIENTIA",
+      "section_ru": "Знание",
+      "section_en": "Knowledge"
     },
     {
       "id": "alc200",
@@ -5672,7 +6218,10 @@
       "text_frtrans": [
         "¶Tu pourras ainsi représenter les maximes des Sept Sages, / toi qui voudrais les célébrer par des images. / « La meilleure mesure en toutes choses » (comme le dit Cléobule) — / c'est ce qu'enseigne l'épreuve de la balance, ou du niveau. / Chilon de Sparte ordonnait à chacun de se connaître soi-même : / cela, les miroirs tenus en chaque main le rendront. / Ce que dit Périandre — « mets un frein à la colère », Corinthien qu'il était — / le pouliot, approché des narines, l'accomplira. / Pittacos disait : « rien de trop » ; cela même, dit-on, / montrent ceux qui, la bouche contractée, mâchent l'amère cumin noir. / Solon ordonne de regarder la fin. La borne, au dernier bout / des champs, ne céderait pas, elle, devant Jupiter lui-même. / Hélas, combien vrai fut Bias : « grande est l'abondance des maux » — / fais asseoir sur un mouflon le cavalier sarde. / « Ne te porte garant de personne » (dit Thalès) ; ainsi, enduite de glu, / la perdrix entraîne dans les lacs sa compagne, et le sot."
       ],
-      "group_frtrans": "Science."
+      "group_frtrans": "Science.",
+      "section": "SCIENTIA",
+      "section_ru": "Знание",
+      "section_en": "Knowledge"
     },
     {
       "id": "alc202",
@@ -5703,7 +6252,10 @@
       "text_frtrans": [
         "¶« Quel est ce monstre ? » — « C'est le Sphinx. » — « Pourquoi a-t-elle le visage pâle / d'une vierge, les ailes d'un oiseau, les pattes d'un lion ? » / « Cette forme, l'ignorance des choses l'a prise : car, en vérité, / tel est le mal, triple en sa cause et son origine. / Il en est que rend telle un esprit léger, d'autres une volupté séduisante, / et d'autres encore des cœurs orgueilleux les font ignorants. / Mais ceux à qui est connu ce que peut la lettre delphique / tranchent la gorge funeste du monstre précipité. / Car l'homme lui-même est à la fois bipède, tripède et quadrupède, / et le premier laurier du sage est de connaître l'homme. »"
       ],
-      "group_frtrans": "Ignorance."
+      "group_frtrans": "Ignorance.",
+      "section": "IGNORANTIA",
+      "section_ru": "Невежество",
+      "section_en": "Ignorance"
     },
     {
       "id": "alc203",
@@ -5734,7 +6286,10 @@
       "text_frtrans": [
         "¶Un renard, entré dans l'atelier d'un décorateur de théâtre, / trouva une tête humaine habilement polie, / si élégamment façonnée, que seul le souffle / lui manquait pour, en tout le reste, paraître vivante. / Il la prit dans ses pattes, et dit : / « Quelle belle tête — mais elle n'a point de cervelle. »"
       ],
-      "group_frtrans": "Ignorance."
+      "group_frtrans": "Ignorance.",
+      "section": "IGNORANTIA",
+      "section_ru": "Невежество",
+      "section_en": "Ignorance"
     },
     {
       "id": "alc204",
@@ -5765,7 +6320,10 @@
       "text_frtrans": [
         "¶Phrixus traverse les eaux, assis sur une toison précieuse, / et franchit sans peur la mer sur un bélier d'or. / Que signifie cela ? Un homme à l'esprit obtus, mais riche de trésors, / que gouverne le jugement de son épouse ou de son valet."
       ],
-      "group_frtrans": "Ignorance."
+      "group_frtrans": "Ignorance.",
+      "section": "IGNORANTIA",
+      "section_ru": "Невежество",
+      "section_en": "Ignorance"
     },
     {
       "id": "alc205",
@@ -5796,7 +6354,10 @@
       "text_frtrans": [
         "¶Vois cette jeune fille, unie de la main droite à son époux. Vois / comme elle est assise, comme un petit chien joue à ses pieds. / Ceci est l'image de la fidélité : si c'est l'ardeur de Vénus qui l'élève, / une branche de pommes, dans la main gauche, ne messiéra pas. / Car les pommes appartiennent à Vénus : ainsi Hippomène vainquit / la fille de Schénée, ainsi Galatée rechercha son époux."
       ],
-      "group_frtrans": "Mariage."
+      "group_frtrans": "Mariage.",
+      "section": "MATRIMONIVM",
+      "section_ru": "Брак",
+      "section_en": "Marriage"
     },
     {
       "id": "alc206",
@@ -5827,7 +6388,10 @@
       "text_frtrans": [
         "¶Quand elle brûle de désir, la vipère s'arrête sur le rivage de la mer, / et vomit de son ventre son affreux venin. / Appelant la murène, elle pousse de longs sifflements, / et celle-ci aussitôt se précipite vers les embrassements de son époux. / La plus grande révérence est due au lit nuptial ; l'épouse et l'époux / se doivent, l'un à l'autre, une mutuelle obéissance."
       ],
-      "group_frtrans": "Mariage."
+      "group_frtrans": "Mariage.",
+      "section": "MATRIMONIVM",
+      "section_ru": "Брак",
+      "section_en": "Marriage"
     },
     {
       "id": "alc207",
@@ -5858,7 +6422,10 @@
       "text_frtrans": [
         "¶Jouet des enfants qui me lancent des pierres, le soin du paysan / m'a planté, noyer, à ce carrefour. / Aux branches lacérées, à l'écorce entamée, dressé bien haut, / je suis visé à l'envi, de toutes parts, par les frondes. / Que pourrait-il arriver de plus honteux à un arbre stérile ? Hélas, / malheureux que je suis : je porte des fruits pour mon propre dommage."
       ],
-      "group_frtrans": "Mariage."
+      "group_frtrans": "Mariage.",
+      "section": "MATRIMONIVM",
+      "section_ru": "Брак",
+      "section_en": "Marriage"
     },
     {
       "id": "alc208",
@@ -5889,7 +6456,10 @@
       "text_frtrans": [
         "¶Avant le jour printanier, dans le froid boréal, la blanche palombe / fait son nid et réchauffe ses œufs précoces : / et, pour que ses petits reposent plus doucement, elle s'arrache ses propres plumes, / dont, nue elle-même, elle manque dans le gel de l'hiver. / N'as-tu pas honte, Colchidienne, ou toi, impie Procné ? / Quand un oiseau affronte la mort par amour de sa propre progéniture ?"
       ],
-      "group_frtrans": "Mariage."
+      "group_frtrans": "Mariage.",
+      "section": "MATRIMONIVM",
+      "section_ru": "Брак",
+      "section_en": "Marriage"
     },
     {
       "id": "alc209",
@@ -5920,7 +6490,10 @@
       "text_frtrans": [
         "¶Au milieu des ennemis de sa patrie, quand il emportait de l'incendie / Énée, sur ses épaules, le doux fardeau de son père, / « Épargnez-moi », disait-il, « à ravir ce vieillard vous / n'aurez nulle gloire ; mais moi, si l'on m'arrache mon père, je perds tout. »"
       ],
-      "group_frtrans": "Mariage."
+      "group_frtrans": "Mariage.",
+      "section": "MATRIMONIVM",
+      "section_ru": "Брак",
+      "section_en": "Marriage"
     },
     {
       "id": "alc210",
@@ -5951,7 +6524,10 @@
       "text_frtrans": [
         "¶« Bienfaisante Vénus, quel est donc ce visage, et que signifie / cette tortue que, déesse, ton pied délicat foule aux pieds ? » / « Ainsi me façonna Phidias, et il ordonna qu'au sexe / féminin on reconnût, par mon image, sa nature. / Et parce qu'il convient aux jeunes filles de demeurer au logis et de se taire, / il plaça sous mes pieds un tel emblème. »"
       ],
-      "group_frtrans": "Mariage."
+      "group_frtrans": "Mariage.",
+      "section": "MATRIMONIVM",
+      "section_ru": "Брак",
+      "section_en": "Marriage"
     },
     {
       "id": "alc211",
@@ -5982,7 +6558,10 @@
       "text_frtrans": [
         "¶Pénélope, fiancée, désirait suivre Ulysse, / à moins que son père Icarios ne préférât la garder auprès de lui. / L'un offre Ithaque, l'autre Sparte ; la vierge demeure anxieuse. / D'un côté le père, de l'autre un égal amour pour l'époux brillent : / alors, assise, elle voile son visage, enveloppe ses yeux : / tels étaient les signes d'une pudeur modeste. / Par quoi Icarios comprit qu'elle lui avait préféré Ulysse ; / et sous cette forme il érigea l'autel de la Pudeur."
       ],
-      "group_frtrans": "Mariage."
+      "group_frtrans": "Mariage.",
+      "section": "MATRIMONIVM",
+      "section_ru": "Брак",
+      "section_en": "Marriage"
     },
     {
       "id": "alc212",
@@ -6013,7 +6592,10 @@
       "text_frtrans": [
         "¶Que les dieux accordent meilleur sort aux gens pieux, Mézence : pourquoi donc me / contrains-tu ainsi ? Parce que, pour une dot, tu m'as acheté un gendre / que ronge l'affreuse gale française et le mentagre. / N'est-ce pas là, dis-moi, cruel père, autre chose / que joindre des corps morts à des corps vivants, / et renouveler les actes féroces du chef étrusque ?"
       ],
-      "group_frtrans": "Mariage."
+      "group_frtrans": "Mariage.",
+      "section": "MATRIMONIVM",
+      "section_ru": "Брак",
+      "section_en": "Marriage"
     },
     {
       "id": "alc213",
@@ -6044,7 +6626,10 @@
       "text_frtrans": [
         "¶La forme du cône, et le nom même du Cyprès, indique / qu'il faut traiter les siens dans une condition égale. / AUTRE. / Le Cyprès est un arbre funèbre, monument des grands, / de même que l'Ache a coutume d'orner la tombe du peuple. / AUTRE. / Belle est sa ramure, et le feuillage en bel ordre disposé, / mais cette belle ramure ne porte aucun fruit."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc214",
@@ -6075,7 +6660,10 @@
       "text_frtrans": [
         "¶Le chêne est agréable à Jupiter, qui nous garde et nous protège ; / à qui a sauvé un citoyen, on donne la couronne de chêne. / AUTRE. / Il nourrissait jadis les anciens de son gland, aujourd'hui il ne sert plus que par son ombre : / ainsi va aussi l'arbre de Jupiter, naguère si serviable, aujourd'hui réduit à l'ombre."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc215",
@@ -6106,7 +6694,10 @@
       "text_frtrans": [
         "¶Qu'Homère ait appelé le saule « perdant son fruit », / il compare par là les hommes aux mœurs des Clytériens."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc216",
@@ -6137,7 +6728,10 @@
       "text_frtrans": [
         "¶Le sapin, propre à la mer, naît sur les hautes montagnes : / même dans l'adversité se trouve la plus grande utilité."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc217",
@@ -6168,7 +6762,10 @@
       "text_frtrans": [
         "¶Que l'épicéa ne pousse jamais de rejetons de sa tige, / voilà le signe de celui qui périt sans descendance."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc218",
@@ -6199,7 +6796,10 @@
       "text_frtrans": [
         "¶On dit que l'ancien Solon établit que les pommes de Cydonie / devaient être données aux jeunes mariées. / Comme elles sont agréables à la bouche et à l'estomac, l'haleine aussi / en devient suave, et une douce grâce demeure sur les lèvres."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc219",
@@ -6230,7 +6830,10 @@
       "text_frtrans": [
         "¶Jamais ne se flétrit l'arbuste du lierre, que, dit-on, / le jeune Cissos offrit en présent à Bacchus : / errant, hardi, fauve de ses corymbes dorés, / vert à l'extérieur, et tout pâle pour le reste. / De là les poètes ceignent leurs tempes de guirlandes assorties ; / ils pâlissent à l'étude, mais leur gloire est durable."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc220",
@@ -6261,7 +6864,10 @@
       "text_frtrans": [
         "¶Que le chêne vert se brise de trop grande dureté, / voilà qui porte le symbole de la sédition civile."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc221",
@@ -6292,7 +6898,10 @@
       "text_frtrans": [
         "¶Ce sont là les pommes d'or de Vénus : leur amertume agréable / le montre, car ainsi, chez les Grecs, l'amour est dit « doux-amer »."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc222",
@@ -6323,7 +6932,10 @@
       "text_frtrans": [
         "¶Toujours vert, et à la cime frisée, le buis, / dont on fait la flûte aux tons inégaux, / est un arbre propre aux tendres délices et aux amants. / Il porte en lui la pâleur, et tout amant est pâle."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc223",
@@ -6354,7 +6966,10 @@
       "text_frtrans": [
         "¶Le mûrier, plus tardif, ne bourgeonne jamais qu'une fois le froid passé, / et, sage, porte un nom trompeur."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc224",
@@ -6385,7 +7000,10 @@
       "text_frtrans": [
         "¶Pourquoi, amandier, te hâtes-tu d'envoyer tes fleurs avant tes feuilles ? / Je hais les enfants d'un talent trop précoce."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc225",
@@ -6416,7 +7034,10 @@
       "text_frtrans": [
         "¶Le laurier, qui connaît d'avance l'avenir, porte les signes du salut. / Placé sous l'oreiller, il rend les songes véridiques. / AUTRE. / À Charles est due la couronne de laurier pour les Carthaginois vaincus : / que de telles guirlandes ornent les chevelures victorieuses."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
     },
     {
       "id": "alc226",
@@ -6447,7 +7068,331 @@
       "text_frtrans": [
         "¶Que le peuplier à deux couleurs orne la chevelure d'Hercule / signifie que la nuit et le jour alternent dans le cours du temps."
       ],
-      "group_frtrans": "Arbres."
+      "group_frtrans": "Arbres.",
+      "section": "ARBORES",
+      "section_ru": "Деревья",
+      "section_en": "Trees"
+    }
+  ],
+  "sections": [
+    {
+      "rubric": "EMBLEM. DEDIC",
+      "from_page": 7,
+      "to_page": 9,
+      "from_frame": 13,
+      "to_frame": 15,
+      "ru": "Посвящение",
+      "en": "Dedication"
+    },
+    {
+      "rubric": "DEVS SIVE RELIGIO",
+      "from_page": 10,
+      "to_page": 14,
+      "from_frame": 16,
+      "to_frame": 20,
+      "ru": "Бог, или Религия",
+      "en": "God, or Religion"
+    },
+    {
+      "rubric": "FIDES",
+      "from_page": 15,
+      "to_page": 19,
+      "from_frame": 21,
+      "to_frame": 25,
+      "ru": "Верность",
+      "en": "Faith"
+    },
+    {
+      "rubric": "PRVDENTIA",
+      "from_page": 20,
+      "to_page": 33,
+      "from_frame": 26,
+      "to_frame": 39,
+      "ru": "Благоразумие",
+      "en": "Prudence",
+      "note": "с. 32: напечатано PRVDBNTIA"
+    },
+    {
+      "rubric": "IVSTITIA",
+      "from_page": 34,
+      "to_page": 39,
+      "from_frame": 40,
+      "to_frame": 45,
+      "ru": "Справедливость",
+      "en": "Justice"
+    },
+    {
+      "rubric": "FORTITVDO",
+      "from_page": 40,
+      "to_page": 44,
+      "from_frame": 46,
+      "to_frame": 50,
+      "ru": "Мужество",
+      "en": "Fortitude"
+    },
+    {
+      "rubric": "CONCORDIA",
+      "from_page": 45,
+      "to_page": 49,
+      "from_frame": 51,
+      "to_frame": 55,
+      "ru": "Согласие",
+      "en": "Concord"
+    },
+    {
+      "rubric": "SPES",
+      "from_page": 50,
+      "to_page": 54,
+      "from_frame": 56,
+      "to_frame": 60,
+      "ru": "Надежда",
+      "en": "Hope"
+    },
+    {
+      "rubric": "PVDICITIA",
+      "from_page": 55,
+      "to_page": 55,
+      "from_frame": 61,
+      "to_frame": 61,
+      "ru": "Целомудрие",
+      "en": "Chastity"
+    },
+    {
+      "rubric": "PERFIDIA",
+      "from_page": 56,
+      "to_page": 62,
+      "from_frame": 62,
+      "to_frame": 68,
+      "ru": "Вероломство",
+      "en": "Treachery"
+    },
+    {
+      "rubric": "STVLTITIA",
+      "from_page": 63,
+      "to_page": 74,
+      "from_frame": 69,
+      "to_frame": 80,
+      "ru": "Глупость",
+      "en": "Folly",
+      "note": "с. 68: напечатано STVITITIA; с. 73: напечатано STVLTLTIA"
+    },
+    {
+      "rubric": "SVPERBIA",
+      "from_page": 75,
+      "to_page": 78,
+      "from_frame": 81,
+      "to_frame": 84,
+      "ru": "Гордыня",
+      "en": "Pride"
+    },
+    {
+      "rubric": "INVIDIA",
+      "from_page": 79,
+      "to_page": 79,
+      "from_frame": 85,
+      "to_frame": 85,
+      "ru": "Зависть",
+      "en": "Envy"
+    },
+    {
+      "rubric": "LVXVRIA",
+      "from_page": 80,
+      "to_page": 87,
+      "from_frame": 86,
+      "to_frame": 93,
+      "ru": "Роскошество",
+      "en": "Luxury"
+    },
+    {
+      "rubric": "DESIDIA",
+      "from_page": 88,
+      "to_page": 91,
+      "from_frame": 94,
+      "to_frame": 97,
+      "ru": "Леность",
+      "en": "Sloth"
+    },
+    {
+      "rubric": "AVARITIA",
+      "from_page": 92,
+      "to_page": 97,
+      "from_frame": 98,
+      "to_frame": 103,
+      "ru": "Скупость",
+      "en": "Avarice"
+    },
+    {
+      "rubric": "GVLA",
+      "from_page": 98,
+      "to_page": 103,
+      "from_frame": 104,
+      "to_frame": 109,
+      "ru": "Чревоугодие",
+      "en": "Gluttony"
+    },
+    {
+      "rubric": "DOCTORVM AGNOMINA",
+      "from_page": 104,
+      "to_page": 105,
+      "from_frame": 110,
+      "to_frame": 111,
+      "ru": "Прозвища учёных",
+      "en": "Epithets of the learned"
+    },
+    {
+      "rubric": "NATVRA",
+      "from_page": 106,
+      "to_page": 109,
+      "from_frame": 112,
+      "to_frame": 115,
+      "ru": "Природа",
+      "en": "Nature"
+    },
+    {
+      "rubric": "ASTROLOGIA",
+      "from_page": 110,
+      "to_page": 114,
+      "from_frame": 116,
+      "to_frame": 120,
+      "ru": "Астрология",
+      "en": "Astrology"
+    },
+    {
+      "rubric": "AMOR",
+      "from_page": 115,
+      "to_page": 129,
+      "from_frame": 121,
+      "to_frame": 135,
+      "ru": "Любовь",
+      "en": "Love"
+    },
+    {
+      "rubric": "FORTVNA",
+      "from_page": 130,
+      "to_page": 142,
+      "from_frame": 136,
+      "to_frame": 148,
+      "ru": "Фортуна",
+      "en": "Fortune"
+    },
+    {
+      "rubric": "HONOR",
+      "from_page": 143,
+      "to_page": 155,
+      "from_frame": 149,
+      "to_frame": 161,
+      "ru": "Честь",
+      "en": "Honour"
+    },
+    {
+      "rubric": "PRINCEPS",
+      "from_page": 156,
+      "to_page": 159,
+      "from_frame": 162,
+      "to_frame": 165,
+      "ru": "Государь",
+      "en": "The Prince"
+    },
+    {
+      "rubric": "RESPVBLICA",
+      "from_page": 160,
+      "to_page": 163,
+      "from_frame": 166,
+      "to_frame": 169,
+      "ru": "Государство",
+      "en": "The Commonwealth",
+      "note": "с. 161: напечатано PRINCEPS"
+    },
+    {
+      "rubric": "VITA",
+      "from_page": 164,
+      "to_page": 165,
+      "from_frame": 170,
+      "to_frame": 171,
+      "ru": "Жизнь",
+      "en": "Life"
+    },
+    {
+      "rubric": "MORS",
+      "from_page": 166,
+      "to_page": 171,
+      "from_frame": 172,
+      "to_frame": 177,
+      "ru": "Смерть",
+      "en": "Death"
+    },
+    {
+      "rubric": "AMICITIA",
+      "from_page": 172,
+      "to_page": 176,
+      "from_frame": 178,
+      "to_frame": 182,
+      "ru": "Дружба",
+      "en": "Friendship"
+    },
+    {
+      "rubric": "HOSTILITAS",
+      "from_page": 177,
+      "to_page": 184,
+      "from_frame": 183,
+      "to_frame": 190,
+      "ru": "Вражда",
+      "en": "Enmity",
+      "note": "с. 179: напечатано HOSTILLITAS"
+    },
+    {
+      "rubric": "VINDICTA",
+      "from_page": 185,
+      "to_page": 189,
+      "from_frame": 191,
+      "to_frame": 195,
+      "ru": "Месть",
+      "en": "Vengeance"
+    },
+    {
+      "rubric": "PAX",
+      "from_page": 190,
+      "to_page": 192,
+      "from_frame": 196,
+      "to_frame": 198,
+      "ru": "Мир",
+      "en": "Peace"
+    },
+    {
+      "rubric": "SCIENTIA",
+      "from_page": 193,
+      "to_page": 201,
+      "from_frame": 199,
+      "to_frame": 207,
+      "ru": "Знание",
+      "en": "Knowledge"
+    },
+    {
+      "rubric": "IGNORANTIA",
+      "from_page": 202,
+      "to_page": 204,
+      "from_frame": 208,
+      "to_frame": 210,
+      "ru": "Невежество",
+      "en": "Ignorance"
+    },
+    {
+      "rubric": "MATRIMONIVM",
+      "from_page": 205,
+      "to_page": 212,
+      "from_frame": 211,
+      "to_frame": 218,
+      "ru": "Брак",
+      "en": "Marriage"
+    },
+    {
+      "rubric": "ARBORES",
+      "from_page": 213,
+      "to_page": 226,
+      "from_frame": 219,
+      "to_frame": 232,
+      "ru": "Деревья",
+      "en": "Trees"
     }
   ]
 }

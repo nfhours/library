@@ -3377,7 +3377,7 @@ In laqueos sociam parra, meropsq; trahit.
 [ЗАГОЛОВОК: Submouendam ignorantiam.]
 [ЗАГОЛОВОК: Διαλογισμός.]
 [ГРАВЮРА: без подписи]
-Quod mōstrū id? Sphinx est. Cur cādida virginisor[?],
+Quod mōstrū id? Sphinx est. Cur cādida virginis ora,
 Et volucrum pennas, crura leonis habet?
 Hanc faciem assumpsit rerum ignorantia: tanti
 Scilicet est triplex causa & origo mali.
@@ -3385,7 +3385,7 @@ Sunt quos ingeniū leue, sunt quos blanda voluptas,
 Sunt & quos faciunt corda superba rudes.
 At quibus est notum, quid Delphica littera possit:
 Præcipitis monstri guttura dira secant.
-Nāq; vir ipe, bipesq; tripesq; & quadrupes idē est,
+Nāq; vir ip̄e, bipesq;,: tripesq; & quadrupes idē est,
 Primaq; prudentis laurea, nosse virum.
 
 Колонтитул: 202 IGNORANTIA.
@@ -3398,7 +3398,7 @@ Primaq; prudentis laurea, nosse virum.
 [ЗАГОЛОВОК: Mentem, non formam plus pollere.]
 [ГРАВЮРА: без подписи]
 Ingressa vulpes in Choragi pergulam,
-Fabrè expolitū inuenit humanum caput,
+Fabrè expolitum inuenit humanum caput,
 Sic eleganter fabricatum, vt spiritus
 Solùm deesset, cæteris viuisceret.
 Id illa cùm sumpsisset in manus, ait:
@@ -3432,7 +3432,7 @@ Ecce puella, viro quæ dextra iungitur. Ecce
 Vt sedet: vt catulus lusitat ante pedes?
 Hæc fidei est species: Veneris quā si educat ardor,
 Malorum in læua non malè ramus erit.
-Poma etenim Veneris sunt, sic Schenēida vicit
+Poma etenim Veneris sunt, sic Schenëida vicit
 Hippomenes. petijt sic Galathea virum.
 
 Колонтитул: MATRIMONIVM. 205
@@ -3461,7 +3461,7 @@ Alternum debet coniugi & obsequium.
 [ЗАГОЛОВОК: In fœcunditatem sibi ipsi damnosam.]
 [ГРАВЮРА: без подписи]
 Ludibrium pueris lapides iacientibus, hoc me
-In triuio posuit rusticà cura nucem.
+In triuio posuit rustica cura nucem.
 Quæ laceris ramis perstrictoq; ardua libro,
 Certatim fundis per latus omne petor.
 Quid sterili posset contingere turpius? eheu,
@@ -3479,8 +3479,8 @@ Infelix: fructus in mea damna fero.
 Ante diem vernam boreali cana palumbes
 Frigore nidificat, præcoqua & oua fouet:
 Mollius & pulli vt iaceant, sibi vellicat alas,
-Quēis nuda hyberno deficit ipsa gelu.
-Fcq;d Colchi pudet, vel te Procne improba? mortē
+Quẽis nuda hyberno deficit ipsa gelu.
+Fcꝗd Colchi pudet, vel te Procne improba? mortē
 Cùm volucris propriæ prolis amore subit?
 
 Колонтитул: 208 MATRIMONIVM.
@@ -3529,12 +3529,12 @@ Ille Ithacam, hic offert Sparten. manet anxia virgo.
 Hinc pater, inde viri mutuus vrget amor.
 Ergo sedens velat vultus, obnubit ocellos.
 Ista verecundi signa pudoris erant.
-Quēs sibi prælatum Icarius cognouit Vlyssem,
+Quẽis sibi prælatum Icarius cognouit Vlyssem,
 Hocq; pudori aram schemate constituit.
 
 Колонтитул: MATRIMONIVM. 211
 Кустод: 
-Сигнатура: O i
+Сигнатура: O 2
 Маргиналии:
 
 ## Кадр 0218 · с. 212
@@ -3561,7 +3561,7 @@ Efferaq; Etrusci facta nouare ducis?
 Indicat effigies metæ, nomenq; Cupressi
 Tractandos parili conditione suos.
 [ЗАГОЛОВОК: ALIVD.]
-Funestæ est arbor, procerum monumẽta Cupressus,
+Funesta est arbor, procerum monumẽta Cupressus,
 Quale Apium plebis, comere fronde solet.
 [ЗАГОЛОВОК: ALIVD.]
 Pulchra coma est, pulchro digestæq; ordine frõdes,
@@ -3670,7 +3670,7 @@ Symbola ciuilis seditionis habet.
 [ЗАГОЛОВОК: Malus medica.]
 [ГРАВЮРА: без подписи]
 Aurea sunt Veneris poma hæc: iucundus amaror
-Indicat, est Græcis sic γλυκυπί[?] amor.
+Indicat, est Græcis sic γλυκυπίκρος amor.
 
 Колонтитул: ARBORES. 221
 Кустод: 
@@ -3721,7 +3721,7 @@ Odi pupillos præcocis ingenij.
 [ГРАВЮРА: без подписи]
 Præscia venturi laurus fert signa salutis.
 Subdita puluillo somnia vera facit.
-[: ALVD.]
+[ЗАГОЛОВОК: ALVD.]
 Debetur Carolo superatis laurea Pœnis:
 Victrices ornent talia serta comas.
 
@@ -3765,9 +3765,9 @@ Nec quæstioni quidem cedendum 19
 [ЗАГОЛОВОК: PRVDENTIA.]
 Consilio,ac virtute Chimæram superari : id est, fortiores, & deceptores 20
 Vigilantia,& custodia 21
-Νῆφε [?] μέμνης ἀπιστεῖν ἄρθρα ταῦτα τῶν φρενῶν ἢ[?]  ? Τί δ' ἔρξα? Τί μοι δ' ἔδον οὐκ ἐτελέσθην 23
+Νῆφε καὶ μέμνης ἀπιστεῖν ἄρθρα ταῦτα τῶν φρενῶν ῆ παρέβην? Τί δὲ ἔρεξα? Τί μοι δέον οὐκ ἐτελέσθην 23
 Prudentes 24
-Prudes, magis quàm loquax 25
+Prudēs, magis quàm loquax 25
 Maturandum 26
 In deprehensum 27
 Custodiendas virgines 28
@@ -3776,7 +3776,7 @@ Prudentes vino abstinent 30
 In statuam Bacchi 31
 Gramen 33
 [ЗАГОЛОВОК: IVSTITIA.]
-Nec verbo,nec facto quęquam lædendum 34
+Nec verbo,nec facto quēquam lædendum 34
 Tandem, tandem Iustitia obtinet 35
 Etiam ferocissimos domari 36
 Gratiam referendam 37
@@ -3784,9 +3784,9 @@ Abstinentia 38
 Bonis à diuitibus nihil timendum 39
 [ЗАГОЛОВОК: FORTITVDO.]
 Signa fortium 40
-Ανεχου [?] απεχου 41
+Ανέχου καὶ ἀπέχου 41
 In adulari nescientes 42
-Obdurādu aduersus vrgētia 43
+Obdurādū aduersus vrgētia 43
 Omnia mea mecum porto 44
 [ЗАГОЛОВОК: CONCORDIA.]
 Concordiæ Symbolum 45
@@ -3821,7 +3821,7 @@ Ei qui semel sua prodegerit,aliena credi,non oportere 62
 Temeritas 63
 Furor,& rabies 64
 In temerarios 65
-In eos qui supra vires æquam audent 66
+In eos qui supra vires ꝗcquam audent 66
 Impossibile 67
 Cuculi 68
 Vespertilio 69
@@ -3837,7 +3837,7 @@ Philautia 77
 Garrulitas 78
 [ЗАГОЛОВОК: INVIDIA.]
 Inuidia 79
-[ЗАГОЛОВОК: LVXVRIA.]
+[ЗАГОЛОВОК: LVVVRIA.]
 Luxuria 80
 Luxuriosorum opes 81
 Tumulus Meretricis 82
@@ -3857,8 +3857,8 @@ In auaros 93
 In Aulicos 94
 In Sordidos 95
 In diuites publico malo 96
-In auaros, Vel quib9 melior cōditio ab extraneis offertur 97
-[ЗАГОЛОВОК: GVLA.]
+In auaros, Vel quib⁹ melior cōditio ab extraneis offertur 97
+[ЗАГОЛОВОК: GVIA.]
 Gula 98
 Ocni effigies 99
 In Parasitos 100
@@ -3883,7 +3883,7 @@ In quatuor tempora anni 109
 Scyphus Nestoris 110
 Quæ supra nos,nihil ad nos 112
 In Astrologos 113
-Qui alta cōteplātur cadere 114
+Qui alta cōtēplātur cadere 114
 [ЗАГОЛОВОК: AMOR.]
 Potētissimus affectus Amor 115
 Potentia amoris 116
@@ -3899,7 +3899,7 @@ Sirenes 126
 Senex puellam amans 127
 Colores 128
 [ЗАГОЛОВОК: FORTVNA.]
-Virtuti Fortuna comes 130
+Virtuti Fottuna comes 130
 Fortuna Virtutem superans 131
 Paupertatem summis ingenijs obesse,ne prouehantur 132
 In Occasionem 133
@@ -3922,7 +3922,7 @@ Nobiles,ac generosi 148
 Duodecim certamina Herculis 149
 In nothos 151
 Imparilitas 152
-In descisoentes 153
+In desciscentes 153
 Aemulatio impar 154
 Albutij ad D.Alciatū suadentis vt &c. 155
 [ЗАГОЛОВОК: PRINCEPS.]
@@ -3964,7 +3964,7 @@ Inanis impetus 178
 Aliquid mali, propter vicinum malum 179
 In eum qui truculentia suorum perierit 180
 Εχθρῶν, ἄδωρα δῶρα. In dona hostium 181
-Aminimis quoque timēdū 182
+A minimis quoque timēdū 182
 Obnoxia infirmitas 183
 Vel post mortem formidolosi 184
 [ЗАГОЛОВОК: VINDICTA.]
