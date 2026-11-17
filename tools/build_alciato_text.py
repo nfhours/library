@@ -128,7 +128,9 @@ def main():
         if f.get("status") != "ok" or f["id"] not in nlat: continue
         bx = ba.classify(crops[f["frame"]]["boxes"]); pg = next(b for b in bx if b["k"] == "page")
         rel = lambda b: [round((b["x"] - pg["x"]) / pg["w"] * 100, 2), round((b["y"] - pg["y"]) / pg["h"] * 100, 2), round(b["w"] / pg["w"] * 100, 2), round(b["h"] / pg["h"] * 100, 2)]
-        holes = [rel(b) for b in bx if b["k"] == "text"]
+        # полем текста считаются рамки «Текстовая область для вычитания» (подпись со словом «текст») и неподписанные «текстовые»;
+        # «зона вычитания для извлечения лишнего из рамки» и подобные — вычитание для вырезки рамки (в plates остаётся), полем не считаются
+        holes = [rel(b) for b in bx if b["k"] == "text" and (not (b.get("label") or "").strip() or "текст" in b["label"].lower())]
         for tl in (rel(b) for b in bx if b["k"] == "tail"):   # концовка внутри поля остаётся печатной: поле кончается над ней
             for h in holes:
                 if h[1] + h[3] * 0.3 < tl[1] < h[1] + h[3] and tl[0] < h[0] + h[2] and tl[0] + tl[2] > h[0]:
