@@ -1944,7 +1944,7 @@
     "greek": []
   },
   "106": {
-    "motto": "Ἀντέρως, id amor virtutis (“Anteros, that is, the love of virtue”).",
+    "motto": "Αντέρως, id amor virtutis (“Anteros, that is, the love of virtue”).",
     "subheading": "Διαλογιστικῶς (“In the form of a dialogue”).",
     "epigrams": [
       {
@@ -1977,7 +1977,7 @@
     ]
   },
   "107": {
-    "motto": "Ἀντέρως (“Anteros”), the Love of virtue, overcoming the other Cupid.",
+    "motto": "Αντέρως (“Anteros”), the Love of virtue, overcoming the other Cupid.",
     "subheading": null,
     "epigrams": [
       {
@@ -2520,7 +2520,7 @@
   },
   "134": {
     "motto": "The twelve labours of Hercules.",
-    "subheading": "Ἀλληγορικῶς (“Allegorically”).",
+    "subheading": "Α᾿λληγορικῶς (“Allegorically”).",
     "epigrams": [
       {
         "label": null,
@@ -3075,7 +3075,7 @@
     "greek": []
   },
   "164": {
-    "motto": "Ἐχθρῶν ἄδωρα δῶρα (“The gifts of enemies are no gifts”). On the gifts of enemies.",
+    "motto": "Εχθρῶν ἄδωρα δῶρα (“The gifts of enemies are no gifts”). On the gifts of enemies.",
     "subheading": null,
     "epigrams": [
       {
@@ -3162,7 +3162,7 @@
           "While the Cyclops sits in the mouth of his winding cave,",
           "he sings these words to himself among the tender sheep:",
           "“You graze on grass; I shall feed on the Achaean comrades,",
-          "and last of all my entrails will receive Utis.”",
+          "and last of all my entrails will receive Utis (“Nobody”).”",
           "The Ithacan heard this, and made the Cyclops",
           "bereft of sight. See how the author gets his own punishment?"
         ]
@@ -3770,6 +3770,137 @@
           "that Cydonian apples [quinces] ought to be given to newly-weds,",
           "since they are pleasing to mouth and stomach, so that their breath too",
           "may be sweet, and a caressing charm may stay on their lips."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "201": {
+    "motto": "Ivy.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The never-withering little shrub of ivy, which, they say,",
+          "Bacchus gave as a gift to the boy Cissus:",
+          "straying, wanton, tawny with golden clusters,",
+          "green on the outside, the rest has pallor.",
+          "Hence poets bind their temples with fitting garlands:",
+          "they grow pale from study, their praise stays green for long."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "202": {
+    "motto": "The holm oak.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Because the holm oak splits itself through excessive hardness,",
+          "it bears the symbols of civil sedition."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "203": {
+    "motto": "The citron tree.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "These are the golden apples of Venus: their pleasant bitterness",
+          "shows it; so among the Greeks love is γλυκυπίκρος (“bittersweet”)."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "epigram line 2",
+        "original": "γλυκυπίκρος",
+        "translation": "bittersweet."
+      }
+    ]
+  },
+  "204": {
+    "motto": "Box.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The ever-green box with its curly top,",
+          "from which the pipe of unequal measures is made,",
+          "is a tree suited to tender delights and to lovers.",
+          "There is pallor in it, and every lover is pale."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "205": {
+    "motto": "The mulberry.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "But the late mulberry never buds until the cold",
+          "has passed, and, wise, it bears a false name (morus — μωρός, “foolish”)."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "206": {
+    "motto": "The almond tree.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Why, almond tree, in your haste do you send out your flowers before your leaves?",
+          "I hate children of precocious wit."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "207": {
+    "motto": "The laurel.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The laurel, foreknowing the future, bears signs of coming good fortune.",
+          "Placed under the pillow, it makes dreams come true."
+        ]
+      },
+      {
+        "label": "Another.",
+        "reading": [
+          "The laurel crown is owed to Charles for conquering the Carthaginians:",
+          "let such garlands adorn victorious hair."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "208": {
+    "motto": "The white poplar.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "In that the two-coloured poplar adorns the hair of Hercules,",
+          "[it is shown that] night and day alternate the changes of time."
         ]
       }
     ],

@@ -1944,7 +1944,7 @@
     "greek": []
   },
   "106": {
-    "motto": "Ἀντέρως, id amor virtutis (« Antéros, c'est-à-dire l'amour de la vertu »).",
+    "motto": "Αντέρως, id amor virtutis (« Antéros, c'est-à-dire l'amour de la vertu »).",
     "subheading": "Διαλογιστικῶς (« En forme de dialogue »).",
     "epigrams": [
       {
@@ -1977,7 +1977,7 @@
     ]
   },
   "107": {
-    "motto": "Ἀντέρως (« Antéros »), l'Amour de la vertu, vainquant l'autre Cupidon.",
+    "motto": "Αντέρως (« Antéros »), l'Amour de la vertu, vainquant l'autre Cupidon.",
     "subheading": null,
     "epigrams": [
       {
@@ -2520,7 +2520,7 @@
   },
   "134": {
     "motto": "Les douze travaux d'Hercule.",
-    "subheading": "Ἀλληγορικῶς (« Allégoriquement »).",
+    "subheading": "Α᾿λληγορικῶς (« Allégoriquement »).",
     "epigrams": [
       {
         "label": null,
@@ -3075,7 +3075,7 @@
     "greek": []
   },
   "164": {
-    "motto": "Ἐχθρῶν ἄδωρα δῶρα (« Les dons des ennemis ne sont pas des dons »). Sur les dons des ennemis.",
+    "motto": "Εχθρῶν ἄδωρα δῶρα (« Les dons des ennemis ne sont pas des dons »). Sur les dons des ennemis.",
     "subheading": null,
     "epigrams": [
       {
@@ -3162,7 +3162,7 @@
           "Tandis que le Cyclope est assis à l'entrée de son antre sinueux,",
           "il chante en lui-même ces paroles parmi ses tendres brebis :",
           "« Paissez, vous, les herbes ; moi, je me repaîtrai des compagnons achéens,",
-          "et en dernier mes entrailles recevront Utis. »",
+          "et en dernier mes entrailles recevront Utis (« Personne »). »",
           "L'Ithacien l'entendit, et rendit le Cyclope",
           "privé de la vue. Vois-tu comme l'auteur reçoit son châtiment ?"
         ]
@@ -3770,6 +3770,137 @@
           "qu'il fallait donner aux nouvelles mariées des pommes de Cydonie [des coings],",
           "parce qu'elles sont agréables à la bouche et à l'estomac, afin que leur haleine aussi",
           "soit douce et qu'un agrément caressant demeure sur leurs lèvres."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "201": {
+    "motto": "Le lierre.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le petit arbuste de lierre, qui ne se dessèche jamais, et que, dit-on,",
+          "Bacchus donna en présent à l'enfant Cissus :",
+          "errant, effronté, fauve de ses corymbes dorés,",
+          "vert au dehors, le reste est pâle.",
+          "De là les poètes ceignent leurs tempes de couronnes appropriées :",
+          "ils pâlissent à l'étude, leur gloire reste longtemps verte."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "202": {
+    "motto": "L'yeuse.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Parce que l'yeuse se rompt elle-même par excès de dureté,",
+          "elle porte les symboles de la sédition civile."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "203": {
+    "motto": "Le citronnier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Ce sont les pommes d'or de Vénus : leur agréable amertume",
+          "le montre ; ainsi chez les Grecs l'amour est γλυκυπίκρος (« doux-amer »)."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "epigram line 2",
+        "original": "γλυκυπίκρος",
+        "translation": "doux-amer."
+      }
+    ]
+  },
+  "204": {
+    "motto": "Le buis.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le buis toujours vert, à la cime frisée,",
+          "dont on fait la flûte aux modes inégaux,",
+          "est un arbre propre aux tendres délices et aux amants.",
+          "Il y a en lui de la pâleur, et tout amant est pâle."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "205": {
+    "motto": "Le mûrier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Mais le mûrier tardif ne bourgeonne jamais avant que le froid",
+          "soit passé, et, sage, il porte un nom trompeur (morus — μωρός, « fou »)."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "206": {
+    "motto": "L'amandier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Pourquoi, amandier, te hâtant, envoies-tu tes fleurs avant tes feuilles ?",
+          "Je hais les enfants d'un esprit précoce."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "207": {
+    "motto": "Le laurier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le laurier, qui pressent l'avenir, porte les signes du salut à venir.",
+          "Placé sous l'oreiller, il rend les songes véridiques."
+        ]
+      },
+      {
+        "label": "Autre.",
+        "reading": [
+          "La couronne de laurier est due à Charles pour avoir vaincu les Puniques :",
+          "que de telles couronnes ornent les chevelures victorieuses."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "208": {
+    "motto": "Le peuplier blanc.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Par le fait que le peuplier bicolore orne la chevelure d'Hercule,",
+          "[on montre que] la nuit et le jour alternent les changements du temps."
         ]
       }
     ],
