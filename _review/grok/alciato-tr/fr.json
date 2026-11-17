@@ -1477,5 +1477,813 @@
       }
     ],
     "greek": []
+  },
+  "81": {
+    "motto": "L'avarice.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Hélas, le malheureux Tantale se tient, assoiffé, au milieu des eaux,",
+          "et, affamé, ne peut atteindre les fruits tout proches.",
+          "Le nom changé, cela se dira de toi, avare,",
+          "qui, comme si tu ne l'avais pas, ne jouis pas de ce que tu as."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "82": {
+    "motto": "Sur les avares.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Septitius, le plus riche de tout le peuple,",
+          "vieillard dont nul ne possède de plus vastes champs,",
+          "frustrant et son génie et les tables servies,",
+          "ne mange rien que des bettes et de durs navets.",
+          "À qui le comparerai-je, lui que l'abondance rend pauvre ?",
+          "À l'âne ? C'est cela : il lui ressemble.",
+          "Car l'âne porte sur son dos des mets précieux,",
+          "et se nourrit, pauvre bête, de ronce ou de dur carex."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "83": {
+    "motto": "Sur les courtisans.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "On dit que la cour vaine lie les clients du palais qu'elle nourrit",
+          "par des entraves d'or [?]."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "84": {
+    "motto": "Sur les gens sordides.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "L'ibis, qui de son bec (comme d'un clystère) se lave le ventre,",
+          "connu sur les rivages du Nil,",
+          "est passé en nom d'injure : par lui Publius Naso [Ovide] appelle",
+          "son ennemi, et Battiade [Callimaque] le sien."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "85": {
+    "motto": "Sur ceux qui s'enrichissent du malheur public.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Quiconque prend des anguilles, s'il drague des rivières",
+          "limpides, s'il ose s'approcher de lacs sans vase,",
+          "reviendra bredouille et perdra sa peine ; qu'il remue donc beaucoup",
+          "de limon [?], et que la rame trouble les eaux de verre :",
+          "il sera riche. Ainsi la république troublée est un gain pour ceux",
+          "qui, dans la paix, resserrés par les lois, ont faim."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "86": {
+    "motto": "Sur les avares, ou sur ceux à qui des étrangers offrent une meilleure condition.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Assis sur un dauphin, Arion sillonne les eaux bleues,",
+          "et par ce son il charme ses oreilles et bride sa gueule.",
+          "L'esprit des bêtes n'est pas si cruel que celui de l'homme avare :",
+          "nous que les hommes dépouillent, les poissons nous sauvent."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "87": {
+    "motto": null,
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "On peint un homme au gosier de grue et au ventre gonflé,",
+          "qui porte dans ses mains une mouette ou un pélican (onocrotalus).",
+          "Telle fut la figure de Denys, et telle celle d'Apicius,",
+          "et de ceux que rend célèbres la gourmandise raffinée."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "88": {
+    "motto": "La figure d'Ocnos. Sur ceux qui donnent aux courtisanes ce qui devrait être tourné à de bons usages.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Infatigable, il ne cesse de tresser une corde de sparte",
+          "et de joindre d'une main habile les fils humides.",
+          "Mais ce que, diligent, il tord à peine en bien des heures,",
+          "l'ânesse au ventre oisif le dévore aussitôt.",
+          "La femme, animal oisif, ravit les gains amassés",
+          "par un mari complaisant, et les dissipe en parures."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "89": {
+    "motto": "Sur les parasites.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Reçois ces crabes de rivière que nous te donnons :",
+          "ces présents conviennent à tes mœurs.",
+          "Ils ont des yeux vigilants, une rangée nombreuse de pinces",
+          "armées de tenailles, et un très grand ventre.",
+          "Ainsi ton ventre fait saillie avec sa grasse panse,",
+          "et tu as des pieds rapides, et des aiguillons propres au pied [?],",
+          "quand tu erres par les carrefours et les bancs de la table,",
+          "et que, mordant, tu lances aux autres de faux sarcasmes."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "90": {
+    "motto": "Une petite cuisine ne suffit pas à deux goinfres.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Dans les petites choses il n'y a rien à gagner, et un seul",
+          "bosquet ne nourrit pas deux rouges-gorges (erithacus)."
+        ]
+      },
+      {
+        "label": "Autre.",
+        "reading": [
+          "Dans la maigreur il n'y a nul espoir de gain, et sur un seul",
+          "arbre deux becfigues ne se tiennent pas bien."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "91": {
+    "motto": "Captif à cause de sa gourmandise.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le maître [?] du garde-manger et rongeur de la table du maître,",
+          "un rat, vit des huîtres entrouvertes au bord de leurs lèvres.",
+          "Quand, y portant sa tendre barbiche, il mordit leurs os trompeurs [?],",
+          "elles, touchées, fermèrent soudain leur maison",
+          "et retinrent le voleur surpris dans une sombre prison,",
+          "lui qui s'était livré à un tombeau obscur."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "92": {
+    "motto": "Sur le bavard et le glouton.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Il mugit d'une voix farouche, il a un très large gosier, son bec",
+          "est comme un nez et une trompette à plusieurs trous.",
+          "Un criailleur difforme, adonné au ventre et au gosier,",
+          "l'oiseau truo le signifiera, quand il sera peint."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "93": {
+    "motto": null,
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "C'est une vieille coutume d'ajouter",
+          "aux professeurs quelques surnoms.",
+          "N'expliquant que les passages faciles et clairs,",
+          "Curtius est appelé « Canon ».",
+          "Celui qui tourne autour de la même chose et répète trop",
+          "est un « Méandre », comme Parisius.",
+          "Obscur et confus, comme le fut Picus,",
+          "il sera appelé « Labyrinthe ».",
+          "Trop bref, retranchant beaucoup, comme Claudius,",
+          "il portera le surnom de « Pointe » (Mucro).",
+          "Parpalus, qui de sa voix brise même les colonnes,",
+          "est appelé « truo » par les écoliers.",
+          "Au contraire, Albius, parce qu'il avait la voix",
+          "grêle, fut appelé « chauve-souris ».",
+          "Mais Crassus, qui mutile les dernières syllabes comme un écourté (colobotes),",
+          "est appelé « hirondelle ».",
+          "Celui qui, sourd aux autres, veut parler seul,",
+          "est, comme dans le proverbe, un « étourneau ».",
+          "Celui-ci zézaie, celui-là est enroué, cet autre babille.",
+          "Celui-ci siffle comme une vipère.",
+          "Celui-là fait du tumulte de la bouche et des narines.",
+          "La langue de celui-ci fait office de vrille.",
+          "Un autre a le hoquet et tousse en hésitant.",
+          "Un autre crache comme une arroseuse (psecas).",
+          "Autant de vices sont à l'œuvre dans les affaires humaines,",
+          "autant de noms surgissent."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "94": {
+    "motto": "La force de la nature.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Les nations honorent Pan (c'est-à-dire la nature des choses),",
+          "homme à demi bouc et dieu à demi homme.",
+          "Jusqu'au pubis il est homme, parce que la vertu innée en nous,",
+          "naissant dans le cœur, siège dans la haute citadelle de la tête.",
+          "En bas il est bouc, parce que la nature nous propage à travers les siècles",
+          "par l'accouplement, comme les oiseaux, les êtres à écailles, le bétail, les bêtes.",
+          "Ce qui [nous] est commun avec les autres animaux, le bouc, indice",
+          "de la luxure, [le montre], et il porte les signes manifestes de Vénus.",
+          "Les uns ont attribué la sagesse (sophia) au cœur, les autres au cerveau.",
+          "Les parties inférieures, nulle mesure, nulle raison ne les tient."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "95": {
+    "motto": "L'art qui aide la nature.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Comme la Fortune est assise sur une sphère, ainsi Hermès sur un cube :",
+          "il préside aux arts, elle aux hasards divers.",
+          "Contre la force de la Fortune l'art a été fait ; mais quand",
+          "la fortune est mauvaise, elle requiert souvent le secours de l'art.",
+          "Apprends donc les bons arts, jeunesse studieuse,",
+          "qui portent avec eux les avantages d'un sort assuré."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "96": {
+    "motto": "Sur la jeunesse.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tous deux fils de Jupiter, tous deux tendres et imberbes,",
+          "celui qu'enfanta Latone et celui qu'enfanta Sémélé,",
+          "salut, et fleurissez ensemble d'une éternelle jeunesse,",
+          "qui, par votre puissance, me soit à moi aussi durable.",
+          "Toi, dissous les soucis par le vin ; toi, les maladies par le régime,",
+          "pour que la vieillesse tardive arrive d'un pas lent."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "97": {
+    "motto": "Sur les quatre saisons de l'année.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Que l'hiver est arrivé, le pinson l'annonce.",
+          "Au début du printemps l'hirondelle babillarde nous revient.",
+          "Le coucou montre qu'il attend l'été.",
+          "En automne seulement on peut voir les becfigues."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "98": {
+    "motto": "La coupe de Nestor.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Reçois ce cratère de Nestor à deux fonds,",
+          "ouvrage que répandit une lourde masse d'argent.",
+          "Les clous en sont d'or ; autour se dressent quatre anses ;",
+          "sur chacune est posée une colombe dorée.",
+          "Seul Nestor, chargé d'années, put le soulever.",
+          "Enseigne-moi ce que veut dire la muse du Méonien [Homère] ?",
+          "La coupe elle-même est le ciel : sa couleur est d'argent ;",
+          "les clous d'or sont les astres du ciel.",
+          "Les colombes dont il a parlé, on pense que ce sont les Pléiades.",
+          "Les deux ombilics [fonds] sont la Grande et la Petite Bête [les Ourses].",
+          "Cela, le sage Nestor le comprend par un long usage :",
+          "les vaillants font les guerres, l'habile tient les astres."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "99": {
+    "motto": "Ce qui est au-dessus de nous ne nous regarde pas.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Prométhée, suspendu éternellement au rocher du Caucase,",
+          "a le foie déchiré par la serre de l'oiseau sacré.",
+          "Et il voudrait n'avoir pas fait l'homme ; et, haïssant les potiers,",
+          "il maudit la torche allumée au feu dérobé.",
+          "Les cœurs des sages sont rongés de soucis divers,",
+          "eux qui prétendent connaître [les secrets] du ciel et les vicissitudes des dieux."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "100": {
+    "motto": "Sur les astrologues.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Icare, toi qui fus emporté à travers les cieux et l'air, jusqu'à ce que",
+          "la cire fondue te précipitât dans la mer,",
+          "maintenant la même cire et le feu ardent te ressuscitent,",
+          "afin que par ton exemple tu enseignes des doctrines sûres.",
+          "Que l'astrologue se garde de rien prédire : car",
+          "l'imposteur tombera la tête la première, tandis qu'il vole au-dessus des astres."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "101": {
+    "motto": "Ceux qui contemplent les hauteurs tombent.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tandis que l'oiseleur trompe les grives avec la glu, les alouettes avec le lacet,",
+          "et que le roseau lancé transperce la grue qui vole haut,",
+          "imprudent, il heurta du pied une dipsade ; vengeresse",
+          "du mal, elle lance de sa bouche son venin.",
+          "Ainsi périt celui qui, l'arc tendu, regarde les astres,",
+          "insouciant du destin qui gît devant ses pieds."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "102": {
+    "motto": "L'amour, la plus puissante des passions.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Vois comme la force invaincue du lion, en se faisant son cocher,",
+          "l'Amour la vainc, petit garçon gravé sur une gemme ;",
+          "comme d'une main il tient le fouet, de l'autre il guide les rênes,",
+          "et combien grande est la beauté sur le visage de l'enfant.",
+          "Fléau terrible, reste au loin : celui qui peut vaincre une telle bête,",
+          "retiendra-t-il ses mains loin de nous ?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "103": {
+    "motto": "La puissance de l'amour.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Vois-tu comme l'Amour nu rit et regarde paisiblement [?] ?",
+          "Il n'a ni torches, ni arc à courber.",
+          "Mais l'une de ses mains porte des fleurs, l'autre un poisson,",
+          "pour montrer qu'il donne des lois à la terre et à la mer."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "104": {
+    "motto": "La force de l'amour.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le dieu ailé a brisé la foudre ailée, montrant",
+          "par le feu que l'amour est un feu plus fort que le feu."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "105": {
+    "motto": "Sur un homme d'étude pris par l'Amour.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Plongé dans ses études, expert à plaider et en droit,",
+          "et le plus grand des rédacteurs de requêtes (libellio),",
+          "il aime Hélianira plus que jamais le prince",
+          "thrace [Térée] n'aima sa concubine, la sœur [de son épouse].",
+          "Pourquoi, Cypris, as-tu vaincu Pallas devant un autre juge ?",
+          "Ne suffit-il pas de vaincre au pied de l'Ida ?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "106": {
+    "motto": "Ἀντέρως, id amor virtutis (« Antéros, c'est-à-dire l'amour de la vertu »).",
+    "subheading": "Διαλογιστικῶς (« En forme de dialogue »).",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Dis, où sont tes arcs recourbés ? où sont les traits, Cupidon,",
+          "dont [?] tu as coutume de percer les tendres cœurs des jeunes gens ?",
+          "Où est la sombre torche ? où sont les ailes ? d'où vient que ta main",
+          "porte trois couronnes ? d'où vient que tes tempes en portent une autre ?",
+          "« Je n'ai rien de commun (étranger) avec la Cypris vulgaire,",
+          "et aucune forme de volupté ne m'a emporté ;",
+          "mais j'allume dans les esprits purs des hommes les feux",
+          "de la science, et j'entraîne les âmes vers les hauts astres.",
+          "De la Vertu même je tresse quatre couronnes,",
+          "et celle d'entre elles qui est à la Sagesse couvre [?] en premier mes tempes. »"
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Αντέρως",
+        "translation": "Antéros."
+      },
+      {
+        "where": "subheading",
+        "original": "Διαλογιστικῶς.",
+        "translation": "En forme de dialogue."
+      }
+    ]
+  },
+  "107": {
+    "motto": "Ἀντέρως (« Antéros »), l'Amour de la vertu, vainquant l'autre Cupidon.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Némésis a peint un être ailé, ennemi de l'Amour ailé,",
+          "domptant l'arc par l'arc et les feux par le feu,",
+          "pour qu'il souffre ce qu'il a fait aux autres. Mais cet enfant, jadis",
+          "porteur intrépide de traits, pleure maintenant, malheureux.",
+          "Il crache trois fois au fond de son sein : (chose étonnante) le feu",
+          "est brûlé par le feu, l'Amour hait les fureurs de l'Amour."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Αντέρως",
+        "translation": "Antéros."
+      }
+    ]
+  },
+  "108": {
+    "motto": "Les choses douces deviennent parfois amères.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Sa mère laissée au loin, l'enfant lydien s'était un peu",
+          "écarté ; mais vous, abeilles cruelles, vous l'avez saisi.",
+          "Il était venu à vous, vous croyant des volatiles paisibles,",
+          "alors que même la vipère farouche n'aurait pas été si impitoyable.",
+          "Ah, vous donnez des aiguillons en échange du doux présent du miel !",
+          "Ô douleur ! hélas, sans toi aucun agrément n'est donné."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "109": {
+    "motto": "À peu près la même chose, d'après Théocrite.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tandis qu'il cueillait le miel dans les ruches, une méchante abeille piqua",
+          "l'Amour voleur et laissa ses aiguillons au bout",
+          "de ses doigts ; l'enfant gémit, angoissé, de son doigt enflé,",
+          "et, errant çà et là, frappe le sol ; et à Vénus il montre",
+          "sa douleur, et se plaint amèrement qu'une petite abeille, petit",
+          "animal, puisse elle-même infliger de si nuisibles blessures.",
+          "Vénus, riant, lui dit : « Toi aussi tu imites cette",
+          "bestiole, mon fils : toi, si petit, qui infliges tant de blessures nuisibles. »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "110": {
+    "motto": "Sur une statue de l'Amour.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Ce qu'est l'Amour, beaucoup de poètes l'ont chanté jadis,",
+          "qui rapportent ses exploits sous des noms divers.",
+          "On s'accorde sur ceci : qu'il est privé de vêtement, qu'il est petit de corps,",
+          "qu'il porte des traits et des ailes, qu'il n'a pas d'yeux.",
+          "Tels sont le visage et l'aspect du dieu. Mais s'il est permis de parler",
+          "contre de si grands poètes, je pense que le faux s'y cache.",
+          "Car pourquoi va-t-il nu ? comme si le dieu manquait de manteaux,",
+          "lui qui possède toutes les richesses du monde dompté.",
+          "Ou comment, je te prie, a-t-il pu, nu, échapper aux neiges et à l'aquilon",
+          "des Alpes, et aux prés serrés par le gel ?",
+          "S'il est enfant, appelles-tu enfant celui qui est plus âgé que Nestor ?",
+          "Ou ne connais-tu pas les doctes chants du vieillard d'Ascra [Hésiode] ?",
+          "L'enfant est inconstant, mais celui-ci est obstiné : les cœurs où il est",
+          "une fois entré, il ne peut jamais les quitter de son gré.",
+          "Il porte des carquois et des traits : pourquoi ce poids inutile ?",
+          "Un enfant peut-il courber un arc dur ?",
+          "Ou pourquoi a-t-il des ailes, s'il ne sait pas les porter dans l'éther,",
+          "ne sachant pas diriger ses traits vers le foie des oiseaux ?",
+          "Il rampe à terre et blesse toujours les cœurs mortels",
+          "des hommes, et, de pierre, il ne remue pas de là ses ailes.",
+          "S'il est aveugle et porte un bandeau, à quoi sert à un aveugle",
+          "un ruban ? en voit-il moins pour cela ?",
+          "Et qui croirait porteur de flèches celui qui est privé de la vue ?",
+          "Celui-ci lance des traits sûrs, mais ceux de l'aveugle sont vains.",
+          "Il est de feu, dit-on, et roule des flammes dans la poitrine.",
+          "Pourquoi donc, voyons, vit-il encore ? la flamme dévore tout.",
+          "Et bien plus, pourquoi ne s'éteint-il pas dans les ondes gonflées,",
+          "chaque fois qu'il pénètre les tendres cœurs des Naïades ?",
+          "Mais toi, pour ne pas être pris par de si grandes erreurs, écoute :",
+          "ce qu'est le véritable Amour, nos vers le diront.",
+          "C'est un labeur agréable dans un loisir lascif ; son",
+          "signe est une grenade (punica glans) sur un bouclier noir."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "111": {
+    "motto": "Sur l'oubli de la patrie.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Ayant depuis longtemps quitté ta patrie et oublié les tiens,",
+          "que t'ont donnés soit le sang, soit l'amour,",
+          "tu habites Rome, et nul souci de rentrer chez toi ne te vient :",
+          "seul l'honneur de la Ville éternelle te captive.",
+          "Ainsi la troupe de l'Ithacien, envoyée en avant, par la douceur du lotus",
+          "avait abandonné et la patrie et son chef."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "112": {
+    "motto": "Les Sirènes.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Des oiseaux sans ailes, des jeunes filles sans jambes,",
+          "et des poissons sans bec, qui pourtant chantent de la bouche :",
+          "qui penserait qu'il en existe ? la nature a refusé d'unir ces choses,",
+          "mais les Sirènes enseignent que cela a pu se faire.",
+          "Illicite est la femme qui se termine en poisson noir,",
+          "parce que la luxure traîne avec elle une foule de monstres.",
+          "Par l'aspect, par les paroles, par l'éclat de l'esprit, les hommes sont attirés",
+          "par Parthénope, Ligie et Leucosie.",
+          "Les Muses leur arrachent les plumes, et Ulysse se joue d'elles.",
+          "C'est-à-dire que les doctes n'ont rien de commun avec la courtisane."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "113": {
+    "motto": "Le vieillard amoureux d'une jeune fille.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Quand Sophocle (bien qu'âgé) attire à ses désirs",
+          "la jeune Archippé, qui vivait de son gain,",
+          "et la séduit à prix d'argent, la folle jeunesse le supporta mal",
+          "par jalousie, et flétrit l'un et l'autre de ce vers :",
+          "« Comme la chouette sur les tombeaux, comme le hibou sur les cadavres,",
+          "ainsi notre jeune fille est assise auprès de Sophocle. »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "114": {
+    "motto": "Sur les couleurs.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "La couleur sombre est l'indice de la tristesse : nous usons tous",
+          "de cet habit quand nous faisons des offrandes aux tombeaux.",
+          "Mais la stole blanche [est le signe] d'une âme sincère et d'un esprit pur.",
+          "De là le sindon de lin est agréable aux hommes sacrés.",
+          "Le vert nous enseigne à espérer. On dit que l'espérance",
+          "est « dans le vert » chaque fois que, vaine, elle retombe en arrière [?].",
+          "Le jaune est la couleur des avides ; il convient aussi aux amants,",
+          "et aux courtisanes, et à ceux dont l'espoir fut assuré.",
+          "Mais que le manteau rouge pare les cavaliers armés,",
+          "et qu'il indique que les garçons ont rougi de pudeur.",
+          "Le bleu [convient] aux marins, et aux devins qui cherchent les choses célestes,",
+          "frappés de stupeur par une religion excessive.",
+          "Vils sont les manteaux gris de laine non teinte,",
+          "tels qu'en ont d'ordinaire pour couvertures les [moines] aux pieds de bois.",
+          "Celui que tourmentent d'immenses soucis, ou la jalousie de l'amour,",
+          "on croit qu'il n'est pas mal vêtu d'un habit fauve.",
+          "Quiconque est content de son sort, qu'il porte le violet,",
+          "et [celui] qui supporte d'une âme égale les dégoûts de la Fortune.",
+          "Comme la nature est variée dans la production des couleurs,",
+          "ainsi aux uns plaît une chose, aux autres une autre : mais à chacun plaisent les siennes."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "115": {
+    "motto": "La Fortune, compagne de la Vertu.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le caducée, aux serpents entrelacés et aux deux ailes,",
+          "se dresse droit entre les cornes d'Amalthée.",
+          "Ainsi il montre que les hommes puissants par l'esprit et habiles à parler",
+          "sont comblés par une grande abondance de biens."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "116": {
+    "motto": "La Fortune triomphant de la Vertu.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Après que, vaincu par les soldats de César, il eut vu",
+          "Pharsale ruisselante de sang civil,",
+          "sur le point de plonger le fer dans sa poitrine mourante,",
+          "Brutus prononça d'une bouche audacieuse ces paroles :",
+          "« Malheureuse Vertu, prévoyante seulement en paroles,",
+          "pourquoi dans les faits suis-tu la Fortune comme ta maîtresse ? »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "117": {
+    "motto": "La pauvreté empêche les plus grands talents de s'élever.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Ma main droite tient une pierre, l'autre soutient des ailes.",
+          "Comme la plume m'élève, ainsi le lourd fardeau m'enfonce.",
+          "Par mon talent je pourrais voler à travers les hauteurs célestes,",
+          "si la pauvreté envieuse ne m'accablait."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "118": {
+    "motto": "Sur l'Occasion.",
+    "subheading": "Διαλογιστικῶς (« En forme de dialogue »).",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "C'est l'ouvrage de Lysippe, dont la patrie est Sicyone. Qui es-tu ?",
+          "L'instant du temps saisi, qui dompte toutes choses.",
+          "Pourquoi te tiens-tu sur des ailes ? Je tourne sans cesse. Pourquoi gardes-tu",
+          "des talonnières à tes pieds ? Le vent léger m'emporte partout.",
+          "Dis, pourquoi un fin rasoir dans ta main droite ? Ce signe",
+          "enseigne que je suis plus tranchante que toute lame.",
+          "Pourquoi la chevelure sur le front ? Pour qu'on me saisisse quand je viens. Mais, holà,",
+          "dis pourquoi l'arrière de ta tête est chauve ?",
+          "Pour que, si quelqu'un me laisse une fois partir, moi aux pieds ailés,",
+          "je ne puisse ensuite être prise par les cheveux.",
+          "C'est avec cet art que l'artisan nous a faite pour toi, étranger,",
+          "et pour que j'avertisse tout le monde, un portique ouvert me tient."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "subheading",
+        "original": "Διαλογιστικῶς.",
+        "translation": "En forme de dialogue."
+      }
+    ]
+  },
+  "119": {
+    "motto": "Sur la terreur soudaine.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Voyant les escadrons fuir en colonne dispersée,",
+          "« Qui souffle maintenant dans mes cornes ? » dit Faune."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "120": {
+    "motto": "Sur ceux qui louent ce qui n'est pas louable.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Les énormes escadrons des Galates, avec des soldats à demi armés,",
+          "Antiochus tremblant les avait mis en déroute contre tout espoir,",
+          "quand la force farouche des bœufs de Lucanie [les éléphants], la fureur de la trompe,",
+          "saisit pour la première fois les chevaux ennemis.",
+          "Aussi, dressant un trophée, il y peignit l'image d'un éléphant,",
+          "et dit de plus à ses compagnons : « Nous aurions péri,",
+          "si la plus hideuse des bêtes, l'éléphant (barrus), ne nous avait sauvés. »",
+          "Autant il est doux d'avoir vaincu, autant il est honteux d'avoir [ainsi] vaincu."
+        ]
+      }
+    ],
+    "greek": []
   }
 }
