@@ -624,7 +624,7 @@ Vulgò aiunt, pullos sic fouet illa suos.
 Saturno Martiq; sacrum, quo Glaucus adeso
 Polybides, factus creditur esse Deus.
 His meritò arguitur nodis tutela, salusq;:
-Herbaq; tot viret hæc digitalis habet.
+Herbaq; tot vires hæc digitalis habet.
 
 Колонтитул: PRVDENTIA. 33
 Кустод: 
