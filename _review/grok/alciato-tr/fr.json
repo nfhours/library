@@ -3015,5 +3015,764 @@
       }
     ],
     "greek": []
+  },
+  "161": {
+    "motto": "L'assaut inutile.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "La nuit, un chien regarde le disque de la lune (comme un miroir),",
+          "et, se voyant, croit qu'il y a là-haut un autre chien,",
+          "et il aboie : mais sa voix inutile est vainement emportée par les vents,",
+          "et Diane sourde poursuit sa course."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "162": {
+    "motto": "Quelque mal à cause d'un voisin malfaisant.",
+    "subheading": "Προσωποπεῖα (« Prosopopée »).",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Un torrent emportait deux pots, dont l'un était de métal,",
+          "l'autre fait de terre par la main du potier.",
+          "Le premier demande donc à l'autre s'il veut être porté tout près de lui,",
+          "pour que, joints, tous deux résistent aux eaux impétueuses.",
+          "Le pot de terre lui répond : « Ta compagnie ne m'importe nullement,",
+          "de peur que ce voisinage ne m'apporte bien des maux.",
+          "Car que l'onde te jette contre moi ou moi contre toi,",
+          "c'est moi seul, fragile, qui serai brisé, toi restant sauf. »"
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "subheading",
+        "original": "Προσωποπεῖα.",
+        "translation": "Prosopopée."
+      }
+    ]
+  },
+  "163": {
+    "motto": "Sur celui qui a péri par la cruauté des siens.",
+    "subheading": "Prosopopée.",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "La houle m'a poussé, moi dauphin, malgré moi sur le rivage,",
+          "exemple des grands périls de la mer infidèle.",
+          "Car si Neptune n'épargne pas même ses propres nourrissons,",
+          "qui penserait que les hommes sont en sûreté sur les navires ?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "164": {
+    "motto": "Ἐχθρῶν ἄδωρα δῶρα (« Les dons des ennemis ne sont pas des dons »). Sur les dons des ennemis.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "On dit qu'Ajax porteur de bouclier et Hector d'Ilion",
+          "reçurent l'un de l'autre des souvenirs de guerre.",
+          "Le baudrier, le fils de Priam ; l'épée rigide, le fils de Télamon :",
+          "chacun reçut l'instrument de sa propre mort.",
+          "Car l'épée acheva Ajax, et Hector mort,",
+          "le baudrier attaché aux roues hémoniennes le traîna.",
+          "Ainsi les présents que les ennemis envoient aux ennemis sous couleur",
+          "de complaisance portent un destin qui pressent l'avenir."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Εχθρῶν ἄδωρα δῶρα",
+        "translation": "Les dons des ennemis ne sont pas des dons."
+      }
+    ]
+  },
+  "165": {
+    "motto": "Il faut craindre même les plus petits.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le scarabée fait la guerre et provoque même l'ennemi ;",
+          "inférieur en force, il l'emporte par la ruse.",
+          "Car en secret et sans être reconnu il se cache dans les plumes de l'aigle,",
+          "pour gagner le nid ennemi à travers les hauts astres.",
+          "Et, perçant les œufs, il empêche l'espoir de la couvée de croître,",
+          "et, ayant ainsi vengé l'affront reçu, il s'en va."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "166": {
+    "motto": "La faiblesse exposée.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "La daurade ravit les petites sardines au milieu de la mer,",
+          "à moins que, craintives, elles ne fuient et ne gagnent la surface de la mer.",
+          "Mais là elles sont la pâture des plongeons et des foulques voraces.",
+          "Hélas, la faiblesse reste partout sans abri."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "167": {
+    "motto": "Redoutables même après la mort.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Les autres se tairont, et la peau de brebis restera muette,",
+          "si résonnent des tambours faits d'une peau de loup.",
+          "La membrane de peau de brebis la redoute à tel point, comme un ennemi,",
+          "que, morte, elle ne supporte pas le mort.",
+          "Ainsi Cischas [Žižka], la peau arrachée et changée en tambour,",
+          "put vaincre les prélats de Bohême."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "168": {
+    "motto": "La juste vengeance.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tandis que le Cyclope est assis à l'entrée de son antre sinueux,",
+          "il chante en lui-même ces paroles parmi ses tendres brebis :",
+          "« Paissez, vous, les herbes ; moi, je me repaîtrai des compagnons achéens,",
+          "et en dernier mes entrailles recevront Utis. »",
+          "L'Ithacien l'entendit, et rendit le Cyclope",
+          "privé de la vue. Vois-tu comme l'auteur reçoit son châtiment ?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "169": {
+    "motto": "La juste vengeance.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Un corbeau emportait dans les airs un scorpion saisi de sa patte,",
+          "butin acquis par un gosier audacieux.",
+          "Mais celui-ci, répandant peu à peu le venin dans ses membres,",
+          "en vengeur, poussa le ravisseur dans les eaux du Styx.",
+          "Ô chose digne de rire : celui qui préparait la mort aux autres",
+          "périt lui-même, et succomba à ses propres ruses."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "170": {
+    "motto": "La faute du coupable et celle de l'instigateur sont égales.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le héraut qui avait sonné de la trompette (lituus) l'appel au combat,",
+          "la foule victorieuse le tient captif dans une sombre prison.",
+          "Il s'excuse auprès d'eux en disant qu'il n'est pas vaillant aux armes",
+          "et n'a blessé le flanc de personne d'une épée cruelle.",
+          "Ils lui répondent : « Au contraire, toi-même, très lâche, tu pèches davantage,",
+          "toi qui, au son de l'airain, appelles les autres aux armes. »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "171": {
+    "motto": "L'un pèche, l'autre est puni.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Comme un petit chien saisit une pierre et la harcèle de ses morsures,",
+          "sans rendre aucun mal à celui qui l'a lancée,",
+          "ainsi beaucoup laissent échapper leurs vrais ennemis",
+          "et attaquent à belles dents ceux que nulle faute ne charge."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "172": {
+    "motto": "Le glaive de l'insensé.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Au milieu d'un troupeau soyeux se tenait Ajax porte-glaive,",
+          "égorgeant des porcs et croyant égorger les Tantalides.",
+          "Ainsi le porc, victime de remplacement, payait la peine",
+          "pour le fils de Laërte et pour [son] piège [?].",
+          "La fureur ne sait pas nuire à ses ennemis, elle manque son coup,",
+          "et, privée de conseil, se précipite à sa propre perte."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "173": {
+    "motto": null,
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "L'éléphant (barrus), aux épaules portant des tours, à la défense d'ivoire,",
+          "qui d'ordinaire, farouche, l'emporte dans les guerres de Mars,",
+          "a maintenant soumis son cou au joug, et, dompté par l'aiguillon,",
+          "traîne les chars des Césars vers les pieux temples.",
+          "Même la bête reconnaît que partout les nations sont en concorde,",
+          "et, les armes rejetées, s'acquitte des devoirs de la paix."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "174": {
+    "motto": "De la guerre, la paix.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Voici le casque qu'avait porté un soldat intrépide, et qui",
+          "fut maintes fois éclaboussé du sang ennemi.",
+          "La paix acquise, il a été cédé aux abeilles pour servir",
+          "de ruche étroite, et il porte des rayons et un miel agréable.",
+          "Que les armes gisent au loin : qu'il soit permis de prendre la guerre seulement",
+          "quand on ne peut autrement jouir de l'art de la paix."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "175": {
+    "motto": "De la paix, l'abondance.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tresse de légères couronnes de grands épis,",
+          "autour desquelles la vigne courra en sarments alternés.",
+          "Parés de celles-ci, les alcyons sur l'onde du marbre tranquille [de la mer]",
+          "font leurs nids et réchauffent leurs petits encore sans plumes.",
+          "L'année sera joyeuse pour Cérès, fertile aussi pour Bacchus,",
+          "si le roi est semblable à l'oiseau de mer."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "176": {
+    "motto": "Il est sacrilège que les doctes dénigrent les doctes.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Pourquoi, hélas, cruelle Procné, ravis-tu la cigale chanteuse,",
+          "et prépares-tu à tes enfants des mets affreux ?",
+          "Stridente, tu blesses une stridente ; indigène, une indigène ; hôte, une hôte ;",
+          "oiseau à plumes, une créature ailée ?",
+          "Rejette donc cette proie : car pour les cœurs musiciens le plus grand",
+          "sacrilège est que l'un périsse par la dent de l'autre."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "177": {
+    "motto": "L'éloquence l'emporte sur la force.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "La main gauche tient un arc, la droite porte une massue rigide,",
+          "et le lion de Némée couvre le corps nu.",
+          "C'est donc là la figure d'Hercule. Mais ceci ne convient pas :",
+          "qu'il soit vieux et ait les tempes blanchies par l'âge.",
+          "Que dire du fait que sa langue est percée de légères chaînes,",
+          "par lesquelles il attire facilement les hommes par les oreilles percées ?",
+          "Est-ce parce que les Gaulois disent qu'Alcide, l'emportant par la langue",
+          "et non par la force, a donné des lois aux peuples ?",
+          "Les armes cèdent à la toge, et même les cœurs les plus durs,",
+          "l'homme puissant par l'éloquence les entraîne à ses désirs."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "178": {
+    "motto": "L'éloquence est difficile.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Comme antidote contre les coupes droguées de Circé d'Éa,",
+          "Mercure, selon la tradition, donna ceci à l'Ithacien.",
+          "On l'appelle moly ; on l'arrache à peine par sa racine noire ;",
+          "[il est] pourpre, mais sa fleur a l'aspect du lait.",
+          "La candeur du discours et la faconde attirent tout le monde,",
+          "mais une si grande chose est l'œuvre d'un grand labeur."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "179": {
+    "motto": "Toutes les choses les plus anciennes sont inventées.",
+    "subheading": "Explication.",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Vieillard de Pallène, Protée, qui as la figure d'un comédien,",
+          "toi qui portes tantôt les membres d'un homme, tantôt ceux d'une bête,",
+          "dis-moi, quelle raison te change en toutes les formes,",
+          "si bien que toi, changeant, tu n'as aucune figure certaine ?",
+          "« Je présente les signes de l'antiquité et du premier âge,",
+          "dont chacun rêve à sa guise. »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "180": {
+    "motto": "Les armoiries des poètes.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Il y en a qui portent sur leurs écus de famille l'oiseau de Jupiter,",
+          "il y en a dont les armes portent un serpent ou un lion.",
+          "Mais que ces bêtes terribles fuient la cire [les sceaux] des poètes,",
+          "et que le beau cygne soutienne les doctes armoiries.",
+          "Il est consacré à Phébus et nourrisson de notre contrée ;",
+          "roi jadis, il garde encore ses titres anciens."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "181": {
+    "motto": "La musique est chère aux dieux.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "À toi, Phébus de Delphes, Eunomos de Locres a dédié",
+          "cette cigale, signe honorable de sa victoire.",
+          "Il rivalisait du plectre, opposé à son adversaire Sparthis,",
+          "et les cordes frappées du pouce rendaient leur son.",
+          "Quand une corde usée (fides) se mit à grincer d'un bourdonnement rauque",
+          "et à gâter la mélodie régulière de l'harmonie,",
+          "alors l'oiseau suave, stridulant, se posa sur la cithare,",
+          "la cigale, pour suppléer de sa voix la corde rompue.",
+          "Et, attirée par la loi du son, elle descendit des hauts",
+          "bois pour, babillarde, nous porter secours.",
+          "Aussi, pour que l'honneur de ta cigale (ô saint) demeure ferme,",
+          "c'est elle-même qui siège ici sur la cithare, joueuse de bronze [?]."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "182": {
+    "motto": "La lettre tue, l'esprit vivifie.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Quand Cadmos eut confié aux champs les dents de la vipère",
+          "et semé les semences terribles dans le sol aonien,",
+          "il en naquit une cohorte armée de boucliers d'hommes nés de la terre,",
+          "qui tombèrent sous la main ennemie les uns des autres.",
+          "À ceux qui en réchappèrent, sur le conseil de Tritonis, les armes",
+          "jetées, la paix fut donnée et les mains droites furent jointes.",
+          "L'Agénoride [Cadmos] le premier transmit aux maîtres les lettres et les signes,",
+          "et il y joignit une douce harmonie.",
+          "Leurs disciples sont tourmentés par une foule de contradictions,",
+          "qui ne se tranchent que par le secours de Pallas."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "183": {
+    "motto": "Les maximes des sept sages.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Prends ceci, toi qui veux représenter les maximes des sept sages",
+          "et les célébrer par des peintures.",
+          "« La mesure est le meilleur en toutes choses » (comme dit Cléobule) :",
+          "cela, l'aiguille de la balance ou le niveau l'enseigne.",
+          "Chilon de Sparte ordonnait à chacun de se connaître :",
+          "les miroirs et les verres pris en main le donneront.",
+          "Ce que dit Périandre de Corinthe, « Mets un frein à la colère » :",
+          "le pouliot approché des narines le fera.",
+          "Mais Pittacos a dit : « Rien de trop. » Cela même, le disent",
+          "ceux qui, la bouche contractée, font fondre [?] la nigelle (gith).",
+          "Solon ordonne de regarder la fin : la dernière [limite] des champs,",
+          "Terminus, ne céderait pas même au grand Jupiter.",
+          "Hélas, combien vrai [ce que dit] Bias : « Grand est le nombre des méchants » :",
+          "fais que sur un mouflon soit assis un cavalier sarde.",
+          "« Ne te porte pas caution », a dit Thalès : ainsi la parra (parra) engluée",
+          "et le guêpier (merops) entraînent leur compagne dans les lacets."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "184": {
+    "motto": "Il faut écarter l'ignorance.",
+    "subheading": "Διαλογισμός (« Dialogue »).",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Quel est ce monstre ? C'est le Sphinx. Pourquoi a-t-il le blanc visage d'une vierge,",
+          "et les plumes des oiseaux, et les pattes d'un lion ?",
+          "C'est l'ignorance des choses qui a pris cette forme : car d'un si grand",
+          "mal la cause et l'origine sont triples.",
+          "Les uns, c'est un esprit léger qui les rend ignorants, d'autres une volupté caressante,",
+          "d'autres encore des cœurs orgueilleux.",
+          "Mais ceux qui savent ce que peut le mot de Delphes",
+          "tranchent la gorge terrible du monstre précipité.",
+          "Car l'homme lui-même est bipède, tripède et aussi quadrupède,",
+          "et le premier laurier du sage est de connaître l'homme."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "subheading",
+        "original": "Διαλογισμός.",
+        "translation": "Dialogue."
+      }
+    ]
+  },
+  "185": {
+    "motto": "L'esprit, non la beauté, a plus de pouvoir.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Un renard, entré dans l'atelier d'un chorège,",
+          "trouva une tête humaine habilement polie,",
+          "façonnée avec tant d'élégance que seul le souffle",
+          "lui manquait ; pour le reste, elle aurait vécu.",
+          "L'ayant prise dans ses mains, il dit :",
+          "« Quelle tête ! mais elle n'a pas de cervelle. »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "186": {
+    "motto": "Le riche ignorant.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Phrixos traverse les eaux, assis sur la précieuse toison,",
+          "et monte sans crainte la brebis dorée à travers la mer.",
+          "Qu'est-ce que cela signifie ? un homme à l'esprit obtus mais au riche trésor,",
+          "que gouverne le caprice de sa femme ou de son esclave."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "187": {
+    "motto": "Sur la foi conjugale.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Voici une jeune fille unie à son époux par la main droite. Voici",
+          "comme elle est assise, comme un petit chien joue devant ses pieds !",
+          "C'est l'image de la foi ; si l'ardeur de Vénus l'entretient,",
+          "un rameau de pommier ne sera pas mal à sa main gauche.",
+          "Car les pommes sont à Vénus : ainsi Hippomène vainquit",
+          "la Schénéide ; ainsi Galathée rechercha un homme."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "188": {
+    "motto": "Le respect est requis dans le mariage.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Quand la vipère est en fureur d'amour, elle s'arrête sur le rivage de la mer",
+          "et vomit de son estomac un affreux venin,",
+          "et, appelant la murène, elle pousse de grands sifflements ;",
+          "et celle-ci aussitôt recherche les embrassements de son mari.",
+          "Le plus grand respect est dû au lit nuptial : l'époux",
+          "doit aussi à l'épouse une complaisance réciproque."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "189": {
+    "motto": "Sur la fécondité nuisible à elle-même.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Pour servir de jouet aux enfants qui lancent des pierres, le soin",
+          "rustique m'a placé au carrefour, moi le noyer.",
+          "Élevé, les rameaux déchirés et l'écorce arrachée,",
+          "je suis visé de toutes parts à l'envi par les frondes.",
+          "Qu'est-ce qui pourrait arriver de plus honteux à un arbre stérile ? hélas,",
+          "malheureux : je porte des fruits pour mon propre dommage."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "190": {
+    "motto": "L'amour des enfants.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Avant le jour du printemps, la palombe grise",
+          "fait son nid dans le froid du nord et couve des œufs précoces ;",
+          "et pour que ses petits soient couchés plus mollement, elle s'arrache les plumes des ailes,",
+          "et, nue, elle meurt elle-même du gel de l'hiver.",
+          "La Colchidienne n'a-t-elle pas honte, ou toi, méchante Procné, quand",
+          "un oiseau subit la mort par amour pour sa propre progéniture ?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "191": {
+    "motto": "La piété des enfants envers leurs parents.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Quand Énée portait hors du feu, au milieu des ennemis de la patrie,",
+          "sur ses épaules le doux fardeau de son père,",
+          "il disait : « Épargnez-vous : si le vieillard est enlevé, il n'y aura",
+          "aucune gloire ; mais si mon père est sauvé, la plus grande sera pour moi. »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "192": {
+    "motto": "C'est la réputation d'une femme, non sa beauté, qu'il faut divulguer.",
+    "subheading": "Dialogue.",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Vénus nourricière, quelle est cette figure, que signifie cette",
+          "tortue que toi, déesse, tu presses d'un pied délicat ?",
+          "C'est ainsi que Phidias m'a représentée, et il a voulu que le sexe",
+          "féminin fût figuré par notre image.",
+          "Et parce qu'il convient aux jeunes filles de rester à la maison et d'être silencieuses,",
+          "il a placé sous mes pieds de tels signes."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "193": {
+    "motto": "Sur la statue de la Pudeur.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Penelope fiancée désirait suivre Ulysse,",
+          "si son père Icarios n'avait préféré la garder auprès de lui.",
+          "L'un offre Ithaque, l'autre Sparte. La jeune fille demeure inquiète :",
+          "d'un côté la presse l'amour de son père, de l'autre l'amour réciproque de son époux.",
+          "Assise donc, elle voile son visage et couvre ses yeux :",
+          "c'étaient là les signes d'une pudeur réservée.",
+          "Par eux Icarios comprit qu'Ulysse lui était préféré,",
+          "et sous cette figure il éleva un autel à la Pudeur."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "194": {
+    "motto": "Mariée à un homme contagieux.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "« Que les dieux donnent mieux aux pieux ! (Mézence) pourquoi donc",
+          "m'appelles-tu ainsi ? Parce que tu t'es acheté par une dot un gendre",
+          "que brûlent l'affreuse gale française et la dartre du menton (mentagra) :",
+          "qu'est-ce autre chose (dis-moi, père cruel)",
+          "que joindre des corps à des corps, des morts à des vivants,",
+          "et renouveler les actions sauvages du chef étrusque ? »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "195": {
+    "motto": "Le cyprès.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "L'image de la borne [du cirque] et le nom du cyprès indiquent",
+          "qu'il faut traiter les siens à égale condition."
+        ]
+      },
+      {
+        "label": "Autre.",
+        "reading": [
+          "Le cyprès est un arbre funèbre, monument des grands,",
+          "comme l'ache du peuple a coutume d'orner de son feuillage."
+        ]
+      },
+      {
+        "label": "Autre.",
+        "reading": [
+          "Belle est la chevelure, et les feuilles sont disposées en bel ordre,",
+          "mais cette belle chevelure ne porte aucun fruit."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "196": {
+    "motto": "Le chêne.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le chêne est agréable à Jupiter, qui nous conserve et nous réchauffe :",
+          "à qui sauve un citoyen, on donne une couronne de chêne."
+        ]
+      },
+      {
+        "label": "Autre.",
+        "reading": [
+          "De ses glands il nourrit les anciens ; maintenant il n'est utile que par son ombre :",
+          "ainsi de cette façon aussi, oui de cette façon, l'arbre de Jupiter est serviable."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "197": {
+    "motto": "Le saule.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Parce qu'Homère a appelé le saule « qui perd ses fruits »,",
+          "il rend semblables à lui les hommes aux mœurs de Clitor."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "198": {
+    "motto": "Le sapin.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le sapin, propre aux mers, naît sur les hautes montagnes :",
+          "et dans l'adversité aussi se trouve le plus grand avantage."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "199": {
+    "motto": "L'épicéa.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Mais l'épicéa, parce qu'il ne pousse aucun rejeton de sa souche,",
+          "est le signe de celui qui meurt sans descendance."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "200": {
+    "motto": "Le cognassier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "On dit que l'antique Solon établit",
+          "qu'il fallait donner aux nouvelles mariées des pommes de Cydonie [des coings],",
+          "parce qu'elles sont agréables à la bouche et à l'estomac, afin que leur haleine aussi",
+          "soit douce et qu'un agrément caressant demeure sur leurs lèvres."
+        ]
+      }
+    ],
+    "greek": []
   }
 }
