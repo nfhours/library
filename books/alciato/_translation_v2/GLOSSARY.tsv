@@ -1,0 +1,213 @@
+latin	russian	english	french	comment
+Iuppiter, Iovis	Юпитер	Jupiter	Jupiter	форма и написание — как в books/cartari/_translation/GLOSSARY.tsv (общая для обеих книг библиотеки)
+Venus, Veneris	Венера	Venus	Vénus	форма — как у Cartari
+Mercurius	Меркурий	Mercury	Mercure	форма — как у Cartari
+Minerva	Минерва	Minerva	Minerve	форма — как у Cartari
+Pallas, Palladis	Паллада	Pallas	Pallas	эпитет Минервы; форма — как у Cartari
+Bacchus	Вакх	Bacchus	Bacchus	форма — как у Cartari
+Hercules	Геркулес	Hercules	Hercule	форма — как у Cartari («Hercole» в их тексте)
+Diana	Диана	Diana	Diane	форма — как у Cartari
+Apollo	Аполлон	Apollo	Apollon	форма — как у Cartari
+Phoebus	Феб	Phoebus	Phébus	эпитет Аполлона; форма — как у Cartari
+Saturnus, Saturnius	Сатурн	Saturn	Saturne	форма — как у Cartari; «volucris Saturnia» (эмблема 33) — орёл, птица Юпитера, сына Сатурна, не отдельное божество
+Fortuna	Фортуна	Fortune	Fortune	у Alciato (эмблема 98) — персонификация/статуя на шаре, с заглавной буквы (ср. Cartari: «судьба» строчными, «Фортуна» заглавными только для богини культа — здесь тот случай)
+Nemesis	Немесида	Nemesis	Némésis	форма — как у Cartari (эмблема 46, «Spes & Nemesis» — Надежда и Немесида у общего алтаря)
+Cupido	Купидон	Cupid	Cupidon	форма — как у Cartari; в тексте Alciato часто просто «Amor» (см. ниже) как синоним того же персонажа
+Amor	Амур (Купидон)	Love, Cupid	Amour (Cupidon)	синоним Cupido в текстах Alciato (24 упоминания); переводить тем же именем, что выбрано для Cupido в данной эмблеме, либо описательно «любовь/Амур» — по контексту конкретной эмблемы
+Pan	Пан	Pan	Pan	форма — как у Cartari
+Narcissus	Нарцисс	Narcissus	Narcisse	юноша мифа о самолюбии (эмблема 69, Philautia); не путать с записью «Narciso» = цветок в glossary Cartari — там другое значение того же слова
+Icarus, Icari	Икар	Icarus	Icare	сын Дедала, упавший в море (эмблема 103, In astrologos); НЕ путать с «Icaro»/Icarius в glossary Cartari — там отец Пенелопы, другое лицо
+Circe	Цирцея	Circe	Circé	эмблема 76 (Cavendum a meretricibus)
+Scylla	Сцилла	Scylla	Scylla	двоеформенное чудовище, упомянута как жертва/пример волшбы Цирцеи (эмблема 76)
+Picus	Пик	Picus	Picus	царь, превращённый Цирцеей (эмблема 76). НЕ относится к «Picus» эмблемы 96 (Doctorum agnomina) — там это прозвище/имя современника-юриста в каталоге профессоров, в глоссарий не вносится; совпадение имён случайное
+Niobe	Ниоба	Niobe	Niobé	эмблема 67 (Superbia)
+Lais	Лаида	Lais	Laïs	куртизанка из Коринфа/Эфиры (эмблема 74, Tumulus meretricis)
+Thetis	Фетида	Thetis	Thétis	мать Ахилла (эмблема 135)
+Achilles, Aeacides	Ахилл	Achilles	Achille	«Aeacides» — эпитет «потомок Эака» (эмблема 135)
+Hector	Гектор	Hector	Hector	эмблема 135
+Ulysses, Laertiades	Улисс (Одиссей)	Ulysses	Ulysse	«сын Лаэрта» (эмблема 41, Unum nihil duos plurimum posse)
+Diomedes, Tydides	Диомед	Diomedes	Diomède	«сын Тидея» (эмблема 41)
+Castor et Pollux	Кастор и Поллукс	Castor and Pollux	Castor et Pollux	сыновья Юпитера, «natus uterque Iovis» (эмблема 99)
+Semele	Семела	Semele	Sémélé	мать Вакха (эмблема 99)
+Latona	Латона	Latona (Leto)	Latone	форма — как у Cartari; мать Аполлона и Дианы (эмблема 99)
+Ganymedes	Ганимед	Ganymede	Ganymède	унесённый орлом Юпитера отрок (эмблема 4, In Deo laetandum)
+Bellerophon	Беллерофонт	Bellerophon	Bellérophon	герой, укротивший Химеру с помощью Пегаса (эмблема 14)
+Chimaera	Химера	Chimaera	Chimère	эмблема 14
+Pegasus	Пегас	Pegasus	Pégase	крылатый конь Беллерофонта (контекст эмблемы 14)
+Occasio	Случай (Окказио)	Occasion	Occasion	персонификация удобного случая, статуя работы Лисиппа (эмблема 121, In occasionem)
+Lysippus	Лисипп	Lysippus	Lysippe	скульптор, автор статуи Случая (эмблема 121)
+Terminus	Термин	Terminus	Terminus	римское божество границы, межевой камень (эмблема 157)
+Zenalis	Зеналис	Zenalis	Zénalis	мастер, изобразивший в воске Улисса и Диомеда (эмблема 41); форма тёмная, возможно искажение другого имени — переводить как напечатано, без замены на «Зевксис»
+Praxiteles	Пракситель	Praxiteles	Praxitèle	скульптор (эмблемы 25 «In statuam Bacchi», 67 «Niobe»)
+Aristomenes	Аристомен	Aristomenes	Aristomène	мессенский герой, под чьим именем Alciato прославляет Карла V (эмблема 33)
+Apicius	Апиций	Apicius	Apicius	римский гурман, пример чревоугодия (эмблема 90)
+Dionysius	Дионисий	Dionysius	Denys	тиран, пример чревоугодия (эмблема 90); не путать с Bacchus/Dionysos — богом вина
+Homerus, Maeonides	Гомер	Homer	Homère	«Maeonides» — эпитет «Меонийский» = Гомер (эмблема 4 и др.)
+Ovidius	Овидий	Ovid	Ovide	форма — как у Cartari
+Midas	Мидас	Midas	Midas	форма — как у Cartari; царь Фригии
+Actaeon	Актеон	Actaeon	Actéon	эмблема 52 (In receptatores sicariorum), «novus Actaeon»
+Tantalus	Тантал	Tantalus	Tantale	упомянут в ряду мифологических примеров (сверить эмблему при переводе)
+Prometheus	Прометей	Prometheus	Prométhée	форма — как у Cartari; эмблема 102 (Quae supra nos, nihil ad nos)
+Tecla	Фекла	Thecla	Thècle	эмблема 2 (Mediolanum); христианская святая, церкви которой посвящён участок, прежде — храм Минервы
+Babylon, Babylona	Вавилон	Babylon	Babylone	эмблема 6 (Ficta religio); образ блудницы на царском престоле — ср. Откровение Иоанна
+Isis	Исида	Isis	Isis	эмблема 7 (Non tibi, sed religioni); образ её переносил на себе осёл
+Honos	Почёт (Гонор)	Honor	Honneur	эмблема 9 (Fidei symbolum); персонификация, стоящая рядом с Истиной и Амуром
+Veritas	Истина	Truth	Vérité	эмблема 9 (Fidei symbolum); персонификация, «нагая», соединяет руку с Почётом
+Dione	Диона	Dione	Dioné	эпитет/мать Венеры у Alciato («Diones Cupido» = Купидон Венеры), эмблема 9; форма — отдельная от Venus в этом месте, по тексту автора
+Musa	Муза	Muse	Muse	эмблема 10 (Fœdera), «Musa Latina» — Латинская Муза
+Cecrops, Cecropius	Кекроп	Cecrops	Cécrops	эмблемы 5, 13, 19 (эпитет «Cecropius/Cecropia» = афинский, от имени мифического царя Афин)
+Harpocrates	Гарпократ	Harpocrates	Harpocrate	эмблема 11 (In silentium); египетское божество молчания, «Pharius Harpocrates»
+Daedalus	Дедал	Daedalus	Dédale	эмблема 12 (Non vulganda consilia); создатель лабиринта на Крите
+Minotaurus	Минотавр	Minotaur	Minotaure	эмблема 12; не назван по имени у Alciato («semivir bos» — полумуж-полубык), но образ однозначно отождествляется
+Leaena	Леэна	Leaena	Léaena	эмблема 13 (Nec quæstioni quidem cedendum); гетера, статуя льви­цы без языка на афинском акрополе
+Hermodius	Гермодий	Hermodius	Hermodios	эмблема 13; форма у Alciato — вариант обычного «Harmodius» (один из тираноубийц, возлюбленный Леэны); сохранена форма автора без исправления; диплом. слой «Hermodij» подтверждает, это форма печатного текста, не ошибка транскрипции
+Iphicrates	Ификрат	Iphicrates	Iphicrate	эмблема 13; у Alciato — скульптор, изваявший Леэну без языка («elinguem reddidit»), не заказчик; в изданиях Плиния (NH 34.72) имя ваятеля дано как Amphicrates/Iphicrates — Alciato следует варианту Iphicrates; напечатано так (диплом. слой подтверждает), сохраняется
+Lycia, Licius	Ликия	Lycia	Lycie	эмблема 14 (Chimæra); «Licii soli» — ликийской земли, родины Химеры и Беллерофонта
+Epicharmus	Эпихарм	Epicharmus	Épicharme	эмблема 16 (Νῆφε καὶ μέμνησ' ἀπιστεῖν); греческий комедиограф, автор изречения «будь трезв и не доверяй»
+Heraclitus	Гераклит	Heraclitus	Héraclite	эмблема 16; философ, по легенде успокоивший мятежную толпу, показав траву pulegium
+Pythagoras	Пифагор	Pythagoras	Pythagore	эмблема 17 (Πῆ παρέβην); назван перифразой «Самиец» (Samius) — уроженец Самоса, основатель италийской школы
+Janus	Янус	Janus	Janus	эмблема 18 (Prudentes.Problema); двуликий римский бог, смотрящий одновременно вперёд и назад
+Bromius	Бромий	Bromius	Bromius	эпитет Вакха (эмблема 24, Prudentes vino abstinent)
+Lyaeus	Лиэй	Lyaeus	Lyaeus	эпитет Вакха, «освобождающий от забот» (эмблема 37, Omnia mea mecum porto)
+Ariadne	Ариадна	Ariadne	Ariane	дочь Миноса; у Alciato названа перифразой «Cnosida» (Кноссийка); эмблема 25 (In statuam Bacchi), похищена/унесена Вакхом
+Nestor	Нестор	Nestor	Nestor	у Alciato назван перифразой «Pylium senem» (пилосский старец); эмблема 25, образец долголетия
+Fabius	Фабий	Fabius	Fabius	Фабий Максим Кунктатор, римский полководец, победивший Ганнибала стратегией отсрочки (эмблема 26, Gramen)
+Glaucus, Polybides	Глаук	Glaucus	Glaucus	«сын Полиба»; рыбак, ставший морским божеством, съев волшебную траву (эмблема 26)
+Cicero	Цицерон	Cicero	Cicéron	римский оратор, убит по приказу Антония (эмблема 29, Etiam ferocissimos domari)
+Antonius	Антоний	Antony	Antoine	Марк Антоний, триумвир (эмблема 29)
+Neptunus	Нептун	Neptune	Neptune	бог моря; форма — как у Cartari (эмблема 28, Tandem Iustitia obtinet)
+Aiax, Thelamoniades	Аякс	Ajax	Ajax	«сын Теламона»; герой Троянской войны, соперник Улисса за оружие Ахилла (эмблема 28)
+Phineus	Финей	Phineus	Phinée	царь, терзаемый Гарпиями (эмблема 32, Bonis à divitibus nihil timendum)
+Harpyiae	Гарпии	Harpies	Harpies	крылатые чудовища, мучившие Финея (эмблема 32)
+Zetes	Зет	Zetes	Zétès	сын Борея, аргонавт, избавивший Финея от Гарпий (эмблема 32)
+Calais	Калаид	Calais	Calaïs	брат Зета, сын Борея, аргонавт (эмблема 32)
+Epictetus	Эпиктет	Epictetus	Épictète	стоический философ, автор формулы «ἀνέχου καὶ ἀπέχου» / «sustine & abstine» (эмблема 34)
+Ceres	Церера	Ceres	Cérès	богиня урожая/хлеба; форма — как у Cartari (эмблема 37)
+Geryon	Герион	Geryon	Géryon	трёхтелый великан (эмблема 40, Concordia insuperabilis)
+Carolus V	Карл V	Charles V	Charles Quint	император Карл V, названный в тексте «Charlus»/«Cæsar»; покровитель Alciato (эмблема 42, Firmissima convelli non posse); ср. перифразу «Аристомен» для него же в эмблеме 33
+Helena	Елена	Helen	Hélène	«Helenæ... fratres» — братья Елены = Кастор и Поллукс/Диоскуры (эмблема 43, Spes proxima)
+Elpidius	Элпидий	Elpidius	Elpidius	художник, написавший изображение Надежды (эмблема 44, In simulachrum Spei; «peniculis» — кистью, т. е. живопись, не статуя); имя образовано от греч. ἐλπίς «надежда» — игра слов у Alciato
+Hesiod, Ascraeus senex	Гесиод	Hesiod	Hésiode	«Аскрейского старца муза» — перифраза Гесиода, уроженца Аскры, автора мифа о Пандоре/надежде в ларце (эмблема 44)
+Bonus Eventus	Добрый Исход	Good Outcome	Bon Événement	римская персонификация удачного исхода, спутник Надежды наряду с Купидоном (эмблема 44)
+Archilochus	Архилох	Archilochus	Archiloque	греческий поэт, автор язвительных ямбов; осы на его гробнице — символ злого языка (эмблема 51, Maledicentia)
+Medea, Colchis	Медея (Колхидянка)	Medea (the Colchian)	Médée (la Colchidienne)	волшебница из Колхиды, убившая собственных детей (эмблема 54); «Colchidos... gremio» — перифраза по месту рождения
+Agamemnon, Atrides	Агамемнон (Атрид)	Agamemnon (son of Atreus)	Agamemnon (l'Atride)	предводитель греков под Троей, «сын Атрея»; на его щите — лев (эмблема 56, Furor & rabies)
+Phaethon	Фаэтон	Phaethon	Phaéton	сын Солнца (Феба/Соля), упавший с его колесницы (эмблема 57, In temerarios)
+Pygmaei	Пигмеи	Pygmies	Pygmées	мифический народ малого роста, напавший на спящего Геркулеса (эмблема 58, In eos qui supra vires quicquam audent)
+Spes	Надежда	Hope	l'Espérance	персонификация (эмблемы 43–46); с заглавной, когда это фигура/богиня (44 «Spes bona» — Добрая Надежда / Good Hope / la Bonne Espérance; 46 рядом с Немесидой); строчными, когда нарицательное «надежда» (43 девиз, 45)
+Virtus	Доблесть	Virtue	la Vertu	персонификация, говорит от первого лица у гробницы Аякса (эмблема 48, In victoriam dolo partam); в контексте Аякса — доблесть/заслуга, не нравственная «добродетель»; при новых появлениях сверять по контексту, но фигуру держать той же формой
+Scaeva	Сцева	Scaeva	Scéva	адресат эмблемы 52 (In receptatores sicariorum), «prodige» — литературное типовое имя мота у Горация (Sat. 2.1.53 «Scaevae... nepoti»), не реальный современник Alciato
+Chaerephon, Chœrephon	Хэрефонт	Chaerephon	Chéréphon	эмблема 61 (Vespertilio); ученик Сократа, насмешливо прозванный «летучей мышью» за бледность/смуглость и пронзительный голос (комическая традиция, ср. Аристофан)
+Meneis, Meneide (= Minyeis)	Миниада (Meneis)	daughter of Minyas (Meneis)	fille de Minyas (Meneis)	эмблема 61; «volucri ex Meneide» — орфографический вариант Minyeis (дочь Миния; Миниады превращены в летучих мышей, Ovid. Met. IV.389 сл.). «Meneide» — подлинное чтение издания 1551 (так и у Glasgow A51a061), не ошибка транскрипции; падуанское 1621 — «Mineide». В переводе — идентификация + латинская форма в скобках
+Alcæa (ἀλκαία)	алкея	alcaea	alcée	эмблема 63 (Ira); греч. ἀλκαία — «хвост льва» (LSJ), от ἀλκή «сила»; не от имени поэта Алкея. Переводится транслитерацией + пояснение в квадратных скобках
+Otho	Отон	Otho	Othon	эмблема 65 (Fatuitas); современник/адресат Alciato с игрой имени «Otho» и греч. ὦτος/otus «ушастая сова» = «глупец»; не мифологический персонаж, реальное имя-каламбур
+Procne	Прокна	Procne	Procné	эмблема 70 (Garrulitas); ласточка — по латинской традиции, где имена сестёр переставлены (Прокна — ласточка, Филомела — соловей); у греков язык отрезан у сестры, ставшей ласточкой, отсюда упрёк Alciato «Прокне» за язык — контаминация традиций, не ошибка; не исправлять. «Daulias» — «давлийская (птица)», от города Давлида (Daulis)
+Tereus	Терей	Tereus	Térée	эмблема 70; муж Прокны, царь фракийцев, превращённый в удода (epops) по наказании за насилие над Филомелой
+Faunus	Фавн	Faunus	Faune	эмблема 72 (Luxuria); козлоногий италийский бог полей и стад, здесь символ похоти
+Parca	Парка (Судьба)	Fate (Parca)	la Parque	эмблема 74 (Tumulus meretricis); римская персонификация судьбы/смерти, здесь в единственном числе как «Судьба», обрывающая жизнь
+Cypris	Киприда	Cypris	Cypris	эмблема 77 (Amuletum Veneris); эпитет Венеры (от острова Кипр, центра её культа)
+Adonis, Adonin	Адонис	Adonis	Adonis	эмблема 77; возлюбленный Венеры, убитый клыком вепря; из его крови/тела по мифу вырос анемон, здесь — мотив латука
+Iason, Pagasæus Iason	Ясон	Jason	Jason	эмблема 78 (Inviolabiles telo Cupidinis); предводитель аргонавтов, отплывший из Пагас; «Phasiacis dolis» — колхидские/фасийские чары, т. е. волшба Медеи (см. запись Medea/Colchis)
+Essæus, Essæi	Ессей(цы)	Essene(s)	Essénien(s)	эмблема 80 (Desidia); член(ы) иудейской секты ессеев, у античных авторов (Плиний, Иосиф Флавий) известных наблюдением за звёздами/строгим бытом; не мифологическое, историко-религиозное имя
+Asterias, Asteriam (acc.)	Астерий	Asterias	Astérias	эмблема 83 (Ignavi); слуга (famulum, муж. р.), по старинному рассказу превращённый в птицу «звёздчатую цаплю» (ardeola stellaris = выпь, Botaurus stellaris). Источник — Аристотель, «История животных» IX, 617a: цапля ἀστερίας по прозвищу ὄκνος («лентяй»), «по преданию, произошла от раба» (ср. Плиний X, 164). Не титанида Астерия (та — перепёлка, ortyx) и не женское имя: Asteriam — винительный от Asterias
+Battiades (= Callimachus)	Баттиад (Каллимах)	Battiades (Callimachus)	Battiade (Callimaque)	эмблема 87 (In sordidos); перифраза «сын Батта» = Каллимах, греческий поэт, автор инвективы «Ибис» против соперника; наряду с Овидием (см. Ovidius) использовал слово «ибис» как бранное имя
+Arion	Арион	Arion	Arion	эмблема 89 (In avaros, vel quibus melior conditio...); легендарный поэт-музыкант, спасённый дельфином в море от убийц-моряков
+Ocnus	Окн	Ocnus	Ocnos	эмблема 91 (Ocni effigies); Павсаний X, 29, 1–2 (роспись Полигнота в лесхе книдян в Дельфах: Окн вьёт верёвку, ослица её поедает; толкование — трудолюбивый муж и расточительная жена, как у Alciato); ср. Плиний XXXV, 137, Проперций IV, 3, 21. Имя = греч. ὄκνος «медлительность»
+Ficedula, ficedulae	винноягодник	figpecker	becfigue	эмблемы 93 (ALIUD) и 100; мелкая певчая птица, осенью отъедающаяся на смоквах, античный деликатес (ит. beccafico; обычно садовая славка / черноголовка). Рус. «винноягодник» — устоявшаяся передача у переводчиков (Петроний, Сатирикон 33, пер. Б. Ярхо); не транслитерировать и не путать с совр. родом Ficedula (мухоловки)
+Anteros, Ἀντέρως	Антэрот	Anteros	Antéros	эмблемы 109–110 («Αντέρως, id amor virtutis» / «Αντέρως, Amor virtutis, alium Cupidinem superans»); божество взаимной/возвышенной любви (любви к доблести), противопоставленное обычному Купидону/Амуру; у Alciato выступает персонажем диалога (эмблема 109) и жертвой кары Немесиды (эмблема 110, где карает уже обычного Амура)
+Sophia (Σοφία)	Премудрость (София)	Wisdom (Sophia)	la Sagesse (Sophia)	эмблема 109; персонификация мудрости/учёности, один из венков Антэрота («Quarum quæ Sophiæ est, tempora prima tegit»); по аналогии с другими персонификациями глоссария (Spes, Virtus, Honos, Veritas) — с заглавной буквы
+Theocritus	Феокрит	Theocritus	Théocrite	эмблема 112 (motto «Ferè simile ex Theocrito»); греческий буколический поэт, автор эпиграммы о Купидоне, укушенном пчелой, на которую здесь ссылается Alciato
+Naiades, Naias	наяды	Naiads	Naïades	эмблема 113 (In statuam Amoris), «Naiadum... mollia corda»; водные нимфы
+Parthenope	Парфенопа	Parthenope	Parthénope	эмблема 115 (Sirenes); одна из трёх сирен (наряду с Лигией и Левкосией)
+Ligia (= Ligea)	Лигия	Ligia	Ligie	эмблема 115 (Sirenes); одна из трёх сирен
+Leucosia	Левкосия	Leucosia	Leucosie	эмблема 115 (Sirenes); одна из трёх сирен
+Sophocles	Софокл	Sophocles	Sophocle	эмблема 116 (Senex puellam amans); афинский трагик, здесь — герой анекдота о старческой любви к куртизанке Архиппе (историческая, не мифологическая реалия)
+Archippe, Archippen (acc.)	Архиппа	Archippe	Archippé	эмблема 116; куртизанка («a quæstu»), возлюбленная престарелого Софокла по анекдотической традиции (ср. Афиней); историческая/анекдотическая, не мифологическая фигура
+Amalthea, Amalthææ	Амалфея	Amalthea	Amalthée	эмблема 118 (Virtuti, Fortuna comes), «Amalthææ cornua» — рога изобилия
+Brutus	Брут	Brutus	Brutus	эмблема 119 (Fortuna, Virtutem superans); Марк Юний Брут, после поражения при Фарсале произносящий приведённые в эпиграмме слова; не путать с Л. Юнием Брутом, основателем Республики — другое историческое лицо; исторически Брут погиб при Филиппах, а не при Фарсале — у Alciato эти битвы слиты (поэтическая традиция со времён Вергилия, Georg. 1.489–490); переводится по тексту, правило 7; эмблема 150 (Respublica liberata): «ducibus Brutis» — мн. ч., Бруты (Марк и Децим, убийцы Цезаря), монета чеканена «при вождях Брутах»
+Caesar, Cæsareus	Цезарь	Caesar	César	эмблема 119, «Cæsareo... milite» — воинство Юлия Цезаря, победившее при Фарсале; тот же персонаж, что и эпитет «Cæsar» для Карла V (эмблема 42, см. запись Carolus V) — здесь, в отличие от той эмблемы, подразумевается буквально исторический Юлий Цезарь, не современник Alciato; эмблема 146 (Opulentia tyranni…): «Cæsar» — титул «император» без имени; изречение «fiscum lienem» в античной традиции приписано Траяну (Epitome de Caesaribus, раздел о Траяне/Плотине), не Юлию Цезарю и не Тиберию — переводится «Цезарь», как в тексте, без отождествления
+Pharsalia	Фарсалия	Pharsalia	Pharsale	эмблема 119; область/город в Фессалии, место решающей битвы гражданской войны Цезаря и Помпея (48 г. до н.э.)
+Lydius (infans)	лидийское дитя	the Lydian child	l'enfant lydien	эмблема 111 (Dulcia quandoque amara fieri); НЕ Купидон: эпиграмма восходит к Anthologia Graeca 9.548 (ср. 9.302) — смертный младенец (у греческого автора Гермонакт), убитый пчёлами; гравюра 1551 г. изображает Купидона с пчёлами (контаминация с эмблемой 112), но текст говорит о лидийском ребёнке — переводить буквально, имя Купидона/Амура не подставлять
+Antiochus	Антиох	Antiochus	Antiochus	эмблема 123 (In illaudata laudantes); царь, спасённый от галатов боевыми слонами («луканские быки»), устыдившийся такой победы
+Attila (Atyla)	Аттила	Attila	Attila	эмблема 127 (Nil reliqui); гиперболическое сравнение опустошительного роя саранчи с ордами Аттилы
+Xerxes	Ксеркс	Xerxes	Xerxès	эмблема 127; аналогичное сравнение со станом Ксеркса (персидское вторжение в Грецию)
+Ate (Ата)	Ата	Ate	Até	эмблема 130 (Remedia in arduo, mala in prono esse); гомеровская персонификация беды/рока, свергнутая Юпитером с небес (Il. XIX)
+Litae (Литы)	Литы	Litae (the Prayers)	les Lites	эмблема 130; гомеровские «Молитвы», дочери Юпитера, хромые и медленные спутницы Аты (Il. IX)
+Calchas	Калхас	Calchas	Calchas	эмблема 131 (Ex arduis perpetuum nomen); прорицатель греков под Троей, толкователь знамения со змеем и воробьиным гнездом (Il. II)
+Triton	Тритон	Triton	Triton	эмблема 132 (Ex literarum studiis immortalitatem acquiri); морской бог-трубач, сын Нептуна
+Ioannes Galeacius Vicecomes	Джованни Галеаццо Висконти	Giovanni Galeazzo Visconti	Jean Galéas Visconti	эмблема 133 (Tumulus...); первый герцог Миланский, исторический адресат надгробной эмблемы; герб Висконти — змей (biscione), на него ссылается «Anguiger» в эпиграмме
+Thrasybulus	Фрасибул	Thrasybulus	Thrasybule	эмблема 134 (Optimus civis); афинский полководец, восстановивший демократию после Тридцати тиранов
+Romulus	Ромул	Romulus	Romulus	эмблема 136 (Nobiles & generosi); легендарный основатель и первый царь Рима, «Romulidae» — его потомки/римляне
+Iuno	Юнона	Juno	Junon	эмблема 138 (In nothos); супруга Юпитера, невольно вскормившая младенца Геркулеса; форма — как у Cartari
+Pindarus	Пиндар	Pindar	Pindare	эмблема 139 (Imparilitas); греческий лирический поэт, образец высокого полёта
+Bacchylides (Bacchilydes)	Бакхилид	Bacchylides	Bacchylide	эмблема 139; греческий лирический поэт, противопоставлен Пиндару как образец приземлённости
+Aesculapius, Phœbigena Epidaurius	Асклепий	Aesculapius	Esculape	эмблема 149 (Salus publica); бог врачевания, сын Феба (Аполлона), почитался в образе змея; «Эпидаврийский» — по главному центру культа
+Democritus	Демокрит	Democritus	Démocrite	эмблема 151 (In vitam humanam); «смеющийся философ», противопоставлен плачущему Гераклиту
+Mors	Смерть	Death	la Mort	эмблема 154 (De Morte, & Amore), 155; персонификация смерти, по сюжету путает стрелы с Амуром; с заглавной буквы, как Spes/Virtus/Honos/Veritas
+Acheron	Ахерон	Acheron	l'Achéron	эмблема 154; река подземного царства, здесь метонимически — смерть/загробный мир
+Gorgo, Gorgonis	Горгона	Gorgon	la Gorgone	эмблема 156 (In mortem præproperam); маска Горгоны на надгробии, родовой мифологический образ смерти/устрашения, без уточнения конкретной из трёх сестёр
+Patroclus	Патрокл	Patroclus	Patrocle	эмблема 158 (Opulenti hæreditas); друг Ахилла, чьё тело и ложные доспехи стали предметом спора троянцев и греков
+Oenocrates	Энократ	Oenocrates	Œnocrate	эмблема 141 (Aemulatio impar); вымышленное «говорящее» имя (греч. «вином сильный», т. е. пьяница — ср. «lippus» «гноеглазый»), под которым Alciato выводит соперника-толкователя права, переманившего его студентов (так комментаторская традиция, см. Alciato at Glasgow); не реальное имя
+Arestius (voc. Aresti)	Арестий	Arestius	Arestius	эмблема 156 (In mortem præproperam); адресат-плакальщик, «Aresti» — звательный падеж от Arestius (не Arestus); личность не установлена (в Iconclass-ключах Glasgow сопоставляется с Ариосто — не подтверждено)
+Titanii fratres	братья-титаниды [ветры]	the Titan-born brothers [the winds]	les frères nés des Titans [les vents]	эмблема 143; «Titanius» — прилагательное «титанов, титанического рода», не «братья Титана»; ветры — сыновья титана Астрея (Гесиод, Теогония 378–380)
+Charites, Gratiae	Грации	the Graces	les Grâces	эмблема 162 (Gratiæ); три спутницы Венеры, Euphrosyne/Aglaia/Pithus (см. ниже); «Gratiae» — латинский синоним
+Euphrosyne	Евфросина	Euphrosyne	Euphrosyne	эмблема 162; одна из трёх Граций, олицетворение радости
+Aglaia	Аглая	Aglaia	Aglaé	эмблема 162; одна из трёх Граций, олицетворение блеска/красоты
+Pithus (= Πειθώ, Peitho), Suadela	Питуса (Пейто)	Pithus (Peitho)	Pithus (Peitho)	эмблема 162; третья из трёх Граций у Alciato, персонификация убеждения в речи; «Suadela» — латинский синоним того же понятия, не отдельное имя
+Eurynome	Эвринома	Eurynome	Eurynomé	эмблема 162; по Гесиоду (Теогония 907 сл.) — мать Граций от Юпитера
+Cischas	Цисхас (Жижка)	Cischas (Žižka)	Cischas (Žižka)	эмблема 170 (Vel post mortem formidolosi); форма у Alciato для имени Яна Жижки, гуситского полководца, чья кожа, по легенде, была натянута на барабан, наводивший страх на богемское католическое духовенство; переводится по тексту без замены латинизированной формы
+Tantalidae	Танталиды	the sons/descendants of Tantalus (the Atridae)	les Tantalides (les Atrides)	эмблема 175 (Insani gladius); потомки Тантала = Атриды (Агамемнон и др.), не сам Тантал (см. запись Tantalus)
+Alcides, Alciden	Алкид	Alcides	Alcide	эмблема 180 (Eloquentia Fortitudine praestantior); патроним Геркулеса (внук Алкея), сохраняется как у Alciato, не заменяется на «Геркулес»; там же «Galli» — им. мн. ч., подлежащее при «ferunt» («как рассказывают галлы»), отсылка к Лукиану (Геракл 1–7, галльский Огмий), а не эпитет «галльский» при Алкиде
+Utis (Οὖτις)	Утис («Никто»)	Utis (“Nobody”)	Utis (« Personne »)	эмблема 171 (Iusta vindicta), строка 4: «Utin» — вин. п.; имя, которым Улисс назвался Полифему (Од. 9.366 сл.); в слое чтения сейчас разбито как «ut in» (см. замечание к транскрипции)
+Eunomus	Эвном	Eunomus	Eunomos	эмблема 184 (Musicam Diis curæ esse); музыкант из Локр, победитель на Пифийских играх, которому во время состязания на кифаре с лопнувшей струной помогла допевшая мелодию цикада; соперник — Sparthis (см. отдельную запись)
+Sparthis, Sparthyn	Спарфис	Sparthis	Sparthis	эмблема 184; соперник Эвнома в кифарном состязании; «Sparthyn» — греческий accusativus (-in) собственного имени в приложении к «hostem», НЕ прилагательное «спартанский»; ср. Anth. Pal. VI.54, источник эпиграммы, где соперник назван Πάρθις (Парфис)
+Proteus, Pellenæus	Протей	Proteus	Protée	эмблема 182 (Antiquissima quæque commentitia); морское божество-оборотень, способное принимать любой облик; «Pellenæe» — вариант написания «Pallenæe»: эпитет по Паллене (полуостров Халкидики, родина Протея — ср. Verg. Georg. IV.391 «Pallenen»), НЕ по ахейской Пеллене; переводить «Палленский / of Pallene / de Pallène»
+Cadmus, Agenorides	Кадм	Cadmus	Cadmos	эмблема 185 (Litera occidit, spiritus vivificat); основатель Фив, посеявший зубы убитого змея (из них выросли воины, перебившие друг друга), первым принёсший грекам буквы алфавита; «Agenorides» — патроним «сын Агенора» (отец Кадма, царь Тира)
+Tritonis, Tritonidos	Тритонида	Tritonis	Tritonis	эмблема 185; эпитет Минервы/Паллады (рождённой, по одной из версий, у озера/реки Тритон в Ливии); форма сохраняется отдельно от «Паллада», по аналогии с «Киприда» (Venus) в глоссарии
+Cleobulus	Клеобул	Cleobulus	Cléobule	эмблема 186 (Dicta septem sapientum); один из Семи мудрецов Греции (Линд на Родосе), автор изречения «во всём лучшая мера»
+Chilon	Хилон	Chilon	Chilon	эмблема 186; спартанский мудрец, автор изречения «познай себя»
+Periander	Периандр	Periander	Périandre	эмблема 186; коринфский тиран, один из Семи мудрецов, автор изречения о сдерживании гнева
+Pittacus	Питтак	Pittacus	Pittacos	эмблема 186; мудрец из Митилены, автор изречения «ничего сверх меры»
+Solon	Солон	Solon	Solon	эмблема 186; афинский законодатель, один из Семи мудрецов, автор изречения «смотри на конец»
+Bias	Биант	Bias	Bias	эмблема 186; мудрец из Приены, автор изречения «большинство людей дурны» (οἱ πλεῖστοι κακοί); у Alciato «Est copia magna malorum» — malorum здесь «дурных людей», не «зол»
+Thales	Фалес	Thales	Thalès	эмблема 186; мудрец из Милета, автор изречения «не будь поручителем»
+Musmo, Musmonis	муфлон	mouflon	mouflon	эмблема 186; дикий баран Сардинии/Корсики (ср. Strabo V.2.7, Plin. NH VIII.199); образ к изречению Бианта «дурных людей великое множество»: сардинец (ср. поговорку «Sardi venales» — «сардинцы на продажу, один хуже другого») верхом на муфлоне — вероятно, «дурной на дурном»; перевод строки буквальный, без пояснения
+Sphinx	Сфинкс	Sphinx	Sphinx	эмблема 187 (Submovendam ignorantiam); чудовище с лицом девы, крыльями птицы и лапами льва, символ невежества (тройная причина: лёгкий ум, льстивое наслаждение, гордыня)
+Phrixus	Фрикс	Phrixus	Phrixos	эмблема 189 (Dives indoctus); сын Атаманта, спасшийся на золотом баране (золотое руно) от гибели
+Hippomenes	Гиппомен	Hippomenes	Hippomène	эмблема 190 (In fidem uxoriam); победил Схенеиду (Атланту) в беге с помощью золотых яблок Венеры
+Schoeneis	Схенеида	Schoeneis	Schénéide	эмблема 190; «дочь Схенея» = Атланта, побеждённая в беге Гиппоменом с помощью золотых яблок; форма патронима сохранена как у Alciato
+Galathea	Галатея	Galathea	Galathée	эмблема 190; пастушка из Вергилия, Ecl. III.64 «Malo me Galatea petit, lasciva puella» — бросает в пастуха яблоком; «petiit sic Galathea virum» обыгрывает petere («добиваться» и «метить, бросать в»); не статуя Пигмалиона и не нереида Феокрита
+Aeneas	Эней	Aeneas	Énée	эмблема 194 (Pietas filiorum in parentes); троянский герой, вынесший отца Анхиса на плечах из горящей Трои
+Phidias	Фидий	Phidias	Phidias	эмблема 195 (Mulieris famam, non formam...); греческий скульптор, которому приписана статуя Венеры с черепахой под ногой
+Penelope	Пенелопа	Penelope	Pénélope	эмблема 196 (In pudoris statuam); жена Улисса, образец стыдливости при выборе между женихом и отцом
+Icarius	Икарий	Icarius	Icarios	эмблема 196; отец Пенелопы, предлагавший ей остаться в Спарте; НЕ путать с Icarus (сын Дедала, см. запись Icarus — другое лицо, другой миф) и с Icario/Icarius в glossary Cartari
+Mezentius	Мезенций	Mezentius	Mézence	эмблема 197 (Nupta contagioso); жестокий этрусский царь (Вергилий, «Энеида» VIII), привязывавший живых пленников к мёртвым телам; в эпиграмме — обращение дочери к отцу, сравниваемому с этим тираном
+Clitorii	клиторийцы (жители Клитора)	the men of Clitor	les hommes de Clitor	эмблема 200 (Salix); жители аркадского города Клитор (Clitor/Cleitor; источник, от воды которого отвращаются от вина — Ovid. Met. XV.322, Plin. NH XXXI.16); у Гомера (Od. X.510) — только эпитет ивы «губящая плоды» (ὠλεσίκαρπος); уподобление ивы людям клиторийских нравов — собственное у Alciato, не у Гомера
+Cissus, Cisso (dat.)	Цисс	Cissus	Cissus	эмблема 204 (Hedera); мальчик, которому, по преданию, Вакх подарил плющ; этимологическая связь с греч. κισσός «плющ» — не исправляется, передаётся по тексту
+Subbardus	Суббард	Subbardus	Subbardus	имя адресата, не отождествлялось; добавлено Гроком, сверено с Cartari/GLOSSARY
+Marius	Марий	Marius	Marius	добавлено Гроком, сверено с Cartari/GLOSSARY
+Septitius	Септиций	Septitius	Septitius	добавлено Гроком, сверено с Cartari/GLOSSARY
+Rhamnusia	Рамнузия [Немесида]	Rhamnusia [Nemesis]	Rhamnousia [Némésis]	эпитет Немесиды; добавлено Гроком, сверено с Cartari/GLOSSARY
+Hermes	Гермес	Hermes	Hermès	добавлено Гроком, сверено с Cartari/GLOSSARY
+Helianira	Гелианира	Helianira	Hélianire	не отождествлена (эмбл. 105); добавлено Гроком, сверено с Cartari/GLOSSARY
+Albutius	Альбуций	Albutius	Albutius	добавлено Гроком, сверено с Cartari/GLOSSARY
+Curtius	Курций	Curtius	Curtius	добавлено Гроком, сверено с Cartari/GLOSSARY
+Parisius	Паризий	Parisius	Parisius	добавлено Гроком, сверено с Cartari/GLOSSARY
+Claudius	Клавдий	Claudius	Claudius	добавлено Гроком, сверено с Cartari/GLOSSARY
+Parpalus	Парпал	Parpalus	Parpalus	добавлено Гроком, сверено с Cartari/GLOSSARY
+Albius	Альбий	Albius	Albius	добавлено Гроком, сверено с Cartari/GLOSSARY
+Crassus	Красс	Crassus	Crassus	добавлено Гроком, сверено с Cartari/GLOSSARY
+Otus	Отус	Otus	Otus	добавлено Гроком, сверено с Cartari/GLOSSARY
+Cyclops	Циклоп	Cyclops	le Cyclope	добавлено Гроком, сверено с Cartari/GLOSSARY
+halcyon	алкиона	halcyon	alcyon	в чтении «Halcionet» (эмбл. 175); добавлено Гроком, сверено с Cartari/GLOSSARY
+sargus	сарг	sargus	sargue	рыба; добавлено Гроком, сверено с Cartari/GLOSSARY
+zibellus	соболь	sable	zibeline	добавлено Гроком, сверено с Cartari/GLOSSARY
+stellio	звёздчатый геккон (stellio)	stellio	stellion (stellio)	добавлено Гроком, сверено с Cartari/GLOSSARY
+porphyrio	султанка (porphyrio)	porphyrion	porphyrion	добавлено Гроком, сверено с Cartari/GLOSSARY
+echeneis / remora	прилипала (эхенеида)	remora	rémora	добавлено Гроком, сверено с Cartari/GLOSSARY
+dipsas	дипсада	dipsas	dipsade	змея; добавлено Гроком, сверено с Cartari/GLOSSARY
+truo	труон (truo)	truo	truo	птица, не отождествлена (эмбл. 92, 93); добавлено Гроком, сверено с Cartari/GLOSSARY
+harpa	гарпа (harpa)	harpa	harpa	хищная птица, не отождествлена (эмбл. 138); добавлено Гроком, сверено с Cartari/GLOSSARY
+parra	парра (parra)	parra	parra	птица, не отождествлена (эмбл. 183); добавлено Гроком, сверено с Cartari/GLOSSARY
+merops	щурка	bee-eater	guêpier	(эмбл. 183); добавлено Гроком, сверено с Cartari/GLOSSARY
+gith	чернушка (gith)	gith (black cumin)	nigelle (gith)	(эмбл. 183); добавлено Гроком, сверено с Cartari/GLOSSARY

@@ -7394,5 +7394,159 @@
       "ru": "Деревья",
       "en": "Trees"
     }
+  ],
+  "intro": [
+    {
+      "id": "intro-1",
+      "page": "7",
+      "frame": 13,
+      "scan": "0013",
+      "kind": "dedication",
+      "title_la": "Ad illust. Maximil. ducem Mediol. Super insigni Ducatus Mediolan.",
+      "title_ru": "К светлейшему Максимилиану, герцогу Миланскому. О гербе Миланского герцогства.",
+      "title_en": "To the most illustrious Maximilian, Duke of Milan. On the arms of the Duchy of Milan.",
+      "title_fr": "Au très illustre Maximilien, duc de Milan. Sur les armes du duché de Milan.",
+      "text_la": [
+        "Exiliens infans sinuosi è faucibus anguis,",
+        "Est gentilitijs nobile stemma tuis.",
+        "Talia Pellæum gessisse nomismata regem,",
+        "Vidimus, hisq; suum concelebrasse genus.",
+        "Dũ se Ammone satũ, matrẽ anguis imagine lusã,",
+        "Diuini & sobolem seminis esse docet.",
+        "Ore exit, tradunt sic quosdam enitier angues,",
+        "An quia sic Pallas de capite orta Iouis?"
+      ],
+      "text_ru": [
+        "Младенец, выпрыгивающий из пасти извивающегося змея, —",
+        "славный герб твоего рода.",
+        "Что такие монеты чеканил пеллейский царь [Александр],",
+        "мы видели; ими он прославлял свой род,",
+        "когда учил, что рождён от Аммона, а мать обманута образом змея,",
+        "и что он — отпрыск божественного семени.",
+        "Выходит из пасти: так, передают, появляются на свет иные от змей —",
+        "или потому, что так родилась Паллада из головы Юпитера?"
+      ],
+      "text_en": [
+        "An infant leaping from the jaws of a coiling serpent",
+        "is the noble crest of your forebears.",
+        "That the Pellaean king struck coins of this kind",
+        "we have seen; by them he made his own line renowned,",
+        "when he taught that he was begotten of Ammon, his mother beguiled by the likeness of a serpent,",
+        "and that he was the offspring of divine seed.",
+        "He comes out of the mouth: so, they say, some are born of serpents —",
+        "or is it because Pallas thus sprang from the head of Jupiter?"
+      ],
+      "text_fr": [
+        "Un enfant jaillissant de la gueule d'un serpent sinueux",
+        "est le noble emblème de tes ancêtres.",
+        "Que le roi de Pella ait fait frapper de telles monnaies,",
+        "nous l'avons vu ; il en rehaussait l'éclat de sa lignée,",
+        "quand il enseignait qu'il était fils d'Ammon, sa mère abusée par l'image d'un serpent,",
+        "et qu'il était le rejeton d'une semence divine.",
+        "Il sort de la gueule : c'est ainsi, dit-on, que naissent certains des serpents —",
+        "ou bien parce que Pallas naquit ainsi de la tête de Jupiter ?"
+      ]
+    },
+    {
+      "id": "intro-2",
+      "page": "8",
+      "frame": 14,
+      "scan": "0014",
+      "kind": "dedication",
+      "title_la": "Mediolanum.",
+      "title_ru": "Милан.",
+      "title_en": "Milan.",
+      "title_fr": "Milan.",
+      "text_la": [
+        "Bituricis veruex, Heduis dat Sucula signum.",
+        "His populis patriæ debita origo meæ est,",
+        "Quam Mediolanum sacram dixêre puellæ",
+        "Terram: nam vetus hoc Gallica lingua sonat.",
+        "Culta Minerua fuit, nunc est, vbi numine Tecla",
+        "Mutato matris virginis ante domum.",
+        "Laniger huic signum sus est, animalq; biforme,",
+        "Acribus hinc setis, lanitio inde leui."
+      ],
+      "text_ru": [
+        "Битуригам баран, эдуям свинка (sucula) дают знак.",
+        "Этим народам обязано своим происхождением моё отечество,",
+        "которое назвали Медиоланом — «землёй священной девы»:",
+        "так звучит это на древнем галльском языке.",
+        "Чтилась Минерва; ныне — там, где Текла, после смены божества,",
+        "перед домом девы-матери.",
+        "Его знак — шерстоносная свинья, животное двойной природы:",
+        "с одной стороны жёсткая щетина, с другой — мягкая шерсть."
+      ],
+      "text_en": [
+        "The ram gives the Bituriges, the sow (sucula) the Haedui, their emblem.",
+        "To these peoples my native city owes its origin;",
+        "they called it Mediolanum — “land of the sacred maiden”,",
+        "for so the old Gaulish tongue renders it.",
+        "Minerva was worshipped here; now it is where Thecla is, the deity having changed,",
+        "before the house of the Virgin Mother.",
+        "Its emblem is the wool-bearing sow, a creature of two natures:",
+        "bristles harsh on one side, soft wool on the other."
+      ],
+      "text_fr": [
+        "Le bélier donne son emblème aux Bituriges, la truie (sucula) aux Éduens.",
+        "À ces peuples ma patrie doit son origine ;",
+        "on l'appela Mediolanum — « terre de la vierge sacrée » :",
+        "telle est la signification de ce mot dans l'ancienne langue gauloise.",
+        "On y honora Minerve ; c'est maintenant l'endroit où est Thècle, la divinité ayant changé,",
+        "devant la maison de la Vierge mère.",
+        "Son emblème est la truie porte-laine, animal de double nature :",
+        "d'un côté des soies rudes, de l'autre une laine douce."
+      ]
+    },
+    {
+      "id": "intro-3",
+      "page": "9",
+      "frame": 15,
+      "scan": "0015",
+      "kind": "dedication",
+      "title_la": "Nunquàm procrastinandum.",
+      "title_ru": "Ничего не следует откладывать.",
+      "title_en": "Nothing is ever to be put off.",
+      "title_fr": "Il ne faut jamais remettre à plus tard.",
+      "greek": [
+        {
+          "where": "надпись гравюры; строка 2",
+          "original": "ΜΗΔΕΝ ΑΝΑΒΑΛΛΟΜΕΝΟΣ / μηδ' ἐν … ἀναβαλλόμενος",
+          "translation": "нич**не откладывая**"
+        }
+      ],
+      "text_la": [
+        "ALCIATAE gentis insignia sustinet Alce,",
+        "Vnguibus & μηδ' ἐν fert ἀναβαλλόμενος.",
+        "Constat Alexandrum sic respondisse roganti,",
+        "Quî tot obiuisset tempore gesta breui?",
+        "Nunquam (inquit) differre volens. quod & indicat Alce",
+        "Fortior hæc dubitet, ocyor ánne siet."
+      ],
+      "text_ru": [
+        "Герб рода Альчато держит лось (Alce);",
+        "когтями несёт он и девиз «μηδ' ἐν ἀναβαλλόμενος» [«ничего не откладывая»].",
+        "Известно, что Александр так ответил спросившему:",
+        "«Как ты за столь краткое время совершил столько дел?» —",
+        "«Никогда, — сказал он, — не желая откладывать». На это указывает и Alce:",
+        "будь она сильнее — стала бы колебаться, или была бы быстрее?"
+      ],
+      "text_en": [
+        "The elk (Alce) bears the arms of the Alciati line;",
+        "in its claws it carries “μηδ' ἐν ἀναβαλλόμενος” [“putting nothing off”].",
+        "It is known that Alexander answered thus when asked",
+        "how in so short a time he had achieved so many deeds:",
+        "“By never wishing to delay,” he said. This too Alce shows:",
+        "stronger, would she hesitate — or would she be swifter?"
+      ],
+      "text_fr": [
+        "L'élan (Alce) porte les armes de la famille Alciat ;",
+        "dans ses griffes il tient « μηδ' ἐν ἀναβαλλόμενος » [« ne remettant rien à plus tard »].",
+        "On sait qu'Alexandre répondit ainsi à qui l'interrogeait",
+        "sur la façon dont il avait accompli tant d'exploits en si peu de temps :",
+        "« En ne voulant jamais différer », dit-il. C'est aussi ce que montre Alce :",
+        "plus forte, hésiterait-elle — ou serait-elle plus rapide ?"
+      ]
+    }
   ]
 }
