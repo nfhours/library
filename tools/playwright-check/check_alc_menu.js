@@ -30,5 +30,11 @@ let bad=0,n=0; const ok=(a,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':'FAI
  ok('при опущенной строке раздела сверху нет светлой полосы (яркость ≤ 40)',+px<=40,px);
  await p.evaluate(()=>{document.querySelector('.ic-rbar').style.top='';});
  await p.setViewportSize(vp); await p.evaluate(()=>window.scrollTo(0,0)); await W(700); const s5=await st(); ok('наверху меню на месте',s5.y===0&&!s5.menu&&s5.btT>=s5.bbB-1,JSON.stringify(s5));
+ // подложка над «Библиотекой»; без горизонтальной прокрутки, без лишнего места сверху, клики по шапке работают
+ await p.evaluate(()=>window.scrollTo(0,0)); await W(400);
+ const tp=await p.evaluate(()=>{ const c=getComputedStyle(document.querySelector('.back-bar'),'::before'), se=document.scrollingElement; return {bg:c.backgroundColor,pos:c.position,bottom:c.bottom,h:c.height,pe:c.pointerEvents,sw:se.scrollWidth,cw:se.clientWidth,bb:Math.round(document.querySelector('.back-bar').getBoundingClientRect().top),y:scrollY}; });
+ ok('подложка над «Библиотекой» (::before, #16130f, 100vh, без событий)',tp.bg==='rgb(22, 19, 15)'&&tp.pos==='absolute'&&tp.pe==='none'&&parseInt(tp.h)>=600,JSON.stringify(tp));
+ ok('нет горизонтальной прокрутки, вверху нет лишнего места',tp.sw<=tp.cw&&tp.bb===0&&tp.y===0,JSON.stringify(tp));
+ await p.tap('.back-bar .back-bar-brand a'); await W(1500); ok('клик по «Библиотеке» работает',!/alciato\/alc15$/.test(await p.evaluate(()=>location.hash)),await p.evaluate(()=>location.hash));
  ok('console clean',errs.length===0,errs.slice(0,3).join(' | '));
  await br.close(); console.log('passed '+(n-bad)+'/'+n); process.exit(bad?1:0); })();
