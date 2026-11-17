@@ -1596,7 +1596,10 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic-stack-flow .ic-booktabs{position:relative;top:auto}
 .ic-stack-flow .ic-rbar{position:sticky;top:env(safe-area-inset-top, 0px);transition:none;will-change:auto}
 .ic-stack-flow .ic-rbar::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:120px;background:var(--bar);pointer-events:none}
-.ic-stack-flow .back-bar::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:100vh;background:#16130f;pointer-events:none}
+/* Страница эмблемы: фон html — цвет шапки (при резиновом отскоке сверху Safari показывает только фон html), бумага — на body (min-height на весь экран).
+   Класс ic-flow-page на html ставит renderCard, снимает route() при любой смене страницы. Отскок внизу — тёмный. */
+html.ic-flow-page{background:#16130f}
+html.ic-flow-page body{background:#ece5d4;min-height:100vh;min-height:100dvh}
 
 /* Шторка «Содержание» (.ic-rb-sheet-toc): панель — flex-колонка из двух РОДНЫХ
    блоков без наложения: заголовок («Содержание / Закрыть», flex:none, не

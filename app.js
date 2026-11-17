@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "230";
+  var APP_VER = "231";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1062,6 +1062,7 @@
   function route(){
     ensureManual();
     renderGen++;
+    document.documentElement.classList.remove("ic-flow-page");   // тёмный фон html — только на странице эмблемы Альчато (renderCard)
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
@@ -3280,7 +3281,7 @@
         '</div>')+
       '</div>'+(rp ? '</div>' : "");
 
-    if(alc){ var stf = document.getElementById("ic-stack"); if(stf) stf.classList.add("ic-stack-flow"); }
+    if(alc){ var stf = document.getElementById("ic-stack"); if(stf) stf.classList.add("ic-stack-flow"); document.documentElement.classList.add("ic-flow-page"); }
     if(rp) ripaBind(book, renderGen, rpSheets);
     else bindLangSwitch(root);
     var backEl = root.querySelector(".ic-back");

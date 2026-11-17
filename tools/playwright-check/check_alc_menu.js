@@ -30,11 +30,12 @@ let bad=0,n=0; const ok=(a,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':'FAI
  ok('при опущенной строке раздела сверху нет светлой полосы (яркость ≤ 40)',+px<=40,px);
  await p.evaluate(()=>{document.querySelector('.ic-rbar').style.top='';});
  await p.setViewportSize(vp); await p.evaluate(()=>window.scrollTo(0,0)); await W(700); const s5=await st(); ok('наверху меню на месте',s5.y===0&&!s5.menu&&s5.btT>=s5.bbB-1,JSON.stringify(s5));
- // подложка над «Библиотекой»; без горизонтальной прокрутки, без лишнего места сверху, клики по шапке работают
+ // фон html — цвет шапки только на странице эмблемы; бумага — на body; без горизонтальной прокрутки, без лишнего места сверху, клики по шапке работают
  await p.evaluate(()=>window.scrollTo(0,0)); await W(400);
- const tp=await p.evaluate(()=>{ const c=getComputedStyle(document.querySelector('.back-bar'),'::before'), se=document.scrollingElement; return {bg:c.backgroundColor,pos:c.position,bottom:c.bottom,h:c.height,pe:c.pointerEvents,sw:se.scrollWidth,cw:se.clientWidth,bb:Math.round(document.querySelector('.back-bar').getBoundingClientRect().top),y:scrollY}; });
- ok('подложка над «Библиотекой» (::before, #16130f, 100vh, без событий)',tp.bg==='rgb(22, 19, 15)'&&tp.pos==='absolute'&&tp.pe==='none'&&parseInt(tp.h)>=600,JSON.stringify(tp));
+ const tp=await p.evaluate(()=>{ const se=document.scrollingElement, h=document.documentElement; return {cls:h.classList.contains('ic-flow-page'),html:getComputedStyle(h).backgroundColor,body:getComputedStyle(document.body).backgroundColor,bmh:Math.round(document.body.getBoundingClientRect().height),ih:innerHeight,before:getComputedStyle(document.querySelector('.back-bar'),'::before').content,sw:se.scrollWidth,cw:se.clientWidth,bb:Math.round(document.querySelector('.back-bar').getBoundingClientRect().top),y:scrollY}; });
+ ok('страница эмблемы: html #16130f, body бумага, body ≥ высоты экрана, ::before у «Библиотеки» нет',tp.cls&&tp.html==='rgb(22, 19, 15)'&&tp.body==='rgb(236, 229, 212)'&&tp.bmh>=tp.ih&&(tp.before==='none'||tp.before==='normal'),JSON.stringify(tp));
  ok('нет горизонтальной прокрутки, вверху нет лишнего места',tp.sw<=tp.cw&&tp.bb===0&&tp.y===0,JSON.stringify(tp));
  await p.tap('.back-bar .back-bar-brand a'); await W(1500); ok('клик по «Библиотеке» работает',!/alciato\/alc15$/.test(await p.evaluate(()=>location.hash)),await p.evaluate(()=>location.hash));
+ for(const h of ['#/alciato/list','#/alciato','#/cartari','#/iconologie']){ await p.goto(BASE+h); await W(1800); const o=await p.evaluate(()=>({cls:document.documentElement.classList.contains('ic-flow-page'),html:getComputedStyle(document.documentElement).backgroundColor,body:getComputedStyle(document.body).backgroundColor})); ok('уход на '+h+': фон html прежний (бумага), класса нет',!o.cls&&o.html==='rgb(236, 229, 212)',JSON.stringify(o)); }
  ok('console clean',errs.length===0,errs.slice(0,3).join(' | '));
  await br.close(); console.log('passed '+(n-bad)+'/'+n); process.exit(bad?1:0); })();
