@@ -16,6 +16,7 @@
   plates/<id>_full.webp  — то же в полном разрешении для полноэкранного просмотра (высота ≤ 2400)
   pics/<id>.webp         — гравюра без рамки и текста (если размечена), высота ≤ 1000
   thumb/<id>_t.webp      — миниатюра (ширина 240) — гравюра, а если её нет, то страница
+  frames/<id>.webp       — вырезка рамки (вычитаются и «зоны вычитания для извлечения лишнего из рамки»), только у кадров с такими зонами
   frames.json            — таблица: кадр, id, страница, эмблема (по смещению кадр−6, пересверено по девизам), рамки, размеры
 id = alc<печатная страница> для кадров 16–232 (кадр − 6, как у прежних img/alc<стр>.webp), fm<кадр> для кадров 7–15 (титул и вступление).
 """
@@ -93,23 +94,29 @@ def do_frame(args):
     x0, y0, x1, y1 = px(page, W, H)
     crop = src[y0:y1, x0:x1]
     plate = cc.make_display_copy(crop, tone)
-    holes = [px(b, W, H) for b in bx if b["k"] == "text"]
-    alpha0 = plate[:, :, 3].copy()
-    for (a, b_, c_, d) in holes:           # области вычитания — прозрачные (мягкий край 4 px)
-        ax, ay, bx_, by = max(0, a - x0), max(0, b_ - y0), min(x1 - x0, c_ - x0), min(y1 - y0, d - y0)
-        m = np.ones(plate.shape[:2], np.float32)
-        m[ay:by, ax:bx_] = 0
-        m = cv2.GaussianBlur(m, (0, 0), 3) if False else m
-        plate[:, :, 3] = (plate[:, :, 3] * m).astype(np.uint8)
-    for b in bx:                            # концовка остаётся, даже если лежит внутри области вычитания
-        if b["k"] == "tail":
-            a, b_, c_, d = px(b, W, H)
+    # plates: вычитаются только текстовые области (подпись со словом «текст» или без подписи); «зона вычитания для извлечения лишнего
+    # из рамки» и подобные относятся только к отдельной вырезке рамки (frames/<id>.webp), plates от неё не зависят
+    def is_text(b): return b["k"] == "text" and (not (b.get("label") or "").strip() or "текст" in b["label"].lower())
+    def subtract(img, boxes):
+        al0 = img[:, :, 3].copy()
+        for (a, b_, c_, d) in [px(b, W, H) for b in boxes]:
             ax, ay, bx_, by = max(0, a - x0), max(0, b_ - y0), min(x1 - x0, c_ - x0), min(y1 - y0, d - y0)
-            plate[ay:by, ax:bx_, 3] = alpha0[ay:by, ax:bx_]
+            img[ay:by, ax:bx_, 3] = 0
+        for b in bx:                        # концовка остаётся, даже если лежит внутри области вычитания
+            if b["k"] == "tail":
+                a, b_, c_, d = px(b, W, H)
+                ax, ay, bx_, by = max(0, a - x0), max(0, b_ - y0), min(x1 - x0, c_ - x0), min(y1 - y0, d - y0)
+                img[ay:by, ax:bx_, 3] = al0[ay:by, ax:bx_]
+        return img
+    holes = [b for b in bx if is_text(b)]
+    zones = [b for b in bx if b["k"] == "text" and not is_text(b)]
+    frame_only = subtract(plate.copy(), holes + zones) if zones else None
+    plate = subtract(plate, holes)
     rec_out = {"frame": key, "id": fid, "status": "ok", "page_box": [page["x"], page["y"], page["w"], page["h"]],
-               "kinds": sorted(set(b["k"] for b in bx if b["k"])), "holes": len(holes), "labels": [b.get("label") for b in rec["boxes"]]}
+               "kinds": sorted(set(b["k"] for b in bx if b["k"])), "holes": len(holes), "zones": len(zones), "labels": [b.get("label") for b in rec["boxes"]]}
     sz = 0
     sz += save(resize_rgba(plate, H_PLATE), "%s/plates/%s.webp" % (out, fid))
+    if frame_only is not None: sz += save(resize_rgba(frame_only, H_PLATE), "%s/frames/%s.webp" % (out, fid))
     sz += save(resize_rgba(plate, H_FULL), "%s/plates/%s_full.webp" % (out, fid), 70)
     thumb_src = plate
     pic = next((b for b in bx if b["k"] == "pic"), None)
