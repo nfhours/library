@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "226";
+  var APP_VER = "227";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1785,37 +1785,29 @@
     requestAnimationFrame(tick);
   }
 
-  // installLinkedHide — страница эмблемы Альчато: шапка (.back-bar + меню книги) в .ic-stack привязана к прокрутке.
-  // Вниз: сдвиг o (px) растёт ровно на пройденный путь, translateY = −o, пока шапка не скроется целиком (o = H);
-  // строка раздела остаётся у верха. Вверх: обратные движения < 12 px игнорируются, дальше шапка возвращается
-  // плавно (transition). У самого верха (scrollY = 0) шапка полностью видна, o не больше scrollY.
-  // Отскок iOS (scrollY < 0 или за концом) тик не трогает; пока читатель сам не крутил страницу — шапка показана.
-  function installLinkedHide(opts){
-    var UP_AT = 12, lastY = window.scrollY, o = 0, H = 0, up = 0, userMoved = false, EVS = ["touchstart","wheel","keydown","pointerdown"];
+  // installAlcMenu — страница эмблемы Альчато: «Библиотека» и меню книги — обычная часть страницы (уезжают нативной прокруткой),
+  // строка раздела — sticky top:0 (CSS .ic-stack-flow). Тут только показ меню книги поверх: прокрутка вверх ≥ 40 px — выезжает
+  // (класс ic-alc-menu на #ic-stack), вниз ≥ 30 px — уходит; не чаще раза в 300 мс. Наверху (< 36 px) и пока читатель сам не крутил — класс снят.
+  // Тики со сменой высоты окна (панели Safari), с scrollY < 0 и за концом страницы (отскок iOS) игнорируются.
+  function installAlcMenu(opts){
+    var UP_AT = 40, DOWN_AT = 30, GAP = 300, TOP = 36, EVS = ["touchstart","wheel","keydown","pointerdown"];
+    var lastY = window.scrollY, lastH = window.innerHeight, up = 0, down = 0, want = false, cur = false, lastAt = -1e9, userMoved = false;
     function onUser(){ if(userMoved) return; userMoved = true; lastY = window.scrollY; EVS.forEach(function(n){ window.removeEventListener(n, onUser, true); }); }
     EVS.forEach(function(n){ window.addEventListener(n, onUser, {capture:true, passive:true}); });
-    function apply(st, smooth){
-      st.style.transition = smooth ? "" : "none";
-      st.style.transform = o > 0 ? "translateY(calc(-1px * "+o.toFixed(1)+" + env(safe-area-inset-top, 0px) * "+(H ? (o / H).toFixed(3) : 0)+"))" : "";
-    }
-    function reset(){ var st = document.getElementById("ic-stack"); if(st){ st.style.transition = ""; st.style.transform = ""; } EVS.forEach(function(n){ window.removeEventListener(n, onUser, true); }); }
+    function set(v){ cur = v; var st = document.getElementById("ic-stack"); if(st) st.classList.toggle("ic-alc-menu", v); }
     function tick(){
-      if(opts.isActive && !opts.isActive()){ reset(); return; }
-      var st = document.getElementById("ic-stack");
-      if(!st){ requestAnimationFrame(tick); return; }
-      if(!userMoved){ lastY = window.scrollY; requestAnimationFrame(tick); return; }
-      var bb = st.querySelector(".back-bar"), bt = document.getElementById("ic-booktabs");
-      H = (bb ? bb.offsetHeight : 0) + (bt ? bt.offsetHeight : 0);
-      var y = window.scrollY, doc = document.documentElement, maxY = Math.max(0, doc.scrollHeight - window.innerHeight);
-      if(y >= 0 && y <= maxY){
-        var dy = y - lastY, prev = o, smooth = false; lastY = y;
-        if(opts.suppress && opts.suppress()){ o = 0; up = 0; smooth = true; }
-        else if(y <= 0){ o = 0; up = 0; }
-        else if(dy > 0.5){ up = 0; o = Math.min(H, o + dy); }
-        else if(dy < -0.5){ up += -dy; if(up >= UP_AT){ o = 0; smooth = true; } else if(o > y) o = y; }
-        if(o > y) o = Math.max(0, y);
-        if(o !== prev || smooth) apply(st, smooth && prev !== o);
+      if(opts.isActive && !opts.isActive()){ if(cur) set(false); EVS.forEach(function(n){ window.removeEventListener(n, onUser, true); }); return; }
+      var y = window.scrollY, ih = window.innerHeight, doc = document.documentElement, maxY = Math.max(0, doc.scrollHeight - ih);
+      if(ih !== lastH){ lastH = ih; lastY = y; up = 0; down = 0; }
+      else if(!userMoved){ lastY = y; }
+      else if(y >= 0 && y <= maxY){
+        var dy = y - lastY; lastY = y;
+        if(opts.suppress && opts.suppress()){ want = false; up = 0; down = 0; }
+        else if(y < TOP){ want = false; up = 0; down = 0; }
+        else if(dy < -0.5){ up += -dy; down = 0; if(up >= UP_AT) want = true; }
+        else if(dy > 0.5){ down += dy; up = 0; if(down >= DOWN_AT) want = false; }
       }
+      if(want !== cur){ var now = performance.now(); if(now - lastAt >= GAP){ lastAt = now; set(want); } }
       requestAnimationFrame(tick);
     }
     requestAnimationFrame(tick);
@@ -3316,6 +3308,7 @@
         '</div>')+
       '</div>'+(rp ? '</div>' : "");
 
+    if(alc){ var stf = document.getElementById("ic-stack"); if(stf) stf.classList.add("ic-stack-flow"); }
     if(rp) ripaBind(book, renderGen, rpSheets);
     else bindLangSwitch(root);
     var backEl = root.querySelector(".ic-back");
@@ -3343,7 +3336,11 @@
           if(det.open) hardScrollTo(Math.max(0, window.scrollY + det.getBoundingClientRect().top - viewEdge() - 12));
         });
       }
-      function setVis(){ var st0 = document.getElementById("ic-stack"); if(st0) root.style.setProperty("--ic-stack-full", Math.round(st0.getBoundingClientRect().height)+"px"); }
+      function setVis(){ var st0 = document.getElementById("ic-stack"); if(!st0) return;
+        if(alc){ // страница эмблемы: шапка и меню — часть страницы, .ic-stack без своего блока (display:contents)
+          var hh = 0, bt = document.getElementById("ic-booktabs"); Array.prototype.forEach.call(st0.children, function(c){ hh += c.offsetHeight; });
+          root.style.setProperty("--ic-stack-full", hh+"px"); if(bt) root.style.setProperty("--alc-bt", bt.offsetHeight+"px"); return; }
+        root.style.setProperty("--ic-stack-full", Math.round(st0.getBoundingClientRect().height)+"px"); }
       var visW = window.innerWidth;   // высота панелей от прокрутки не меняется: пересчёт только при смене ширины (поворот)
       setVis(); window.addEventListener("resize", function rs(){ if(gen !== renderGen){ window.removeEventListener("resize", rs); return; } if(window.innerWidth === visW) return; visW = window.innerWidth; setVis(); });
       ripaAnchors();
@@ -3353,7 +3350,7 @@
       if(keepRp && keepRp.anchor) restoreBlockPos(keepRp, gen);
       else if(ripaHl && ripaHl.id===it.id) ripaPlace(book, it, gen);
       else { toTop(); ripaHl = null; }
-      (alc ? installLinkedHide : installBookHide)({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
+      (alc ? installAlcMenu : installBookHide)({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
       nudgeRepaint();
       return;
     }
