@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "245";
+  var APP_VER = "246";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3113,7 +3113,8 @@
         '<a href="#/motifs"'+(pos === 1 ? ' class="on"' : "")+'><span>'+esc(t("motTitle"))+'</span></a></div></nav>';
   }
   function motShell(strip){
-    return '<div class="ic-stack" id="ic-stack">'+motTop("motifs")+(strip ? ripaBarWrap(strip) : "")+'</div>';
+    // строка разделов: обрезающий контейнер (из него она выезжает вниз из-под переключателя), линия над ней и мягкая тень под ней
+    return '<div class="ic-stack" id="ic-stack">'+motTop("motifs")+(strip ? '<div class="ic-mot-rwrap"><div class="ic-mot-rclip">'+ripaBarWrap(strip)+'</div><i class="ic-mot-hr"></i><i class="ic-mot-sh"></i></div>' : "")+'</div>';
   }
   // Кадр на время загрузки при переходе: только шапка с переключателем (старая страница держится «призраком» поверх)
   function motFrame(){ return '<div class="ic-stack" id="ic-stack">'+motTop(motNav.to ? "motifs" : "books")+'</div>'; }
@@ -3121,14 +3122,14 @@
   /* ---------- плавный переход «Книги ⇄ Мотивы» ----------
      Только по нажатию на переключатель (прямой заход, «назад/вперёд» и обновление — без анимации). Уходящая и входящая страницы —
      «призраки» (копии видимой части), лежат друг на друге под шапкой в области высотой с экран: уходящая сдвигается на 70 px и тает,
-     входящая приходит с другой стороны; размытие — CSS blur() на самом призраке высотой в экран (не на длинной странице); всё — Web Animations.
+     входящая проявляется; только прозрачность. Строка разделов «Мотивов» выезжает вниз из-под переключателя (translateY) и уезжает обратно; всё — Web Animations.
      Тёмный фон строки разделов — отдельный слой, он не сдвигается, только проявляется. Шапка (Библиотека, языки, переключатель) не трогается. */
   var motNav = null, motHomeY = 0, libMetas = null;
-  var MOT_EASE = "cubic-bezier(.215,.61,.355,1)", MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
+  var MOT_EASE = "cubic-bezier(.65,0,.35,1)", MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
   // подложка и подписи переключателя: Web Animations (переживают пересборку разметки — после неё анимация запускается заново с нужного места)
   function motPillAnim(nav, to, elapsed){
     var cap = nav && nav.querySelector(".ic-mot-cap"); if(!cap) return;
-    var dur = (window.__icMotMs || 400), el = Math.max(0, elapsed || 0);
+    var dur = (window.__icMotMs || 520), el = Math.max(0, elapsed || 0);
     cap.setAttribute("data-pos", to);
     var pill = cap.querySelector(".ic-mot-pill"), as = cap.querySelectorAll("a");
     [].forEach.call(as, function(a, i){ a.classList.toggle("on", i === to); });
@@ -3141,33 +3142,41 @@
     if(!motNav || !motNav.pill) return;
     motPillAnim(document.getElementById("ic-booktabs"), motNav.to, performance.now() - motNav.t0);
   }
-  // призрак видимой части страницы: слой с содержимым (сдвигается) + отдельный неподвижный тёмный фон строки разделов
+  // призрак видимой части страницы (только содержимое под строкой разделов): исчезает/проявляется по прозрачности, без сдвига и размытия
   function motGhost(){
     var bt = document.getElementById("ic-booktabs"); if(!bt) return null;
-    var T = Math.round(bt.getBoundingClientRect().bottom), PAD = 80, vw = document.documentElement.clientWidth, vh = window.innerHeight;
-    var wrap = root.querySelector(":scope > .ic-wrap"), rb = root.querySelector(":scope > .ic-stack .ic-rbar-rp");
+    var T = Math.round(bt.getBoundingClientRect().bottom), PAD = 0, vw = document.documentElement.clientWidth, vh = window.innerHeight;
+    var wrap = root.querySelector(":scope > .ic-wrap");
     var g = document.createElement("div"); g.className = "ic-mot-ghost";
-    g.style.cssText = "left:"+(-PAD)+"px;width:"+(vw+2*PAD)+"px;top:"+T+"px;height:"+Math.max(0, vh-T)+"px";
+    g.style.cssText = "left:0;width:"+vw+"px;top:"+T+"px;height:"+Math.max(0, vh-T)+"px";
     var inn = document.createElement("div"); inn.className = "ic-mot-gin"; g.appendChild(inn);
-    var bg = null;
-    function put(src, r, extra){
+    function put(src, r){
       var c = src.cloneNode(true); c.removeAttribute("id"); [].forEach.call(c.querySelectorAll("[id]"), function(x){ x.removeAttribute("id"); });
-      // вне экрана копия не нужна: строки и блоки за границей видимой области остаются пустыми заготовками той же высоты (быстрее клонируется и рисуется)
+      // вне экрана копия не нужна: строки и блоки за границей видимой области остаются пустыми заготовками той же высоты
       var so = src.querySelectorAll("li, section"), co = c.querySelectorAll("li, section");
       if(so.length === co.length) for(var i = 0; i < so.length; i++){
         var q = so[i].getBoundingClientRect();
         if(q.bottom < T - 120 || q.top > vh + 120){ co[i].style.height = q.height+"px"; co[i].style.overflow = "hidden"; co[i].innerHTML = ""; }
       }
       c.style.position = "absolute"; c.style.margin = "0"; c.style.left = (r.left+PAD)+"px"; c.style.top = (r.top-T)+"px"; c.style.width = r.width+"px";
-      if(extra) extra(c); inn.appendChild(c);
-    }
-    if(rb){
-      var r = rb.getBoundingClientRect(), cs = getComputedStyle(rb);
-      bg = document.createElement("div"); bg.className = "ic-mot-gbg"; bg.style.cssText = "left:0;width:"+vw+"px;top:"+r.top+"px;height:"+r.height+"px";
-      put(rb, r, function(c){ c.style.background = "none"; c.style.border = "0"; c.style.height = r.height+"px"; c.style.padding = cs.paddingTop+" "+cs.paddingRight+" "+cs.paddingBottom+" "+cs.paddingLeft; });
+      inn.appendChild(c);
     }
     if(wrap) put(wrap, wrap.getBoundingClientRect());
-    return {g:g, bg:bg, inn:inn, real:[wrap, rb ? rb.closest(".ic-ch-outer-bar") : null]};
+    return {g:g, real:[wrap]};
+  }
+  // копия строки разделов (с линией и тенью) для ухода вверх при возврате на «Книги»
+  function motStripGhost(){
+    var rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap"); if(!rw) return null;
+    var r = rw.getBoundingClientRect(), c = rw.cloneNode(true);
+    c.removeAttribute("id"); [].forEach.call(c.querySelectorAll("[id]"), function(x){ x.removeAttribute("id"); });
+    c.className = "ic-mot-rwrap ic-mot-gstrip"; c.style.cssText = "position:fixed;left:0;width:"+document.documentElement.clientWidth+"px;top:"+r.top+"px;height:"+r.height+"px;z-index:9;pointer-events:none";
+    return c;
+  }
+  // строка разделов: выезд вниз из-под переключателя / уход вверх (translateY), линия над ней и тень под ней — по прозрачности
+  function motStripAnim(rw, dir, opt){
+    var bar = rw.querySelector(".ic-ch-outer-bar"), parts = [rw.querySelector(".ic-mot-hr"), rw.querySelector(".ic-mot-sh")], inn = dir === "in";
+    if(bar) bar.animate([{transform:"translate3d(0,"+(inn ? "-100%" : "0")+",0)"}, {transform:"translate3d(0,"+(inn ? "0" : "-100%")+",0)"}], opt);
+    parts.forEach(function(e){ if(e) e.animate([{opacity: inn ? 0 : 1}, {opacity: inn ? 1 : 0}], opt); });
   }
   function motNavEnd(){
     var n = motNav; if(!n) return;
@@ -3185,18 +3194,17 @@
     if(n.to) delete namesUi.pos[location.hash];
     var inc = n.reduce ? null : motGhost(), out = n.out;
     if(!inc || !out || !inc.g.animate){ motNavEnd(); return; }
-    var dx = n.dir*60, dur = window.__icMotMs || 420;
+    var dur = window.__icMotMs || 520;
     n.hidden = inc.real; inc.real.forEach(function(el){ if(el) el.style.visibility = "hidden"; });
-    n.layers = [out.bg, out.g, inc.bg, inc.g];
+    n.layers = [out.g, out.strip, inc.g];
     n.layers.forEach(function(el){ if(el) root.appendChild(el); });
     motKeep = n.layers;
     var opt = {duration:dur, easing:MOT_EASE, fill:"both"}, last;
-    function mv(node, a, b){ return node.animate([{transform:"translate3d("+a+"px,0,0)"},{transform:"translate3d("+b+"px,0,0)"}], opt); }
-    function fade(node, a, b, ba, bb){ return node.animate([{opacity:a, filter:"blur("+ba+"px)"},{opacity:b, filter:"blur("+bb+"px)"}], opt); }
-    mv(out.inn, 0, dx); fade(out.g, 1, 0, 0, 6);
-    mv(inc.inn, -dx, 0); last = fade(inc.g, 0, 1, 6, 0);
-    if(out.bg) out.bg.animate([{opacity:1},{opacity:0}], opt);
-    if(inc.bg) inc.bg.animate([{opacity:0},{opacity:1}], opt);
+    out.g.animate([{opacity:1},{opacity:0}], opt);
+    last = inc.g.animate([{opacity:0},{opacity:1}], opt);
+    if(out.strip) motStripAnim(out.strip, "out", opt);
+    var rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap");
+    if(rw) motStripAnim(rw, "in", {duration:dur, easing:MOT_EASE, fill:"backwards"});
     var finished = false;
     function fin(){ if(finished) return; finished = true; if(motNav === n) motNavEnd(); }
     last.onfinish = fin; last.oncancel = fin;
@@ -3212,10 +3220,11 @@
     var reduce = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
     if(from === 0) motHomeY = window.scrollY;
     var out = reduce ? null : motGhost();
+    if(out) out.strip = motStripGhost();
     motNav = {from:from, to:to, dir: to ? -1 : 1, hy: motHomeY, reduce:reduce, out:out, started:false, pill:true, t0:performance.now()};
     motPillAnim(nav, to, 0);                     // подложка стартует сразу, не дожидаясь страницы
     if(out){
-      motNav.layers = [out.bg, out.g]; motNav.layers.forEach(function(el){ if(el) root.appendChild(el); });
+      motNav.layers = [out.g, out.strip]; motNav.layers.forEach(function(el){ if(el) root.appendChild(el); });
       motKeep = motNav.layers;
     }
     motNav.timer = setTimeout(motNavAbort, 5000);

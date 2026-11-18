@@ -6,6 +6,7 @@
   --serif:"EB Garamond", "Iowan Old Style", Georgia, serif;
   --old:"IM Fell English", "Iowan Old Style", Georgia, serif;
   --top:0px;
+  --fa:18%; --fb:82%;   /* затухание линий-разделителей к краям: прозрачно → цвет с --fa до --fb → прозрачно (HANDOFF.md, «Линии-разделители») */
   /* типографика и отступы списков (указатель Картари, список статей Рипы) */
   --ic-li-fs:1.04em; --ic-li-sub-fs:.76em; --ic-li-py:9px; --ic-sec-fs:2.1em; --ic-li-pg-fs:.88em;
   all:initial; display:block; box-sizing:border-box;
@@ -177,7 +178,7 @@ select.ic-sort{font-size:.85em;padding:4px 0;border:0;border-bottom:1px solid va
 .ic-gn{margin-left:auto;color:var(--soft);font-weight:400;font-size:.85em}
 .ic-list ul{list-style:none;margin-top:10px}
 .ic-row-item{display:grid;grid-template-columns:4.4rem 1fr;gap:18px;align-items:center;
-  padding:22px 6px;border-bottom:1px solid var(--rule);cursor:pointer;color:var(--ink)}
+  padding:22px 6px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1;cursor:pointer;color:var(--ink)}
 .ic-pg{font-family:var(--old);font-size:1.7em;line-height:1;color:var(--accent);text-align:right}
 .ic-pg small{display:block;font-family:var(--serif);font-size:.4em;color:var(--soft);margin-top:6px}
 .ic-ru{display:block;font-size:1.08em;line-height:1.5;color:var(--ink)}
@@ -210,7 +211,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
 .ic-book-more summary::-webkit-details-marker{display:none}
 .ic-book-more summary::before{content:"+ "}
 .ic-book-more[open] summary::before{content:"− "}
-.ic-book-sub{color:var(--soft);font-size:.94em;margin:0;padding-top:18px;margin-top:10px;border-top:1px solid var(--rule);line-height:1.7}
+.ic-book-sub{color:var(--soft);font-size:.94em;margin:0;padding-top:18px;margin-top:10px;border-top:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1;line-height:1.7}
 
 .ic-about-link{font-size:.8em;color:var(--accent);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto;text-decoration:none}
 
@@ -241,7 +242,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
 /* указатель книги-табличек: одна строка на таблицу */
 .ic-plate-ul{list-style:none;margin-top:18px}
 .ic-plate-row{display:grid;grid-template-columns:5.6rem 1fr;gap:16px;align-items:center;
-  padding:14px 4px;border-bottom:1px solid var(--rule);cursor:pointer;color:var(--ink)}
+  padding:14px 4px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1;cursor:pointer;color:var(--ink)}
 .ic-plate-thumb{display:block;width:5.6rem;height:5.6rem;border:1px solid var(--rule);border-radius:2px;overflow:hidden;background:var(--sheet)}
 .ic-plate-thumb img{width:100%;height:100%;object-fit:contain;object-position:center}
 .ic-plate-body{display:block;min-width:0}
@@ -252,7 +253,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
 
 /* компактный список предметов таблицы, раскрывающийся на месте */
 .ic-objlist{list-style:none;margin-top:26px}
-.ic-obj{border-bottom:1px solid var(--rule)}
+.ic-obj{border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 .ic-obj-d{padding:0}
 .ic-obj-sum{display:grid;grid-template-columns:auto 1fr 10px;gap:12px;align-items:center;
   padding:10px 2px;cursor:pointer;list-style:none}
@@ -293,7 +294,7 @@ button.ic-sheet-prev,button.ic-sheet-next,button.ic-sheet-close{width:38px;heigh
 /* Plain row, no panel — a breadcrumb, not another boxed widget. Not sticky:
    a two-item line isn't worth pinning, and the collapse motion looked like
    it was falling apart for something this small. */
-.ic-nav{display:flex;flex-wrap:wrap;align-items:center;gap:14px;padding-bottom:16px;margin-bottom:10px;border-bottom:1px solid var(--rule)}
+.ic-nav{display:flex;flex-wrap:wrap;align-items:center;gap:14px;padding-bottom:16px;margin-bottom:10px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 /* Always-visible underline, not a hover-only one — on touch there's no
    hover to reveal that this plain-looking text is actually tappable, and an
    underline alone still didn't read as a button. Same outlined/invert-on-
@@ -332,7 +333,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    кнопки высотой 36px, 4px между ними, padding на самой полосе тоже 4px. */
 .ic-booktabs{position:sticky;top:var(--top);z-index:9;display:flex;gap:4px;
   padding:4px;box-sizing:border-box;
-  background:#16130f;border-top:1px solid rgba(236,229,212,.12);
+  background:#16130f;border-top:1px solid rgba(236,229,212,.12);border-image:linear-gradient(90deg,transparent 0,rgba(236,229,212,.12) var(--fa),rgba(236,229,212,.12) var(--fb),transparent 100%) 1;
   transition:transform .3s ease;will-change:transform}
 /* Уголок-назад/лупа (round «nav-tabs», решение Андрея) — тонкие SVG-иконки
    без заливки (currentColor), по бокам общего меню книги; вкладки между
@@ -399,7 +400,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   --cream:236,229,212; --bar:#16130f; --rbar-accent:#d9a991;
   --rbar-ink:rgba(var(--cream),.94); --rbar-soft:rgba(var(--cream),.64);
   background:var(--bar);
-  border-bottom:1px solid rgba(var(--cream),.12);
+  border-bottom:1px solid rgba(var(--cream),.12);border-image:linear-gradient(90deg,transparent 0,rgba(var(--cream),.12) var(--fa),rgba(var(--cream),.12) var(--fb),transparent 100%) 1;
   /* margin-bottom убран этим раундом (был 26px, задание пункт 2 — см.
      комментарий у .ic-wrap в начале файла): отступ до контента теперь
      только padding-top .ic-wrap, одинаковый что со строкой раздела, что
@@ -798,7 +799,7 @@ button.ic-rb-sheet-close:active{transform:scale(.95)}
    светлые .ic-toc-part* (app.css выше) — те остаются как есть везде, где
    используются ВНЕ шторки (страница «О книге»). */
 .ic-rb-sheet-panel .ic-toc-part h3{color:rgba(236,229,212,.6);border-bottom:0}
-.ic-rb-sheet-panel .ic-toc-part a{color:rgba(236,229,212,.92);border-bottom:1px solid rgba(236,229,212,.12)}
+.ic-rb-sheet-panel .ic-toc-part a{color:rgba(236,229,212,.92);border-bottom:1px solid rgba(236,229,212,.12);border-image:linear-gradient(90deg,transparent 0,rgba(236,229,212,.12) var(--fa),rgba(236,229,212,.12) var(--fb),transparent 100%) 1}
 .ic-rb-sheet-panel .ic-toc-part a.ic-ch-off{opacity:.45}
 /* Текущая глава — «вариант 3» (задание пункт 1/4), БЕЗ красной черты слева/
    курсива/стрелки «›» прежних раундов. Выше по специфичности, чем общее
@@ -866,9 +867,9 @@ button.ic-rb-sheet-close:active{transform:scale(.95)}
 .ic-crop-verified{margin-top:6px;font-size:.78em;font-weight:600;color:#2f6b3a;display:inline-block;padding:3px 8px;border:1px solid #2f6b3a;border-radius:4px;background:rgba(47,107,58,.08)}
 
 .ic-sec{margin-top:34px}
-.ic-sec h3{font-size:.85em;font-weight:600;color:var(--accent);padding-bottom:6px;border-bottom:1px solid var(--rule);margin-bottom:12px}
+.ic-sec h3{font-size:.85em;font-weight:600;color:var(--accent);padding-bottom:6px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1;margin-bottom:12px}
 .ic-attrs{list-style:none}
-.ic-attrs li{display:grid;grid-template-columns:minmax(7em,34%) 1fr;gap:14px;padding:9px 0;border-bottom:1px solid var(--rule)}
+.ic-attrs li{display:grid;grid-template-columns:minmax(7em,34%) 1fr;gap:14px;padding:9px 0;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 .ic-attrs b{font-weight:600}
 .ic-attrs span{color:var(--ink)}
 .ic-text{max-width:36em}
@@ -878,7 +879,7 @@ button.ic-rb-sheet-close:active{transform:scale(.95)}
 .ic-text p.ic-verse+p.ic-verse{margin-top:0}
 .ic-text h3.ic-subhead{font-family:Georgia,serif;font-style:italic;font-size:1.15em;margin:1.6em 0 .6em;color:var(--ink)}
 .ic-fr-text{font-family:var(--old);font-size:1.08em;line-height:1.55}
-.ic-details{margin-top:34px;border-top:1px solid var(--rule)}
+.ic-details{margin-top:34px;border-top:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 .ic-details summary{cursor:pointer;padding:14px 0;font-size:.9em;font-weight:600;color:var(--accent);list-style:none}
 .ic-details summary::-webkit-details-marker{display:none}
 .ic-details summary::before{content:"+ "}
@@ -931,8 +932,8 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
 /* главная библиотеки: компактные строки */
 .ic-lib .ic-lib-sub{margin:0}
 ul.ic-lib-list{list-style:none;margin:20px 0 0;padding:0}
-li.ic-lib-row{display:flex;align-items:flex-start;gap:16px;padding:14px 0;min-height:44px;border-bottom:1px solid var(--rule);cursor:pointer;-webkit-tap-highlight-color:transparent}
-ul.ic-lib-list > li.ic-lib-row:first-child{border-top:1px solid var(--rule)}
+li.ic-lib-row{display:flex;align-items:flex-start;gap:16px;padding:14px 0;min-height:44px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1;cursor:pointer;-webkit-tap-highlight-color:transparent}
+ul.ic-lib-list > li.ic-lib-row:first-child{border-top:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 .ic-lib-thumb{flex:0 0 84px;width:84px;display:flex;justify-content:center}
 .ic-lib-thumb img{display:block;width:84px;max-height:110px;height:auto;object-fit:contain;filter:drop-shadow(0 4px 7px rgba(70,46,20,.38))}
 .ic-lib-txt{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:3px}
@@ -1080,10 +1081,10 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
   display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .ic-toc-body{flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;position:relative;padding:8px 22px calc(28px + env(safe-area-inset-bottom))}
 .ic-toc-part{margin-top:20px}
-.ic-toc-part h3{font-size:.72em;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);padding-bottom:6px;border-bottom:1px solid var(--rule);margin-bottom:4px}
+.ic-toc-part h3{font-size:.72em;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);padding-bottom:6px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1;margin-bottom:4px}
 .ic-toc-part ol{list-style:none}
 .ic-toc-part li{padding:0}
-.ic-toc-part a{display:block;padding:9px 0;color:var(--ink);line-height:1.35;font-size:.92em;border-bottom:1px solid rgba(28,24,19,.06);transition:color .2s}
+.ic-toc-part a{display:block;padding:9px 0;color:var(--ink);line-height:1.35;font-size:.92em;border-bottom:1px solid rgba(28,24,19,.06);border-image:linear-gradient(90deg,transparent 0,rgba(28,24,19,.06) var(--fa),rgba(28,24,19,.06) var(--fb),transparent 100%) 1;transition:color .2s}
 .ic-toc-part a[aria-current]{color:var(--accent);font-style:italic}
 .ic-toc-part a[aria-current]::before{content:"› ";}
 .ic-toc-part a.ic-ch-off{opacity:.5}
@@ -1289,7 +1290,7 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 .ic .ic-pc-read{display:inline-block;margin-top:20px;padding:12px 24px;border:1px solid var(--accent);border-radius:3px;background:var(--sheet);color:var(--accent);
   font-size:.95em;letter-spacing:.02em;box-shadow:0 14px 30px -22px rgba(70,46,20,.5);transition:background-color .2s,color .2s}
 .ic .ic-pc-read:hover{background:var(--accent);color:var(--paper)}
-.ic-pc-expl{margin-top:26px;padding-top:16px;border-top:1px solid var(--rule)}
+.ic-pc-expl{margin-top:26px;padding-top:16px;border-top:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 .ic .ic-pc-expl-h{margin:0 0 10px;font-family:var(--old);font-weight:400;font-size:1.25em;line-height:1.2}
 .ic-pc-expl-body{font-size:.95em;line-height:1.6}
 .ic-pc-expl-body p,.ic-text.ic-pc-expl-body p.ic-ch-lines{text-indent:0;text-align:left;text-align-last:left;margin:0 0 .75em}
@@ -1297,7 +1298,7 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 /* Ряд из трёх равных пилюль «Предыдущая / Все гравюры / Следующая» —
    book-structure.html, .row2/.row2 a — заменяет прежний двуячеечный пейджер
    с заголовками соседних гравюр (задание этого раунда, пункт 1). */
-.ic-pc-pager{display:flex;gap:8px;margin-top:34px;padding-top:16px;border-top:1px solid var(--rule)}
+.ic-pc-pager{display:flex;gap:8px;margin-top:34px;padding-top:16px;border-top:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 /* white-space:normal (не nowrap+ellipsis) — короткие подписи («Все
    гравюры»/«Следующая») на узких экранах (3 равные пилюли на 390px) иначе
    обрезались бы многоточием почти всегда — в 2 строки они читаются лучше,
@@ -1386,8 +1387,8 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic-tv-typerow[aria-pressed="true"] .ic-tv-typecount{color:rgb(236,229,212)}
 @media (hover:hover){.ic-tv-typerow:not([aria-pressed="true"]):hover{background:rgba(236,229,212,.08)}}
 .ic-tv-sec{scroll-margin-top:120px}
-.ic-tv-sec h2{font-family:var(--old);font-size:var(--ic-sec-fs);font-weight:500;line-height:1;color:var(--accent);margin:30px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
-.ic-tv-e{padding:var(--ic-li-py) 0 calc(var(--ic-li-py) - 1px);border-bottom:1px solid var(--rule)}
+.ic-tv-sec h2{font-family:var(--old);font-size:var(--ic-sec-fs);font-weight:500;line-height:1;color:var(--accent);margin:30px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
+.ic-tv-e{padding:var(--ic-li-py) 0 calc(var(--ic-li-py) - 1px);border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 .ic-tv-sub{font-size:1em;line-height:inherit;color:inherit;padding:5px 0 5px 1.4em;border-bottom:1px dotted var(--rule)}
 .ic-tv-ru{font-size:var(--ic-li-fs);line-height:1.4;color:var(--ink)}
 .ic-tv-it{font-size:var(--ic-li-sub-fs);font-style:italic;color:var(--soft);letter-spacing:.01em;white-space:normal}
@@ -1529,12 +1530,12 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 @media (prefers-reduced-motion:reduce){.ic-ch-mark{transition:none}}
 
 /* имена (#/<slug>/names) */
-.ic-nm-row{display:flex;align-items:baseline;justify-content:space-between;gap:6px 14px;padding:9px 0 8px;border-bottom:1px solid var(--rule);color:var(--ink)}
+.ic-nm-row{display:flex;align-items:baseline;justify-content:space-between;gap:6px 14px;padding:9px 0 8px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1;color:var(--ink)}
 .ic-nm-row .ic-tv-l{min-width:0}
 .ic-nm-meta{display:flex;align-items:baseline;gap:10px;flex:none;font-size:.8em;color:var(--soft)}
 .ic-nm-n{min-width:1.9em;padding:0 .4em;text-align:center;border:1px solid var(--rule);border-radius:3px;line-height:1.6;color:var(--accent);background:var(--sheet)}
 .ic-nm-it{margin-top:6px;font-style:italic;color:var(--soft);font-size:.95em}
-.ic-nm-h{font-family:var(--old);font-size:1.5em;font-weight:500;color:var(--accent);margin:30px 0 4px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.ic-nm-h{font-family:var(--old);font-size:1.5em;font-weight:500;color:var(--accent);margin:30px 0 4px;padding-bottom:6px;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 .ic-nm-ch h3{font-size:1.02em;font-weight:500;margin:22px 0 4px;color:var(--ink)}
 .ic-nm-chn{font-size:.8em;color:var(--soft);font-weight:400;margin-left:.4em}
 .ic-nm-ms{list-style:none;padding:0;margin:0}
@@ -1585,7 +1586,7 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic-sv-it .ic-sv-foot{font-size:.8em;color:var(--soft);white-space:pre-wrap;text-align:right}
 .ic-sv-it .ic-sv-ed{font-size:.85em;color:var(--soft);font-family:Georgia,serif}
 .ic-sv-it .ic-sv-none{color:var(--soft);font-style:italic}
-.ic-ch-itp{padding:0 0 12px;margin:0 0 22px;max-width:none;border-bottom:1px solid var(--rule)}
+.ic-ch-itp{padding:0 0 12px;margin:0 0 22px;max-width:none;border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1}
 .ic-ch-itp-h{margin:0 0 .5em;font-size:.8em;letter-spacing:.06em;text-transform:uppercase;color:var(--soft);font-weight:400}
 .ic-sv-full .ic-sv-bar{gap:0 8px;padding:6px 10px 4px 6px}
 .ic-sv-full .ic-sv-pager{flex:1}
@@ -1705,7 +1706,7 @@ html.ic-hs-lock{overflow:hidden !important}
 /* список статей: типографика и отступы — как у указателя Картари (переменные --ic-li-*) */
 .ic .ic-rp .ic-rp-sec ul{list-style:none;margin:0;padding:0}
 .ic .ic-rp li.ic-row-item{display:flex;align-items:baseline;justify-content:space-between;gap:14px;min-height:44px;box-sizing:border-box;
-  padding:var(--ic-li-py) 0 calc(var(--ic-li-py) - 1px);border-bottom:1px solid var(--rule);cursor:pointer}
+  padding:var(--ic-li-py) 0 calc(var(--ic-li-py) - 1px);border-bottom:1px solid var(--rule);border-image:linear-gradient(90deg,transparent 0,var(--rule) var(--fa),var(--rule) var(--fb),transparent 100%) 1;cursor:pointer}
 .ic-rp-t{min-width:0}
 .ic-rp-t .ic-tv-it{display:inline}
 .ic-rp-pg{flex:none;min-width:2.2em;text-align:right;font-family:var(--old);font-size:calc(var(--ic-li-fs) * 1.04);line-height:1.2;color:var(--accent);font-variant-numeric:oldstyle-nums}
@@ -1878,12 +1879,12 @@ html.ic-hs-lock{overflow:hidden !important}
   font:inherit;font-size:15px;line-height:1.2;color:rgba(236,229,212,.92);cursor:pointer;-webkit-appearance:none;appearance:none}
 .ic .ic-rb-sheet-panel .ic-sr .ic-sr-nav b{margin-left:.4em;color:rgba(236,229,212,.6)}
 /* заголовки групп — единственное место с заглавными и разрядкой */
-.ic .ic-rb-sheet-panel .ic-sr .ic-nm-h{margin:24px 0 0;padding:0 0 6px;border-bottom:1px solid rgba(236,229,212,.12);
+.ic .ic-rb-sheet-panel .ic-sr .ic-nm-h{margin:24px 0 0;padding:0 0 6px;border-bottom:1px solid rgba(236,229,212,.12);border-image:linear-gradient(90deg,transparent 0,rgba(236,229,212,.12) var(--fa),rgba(236,229,212,.12) var(--fb),transparent 100%) 1;
   font-family:inherit;font-size:13px;line-height:1.3;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:rgba(236,229,212,.6)}
 .ic .ic-rb-sheet-panel .ic-sr .ic-nm-h .ic-nm-chn{margin-left:.6em;font-size:13px;letter-spacing:0;color:rgba(236,229,212,.6)}
 /* строка результата */
 .ic .ic-rb-sheet-panel .ic-sr .ic-sr-ul{list-style:none;margin:0;padding:0}
-.ic .ic-rb-sheet-panel .ic-sr .ic-sr-ul li{padding:12px 0;margin:0;border-bottom:1px solid rgba(236,229,212,.12)}
+.ic .ic-rb-sheet-panel .ic-sr .ic-sr-ul li{padding:12px 0;margin:0;border-bottom:1px solid rgba(236,229,212,.12);border-image:linear-gradient(90deg,transparent 0,rgba(236,229,212,.12) var(--fa),rgba(236,229,212,.12) var(--fb),transparent 100%) 1}
 .ic .ic-rb-sheet-panel .ic-sr .ic-sr-meta{display:block;margin:0 0 3px;font-size:13px;line-height:1.3;color:rgba(236,229,212,.6)}
 .ic .ic-rb-sheet-panel .ic-sr .ic-sr-t{display:block;font-size:17px;line-height:1.35;color:rgba(236,229,212,.92)}
 .ic .ic-rb-sheet-panel .ic-sr .ic-sr-snip{display:block;margin:0;font-size:15px;line-height:1.4;color:rgba(236,229,212,.92);overflow-wrap:break-word}
@@ -1899,14 +1900,14 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-rb-sheet-panel .ic-sr .ic-sr-th img{display:block;position:absolute;left:0;top:0;width:100%;height:100%;max-width:none;object-fit:contain}
 .ic .ic-rb-sheet-panel .ic-sr .ic-sr-pb{display:block;min-width:0;flex:1 1 auto}
 /* Картари, «Имена» (как строка списка имён) и «Указатель» */
-.ic .ic-rb-sheet-panel .ic-sr a.ic-nm-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid rgba(236,229,212,.12)}
+.ic .ic-rb-sheet-panel .ic-sr a.ic-nm-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid rgba(236,229,212,.12);border-image:linear-gradient(90deg,transparent 0,rgba(236,229,212,.12) var(--fa),rgba(236,229,212,.12) var(--fb),transparent 100%) 1}
 .ic .ic-rb-sheet-panel .ic-sr .ic-tv-l{display:block;min-width:0;flex:1 1 auto;font-size:17px;line-height:1.35}
 .ic .ic-rb-sheet-panel .ic-sr .ic-tv-ru{font-size:17px;color:rgba(236,229,212,.92)}
 .ic .ic-rb-sheet-panel .ic-sr .ic-tv-it{font-size:15px;color:rgba(236,229,212,.6)}
 .ic .ic-rb-sheet-panel .ic-sr .ic-hf{display:block;margin-top:2px;font-size:13px;line-height:1.3;color:rgba(236,229,212,.6)}
 .ic .ic-rb-sheet-panel .ic-sr .ic-nm-meta{display:flex;flex:none;align-items:baseline;gap:10px;font-size:15px;color:rgba(236,229,212,.6)}
 .ic .ic-rb-sheet-panel .ic-sr .ic-nm-type,.ic .ic-rb-sheet-panel .ic-sr .ic-nm-n{padding:0;background:none;font-size:15px;color:rgba(236,229,212,.6)}
-.ic .ic-rb-sheet-panel .ic-sr .ic-tv-e{padding:12px 0;border-bottom:1px solid rgba(236,229,212,.12)}
+.ic .ic-rb-sheet-panel .ic-sr .ic-tv-e{padding:12px 0;border-bottom:1px solid rgba(236,229,212,.12);border-image:linear-gradient(90deg,transparent 0,rgba(236,229,212,.12) var(--fa),rgba(236,229,212,.12) var(--fb),transparent 100%) 1}
 .ic .ic-rb-sheet-panel .ic-sr .ic-tv-sub{margin:8px 0 0;padding:0 0 0 18px}
 .ic .ic-rb-sheet-panel .ic-sr .ic-tv-pg{display:block;margin-top:3px;font-family:inherit;font-size:15px;line-height:1.4;color:rgba(236,229,212,.6)}
 .ic .ic-rb-sheet-panel .ic-sr .ic-tv-pg a{display:inline;padding:0;font-family:inherit;font-size:15px;color:rgba(236,229,212,.92);text-decoration:underline;text-decoration-color:rgba(236,229,212,.4);text-underline-offset:2px}
@@ -1981,10 +1982,16 @@ html.ic-hs-lock{overflow:hidden !important}
 /* нажатие: без изменения размера и формы — половина чуть светлеет заливкой */
 .ic .ic-mot-cap a:active{background:rgba(236,229,212,.07)!important;transform:none!important}
 .ic .ic-mot-cap a.on:active{background:rgba(236,229,212,.09)!important;transform:none!important}
-/* призраки плавного перехода «Книги ⇄ Мотивы» */
-.ic .ic-mot-ghost{position:fixed;overflow:hidden;z-index:8;pointer-events:none;will-change:opacity,filter}
-.ic .ic-mot-gin{position:absolute;left:0;top:0;width:100%;height:100%;will-change:transform}
-.ic .ic-mot-gbg{position:fixed;z-index:7;will-change:opacity;pointer-events:none;box-sizing:border-box;background:#16130f;border-bottom:1px solid rgba(236,229,212,.12)}
+/* призраки плавного перехода «Книги ⇄ Мотивы»: только растворение (opacity) */
+.ic .ic-mot-ghost{position:fixed;overflow:hidden;z-index:8;pointer-events:none;will-change:opacity}
+.ic .ic-mot-gin{position:absolute;left:0;top:0;width:100%;height:100%}
+/* строка разделов «Мотивов»: выезжает вниз из-под переключателя в обрезающем контейнере; линия над ней (затухает к краям) и мягкая тень под ней */
+.ic .ic-mot-rwrap{position:relative}
+.ic .ic-mot-rclip{overflow:hidden}
+.ic .ic-mot-hr{position:absolute;left:0;right:0;top:0;height:1px;z-index:3;pointer-events:none;
+  background:linear-gradient(90deg,transparent 0,rgba(236,229,212,.2) var(--fa),rgba(236,229,212,.2) var(--fb),transparent 100%)}
+.ic .ic-mot-sh{position:absolute;left:0;right:0;top:100%;height:24px;z-index:3;pointer-events:none;
+  background:linear-gradient(180deg,rgba(0,0,0,.22) 0,rgba(0,0,0,.12) 35%,rgba(0,0,0,.04) 70%,rgba(0,0,0,0) 100%)}
 /* тёмная строка вкладок разделов / «назад + лупа» */
 .ic-rbar .ic-mot-bar{display:flex;align-items:center;gap:6px;max-width:1120px;margin:0 auto;min-height:38px}
 .ic-mot-tabs{flex:1 1 auto;min-width:0;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
@@ -2039,3 +2046,7 @@ html.ic-hs-lock{overflow:hidden !important}
   background:rgba(28,24,19,.06);box-shadow:inset 0 0 0 1px rgba(28,24,19,.16);color:var(--ink);font-size:.86em;line-height:1.2}
 .ic .ic-mot-tag:active{background:rgba(28,24,19,.16)}
 .ic .ic-mot-findin,.ic .ic-mot-findin:focus,.ic .ic-mot-findin:focus-visible{color:rgb(236,229,212);-webkit-text-fill-color:rgb(236,229,212);outline:none;background:rgba(236,229,212,.06)}
+
+/* Линия-разделитель с затуханием к обоим краям (общее правило сайта). Для новых разделителей: класс .ic-fade-rule (цвет — --fc, по умолчанию --rule);
+   у существующих разделителей то же самое прописано их border-image с --fa/--fb. Толщина 1px, отступы и положение элементов не меняются. */
+.ic .ic-fade-rule{border-bottom:1px solid var(--fc,var(--rule));border-image:linear-gradient(90deg,transparent 0,var(--fc,var(--rule)) var(--fa),var(--fc,var(--rule)) var(--fb),transparent 100%) 1}

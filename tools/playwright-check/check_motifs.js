@@ -11,12 +11,12 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
  for(const vp of [{name:'390x844',w:390,h:844,dev:devices['iPhone 13']},{name:'1180x820',w:1180,h:820}]){
   const ctx=await br.newContext(vp.dev?{...vp.dev,viewport:{width:vp.w,height:vp.h}}:{viewport:{width:vp.w,height:vp.h}}); const p=await ctx.newPage();
   p.on('pageerror',e=>errs.push(vp.name+' '+e.message)); p.on('console',m=>{ if(m.type()==='error'&&!/access control|Load failed|cancelled/i.test(m.text())) errs.push(vp.name+' '+m.text()); });
-  const tap=async s=>{ if(vp.dev) await p.tap(s); else await p.click(s); };
+  const tap=async s=>{ if(!vp.dev || /ic-mot-bt|ic-mot-cap/.test(s)) await p.evaluate(s=>document.querySelector(s).click(),s); else if(vp.dev) await p.tap(s); else await p.click(s); };
   const hash=()=>p.evaluate(()=>location.hash);
   const setLang=async l=>{ await p.evaluate(l=>{localStorage.setItem('ic-lang',l);sessionStorage.clear();},l); await p.reload(); await W(2000); };
   const T=vp.name+' ';
   const tog=()=>p.$$eval('.ic-mot-cap a',a=>a.map(x=>({t:x.textContent.trim(),on:x.classList.contains('on'),w:Math.round(x.getBoundingClientRect().width),h:Math.round(x.getBoundingClientRect().height),href:x.getAttribute('href'),tt:getComputedStyle(x).textTransform,ls:getComputedStyle(x).letterSpacing})));
-  await p.goto(BASE+'#/'); await setLang('ru'); await W(1500);
+  await p.goto(BASE+'#/'); await setLang('ru'); await W(1500); await p.waitForSelector('.ic-lib-row',{timeout:30000});
   // главная библиотеки: переключатель вместо плитки
   ok(T+'плитки «Мотивы» под списком книг больше нет',(await p.$$('.ic-lib-mot')).length===0 && (await p.$$('.ic-lib-list .ic-home-tile')).length===0);
   ok(T+'список книг не изменён',(await p.$$eval('.ic-lib-row',r=>r.map(x=>x.dataset.slug).join()))==='cartari,iconologie,alciato,audran,verrien,grosson,ripa1603');

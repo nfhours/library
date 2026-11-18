@@ -1,8 +1,8 @@
 /* Снимок/сравнение горизонтальной геометрии (x, ширина) всех элементов на страницах с полосами шапки.
  * node rect_diff.js save out/rects-before.json   |   node rect_diff.js diff out/rects-before.json  (BASE=...) */
 const { webkit } = require('playwright'); const fs=require('fs'); const BASE=process.env.BASE||'http://localhost:8975/index.html'; const W=ms=>new Promise(r=>setTimeout(r,ms));
-const PAGES=['#/alciato/alc15','#/iconologie/p1-1','#/iconologie/list','#/iconologie/plates','#/audran/plates','#/cartari/text','#/cartari/plates','#/cartari/index','#/cartari/names',process.env.CH||'#/cartari/text'];
-const SIZES=[[1180,820],[1366,1024],[820,1180],[390,844]];
+const PAGES=process.env.PAGES?process.env.PAGES.split(','):['#/alciato/alc15','#/iconologie/p1-1','#/iconologie/list','#/iconologie/plates','#/audran/plates','#/cartari/text','#/cartari/plates','#/cartari/index','#/cartari/names',process.env.CH||'#/cartari/text'];
+const SIZES=process.env.SIZES?process.env.SIZES.split(',').map(x=>x.split('x').map(Number)):[[1180,820],[1366,1024],[820,1180],[390,844]];
 (async()=>{ const [mode,file]=process.argv.slice(2); const br=await webkit.launch(); const out={};
  for(const [w,h] of SIZES){ const p=await (await br.newContext({viewport:{width:w,height:h}})).newPage();
   for(const pg of PAGES){ await p.goto(BASE+pg); await W(2200);
