@@ -67,9 +67,9 @@
 .ic-ch-outer{max-width:none}
 .ic-ch-outer > .ic-rbar{margin-left:-20px;margin-right:-20px;padding-left:max(calc(30px + env(safe-area-inset-left)),calc((100% - 1020px) / 2));padding-right:max(calc(30px + env(safe-area-inset-right)),calc((100% - 1020px) / 2))}
 .ic-ch-outer .ic-rb-sheet{left:max(20px,calc((100% - 1080px) / 2));right:max(20px,calc((100% - 1080px) / 2))}
-.ic-stack-flow .ic-ch-outer > .ic-rbar{margin-left:0;margin-right:0;padding-left:max(calc(30px + env(safe-area-inset-left)),calc((100% - 1060px) / 2));padding-right:max(calc(30px + env(safe-area-inset-right)),calc((100% - 1060px) / 2))}   /* страница эмблемы: .ic-ch-outer — display:contents, ширина = экран */
+.ic-ch-outer-bar > .ic-rbar{margin-left:0;margin-right:0;padding-left:max(calc(30px + env(safe-area-inset-left)),calc((100% - 1060px) / 2));padding-right:max(calc(30px + env(safe-area-inset-right)),calc((100% - 1060px) / 2))}   /* .ic-ch-outer-bar — display:contents, ширина = экран */
 @media (max-width:620px), (max-height:500px) and (orientation:landscape){
-  .ic-stack-flow .ic-ch-outer > .ic-rbar{padding-left:calc(10px + env(safe-area-inset-left));padding-right:calc(10px + env(safe-area-inset-right))}
+  .ic-ch-outer-bar > .ic-rbar{padding-left:calc(10px + env(safe-area-inset-left));padding-right:calc(10px + env(safe-area-inset-right))}
   .ic-ch-outer > .ic-rbar{margin-left:0;margin-right:0;padding-left:calc(10px + env(safe-area-inset-left));padding-right:calc(10px + env(safe-area-inset-right))}
   .ic-ch-outer .ic-rb-sheet{left:0;right:0}
 }
@@ -330,10 +330,9 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    underline-индикатор снизу убран везде на сайте в пользу одной и той же
    плашки (скругление 8px, фон/рамка/текст — rgba(236,229,212,*)); здесь —
    кнопки высотой 36px, 4px между ними, padding на самой полосе тоже 4px. */
-.ic-booktabs{position:sticky;top:var(--top);z-index:9;display:flex;gap:4px;
+.ic-booktabs{position:relative;z-index:9;display:flex;gap:4px;
   padding:4px;box-sizing:border-box;
-  background:#16130f;border-top:1px solid rgba(236,229,212,.12);
-  transition:transform .3s ease;will-change:transform}
+  background:#16130f;border-top:1px solid rgba(236,229,212,.12)}   /* обычная часть страницы: уезжает нативной прокруткой */
 /* Уголок-назад/лупа (round «nav-tabs», решение Андрея) — тонкие SVG-иконки
    без заливки (currentColor), по бокам общего меню книги; вкладки между
    ними — в своей обёртке .ic-bt-tabs (а не прямые дети .ic-booktabs, как
@@ -365,15 +364,6 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-booktabs a.on{color:rgb(236,229,212);background:rgba(236,229,212,.14);
   box-shadow:inset 0 0 0 1px rgba(236,229,212,.28)}
 .ic-booktabs a:active{transform:scale(.95)}
-/* -100% одной только высоты .ic-booktabs не уводит её с экрана целиком: она
-   sticky на top:var(--top), т.е. уже сдвинута вниз на высоту .back-bar —
-   чтобы её верх после скрытия ушёл выше y=0 (а не просто чуть выше своей
-   исходной позиции, оставаясь видимой), транзишен должен компенсировать и
-   ЭТУ высоту тоже — тот же приём, что уже решён для .ic-rbar.ic-rbar-hidden
-   выше (calc(-100% - var(--top))), найден независимой проверкой на этом
-   раунде: без компенсации после "скрытия" .ic-booktabs оставалась видна
-   почти целиком (верх на +8px вместо ухода за экран). */
-.ic-booktabs.ic-bb-hidden{transform:translateY(calc(-100% - var(--top)))}
 @media (max-height:500px) and (orientation:landscape){
   .ic-booktabs a{padding:8px 6px 7px;font-size:10px}
 }
@@ -395,7 +385,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    капсула была на тон светлее, #211d18, заметно на iPhone; отделяется от
    шапки+вкладок только своей рамкой/разделителями ячеек, не фоном). Текст
    светлый (--cream), капителью. */
-.ic-rbar{position:sticky;top:var(--top2, 96px);z-index:5;
+.ic-rbar{position:sticky;top:env(safe-area-inset-top, 0px);z-index:5;
   --cream:236,229,212; --bar:#16130f; --rbar-accent:#d9a991;
   --rbar-ink:rgba(var(--cream),.94); --rbar-soft:rgba(var(--cream),.64);
   background:var(--bar);
@@ -405,19 +395,9 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
      только padding-top .ic-wrap, одинаковый что со строкой раздела, что
      без неё. */
   margin:0;
-  padding:7px calc(10px + env(safe-area-inset-right)) 7px calc(10px + env(safe-area-inset-left));
-  will-change:transform;
-  transition:top .3s ease}
-/* .ic-rbar-snap (этот раунд, задание пункт 1) — читалка главы (НЕ .ic-rbar-tv,
-   тот не трогаем): когда шапка+меню книги прячутся прокруткой
-   (installScrollHide/setHidden, app.js), строка раздела перестаёт стоять на
-   var(--top2) и сама садится вплотную к верху экрана (+safe-area), без щели
-   над собой — остаётся position:sticky (не fixed), поэтому естественно
-   уходит вниз вместе со страницей и возвращается на var(--top2), когда шапка
-   снова показывается. transition:top (на базовом правиле выше) — та же
-   длительность .3s ease, что у transform шапки/.ic-booktabs, чтобы оба
-   движения читались одним целым. */
-.ic-rbar.ic-rbar-snap{top:env(safe-area-inset-top, 0px)}
+  padding:7px calc(10px + env(safe-area-inset-right)) 7px calc(10px + env(safe-area-inset-left))}
+/* тёмная подложка цвета шапки над строкой раздела: при отскоке и смене панелей Safari сверху не просвечивает бумага */
+.ic-rbar::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:120px;background:var(--bar);pointer-events:none}
 /* .ic-rbar-tv (указатель/«Имена», app.js renderTavola/renderNames) — этим
    раундом (задание: «строка раздела должна вести себя как в главе») БОЛЬШЕ
    НЕ отдельная position:fixed капсула со своим компенсирующим отступом —
@@ -1456,20 +1436,6 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
        index.html/выше) — столбик уже был position:fixed с прошлого раунда,
        но без явного слоя композиции; пользователь просит дать его и ему. */
     transform:translateZ(0);will-change:transform;backface-visibility:hidden}
-  /* .ic-az-rail-snap (этот раунд, задание пункт 2) — столбик букв сидит
-     СРАЗУ под строкой раздела в её прилипшем (к top:0) положении, как и в
-     главе, а не в фиксированной точке, рассчитанной на всегда видимую
-     шапку. Остаётся position:fixed (не sticky — именно sticky при частых
-     программных scrollTo раньше давало вспышку, см. комментарий у
-     .ic-rbar-tv выше), просто top переключается между ДВУМЯ заранее
-     посчитанными значениями (--az-top/--az-top-snap, оба пишет
-     syncAzRailBounds за один раз, не на каждый кадр скролла) по тому же
-     классу .ic-az-rail-snap, что installScrollHide/setHidden (app.js)
-     вешает на капсулу и шапку+меню книги в ОДИН тик — порог срабатывания
-     редкий (переход через hideAt/showAt), а не на каждый пиксель прокрутки,
-     поэтому жест по самой полосе (частый scrollTo, см. wireAzRail) не
-     переключает этот класс чаще, чем сама шапка прячется/появляется. */
-  .ic-az-rail.ic-az-rail-snap{top:calc(env(safe-area-inset-top, 0px) + var(--az-top-snap, 56px))}
   /* Кнопки в покое приглушены (opacity:.55) — яркость до 1 только пока
      палец/курсор на полосе (.ic-az-rail-active, выставляется из app.js на
      onDragStart/onDragEnd у wireAzRail — тот же колбэк, что покрывает и
@@ -1597,21 +1563,11 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
    вверху, дети в обычном потоке. Прятание = translateY(−(шапка+вкладки)) ЭТОГО
    блока целиком одним transition: строка раздела приклеена к нижнему краю
    вкладок и оказывается у верха экрана (+safe-area) без отдельной логики. */
-.ic-stack{position:sticky;top:0;z-index:10;transition:transform .3s ease;will-change:transform}
-.ic-stack.ic-stack-hidden{transform:translateY(calc(env(safe-area-inset-top, 0px) - var(--ic-stack-hide, 0px)))}
-.ic-stack .back-bar{position:relative;top:auto;z-index:10;transition:height .2s ease}
-.ic-stack .ic-booktabs{position:relative;top:auto;transition:none;will-change:auto}
-.ic-stack .ic-rbar{position:relative;top:auto;transition:none;will-change:auto}
-/* Страница эмблемы Альчато (.ic-stack-flow): «Библиотека» и меню книги — обычный поток (уезжают и возвращаются только нативной прокруткой);
-   строка раздела — sticky top:0 всегда. Её тёмный фон продолжается вверх (::before выше строки), чтобы при отскоке и смене панелей Safari сверху не просвечивала бумага. */
-.ic-stack.ic-stack-flow,.ic-stack-flow .ic-ch-outer-bar{display:contents}
-.ic-stack-flow .ic-booktabs{position:relative;top:auto}
-.ic-stack-flow .ic-rbar{position:sticky;top:env(safe-area-inset-top, 0px);transition:none;will-change:auto}
-/* на страницах с ic-stack-flow следы старого скрытия не действуют: сам .ic-stack — не блок (display:contents), position/z-index/transform ему не нужны */
-.ic-stack.ic-stack-flow{position:static;z-index:auto;transform:none!important;will-change:auto;transition:none;opacity:1;visibility:visible}
-.ic-stack-flow .back-bar.ic-bb-hidden,.ic-stack-flow .ic-booktabs.ic-bb-hidden{transform:none!important}
-.ic-stack-flow .ic-rbar.ic-rbar-snap{top:env(safe-area-inset-top, 0px)}
-.ic-stack-flow .ic-rbar::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:120px;background:var(--bar);pointer-events:none}
+/* Схема «шапка уезжает нативно» — на всём сайте (HANDOFF, раздел 10): «Библиотека» (.back-bar) и меню книги (.ic-booktabs) — обычная часть страницы,
+   уезжают и возвращаются только нативной прокруткой; строка раздела (.ic-rbar) — sticky top:0. .ic-stack и обёртка строки раздела — не блоки
+   (display:contents), иначе sticky строки ограничен их высотой. */
+.ic-stack,.ic-ch-outer-bar{display:contents}
+.ic-stack .back-bar{position:relative;top:auto;z-index:10}
 /* Страницы со схемой «шапка уезжает нативно» (ic-flow-page на html, ставит flowSync() в app.js на всё время страницы, кроме ≈400 мс при повороте экрана):
    html и body — цвет шапки (при отскоке и смене панелей Safari сверху виден только он). Бумагу с фактурой (foxing.png + paper.jpg, правило .ic{}
    в начале файла) постоянно несёт сам корневой контейнер #iconologie (min-height:100dvh) — одинаково с классом и без него и с остальными страницами,
