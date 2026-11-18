@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "233";
+  var APP_VER = "234";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -412,7 +412,18 @@
   // <meta name="theme-color"> цвета шапки (#16130f); при уходе возвращается прежнее значение (тега не было — убирается).
   var flowTheme = null;
   // flowOn — включить схему «шапка уезжает нативно» на только что отрисованной странице: .ic-stack-flow на #ic-stack + flowPage(true).
-  function flowOn(){ var st = document.getElementById("ic-stack"); if(st) st.classList.add("ic-stack-flow"); flowPage(true); }
+  // flowClean — снять любые следы старой логики скрытия (installBookHide/installScrollHide): классы ic-stack-hidden / ic-bb-hidden /
+  // ic-rbar-snap / ic-az-rail-snap и инлайновые transform/opacity/visibility/transition/--ic-stack-hide у шапки, меню книги, строки раздела.
+  // .back-bar живёт вне root и переживает смену страниц, поэтому чистим и её; вызывается из route() (любой переход) и из flowOn().
+  function flowClean(){
+    ["ic-stack","ic-booktabs","ic-rbar"].forEach(function(id){ var e = document.getElementById(id); if(!e) return;
+      e.classList.remove("ic-stack-hidden", "ic-bb-hidden", "ic-rbar-snap");
+      ["transform","opacity","visibility","transition"].forEach(function(k){ e.style.removeProperty(k); }); e.style.removeProperty("--ic-stack-hide"); });
+    var bb = document.querySelector(".back-bar");
+    if(bb){ bb.classList.remove("ic-bb-hidden"); ["transform","opacity","visibility"].forEach(function(k){ bb.style.removeProperty(k); }); }
+    var rail = document.querySelector(".ic-az-rail"); if(rail) rail.classList.remove("ic-az-rail-snap");
+  }
+  function flowOn(){ flowClean(); var st = document.getElementById("ic-stack"); if(st) st.classList.add("ic-stack-flow"); flowPage(true); }
   function flowPage(on){
     var h = document.documentElement; h.classList.toggle("ic-flow-page", !!on);
     var m = document.querySelector('meta[name="theme-color"]');
@@ -1079,7 +1090,8 @@
   function route(){
     ensureManual();
     renderGen++;
-    flowPage(false);   // тёмные html/body и theme-color шапки — только на странице эмблемы Альчато (renderCard)
+    flowPage(false);   // тёмные html/body и theme-color шапки — только на страницах со схемой «шапка уезжает нативно»
+    flowClean();       // старая логика скрытия не оставляет следов на новой странице (.back-bar переживает смену страниц)
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
@@ -1766,10 +1778,11 @@
       ["touchstart","wheel","keydown","pointerdown"].forEach(function(n){ window.removeEventListener(n, onUser, true); });
     }
     ["touchstart","wheel","keydown","pointerdown"].forEach(function(n){ window.addEventListener(n, onUser, {capture:true, passive:true}); });
+    var myStack = document.getElementById("ic-stack");   // скрытие касается только той шапки, что была при установке (не шапки новой страницы)
     function setHidden(v){
-      var st = document.getElementById("ic-stack");
+      var st = myStack;
       cur = v;
-      if(!st) return;
+      if(!st || !st.parentNode || st.classList.contains("ic-stack-flow")) return;
       if(v){
         var bb = st.querySelector(".back-bar"), bt = document.getElementById("ic-booktabs");
         st.style.setProperty("--ic-stack-hide", ((bb ? bb.offsetHeight : 0) + (bt ? bt.offsetHeight : 0))+"px");
