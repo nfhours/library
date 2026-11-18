@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "236";
+  var APP_VER = "237";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -409,15 +409,16 @@
   // moved the counter on.
   var renderGen = 0;
   var flowTheme = null, flowActive = false, flowHold = false, flowW = window.innerWidth, flowTimer = 0, flowListen = false;
-  // Тёмный фон html/body (класс ic-flow-page) — только когда страница с этой схемой открыта, стоит у самого верха (scrollY ≤ 2, в т. ч. отрицательный
-  // при отскоке) и экран не поворачивается: прокрутка ниже и поворот (≈400 мс) возвращают бумажный фон, чтобы при перерисовке Safari не было тёмных пятен.
+  // Тёмный фон html/body (класс ic-flow-page) стоит ПОСТОЯННО, пока открыта страница с этой схемой: Safari 26 красит свою верхнюю панель в цвет
+  // фона html, и переключение по прокрутке заставляло панель мигать; при отскоке с разгона класс, поставленный позже, давал светлые кадры.
+  // Единственное исключение — поворот экрана (orientationchange, resize с изменением ширины; смена одной высоты не считается): на ≈400 мс
+  // фон снимается, чтобы при перерисовке Safari на iPad не было тёмных пятен, затем возвращается.
   function flowSync(){
-    var want = flowActive && !flowHold && window.scrollY <= 2, h = document.documentElement;
+    var want = flowActive && !flowHold, h = document.documentElement;
     if(h.classList.contains("ic-flow-page") !== want) h.classList.toggle("ic-flow-page", want);
   }
   function flowListeners(){
     if(flowListen) return; flowListen = true;
-    window.addEventListener("scroll", function(){ if(flowActive) flowSync(); }, {passive:true});   // переключение только при смене состояния (classList сравнивается в flowSync)
     function rot(){
       if(!flowActive){ flowW = window.innerWidth; return; }
       flowHold = true; flowSync(); clearTimeout(flowTimer);
