@@ -274,7 +274,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
    строка переопределяет первую там, где поддерживается) — так
    панель не вылезает за пределы видимой области под сворачивающейся
    адресной строкой Safari. */
-.ic-sheet{position:fixed;inset:0;z-index:99999}
+.ic-sheet{min-height:0;position:fixed;inset:0;z-index:99999}
 .ic-sheet-backdrop{position:absolute;inset:0;background:var(--paper)}
 .ic-sheet-panel{position:absolute;inset:0;
   height:100vh; height:100dvh;
@@ -1562,7 +1562,7 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic.ic-has-sv .ic-ch-aside{width:32%;margin:.2em 0 .5em 1.3em;font-size:.72em;padding-left:.6em}
 
 .ic-sv{z-index:99998;font-size:16px;line-height:1.45;display:flex;flex-direction:column;background:var(--sheet)}
-.ic-sv-panel{position:fixed;right:0;bottom:0;width:var(--pw);border-left:1px solid var(--rule);box-shadow:-10px 0 30px -24px rgba(40,28,14,.5)}
+.ic-sv-panel{min-height:0;position:fixed;right:0;bottom:0;width:var(--pw);border-left:1px solid var(--rule);box-shadow:-10px 0 30px -24px rgba(40,28,14,.5)}
 .ic-sv-full{position:fixed;inset:0;z-index:99999;overscroll-behavior:contain}
 .ic-sv-bar{flex:none;display:flex;align-items:center;gap:6px 14px;flex-wrap:wrap;padding:8px 12px;border-bottom:1px solid var(--rule);background:var(--paper)}
 .ic-sv-pager{display:flex;align-items:center;gap:2px;flex:none}
