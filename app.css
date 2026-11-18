@@ -1963,27 +1963,61 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-rp-alc .ic-alc-figs.ic-alc-fitfigs{width:min(100vw,560px);max-width:none;margin-left:calc((100% - min(100vw,560px))/2)}
 
 /* ---- Мотивы (#/motifs): поиск гравюр по изображённым предметам ---- */
-.ic .ic-lib-mot{margin-top:18px}
+/* переключатель «Книги | Мотивы» под строкой «Библиотека / RU EN FR» (на главной и на «Мотивах»): две кнопки по 118px по центру, выбранная — «вариант 3» */
+.ic-booktabs.ic-mot-bt{justify-content:center;padding:6px 4px}
+.ic .ic-mot-bt .ic-bt-tabs.ic-bt-tabs-fit{flex:0 0 auto;margin:0 auto;gap:6px;justify-content:center}
+.ic .ic-mot-bt .ic-bt-tabs a{flex:0 0 118px;width:118px;height:38px;padding:0;font-size:12px;letter-spacing:.12em}
+/* тёмная строка вкладок разделов / «назад + лупа» */
+.ic-rbar .ic-mot-bar{display:flex;align-items:center;gap:6px;max-width:1120px;margin:0 auto;min-height:38px}
+.ic-mot-tabs{flex:1 1 auto;min-width:0;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+.ic-mot-tabs::-webkit-scrollbar{display:none}
+.ic-rbar .ic-mot-bar button{flex:none;border:0;border-left:0;border-radius:8px;background:transparent;box-shadow:none;transform:none;display:flex;align-items:center;justify-content:center;position:relative}
+.ic-rbar .ic-mot-bar .ic-mot-tab{height:36px;padding:0 12px;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:rgba(var(--cream),.62)}
+.ic-rbar .ic-mot-bar .ic-mot-tab[aria-pressed="true"]{color:rgb(var(--cream));background:rgba(var(--cream),.14);box-shadow:inset 0 0 0 1px rgba(var(--cream),.28)}
+.ic-rbar .ic-mot-bar .ic-mot-loupe,.ic-rbar .ic-mot-bar .ic-mot-back{width:40px;height:38px;padding:0;border-radius:9px;color:rgba(var(--cream),.85)}
+.ic-rbar .ic-mot-bar .ic-mot-loupe::after,.ic-rbar .ic-mot-bar .ic-mot-back::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+.ic-mot-sp{flex:1 1 auto}
+.ic .ic-rbar .ic-mot-bar button:not([disabled]):active{background:rgba(236,229,212,.14)!important;transform:none!important}
+.ic .ic-rbar .ic-mot-bar .ic-mot-tab[aria-pressed="true"]:active{background:rgba(236,229,212,.2)!important}
+.ic-mot-findbox{display:none;flex:1 1 auto;min-width:0;position:relative;align-items:center}
+.ic-mot-finding .ic-mot-tabs,.ic-mot-finding .ic-mot-loupe{display:none!important}
+.ic-mot-finding .ic-mot-findbox{display:flex}
+.ic-mot-findin{width:100%;box-sizing:border-box;height:36px;padding:0 42px 0 12px;border-radius:8px;border:1px solid rgba(var(--cream),.28);background:rgba(var(--cream),.06);color:rgb(var(--cream));font:inherit;font-size:16px;-webkit-appearance:none;appearance:none;outline:none}
+.ic-mot-findin::placeholder{color:rgba(var(--cream),.5)}
+.ic-mot-findin::-webkit-search-cancel-button{display:none}
+.ic-rbar .ic-mot-bar .ic-mot-findx{position:absolute;right:0;top:0;width:40px;height:36px;font-size:24px;line-height:1;color:rgba(var(--cream),.85)}
+/* каталог и вкладка раздела */
 .ic .ic-mot-sub{margin-top:6px}
+.ic .ic-mot-sect{margin-top:26px}
+.ic h2.ic-mot-sh{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-family:var(--serif);font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+.ic .ic-mot-sh1{margin-top:20px}
+.ic .ic-mot-shn{font-variant-numeric:tabular-nums}
+.ic .ic-mot-grid2,.ic .ic-mot-fams{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.ic .ic-mot-fam{display:contents}
+.ic .ic-mot-par{grid-column:1/-1}
+.ic .ic-mot-tile{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:52px;box-sizing:border-box;padding:6px 12px;border-radius:8px;
+  background:var(--sheet);border:1px solid rgba(28,24,19,.22);color:var(--ink);line-height:1.2}
+.ic .ic-mot-tile .ic-mot-nm{min-width:0;overflow-wrap:anywhere}
+.ic .ic-mot-tile .ic-mot-n{flex:none;color:var(--soft);font-variant-numeric:tabular-nums;font-size:.9em}
+.ic .ic-mot-kid .ic-mot-nm{color:var(--soft)}
+.ic .ic-mot-tile:active{background:#e6dec9}
+.ic .ic-mot-allbtn{display:block;width:100%;height:48px;margin-top:8px;border:0;border-radius:8px;background:#16130f;color:rgba(236,229,212,.94);
+  font:inherit;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.ic .ic-mot-allbtn:active{background:#2b2620!important;transform:none!important}
+.ic .ic-empty.ic-mot-none,.ic .ic-mot-body > .ic-empty{margin-top:22px}
+/* страница мотива */
 .ic .ic-mot-h1{font-size:var(--ic-sec-fs);font-style:normal;color:var(--accent);line-height:1.1;margin:6px 0 0}
 .ic .ic-mot-count{margin-top:6px}
-/* ряды меток (книги, категории): выбранное — «вариант 3» (общий .ic-chip), зона касания ≥44px */
+.ic .ic-mot-grid{margin-top:16px}
+.ic .ic-mot-grid .ic-gal-cap{display:block;-webkit-line-clamp:unset;overflow:visible}
+.ic .ic-mot-kids{margin:12px 0 0}
+/* фильтр книг (показывается, когда файлы мотивов у двух и более книг): «вариант 3» (общий .ic-chip), зона касания ≥44px */
 .ic .ic-mot-chips{display:flex;flex-wrap:wrap;gap:4px 6px;margin:14px 0 0}
 .ic .ic-mot-chips .ic-chip{min-height:44px;padding:0 12px;font-size:.92em}
-.ic .ic-mot-cats{margin-top:4px;margin-bottom:6px}
-.ic .ic-mot-list{list-style:none;margin:6px 0 0;padding:0}
-.ic .ic-mot-li{padding:0}
-.ic .ic-mot-row{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:44px;box-sizing:border-box;
-  padding:8px 8px 8px calc(8px + var(--lvl,0) * 22px);color:var(--ink);border-bottom:1px solid var(--rule);border-radius:0}
-.ic .ic-mot-row .ic-mot-nm{min-width:0}
-.ic .ic-mot-row .ic-mot-n{flex:none;color:var(--soft);font-variant-numeric:tabular-nums;font-size:.9em}
-.ic .ic-mot-kid .ic-mot-nm{color:var(--soft)}
-.ic .ic-mot-row:active{background:rgba(28,24,19,.08)}
-/* сетка миниатюр: те же ячейки, что у «Гравюр» книги */
-.ic .ic-mot-grid{margin-top:16px}
-/* метки на карточке статьи */
+/* метки на карточке статьи и на странице мотива */
 .ic .ic-mot-sec[hidden]{display:none}
 .ic .ic-mot-tags{display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:8px}
 .ic .ic-mot-tag{display:inline-flex;align-items:center;min-height:44px;box-sizing:border-box;padding:0 12px;border-radius:8px;
   background:rgba(28,24,19,.06);box-shadow:inset 0 0 0 1px rgba(28,24,19,.16);color:var(--ink);font-size:.86em;line-height:1.2}
 .ic .ic-mot-tag:active{background:rgba(28,24,19,.16)}
+.ic .ic-mot-findin,.ic .ic-mot-findin:focus,.ic .ic-mot-findin:focus-visible{color:rgb(236,229,212);-webkit-text-fill-color:rgb(236,229,212);outline:none;background:rgba(236,229,212,.06)}
