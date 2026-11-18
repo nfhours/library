@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "241";
+  var APP_VER = "242";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -140,6 +140,23 @@
                     en:"Old books on allegory and antiquities, translated into Russian, English and French.",
                     fr:"D'anciens livres sur les emblèmes et les antiquités, traduits en russe, en anglais et en français."},
     libWip:       {ru:"В работе", en:"In progress", fr:"En cours"},
+    motTitle:     {ru:"Мотивы", en:"Motifs", fr:"Motifs"},
+    motSub:       {ru:"Поиск гравюр по изображённым предметам", en:"Find engravings by the objects they show", fr:"Chercher des gravures par les objets représentés"},
+    motAllBooks:  {ru:"Все книги", en:"All books", fr:"Tous les livres"},
+    motBooks:     {ru:"Книги", en:"Books", fr:"Livres"},
+    motFind:      {ru:"Найти мотив", en:"Find a motif", fr:"Chercher un motif"},
+    motCats:      {ru:"Категории", en:"Categories", fr:"Catégories"},
+    motCatAll:    {ru:"Все", en:"All", fr:"Tous"},
+    motCObj:      {ru:"Предметы", en:"Objects", fr:"Objets"},
+    motCWeap:     {ru:"Оружие", en:"Weapons", fr:"Armes"},
+    motCAnim:     {ru:"Животные", en:"Animals", fr:"Animaux"},
+    motCPlant:    {ru:"Растения", en:"Plants", fr:"Plantes"},
+    motCSky:      {ru:"Небесное", en:"Celestial", fr:"Céleste"},
+    motCPose:     {ru:"Поза и жест", en:"Pose and gesture", fr:"Pose et geste"},
+    motCTrait:    {ru:"Черты фигуры", en:"Figure traits", fr:"Traits de la figure"},
+    motCPlace:    {ru:"Места и постройки", en:"Places and buildings", fr:"Lieux et édifices"},
+    motCChar:     {ru:"Персонажи", en:"Characters", fr:"Personnages"},
+    motCount:     {ru:"Гравюр: {n}", en:"Engravings: {n}", fr:"Gravures : {n}"},
     libWipTag:    {ru:"в работе", en:"in progress", fr:"en cours"},
     libEmpty:     {ru:"Книги ещё не добавлены.", en:"No books added yet.", fr:"Aucun livre n'a encore été ajouté."},
     progress:     {ru:"Переведено статей: {done} из {total}", en:"Articles translated: {done} of {total}", fr:"Articles traduits : {done} sur {total}"},
@@ -1074,6 +1091,7 @@
       if(segs[0] === forcedBook){ slug = forcedBook; rest = segs.slice(1); }
       else { slug = forcedBook; rest = segs; }
     } else {
+      if(segs[0]==="motifs") return {motifs:true, mb:segs[1] || "all", mid:segs[2] || null};
       if(segs.length===1 && /^p[12]-\d+$/.test(segs[0])) return {slug:"iconologie", id:segs[0]};
       if(!segs.length) return {slug:null};
       if(!/^[a-z][a-z0-9-]*$/.test(segs[0])) return {slug:null};
@@ -1111,7 +1129,7 @@
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
-    renderBackBarBrand(!p.slug);
+    renderBackBarBrand(!p.slug && !p.motifs);
     // .back-bar-fixed/.ic-booktabs-fixed (index.html/app.css) — фикс
     // мигания sticky при частых программных scrollTo в жесте по рейлу букв
     // (указатель/«Имена») — убран этим раундом вместе с position:fixed у
@@ -1119,6 +1137,7 @@
     // через rAF (wireAzRail/frame), и отдельный position:fixed сверху для
     // той же цели больше не нужен — указатель/«Имена» живут на том же
     // обычном sticky, что и читалка главы, без исключений.
+    if(p.motifs){ renderMotifs(p); return; }
     if(!p.slug){ renderLibraryHome(); return; }
     openBook(p.slug, p, function(book){
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
@@ -2272,6 +2291,7 @@
             '<p class="ic-sub ic-lib-sub">'+t("libSub")+'</p>'+
             (ready.length || wip.length ? "" : '<p class="ic-empty">'+t("libEmpty")+'</p>')+
             (ready.length ? '<ul class="ic-lib-list">'+ready.join("")+'</ul>' : "")+
+            (ready.length && !forcedBook ? '<nav class="ic-lib-mot">'+homeTile("#/motifs", t("motTitle"), t("motSub"), false)+'</nav>' : "")+
             (wip.length ? '<h2 class="ic-lib-sect">'+esc(t("libWip"))+'</h2><ul class="ic-lib-list">'+wip.join("")+'</ul>' : "")+
           '</div>';
         bindLangSwitch(root);
@@ -2710,7 +2730,7 @@
       ? [homeTile(hrefFor(book,"plates"), t("audTables"), t("audTablesSub",{n:nPl}), false),
          homeTile(hrefFor(book,"preface"), t("audPreface"), t("audPrefaceSub"), false)]
       : [homeTile(hrefFor(book,"list"), t("rpTabArticles"), t("rpArtSub",{n:book.items.length}), false),
-         homeTile(hrefFor(book,"plates"), t("hmGallery"), t("hmGallerySub",{n:nPl}), false)];
+         homeTile(hrefFor(book,"plates"), t("hmGallery"), t("hmGallerySub",{n:nPl}), false)].concat(forcedBook ? [] : [homeTile(motHref(book.slug), t("motTitle"), t("motSub"), false)]);
     var L = state.lang;
     root.innerHTML = ripaShell(book, null, "")+
       '<div class="ic-wrap ic-home ic-home-rp">'+
@@ -2985,6 +3005,210 @@
     if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
     installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
     nudgeRepaint();
+  }
+
+  /* ---------- Мотивы: поиск гравюр по изображённым предметам (#/motifs) ----------
+     Данные: books/_motifs/index.json — реестр {books:[{slug,file,name}]}, файл мотивов каждой книги —
+     motifs_*.json ({motifs:[{id,ru,en,fr,category,parent,articles:[id статей]}]}). Новая книга добавляется
+     строкой в реестре, код страницы не меняется. Адреса: #/motifs[/<книги>] — список, #/motifs/<книги>/<id> — сетка;
+     <книги> = «all» или слаги через «+». */
+  var MOT_CATS = ["предмет","оружие","животное","растение","небесное","поза и жест","черта фигуры","место и постройка","персонаж"];
+  var MOT_CAT_KEY = {"предмет":"motCObj","оружие":"motCWeap","животное":"motCAnim","растение":"motCPlant","небесное":"motCSky","поза и жест":"motCPose","черта фигуры":"motCTrait","место и постройка":"motCPlace","персонаж":"motCChar"};
+  var MOT = {ready:false, cbs:null, books:[], byArt:{}};
+  var MOT_BOOK = {slug:"motifs", meta:{}};
+  var motUi = {q:"", cat:"all"};
+  function motLoad(cb){
+    if(MOT.ready){ cb(); return; }
+    if(MOT.cbs){ MOT.cbs.push(cb); return; }
+    MOT.cbs = [cb];
+    function done(){
+      MOT.books.forEach(function(b){ b.motifs.forEach(function(m){ (m.articles||[]).forEach(function(a){ (MOT.byArt[b.slug+"|"+a] = MOT.byArt[b.slug+"|"+a] || []).push(m); }); }); });
+      MOT.ready = true; var c = MOT.cbs; MOT.cbs = null; c.forEach(function(f){ f(); });
+    }
+    fetch(BASE+"books/_motifs/index.json",{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : {books:[]}; }).catch(function(){ return {books:[]}; })
+      .then(function(man){
+        var list = man.books || [], left = list.length, got = {};
+        if(!left){ done(); return; }
+        list.forEach(function(b){
+          fetch(BASE+"books/_motifs/"+b.file,{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; })
+            .then(function(d){
+              if(d && d.motifs) got[b.slug] = {slug:b.slug, name:b.name||{}, motifs:d.motifs};
+              if(--left === 0){ MOT.books = list.map(function(x){ return got[x.slug]; }).filter(Boolean); done(); }
+            });
+        });
+      });
+  }
+  function motBookName(b){ return b.name[state.lang] || b.name.ru || b.slug; }
+  function motName(m){ return m[state.lang] || m.ru || m.id; }
+  // «all» / «a+b» -> {sel:[слаги], param}; param — как в адресе
+  function motSelect(param){
+    var all = MOT.books.map(function(b){ return b.slug; });
+    var sel = (param && param !== "all") ? param.split("+").filter(function(s){ return all.indexOf(s) >= 0; }) : [];
+    return sel.length ? {sel:sel, param:sel.join("+"), all:false} : {sel:all, param:"all", all:true};
+  }
+  function motHref(param, id){ return "#/motifs/"+(param || "all")+(id ? "/"+id : ""); }
+  // индекс мотивов по выбранным книгам: число гравюр у родителя — с учётом дочерних
+  function motBuild(sel){
+    var nodes = {}, order = [];
+    MOT.books.forEach(function(b){
+      if(sel.indexOf(b.slug) < 0) return;
+      b.motifs.forEach(function(m){
+        var n = nodes[m.id];
+        if(!n){ n = nodes[m.id] = {id:m.id, ru:m.ru, en:m.en, fr:m.fr, category:m.category, parent:m.parent || null, own:[], kids:[]}; order.push(n); }
+        (m.articles||[]).forEach(function(a){ n.own.push(b.slug+"|"+a); });
+      });
+    });
+    order.forEach(function(n){ var p = n.parent && nodes[n.parent]; if(p) p.kids.push(n); });
+    function allOf(n){
+      if(n.all) return n.all;
+      var seen = {}, res = [];
+      function add(k){ if(!seen[k]){ seen[k] = 1; res.push(k); } }
+      n.own.forEach(add); n.kids.forEach(function(c){ allOf(c).forEach(add); });
+      return (n.all = res);
+    }
+    order.forEach(allOf);
+    return {nodes:nodes, list:order.filter(function(n){ return n.all.length > 0; })};
+  }
+  function motSort(a, b){ return b.all.length - a.all.length || motName(a).localeCompare(motName(b), state.lang); }
+  function motBooksChips(cur, mid){
+    var chips = '<button type="button" class="ic-chip ic-mot-chip" data-mb="all" aria-pressed="'+cur.all+'">'+esc(t("motAllBooks"))+'</button>'+
+      MOT.books.map(function(b){ return '<button type="button" class="ic-chip ic-mot-chip" data-mb="'+esc(b.slug)+'" aria-pressed="'+(!cur.all && cur.sel.indexOf(b.slug) >= 0)+'">'+esc(motBookName(b))+'</button>'; }).join("");
+    return '<div class="ic-mot-chips ic-mot-books" role="group" aria-label="'+esc(t("motBooks"))+'">'+chips+'</div>';
+  }
+  function motBindBooks(cur, mid){
+    var box = root.querySelector(".ic-mot-books"); if(!box) return;
+    box.addEventListener("click", function(e){
+      var b = e.target.closest("[data-mb]"); if(!b) return;
+      var s = b.getAttribute("data-mb"), sel = cur.all ? [] : cur.sel.slice();
+      if(s !== "all"){ var i = sel.indexOf(s); if(i >= 0) sel.splice(i,1); else sel.push(s); }
+      else sel = [];
+      location.replace(motHref(sel.length ? MOT.books.map(function(x){ return x.slug; }).filter(function(x){ return sel.indexOf(x) >= 0; }).join("+") : "all", mid));
+    });
+  }
+  function motShell(gen, active, rbar, parentHref){
+    return bookShell(MOT_BOOK, "motifs", {tabsOpts:{tabs:[["motifs", t("motTitle"), "#/motifs"]], parentHref:parentHref, ctxTypes:null, searchSheet:""}, rbarHtml: rbar ? ripaBarWrap(rbar) : ""})+'<div id="ic-rb-dim"></div>';
+  }
+  function renderMotifs(p){
+    var gen = renderGen;
+    root.innerHTML = loadingHtml("", {});
+    motLoad(function(){
+      if(gen !== renderGen) return;
+      var cur = motSelect(p.mb);
+      if(!MOT.books.length){ root.innerHTML = motShell(gen, null, "", "#/")+'<div class="ic-wrap ic-rp ic-mot"><div class="ic-top-row">'+langSwitch()+'</div><p class="ic-empty">'+esc(t("emptySearch"))+'</p></div>'; ripaBind(MOT_BOOK, gen, []); return; }
+      // нужные книги (названия статей, картинки)
+      var need = cur.sel.slice();
+      (function next(){
+        if(gen !== renderGen) return;
+        var slug = need.shift();
+        if(!slug){ if(p.mid) renderMotifGrid(p, cur, gen); else renderMotifList(p, cur, gen); return; }
+        openBook(slug, {}, function(){ next(); });
+      })();
+    });
+  }
+  function renderMotifList(p, cur, gen){
+    var rbSheets = [], ix = motBuild(cur.sel);
+    var rbar = '<div class="ic-rbar-row">'+findCellHtml(t("motFind"), motUi.q)+'</div>'+langSwitch();
+    root.innerHTML = motShell(gen, "motifs", rbar, "#/")+
+      '<div class="ic-ch-outer"><div class="ic-wrap ic-rp ic-mot">'+
+        '<header class="ic-head ic-rp-head"><h1 class="ic-h-fr ic-rp-h1">'+esc(t("motTitle"))+'</h1><p class="ic-sub ic-mot-sub">'+esc(t("motSub"))+'</p></header>'+
+        motBooksChips(cur, null)+
+        '<div class="ic-mot-chips ic-mot-cats" role="tablist" aria-label="'+esc(t("motCats"))+'"></div>'+
+        '<ul class="ic-mot-list"></ul>'+
+      '</div></div>';
+    ripaBind(MOT_BOOK, gen, rbSheets);
+    motBindBooks(cur, null);
+    var catsEl = root.querySelector(".ic-mot-cats"), listEl = root.querySelector(".ic-mot-list");
+    var fb = wireFindBar({cell:root.querySelector(".ic-rbar-findcell"), gen:gen}), findIn = fb.input;
+    function rowHtml(n, lvl){
+      return '<li class="ic-mot-li"><a class="ic-mot-row'+(lvl ? " ic-mot-kid" : "")+'" style="--lvl:'+lvl+'" href="'+esc(motHref(cur.param, n.id))+'" data-id="'+esc(n.id)+'"><span class="ic-mot-nm">'+esc(motName(n))+'</span><span class="ic-mot-n" aria-label="'+esc(t("motCount",{n:n.all.length}))+'">'+n.all.length+'</span></a></li>';
+    }
+    function fill(){
+      var nq = norm(findIn.value.trim()), words = nq ? nq.split(/\s+/) : [];
+      // вкладки категорий: только непустые при текущем фильтре книг и поиске
+      function matches(n){ return !words.length || words.every(function(w){ return wsFind(norm(motName(n)), w) > -1; }); }
+      var pool = ix.list.filter(matches), have = {};
+      pool.forEach(function(n){ have[n.category] = 1; });
+      if(motUi.cat !== "all" && !have[motUi.cat]) motUi.cat = "all";
+      var tabs = [["all", t("motCatAll")]].concat(MOT_CATS.filter(function(c){ return have[c]; }).map(function(c){ return [c, t(MOT_CAT_KEY[c])]; }));
+      catsEl.innerHTML = tabs.map(function(x){ return '<button type="button" class="ic-chip ic-mot-chip" role="tab" data-cat="'+esc(x[0])+'" aria-selected="'+(motUi.cat===x[0])+'" aria-pressed="'+(motUi.cat===x[0])+'">'+esc(x[1])+'</button>'; }).join("");
+      var S = pool.filter(function(n){ return motUi.cat === "all" || n.category === motUi.cat; });
+      if(!S.length){ listEl.innerHTML = '<li class="ic-empty">'+esc(t("emptySearch"))+'</li>'; return; }
+      var inS = {}; S.forEach(function(n){ inS[n.id] = 1; });
+      var html = "";
+      if(words.length){ html = S.slice().sort(motSort).map(function(n){ return rowHtml(n, 0); }).join(""); }
+      else {
+        (function walk(arr, lvl){
+          arr.slice().sort(motSort).forEach(function(n){
+            html += rowHtml(n, lvl);
+            walk(n.kids.filter(function(c){ return inS[c.id]; }), lvl+1);
+          });
+        })(S.filter(function(n){ return !(n.parent && inS[n.parent]); }), 0);
+      }
+      listEl.innerHTML = html;
+    }
+    findIn.addEventListener("input", function(){ motUi.q = findIn.value; fill(); });
+    catsEl.addEventListener("click", function(e){ var b = e.target.closest("[data-cat]"); if(!b) return; motUi.cat = b.getAttribute("data-cat"); fill(); });
+    fill();
+    state.scroll = 0; restoreOrTop(gen);
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return fb.isOpen(); }});
+    nudgeRepaint();
+  }
+  function motThumb(book, it){
+    var src = (it.img||[])[0]; if(!src) return "";
+    return isAlc(book) && book.alc ? alcThumbSrc(book, it) : ripaThumb(book, it);
+  }
+  function renderMotifGrid(p, cur, gen){
+    var ix = motBuild(cur.sel), n = ix.nodes[p.mid], rbSheets = [];
+    var head = n && n.all.length ? esc(motName(n)) : esc(t("motTitle"));
+    var items = [];
+    if(n){
+      n.all.forEach(function(k){
+        var i = k.indexOf("|"), slug = k.slice(0,i), id = k.slice(i+1), bk = books[slug];
+        if(bk && bk !== "error" && bk.byId[id]) items.push({book:bk, it:bk.byId[id]});
+      });
+      var bo = MOT.books.map(function(b){ return b.slug; });
+      items.sort(function(a,b){ return bo.indexOf(a.book.slug) - bo.indexOf(b.book.slug) || a.it.ord - b.it.ord; });
+    }
+    var one = !cur.all;
+    var names = {}; MOT.books.forEach(function(b){ names[b.slug] = motBookName(b); });
+    var grid = items.length ? '<ul class="ic-gal ic-gal-grid ic-mot-grid">'+items.map(function(x){
+      var th = motThumb(x.book, x.it);
+      return '<li><a class="ic-gal-item" href="'+esc(hrefFor(x.book, x.it.id))+'" data-slug="'+esc(x.book.slug)+'" data-id="'+esc(x.it.id)+'" data-anchor="'+esc(x.book.slug+"-"+x.it.id)+'"><span class="ic-gal-img ic-rp-gimg">'+(th ? '<img loading="lazy" decoding="async" src="'+esc(th)+'" alt="">' : "")+'</span>'+
+        '<span class="ic-gal-cap">'+esc(titleOf(x.it))+'<small class="ic-gal-pg">'+(one ? esc(t("pageAbbr"))+' '+esc(x.it.page) : esc(names[x.book.slug]||x.book.slug))+'</small></span></a></li>';
+    }).join("")+'</ul>' : '<p class="ic-empty">'+esc(t("emptySearch"))+'</p>';
+    root.innerHTML = motShell(gen, "motifs", "", motHref(cur.param))+
+      '<div class="ic-wrap ic-rp ic-mot"><div class="ic-top-row">'+langSwitch()+'</div>'+
+        '<header class="ic-head"><p class="ic-kicker">'+esc(t("motTitle"))+'</p><h1 class="ic-h-fr ic-mot-h1">'+head+'</h1>'+
+          '<p class="ic-count ic-mot-count">'+esc(t("motCount",{n:items.length}))+'</p></header>'+
+        motBooksChips(cur, p.mid)+grid+'</div>';
+    ripaBind(MOT_BOOK, gen, rbSheets);
+    motBindBooks(cur, p.mid);
+    root.querySelectorAll(".ic-gal").forEach(function(g){ g.addEventListener("click", function(e){
+      var a = e.target.closest(".ic-gal-item");
+      if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); ripaOpen(books[a.getAttribute("data-slug")], a.getAttribute("data-id"), ""); }
+    }); });
+    state.scroll = 0; restoreOrTop(gen);
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return false; }});
+    nudgeRepaint();
+  }
+  // Метки мотивов на карточке статьи (после «Что изображено»): разметка секции; если данные ещё не загружены — заполняется позже
+  function motTagsInner(slug, id){
+    var ms = MOT.byArt[slug+"|"+id] || [];
+    return ms.map(function(m){ return '<a class="ic-mot-tag" href="'+esc(motHref(slug, m.id))+'">'+esc(motName(m))+'</a>'; }).join("");
+  }
+  function motCardSection(book, it, gen){
+    var inner = MOT.ready ? motCardInner(book, it) : "";
+    var html = '<section class="ic-sec ic-mot-sec" data-mt="1"'+(inner ? "" : " hidden")+'>'+inner+'</section>';
+    if(!MOT.ready) motLoad(function(){
+      if(gen !== renderGen) return;
+      var el = root.querySelector('.ic-mot-sec[data-mt]'); if(!el) return;
+      el.innerHTML = motCardInner(book, it); el.hidden = !(MOT.byArt[book.slug+"|"+it.id] || []).length;
+    });
+    return html;
+  }
+  function motCardInner(book, it){
+    var tags = motTagsInner(book.slug, it.id);
+    return tags ? '<h3>'+esc(t("motTitle"))+'</h3><div class="ic-mot-tags">'+tags+'</div>' : "";
   }
 
   // Подсветка слова, с которым пришли из поиска: первое вхождение в тексте статьи.
@@ -3316,6 +3540,7 @@
         (imgs?'<div class="ic-figs">'+imgs+'</div>'+captionLine+plateLink:"")+
         (fieldsHtml?'<section class="ic-sec"><h3>'+t("infoSec")+'</h3><ul class="ic-attrs">'+fieldsHtml+'</ul></section>':"")+
         (attrs?'<section class="ic-sec"><h3>'+t("whatSec")+'</h3><ul class="ic-attrs">'+attrs+'</ul></section>':"")+
+        (isRipa(book) ? motCardSection(book, it, renderGen) : "")+
         (transl?'<section class="ic-sec"><h3>'+t("translSec")+'</h3><div class="ic-text">'+transl+'</div>'+(chEx?chEx.more:"")+'</section>':"")+
         ((hasScans||hasFr)?renderOriginal(it,book):"")+
         (!imgs && !transl ? '<div class="ic-missing"><b>'+t("missing")+'</b><br>'+t("missingAt",{part:it.part,page:esc(it.page)})+'</div>':"")+

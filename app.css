@@ -1961,3 +1961,29 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-alc-fv.ic-alc-ev{padding-left:calc(1.1em + var(--ind,1.2em))}
 .ic .ic-alc-fl{display:block;text-align:center;font-style:normal;font-weight:500;font-variant-caps:all-small-caps;font-feature-settings:"smcp","c2sc";letter-spacing:.14em;text-transform:none;margin:.15em 0}
 .ic .ic-rp-alc .ic-alc-figs.ic-alc-fitfigs{width:min(100vw,560px);max-width:none;margin-left:calc((100% - min(100vw,560px))/2)}
+
+/* ---- Мотивы (#/motifs): поиск гравюр по изображённым предметам ---- */
+.ic .ic-lib-mot{margin-top:18px}
+.ic .ic-mot-sub{margin-top:6px}
+.ic .ic-mot-h1{font-size:var(--ic-sec-fs);font-style:normal;color:var(--accent);line-height:1.1;margin:6px 0 0}
+.ic .ic-mot-count{margin-top:6px}
+/* ряды меток (книги, категории): выбранное — «вариант 3» (общий .ic-chip), зона касания ≥44px */
+.ic .ic-mot-chips{display:flex;flex-wrap:wrap;gap:4px 6px;margin:14px 0 0}
+.ic .ic-mot-chips .ic-chip{min-height:44px;padding:0 12px;font-size:.92em}
+.ic .ic-mot-cats{margin-top:4px;margin-bottom:6px}
+.ic .ic-mot-list{list-style:none;margin:6px 0 0;padding:0}
+.ic .ic-mot-li{padding:0}
+.ic .ic-mot-row{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:44px;box-sizing:border-box;
+  padding:8px 8px 8px calc(8px + var(--lvl,0) * 22px);color:var(--ink);border-bottom:1px solid var(--rule);border-radius:0}
+.ic .ic-mot-row .ic-mot-nm{min-width:0}
+.ic .ic-mot-row .ic-mot-n{flex:none;color:var(--soft);font-variant-numeric:tabular-nums;font-size:.9em}
+.ic .ic-mot-kid .ic-mot-nm{color:var(--soft)}
+.ic .ic-mot-row:active{background:rgba(28,24,19,.08)}
+/* сетка миниатюр: те же ячейки, что у «Гравюр» книги */
+.ic .ic-mot-grid{margin-top:16px}
+/* метки на карточке статьи */
+.ic .ic-mot-sec[hidden]{display:none}
+.ic .ic-mot-tags{display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:8px}
+.ic .ic-mot-tag{display:inline-flex;align-items:center;min-height:44px;box-sizing:border-box;padding:0 12px;border-radius:8px;
+  background:rgba(28,24,19,.06);box-shadow:inset 0 0 0 1px rgba(28,24,19,.16);color:var(--ink);font-size:.86em;line-height:1.2}
+.ic .ic-mot-tag:active{background:rgba(28,24,19,.16)}

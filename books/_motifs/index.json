@@ -1,0 +1,6 @@
+{
+  "note": "Реестр файлов мотивов по книгам. Чтобы добавить книгу: положить motifs_<...>.json (формат как у motifs_ripa1677.json) и дописать строку сюда.",
+  "books": [
+    { "slug": "iconologie", "file": "motifs_ripa1677.json", "name": { "ru": "Иконология", "en": "Iconology", "fr": "Iconologie" } }
+  ]
+}

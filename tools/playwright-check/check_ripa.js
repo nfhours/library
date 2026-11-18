@@ -197,7 +197,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       tabs: [...document.querySelectorAll('.ic-bt-tabs a')].map(a => a.textContent.trim() + (a.classList.contains('on') ? '*' : '')), orn: document.querySelectorAll('.ic-orn-headpiece,.ic-orn-tailpiece').length }));
     res.cover = cv;
     ok('cover texts', cv.kicker === 'Iconologie' && cv.h1 === 'Иконология' && cv.author === 'Чезаре Рипа' && cv.ed === 'Париж, 1677 · перевод Жана Бодуэна', cv);
-    ok('cover tiles/figure', cv.tiles.join() === 'Статьи,Гравюры' && cv.fig && cv.blurb > 100 && cv.rows === 0 && cv.orn === 0, cv);
+    ok('cover tiles/figure', cv.tiles.join() === 'Статьи,Гравюры,Мотивы' && cv.fig && cv.blurb > 100 && cv.rows === 0 && cv.orn === 0, cv);
     ok('cover tabs none active', cv.tabs.join() === 'Статьи,Гравюры', cv.tabs);
     ok('cover fig height like cartari (<=40vh)', cv.figH > 80 && cv.figH <= 844 * 0.4 + 2, cv.figH);
     await page.click('.ic-home-tile >> nth=0'); await W(700);
