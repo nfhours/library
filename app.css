@@ -1963,10 +1963,26 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-rp-alc .ic-alc-figs.ic-alc-fitfigs{width:min(100vw,560px);max-width:none;margin-left:calc((100% - min(100vw,560px))/2)}
 
 /* ---- Мотивы (#/motifs): поиск гравюр по изображённым предметам ---- */
-/* переключатель «Книги | Мотивы» под строкой «Библиотека / RU EN FR» (на главной и на «Мотивах»): две кнопки по 118px по центру, выбранная — «вариант 3» */
-.ic-booktabs.ic-mot-bt{justify-content:center;padding:6px 4px}
-.ic .ic-mot-bt .ic-bt-tabs.ic-bt-tabs-fit{flex:0 0 auto;margin:0 auto;gap:6px;justify-content:center}
-.ic .ic-mot-bt .ic-bt-tabs a{flex:0 0 118px;width:118px;height:38px;padding:0;font-size:12px;letter-spacing:.12em}
+/* переключатель «Книги | Мотивы»: одна капсула 288×46, две равные половины (grid 1fr 1fr), подложка выбранной половины — отдельный элемент («матовое стекло») */
+.ic-booktabs.ic-mot-bt{display:flex;justify-content:center;gap:0;padding:6px 12px}
+.ic .ic-mot-cap{position:relative;display:grid;grid-template-columns:1fr 1fr;width:min(288px,100%);height:46px;box-sizing:border-box;padding:0;border-radius:12px;
+  background:rgba(236,229,212,.05);border:1px solid rgba(236,229,212,.16)}
+.ic .ic-mot-pill{position:absolute;left:0;top:0;bottom:0;width:50%;padding:4px;box-sizing:border-box;pointer-events:none;
+  transition:transform .4s cubic-bezier(.215,.61,.355,1)!important;will-change:transform}
+.ic .ic-mot-cap[data-pos="1"] .ic-mot-pill{transform:translateX(100%)}
+.ic .ic-mot-pill i{display:block;width:100%;height:100%;box-sizing:border-box;border-radius:9px;
+  background:linear-gradient(180deg,rgba(236,229,212,.20),rgba(236,229,212,.08));-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  border:1px solid rgba(236,229,212,.28);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 2px 8px rgba(0,0,0,.35)}
+.ic .ic-mot-cap a{position:relative;z-index:1;display:flex;align-items:center;justify-content:center;height:100%;min-width:0;padding:0;border-radius:9px;
+  background:none;box-shadow:none;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:rgba(236,229,212,.62);
+  transition:color .4s ease-out!important}
+.ic .ic-mot-cap a > span{display:block;padding-left:.12em;white-space:nowrap}   /* отступ слева = разрядка: подпись по центру половины */
+.ic .ic-mot-cap a.on{color:rgb(236,229,212);background:none!important;box-shadow:none!important}
+.ic .ic-mot-cap a:active,.ic .ic-mot-cap a.on:active{background:rgba(236,229,212,.08)!important;transform:none!important}
+/* призраки плавного перехода «Книги ⇄ Мотивы» */
+.ic .ic-mot-ghost{position:fixed;overflow:hidden;z-index:8;pointer-events:none}
+.ic .ic-mot-gin{position:absolute;left:0;top:0;width:100%;height:100%}
+.ic .ic-mot-gbg{position:fixed;z-index:7;pointer-events:none;box-sizing:border-box;background:#16130f;border-bottom:1px solid rgba(236,229,212,.12)}
 /* тёмная строка вкладок разделов / «назад + лупа» */
 .ic-rbar .ic-mot-bar{display:flex;align-items:center;gap:6px;max-width:1120px;margin:0 auto;min-height:38px}
 .ic-mot-tabs{flex:1 1 auto;min-width:0;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}

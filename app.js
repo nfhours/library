@@ -9,11 +9,12 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "243";
+  var APP_VER = "244";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
   if(!root){ root = document.createElement("div"); root.id = "iconologie"; (me && me.parentNode ? me.parentNode : document.body).appendChild(root); }
+  var motKeep = null;   // призраки перехода «Книги ⇄ Мотивы»: переживают смену разметки root
   // Единый sticky-контейнер шапки (.ic-stack): шапка сайта (.back-bar), меню
   // книги (.ic-booktabs) и, в главе, строка раздела (.ic-rbar) — ОДИН
   // sticky-элемент, прячется одним transform (installBookHide ниже). .back-bar
@@ -34,6 +35,7 @@
         desc.set.call(root, v);
         var st = root.querySelector(":scope > .ic-stack");
         if(st) st.insertBefore(bb, st.firstChild);
+        if(motKeep) motKeep.forEach(function(el){ if(el) root.appendChild(el); });
       }});
   })();
   root.className = "ic";
@@ -1132,6 +1134,7 @@
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
     renderBackBarBrand(!p.slug && !p.motifs);
+    if(motNav && p.slug) motNavAbort();
     // .back-bar-fixed/.ic-booktabs-fixed (index.html/app.css) — фикс
     // мигания sticky при частых программных scrollTo в жесте по рейлу букв
     // (указатель/«Имена») — убран этим раундом вместе с position:fixed у
@@ -2277,7 +2280,7 @@
 
   /* ---------- библиотека: список книг ---------- */
   function renderLibraryHome(){
-    root.innerHTML = loadingHtml("", {});
+    root.innerHTML = (motNav && !forcedBook) ? motFrame() : loadingHtml("", {});
     loadLibrary(function(list){
       Promise.all(list.map(function(b){
         return fetch(bookDir(b)+"book.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
@@ -2299,6 +2302,7 @@
           '</div>';
         syncHeaderStack();
         if(!forcedBook) installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return false; }});
+        if(motNav && !forcedBook) motNavRun(gen, 0);
         bindLangSwitch(root);
         root.querySelectorAll(".ic-lib-row:not(.ic-lib-wip)").forEach(function(c){
           function go(){ location.hash = "#/"+c.getAttribute("data-slug")+(c.hasAttribute("data-home") ? "/home" : ""); }
@@ -3095,14 +3099,122 @@
       location.replace(motHref(sel.length ? MOT.books.map(function(x){ return x.slug; }).filter(function(x){ return sel.indexOf(x) >= 0; }).join("+") : "all", mid));
     });
   }
-  // Шапка «Мотивов» и главной библиотеки: переключатель «Книги | Мотивы» под строкой «Библиотека / RU EN FR»
+  // Шапка «Мотивов» и главной библиотеки: переключатель «Книги | Мотивы» (одна капсула, подложка выбранной половины переезжает)
   function motTop(active){
-    return bookTabsHtml(MOT_BOOK, active, {hide:true, tabs:[["books", t("motTabBooks"), "#/"], ["motifs", t("motTitle"), "#/motifs"]]})
-      .replace('class="ic-booktabs"', 'class="ic-booktabs ic-mot-bt"');
+    var pos = (motNav && !motNav.started) ? motNav.from : (active === "motifs" ? 1 : 0);
+    return '<nav class="ic-booktabs ic-mot-bt" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
+      '<div class="ic-mot-cap" data-pos="'+pos+'"><span class="ic-mot-pill" aria-hidden="true"><i></i></span>'+
+        '<a href="#/"'+(pos === 0 ? ' class="on"' : "")+'><span>'+esc(t("motTabBooks"))+'</span></a>'+
+        '<a href="#/motifs"'+(pos === 1 ? ' class="on"' : "")+'><span>'+esc(t("motTitle"))+'</span></a></div></nav>';
   }
   function motShell(strip){
     return '<div class="ic-stack" id="ic-stack">'+motTop("motifs")+(strip ? ripaBarWrap(strip) : "")+'</div>';
   }
+  // Кадр на время загрузки при переходе: только шапка с переключателем (старая страница держится «призраком» поверх)
+  function motFrame(){ return '<div class="ic-stack" id="ic-stack">'+motTop(motNav.to ? "motifs" : "books")+'</div>'; }
+
+  /* ---------- плавный переход «Книги ⇄ Мотивы» ----------
+     Только по нажатию на переключатель (прямой заход, «назад/вперёд» и обновление — без анимации). Уходящая и входящая страницы —
+     «призраки» (копии видимой части), лежат друг на друге под шапкой в области высотой с экран: уходящая сдвигается на 70 px и тает,
+     входящая приходит с другой стороны; горизонтальное размытие — SVG-фильтр feGaussianBlur «X 0» на самом призраке (не на длинной странице).
+     Тёмный фон строки разделов — отдельный слой, он не сдвигается, только проявляется. Шапка (Библиотека, языки, переключатель) не трогается. */
+  var motNav = null, motHomeY = 0, motFx = null;
+  function motFilters(){
+    if(motFx) return motFx;
+    var NS = "http://www.w3.org/2000/svg", svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("width","0"); svg.setAttribute("height","0"); svg.setAttribute("aria-hidden","true"); svg.style.cssText = "position:absolute;width:0;height:0;pointer-events:none";
+    var out = {};
+    ["out","in"].forEach(function(k){
+      var f = document.createElementNS(NS, "filter"), b = document.createElementNS(NS, "feGaussianBlur");
+      f.setAttribute("id","ic-mb-"+k); f.setAttribute("x","-10%"); f.setAttribute("y","0"); f.setAttribute("width","120%"); f.setAttribute("height","100%");
+      f.setAttribute("color-interpolation-filters","sRGB"); b.setAttribute("stdDeviation","0 0"); f.appendChild(b); svg.appendChild(f); out[k] = b;
+    });
+    document.body.appendChild(svg); return (motFx = out);
+  }
+  // призрак видимой части страницы: слой с содержимым (сдвигается и размывается) + отдельный неподвижный тёмный фон строки разделов
+  function motGhost(){
+    var bt = document.getElementById("ic-booktabs"); if(!bt) return null;
+    var T = Math.round(bt.getBoundingClientRect().bottom), PAD = 80, vw = document.documentElement.clientWidth, vh = window.innerHeight;
+    var wrap = root.querySelector(":scope > .ic-wrap"), rb = root.querySelector(":scope > .ic-stack .ic-rbar-rp");
+    var g = document.createElement("div"); g.className = "ic-mot-ghost";
+    g.style.cssText = "left:"+(-PAD)+"px;width:"+(vw+2*PAD)+"px;top:"+T+"px;height:"+Math.max(0, vh-T)+"px";
+    var inn = document.createElement("div"); inn.className = "ic-mot-gin"; g.appendChild(inn);
+    var bg = null;
+    function put(src, r, extra){
+      var c = src.cloneNode(true); c.removeAttribute("id"); [].forEach.call(c.querySelectorAll("[id]"), function(x){ x.removeAttribute("id"); });
+      c.style.position = "absolute"; c.style.margin = "0"; c.style.left = (r.left+PAD)+"px"; c.style.top = (r.top-T)+"px"; c.style.width = r.width+"px";
+      if(extra) extra(c); inn.appendChild(c);
+    }
+    if(rb){
+      var r = rb.getBoundingClientRect(), cs = getComputedStyle(rb);
+      bg = document.createElement("div"); bg.className = "ic-mot-gbg"; bg.style.cssText = "left:0;width:"+vw+"px;top:"+r.top+"px;height:"+r.height+"px";
+      put(rb, r, function(c){ c.style.background = "none"; c.style.border = "0"; c.style.height = r.height+"px"; c.style.padding = cs.paddingTop+" "+cs.paddingRight+" "+cs.paddingBottom+" "+cs.paddingLeft; });
+    }
+    if(wrap) put(wrap, wrap.getBoundingClientRect());
+    return {g:g, bg:bg, inn:inn, real:[wrap, rb ? rb.closest(".ic-ch-outer-bar") : null]};
+  }
+  function motNavEnd(){
+    var n = motNav; if(!n) return;
+    (n.layers || []).forEach(function(el){ if(el && el.parentNode) el.parentNode.removeChild(el); });
+    (n.hidden || []).forEach(function(el){ if(el) el.style.visibility = ""; });
+    motKeep = null; clearTimeout(n.timer); motNav = null;
+  }
+  function motNavAbort(){ motNavEnd(); }
+  function motNavRun(gen, to){
+    var n = motNav; if(!n || n.started) return;
+    if(gen !== renderGen || to !== n.to){ motNavEnd(); return; }
+    n.started = true;
+    window.scrollTo(0, n.to ? 0 : n.hy);
+    if(n.to) delete namesUi.pos[location.hash];
+    var inc = n.reduce ? null : motGhost(), out = n.out;
+    var cap = root.querySelector(":scope > .ic-stack .ic-mot-cap");
+    if(cap){
+      void cap.offsetWidth;   // подложка стартует со старой половины
+      cap.setAttribute("data-pos", n.to);
+      [].forEach.call(cap.querySelectorAll("a"), function(a, i){ a.classList.toggle("on", i === n.to); });
+    }
+    if(!inc || !out){ motNavEnd(); return; }
+    var fx = motFilters(), dx = n.dir*70;
+    n.hidden = inc.real; inc.real.forEach(function(el){ if(el) el.style.visibility = "hidden"; });
+    n.layers = [out.bg, out.g, inc.bg, inc.g];
+    n.layers.forEach(function(el){ if(el) root.appendChild(el); });
+    motKeep = n.layers;
+    out.g.style.filter = "url(#ic-mb-out)"; inc.g.style.filter = "url(#ic-mb-in)";
+    function set(k){
+      var e = 1 - Math.pow(1 - k, 3);
+      out.inn.style.transform = "translate3d("+(dx*e).toFixed(2)+"px,0,0)"; out.g.style.opacity = String(1-e); if(out.bg) out.bg.style.opacity = String(1-e);
+      inc.inn.style.transform = "translate3d("+(-dx*(1-e)).toFixed(2)+"px,0,0)"; inc.g.style.opacity = String(e); if(inc.bg) inc.bg.style.opacity = String(e);
+      fx.out.setAttribute("stdDeviation", (14*e).toFixed(2)+" 0"); fx["in"].setAttribute("stdDeviation", (14*(1-e)).toFixed(2)+" 0");
+    }
+    set(0);
+    var t0 = null;
+    (function frame(ts){
+      if(motNav !== n) return;
+      if(t0 === null) t0 = ts;
+      var k = Math.min(1, (ts - t0)/(window.__icMotMs || 420));
+      set(k);
+      if(k < 1) requestAnimationFrame(frame);
+      else { n.layers.forEach(function(el){ if(el) el.style.filter = ""; }); motNavEnd(); }
+    })(performance.now());
+  }
+  root.addEventListener("click", function(e){
+    var a = e.target.closest && e.target.closest(".ic-mot-cap a"); if(!a) return;
+    if(e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
+    var cap = a.closest(".ic-mot-cap"), from = +cap.getAttribute("data-pos"), to = a.getAttribute("href") === "#/motifs" ? 1 : 0;
+    if(from === to) return;                      // та же половина: обычный переход по ссылке (например, со страницы мотива в каталог)
+    e.preventDefault();
+    if(motNav) return;                           // переход уже идёт
+    var reduce = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    if(from === 0) motHomeY = window.scrollY;
+    var out = reduce ? null : motGhost();
+    motNav = {from:from, to:to, dir: to ? -1 : 1, hy: motHomeY, reduce:reduce, out:out, started:false};
+    if(out){
+      motNav.layers = [out.bg, out.g]; motNav.layers.forEach(function(el){ if(el) root.appendChild(el); });
+      motKeep = motNav.layers;
+    }
+    motNav.timer = setTimeout(motNavAbort, 5000);
+    location.hash = a.getAttribute("href").replace(/^#/, "");
+  });
   function motNum(n){
     var L = state.lang;
     if(L === "ru"){ var a = n % 100, b = n % 10; return n+" "+((a > 10 && a < 15) ? "гравюр" : b === 1 ? "гравюра" : (b >= 2 && b <= 4) ? "гравюры" : "гравюр"); }
@@ -3116,11 +3228,11 @@
   function motLoupe(){ return MOT_LOUPE.replace("%L%", esc(t("motFind"))); }
   function renderMotifs(p){
     var gen = renderGen;
-    root.innerHTML = loadingHtml("", {});
+    root.innerHTML = motNav ? motFrame() : loadingHtml("", {});
     motLoad(function(){
       if(gen !== renderGen) return;
       var cur = motSelect(p.mb);
-      if(!MOT.books.length){ root.innerHTML = motShell("")+'<div class="ic-wrap ic-rp ic-mot"><div class="ic-top-row">'+langSwitch()+'</div><p class="ic-empty">'+esc(t("motNone"))+'</p></div>'; ripaBind(MOT_BOOK, gen, []); return; }
+      if(!MOT.books.length){ motNavAbort(); root.innerHTML = motShell("")+'<div class="ic-wrap ic-rp ic-mot"><div class="ic-top-row">'+langSwitch()+'</div><p class="ic-empty">'+esc(t("motNone"))+'</p></div>'; ripaBind(MOT_BOOK, gen, []); return; }
       // нужные книги (названия статей, картинки)
       var need = cur.sel.slice();
       (function next(){
@@ -3205,7 +3317,7 @@
       if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); namesUi.pos[location.hash] = window.scrollY; location.hash = a.getAttribute("href").replace(/^#/,""); }
     });
     fill();
-    state.scroll = 0; restoreOrTop(gen);
+    state.scroll = 0; if(motNav) motNavRun(gen, 1); else restoreOrTop(gen);
     if(motUi.find && !motUi.q.trim()) setFind(true);
     installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return document.activeElement === findIn; }});
     nudgeRepaint();
