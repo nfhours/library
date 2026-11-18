@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "234";
+  var APP_VER = "235";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -408,10 +408,38 @@
   // generation it belongs to and is a no-op once a newer navigation has
   // moved the counter on.
   var renderGen = 0;
-  // flowPage — страница эмблемы Альчато: класс ic-flow-page на html (тёмные html/body, бумага на контейнере содержимого, см. app.css) и
-  // <meta name="theme-color"> цвета шапки (#16130f); при уходе возвращается прежнее значение (тега не было — убирается).
-  var flowTheme = null;
-  // flowOn — включить схему «шапка уезжает нативно» на только что отрисованной странице: .ic-stack-flow на #ic-stack + flowPage(true).
+  var flowTheme = null, flowActive = false, flowHold = false, flowW = window.innerWidth, flowTimer = 0, flowListen = false;
+  // Тёмный фон html/body (класс ic-flow-page) — только когда страница с этой схемой открыта, стоит у самого верха (scrollY ≤ 2, в т. ч. отрицательный
+  // при отскоке) и экран не поворачивается: прокрутка ниже и поворот (≈400 мс) возвращают бумажный фон, чтобы при перерисовке Safari не было тёмных пятен.
+  function flowSync(){
+    var want = flowActive && !flowHold && window.scrollY <= 2, h = document.documentElement;
+    if(h.classList.contains("ic-flow-page") !== want) h.classList.toggle("ic-flow-page", want);
+  }
+  function flowListeners(){
+    if(flowListen) return; flowListen = true;
+    window.addEventListener("scroll", function(){ if(flowActive) flowSync(); }, {passive:true});   // переключение только при смене состояния (classList сравнивается в flowSync)
+    function rot(){
+      if(!flowActive){ flowW = window.innerWidth; return; }
+      flowHold = true; flowSync(); clearTimeout(flowTimer);
+      flowTimer = setTimeout(function(){ flowHold = false; flowW = window.innerWidth; flowSync(); }, 400);
+    }
+    window.addEventListener("orientationchange", rot);
+    window.addEventListener("resize", function(){ if(window.innerWidth !== flowW){ flowW = window.innerWidth; rot(); } });
+  }
+  // flowPage(on) — страница со схемой «шапка уезжает нативно» открыта / закрыта; плюс <meta name="theme-color"> цвета шапки (#16130f),
+  // при уходе возвращается прежнее значение (тега не было — убирается).
+  function flowPage(on){
+    flowListeners(); flowActive = !!on; if(!on){ flowHold = false; clearTimeout(flowTimer); } flowSync();
+    var m = document.querySelector('meta[name="theme-color"]');
+    if(on){
+      if(!flowTheme){ flowTheme = {had: !!m, val: m ? m.getAttribute("content") : null}; }
+      if(!m){ m = document.createElement("meta"); m.setAttribute("name", "theme-color"); document.head.appendChild(m); }
+      m.setAttribute("content", "#16130f");
+    } else if(flowTheme){
+      if(m){ if(flowTheme.had) m.setAttribute("content", flowTheme.val); else m.parentNode.removeChild(m); }
+      flowTheme = null;
+    }
+  }
   // flowClean — снять любые следы старой логики скрытия (installBookHide/installScrollHide): классы ic-stack-hidden / ic-bb-hidden /
   // ic-rbar-snap / ic-az-rail-snap и инлайновые transform/opacity/visibility/transition/--ic-stack-hide у шапки, меню книги, строки раздела.
   // .back-bar живёт вне root и переживает смену страниц, поэтому чистим и её; вызывается из route() (любой переход) и из flowOn().
@@ -424,18 +452,6 @@
     var rail = document.querySelector(".ic-az-rail"); if(rail) rail.classList.remove("ic-az-rail-snap");
   }
   function flowOn(){ flowClean(); var st = document.getElementById("ic-stack"); if(st) st.classList.add("ic-stack-flow"); flowPage(true); }
-  function flowPage(on){
-    var h = document.documentElement; h.classList.toggle("ic-flow-page", !!on);
-    var m = document.querySelector('meta[name="theme-color"]');
-    if(on){
-      if(!flowTheme){ flowTheme = {had: !!m, val: m ? m.getAttribute("content") : null}; }
-      if(!m){ m = document.createElement("meta"); m.setAttribute("name", "theme-color"); document.head.appendChild(m); }
-      m.setAttribute("content", "#16130f");
-    } else if(flowTheme){
-      if(m){ if(flowTheme.had) m.setAttribute("content", flowTheme.val); else m.parentNode.removeChild(m); }
-      flowTheme = null;
-    }
-  }
 
   // язык: ?lang= в URL (приоритет и запоминается) > сохранённый выбор > data-lang на блоке > ru
   (function initLang(){

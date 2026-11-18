@@ -57,5 +57,21 @@ const SIZES=[[1180,820],[1366,1024],[820,1180],[390,844]];
    await p.evaluate(()=>{ location.hash='#/iconologie/list'; }); await W(2500); const t=await st(); ok('обратно на список после '+nm+': схема снята, шапка на месте',!t.flow&&clean(t)&&t.bb===0,JSON.stringify(t)); await down(40); const hid=await p.evaluate(()=>/ic-stack-hidden/.test(document.getElementById('ic-stack').className)); ok('список после '+nm+': старая логика снова прячет шапку',hid);
   }
   await ctx.close(); }
+ // ---- тёмный фон html только у верха страницы; при повороте/смене ширины на ~400 мс бумажный ----
+ { const ctx=await br.newContext({viewport:{width:390,height:844},hasTouch:true,isMobile:true}), p=await ctx.newPage();
+  const bg=()=>p.evaluate(()=>({cls:document.documentElement.classList.contains('ic-flow-page'),html:getComputedStyle(document.documentElement).backgroundColor,body:getComputedStyle(document.body).backgroundColor,y:Math.round(scrollY)}));
+  const DARK=o=>o.html==='rgb(22, 19, 15)'&&o.body==='rgb(22, 19, 15)', PAPER=o=>o.html==='rgb(236, 229, 212)'&&o.body==='rgb(236, 229, 212)';
+  for(const [nm,hash] of [['alc','#/alciato/alc15'],['ripa-card','#/iconologie/p1-1'],['cart-text','#/cartari/text']]){
+   await p.goto(BASE+hash); await W(2500); let o=await bg(); ok(nm+': у верха фон html и body тёмный',DARK(o)&&o.y===0,JSON.stringify(o));
+   await p.evaluate(()=>window.scrollTo(0,300)); await W(300); o=await bg(); ok(nm+': после прокрутки вниз фон бумажный',PAPER(o)&&!o.cls,JSON.stringify(o));
+   await p.evaluate(()=>window.scrollTo(0,1)); await W(200); o=await bg(); ok(nm+': scrollY ≤ 2 — снова тёмный',DARK(o),JSON.stringify(o));
+   await p.evaluate(()=>window.scrollTo(0,300)); await W(300); await p.evaluate(()=>window.scrollTo(0,0)); await W(300); o=await bg(); ok(nm+': возврат наверх — снова тёмный',DARK(o)&&o.y===0,JSON.stringify(o));
+   await p.setViewportSize({width:430,height:844}); await W(80); o=await bg(); ok(nm+': смена ширины окна — сразу бумажный',PAPER(o),JSON.stringify(o));
+   await W(600); o=await bg(); ok(nm+': через полсекунды у верха снова тёмный',DARK(o),JSON.stringify(o));
+   await p.evaluate(()=>window.scrollTo(0,300)); await W(300); await p.setViewportSize({width:390,height:844}); await W(80); o=await bg(); ok(nm+': смена ширины внизу — бумажный',PAPER(o),JSON.stringify(o));
+   await W(600); o=await bg(); ok(nm+': через полсекунды внизу остаётся бумажным (правило верха)',PAPER(o),JSON.stringify(o));
+   await p.setViewportSize({width:390,height:760}); await W(600); o=await bg(); ok(nm+': смена только высоты (панели Safari) фон не трогает',PAPER(o),JSON.stringify(o)); await p.setViewportSize({width:390,height:844});
+  }
+  await ctx.close(); }
  ok('console clean',errs.length===0,errs.slice(0,3).join(' | '));
  await br.close(); console.log('passed '+(n-bad)+'/'+n); process.exit(bad?1:0); })();
