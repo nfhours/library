@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "231";
+  var APP_VER = "232";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -408,6 +408,21 @@
   // generation it belongs to and is a no-op once a newer navigation has
   // moved the counter on.
   var renderGen = 0;
+  // flowPage — страница эмблемы Альчато: класс ic-flow-page на html (тёмные html/body, бумага на контейнере содержимого, см. app.css) и
+  // <meta name="theme-color"> цвета шапки (#16130f); при уходе возвращается прежнее значение (тега не было — убирается).
+  var flowTheme = null;
+  function flowPage(on){
+    var h = document.documentElement; h.classList.toggle("ic-flow-page", !!on);
+    var m = document.querySelector('meta[name="theme-color"]');
+    if(on){
+      if(!flowTheme){ flowTheme = {had: !!m, val: m ? m.getAttribute("content") : null}; }
+      if(!m){ m = document.createElement("meta"); m.setAttribute("name", "theme-color"); document.head.appendChild(m); }
+      m.setAttribute("content", "#16130f");
+    } else if(flowTheme){
+      if(m){ if(flowTheme.had) m.setAttribute("content", flowTheme.val); else m.parentNode.removeChild(m); }
+      flowTheme = null;
+    }
+  }
 
   // язык: ?lang= в URL (приоритет и запоминается) > сохранённый выбор > data-lang на блоке > ru
   (function initLang(){
@@ -1062,7 +1077,7 @@
   function route(){
     ensureManual();
     renderGen++;
-    document.documentElement.classList.remove("ic-flow-page");   // тёмный фон html — только на странице эмблемы Альчато (renderCard)
+    flowPage(false);   // тёмные html/body и theme-color шапки — только на странице эмблемы Альчато (renderCard)
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
@@ -3281,7 +3296,7 @@
         '</div>')+
       '</div>'+(rp ? '</div>' : "");
 
-    if(alc){ var stf = document.getElementById("ic-stack"); if(stf) stf.classList.add("ic-stack-flow"); document.documentElement.classList.add("ic-flow-page"); }
+    if(alc){ var stf = document.getElementById("ic-stack"); if(stf) stf.classList.add("ic-stack-flow"); flowPage(true); }
     if(rp) ripaBind(book, renderGen, rpSheets);
     else bindLangSwitch(root);
     var backEl = root.querySelector(".ic-back");
