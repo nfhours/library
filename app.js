@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "232";
+  var APP_VER = "233";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -411,6 +411,8 @@
   // flowPage — страница эмблемы Альчато: класс ic-flow-page на html (тёмные html/body, бумага на контейнере содержимого, см. app.css) и
   // <meta name="theme-color"> цвета шапки (#16130f); при уходе возвращается прежнее значение (тега не было — убирается).
   var flowTheme = null;
+  // flowOn — включить схему «шапка уезжает нативно» на только что отрисованной странице: .ic-stack-flow на #ic-stack + flowPage(true).
+  function flowOn(){ var st = document.getElementById("ic-stack"); if(st) st.classList.add("ic-stack-flow"); flowPage(true); }
   function flowPage(on){
     var h = document.documentElement; h.classList.toggle("ic-flow-page", !!on);
     var m = document.querySelector('meta[name="theme-color"]');
@@ -2952,8 +2954,9 @@
       if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); ripaOpen(book, a.getAttribute("data-id"), ""); }
     }); });
     state.scroll = 0;
+    var flow = isRipa(book); if(flow) flowOn();   // Рипа: шапка уезжает нативно (HANDOFF, раздел 10)
     if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
-    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
+    if(!flow) installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
     nudgeRepaint();
   }
 
@@ -3189,6 +3192,7 @@
 
   function renderCard(book, it){
     var rp = isRpLayout(book), aud = isAud(book), alc = isAlc(book), keepRp = (langKeep && langKeep.hash === location.hash) ? langKeep : null;
+    var flow = alc || isRipa(book);   // «шапка уезжает нативно»: Альчато и Рипа (HANDOFF, раздел 10)
     var s=alc ? book.items : seq(book), i=s.indexOf(it);
     if(i<0){ s=book.items; i=it.ord; }
     var prev=s[i-1], next=s[i+1];
@@ -3296,7 +3300,7 @@
         '</div>')+
       '</div>'+(rp ? '</div>' : "");
 
-    if(alc){ var stf = document.getElementById("ic-stack"); if(stf) stf.classList.add("ic-stack-flow"); flowPage(true); }
+    if(flow) flowOn();
     if(rp) ripaBind(book, renderGen, rpSheets);
     else bindLangSwitch(root);
     var backEl = root.querySelector(".ic-back");
@@ -3325,7 +3329,7 @@
         });
       }
       function setVis(){ var st0 = document.getElementById("ic-stack"); if(!st0) return;
-        if(alc){ // страница эмблемы: шапка и меню — часть страницы, .ic-stack без своего блока (display:contents)
+        if(flow){ // шапка и меню — часть страницы, .ic-stack без своего блока (display:contents)
           var hh = 0, bt = document.getElementById("ic-booktabs"); Array.prototype.forEach.call(st0.children, function(c){ hh += c.offsetHeight; });
           root.style.setProperty("--ic-stack-full", hh+"px"); return; }
         root.style.setProperty("--ic-stack-full", Math.round(st0.getBoundingClientRect().height)+"px"); }
@@ -3339,7 +3343,7 @@
       else if(ripaHl && ripaHl.id===it.id) ripaPlace(book, it, gen);
       else { toTop(); ripaHl = null; }
       // страница эмблемы Альчато: шапка и меню книги — часть страницы (нативная прокрутка), строка раздела sticky; скрипта прятания нет
-      if(!alc) installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
+      if(!flow) installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
       nudgeRepaint();
       return;
     }
@@ -5164,12 +5168,12 @@
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("bkTabText"))+'</h1></header>'+
           tocPartsHtml(book, chap, null)+
         '</div>';
+      flowOn();   // шапка уезжает нативно (HANDOFF, раздел 10)
       bindLangSwitch(root);
       bindBookBack(root);
       bindBookSearchSheet(root, book, gen, []);
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       state.scroll = 0; restoreOrTop(gen);
-      installBookHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
   }
@@ -5208,6 +5212,7 @@
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmGallery"))+'</h1></header>'+
           html+
         '</div>';
+      flowOn();   // шапка уезжает нативно (HANDOFF, раздел 10)
       bindLangSwitch(root);
       bindBookBack(root);
       bindBookSearchSheet(root, book, gen, []);
@@ -5221,7 +5226,6 @@
         }
       }); });
       state.scroll = 0; restoreOrTop(gen);
-      installBookHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
   }

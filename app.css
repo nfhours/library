@@ -61,6 +61,18 @@
 @media (max-width:620px), (max-height:500px) and (orientation:landscape){
   .ic-ch-outer{padding:0}
 }
+/* Полосы шапки — на всю ширину экрана, содержимое по центру прежней ширины (iPad, широкие окна): .ic-ch-outer не ограничивает ширину
+   строку раздела (.ic-rbar), её тёмный фон идёт от края до края, а капсула (.ic-rbar-row) и шторки стоят там же, где стояли
+   (капсула — не шире 1060px, шторки — 1080px по центру), колонка .ic-wrap та же. Телефон (≤620px) не меняется. */
+.ic-ch-outer{max-width:none}
+.ic-ch-outer > .ic-rbar{margin-left:-20px;margin-right:-20px;padding-left:max(calc(30px + env(safe-area-inset-left)),calc((100% - 1020px) / 2));padding-right:max(calc(30px + env(safe-area-inset-right)),calc((100% - 1020px) / 2))}
+.ic-ch-outer .ic-rb-sheet{left:max(20px,calc((100% - 1080px) / 2));right:max(20px,calc((100% - 1080px) / 2))}
+.ic-stack-flow .ic-ch-outer > .ic-rbar{margin-left:0;margin-right:0;padding-left:max(calc(30px + env(safe-area-inset-left)),calc((100% - 1060px) / 2));padding-right:max(calc(30px + env(safe-area-inset-right)),calc((100% - 1060px) / 2))}   /* страница эмблемы: .ic-ch-outer — display:contents, ширина = экран */
+@media (max-width:620px), (max-height:500px) and (orientation:landscape){
+  .ic-stack-flow .ic-ch-outer > .ic-rbar{padding-left:calc(10px + env(safe-area-inset-left));padding-right:calc(10px + env(safe-area-inset-right))}
+  .ic-ch-outer > .ic-rbar{margin-left:0;margin-right:0;padding-left:calc(10px + env(safe-area-inset-left));padding-right:calc(10px + env(safe-area-inset-right))}
+  .ic-ch-outer .ic-rb-sheet{left:0;right:0}
+}
 
 /* Указатель/имена теперь используют ТОТ ЖЕ .ic-ch-outer, что панель чтения
    главы (капсула .ic-rbar/.ic-rbar-row, см. тот же класс выше) — отдельная
