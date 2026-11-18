@@ -1099,7 +1099,7 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
   font:inherit;font-size:1.2em;font-weight:700;line-height:1}
 .ic-qm::after{content:"";position:absolute;inset:-.45em -.4em}
 .ic-qm[aria-expanded="true"]{background:var(--accent-soft)}
-.ic-qm-pop{position:absolute;z-index:100000;background:var(--sheet);border:1px solid var(--rule);border-radius:3px;padding:12px 16px;
+.ic-qm-pop{min-height:0;position:absolute;z-index:100000;background:var(--sheet);border:1px solid var(--rule);border-radius:3px;padding:12px 16px;
   box-shadow:0 14px 32px -10px rgba(70,46,20,.45);font-size:16px;line-height:1.5;color:var(--ink)}
 .ic-qm-pop p{font-size:1em;margin:0}
 
