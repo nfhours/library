@@ -5,7 +5,7 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
 (async()=>{ const br=await webkit.launch(), ctx=await br.newContext({...devices['iPhone 13']}), p=await ctx.newPage(), errs=[];
  p.on('pageerror',e=>errs.push(e.message)); p.on('console',m=>{ if(m.type()==='error'&&!/access control|Load failed|cancelled/i.test(m.text())) errs.push(m.text()); });
  for(const lang of ['ru','en','fr']){
-  await p.goto(BASE+'#/'); await p.evaluate(l=>{localStorage.setItem('ic-lang',l);sessionStorage.clear();},lang); await p.reload(); await W(2500);
+  await p.goto(BASE+'#/'); await p.evaluate(l=>{localStorage.setItem('ic-lang',l);sessionStorage.clear();},lang); await p.reload(); await W(2500); await p.waitForFunction(()=>document.querySelectorAll('.ic-lib-row').length>=7,null,{timeout:40000}).catch(()=>{}); await W(4000);
   const r=await p.evaluate(()=>({h1:document.querySelectorAll('h1').length, rows:[...document.querySelectorAll('.ic-lib-row')].map(r=>({s:r.dataset.slug,wip:r.classList.contains('ic-lib-wip'),h:r.getBoundingClientRect().height,desc:!!r.querySelector('.ic-lib-desc'),tag:!!r.querySelector('.ic-lib-tag'),tw:r.querySelector('img').getBoundingClientRect().width,th:r.querySelector('img').getBoundingClientRect().height,loaded:r.querySelector('img').naturalWidth,more:!!document.querySelector('.ic-book-more')})), sect:(document.querySelector('.ic-lib-sect')||{}).textContent, sub:(document.querySelector('.ic-lib-sub')||{}).textContent}));
   ok(lang+' no second h1',r.h1===0,'h1='+r.h1); ok(lang+' order',r.rows.map(x=>x.s).join()==='cartari,iconologie,alciato,audran,verrien,grosson,ripa1603');
   ok(lang+' ready rows have desc, wip have tag, no desc',r.rows.every(x=>x.wip?(x.tag&&!x.desc):(x.desc&&!x.tag)));
@@ -17,12 +17,12 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   ok(lang+' short wip titles',tx.slice(4).every(x=>x.t.length<=32),tx.slice(4).map(x=>x.t).join(' | '));
   ok(lang+' rows ≥44px',r.rows.every(x=>x.h>=44)); ok(lang+' section',!!r.sect,r.sect); ok(lang+' no «+ Подробнее»',!r.rows[0].more);
  }
- await p.goto(BASE+'#/'); await W(1500);
+ await p.goto(BASE+'#/'); await W(1500); await p.waitForFunction(()=>document.querySelectorAll('.ic-lib-row').length>=7,null,{timeout:40000}).catch(()=>{});
  await p.tap('.ic-lib-row[data-slug="iconologie"]'); await W(2500); ok('tap row opens Ripa cover',/#\/iconologie/.test(await p.evaluate(()=>location.hash)),await p.evaluate(()=>location.hash));
- await p.goto(BASE+'#/'); await W(1500); await p.tap('.ic-lib-row[data-slug="cartari"]'); await W(3500); const h=await p.evaluate(()=>location.hash); ok('tap row opens Cartari cover',/#\/cartari/.test(h),h);
+ await p.goto(BASE+'#/'); await W(1500); await p.waitForFunction(()=>document.querySelectorAll('.ic-lib-row').length>=7,null,{timeout:40000}).catch(()=>{}); await p.tap('.ic-lib-row[data-slug="cartari"]'); await W(3500); const h=await p.evaluate(()=>location.hash); ok('tap row opens Cartari cover',/#\/cartari/.test(h),h);
  await p.evaluate(()=>{localStorage.setItem('ic-lang','ru')}); await p.reload(); await W(3000); await p.screenshot({path:path.join(OUT,'home-cartari-cover.png')});
- await p.goto(BASE+'#/'); await W(1500); const hb=await p.evaluate(()=>location.hash); await p.tap('.ic-lib-row[data-slug="verrien"]'); await W(800); ok('wip row not clickable',(await p.evaluate(()=>location.hash))===hb);
- await p.goto(BASE+'#/'); await W(1500); await p.tap('.ic-lib-row[data-slug="alciato"]'); await W(3000); { const a=await p.evaluate(()=>({h:location.hash,tiles:document.querySelectorAll('.ic-home-tile').length})); ok('tap row opens Alciato cover',/#\/alciato$/.test(a.h)&&a.tiles===2,JSON.stringify(a)); }
+ await p.goto(BASE+'#/'); await W(1500); await p.waitForFunction(()=>document.querySelectorAll('.ic-lib-row').length>=7,null,{timeout:40000}).catch(()=>{}); const hb=await p.evaluate(()=>location.hash); await p.tap('.ic-lib-row[data-slug="verrien"]'); await W(800); ok('wip row not clickable',(await p.evaluate(()=>location.hash))===hb);
+ await p.goto(BASE+'#/'); await W(1500); await p.waitForFunction(()=>document.querySelectorAll('.ic-lib-row').length>=7,null,{timeout:40000}).catch(()=>{}); await p.tap('.ic-lib-row[data-slug="alciato"]'); await W(3000); { const a=await p.evaluate(()=>({h:location.hash,tiles:document.querySelectorAll('.ic-home-tile').length})); ok('tap row opens Alciato cover',/#\/alciato$/.test(a.h)&&a.tiles===2,JSON.stringify(a)); }
  for(const s of ['verrien','grosson']){ await p.goto(BASE+'#/'+s); await W(3000); ok('direct link '+s,(await p.evaluate(()=>document.querySelectorAll('.ic-row-item, .ic-plate-row, .ic-row, .ic-list *').length))>0, await p.evaluate(()=>location.hash)); }
  await p.goto(BASE+'#/'); await W(2500);
  const ex=await p.evaluate(async()=>{ const r=await fetch('https://nfhours.github.io/ripa-1603/ping.json',{cache:'no-cache'}); const rows=[...document.querySelectorAll('.ic-lib-row')]; const rp=rows.find(x=>x.dataset.slug==='ripa1603'); return {ping:r.ok?await r.json():null, src:rp&&rp.querySelector('img').src, loaded:rp&&rp.querySelector('img').naturalWidth}; });

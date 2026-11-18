@@ -1982,9 +1982,9 @@ html.ic-hs-lock{overflow:hidden !important}
 /* нажатие: без изменения размера и формы — половина чуть светлеет заливкой */
 .ic .ic-mot-cap a:active{background:rgba(236,229,212,.07)!important;transform:none!important}
 .ic .ic-mot-cap a.on:active{background:rgba(236,229,212,.09)!important;transform:none!important}
-/* призраки плавного перехода «Книги ⇄ Мотивы»: только растворение (opacity) */
-.ic .ic-mot-ghost{position:fixed;overflow:hidden;z-index:8;pointer-events:none;will-change:opacity}
-.ic .ic-mot-gin{position:absolute;left:0;top:0;width:100%;height:100%}
+/* призраки плавного перехода «Книги ⇄ Мотивы»: растворение + сдвиг вниз на 22px + blur 5px (Web Animations; после конца слои удаляются) */
+.ic .ic-mot-ghost{position:fixed;overflow:hidden;z-index:8;pointer-events:none;will-change:opacity,filter}
+.ic .ic-mot-gin{position:absolute;left:0;top:0;width:100%;height:100%;will-change:transform}
 /* строка разделов «Мотивов»: выезжает вниз из-под переключателя в обрезающем контейнере; линия над ней (затухает к краям) и мягкая тень под ней */
 .ic .ic-mot-rwrap{position:relative}
 .ic .ic-mot-rclip{overflow:hidden}

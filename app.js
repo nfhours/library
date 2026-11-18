@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "246";
+  var APP_VER = "247";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3122,7 +3122,7 @@
   /* ---------- плавный переход «Книги ⇄ Мотивы» ----------
      Только по нажатию на переключатель (прямой заход, «назад/вперёд» и обновление — без анимации). Уходящая и входящая страницы —
      «призраки» (копии видимой части), лежат друг на друге под шапкой в области высотой с экран: уходящая сдвигается на 70 px и тает,
-     входящая проявляется; только прозрачность. Строка разделов «Мотивов» выезжает вниз из-под переключателя (translateY) и уезжает обратно; всё — Web Animations.
+     входящая проявляется; обе чуть смещаются вниз с размытием (blur). Строка разделов «Мотивов» выезжает вниз из-под переключателя (translateY) и уезжает обратно; всё — Web Animations.
      Тёмный фон строки разделов — отдельный слой, он не сдвигается, только проявляется. Шапка (Библиотека, языки, переключатель) не трогается. */
   var motNav = null, motHomeY = 0, libMetas = null;
   var MOT_EASE = "cubic-bezier(.65,0,.35,1)", MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
@@ -3200,8 +3200,10 @@
     n.layers.forEach(function(el){ if(el) root.appendChild(el); });
     motKeep = n.layers;
     var opt = {duration:dur, easing:MOT_EASE, fill:"both"}, last;
-    out.g.animate([{opacity:1},{opacity:0}], opt);
-    last = inc.g.animate([{opacity:0},{opacity:1}], opt);
+    // страницы: вниз вместе со строкой разделов (всегда вниз), размытие CSS blur() и растворение; слои высотой в экран
+    function ty(node, a, b){ node.firstChild.animate([{transform:"translate3d(0,"+a+"px,0)"},{transform:"translate3d(0,"+b+"px,0)"}], opt); }
+    ty(out.g, 0, 22); out.g.animate([{opacity:1, filter:"blur(0px)"},{opacity:0, filter:"blur(5px)"}], opt);
+    ty(inc.g, -22, 0); last = inc.g.animate([{opacity:0, filter:"blur(5px)"},{opacity:1, filter:"blur(0px)"}], opt);
     if(out.strip) motStripAnim(out.strip, "out", opt);
     var rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap");
     if(rw) motStripAnim(rw, "in", {duration:dur, easing:MOT_EASE, fill:"backwards"});
