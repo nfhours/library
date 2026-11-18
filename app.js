@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "248";
+  var APP_VER = "249";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2298,7 +2298,7 @@
         });
         var gen = renderGen;
         root.innerHTML =
-          (forcedBook ? "" : '<div class="ic-stack" id="ic-stack">'+motTop("books")+'</div>')+
+          (forcedBook ? "" : '<div class="ic-stack ic-mot-stack" id="ic-stack">'+motTop("books")+'</div>')+
           '<div class="ic-wrap ic-lib">'+
             '<div class="ic-top-row">'+langSwitch()+'</div>'+
             '<p class="ic-sub ic-lib-sub">'+t("libSub")+'</p>'+
@@ -3120,10 +3120,10 @@
   }
   function motShell(strip){
     // строка разделов: обрезающий контейнер (из него она выезжает вниз из-под переключателя), линия над ней и мягкая тень под ней
-    return '<div class="ic-stack" id="ic-stack">'+motTop("motifs")+(strip ? '<div class="ic-mot-rwrap"><div class="ic-mot-rclip">'+ripaBarWrap(strip)+'</div><i class="ic-mot-hr"></i><i class="ic-mot-sh"></i></div>' : "")+'</div>';
+    return '<div class="ic-stack ic-mot-stack" id="ic-stack">'+motTop("motifs")+(strip ? '<div class="ic-mot-rwrap"><div class="ic-mot-rclip">'+ripaBarWrap(strip)+'</div><i class="ic-mot-hr"></i><i class="ic-mot-sh"></i></div>' : "")+'</div>';
   }
   // Кадр на время загрузки при переходе: только шапка с переключателем (старая страница держится «призраком» поверх)
-  function motFrame(){ return '<div class="ic-stack" id="ic-stack">'+motTop(motNav.to ? "motifs" : "books")+'</div>'; }
+  function motFrame(){ return '<div class="ic-stack ic-mot-stack" id="ic-stack">'+motTop(motNav.to ? "motifs" : "books")+'</div>'; }
 
   /* ---------- плавный переход «Книги ⇄ Мотивы» ----------
      Только по нажатию на переключатель (прямой заход, «назад/вперёд» и обновление — без анимации). Уходящая и входящая страницы —
@@ -3208,8 +3208,8 @@
     var opt = {duration:dur, easing:MOT_EASE, fill:"both"}, last;
     // страницы: вниз вместе со строкой разделов (всегда вниз), размытие CSS blur() и растворение; слои высотой в экран
     function ty(node, a, b){ node.firstChild.animate([{transform:"translate3d(0,"+a+"px,0)"},{transform:"translate3d(0,"+b+"px,0)"}], opt); }
-    ty(out.g, 0, 22); out.g.animate([{opacity:1, filter:"blur(0px)"},{opacity:0, filter:"blur(5px)"}], opt);
-    ty(inc.g, -22, 0); last = inc.g.animate([{opacity:0, filter:"blur(5px)"},{opacity:1, filter:"blur(0px)"}], opt);
+    ty(out.g, 0, 22); out.g.animate([{opacity:1, filter:"blur(0px)"},{opacity:.5, filter:"blur(3px)", offset:.5},{opacity:0, filter:"blur(0px)"}], opt);
+    ty(inc.g, -22, 0); last = inc.g.animate([{opacity:0, filter:"blur(0px)"},{opacity:.5, filter:"blur(3px)", offset:.5},{opacity:1, filter:"blur(0px)"}], opt);
     if(out.strip) motStripAnim(out.strip, "out", opt);
     var rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap");
     if(rw) motStripAnim(rw, "in", {duration:dur, easing:MOT_EASE, fill:"backwards"});
@@ -3305,7 +3305,13 @@
       });
       return html;
     }
+    var keepL = 0, smooth = false;
+    function maskSync(){   // мягкое затухание краёв прокручиваемой строки вкладок: слева — только если прокручено от начала, справа — только если есть что листать
+      var l = tabsEl.scrollLeft > 1 ? 24 : 0, r = tabsEl.scrollLeft + tabsEl.clientWidth < tabsEl.scrollWidth - 1 ? 24 : 0;
+      tabsEl.style.setProperty("--ml", l+"px"); tabsEl.style.setProperty("--mr", r+"px");
+    }
     function fill(){
+      keepL = tabsEl.scrollLeft;
       var nq = norm(motUi.q.trim()), words = nq ? nq.split(/\s+/) : [];
       var have = {}; ix.list.forEach(function(n){ have[n.category] = 1; });
       var cats = MOT_CATS.filter(function(c){ return have[c]; });
@@ -3313,8 +3319,14 @@
       tabsEl.innerHTML = [["all", t("motCatAll")]].concat(cats.map(function(c){ return [c, t(MOT_CAT_KEY[c])]; })).map(function(x){
         return '<button type="button" class="ic-mot-tab" role="tab" data-cat="'+esc(x[0])+'" aria-selected="'+(motUi.cat===x[0])+'" aria-pressed="'+(motUi.cat===x[0])+'">'+esc(x[1])+'</button>';
       }).join("");
+      tabsEl.scrollLeft = keepL;
       var on = tabsEl.querySelector('[aria-pressed="true"]');
-      if(on && tabsEl.scrollWidth > tabsEl.clientWidth) tabsEl.scrollLeft = Math.max(0, on.offsetLeft - 12);
+      if(on && tabsEl.scrollWidth > tabsEl.clientWidth){
+        var tl = on.getBoundingClientRect().left - tabsEl.getBoundingClientRect().left + tabsEl.scrollLeft;
+        var want = Math.max(0, Math.min(tabsEl.scrollWidth - tabsEl.clientWidth, tl - (tabsEl.clientWidth - on.offsetWidth)/2));
+        if(smooth && tabsEl.scrollTo) tabsEl.scrollTo({left:want, behavior:"smooth"}); else tabsEl.scrollLeft = want;
+      }
+      maskSync();
       var html = "";
       if(words.length){
         var S = ix.list.filter(function(n){ return words.every(function(w){ return wsFind(norm(motName(n)), w) > -1; }); }).sort(motSort);
@@ -3343,7 +3355,8 @@
     bar.querySelector(".ic-mot-findx").addEventListener("click", function(){ motUi.q = ""; findIn.value = ""; setFind(false); fill(); window.scrollTo(0,0); });
     findIn.addEventListener("input", function(){ motUi.q = findIn.value; fill(); });
     findIn.addEventListener("keydown", function(e){ if(e.key==="Enter" || e.key==="Escape"){ e.preventDefault(); findIn.blur(); } });
-    function pickCat(c){ motUi.cat = c; fill(); window.scrollTo(0,0); }
+    function pickCat(c){ motUi.cat = c; smooth = true; fill(); smooth = false; window.scrollTo(0,0); }
+    tabsEl.addEventListener("scroll", maskSync, {passive:true});
     tabsEl.addEventListener("click", function(e){ var b = e.target.closest("[data-cat]"); if(b) pickCat(b.getAttribute("data-cat")); });
     body.addEventListener("click", function(e){
       var b = e.target.closest(".ic-mot-allbtn"); if(b){ pickCat(b.getAttribute("data-cat")); return; }

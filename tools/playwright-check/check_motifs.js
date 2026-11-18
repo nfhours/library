@@ -32,6 +32,18 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   const want=['Все','Предметы','Оружие','Животные','Растения','Небесное','Позы и жесты','Черты фигуры','Места и постройки','Персонажи'];
   ok(T+'вкладки разделов по порядку, выбрана «Все»',tabs.map(x=>x.t).join()===want.join()&&tabs[0].on==='true'&&tabs.slice(1).every(x=>x.on==='false'),tabs.map(x=>x.t).join());
   ok(T+'вкладки листаются вбок',await p.$eval('.ic-mot-tabs',e=>getComputedStyle(e).overflowX==='auto'));
+  if(vp.dev){ // маска строки вкладок: у краёв затухание, слева — только когда прокручено от начала, справа — только когда есть что листать; лупа не затухает
+    const mk=()=>p.evaluate(()=>{ const t=document.querySelector('.ic-mot-tabs'), c=getComputedStyle(t); return {ml:t.style.getPropertyValue('--ml'),mr:t.style.getPropertyValue('--mr'),mask:(c.webkitMaskImage||c.maskImage||''),sl:Math.round(t.scrollLeft),over:t.scrollWidth>t.clientWidth,loupeIn:!!t.querySelector('.ic-mot-loupe')}; });
+    let m0=await mk(); ok(T+'маска вкладок: в начале списка слева затухания нет, справа есть (24px)',m0.over&&m0.ml==='0px'&&m0.mr==='24px'&&/linear-gradient/.test(m0.mask)&&!m0.loupeIn,JSON.stringify(m0));
+    await p.evaluate(()=>{ document.querySelector('.ic-mot-tabs').scrollLeft=120; }); await W(300); let m1=await mk(); ok(T+'маска вкладок: в середине затухание с обеих сторон',m1.ml==='24px'&&m1.mr==='24px',JSON.stringify(m1));
+    await p.evaluate(()=>{ const t=document.querySelector('.ic-mot-tabs'); t.scrollLeft=t.scrollWidth; }); await W(300); let m2=await mk(); ok(T+'маска вкладок: в конце справа затухания нет, слева есть',m2.ml==='24px'&&m2.mr==='0px',JSON.stringify(m2));
+    const edge=await p.evaluate(()=>{ const t=document.querySelector('.ic-mot-tabs'), r=t.getBoundingClientRect(), l=document.querySelector('.ic-mot-loupe').getBoundingClientRect(); return {gap:Math.round(l.left-r.right)}; }); ok(T+'лупа отдельно от прокручиваемой области (не внутри маски)',edge.gap>=-1,JSON.stringify(edge));
+    await p.evaluate(()=>{ document.querySelector('.ic-mot-tabs').scrollLeft=0; }); await W(300);
+    await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="персонаж"]').click()); await W(900);
+    const vis=await p.evaluate(()=>{ const t=document.querySelector('.ic-mot-tabs'), r=t.getBoundingClientRect(), b=document.querySelector('.ic-mot-tab[aria-pressed="true"]').getBoundingClientRect(); return {sl:Math.round(t.scrollLeft),inside:b.left>=r.left-1&&b.right<=r.right+1,txt:document.querySelector('.ic-mot-tab[aria-pressed="true"]').textContent}; });
+    ok(T+'выбор дальней вкладки плавно прокручивает её в видимую область',vis.inside&&vis.sl>50,JSON.stringify(vis));
+    await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="all"]').click()); await W(900);
+  }
   ok(T+'справа лупа',await p.evaluate(()=>{ const l=document.querySelector('.ic-mot-loupe').getBoundingClientRect(), t=document.querySelector('.ic-mot-tabs').getBoundingClientRect(); return l.left>=t.right-1 && l.height>=38; }));
   ok(T+'фильтра книг нет (файл мотивов у одной книги)',(await p.$$('.ic-mot-books')).length===0);
   // каталог
