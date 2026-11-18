@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "244";
+  var APP_VER = "245";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -36,6 +36,7 @@
         var st = root.querySelector(":scope > .ic-stack");
         if(st) st.insertBefore(bb, st.firstChild);
         if(motKeep) motKeep.forEach(function(el){ if(el) root.appendChild(el); });
+        if(motNav && motNav.pill) motPillResume();
       }});
   })();
   root.className = "ic";
@@ -2282,9 +2283,8 @@
   function renderLibraryHome(){
     root.innerHTML = (motNav && !forcedBook) ? motFrame() : loadingHtml("", {});
     loadLibrary(function(list){
-      Promise.all(list.map(function(b){
-        return fetch(bookDir(b)+"book.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
-      })).then(function(metas){
+      var build = function(metas){
+        libMetas = metas;
         var ready = [], wip = [];
         list.forEach(function(b,i){
           if(!metas[i]) return;
@@ -2310,7 +2310,12 @@
           c.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); go(); } });
         });
         nudgeRepaint();
-      });
+        if(!forcedBook) motWarm();
+      };
+      if(libMetas && libMetas.length === list.length) build(libMetas);
+      else Promise.all(list.map(function(b){
+        return fetch(bookDir(b)+"book.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+      })).then(build);
     });
   }
 
@@ -3101,7 +3106,7 @@
   }
   // Шапка «Мотивов» и главной библиотеки: переключатель «Книги | Мотивы» (одна капсула, подложка выбранной половины переезжает)
   function motTop(active){
-    var pos = (motNav && !motNav.started) ? motNav.from : (active === "motifs" ? 1 : 0);
+    var pos = motNav ? motNav.to : (active === "motifs" ? 1 : 0);
     return '<nav class="ic-booktabs ic-mot-bt" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
       '<div class="ic-mot-cap" data-pos="'+pos+'"><span class="ic-mot-pill" aria-hidden="true"><i></i></span>'+
         '<a href="#/"'+(pos === 0 ? ' class="on"' : "")+'><span>'+esc(t("motTabBooks"))+'</span></a>'+
@@ -3116,22 +3121,27 @@
   /* ---------- плавный переход «Книги ⇄ Мотивы» ----------
      Только по нажатию на переключатель (прямой заход, «назад/вперёд» и обновление — без анимации). Уходящая и входящая страницы —
      «призраки» (копии видимой части), лежат друг на друге под шапкой в области высотой с экран: уходящая сдвигается на 70 px и тает,
-     входящая приходит с другой стороны; горизонтальное размытие — SVG-фильтр feGaussianBlur «X 0» на самом призраке (не на длинной странице).
+     входящая приходит с другой стороны; размытие — CSS blur() на самом призраке высотой в экран (не на длинной странице); всё — Web Animations.
      Тёмный фон строки разделов — отдельный слой, он не сдвигается, только проявляется. Шапка (Библиотека, языки, переключатель) не трогается. */
-  var motNav = null, motHomeY = 0, motFx = null;
-  function motFilters(){
-    if(motFx) return motFx;
-    var NS = "http://www.w3.org/2000/svg", svg = document.createElementNS(NS, "svg");
-    svg.setAttribute("width","0"); svg.setAttribute("height","0"); svg.setAttribute("aria-hidden","true"); svg.style.cssText = "position:absolute;width:0;height:0;pointer-events:none";
-    var out = {};
-    ["out","in"].forEach(function(k){
-      var f = document.createElementNS(NS, "filter"), b = document.createElementNS(NS, "feGaussianBlur");
-      f.setAttribute("id","ic-mb-"+k); f.setAttribute("x","-10%"); f.setAttribute("y","0"); f.setAttribute("width","120%"); f.setAttribute("height","100%");
-      f.setAttribute("color-interpolation-filters","sRGB"); b.setAttribute("stdDeviation","0 0"); f.appendChild(b); svg.appendChild(f); out[k] = b;
-    });
-    document.body.appendChild(svg); return (motFx = out);
+  var motNav = null, motHomeY = 0, libMetas = null;
+  var MOT_EASE = "cubic-bezier(.215,.61,.355,1)", MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
+  // подложка и подписи переключателя: Web Animations (переживают пересборку разметки — после неё анимация запускается заново с нужного места)
+  function motPillAnim(nav, to, elapsed){
+    var cap = nav && nav.querySelector(".ic-mot-cap"); if(!cap) return;
+    var dur = (window.__icMotMs || 400), el = Math.max(0, elapsed || 0);
+    cap.setAttribute("data-pos", to);
+    var pill = cap.querySelector(".ic-mot-pill"), as = cap.querySelectorAll("a");
+    [].forEach.call(as, function(a, i){ a.classList.toggle("on", i === to); });
+    if(el >= dur || !pill.animate) return;
+    function go(node, frames){ var an = node.animate(frames, {duration:dur, easing:MOT_EASE}); an.currentTime = el; }
+    go(pill, [{transform:"translate3d("+(143*(1-to))+"px,0,0)"}, {transform:"translate3d("+(143*to)+"px,0,0)"}]);
+    [].forEach.call(as, function(a, i){ go(a, i === to ? [{color:MOT_DIM},{color:MOT_LIT}] : [{color:MOT_LIT},{color:MOT_DIM}]); });
   }
-  // призрак видимой части страницы: слой с содержимым (сдвигается и размывается) + отдельный неподвижный тёмный фон строки разделов
+  function motPillResume(){
+    if(!motNav || !motNav.pill) return;
+    motPillAnim(document.getElementById("ic-booktabs"), motNav.to, performance.now() - motNav.t0);
+  }
+  // призрак видимой части страницы: слой с содержимым (сдвигается) + отдельный неподвижный тёмный фон строки разделов
   function motGhost(){
     var bt = document.getElementById("ic-booktabs"); if(!bt) return null;
     var T = Math.round(bt.getBoundingClientRect().bottom), PAD = 80, vw = document.documentElement.clientWidth, vh = window.innerHeight;
@@ -3142,6 +3152,12 @@
     var bg = null;
     function put(src, r, extra){
       var c = src.cloneNode(true); c.removeAttribute("id"); [].forEach.call(c.querySelectorAll("[id]"), function(x){ x.removeAttribute("id"); });
+      // вне экрана копия не нужна: строки и блоки за границей видимой области остаются пустыми заготовками той же высоты (быстрее клонируется и рисуется)
+      var so = src.querySelectorAll("li, section"), co = c.querySelectorAll("li, section");
+      if(so.length === co.length) for(var i = 0; i < so.length; i++){
+        var q = so[i].getBoundingClientRect();
+        if(q.bottom < T - 120 || q.top > vh + 120){ co[i].style.height = q.height+"px"; co[i].style.overflow = "hidden"; co[i].innerHTML = ""; }
+      }
       c.style.position = "absolute"; c.style.margin = "0"; c.style.left = (r.left+PAD)+"px"; c.style.top = (r.top-T)+"px"; c.style.width = r.width+"px";
       if(extra) extra(c); inn.appendChild(c);
     }
@@ -3164,50 +3180,40 @@
     var n = motNav; if(!n || n.started) return;
     if(gen !== renderGen || to !== n.to){ motNavEnd(); return; }
     n.started = true;
+    // прокрутка входящей страницы выставляется ДО того, как она станет видимой
     window.scrollTo(0, n.to ? 0 : n.hy);
     if(n.to) delete namesUi.pos[location.hash];
     var inc = n.reduce ? null : motGhost(), out = n.out;
-    var cap = root.querySelector(":scope > .ic-stack .ic-mot-cap");
-    if(cap){
-      void cap.offsetWidth;   // подложка стартует со старой половины
-      cap.setAttribute("data-pos", n.to);
-      [].forEach.call(cap.querySelectorAll("a"), function(a, i){ a.classList.toggle("on", i === n.to); });
-    }
-    if(!inc || !out){ motNavEnd(); return; }
-    var fx = motFilters(), dx = n.dir*70;
+    if(!inc || !out || !inc.g.animate){ motNavEnd(); return; }
+    var dx = n.dir*60, dur = window.__icMotMs || 420;
     n.hidden = inc.real; inc.real.forEach(function(el){ if(el) el.style.visibility = "hidden"; });
     n.layers = [out.bg, out.g, inc.bg, inc.g];
     n.layers.forEach(function(el){ if(el) root.appendChild(el); });
     motKeep = n.layers;
-    out.g.style.filter = "url(#ic-mb-out)"; inc.g.style.filter = "url(#ic-mb-in)";
-    function set(k){
-      var e = 1 - Math.pow(1 - k, 3);
-      out.inn.style.transform = "translate3d("+(dx*e).toFixed(2)+"px,0,0)"; out.g.style.opacity = String(1-e); if(out.bg) out.bg.style.opacity = String(1-e);
-      inc.inn.style.transform = "translate3d("+(-dx*(1-e)).toFixed(2)+"px,0,0)"; inc.g.style.opacity = String(e); if(inc.bg) inc.bg.style.opacity = String(e);
-      fx.out.setAttribute("stdDeviation", (14*e).toFixed(2)+" 0"); fx["in"].setAttribute("stdDeviation", (14*(1-e)).toFixed(2)+" 0");
-    }
-    set(0);
-    var t0 = null;
-    (function frame(ts){
-      if(motNav !== n) return;
-      if(t0 === null) t0 = ts;
-      var k = Math.min(1, (ts - t0)/(window.__icMotMs || 420));
-      set(k);
-      if(k < 1) requestAnimationFrame(frame);
-      else { n.layers.forEach(function(el){ if(el) el.style.filter = ""; }); motNavEnd(); }
-    })(performance.now());
+    var opt = {duration:dur, easing:MOT_EASE, fill:"both"}, last;
+    function mv(node, a, b){ return node.animate([{transform:"translate3d("+a+"px,0,0)"},{transform:"translate3d("+b+"px,0,0)"}], opt); }
+    function fade(node, a, b, ba, bb){ return node.animate([{opacity:a, filter:"blur("+ba+"px)"},{opacity:b, filter:"blur("+bb+"px)"}], opt); }
+    mv(out.inn, 0, dx); fade(out.g, 1, 0, 0, 6);
+    mv(inc.inn, -dx, 0); last = fade(inc.g, 0, 1, 6, 0);
+    if(out.bg) out.bg.animate([{opacity:1},{opacity:0}], opt);
+    if(inc.bg) inc.bg.animate([{opacity:0},{opacity:1}], opt);
+    var finished = false;
+    function fin(){ if(finished) return; finished = true; if(motNav === n) motNavEnd(); }
+    last.onfinish = fin; last.oncancel = fin;
+    setTimeout(fin, dur + 400);
   }
   root.addEventListener("click", function(e){
     var a = e.target.closest && e.target.closest(".ic-mot-cap a"); if(!a) return;
     if(e.metaKey || e.ctrlKey || e.shiftKey || e.button) return;
-    var cap = a.closest(".ic-mot-cap"), from = +cap.getAttribute("data-pos"), to = a.getAttribute("href") === "#/motifs" ? 1 : 0;
+    var nav = a.closest(".ic-booktabs"), cap = a.closest(".ic-mot-cap"), from = +cap.getAttribute("data-pos"), to = a.getAttribute("href") === "#/motifs" ? 1 : 0;
     if(from === to) return;                      // та же половина: обычный переход по ссылке (например, со страницы мотива в каталог)
     e.preventDefault();
     if(motNav) return;                           // переход уже идёт
     var reduce = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
     if(from === 0) motHomeY = window.scrollY;
     var out = reduce ? null : motGhost();
-    motNav = {from:from, to:to, dir: to ? -1 : 1, hy: motHomeY, reduce:reduce, out:out, started:false};
+    motNav = {from:from, to:to, dir: to ? -1 : 1, hy: motHomeY, reduce:reduce, out:out, started:false, pill:true, t0:performance.now()};
+    motPillAnim(nav, to, 0);                     // подложка стартует сразу, не дожидаясь страницы
     if(out){
       motNav.layers = [out.bg, out.g]; motNav.layers.forEach(function(el){ if(el) root.appendChild(el); });
       motKeep = motNav.layers;
@@ -3215,6 +3221,18 @@
     motNav.timer = setTimeout(motNavAbort, 5000);
     location.hash = a.getAttribute("href").replace(/^#/, "");
   });
+  // страницы готовятся заранее, в простое: переход стартует в тот же кадр, что и нажатие
+  function motWarm(){
+    var run = function(){
+      motLoad(function(){});
+      loadLibrary(function(list){
+        if(libMetas) return;
+        Promise.all(list.map(function(b){ return fetch(bookDir(b)+"book.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}); }))
+          .then(function(m){ if(!libMetas) libMetas = m; });
+      });
+    };
+    if(window.requestIdleCallback) requestIdleCallback(run, {timeout:1500}); else setTimeout(run, 400);
+  }
   function motNum(n){
     var L = state.lang;
     if(L === "ru"){ var a = n % 100, b = n % 10; return n+" "+((a > 10 && a < 15) ? "гравюр" : b === 1 ? "гравюра" : (b >= 2 && b <= 4) ? "гравюры" : "гравюр"); }
@@ -3233,8 +3251,8 @@
       if(gen !== renderGen) return;
       var cur = motSelect(p.mb);
       if(!MOT.books.length){ motNavAbort(); root.innerHTML = motShell("")+'<div class="ic-wrap ic-rp ic-mot"><div class="ic-top-row">'+langSwitch()+'</div><p class="ic-empty">'+esc(t("motNone"))+'</p></div>'; ripaBind(MOT_BOOK, gen, []); return; }
-      // нужные книги (названия статей, картинки)
-      var need = cur.sel.slice();
+      // нужные книги (названия статей, картинки) — только для страницы мотива; каталогу хватает данных мотивов
+      var need = p.mid ? cur.sel.slice() : [];
       (function next(){
         if(gen !== renderGen) return;
         var slug = need.shift();
@@ -3318,6 +3336,7 @@
     });
     fill();
     state.scroll = 0; if(motNav) motNavRun(gen, 1); else restoreOrTop(gen);
+    motWarm();
     if(motUi.find && !motUi.q.trim()) setFind(true);
     installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return document.activeElement === findIn; }});
     nudgeRepaint();
