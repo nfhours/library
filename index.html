@@ -18,13 +18,13 @@
 <style>
   html,body{margin:0;background:#ece5d4}
   .back-bar{
-    position:relative;z-index:10;height:52px;
+    position:sticky;top:0;z-index:10;height:52px;
     display:flex;align-items:center;justify-content:space-between;gap:20px;
     padding-inline:calc(20px + env(safe-area-inset-left)) calc(20px + env(safe-area-inset-right));
     box-sizing:border-box;
     background:#16130f;
     box-shadow:0 8px 24px -14px rgba(0,0,0,.5);
-    transition:height .2s ease;
+    transition:transform .3s ease, height .2s ease;
   }
   /* Компактная форма при малой высоте экрана (ландшафт телефона — например
      iPhone 13 844x390): без этого шапка+панель читалки (.ic-rbar, app.css)
@@ -39,6 +39,12 @@
     .back-bar-brand{font-size:17px}
     #back-bar-lang{gap:10px}
   }
+  /* Added by the Cartari chapter reader bar (app.js rbTick): slides this bar
+     away together with its own in-chapter nav bar on a scroll down, in sync,
+     so the two disappear and come back as one unit. transform only — this
+     bar is already position:sticky, so hiding it this way frees screen space
+     without reflowing anything underneath. */
+  .back-bar.ic-bb-hidden{transform:translateY(-100%)}
   /* .back-bar-fixed/.ic-booktabs-fixed — фикс мигания sticky при жесте по
      рейлу букв указателя/«Имён» (.ic-az-rail) через принудительный
      position:fixed — убран этим раундом вместе с .ic-rbar-tv (см. app.css):
@@ -80,6 +86,6 @@
 <body>
 <div class="back-bar"><span class="back-bar-brand" id="back-bar-brand"></span><span id="back-bar-lang"></span></div>
 <div id="iconologie" data-book="library" data-top="52px"></div>
-<script src="app.js?v=238"></script>
+<script src="app.js?v=239"></script>
 </body>
 </html>

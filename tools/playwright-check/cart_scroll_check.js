@@ -11,7 +11,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   p.on('pageerror', e => { if (!bn(e.message)) errs.push('pageerror ' + e.message); }); p.on('console', m => { if (m.type() === 'error' && !bn(m.text())) errs.push(m.text()); });
   const fails = [];
   const view = () => p.evaluate(() => { const b = document.querySelector('.ic-booktabs'), r = document.querySelector('.ic-rbar'); if (!b || !r) return 'no header/rbar'; const a = b.getBoundingClientRect(), c = r.getBoundingClientRect();
-    return (a.height > 30 && c.top >= 0 && c.top < 200 && c.height > 20) ? 'ok' : 'off-screen booktabs=' + Math.round(a.top) + ' rbar=' + Math.round(c.top); });   // шапка и меню уезжают нативно; строка раздела sticky top:0 всегда на экране
+    return (a.top >= -1 && a.top < 120 && a.height > 30 && c.top >= 0 && c.top < 200 && c.height > 20) ? 'ok' : 'off-screen booktabs=' + Math.round(a.top) + ' rbar=' + Math.round(c.top); });
   for (const [page, word] of [['index', 'аполлон'], ['names', 'юпитер'], ['index', 'zeus'], ['names', 'diana']]) {
     await p.goto(BASE + '#/cartari/' + page); await p.evaluate(() => sessionStorage.clear()); await p.reload(); await W(2500);
     const H = await p.evaluate(() => document.documentElement.scrollHeight);

@@ -250,7 +250,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   }
   if (NEW) {
     // посимвольный ввод в «Найти» при прокрученном списке и открытой шторке: шапка и меню на месте, ошибок нет
-    const inView = () => page.evaluate(() => { const rb = document.querySelector('.ic-rbar'); if (!rb) return 'no rbar'; const r = rb.getBoundingClientRect(); return (r.top >= -1 && r.top <= 110 && r.height > 30 && !!document.querySelector('.ic-booktabs')) ? 'ok' : 'rbar off-screen top=' + Math.round(r.top);   /* схема «шапка уезжает нативно»: строка раздела sticky top:0 (или под шапкой у верха страницы) */ });
+    const inView = () => page.evaluate(() => { const st = document.getElementById('ic-stack'); if (!st) return 'no stack'; const r = st.getBoundingClientRect(); return (r.top >= -1 && r.top < 5 && r.height > 50 && !!document.querySelector('.ic-booktabs') && !!document.querySelector('.ic-rbar')) ? 'ok' : 'stack off-screen top=' + Math.round(r.top); });
     const typed = { ru: ['изобилие', 'ёж', 'дух-', '(любовь)', '«мир»', 'слава  мира', 'а', 'й'], en: ['Abundance', 'a', '-', "it's", '"a"'], fr: ['Éloquence', 'à la', 'œ', "l'a", 'ç', 'Amour (dompté)'] };
     res.typing = {};
     for (const L of ['ru', 'en', 'fr']) for (const [part, sort] of [['all', 'book'], ['1', 'ru'], ['2', 'page']]) {
