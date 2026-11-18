@@ -73,5 +73,19 @@ const SIZES=[[1180,820],[1366,1024],[820,1180],[390,844]];
    await p.setViewportSize({width:390,height:760}); await W(600); o=await bg(); ok(nm+': смена только высоты (панели Safari) фон не трогает',PAPER(o),JSON.stringify(o)); await p.setViewportSize({width:390,height:844});
   }
   await ctx.close(); }
+ // ---- фактура бумаги: видимая страница с классом ic-flow-page и без него совпадает пиксель в пиксель; фактура = как на странице со старой логикой ----
+ { const ctx=await br.newContext({viewport:{width:1180,height:820},deviceScaleFactor:1}), p=await ctx.newPage();
+  const crypto=require('crypto'); const hash=b=>crypto.createHash('md5').update(b).digest('hex');
+  const shotOf=async(on)=>{ await p.evaluate(v=>{ document.documentElement.classList.toggle('ic-flow-page',v); },on); await W(150); return p.screenshot({clip:{x:0,y:110,width:1180,height:700}}); };
+  for(const [nm,hs] of [['alc','#/alciato/alc15'],['ripa-card','#/iconologie/p1-1'],['ripa-plates','#/iconologie/plates'],['cart-plates','#/cartari/plates'],['cart-text','#/cartari/text']]){
+   await p.goto(BASE+hs); await W(2600); const a=await shotOf(true), b=await shotOf(false), a2=await shotOf(true);
+   ok(nm+': страница с классом и без него совпадает пиксель в пиксель (бумага и фактура не меняются)',hash(a)===hash(b)&&hash(a)===hash(a2),hash(a).slice(0,8)+' / '+hash(b).slice(0,8));
+   const bgi=await p.evaluate(()=>getComputedStyle(document.getElementById('iconologie')).backgroundImage); ok(nm+': корневой контейнер несёт фактуру (foxing + paper)',/foxing\.png/.test(bgi)&&/paper\.jpg/.test(bgi),bgi.slice(0,90));
+  }
+  // фактура = как на странице со старой логикой (список Рипы): левое поле 0..90 × 200..700, там нет текста
+  const strip=async(hs,on)=>{ await p.goto(BASE+hs); await W(2600); await p.evaluate(v=>document.documentElement.classList.toggle('ic-flow-page',v),on); await W(150); return hash(await p.screenshot({clip:{x:0,y:200,width:90,height:500}})); };
+  const ref=await strip('#/iconologie/list',false);
+  for(const [nm,hs] of [['alc','#/alciato/alc15'],['ripa-card','#/iconologie/p1-1'],['ripa-plates','#/iconologie/plates'],['cart-text','#/cartari/text']]){ ok(nm+': фактура у края совпадает со списком Рипы (страница со старой логикой)',(await strip(hs,true))===ref&&(await strip(hs,false))===ref); }
+  await ctx.close(); }
  ok('console clean',errs.length===0,errs.slice(0,3).join(' | '));
  await br.close(); console.log('passed '+(n-bad)+'/'+n); process.exit(bad?1:0); })();
