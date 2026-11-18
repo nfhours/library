@@ -33,7 +33,30 @@
     {
       "slug": "ripa1603",
       "path": "https://nfhours.github.io/ripa-1603/",
-      "status": "wip"
+      "status": "wip",
+      "thumb": "books/_lib/ripa1603.webp",
+      "meta": {
+        "title": {
+          "original": "Iconologia, overo Descrittione di diverse imagini cavate dall'antichità, & di propria inventione",
+          "ru": "Иконология, или Описание различных образов, взятых из древности и собственного изобретения (Рим, 1603)",
+          "en": "Iconologia, or a Description of Various Images Drawn from Antiquity and of Its Own Invention (Rome, 1603)",
+          "fr": "Iconologie, ou Description de diverses images tirées de l'Antiquité et de l'invention propre de l'auteur (Rome, 1603)"
+        },
+        "author": "Cesare Ripa",
+        "place": "Roma",
+        "year": 1603,
+        "libThumb": "lib-thumb.webp",
+        "libAuthor": {
+          "ru": "Чезаре Рипа",
+          "en": "Cesare Ripa",
+          "fr": "Cesare Ripa"
+        },
+        "libTitle": {
+          "ru": "Иконология (1603)",
+          "en": "Iconologia (1603)",
+          "fr": "Iconologia (1603)"
+        }
+      }
     }
   ]
 }

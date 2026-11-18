@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "247";
+  var APP_VER = "248";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2257,12 +2257,18 @@
   };
   // каталог данных книги: «path» в library.json — относительный (books/<slug>/) или абсолютный URL отдельного репозитория (тяжёлые файлы)
   function bookDir(b){ return /^https?:\/\//.test(b.path || "") ? b.path.replace(/\/?$/, "/") : BASE+"books/"+b.slug+"/"; }
+  // Данные строки книги на главной. Для книг из внешних репозиториев (path = https://…) они лежат прямо в library.json (поле meta) и миниатюра — в этом репозитории (поле thumb):
+  // список рисуется сразу, внешний book.json грузится только при входе в книгу.
+  function libMetaOf(b){
+    if(b.meta) return Promise.resolve(b.meta);
+    return fetch(bookDir(b)+"book.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+  }
   function libRowHtml(b, m){
     var wip = b.status === "wip", L = state.lang;
     var pl = m.place ? ((LIB_PLACE[m.place] && (LIB_PLACE[m.place][L] || LIB_PLACE[m.place].ru)) || m.place) : "";
     var placeYear = [pl, m.year].filter(Boolean).join(", ");
     var orig = m.title && m.title.original && m.title.original !== bt(m.title) ? m.title.original : "";
-    var thumb = bookDir(b)+(m.libThumb || "lib-thumb.webp");
+    var thumb = b.thumb ? BASE+b.thumb : bookDir(b)+(m.libThumb || "lib-thumb.webp");
     var auth = m.libAuthor ? (m.libAuthor[L] || m.libAuthor.ru) : m.author;
     var title = m.libTitle ? (m.libTitle[L] || m.libTitle.ru) : bt(m.title);
     var desc = !wip && m.libDesc ? (m.libDesc[L] || m.libDesc.ru) : "";
@@ -2314,7 +2320,7 @@
       };
       if(libMetas && libMetas.length === list.length) build(libMetas);
       else Promise.all(list.map(function(b){
-        return fetch(bookDir(b)+"book.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
+        return libMetaOf(b);
       })).then(build);
     });
   }
@@ -3238,7 +3244,7 @@
       motLoad(function(){});
       loadLibrary(function(list){
         if(libMetas) return;
-        Promise.all(list.map(function(b){ return fetch(bookDir(b)+"book.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}); }))
+        Promise.all(list.map(function(b){ return libMetaOf(b); }))
           .then(function(m){ if(!libMetas) libMetas = m; });
       });
     };

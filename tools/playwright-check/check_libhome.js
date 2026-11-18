@@ -26,5 +26,5 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
  for(const s of ['verrien','grosson']){ await p.goto(BASE+'#/'+s); await W(3000); ok('direct link '+s,(await p.evaluate(()=>document.querySelectorAll('.ic-row-item, .ic-plate-row, .ic-row, .ic-list *').length))>0, await p.evaluate(()=>location.hash)); }
  await p.goto(BASE+'#/'); await W(2500);
  const ex=await p.evaluate(async()=>{ const r=await fetch('https://nfhours.github.io/ripa-1603/ping.json',{cache:'no-cache'}); const rows=[...document.querySelectorAll('.ic-lib-row')]; const rp=rows.find(x=>x.dataset.slug==='ripa1603'); return {ping:r.ok?await r.json():null, src:rp&&rp.querySelector('img').src, loaded:rp&&rp.querySelector('img').naturalWidth}; });
- ok('ripa1603 row loads data from ripa-1603 repo',ex.ping&&ex.ping.ok&&/nfhours\.github\.io\/ripa-1603\/lib-thumb/.test(ex.src||'')&&ex.loaded>0,JSON.stringify(ex));
+ ok('ripa1603 row: data and thumbnail come from this repo (library.json meta, books/_lib), the external repo is still reachable for the book itself',ex.ping&&ex.ping.ok&&/\/books\/_lib\/ripa1603\.webp$/.test(ex.src||'')&&ex.loaded>0,JSON.stringify(ex));
  ok('console clean',errs.length===0,errs.slice(0,3).join('|')); await br.close(); console.log(bad?('FAILS '+bad):'ALL OK'); })();
