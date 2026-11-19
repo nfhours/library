@@ -2143,6 +2143,15 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-mot-tile:focus,.ic .ic-mot-tag:focus,.ic .ic-mot-more:focus,.ic .ic-mot-allbtn:focus{outline:none}
 
 /* «Мотивы»: бумага корня всегда под нижней панелью Safari (lvh — наибольшая высота окна, плюс нижний отступ safe-area); тёмный фон html виден только при отскоке сверху */
-html.ic-flow-page .ic:has(.ic-mot-stack){min-height:100lvh;padding-bottom:env(safe-area-inset-bottom,0px)}
+html.ic-flow-page .ic{min-height:100lvh;padding-bottom:env(safe-area-inset-bottom,0px)}   /* на всех страницах со схемой «шапка уезжает нативно» (эмблема Альчато, «Мотивы») */
 /* Главная библиотеки и «Мотивы»: общий fade-in .ic-wrap (выше) отключён — страницу показывает переход «Книги | Мотивы» (opacity/translateY); иначе две анимации подряд, а после конца остаётся CSS-анимация с fill:both */
 .ic-wrap.ic-lib,.ic-wrap.ic-mot{animation:none}
+
+/* Строка разделов «Мотивов» — сплошная тёмная полоса без прозрачных зон: у обёртки и у строки тёмный фон на всю высоту, отступа под строкой нет
+   (в мобильных стилях у .ic-rbar margin-bottom:14px и padding 4px — сквозь отступ светилась бумага); вкладки по центру по вертикали, одинаковые отступы сверху и снизу;
+   отступ до содержимого даёт сама страница (padding-top .ic-wrap). */
+.ic-stack-flow .ic-mot-rwrap{background:#16130f}
+.ic .ic-mot-rwrap .ic-rbar{margin-top:0;margin-bottom:0;padding-top:7px;padding-bottom:7px;background:#16130f}
+.ic .ic-mot-rwrap .ic-mot-bar{height:38px;min-height:38px;align-items:center}
+.ic .ic-mot-rwrap .ic-mot-tabs{align-items:center;height:38px}
+.ic-rbar .ic-mot-bar .ic-mot-tab{align-self:center}

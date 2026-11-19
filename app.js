@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "254";
+  var APP_VER = "255";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3138,11 +3138,13 @@
      Подложка переключателя переезжает 450 мс одновременно. После конца анимации снимаются (fill:none), на страницах не остаётся transform/opacity/will-change. */
   var motNav = null, motHomeY = 0, libMetas = null;
   var MOT_EASE = "cubic-bezier(.65,0,.35,1)", MOT_IN = "cubic-bezier(.4,0,1,1)", MOT_OUT = "cubic-bezier(0,0,.2,1)", MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
-  function motScale(){ return (window.__icMotMs || 450)/450; }   // __icMotMs — только для замедления в тестах
+  // ?slow=N в адресе (например ?slow=5#/motifs) — все длительности перехода ×N (проверка на телефоне); без параметра — как есть. __icMotMs — замедление в тестах.
+  function motSlow(){ var m = /[?&]slow=([0-9.]+)/.exec(location.search), n = m ? parseFloat(m[1]) : 1; return (n > 0 && n <= 30) ? n : 1; }
+  function motScale(){ return (window.__icMotMs || 450)/450*motSlow(); }
   // подложка и подписи переключателя: Web Animations (переживают пересборку разметки — после неё анимация запускается заново с нужного места)
   function motPillAnim(nav, to, elapsed){
     var cap = nav && nav.querySelector(".ic-mot-cap"); if(!cap) return;
-    var dur = (window.__icMotMs || 450), el = Math.max(0, elapsed || 0);
+    var dur = (window.__icMotMs || 450)*motSlow(), el = Math.max(0, elapsed || 0);
     cap.setAttribute("data-pos", to);
     var pill = cap.querySelector(".ic-mot-pill"), as = cap.querySelectorAll("a");
     [].forEach.call(as, function(a, i){ a.classList.toggle("on", i === to); });
@@ -3164,6 +3166,7 @@
   function motNavEnd(){
     var n = motNav; if(!n) return;
     clearTimeout(n.timer); motNav = null;
+    root.style.minHeight = "";   // фиксация высоты корня на время перехода снята
     var tb = root.querySelector(".ic-mot-tabs"); if(tb) tb.dispatchEvent(new Event("scroll"));   // затухание краёв вкладок возвращается после перехода
   }
   function motNavAbort(){ motNavEnd(); }
@@ -3198,6 +3201,8 @@
     if(from === 0) motHomeY = window.scrollY;
     if(window.scrollY > 1) window.scrollTo(0, 0);   // нажато не вверху: сначала страница без анимации наверх, потом переход (место главной запомнено)
     var n = motNav = {from:from, to:to, hy: motHomeY, reduce:reduce, started:false, pill:true, t0:performance.now()}, k = motScale();
+    // на время перехода корень с бумагой не короче, чем был (после смены содержимого он на миг был бы ниже экрана — внизу под панелью Safari виден тёмный html)
+    root.style.minHeight = Math.max(Math.ceil(root.getBoundingClientRect().height), window.innerHeight)+"px";
     motPillAnim(nav, to, 0);                     // подложка стартует сразу
     n.timer = setTimeout(motNavAbort, 4000 + 900*k);
     var target = a.getAttribute("href").replace(/^#/, ""), done = false;
