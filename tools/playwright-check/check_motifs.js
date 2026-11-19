@@ -143,7 +143,7 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   ok(T+'после перехода с главной (нажато не вверху → главная сначала наверх без анимации): шапка нативная, следов скрытия нет, строка прилипает',gf.y===0&&!/ic-bb-hidden|ic-stack-hidden/.test(gf.cls)&&gf2.rwT===0&&gf2.bbT===-700&&gf3.bbT===-500&&gf3.btB<0&&Math.abs(gf3.tile-gf.tile)<=1.5,JSON.stringify([gf,gf2.bbT,gf3.bbT]));
   await p.evaluate(()=>window.scrollTo(0,0)); await W(300);
   await p.goto(BASE+'#/'); await W(1500); const homeCls=await p.evaluate(()=>({flow:document.documentElement.classList.contains('ic-flow-page'),pos:getComputedStyle(document.querySelector('.ic-stack')).position}));
-  ok(T+'главная библиотеки не изменилась: без ic-flow-page, липкая шапка',!homeCls.flow&&homeCls.pos==='sticky',JSON.stringify(homeCls));
+  ok(T+'главная библиотеки (v258): та же схема, что «Мотивы» — шапка нативная (ic-flow-page, стек не липкий), без скриптов скрытия',homeCls.flow&&homeCls.pos==='static',JSON.stringify(homeCls));
   // страница мотива: в строке стрелка, по центру название и число, лупа справа
   for(const [l,want] of [['ru','Венок · 80 гравюр'],['en','Wreath · 80 engravings'],['fr','Couronne · 80 gravures']]){
     await p.goto(BASE+'#/motifs'); await setLang(l); await p.goto(BASE+'#/motifs/iconologie/wreath'); await W(3000);
