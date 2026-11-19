@@ -13,7 +13,7 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   p.on('pageerror',e=>errs.push(vp.name+' '+e.message)); p.on('console',m=>{ if(m.type()==='error'&&!/access control|Load failed|cancelled/i.test(m.text())) errs.push(vp.name+' '+m.text()); });
   const tap=async s=>{ if(!vp.dev || /ic-mot-bt|ic-mot-cap/.test(s)) await p.evaluate(s=>document.querySelector(s).click(),s); else if(vp.dev) await p.tap(s); else await p.click(s); };
   const hash=()=>p.evaluate(()=>location.hash);
-  const setLang=async l=>{ await p.evaluate(l=>{localStorage.setItem('ic-lang',l);sessionStorage.clear();},l); await p.reload(); await W(2000); };
+  const setLang=async l=>{ await p.evaluate(l=>{localStorage.setItem('ic-lang',l);sessionStorage.clear();},l); const h=await p.evaluate(()=>location.hash); try{ await p.reload({waitUntil:'domcontentloaded',timeout:20000}); }catch(e){ await p.goto('about:blank'); await p.goto(BASE+h,{waitUntil:'domcontentloaded'}); } await W(2000); };
   const T=vp.name+' ';
   const tog=()=>p.$$eval('.ic-mot-cap a',a=>a.map(x=>({t:x.textContent.trim(),on:x.classList.contains('on'),w:Math.round(x.getBoundingClientRect().width),h:Math.round(x.getBoundingClientRect().height),href:x.getAttribute('href'),tt:getComputedStyle(x).textTransform,ls:getComputedStyle(x).letterSpacing})));
   await p.goto(BASE+'#/'); await setLang('ru'); await W(1500); await p.waitForSelector('.ic-lib-row',{timeout:30000});
@@ -45,15 +45,15 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
     await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="all"]').click()); await W(900);
   }
   ok(T+'справа лупа',await p.evaluate(()=>{ const l=document.querySelector('.ic-mot-loupe').getBoundingClientRect(), t=document.querySelector('.ic-mot-tabs').getBoundingClientRect(); return l.left>=t.right-1 && l.height>=38; }));
-  const chips0=await p.$$eval('.ic-mot-books .ic-mot-chip',a=>a.map(x=>x.textContent+':'+x.getAttribute('aria-pressed')+':'+Math.round(x.getBoundingClientRect().height)));
-  ok(T+'фильтр книг виден: «Все книги» (выбрано), «Иконология», «Образы богов древних», зона касания ≥44',chips0.join('|').replace(/:4[4-9]|:[5-9]\d/g,'')==='Все книги:true|Иконология:false|Образы богов древних:false'&&chips0.every(x=>+x.split(':')[2]>=44),chips0.join('|'));
+  const bb0=await p.evaluate(()=>{ const b=document.querySelector('.ic-mot-bookbtn'), r=b&&b.getBoundingClientRect(), sub=document.querySelector('.ic-mot-sub').getBoundingClientRect(), c=b&&getComputedStyle(b); return b&&{t:b.textContent.trim(),h:Math.round(r.height),rad:c.borderRadius,bw:c.borderTopWidth,under:r.top>=sub.bottom-1,chips:document.querySelectorAll('.ic-mot-chip').length,bg:c.backgroundColor}; });
+  ok(T+'выбор книги: одна кнопка «Книги: все» под пояснением, высота 44, рамка 1px, скругление 9; россыпи кнопок книг нет',bb0&&bb0.t==='Книги: все'&&bb0.h===44&&bb0.rad==='9px'&&bb0.bw==='1px'&&bb0.under&&bb0.chips===0,JSON.stringify(bb0));
   // каталог
-  const cat=await p.evaluate(()=>({h1:document.querySelector('.ic-rp-h1').textContent,sub:document.querySelector('.ic-mot-sub').textContent,sects:[...document.querySelectorAll('.ic-mot-sect')].map(s=>({h:s.querySelector('.ic-mot-sh span').textContent,n:s.querySelector('.ic-mot-shn').textContent,tiles:s.querySelectorAll('.ic-mot-tile').length,btn:s.querySelector('.ic-mot-allbtn').textContent,btnW:Math.round(s.querySelector('.ic-mot-allbtn').getBoundingClientRect().width),secW:Math.round(s.getBoundingClientRect().width)})),tile:(()=>{ const t=document.querySelector('.ic-mot-tile'),r=t.getBoundingClientRect(),c=getComputedStyle(t); return {h:Math.round(r.height),rad:c.borderRadius,bw:c.borderTopWidth}; })(),cols:(()=>{ const t=[...document.querySelectorAll('.ic-mot-sect:first-of-type .ic-mot-tile')].map(x=>Math.round(x.getBoundingClientRect().left)); return [...new Set(t)].length; })()}));
+  const cat=await p.evaluate(()=>({h1:document.querySelector('.ic-rp-h1').textContent,sub:document.querySelector('.ic-mot-sub').textContent,sects:[...document.querySelectorAll('.ic-mot-sect')].map(s=>({h:s.querySelector('.ic-mot-sh span').textContent,n:s.querySelector('.ic-mot-sh').textContent.replace(s.querySelector('.ic-mot-sh span').textContent,''),tiles:s.querySelectorAll('.ic-mot-tile').length,btn:s.querySelector('.ic-mot-allbtn').textContent,btnW:Math.round(s.querySelector('.ic-mot-allbtn').getBoundingClientRect().width),secW:Math.round(s.getBoundingClientRect().width)})),tile:(()=>{ const t=document.querySelector('.ic-mot-tile'),r=t.getBoundingClientRect(),c=getComputedStyle(t); return {h:Math.round(r.height),rad:c.borderRadius,bw:c.borderTopWidth}; })(),cols:(()=>{ const t=[...document.querySelectorAll('.ic-mot-sect:first-of-type .ic-mot-tile')].map(x=>Math.round(x.getBoundingClientRect().left)); return [...new Set(t)].length; })()}));
   ok(T+'каталог: заголовок «Мотивы» и пояснение',cat.h1==='Мотивы'&&/Поиск гравюр/.test(cat.sub),cat.h1+' | '+cat.sub);
   ok(T+'разделы по порядку, пустые не показаны',cat.sects.map(s=>s.h).join()===want.slice(1).join(),cat.sects.map(s=>s.h).join());
   ok(T+'до 8 плиток в разделе, по 2 в ряд',cat.sects.every(s=>s.tiles>=1&&s.tiles<=8)&&cat.sects[0].tiles===8&&cat.cols===2,JSON.stringify(cat.sects.map(s=>s.tiles))+' cols '+cat.cols);
   ok(T+'плитка: ≈52 px, скругление 8, тонкая рамка',cat.tile.h>=50&&cat.tile.h<=64&&cat.tile.rad==='8px'&&cat.tile.bw==='1px',JSON.stringify(cat.tile));
-  ok(T+'кнопка «Все предметы · N» во всю ширину',/^Все предметы · \d+$/.test(cat.sects[0].btn)&&cat.sects[0].btnW>=cat.sects[0].secW-2&&parseInt(cat.sects[0].n)===+cat.sects[0].btn.split(' · ')[1]&&/^\d+ мотив(а|ов)?$/.test(cat.sects[0].n),cat.sects[0].btn+' / '+cat.sects[0].n);
+  ok(T+'кнопка «Все предметы · N» во всю ширину',/^Все предметы · \d+$/.test(cat.sects[0].btn)&&cat.sects[0].btnW>=cat.sects[0].secW-2&&cat.sects.every(x=>x.n===''),cat.sects[0].btn+' / заголовок «'+cat.sects[0].h+cat.sects[0].n+'»');
   const first=await p.$$eval('.ic-mot-sect:first-of-type .ic-mot-tile',r=>r.map(x=>x.querySelector('.ic-mot-nm').textContent+':'+x.querySelector('.ic-mot-n').textContent));
   ok(T+'первый — «Венок», по частоте, названия с заглавной',/^Венок:(8\d|9\d|1\d\d)$/.test(first[0])&&first.every(x=>/^[А-ЯЁ]/.test(x)),first.slice(0,3).join(', '));
   // кнопка «Все предметы»
@@ -152,12 +152,12 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
     ok(T+l+': строка страницы мотива — «'+want+'» по центру, одна строка, многоточие; большой заголовок остаётся',mt.txt===want&&mt.ov==='hidden'&&mt.ws==='nowrap'&&mt.te==='ellipsis'&&mt.center&&mt.between&&mt.h1.length>0,JSON.stringify(mt));
   }
   await p.goto(BASE+'#/motifs'); await setLang('ru'); await W(500);
-  // подписи чисел: заголовок раздела — «N мотива», плитка — число гравюр, родитель с названием раздела
-  for(const [l,shn,wp,pl] of [['ru',/^\d+ мотив(а|ов)?$/,'Оружие, всё','Растение, всё'],['en',/^\d+ motifs?$/,'All weapons','All plants'],['fr',/^\d+ motifs?$/,'Toutes les armes','Toutes les plantes']]){
+  // подписи чисел: в заголовках разделов чисел нет (число видов — на тёмной кнопке раздела), плитка — число гравюр, родитель с названием раздела
+  for(const [l,wp,pl,btn] of [['ru','Оружие, всё','Растение, всё',/^Все предметы · \d+$/],['en','All weapons','All plants',/^All objects · \d+$/],['fr','Toutes les armes','Toutes les plantes',/^Tous les objets · \d+$/]]){
     await p.goto(BASE+'#/motifs'); await setLang(l); await W(500);
-    const nn=await p.evaluate(()=>({shn:[...document.querySelectorAll('.ic-mot-shn')].map(e=>e.textContent),w:(document.querySelector('.ic-mot-tile[data-id="weapon"]')||{}).textContent,tn:[...document.querySelectorAll('.ic-mot-tile .ic-mot-n')].every(e=>/^\d+$/.test(e.textContent))}));
-    await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="растение"]').click()); await W(500); nn.p=await p.evaluate(()=>(document.querySelector('.ic-mot-tile[data-id="plant"]')||{textContent:''}).textContent); await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="all"]').click()); await W(300);
-    ok(T+l+': заголовки разделов «N мотивов», совпадающие по названию родители, числа на плитках — числа гравюр',nn.shn.length===9&&nn.shn.every(x=>shn.test(x))&&nn.w===wp+nn.w.replace(wp,'')&&nn.w.startsWith(wp)&&nn.p.startsWith(pl)&&nn.tn&&(l!=='ru'||nn.shn.every(x=>{ const n=parseInt(x),a=n%100,b=n%10; return x===n+' '+((a>10&&a<15)?'мотивов':b===1?'мотив':(b>=2&&b<=4)?'мотива':'мотивов'); })),JSON.stringify([nn.shn.slice(0,3),nn.w,nn.p]));
+    const nn=await p.evaluate(()=>({shn:document.querySelectorAll('.ic-mot-shn').length,hs:[...document.querySelectorAll('.ic-mot-sect .ic-mot-sh')].map(h=>h.textContent),btn:document.querySelector('.ic-mot-allbtn').textContent,w:(document.querySelector('.ic-mot-tile[data-id="weapon"]')||{}).textContent,tn:[...document.querySelectorAll('.ic-mot-tile .ic-mot-n')].every(e=>/^\d+$/.test(e.textContent))}));
+    await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="растение"]').click()); await W(500); nn.p=await p.evaluate(()=>(document.querySelector('.ic-mot-tile[data-id="plant"]')||{textContent:''}).textContent); nn.h1=await p.evaluate(()=>document.querySelector('.ic-mot-sh1').textContent); await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="all"]').click()); await W(300);
+    ok(T+l+': в заголовках разделов чисел нет, число видов — на кнопке раздела, совпадающие по названию родители, числа на плитках — числа гравюр',nn.shn===0&&nn.hs.length===9&&nn.hs.every(x=>!/\d/.test(x))&&!/\d/.test(nn.h1)&&btn.test(nn.btn)&&nn.w.startsWith(wp)&&nn.p.startsWith(pl)&&nn.tn,JSON.stringify([nn.hs.slice(0,3),nn.btn,nn.w,nn.p]));
   }
   await p.goto(BASE+'#/motifs'); await setLang('ru'); await W(500);
   {
@@ -237,19 +237,37 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
    ok(T+'мотива «рука» (hand) нет ни в словаре, ни в привязках; дочерние (поднятая рука и др.) остались без этого родителя',!V.hand&&bk.every(a=>a.indexOf('hand')<0)&&V['raised-hand']&&V['raised-hand'].parent===null&&V['pointing-hand']&&V['hand-on-chest'],'');
   }
   {
-  await p.goto(BASE+'#/motifs'); await setLang('ru'); await p.waitForSelector('.ic-mot-chip',{timeout:30000}); await W(800);
+  await p.goto(BASE+'#/motifs'); await setLang('ru'); await p.waitForSelector('.ic-mot-bookbtn',{timeout:30000}); await W(1500);
   const nTile=async id=>p.evaluate(id=>{ const t=document.querySelector('.ic-mot-tile[data-id="'+id+'"]'); return t?+t.querySelector('.ic-mot-n').textContent:null; },id);
-  const hdrN=async()=>p.evaluate(()=>[...document.querySelectorAll('.ic-mot-sect')].map(s=>s.querySelector('.ic-mot-shn').textContent).join());
-  const cntAll=await nTile('wreath'), hdrAll=await hdrN();
-  await p.evaluate(()=>document.querySelector('.ic-mot-chip[data-mb="iconologie"]').click()); await W(900);
-  const cntIc=await nTile('wreath'), hdrIc=await hdrN(), hIc=await hash(), prIc=await p.$$eval('.ic-mot-chip',a=>a.map(x=>x.getAttribute('aria-pressed')).join());
-  await p.evaluate(()=>document.querySelector('.ic-mot-chip[data-mb="cartari"]').click()); await W(900);
-  const cntBoth=await nTile('wreath'), hBoth=await hash(), prBoth=await p.$$eval('.ic-mot-chip',a=>a.map(x=>x.getAttribute('aria-pressed')).join());
-  await p.evaluate(()=>document.querySelector('.ic-mot-chip[data-mb="iconologie"]').click()); await W(900);
-  const cntCa=await nTile('wreath'), hCa=await hash(), hdrCa=await hdrN();
-  ok(T+'фильтр: выбор книги меняет адрес и пересчитывает числа плиток и разделов; можно выбрать несколько; «Все книги» сбрасывает',hIc==='#/motifs/iconologie'&&prIc==='false,true,false'&&hBoth==='#/motifs/iconologie+cartari'&&prBoth==='false,true,true'&&hCa==='#/motifs/cartari'&&cntIc===80&&cntAll>cntIc&&cntCa>0&&cntCa<cntAll&&cntIc+cntCa>=cntAll&&hdrIc!==hdrCa&&hdrAll!==hdrIc&&cntBoth===cntAll,JSON.stringify({cntAll,cntIc,cntBoth,cntCa,hdrAll,hdrIc,hdrCa}));
-  await p.evaluate(()=>document.querySelector('.ic-mot-chip[data-mb="all"]').click()); await W(900);
-  ok(T+'«Все книги» → #/motifs/all',(await hash())==='#/motifs/all'&&(await p.$$eval('.ic-mot-chip',a=>a.map(x=>x.getAttribute('aria-pressed')).join()))==='true,false,false',await hash());
+  const sheet=()=>p.evaluate(()=>{ const s=document.querySelector('#ic-mot-bsheet'), pn=s.querySelector('.ic-rb-sheet-panel').getBoundingClientRect(), strip=document.querySelector('#iconologie .ic-mot-rwrap .ic-rbar').getBoundingClientRect(), d=document.getElementById('ic-rb-dim'), b=document.querySelector('.ic-mot-bookbtn');
+    return {open:s.classList.contains('ic-rb-sheet-open'),vis:getComputedStyle(s).visibility,dim:d.classList.contains('ic-rb-dim-show'),pTop:Math.round(pn.top),stripBottom:Math.round(strip.bottom),h:Math.round(pn.height),pressed:b.getAttribute('aria-pressed'),ttl:(s.querySelector('.ic-mot-bkttl')||{}).textContent,rows:[...s.querySelectorAll('.ic-mot-bkrow')].map(r=>({bk:r.dataset.bk,on:r.getAttribute('aria-pressed'),b:r.querySelector('b').textContent,sm:r.querySelector('small').textContent,img:!!r.querySelector('img'),chk:getComputedStyle(r.querySelector('.ic-mot-chk')).visibility})),note:(s.querySelector('.ic-mot-bknote')||{}).textContent}; });
+  const cntAll=await nTile('wreath');
+  await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(900); const sh0=await sheet();
+  ok(T+'шторка выбора книг: открывается из-под строки разделов, затемнение страницы, заголовок «Искать в книгах», пункты «Все книги» (перечень), Иконология и Образы богов древних (обложка, «автор, год · N гравюр с мотивами»), выбран «Все» с галочкой, внизу пояснение',sh0.open&&sh0.vis==='visible'&&sh0.dim&&Math.abs(sh0.pTop-sh0.stripBottom)<=2&&sh0.pressed==='true'&&sh0.ttl==='Искать в книгах'&&sh0.rows.map(r=>r.bk).join()==='all,iconologie,cartari'&&sh0.rows[0].b==='Все книги'&&sh0.rows[0].sm==='Иконология, Образы богов древних'&&sh0.rows.slice(1).every(r=>r.img&&/, \d{4} · \d+ гравю[а-я]* с мотивами$/.test(r.sm))&&sh0.rows[0].on==='true'&&sh0.rows[0].chk==='visible'&&sh0.rows[1].chk==='hidden'&&/Другие книги появятся здесь/.test(sh0.note),JSON.stringify(sh0).slice(0,500));
+  await p.evaluate(()=>document.getElementById('ic-rb-dim').click()); await W(700); const sh1=await sheet();
+  ok(T+'тап вне шторки (по затемнению) закрывает её',!sh1.open&&!sh1.dim&&sh1.pressed==='false',JSON.stringify([sh1.open,sh1.dim,sh1.pressed]));
+  await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(700); await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(700); const sh2=await sheet();
+  ok(T+'повторный тап по кнопке закрывает шторку',!sh2.open&&sh2.pressed==='false'); 
+  await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(700); await p.evaluate(()=>document.querySelector('.ic-mot-bkrow[data-bk="iconologie"]').click()); await W(1500);
+  const cntIc=await nTile('wreath'), hIc=await hash(), bIc=await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').textContent.trim()), hdIc=await p.evaluate(()=>document.querySelectorAll('.ic-mot-shn').length);
+  await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(700); await p.evaluate(()=>document.querySelector('.ic-mot-bkrow[data-bk="cartari"]').click()); await W(1500);
+  const cntCa=await nTile('wreath'), hCa=await hash(), bCa=await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').textContent.trim()), selCa=await sheet();
+  ok(T+'выбор одной книги: адрес #/motifs/<книга>, подпись кнопки, числа на плитках пересчитываются; множественного выбора нет (выбран один пункт)',hIc==='#/motifs/iconologie'&&bIc==='Книги: Иконология'&&cntIc===80&&hCa==='#/motifs/cartari'&&bCa==='Книги: Образы богов древних'&&cntCa>0&&cntCa<cntAll&&cntIc+cntCa>=cntAll&&selCa.rows.filter(r=>r.on==='true').length===1&&selCa.rows[2].on==='true'&&hdIc===0,JSON.stringify({cntAll,cntIc,cntCa,hIc,hCa,bIc,bCa}));
+  await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(700); await p.evaluate(()=>document.querySelector('.ic-mot-bkrow[data-bk="all"]').click()); await W(1500);
+  ok(T+'«Все книги» → #/motifs, числа вернулись',(await hash())==='#/motifs'&&(await nTile('wreath'))===cntAll,await hash());
+  await p.goto(BASE+'#/motifs/iconologie+cartari'); await p.waitForSelector('.ic-mot-bookbtn',{timeout:30000}); await W(1200);
+  ok(T+'старый адрес с «+» открывает «все» (адрес приводится к #/motifs, кнопка «Книги: все», числа общие)',(await hash())==='#/motifs'&&(await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').textContent.trim()))==='Книги: все'&&(await nTile('wreath'))===cntAll,await hash());
+  await p.goto(BASE+'#/motifs/iconologie+cartari/snake'); await p.waitForSelector('.ic-mot-grid li',{timeout:40000}); await W(1500);
+  ok(T+'старый адрес мотива с «+» → все книги (#/motifs/all/snake, гравюры обеих книг)',(await hash())==='#/motifs/all/snake'&&(await p.$$eval('.ic-mot-grid .ic-gal-item',a=>[...new Set(a.map(x=>x.dataset.slug))].sort().join()))==='cartari,iconologie',await hash());
+  // страница мотива: та же кнопка под заголовком, выбор пересчитывает сетку
+  const mk=()=>p.evaluate(()=>({n:document.querySelectorAll('.ic-mot-grid .ic-gal-item').length,sl:[...new Set([...document.querySelectorAll('.ic-mot-grid .ic-gal-item')].map(a=>a.dataset.slug))].sort().join(),cnt:document.querySelector('.ic-mot-count').textContent,btn:document.querySelector('.ic-mot-bookbtn').textContent.trim(),h:location.hash,top:Math.round(document.querySelector('.ic-mot-bookbtn').getBoundingClientRect().top)-Math.round(document.querySelector('.ic-mot-h1').getBoundingClientRect().bottom)}));
+  const m0=await mk();
+  await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(900); const ms0=await sheet();
+  ok(T+'страница мотива: кнопка «Книги: все» под заголовком, шторка открывается из-под строки',m0.btn==='Книги: все'&&m0.top>0&&ms0.open&&ms0.dim&&Math.abs(ms0.pTop-ms0.stripBottom)<=2&&ms0.rows.length===3,JSON.stringify([m0.btn,m0.top,ms0.open,ms0.pTop,ms0.stripBottom]));
+  await p.evaluate(()=>document.querySelector('.ic-mot-bkrow[data-bk="cartari"]').click()); await W(2000); const m1=await mk();
+  await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(700); await p.evaluate(()=>document.querySelector('.ic-mot-bkrow[data-bk="iconologie"]').click()); await W(2000); const m2=await mk();
+  ok(T+'на странице мотива выбор книги пересчитывает сетку и адрес: Картари → только Картари, Иконология → только Иконология, сумма = «все»',m1.h==='#/motifs/cartari/snake'&&m1.sl==='cartari'&&m1.btn==='Книги: Образы богов древних'&&m2.h==='#/motifs/iconologie/snake'&&m2.sl==='iconologie'&&m2.btn==='Книги: Иконология'&&m1.n+m2.n===m0.n&&m1.n>3&&m2.n>3,JSON.stringify([m0.n,m1.n,m2.n,m1.cnt]));
+  await p.goto(BASE+'#/motifs'); await p.waitForSelector('.ic-mot-bookbtn',{timeout:30000}); await W(1200);
   // «Позы и жесты»: рука как самостоятельного мотива нет
   await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="поза и жест"]').click()); await W(700);
   const poses=await p.$$eval('.ic-mot-tile',a=>a.map(x=>x.dataset.id));
@@ -298,10 +316,11 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   await p.goto(BASE+'#/cartari/plate/'+tgt.split('|')[1]+'?from=motif:cartari:snake'); await p.waitForSelector('.ic-pc',{timeout:40000}); await W(1500);
   const dc=await p.evaluate(()=>(document.querySelector('.ic-pc-count')||{}).textContent); ok(T+'прямой заход на гравюру с ?from=motif: подпись контекста есть',/^Змея, \d+ из \d+$/.test(dc),dc);
   // язык: подписи фильтра и гравюр
-  for(const [l,names,all] of [['en','Iconology|Images of the Gods','All books'],['fr','Iconologie|Images des Dieux','Tous les livres']]){
-    await setLang(l); await p.goto(BASE+'#/motifs/all/snake'); await p.waitForSelector('.ic-mot-chip',{timeout:30000}); await W(1500);
-    const ch=await p.$$eval('.ic-mot-chip',a=>a.map(x=>x.textContent)); const cp=await p.$$eval('.ic-mot-grid .ic-gal-item[data-slug="cartari"] .ic-gal-cap',a=>a.slice(0,2).map(x=>x.textContent));
-    ok(T+l+': фильтр книг и подписи Картари',ch[0]===all&&ch.slice(1).join('|')===names&&cp.length===2&&cp.every(x=>x.indexOf(names.split('|')[1])>=0),JSON.stringify([ch,cp]));
+  for(const [l,btn,names,ttl,allr] of [['en','Books: all','Iconology|Images of the Gods','Search in books','All books'],['fr','Livres : tous','Iconologie|Images des Dieux','Chercher dans les livres','Tous les livres']]){
+    await setLang(l); await p.goto(BASE+'#/motifs/all/snake'); await p.waitForSelector('.ic-mot-bookbtn',{timeout:30000}); await W(1500);
+    const cp=await p.$$eval('.ic-mot-grid .ic-gal-item[data-slug="cartari"] .ic-gal-cap',a=>a.slice(0,2).map(x=>x.textContent));
+    await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').click()); await W(900); const sx=await sheet();
+    ok(T+l+': кнопка «'+btn+'», шторка «'+ttl+'», пункты и подписи Картари на языке интерфейса',(await p.evaluate(()=>document.querySelector('.ic-mot-bookbtn').textContent.trim()))===btn&&sx.ttl===ttl&&sx.rows[0].b===allr&&sx.rows.slice(1).map(r=>r.b).join('|')===names&&sx.rows.slice(1).every(r=>/\d{4} · \d+ /.test(r.sm))&&cp.length===2&&cp.every(x=>x.indexOf(names.split('|')[1])>=0),JSON.stringify([sx.ttl,sx.rows.map(r=>r.b+' / '+r.sm),cp]));
   }
   await setLang('ru');
   }
