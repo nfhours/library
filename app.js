@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "255";
+  var APP_VER = "256";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3137,7 +3137,8 @@
      строка разделов выезжает сверху (translateY −100%→0, 300 мс) — её контейнер (.ic-mot-rclip, overflow:hidden) обрезает только саму строку.
      Подложка переключателя переезжает 450 мс одновременно. После конца анимации снимаются (fill:none), на страницах не остаётся transform/opacity/will-change. */
   var motNav = null, motHomeY = 0, libMetas = null;
-  var MOT_EASE = "cubic-bezier(.65,0,.35,1)", MOT_IN = "cubic-bezier(.4,0,1,1)", MOT_OUT = "cubic-bezier(0,0,.2,1)", MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
+  var MOT_EASE = "cubic-bezier(.65,0,.35,1)", MOT_IN = "cubic-bezier(.4,0,1,1)", MOT_OUT = "cubic-bezier(0,0,.2,1)", MOT_STRIP = "cubic-bezier(.3,0,.5,1)", P1 = 110, P2 = 310,   // фаза 1 — 0–110 мс, фаза 2 — 110–420 мс
+    MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
   // ?slow=N в адресе (например ?slow=5#/motifs) — все длительности перехода ×N (проверка на телефоне); без параметра — как есть. __icMotMs — замедление в тестах.
   function motSlow(){ var m = /[?&]slow=([0-9.]+)/.exec(location.search), n = m ? parseFloat(m[1]) : 1; return (n > 0 && n <= 30) ? n : 1; }
   function motScale(){ return (window.__icMotMs || 450)/450*motSlow(); }
@@ -3158,8 +3159,12 @@
     motPillAnim(document.getElementById("ic-booktabs"), motNav.to, performance.now() - motNav.t0);
   }
   // строка разделов — настоящий элемент: сама строка (.ic-ch-outer-bar) едет внутри обрезающего контейнера, тень под ней — по прозрачности
+  // Высота контейнера (.ic-mot-rclip) анимируется вместе со строкой, той же длительностью и кривой: при входе 0 → высота строки, при уходе высота → 0 —
+  // страница под шапкой смещается плавно, без скачка в начале/конце.
   function motStripAnim(rw, dir, opt){
-    var bar = rw.querySelector(".ic-ch-outer-bar"), shd = rw.querySelector(".ic-mot-shd"), inn = dir === "in";
+    var bar = rw.querySelector(".ic-ch-outer-bar"), shd = rw.querySelector(".ic-mot-shd"), clip = rw.querySelector(".ic-mot-rclip"), inn = dir === "in";
+    var H = clip ? Math.round(clip.getBoundingClientRect().height) : 0;
+    if(clip && H) clip.animate([{height:(inn ? 0 : H)+"px"}, {height:(inn ? H : 0)+"px"}], opt);
     if(bar) bar.animate([{transform:"translate3d(0,"+(inn ? "-100%" : "0")+",0)"}, {transform:"translate3d(0,"+(inn ? "0" : "-100%")+",0)"}], opt);
     if(shd) shd.animate([{opacity: inn ? 0 : 1}, {opacity: inn ? 1 : 0}], opt);
   }
@@ -3180,9 +3185,9 @@
     if(n.to) delete namesUi.pos[location.hash];
     var wrap = root.querySelector(":scope > .ic-wrap"), rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap");
     if(n.reduce || !wrap || !wrap.animate){ motNavEnd(); return; }
-    var D = 300*motScale(), opt = {duration:D, easing:MOT_OUT, fill:"none"};
-    var a = wrap.animate([{opacity:0, transform:"translate3d(0,-12px,0)"}, {opacity:1, transform:"translate3d(0,0,0)"}], opt);
-    if(rw) motStripAnim(rw, "in", opt);
+    var D = P2*motScale(), opt = {duration:D, easing:MOT_OUT, fill:"none"};
+    var a = wrap.animate([{opacity:0, transform:"translate3d(0,-12px,0)"}, {opacity:1, transform:"translate3d(0,0,0)"}], {duration:D, easing:MOT_OUT, fill:"none"});
+    if(rw) motStripAnim(rw, "in", {duration:D, easing:MOT_STRIP, fill:"none"});
     a.onfinish = a.oncancel = function(){ if(motNav === n) motNavEnd(); };
     setTimeout(function(){ if(motNav === n) motNavEnd(); }, D + 600);
   }
@@ -3209,11 +3214,13 @@
     function go(){ if(done || motNav !== n) return; done = true; location.hash = target; }
     if(reduce){ go(); return; }
     // фаза 1: текущая страница уходит (и строка разделов уезжает вверх, если уходим с «Мотивов»), затем смена содержимого
-    var wrap = root.querySelector(":scope > .ic-wrap"), rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap"), o1 = {duration:150*k, easing:MOT_IN, fill:"forwards"};
-    var a1 = wrap && wrap.animate ? wrap.animate([{opacity:1, transform:"translate3d(0,0,0)"}, {opacity:0, transform:"translate3d(0,12px,0)"}], o1) : null;
-    if(rw && from === 1) motStripAnim(rw, "out", o1);
-    if(a1) a1.onfinish = go;
-    setTimeout(go, 150*k + 120);
+    var wrap = root.querySelector(":scope > .ic-wrap"), rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap"), o1 = {duration:P1*k, easing:MOT_IN, fill:"forwards"};
+    var a1 = (wrap && wrap.animate) ? wrap.animate([{opacity:1, transform:"translate3d(0,0,0)"}, {opacity:0, transform:"translate3d(0,12px,0)"}], o1) : null;
+    // уход строки — линейно и чуть дольше страницы (130 мс): высота контейнера H→0 без рывков (≤ 8 px за кадр); смена содержимого — когда строка ушла
+    var tSwap = (rw && from === 1) ? 130 : P1;
+    if(rw && from === 1) motStripAnim(rw, "out", {duration:130*k, easing:"linear", fill:"forwards"});
+    if(a1 && !(rw && from === 1)) a1.onfinish = go;   // без строки — смена содержимого, когда страница действительно погасла
+    setTimeout(go, tSwap*k + (a1 && !(rw && from === 1) ? 80 : 0));
   });
   // страницы готовятся заранее, в простое: переход стартует в тот же кадр, что и нажатие
   function motWarm(){
