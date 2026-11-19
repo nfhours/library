@@ -2046,23 +2046,25 @@ html.ic-hs-lock{overflow:hidden !important}
 @media (prefers-reduced-motion:reduce){.ic .ic-mot-bookbtn .ic-mot-chev{transition:none}}
 .ic .ic-mot-bkbody{overflow:hidden;padding:0 0 6px}
 .ic .ic-mot-bkbody[hidden]{display:none}
-.ic .ic-mot-bkrow{position:relative;display:flex;align-items:center;gap:12px;width:calc(100% - 12px);min-height:56px;box-sizing:border-box;margin:0 6px;padding:8px 10px;border:0;border-radius:8px;background:transparent;
-  font:inherit;text-align:left;color:var(--ink);cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:inset 0 0 0 1px transparent}
+.ic .ic-mot-bkrow{position:relative;display:flex;align-items:center;gap:12px;width:calc(100% - 12px);height:48px;box-sizing:border-box;margin:0 6px;padding:0 8px;border:0;border-radius:8px;background:transparent;
+  font:inherit;text-align:left;color:var(--ink);cursor:pointer;-webkit-tap-highlight-color:transparent}
 .ic .ic-mot-bkrow:focus{outline:none}
 .ic .ic-mot-bkrow:focus-visible{outline:2px solid rgba(28,24,19,.5);outline-offset:-2px}
-.ic .ic-mot-bkrow + .ic-mot-bkrow::before{content:"";position:absolute;left:10px;right:10px;top:-1px;height:1px;background:linear-gradient(90deg,rgba(28,24,19,0),rgba(28,24,19,.22) 18%,rgba(28,24,19,.22) 82%,rgba(28,24,19,0));pointer-events:none}
-.ic .ic-mot-bkrow[aria-checked="true"]{background:rgba(255,255,255,.5);box-shadow:inset 0 0 0 1px rgba(28,24,19,.2)}
-.ic .ic-mot-bkrow[aria-checked="true"]::before,.ic .ic-mot-bkrow[aria-checked="true"] + .ic-mot-bkrow::before{opacity:0}
-.ic .ic-mot-bkth{flex:none;width:30px;height:42px;display:flex;align-items:center}
-.ic .ic-mot-bkth img{width:30px;height:42px;object-fit:cover;border-radius:3px;display:block;box-shadow:0 0 0 1px rgba(28,24,19,.25)}
-.ic .ic-mot-bkth2{width:44px}
-.ic .ic-mot-bkth2 img{width:24px;height:34px}
-.ic .ic-mot-bkth2 img + img{margin-left:-6px}
-.ic .ic-mot-bktx{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:2px}
-.ic .ic-mot-bktx b{font-weight:500;font-size:.95em}
-.ic .ic-mot-bktx small{font-size:.8em;color:var(--soft);line-height:1.3}
-.ic .ic-mot-chk{flex:none;visibility:hidden;color:var(--ink)}
-.ic .ic-mot-bkrow[aria-checked="true"] .ic-mot-chk{visibility:visible}
+.ic .ic-mot-bkrow:active{background:rgba(28,24,19,.06)}
+.ic .ic-mot-bkrow + .ic-mot-bkrow::before{content:"";position:absolute;left:8px;right:8px;top:-1px;height:1px;background:linear-gradient(90deg,rgba(28,24,19,0),rgba(28,24,19,.22) 18%,rgba(28,24,19,.22) 82%,rgba(28,24,19,0));pointer-events:none}
+.ic .ic-mot-bkth{flex:none;width:24px;height:30px;display:flex;align-items:center;justify-content:center}
+.ic .ic-mot-bkth img{width:22px;height:30px;object-fit:cover;border-radius:2px;display:block;box-shadow:0 0 0 1px rgba(28,24,19,.25)}
+.ic .ic-mot-bkth2 img{width:16px;height:22px}
+.ic .ic-mot-bkth2 img + img{margin-left:-8px}
+.ic .ic-mot-bknm{flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:.95em;line-height:1.2}
+.ic .ic-mot-bkn{flex:none;color:var(--soft);font-variant-numeric:tabular-nums;font-size:.85em}
+/* чекбокс 22×22, скругление 6: выключен — тонкая рамка; включён — заливка цвета шапки и светлая галочка; «Все книги» при части выбранных — черта */
+.ic .ic-mot-cb{flex:none;width:22px;height:22px;box-sizing:border-box;border-radius:6px;border:1px solid rgba(28,24,19,.4);display:flex;align-items:center;justify-content:center;color:rgb(236,229,212)}
+.ic .ic-mot-cb svg{display:none}
+.ic .ic-mot-bkrow[aria-checked="true"] .ic-mot-cb,.ic .ic-mot-bkrow[aria-checked="mixed"] .ic-mot-cb{background:#16130f;border-color:#16130f}
+.ic .ic-mot-bkrow[aria-checked="true"] .ic-mot-cb .ic-mot-chk{display:block}
+.ic .ic-mot-bkrow[aria-checked="mixed"] .ic-mot-cb .ic-mot-dash{display:block}
+.ic .ic-mot-chk{width:13px;height:10px}
 /* метки на карточке статьи и на странице мотива */
 .ic .ic-mot-sec[hidden]{display:none}
 .ic .ic-mot-tags{display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:8px}

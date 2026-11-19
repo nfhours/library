@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "261";
+  var APP_VER = "262";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -146,6 +146,7 @@
     motMore:      {ru:"ещё {n}", en:"{n} more", fr:"{n} de plus"},
     motBkBtn:     {ru:"Книги: {b}", en:"Books: {b}", fr:"Livres : {b}"},
     motBkAllS:    {ru:"все", en:"all", fr:"tous"},
+    motBkSome:    {ru:"{k} из {n}", en:"{k} of {n}", fr:"{k} sur {n}"},
     motBkTtl:     {ru:"Искать в книгах", en:"Search in books", fr:"Chercher dans les livres"},
     motOf:        {ru:"из", en:"of", fr:"sur"},
     motTabBooks:  {ru:"Книги", en:"Books", fr:"Livres"},
@@ -1134,6 +1135,7 @@
 
   function route(){
     if(motNav && motNav.hashPending){ motNav.hashPending = false; return; }   // адрес поменял сам переход «Книги | Мотивы»: страницы уже на месте
+    if(motSelPending){ motSelPending = false; return; }                         // адрес поменял выбор книг в поле: страница уже перерисована на месте
     ensureManual();
     renderGen++;
     flowPage(false);   // тёмные html/body и theme-color шапки — только на странице эмблемы Альчато (renderCard → flowOn)
@@ -1150,7 +1152,10 @@
     // той же цели больше не нужен — указатель/«Имена» живут на том же
     // обычном sticky, что и читалка главы, без исключений.
     if(p.motifs){
-      if(p.mb && p.mb.indexOf("+") >= 0){ location.replace(motHref("all", p.mid)); return; }   // старые адреса с «+» (несколько книг) — «все»
+      if(p.mb && p.mb.indexOf("+") >= 0){   // список книг через «+»: приводим к каноническому виду (все → #/motifs, одна книга — её слаг)
+        if(!MOT.ready){ motLoad(function(){ if(gen === renderGen) route(); }); return; }
+        var cn = motSelect(p.mb).param; if(cn !== p.mb){ location.replace(motHref(cn, p.mid)); return; }
+      }
       if(!p.mid) motifsRoute(p); else renderMotifs(p); return; }
     if(!p.slug){ homeRoute(); return; }
     openBook(p.slug, p, function(book){
@@ -3041,7 +3046,9 @@
   // «all» / «a+b» -> {sel:[слаги], param}; param — как в адресе
   function motSelect(param){
     var all = MOT.books.map(function(b){ return b.slug; });
-    return (param && all.indexOf(param) >= 0) ? {sel:[param], param:param, all:false} : {sel:all, param:"all", all:true};   // одна книга или все; старые адреса с «+» — все
+    var want = (param && param !== "all") ? String(param).split("+") : [];
+    var sel = all.filter(function(sl){ return want.indexOf(sl) >= 0; });
+    return (sel.length && sel.length < all.length) ? {sel:sel, param:sel.join("+"), all:false} : {sel:all, param:"all", all:true};   // выбрано несколько или одна книга — слаги через «+»; все — «all»
   }
   function motHref(param, id){ return "#/motifs"+(id ? "/"+(param || "all")+"/"+id : (param && param !== "all" ? "/"+param : "")); }
   // индекс мотивов по выбранным книгам: число гравюр у родителя — с учётом дочерних
@@ -3067,10 +3074,16 @@
   // Выбор книги: раскрывающееся поле «Книги: все ▾» (заголовок-кнопка + строки «Все книги» / по книге); раскрывается на месте анимацией высоты контейнера (~280 мс, ease-out) и opacity строк
   var MOT_CHEV = '<svg class="ic-mot-chev" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true"><path d="M1.5 1.5 6 6l4.5-4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var MOT_CHK = '<svg class="ic-mot-chk" width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true"><path d="M1.5 6.5 5.5 10.5 14.5 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var MOT_DASH = '<svg class="ic-mot-dash" width="12" height="2" viewBox="0 0 12 2" fill="none" aria-hidden="true"><path d="M1 1h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
   var T_BK = 280;
-  function motBookLabel(cur){ return t("motBkBtn",{b: cur.all ? t("motBkAllS") : motBookName(MOT.books.filter(function(b){ return b.slug === cur.sel[0]; })[0] || {name:{}, slug:cur.sel[0]})}); }
+  function motBookLabel(cur){
+    var n = MOT.books.length, b;
+    if(cur.all) return t("motBkBtn",{b: t("motBkAllS")});
+    if(cur.sel.length === 1){ b = MOT.books.filter(function(x){ return x.slug === cur.sel[0]; })[0]; return t("motBkBtn",{b: motBookName(b || {name:{}, slug:cur.sel[0]})}); }
+    return t("motBkBtn",{b: t("motBkSome",{k:cur.sel.length, n:n})});
+  }
   function motBkCount(b){ var seen = {}; Object.keys(b.bind).forEach(function(k){ b.bind[k].forEach(function(a){ seen[a] = 1; }); }); return Object.keys(seen).length; }
-  // сведения для строк (обложка, автор, год) — из library.json и book.json; грузятся один раз
+  // сведения для строк (обложка) — из library.json и book.json; грузятся один раз
   function motBookInfo(cb){
     if(MOT.info){ cb(MOT.info); return; }
     loadLibrary(function(list){
@@ -3085,32 +3098,41 @@
       });
     });
   }
-  function motBkSub(m){
-    var L = state.lang, a = m.libAuthor ? (m.libAuthor[L] || m.libAuthor.ru) : m.author;
-    return [a, m.year].filter(Boolean).join(", ");
-  }
+  // строки поля: «Все книги» (галочка / черта / пусто) и по строке на книгу (обложка, название, число гравюр с мотивами, чекбокс)
   function motBkRows(cur, info){
-    var names = MOT.books.map(function(b){ return motBookName(b); }).join(", ");
     function th(slug){ var inf = info && info[slug]; return inf && inf.thumb ? '<img src="'+esc(inf.thumb)+'" alt="" decoding="async">' : ""; }
-    return '<button type="button" class="ic-mot-bkrow ic-mot-bkall" role="radio" data-bk="all" aria-checked="'+cur.all+'"><span class="ic-mot-bkth ic-mot-bkth2">'+MOT.books.slice(0,2).map(function(b){ return th(b.slug); }).join("")+'</span><span class="ic-mot-bktx"><b>'+esc(t("motAllBooks"))+'</b><small>'+esc(names)+'</small></span>'+MOT_CHK+'</button>'+
+    var total = 0; MOT.books.forEach(function(b){ total += motBkCount(b); });
+    function cb(){ return '<span class="ic-mot-cb" aria-hidden="true">'+MOT_CHK+MOT_DASH+'</span>'; }
+    return '<button type="button" class="ic-mot-bkrow ic-mot-bkall" role="checkbox" data-bk="all" aria-checked="'+(cur.all ? "true" : "mixed")+'"><span class="ic-mot-bkth ic-mot-bkth2">'+MOT.books.slice(0,2).map(function(b){ return th(b.slug); }).join("")+'</span><span class="ic-mot-bknm">'+esc(t("motAllBooks"))+'</span><span class="ic-mot-bkn">'+total+'</span>'+cb()+'</button>'+
       MOT.books.map(function(b){
-        var inf = info && info[b.slug], sub = inf ? motBkSub(inf.m) : "";
-        return '<button type="button" class="ic-mot-bkrow" role="radio" data-bk="'+esc(b.slug)+'" aria-checked="'+(!cur.all && cur.sel[0] === b.slug)+'"><span class="ic-mot-bkth">'+th(b.slug)+'</span>'+
-          '<span class="ic-mot-bktx"><b>'+esc(motBookName(b))+'</b><small>'+esc((sub ? sub+" · " : "")+motNum(motBkCount(b)))+'</small></span>'+MOT_CHK+'</button>';
+        return '<button type="button" class="ic-mot-bkrow" role="checkbox" data-bk="'+esc(b.slug)+'" aria-checked="'+(cur.sel.indexOf(b.slug) >= 0)+'"><span class="ic-mot-bkth">'+th(b.slug)+'</span><span class="ic-mot-bknm">'+esc(motBookName(b))+'</span><span class="ic-mot-bkn">'+motBkCount(b)+'</span>'+cb()+'</button>';
       }).join("");
   }
   function motBooksBtn(cur){
     if(MOT.books.length < 2) return "";   // у одной книги выбирать нечего
     return '<div class="ic-mot-bk"><button type="button" class="ic-mot-bookbtn" aria-expanded="false" aria-haspopup="true"><span class="ic-mot-bkhl">'+esc(motBookLabel(cur))+'</span>'+MOT_CHEV+'</button>'+
-      '<div class="ic-mot-bkbody" role="radiogroup" aria-label="'+esc(t("motBkTtl"))+'" hidden>'+motBkRows(cur, MOT.info)+'</div></div>';
+      '<div class="ic-mot-bkbody" role="group" aria-label="'+esc(t("motBkTtl"))+'" hidden>'+motBkRows(cur, MOT.info)+'</div></div>';
+  }
+  // заголовок и состояние строк по текущему выбору (поле при этом остаётся раскрытым)
+  function motBkSync(box, cur){
+    box.querySelector(".ic-mot-bkhl").textContent = motBookLabel(cur);
+    [].forEach.call(box.querySelectorAll("[data-bk]"), function(r){
+      var sl = r.getAttribute("data-bk");
+      r.setAttribute("aria-checked", sl === "all" ? (cur.all ? "true" : "mixed") : String(cur.sel.indexOf(sl) >= 0));
+    });
+  }
+  var motSelPending = false;
+  function motSetAddr(param, mid){
+    var h = motHref(param, mid);
+    if(location.hash === h) return;
+    motSelPending = true; location.replace(h);   // route() пропустит это изменение адреса: страница уже перерисована на месте
   }
   function motBkReduce(){ return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches); }
   // раскрыть/свернуть: только высота контейнера и opacity строк (transform страницы не используется); done — по окончании
   function motBkSet(box, open, done){
-    var hd = box.querySelector(".ic-mot-bookbtn"), body = box.querySelector(".ic-mot-bkbody"), hl = box.querySelector(".ic-mot-bkhl");
+    var hd = box.querySelector(".ic-mot-bookbtn"), body = box.querySelector(".ic-mot-bkbody");
     if(box.classList.contains("ic-open") === open){ if(done) done(); return; }
     box.classList.toggle("ic-open", open); hd.setAttribute("aria-expanded", open ? "true" : "false");
-    if(open) hl.textContent = t("motBkTtl");
     body.getAnimations().forEach(function(a){ a.cancel(); });
     var rows = [].slice.call(body.querySelectorAll(".ic-mot-bkrow"));
     rows.forEach(function(r){ r.getAnimations().forEach(function(a){ a.cancel(); }); });
@@ -3125,27 +3147,25 @@
     };
   }
   var motBkDoc = false;
-  // host — контейнер со всеми такими полями страницы (делегирование); cur — выбранные книги, mid — мотив (или null)
-  function motMountBooks(host, cur, mid){
+  // host — контейнер со всеми такими полями страницы (делегирование); cur — выбранные книги (меняется на месте), mid — мотив (или null), onChange — перерисовать страницу под новый выбор
+  function motMountBooks(host, cur, mid, onChange){
     if(!host || MOT.books.length < 2) return;
     if(!MOT.info) motBookInfo(function(){ [].forEach.call(root.querySelectorAll(".ic-mot-bkbody"), function(b){ b.innerHTML = motBkRows(cur, MOT.info); }); });
     host.addEventListener("click", function(e){
       var box = e.target.closest(".ic-mot-bk"); if(!box) return;
-      if(e.target.closest(".ic-mot-bookbtn")){
-        var open = !box.classList.contains("ic-open");
-        motBkSet(box, open);
-        if(!open) box.querySelector(".ic-mot-bkhl").textContent = motBookLabel(cur);
-        return;
-      }
+      if(e.target.closest(".ic-mot-bookbtn")){ motBkSet(box, !box.classList.contains("ic-open")); return; }
       var r = e.target.closest("[data-bk]"); if(!r) return;
-      var sl = r.getAttribute("data-bk"), same = sl === (cur.all ? "all" : cur.sel[0]);
-      box.querySelector(".ic-mot-bkhl").textContent = motBookLabel(motSelect(sl));   // выбор сразу виден в заголовке
-      [].forEach.call(box.querySelectorAll("[data-bk]"), function(x){ x.setAttribute("aria-checked", x === r ? "true" : "false"); });
-      motBkSet(box, false, function(){ if(!same) location.replace(motHref(sl, mid)); });
+      var sl = r.getAttribute("data-bk"), all = MOT.books.map(function(b){ return b.slug; }), sel = cur.sel.slice();
+      if(sl === "all"){ if(cur.all) return; sel = all; }                       // «Все книги»: отметить все; если все уже отмечены — без изменений
+      else if(sel.indexOf(sl) >= 0){ if(sel.length === 1) return; sel.splice(sel.indexOf(sl), 1); }   // последнюю отмеченную книгу снять нельзя
+      else sel = all.filter(function(x){ return x === sl || sel.indexOf(x) >= 0; });
+      var nc = motSelect(sel.join("+")); cur.sel = nc.sel; cur.param = nc.param; cur.all = nc.all;
+      MOT_CUR = cur.param; motBkSync(box, cur); motSetAddr(cur.param, mid);
+      if(onChange) onChange();
     });
     host.addEventListener("keydown", function(e){
       var box = e.target.closest && e.target.closest(".ic-mot-bk"); if(!box) return;
-      if(e.key === "Escape" && box.classList.contains("ic-open")){ e.preventDefault(); motBkSet(box, false); box.querySelector(".ic-mot-bkhl").textContent = motBookLabel(cur); box.querySelector(".ic-mot-bookbtn").focus(); return; }
+      if(e.key === "Escape" && box.classList.contains("ic-open")){ e.preventDefault(); motBkSet(box, false); box.querySelector(".ic-mot-bookbtn").focus(); return; }
       if((e.key === "ArrowDown" || e.key === "ArrowUp") && e.target.closest(".ic-mot-bkbody")){
         var rows = [].slice.call(box.querySelectorAll(".ic-mot-bkrow")), i = rows.indexOf(e.target.closest(".ic-mot-bkrow"));
         e.preventDefault(); rows[(i + (e.key === "ArrowDown" ? 1 : rows.length - 1)) % rows.length].focus();
@@ -3154,10 +3174,7 @@
     if(!motBkDoc){   // тап вне поля сворачивает его без изменений (один слушатель на документ)
       motBkDoc = true;
       document.addEventListener("click", function(e){
-        [].forEach.call(document.querySelectorAll(".ic-mot-bk.ic-open"), function(box){
-          if(box.contains(e.target)) return;
-          motBkSet(box, false); var hl = box.querySelector(".ic-mot-bkhl"), cu = motSelect(MOT_CUR); hl.textContent = motBookLabel(cu);
-        });
+        [].forEach.call(document.querySelectorAll(".ic-mot-bk.ic-open"), function(box){ if(!box.contains(e.target)) motBkSet(box, false); });
       }, true);
     }
   }
@@ -3418,7 +3435,7 @@
     rbarEl.innerHTML = strip;
     pane.innerHTML = '<div class="ic-top-row">'+langSwitch()+'</div><div class="ic-mot-body"></div>';
     var bkBtn = motBooksBtn(cur); MOT_CUR = cur.param;
-    motMountBooks(pane, cur, null);
+    motMountBooks(pane, cur, null, function(){ if(MS) MS.mb = cur.param; ix = motBuild(cur.sel); fill(); });   // выбор книг: числа и плитки пересчитываются на месте, поле остаётся раскрытым
     var bar = rbarEl.querySelector(".ic-mot-bar"), tabsEl = bar.querySelector(".ic-mot-tabs"), body = pane.querySelector(".ic-mot-body"),
         findIn = bar.querySelector(".ic-mot-findin");
     function roots(list){ var inL = {}; list.forEach(function(n){ inL[n.id] = 1; }); return list.filter(function(n){ return !(n.parent && inL[n.parent]); }); }
@@ -3470,7 +3487,9 @@
         html = bkBtn+'<h2 class="ic-mot-sh ic-mot-sh1"><span>'+esc(t(MOT_CAT_KEY[motUi.cat]))+'</span></h2>'+
           '<div class="ic-mot-fams">'+family(roots(L2), inS)+'</div>';
       }
+      var kept = body.querySelector(".ic-mot-bk"); if(kept) kept.parentNode.removeChild(kept);   // поле выбора книг переживает перерисовку (остаётся раскрытым)
       body.innerHTML = html;
+      var nb = body.querySelector(".ic-mot-bk"); if(kept && nb) nb.parentNode.replaceChild(kept, nb);
     }
     function setFind(v){
       motUi.find = v; bar.classList.toggle("ic-mot-finding", v);
@@ -3499,46 +3518,67 @@
     return isAlc(book) && book.alc ? alcThumbSrc(book, it) : ripaThumb(book, it);
   }
   function renderMotifGrid(p, cur, gen, pending){
-    var ix = motBuild(cur.sel), n = ix.nodes[p.mid], rbSheets = [];
-    var items = n ? motItems(cur, n) : [], fromQ = "?from=motif:"+cur.param+":"+p.mid, total = items.length;
-    if(pending) total = n ? n.all.length : 0;
-    var names = {}; MOT.books.forEach(function(b){ names[b.slug] = motBookName(b); });
-    var used = []; items.forEach(function(x){ if(used.indexOf(x.book.slug) < 0) used.push(x.book.slug); });
-    var many = cur.sel.length > 1;   // подпись книги под гравюрой — когда выбрано несколько книг
-    var head = n && n.all.length ? esc(motName(n)) : esc(t("motTitle"));
-    var kids = n ? n.kids.filter(function(c){ return c.all.length > 0; }).sort(motSort) : [];
-    var grid = pending ? '<p class="ic-mot-wait">'+esc(t("loading"))+'</p>' : items.length ? '<ul class="ic-gal ic-gal-grid ic-mot-grid">'+items.map(function(x, ix0){
-      var th = motThumb(x.book, x.it);
-      var pgS = x.plate ? platePageStr(x.it.page) : (t("pageAbbr")+" "+x.it.page);
-      return '<li><a class="ic-gal-item" href="'+esc(motHrefOf(x, fromQ))+'" data-slug="'+esc(x.book.slug)+'" data-id="'+esc(x.it.id)+'" data-anchor="'+esc(x.book.slug+"-"+x.it.id)+'"><span class="ic-gal-img ic-rp-gimg">'+(th ? (ix0 < 4 ? '<img fetchpriority="high" decoding="async" src="'+esc(th)+'" alt="">' : '<img loading="lazy" decoding="async" src="'+esc(th)+'" alt="">') : "")+'</span>'+
-        '<span class="ic-gal-cap">'+esc(motTitleAny(x.it))+'<small class="ic-gal-pg">'+(many ? esc(names[x.book.slug]||x.book.slug)+(pgS ? ' · ' : "") : "")+esc(pgS)+'</small></span></a></li>';
-    }).join("")+'</ul>' : '<p class="ic-empty">'+esc(t("motNone"))+'</p>';
-    var strip = '<div class="ic-mot-bar ic-mot-bar-m"><button type="button" class="ic-mot-back" aria-label="'+esc(t("rbBack"))+'">'+ICON_BACK+'</button><span class="ic-mot-ttl">'+(n && total ? esc(motName(n)+" · "+motNum(total)) : esc(t("motTitle")))+'</span>'+motLoupe()+'</div>';
+    var rbSheets = [], names = {}, fromQ = "";
+    MOT.books.forEach(function(b){ names[b.slug] = motBookName(b); });
+    // изменяемые части страницы (заголовок строки, число, метки вложенных, сетка) — пересобираются при смене выбора книг
+    function dyn(pend){
+      var ix = motBuild(cur.sel), n = ix.nodes[p.mid], items = n ? motItems(cur, n) : [], total = items.length;
+      fromQ = "?from=motif:"+cur.param+":"+p.mid;
+      if(pend) total = n ? n.all.length : 0;
+      var used = []; items.forEach(function(x){ if(used.indexOf(x.book.slug) < 0) used.push(x.book.slug); });
+      var many = cur.sel.length > 1;   // подпись книги под гравюрой — когда выбрано несколько книг
+      var kids = n ? n.kids.filter(function(c){ return c.all.length > 0; }).sort(motSort) : [];
+      return {
+        ttl: n && total ? esc(motName(n)+" · "+motNum(total)) : esc(t("motTitle")),
+        head: n && n.all.length ? esc(motName(n)) : esc(t("motTitle")),
+        count: esc(motNum(total))+(used.length ? ' · '+esc(used.map(function(s){ return names[s] || s; }).join(", ")) : ""),
+        kids: kids.length ? '<div class="ic-mot-tags ic-mot-kids">'+kids.map(function(c, ki){ return '<a class="ic-mot-tag'+(ki >= 10 ? " ic-mot-kx" : "")+'" href="'+esc(motHref(cur.param, c.id))+'">'+esc(motName(c))+'</a>'; }).join("")+
+          (kids.length > 10 ? '<button type="button" class="ic-mot-more">'+esc(t("motMore",{n:kids.length-10}))+'</button>' : "")+'</div>' : "",
+        grid: pend ? '<p class="ic-mot-wait">'+esc(t("loading"))+'</p>' : items.length ? '<ul class="ic-gal ic-gal-grid ic-mot-grid">'+items.map(function(x, ix0){
+          var th = motThumb(x.book, x.it);
+          var pgS = x.plate ? platePageStr(x.it.page) : (t("pageAbbr")+" "+x.it.page);
+          return '<li><a class="ic-gal-item" href="'+esc(motHrefOf(x, fromQ))+'" data-slug="'+esc(x.book.slug)+'" data-id="'+esc(x.it.id)+'" data-anchor="'+esc(x.book.slug+"-"+x.it.id)+'"><span class="ic-gal-img ic-rp-gimg">'+(th ? (ix0 < 4 ? '<img fetchpriority="high" decoding="async" src="'+esc(th)+'" alt="">' : '<img loading="lazy" decoding="async" src="'+esc(th)+'" alt="">') : "")+'</span>'+
+            '<span class="ic-gal-cap">'+esc(motTitleAny(x.it))+'<small class="ic-gal-pg">'+(many ? esc(names[x.book.slug]||x.book.slug)+(pgS ? ' · ' : "") : "")+esc(pgS)+'</small></span></a></li>';
+        }).join("")+'</ul>' : '<p class="ic-empty">'+esc(t("motNone"))+'</p>'
+      };
+    }
+    var d = dyn(pending);
+    var strip = '<div class="ic-mot-bar ic-mot-bar-m"><button type="button" class="ic-mot-back" aria-label="'+esc(t("rbBack"))+'">'+ICON_BACK+'</button><span class="ic-mot-ttl">'+d.ttl+'</span>'+motLoupe()+'</div>';
     root.innerHTML = motShell(strip)+
       '<div class="ic-wrap ic-rp ic-mot"><div class="ic-top-row">'+langSwitch()+'</div>'+
-        '<header class="ic-head"><h1 class="ic-h-fr ic-mot-h1">'+head+'</h1>'+
-          '<p class="ic-count ic-mot-count">'+esc(motNum(total))+(used.length ? ' · '+esc(used.map(function(s){ return names[s] || s; }).join(", ")) : "")+'</p></header>'+
-        (kids.length ? '<div class="ic-mot-tags ic-mot-kids">'+kids.map(function(c, ki){ return '<a class="ic-mot-tag'+(ki >= 10 ? " ic-mot-kx" : "")+'" href="'+esc(motHref(cur.param, c.id))+'">'+esc(motName(c))+'</a>'; }).join("")+
-          (kids.length > 10 ? '<button type="button" class="ic-mot-more">'+esc(t("motMore",{n:kids.length-10}))+'</button>' : "")+'</div>' : "")+
-        '<div class="ic-mot-bkhost">'+motBooksBtn(cur)+'</div>'+grid+'</div><div id="ic-rb-dim"></div>';
+        '<header class="ic-head"><h1 class="ic-h-fr ic-mot-h1">'+d.head+'</h1><p class="ic-count ic-mot-count">'+d.count+'</p></header>'+
+        '<div class="ic-mot-kidsbox">'+d.kids+'</div>'+
+        '<div class="ic-mot-bkhost">'+motBooksBtn(cur)+'</div><div class="ic-mot-gridbox">'+d.grid+'</div></div><div id="ic-rb-dim"></div>';
     ripaBind(MOT_BOOK, gen, rbSheets);
     flowOn();
-    MOT_CUR = cur.param; motMountBooks(root.querySelector(".ic-mot-bkhost"), cur, p.mid);
+    var kidsBox = root.querySelector(".ic-mot-kidsbox"), gridBox = root.querySelector(".ic-mot-gridbox");
+    function paint(pend){
+      var d2 = dyn(pend);
+      root.querySelector(".ic-mot-ttl").innerHTML = d2.ttl; root.querySelector(".ic-mot-h1").innerHTML = d2.head; root.querySelector(".ic-mot-count").innerHTML = d2.count;
+      kidsBox.innerHTML = d2.kids; gridBox.innerHTML = d2.grid;
+    }
+    MOT_CUR = cur.param;
+    motMountBooks(root.querySelector(".ic-mot-bkhost"), cur, p.mid, function(){   // выбор книг: сетка и числа пересчитываются на месте, поле остаётся раскрытым
+      var pend = cur.sel.some(motNotReady); paint(pend);
+      if(pend) motEnsure(cur.sel, gen, function(){ paint(false); });
+    });
     // назад — в каталог на тот же раздел и место прокрутки (если пришли из каталога — шаг истории назад)
     root.querySelector(".ic-mot-back").addEventListener("click", function(){
       if(cameFromHash && /^#\/motifs(\/[^\/]*)?$/.test(cameFromHash)) history.back(); else location.hash = "#/motifs";
     });
     root.querySelector(".ic-mot-loupe").addEventListener("click", function(){ motUi.find = true; location.hash = "#/motifs"; });
-    root.querySelectorAll(".ic-gal").forEach(function(g){ g.addEventListener("click", function(e){
+    gridBox.addEventListener("click", function(e){
       var a = e.target.closest(".ic-gal-item");
       if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){
         e.preventDefault(); if(a.blur) a.blur();
         var bk = books[a.getAttribute("data-slug")], id = a.getAttribute("data-id");
         if(motIsPl(bk)) motOpen({book:bk, it:bk.chap.pl.byId[id], plate:true}, fromQ); else ripaOpen(bk, id, "", fromQ);
       }
-    }); });
-    var moreB = root.querySelector(".ic-mot-more");
-    if(moreB) moreB.addEventListener("click", function(){ var box = moreB.parentNode; box.classList.add("ic-mot-open"); moreB.parentNode.removeChild(moreB); });   // «ещё N» — раскрыть остальные метки на месте
+    });
+    kidsBox.addEventListener("click", function(e){   // «ещё N» — раскрыть остальные метки на месте
+      var moreB = e.target.closest(".ic-mot-more"); if(!moreB) return;
+      moreB.parentNode.classList.add("ic-mot-open"); moreB.parentNode.removeChild(moreB);
+    });
     if(document.activeElement && document.activeElement !== document.body && document.activeElement.blur) document.activeElement.blur();
     if(!pending){ state.scroll = 0; restoreOrTop(gen); }
     nudgeRepaint();
