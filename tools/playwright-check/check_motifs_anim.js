@@ -1,23 +1,35 @@
-/* Плавный переход «Книги ⇄ Мотивы» (v246: страницы только растворяются, строка разделов выезжает вниз из-под переключателя, линия и тень по прозрачности): нет кадра без страниц, старт в тот же кадр что и нажатие,
- * шапка не перерисовывается, рамки капсулы одинаковой толщины (DSF 3), фильтр снят после перехода, «назад»/прямой заход без анимации,
- * повторные нажатия игнорируются, prefers-reduced-motion, прокрутка, консоль.
+/* Переход «Книги ⇄ Мотивы» (v254): только настоящие элементы, только transform/opacity (Web Animations). Фаза 1 (0–150 мс): страница opacity 1→0 и сдвиг вниз на 12px,
+ * строка разделов при уходе с «Мотивов» уезжает вверх; смена содержимого; фаза 2 (150–450 мс): страница opacity 0→1, сдвиг −12→0, строка выезжает сверху.
+ * Проверяется: нигде нет mask-image / filter / клонов / will-change на страницах в любой момент перехода; строка цельная (дети в её пределах, нет щели);
+ * после перехода анимации и inline-стили сняты; бумага до низа; подложка и шапка; повторные нажатия, «назад», прямой заход, reduce-motion, прокрутка.
  * Запуск (из корня репозитория): python3 -m http.server 8977 & ; cd tools/playwright-check && BASE=http://localhost:8977/index.html node check_motifs_anim.js */
 const { webkit, devices } = require('playwright'); const path=require('path');
-const BASE=process.env.BASE||'http://localhost:8977/index.html', OUT=path.join(__dirname,'out'); const W=ms=>new Promise(r=>setTimeout(r,ms));
+const BASE=process.env.BASE||'http://localhost:8977/index.html'; const W=ms=>new Promise(r=>setTimeout(r,ms));
 let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(x?' '+x:'')); };
-const LOG=`(()=>{ window.__log=[]; window.__ghostSeen=0; window.__tc=null; window.__gs=window.__gs||new WeakSet();
- if(!window.__clk){ window.__clk=1; document.addEventListener('click',()=>{ window.__tc=performance.now(); },true); }
- new MutationObserver(m=>{ m.forEach(x=>x.addedNodes.forEach(n=>{ if(n.classList&&(n.classList.contains('ic-mot-ghost')||n.classList.contains('ic-mot-gbg'))&&!window.__gs.has(n)){ window.__gs.add(n); window.__ghostSeen++; } })); }).observe(document.getElementById('iconologie'),{childList:true});
- const bbEl=document.querySelector('.back-bar'); const f=()=>{ const bb=bbEl.getBoundingClientRect(), bt=document.getElementById('ic-booktabs'), b=bt&&bt.getBoundingClientRect(); const pill=document.querySelector('.ic-mot-pill');
-  const gAll=[...document.querySelectorAll('.ic-mot-ghost')], g=gAll.filter(x=>!x.classList.contains('ic-mot-trail')), trl=gAll.filter(x=>x.classList.contains('ic-mot-trail')); const mtx=e=>{ const m=getComputedStyle(e).transform; return (!m||m==='none')?0:+m.slice(m.indexOf('(')+1,-1).split(',')[m.startsWith('matrix3d')?12:4]; }; const mty=e=>{ const m=getComputedStyle(e).transform; return (!m||m==='none')?0:+m.slice(m.indexOf('(')+1,-1).split(',')[m.startsWith('matrix3d')?13:5]; };
-  const rw=[...document.querySelectorAll('.ic-mot-rwrap')]; const strips=rw.map(w=>{ const bar=w.querySelector('.ic-ch-outer-bar'), sh=w.querySelector('.ic-mot-shd'), cl=w.querySelector('.ic-mot-rclip'); const bh=bar?bar.getBoundingClientRect().height:0; return {ty:w.classList.contains('ic-mot-gstrip')?mty(w):(bar?mty(bar):0),h:Math.round(bh),sh:sh?+getComputedStyle(sh).opacity:null,ghost:w.classList.contains('ic-mot-gstrip'),bottom:Math.round(w.getBoundingClientRect().bottom),ov:cl?getComputedStyle(cl).overflow:null,bg:bar?getComputedStyle(bar.firstElementChild||bar).backgroundColor:null,hr:!!w.querySelector('.ic-mot-hr')}; });
-  window.__log.push({t:performance.now(),tc:window.__tc,n:gAll.length,g:g.map(x=>{ const c=getComputedStyle(x), ci=getComputedStyle(x.firstChild); return {op:+c.opacity,ty:mty(x.firstChild),fl:c.filter+'|'+ci.filter,mk:(ci.webkitMaskImage&&ci.webkitMaskImage!=='none')||(ci.maskImage&&ci.maskImage!=='none')||false,smk:/24px/.test(c.webkitMaskImage||c.maskImage||''),top:Math.round(x.getBoundingClientRect().top),out:x.classList.contains('ic-mot-out')}; }),trails:trl.length,trOp:trl.length?Math.max.apply(null,trl.map(x=>+getComputedStyle(x).opacity)):0,trAria:trl.every(x=>x.getAttribute('aria-hidden')==='true'),trFl:trl.every(x=>getComputedStyle(x).filter==='none'),strips,pill:pill?mtx(pill):null,bbSame:document.querySelector('.back-bar')===bbEl,bbTop:Math.round(bb.top),bbH:Math.round(bb.height),btTop:b?Math.round(b.top):null,btH:b?Math.round(b.height):null}); if(window.__log.length<500) requestAnimationFrame(f); }; requestAnimationFrame(f); })()`;
-const PIX=`async ([b64,pts])=>{ const im=new Image(); await new Promise(r=>{im.onload=r; im.src='data:image/png;base64,'+b64;}); const c=document.createElement('canvas'); c.width=im.width; c.height=im.height; const x=c.getContext('2d'); x.drawImage(im,0,0); const k=im.width/innerWidth; return pts.map(([px,py])=>Array.from(x.getImageData(Math.round(px*k),Math.round(py*k),1,1).data).slice(0,3)); }`;
-// яркость вдоль линии: начало в CSS-пикселях, шаг dx/dy — один девайсный пиксель, len — длина в CSS-пикселях
+// кадры (на каждом rAF): страница, строка, шапка, моменты смены адреса
+const LOG=`(()=>{ window.__log=[]; window.__hc=[]; window.__tc=null;
+ if(!window.__clk){ window.__clk=1; document.addEventListener('click',()=>{ window.__tc=performance.now(); },true); addEventListener('hashchange',()=>{ window.__hc.push(performance.now()); }); }
+ const bbEl=document.querySelector('.back-bar'); const mty=e=>{ const m=getComputedStyle(e).transform; return (!m||m==='none')?0:+m.slice(m.indexOf('(')+1,-1).split(',')[m.startsWith('matrix3d')?13:5]; };
+ const f=()=>{ const wr=document.querySelector('#iconologie > .ic-wrap'), bb=bbEl.getBoundingClientRect(), bt=document.getElementById('ic-booktabs'), b=bt&&bt.getBoundingClientRect(), pill=document.querySelector('.ic-mot-pill');
+  const rw=document.querySelector('#iconologie .ic-mot-rwrap'), bar=rw&&rw.querySelector('.ic-ch-outer-bar');
+  window.__log.push({t:performance.now(),tc:window.__tc,hash:location.hash,wr:wr?{op:+getComputedStyle(wr).opacity,ty:mty(wr)}:null,strip:bar?{ty:mty(bar),h:Math.round(bar.getBoundingClientRect().height)}:null,
+   bbSame:document.querySelector('.back-bar')===bbEl,bbTop:Math.round(bb.top),bbH:Math.round(bb.height),btTop:b?Math.round(b.top):null,btH:b?Math.round(b.height):null,pill:pill?(()=>{ const m=getComputedStyle(pill).transform; return (!m||m==='none')?0:+m.slice(m.indexOf('(')+1,-1).split(',')[m.startsWith('matrix3d')?12:4]; })():null});
+  if(window.__log.length<700) requestAnimationFrame(f); }; requestAnimationFrame(f); })()`;
+// аудит страницы: маски, filter, backdrop-filter, will-change, клоны/слои анимации
+const AUDIT=`(()=>{ const bad=[]; document.querySelectorAll('html, body, body *').forEach(e=>{ const c=getComputedStyle(e), mk=(c.webkitMaskImage&&c.webkitMaskImage!=='none')||(c.maskImage&&c.maskImage!=='none'), bf=(c.webkitBackdropFilter||c.backdropFilter||'none');
+  const nm=(e.id?'#'+e.id:'')+e.tagName.toLowerCase()+'.'+String(e.className).split(' ')[0];
+  if(mk&&!(e.classList.contains('ic-mot-tabs')&&e.classList.contains('ic-mot-fade'))) bad.push(nm+' mask'); if(c.filter!=='none'&&!e.matches('.ic-lib-thumb img')) bad.push(nm+' filter');   /* тень/серость обложек книг на главной — статичное оформление (drop-shadow), не анимация */ if(bf&&bf!=='none') bad.push(nm+' backdrop'); if(c.willChange&&c.willChange!=='auto') bad.push(nm+' will-change='+c.willChange); });
+  return {bad,clones:document.querySelectorAll('.ic-mot-ghost,.ic-mot-trail,.ic-mot-gstrip,.ic-mot-gin,.ic-mot-gbg').length,tabsMaskDuring:(()=>{ const t=document.querySelector('.ic-mot-tabs'); return t?t.classList.contains('ic-mot-fade'):null; })()}; })()`;
+// строка цельная: дети внутри строки, строка непрерывна от переключателя вниз, нет щели со страницей
+const STRIP=`(()=>{ const rw=document.querySelector('#iconologie .ic-mot-rwrap'); if(!rw) return null; const bar=rw.querySelector('.ic-ch-outer-bar'), R=rw.getBoundingClientRect(), B=bar.getBoundingClientRect(), bt=document.getElementById('ic-booktabs').getBoundingClientRect(), wr=document.querySelector('#iconologie > .ic-wrap');
+  const kids=[...bar.querySelectorAll('.ic-mot-loupe, .ic-mot-back, .ic-mot-ttl, .ic-mot-tabs')].map(e=>e.getBoundingClientRect()); const inside=kids.every(r=>r.top>=B.top-1&&r.bottom<=B.bottom+1&&r.left>=B.left-1&&r.right<=B.right+1);
+  const m=getComputedStyle(wr).transform, wty=(!m||m==='none')?0:+m.slice(m.indexOf('(')+1,-1).split(',')[m.startsWith('matrix3d')?13:5]; const hit=document.elementFromPoint(R.left+6,Math.min(R.bottom-2,Math.max(R.top+2,B.bottom-3)));
+  return {inside,toggleToStrip:Math.round(R.top-bt.bottom),pageGap:Math.round(wr.getBoundingClientRect().top-wty-R.bottom),barTop:Math.round(B.top-R.top),barBottom:Math.round(B.bottom-R.top),h:Math.round(R.height),hitInStrip:!!(hit&&hit.closest('.ic-mot-rwrap')),clip:getComputedStyle(rw.querySelector('.ic-mot-rclip')).overflow}; })()`;
+const REST=`(()=>{ const q=s=>[...document.querySelectorAll(s)]; const bad=[]; ['#iconologie > .ic-wrap','.ic-mot-rwrap','.ic-ch-outer-bar','.ic-mot-shd','.ic-mot-rclip'].forEach(s=>q(s).forEach(e=>{ const c=getComputedStyle(e); if(c.transform!=='none'||c.opacity!=='1') bad.push(s+' tf='+c.transform+' op='+c.opacity); if(e.getAttribute('style')) bad.push(s+' inline='+e.getAttribute('style')); }));
+  return {bad,anims:document.getAnimations().length,rootH:Math.round(document.getElementById('iconologie').getBoundingClientRect().height),vh:innerHeight,min:getComputedStyle(document.getElementById('iconologie')).minHeight}; })()`;
+const WRAP=`(()=>{ const wr=document.querySelector('#iconologie > .ic-wrap'), c=getComputedStyle(wr), m=c.transform; return {hash:location.hash,op:+c.opacity,ty:(!m||m==='none')?0:+m.slice(m.indexOf('(')+1,-1).split(',')[m.startsWith('matrix3d')?13:5]}; })()`;
 const LINES=`async ([b64,lines])=>{ const im=new Image(); await new Promise(r=>{im.onload=r; im.src='data:image/png;base64,'+b64;}); const c=document.createElement('canvas'); c.width=im.width; c.height=im.height; const x=c.getContext('2d'); x.drawImage(im,0,0); const k=Math.round(im.width/innerWidth); return {k, lines:lines.map(([x0,y0,dx,dy,len])=>{ const out=[]; for(let i=0;i<len*k;i++){ const d=x.getImageData(Math.round(x0*k)+dx*i,Math.round(y0*k)+dy*i,1,1).data; out.push(Math.round(0.3*d[0]+0.59*d[1]+0.11*d[2])); } return out; })}; }`;
-function thick(arr){ // число подряд идущих отсчётов заметно ярче фона по краям линии
-  const n=arr.length, edge=Math.max(2,Math.floor(n/6)); const lo=(arr.slice(0,edge).reduce((a,b)=>a+b,0)/edge), hi=(arr.slice(n-edge).reduce((a,b)=>a+b,0)/edge); const base=Math.max(lo,hi)+6;
-  let best=0,cur=0; for(let i=edge;i<n-edge;i++){ if(arr[i]>base){ cur++; best=Math.max(best,cur); } else cur=0; } return best; }
+function thick(arr){ const n=arr.length, edge=Math.max(2,Math.floor(n/6)); const lo=(arr.slice(0,edge).reduce((a,b)=>a+b,0)/edge), hi=(arr.slice(n-edge).reduce((a,b)=>a+b,0)/edge); const base=Math.max(lo,hi)+6; let best=0,cur=0; for(let i=edge;i<n-edge;i++){ if(arr[i]>base){ cur++; best=Math.max(best,cur); } else cur=0; } return best; }
 (async()=>{
  const br=await webkit.launch(); const errs=[];
  for(const vp of [{name:'390x844',w:390,h:844,dev:devices['iPhone 13']},{name:'1180x820',w:1180,h:820}].filter(v=>!process.env.ONLY||v.name===process.env.ONLY)){
@@ -28,8 +40,9 @@ function thick(arr){ // число подряд идущих отсчётов з
    const hash=()=>p.evaluate(()=>location.hash);
    const click=s=>p.evaluate(s=>document.querySelector(s).click(),s);
    await p.goto(BASE+'#/'); await p.evaluate(()=>{localStorage.setItem('ic-lang','ru');sessionStorage.clear();}); await p.reload(); await p.waitForSelector('.ic-lib-row',{timeout:40000}); await W(3500);   // простой: данные «Мотивов» подгружены заранее
+   await p.evaluate(()=>{ window.__an=[]; const o=Element.prototype.animate; Element.prototype.animate=function(){ window.__an.push((this.id?'#'+this.id+' ':'')+String(this.className||this.tagName)); return o.apply(this,arguments); }; });
    if(!reduce){
-     // рамки капсулы и подложки: везде ровно 1 CSS-пиксель (на телефоне 3 девайсных)
+     // рамки капсулы и подложки: везде ровно 1 CSS-пиксель
      await p.goto(BASE+'#/motifs'); await W(2000);
      const sh0=await p.screenshot(); const g0=await p.evaluate(()=>{ const c=document.querySelector('.ic-mot-cap').getBoundingClientRect(), i=document.querySelector('.ic-mot-pill i').getBoundingClientRect(); return {c:[c.left,c.top,c.right,c.bottom],i:[i.left,i.top,i.right,i.bottom],ints:[c.left,c.top,c.width,c.height,i.left,i.top,i.width,i.height].every(v=>Math.abs(v-Math.round(v))<0.001)}; });
      const [cl,ct,cr,cb]=g0.c,[il,it,ir,ib]=g0.i, cx=(cl+cr)/2, cy=(ct+cb)/2, ix=(il+ir)/2, iy=(it+ib)/2, H=3;
@@ -40,95 +53,65 @@ function thick(arr){ // число подряд идущих отсчётов з
      await p.goto(BASE+'#/'); await W(3000);
    }
    await p.evaluate(()=>window.scrollTo(0,300)); await W(500); const y0=await p.evaluate(()=>Math.round(scrollY));
-   // 1) замедленный прогон: кадры в середине
-   if(!reduce) await p.evaluate(()=>{ window.__icMotMs=3000; });
-   await p.evaluate(LOG);
-   await click('.ic-mot-cap a[href="#/motifs"]');
+   await p.evaluate(()=>{ window.__an.length=0; });
    if(!reduce){
-     const top1=await p.evaluate(()=>({y:Math.round(scrollY),gh:document.querySelectorAll('.ic-mot-ghost').length})); ok(T+'нажато не вверху главной (300): страница сразу без анимации наверх, переход идёт',top1.y===0&&top1.gh>=1,JSON.stringify(top1));
-     await W(1300); const sh=await p.screenshot(); if(!process.env.NOSHOT) require('fs').writeFileSync(path.join(OUT,'anim-fwd-'+vp.name+'.png'),sh);
-     const rb=await p.evaluate(()=>{ const w=document.querySelector('#ic-stack .ic-mot-rwrap'); if(!w) return null; const r=w.getBoundingClientRect(); return {t:r.top,h:r.height}; });
-     if(rb){ const y=rb.t+3; const px=await p.evaluate(eval(PIX),[sh.toString('base64'),[[1,y],[3,y],[vp.w-3,y],[vp.w-2,y]]]); ok(T+'середина: строка частично выдвинута, у левого и правого края она тёмная (бумаги нет)',px.every(c=>c[0]<60&&c[1]<60&&c[2]<60),JSON.stringify(px)); }
-     else ok(T+'середина: строка разделов есть',false,'нет .ic-mot-rwrap');
-     await W(2200); await p.evaluate(()=>{ window.__icMotMs=550; });
-   } else await W(900);
-   const L=await p.evaluate(()=>window.__log); const run=L.filter(x=>x.n>0);
-   if(!reduce){
-     const mid=run[Math.floor(run.length/2)], ms=mid.strips.find(x=>!x.ghost);
-     ok(T+'в середине: строка частично выдвинута (translateY между −100% и 0), клип overflow:hidden, тень частично прозрачна',ms&&ms.ty<-3&&ms.ty>-ms.h+3&&ms.h>30&&ms.ov==='hidden'&&ms.sh>0.02&&ms.sh<0.98,JSON.stringify(ms));
-     ok(T+'линии между переключателем и строкой разделов нет совсем (ни в покое, ни во время выезда)',run.every(x=>x.strips.every(y=>!y.hr))&&(await p.$$('.ic-mot-hr')).length===0);
-     const go=mid.g.find(x=>x.out), gi=mid.g.find(x=>!x.out);
-     const fo=ty=>Math.max(0,1-(ty/300)/0.4), fi=ty=>{ const q=Math.max(0,((1+ty/300)-0.3)/0.7); return 1-(1-q)*(1-q); };
-     ok(T+'в середине: уходящая сдвинута вниз (0<ty<300), входящая сверху (−300<ty<0), маска у стыка, filter нет; на 50% уходящая почти исчезла (opacity<0,15)',mid.g.length===2&&go.ty>5&&go.ty<295&&gi.ty<-5&&gi.ty>-295&&go.mk&&gi.mk&&mid.g.every(x=>x.fl==='none|none')&&go.op<0.15,JSON.stringify(mid.g));
-     const sep=run.filter(x=>x.g.length===2); ok(T+'прозрачность разведена по времени: по формулам (уходящая 1−u/0,4, входящая с 30%), никогда обе плотные одновременно, на 50% уходящая < 0,15',sep.length>20&&sep.every(x=>{ const a=x.g.find(y=>y.out), b=x.g.find(y=>!y.out); return Math.abs(a.op-fo(a.ty))<0.09&&Math.abs(b.op-fi(b.ty))<0.09&&!(a.op>0.45&&b.op>0.45); })&&sep.filter(x=>{ const a=x.g.find(y=>y.out); return a.ty>=150; }).every(x=>x.g.find(y=>y.out).op<0.15),sep.length+' кадров');
-     const trmax=Math.max(...run.map(x=>x.trOp)); ok(T+'шлейф слабый и короткий: 2 копии на страницу (aria-hidden), непрозрачность каждой не выше 0,06, без filter',mid.trails===4&&mid.trAria&&mid.trFl&&trmax>0.005&&trmax<=0.0605,'копий '+mid.trails+' макс. '+trmax.toFixed(3));
-     ok(T+'у входящей страницы окно неподвижно и начинается под шапкой (верх = низ строки разделов), срез сверху — мягкая маска 24px, а не жёсткая граница',(()=>{ const gi=mid.g.find(x=>!x.out); return gi&&gi.smk&&gi.mk&&Math.abs(gi.top-(ms?ms.bottom:gi.top))<=2; })(),JSON.stringify(mid.g.map(x=>[x.top,x.smk,x.mk])));//'копий '+mid.trails+' макс. непрозрачность '+mid.trOp.toFixed(3));
-     const mxo=Math.max(...run.map(x=>(x.g.find(y=>y.out)||{ty:0}).ty)), mni=Math.min(...run.map(x=>(x.g.find(y=>!y.out)||{ty:0}).ty)), e0=run.slice(0,2), e1=run.slice(-2); ok(T+'размах: уходящая до +300, входящая от −300; в начале и конце копий шлейфа почти не видно, filter нигде',mxo>=285&&mni<=-285&&run.every(x=>x.g.every(g=>g.fl==='none|none')&&x.trFl)&&e0.every(x=>x.trOp<0.06)&&e1.every(x=>x.trOp<0.06),'ty '+mxo.toFixed(0)+'/'+mni.toFixed(0));
-     const seq=run.map(x=>x.strips.find(y=>!y.ghost)).filter(Boolean), tys=seq.map(x=>x.ty);
-     ok(T+'строка выезжает монотонно от −100% до 0, фон непрозрачный',tys[0]<=-seq[0].h+2&&Math.abs(tys[tys.length-1])<1&&tys.every((v,i)=>i===0||v>=tys[i-1]-0.01)&&seq.every(x=>/rgb[(]/.test(x.bg||'')),tys.filter((v,i)=>i%10===0).map(v=>Math.round(v)).join(','));
-     ok(T+'нет пустого кадра: на каждом кадре два слоя, суммарная непрозрачность двух страниц ≥ 0,2 (между фазами не «пусто»)',run.length>=20&&run.every(x=>x.n>=2&&(x.g.map(y=>y.op).reduce((a,b)=>a+b,0))>=0.2),run.length+' кадров');
-   } else ok(T+'reduce: призраков нет, страница меняется мгновенно',run.length===0&&(await p.evaluate(()=>window.__ghostSeen))===0);
-   const hd=L.filter(x=>x.btTop!=null).map(x=>x.bbTop+'/'+x.bbH+'/'+x.btTop+'/'+x.btH); ok(T+'шапка: тот же элемент, не двигалась, высота не менялась',new Set(hd).size===1&&L.every(x=>x.bbSame),[...new Set(hd)].join(' | '));
-   if(!reduce){ const pp=L.map(x=>x.pill).filter(v=>v!=null); ok(T+'подложка движется плавно и приходит в 143',pp.some(v=>v>1&&v<142)&&pp[pp.length-1]===143,pp.filter((v,i)=>i%12===0).map(v=>Math.round(v*10)/10).join(',')); }
-   ok(T+'итог: #/motifs, сверху, выбраны «Мотивы»',(await hash())==='#/motifs'&&await p.evaluate(()=>Math.round(scrollY))<=2&&(await p.evaluate(()=>document.querySelector('.ic-mot-cap').dataset.pos))==='1');
-   if(!reduce){
-     // пять быстрых переключений туда-обратно (в том числе с повторными нажатиями), затем прокрутка и полный обход страницы «Мотивов»
-     for(let i=0;i<5;i++){ await p.evaluate(()=>{ window.__icMotMs=120; }); await click('.ic-mot-cap a[href="#/"]'); await click('.ic-mot-cap a[href="#/"]'); await W(700); await click('.ic-mot-cap a[href="#/motifs"]'); await click('.ic-mot-cap a[href="#/motifs"]'); await W(700); }
-     await p.evaluate(()=>{ window.__icMotMs=550; });
-     await p.evaluate(()=>window.scrollTo(0,900)); await W(600); await p.evaluate(()=>window.scrollTo(0,0)); await W(400);
-     const au=await p.evaluate(()=>{ const bad=[], fixed=[], abs=[]; document.querySelectorAll('html, body, body *').forEach(e=>{ const c=getComputedStyle(e); const wc=c.willChange, fl=c.filter, bf=(c.webkitBackdropFilter||c.backdropFilter||'none'), mk=(c.webkitMaskImage&&c.webkitMaskImage!=='none')||(c.maskImage&&c.maskImage!=='none'); const nm=(e.id?'#'+e.id:'')+e.tagName.toLowerCase()+'.'+String(e.className).split(' ')[0];
-        if((wc&&wc!=='auto')||fl!=='none'||(bf&&bf!=='none')||(mk&&!e.classList.contains('ic-mot-tabs'))||(c.borderImageSource&&c.borderImageSource!=='none')) bad.push(nm+' wc='+wc+' f='+fl+' bf='+bf+' mask='+mk+' bi='+c.borderImageSource);
-        if(c.position==='fixed'&&e.getBoundingClientRect().width>0&&e.id!=='ic-rb-dim') fixed.push(nm); if(c.opacity!=='1'&&e.id!=='ic-rb-dim') abs.push(nm+' op='+c.opacity); });
-       return {bad,fixed,opac:abs,layers:document.querySelectorAll('.ic-mot-ghost,.ic-mot-trail,.ic-mot-gbg,.ic-mot-gstrip,.ic-mot-gin,.ic-mot-hr').length,rwraps:document.querySelectorAll('.ic-mot-rwrap').length,hash:location.hash}; });
-     ok(T+'после 5 быстрых переключений и прокрутки: нет элементов с will-change/filter/backdrop-filter/масками/border-image (кроме маски вкладок), нет клонов и слоёв анимации',au.bad.length===0&&au.layers===0&&au.rwraps===1&&au.opac.length===0&&au.fixed.length===0,JSON.stringify(au));
-   }
-   const after=await p.evaluate(()=>{ let f=0; document.querySelectorAll('#iconologie *').forEach(e=>{ if(getComputedStyle(e).filter!=='none') f++; }); return {f,gh:document.querySelectorAll('.ic-mot-ghost,.ic-mot-gbg').length,vis:[...document.querySelectorAll('.ic-wrap,.ic-ch-outer-bar')].map(e=>e.style.visibility),sects:document.querySelectorAll('.ic-mot-sect').length,tabs:document.querySelectorAll('.ic-mot-tab').length}; });
-   ok(T+'после перехода filter: none и transform сняты, призраков нет, всё видимо, каталог как в v249',after.f===0&&after.gh===0&&after.vis.every(v=>v==='')&&after.sects===9&&after.tabs===10,JSON.stringify(after));
-   // 2) старт в тот же кадр: обычная скорость, данные подгружены заранее
-   if(!reduce){
-     await p.evaluate(()=>window.scrollTo(0,0)); await click('.ic-mot-cap a[href="#/"]'); await W(1500);   // назад на главную (разогрев)
-     await p.evaluate(()=>{ const t={c:0,anim:[],f1:null}; window.__tm=t; document.addEventListener('click',()=>{ t.c=performance.now(); requestAnimationFrame(()=>{ t.f1={dt:performance.now()-t.c,ghosts:document.querySelectorAll('.ic-mot-ghost').length,running:document.getAnimations().length}; }); },true);
-       const o=Element.prototype.animate; Element.prototype.animate=function(){ t.anim.push(performance.now()-t.c); return o.apply(this,arguments); }; });
+     // ===== «Мотивы», замедленно (фаза 1 = 1 с, фаза 2 = 2 с) =====
+     await p.evaluate(()=>{ window.__icMotMs=3000; }); await p.evaluate(LOG);
+     await click('.ic-mot-cap a[href="#/motifs"]');
+     const top1=await p.evaluate(()=>({y:Math.round(scrollY)})); ok(T+'нажато не вверху главной (300): страница сразу без анимации наверх',top1.y===0,JSON.stringify(top1));
+     await W(450); const a1=await p.evaluate(AUDIT), w1=await p.evaluate(WRAP);
+     ok(T+'фаза 1: главная ещё на месте, уходит (0<opacity<1, сдвиг вниз 0<ty<12), содержимое не сменено',w1.hash==='#/'&&w1.op>0&&w1.op<1&&w1.ty>0&&w1.ty<12,JSON.stringify(w1));
+     ok(T+'фаза 1: нет mask-image/filter/backdrop/will-change и клонов',a1.bad.length===0&&a1.clones===0,JSON.stringify(a1));
+     await W(1500); const a2=await p.evaluate(AUDIT), st2=await p.evaluate(STRIP), w2=await p.evaluate(WRAP);
+     ok(T+'фаза 2: каталог «Мотивов», страница проявляется (0<opacity<1) со сдвигом −12<ty<0',w2.hash==='#/motifs'&&w2.op>0&&w2.op<1&&w2.ty<0&&w2.ty>-12,JSON.stringify(w2));
+     ok(T+'фаза 2: нет mask-image/filter/backdrop/will-change и клонов в любой момент (и маска вкладок снята на время перехода)',a2.bad.length===0&&a2.clones===0&&a2.tabsMaskDuring===false,JSON.stringify(a2));
+     ok(T+'фаза 2: строка разделов цельная — дети в пределах строки, она начинается у переключателя (нет щели), страница сразу под ней, клип только у самой строки',st2&&st2.inside&&Math.abs(st2.toggleToStrip)<=1&&Math.abs(st2.pageGap)<=1&&st2.hitInStrip&&st2.clip==='hidden'&&st2.barTop<-1&&st2.barTop>-st2.h&&st2.barBottom>2,JSON.stringify(st2));
+     await W(2200); const r1=await p.evaluate(REST);
+     ok(T+'после перехода: на странице и строке нет transform/opacity/inline-стилей, анимации сняты',r1.bad.length===0&&r1.anims===0,JSON.stringify(r1));
+     const a3=await p.evaluate(AUDIT); ok(T+'после перехода: ни масок страницы, ни filter, ни клонов (маска вкладок вернулась — единственная)',a3.bad.length===0&&a3.clones===0,JSON.stringify(a3));
+     ok(T+'бумага до низа: корень не короче окна (min-height 100lvh)',r1.rootH>=r1.vh&&parseFloat(r1.min)>=r1.vh,JSON.stringify([r1.rootH,r1.vh,r1.min]));
+     // ===== возврат на «Книги», замедленно =====
+     await p.evaluate(LOG); await click('.ic-mot-cap a[href="#/"]'); await W(450);
+     const b1=await p.evaluate(()=>{ const rw=document.querySelector('#iconologie .ic-mot-rwrap'); const bar=rw&&rw.querySelector('.ic-ch-outer-bar'); const m=bar&&getComputedStyle(bar).transform; const wr=document.querySelector('#iconologie > .ic-wrap'); return {hash:location.hash,has:!!rw,ty:m&&m!=='none'?+m.slice(m.indexOf('(')+1,-1).split(',')[m.startsWith('matrix3d')?13:5]:0,h:rw&&Math.round(rw.getBoundingClientRect().height),wop:+getComputedStyle(wr).opacity}; });
+     const ab=await p.evaluate(AUDIT), stb=await p.evaluate(STRIP);
+     ok(T+'возврат, фаза 1: строка уезжает вверх (−h<ty<0), страница уходит (opacity<1), строка цельная, нет масок/filter/клонов',b1.has&&b1.ty<-1&&b1.ty>-b1.h&&b1.wop<1&&b1.hash==='#/motifs'&&ab.bad.length===0&&ab.clones===0&&stb&&stb.inside&&Math.abs(stb.toggleToStrip)<=1,JSON.stringify([b1,stb]));
+     await W(1400); const b2=await p.evaluate(()=>({hash:location.hash,strips:document.querySelectorAll('#iconologie .ic-mot-rwrap').length,tabs:document.querySelectorAll('.ic-mot-tab').length}));
+     ok(T+'возврат, фаза 2: главная, строка разделов убрана',b2.hash==='#/'&&b2.strips===0&&b2.tabs===0,JSON.stringify(b2));
+     await W(1800); await p.evaluate(()=>{ window.__icMotMs=450; }); const r2=await p.evaluate(REST); ok(T+'после возврата: transform/opacity/inline-стили и анимации сняты',r2.bad.length===0&&r2.anims===0,JSON.stringify(r2));
+     // ===== временная линия на обычной скорости =====
+     await p.evaluate(()=>window.scrollTo(0,0)); await p.evaluate(LOG); await click('.ic-mot-cap a[href="#/motifs"]'); await W(1500);
+     const L=await p.evaluate(()=>window.__log), hcs=await p.evaluate(()=>window.__hc), tc=L.filter(x=>x.tc).pop().tc, fr=L.filter(x=>x.t>=tc), hc=hcs.filter(x=>x>=tc)[0]-tc;
+     ok(T+'временная линия: смена содержимого ≈150 мс после нажатия (фаза 1 закончилась), страница к этому моменту почти невидима',hc>=120&&hc<=330&&fr.filter(x=>x.t-tc>=hc-40&&x.t-tc<hc&&x.wr).every(x=>x.wr.op<0.2),'смена через '+hc.toFixed(0)+' мс');
+     const endT=(fr.filter(x=>x.wr&&(x.wr.op<0.999||Math.abs(x.wr.ty)>0.05)).pop()||{t:tc}).t-tc;
+     ok(T+'всё закончено за ≈450 мс (не позже 700)',endT>=300&&endT<=700,endT.toFixed(0)+' мс');
+     const strip2=fr.filter(x=>x.strip).map(x=>x.strip); ok(T+'строка выезжает монотонно −h→0 только после смены содержимого',strip2.length>3&&strip2[0].ty<=-strip2[0].h+4&&Math.abs(strip2[strip2.length-1].ty)<1&&strip2.every((s,i)=>i===0||s.ty>=strip2[i-1].ty-0.01),strip2.map(s=>Math.round(s.ty)).filter((v,i)=>i%6===0).join(','));
+     const hd=L.filter(x=>x.btTop!=null).map(x=>x.bbTop+'/'+x.bbH+'/'+x.btTop+'/'+x.btH); ok(T+'шапка: тот же элемент, не двигалась, высота не менялась',new Set(hd).size===1&&L.every(x=>x.bbSame),[...new Set(hd)].join(' | '));
+     const pp=L.map(x=>x.pill).filter(v=>v!=null); ok(T+'подложка переезжает плавно за 450 мс и приходит в 143',pp.some(v=>v>1&&v<142)&&pp[pp.length-1]===143,pp.filter((v,i)=>i%10===0).map(v=>Math.round(v*10)/10).join(','));
+   } else {
      await p.evaluate(LOG); await click('.ic-mot-cap a[href="#/motifs"]'); await W(1200);
-     const tm=await p.evaluate(()=>window.__tm), last=Math.max(...tm.anim), first=Math.min(...tm.anim);
-     ok(T+'переход стартует сразу: подложка — в обработчике нажатия, все остальные анимации (уходящая, входящая страницы, строка) — не позже 2 кадров (34 мс)',tm.anim.length>=8&&last<=Math.max(tm.f1.dt,34)&&tm.f1.running>=5,'первая анимация '+first.toFixed(1)+' мс, последняя '+last.toFixed(1)+' мс, первый кадр через '+tm.f1.dt.toFixed(0)+' мс, слоёв '+tm.f1.ghosts+', анимаций '+tm.f1.running);
-     const L3=await p.evaluate(()=>window.__log), tc=L3.filter(x=>x.tc).pop().tc, fr=L3.filter(x=>x.t>=tc);
-     ok(T+'нет пустого кадра между страницами (все кадры от нажатия до конца)',fr.filter(x=>x.t-tc<380).every(x=>x.n>=1),'');
+     const an=await p.evaluate(()=>window.__an.filter(x=>/ic-wrap|ic-ch-outer-bar|ic-mot-shd|ic-mot-rwrap/.test(x))); ok(T+'reduce: страница и строка сменяются мгновенно (анимаций страницы и строки нет)',(await hash())==='#/motifs'&&an.length===0,JSON.stringify(an));
+     const dp=await p.evaluate(()=>document.querySelector('.ic-mot-cap').dataset.pos); ok(T+'reduce: подложка на «Мотивах»',dp==='1');
    }
+   // ===== повторные нажатия, «назад», прямой заход, прокрутка =====
    if(!reduce){
-     // возврат на «Книги» (обычная скорость): строка разделов уезжает вверх сразу, к концу исчезает полностью, слоёв не остаётся
-     await p.evaluate(()=>window.scrollTo(0,0)); await click('.ic-mot-cap a[href="#/"]'); await W(1500);
-     await click('.ic-mot-cap a[href="#/motifs"]'); await W(1500);
-     await p.evaluate(LOG); await click('.ic-mot-cap a[href="#/"]'); await W(1500);
-     const LB=await p.evaluate(()=>window.__log), tb=LB.filter(x=>x.tc).pop().tc, fb=LB.filter(x=>x.t>=tb), gs=fb.map(x=>({t:x.t-tb,s:x.strips.find(y=>y.ghost)})).filter(x=>x.s);
-     const first=gs.find(x=>x.s.ty<-0.1), lastG=gs[gs.length-1];
-     ok(T+'возврат на «Книги»: строка начинает уезжать вверх сразу (не дожидаясь главной), к концу уехала целиком и исчезла',gs.length>5&&first&&first.t<200&&lastG.s.ty<-lastG.s.h+3&&fb.filter(x=>x.t-tb>700).every(x=>!x.strips.some(y=>y.ghost)&&x.n===0),'первый сдвиг через '+(first?first.t.toFixed(0):'нет')+' мс, кадров со строкой '+gs.length+', после 700 мс слоёв нет');
-     await click('.ic-mot-cap a[href="#/motifs"]'); await W(1500);
-   }
-   if(!reduce){
-     // возврат на «Книги» (замедленно): вся строка разделов — один слой; вне этого слоя элементов строки нет, внутри — ни одной своей анимации/transition
-     await p.evaluate(()=>{ window.__icMotMs=3000; }); await click('.ic-mot-cap a[href="#/"]'); await W(1100);
-     const one=await p.evaluate(()=>{ const gs=document.querySelector('.ic-mot-gstrip'); const outside=[...document.querySelectorAll('.ic-mot-tab,.ic-mot-loupe,.ic-mot-bar,.ic-mot-rwrap,.ic-mot-tabs')].filter(e=>!e.closest('.ic-mot-gstrip')).length; const an=document.getAnimations().filter(a=>{ const t=a.effect&&a.effect.target; return t&&gs&&gs.contains(t); }); const m=gs&&getComputedStyle(gs).transform; return {has:!!gs,outside,inner:an.filter(a=>a.effect.target!==gs).length,onLayer:an.filter(a=>a.effect.target===gs).length,tf:m,op:gs&&+getComputedStyle(gs).opacity,z:gs&&getComputedStyle(gs).zIndex,tabsMask:gs&&getComputedStyle(gs.querySelector('.ic-mot-tabs')).maskImage,tabsOv:gs&&getComputedStyle(gs.querySelector('.ic-mot-tabs')).overflowX}; });
-     ok(T+'середина возврата на «Книги»: строка — один слой (вне него вкладок/лупы/фона нет, внутри нет своих анимаций), копия без маски и прокрутки',one.has&&one.outside===0&&one.inner===0&&one.onLayer>=1&&one.tf!=='none'&&one.tabsMask==='none'&&one.tabsOv==='hidden',JSON.stringify(one));
-     await W(2600); await p.evaluate(()=>{ window.__icMotMs=550; });
-     const gone=await p.evaluate(()=>({gs:document.querySelectorAll('.ic-mot-gstrip').length,tabs:document.querySelectorAll('.ic-mot-tab').length}));
-     ok(T+'после возврата строка полностью удалена',gone.gs===0&&gone.tabs===0,JSON.stringify(gone));
-     await click('.ic-mot-cap a[href="#/motifs"]'); await W(1800);
-     // корень с бумагой не короче окна (бумага под нижней панелью), padding-bottom безопасной зоны
-     const rt=await p.evaluate(()=>{ const r=document.getElementById('iconologie'), c=getComputedStyle(r); return {h:Math.round(r.getBoundingClientRect().height),vh:innerHeight,min:c.minHeight,pb:c.paddingBottom,flow:document.documentElement.classList.contains('ic-flow-page')}; });
-     ok(T+'на «Мотивах» корень с бумагой не короче окна (min-height 100lvh, нижний отступ safe-area)',rt.flow&&rt.h>=rt.vh&&parseFloat(rt.min)>=rt.vh&&/px$/.test(rt.pb),JSON.stringify(rt));
-   }
-   // 3) повторные нажатия, обратно, прокрутка
-   if(!reduce){
-     await p.evaluate(()=>{ window.__icMotMs=2500; }); await p.evaluate(LOG); await click('.ic-mot-cap a[href="#/"]'); await W(700); await click('.ic-mot-cap a[href="#/motifs"]'); await click('.ic-mot-cap a[href="#/"]'); await W(2600); await p.evaluate(()=>{ window.__icMotMs=550; });
-     ok(T+'повторные нажатия во время перехода игнорируются (итог — главная, один переход)',(await hash())==='#/'&&(await p.evaluate(()=>window.__ghostSeen))<=8,await hash()+' ghosts '+await p.evaluate(()=>window.__ghostSeen));
-     const L2=(await p.evaluate(()=>window.__log)).filter(x=>x.n>0); const mid2=L2[Math.floor(L2.length/2)];
-     const bk=L2.map(x=>x.strips.find(y=>y.ghost)).filter(Boolean), go2=mid2.g.find(x=>x.out), gi2=mid2.g.find(x=>!x.out); ok(T+'обратно: строка уезжает вверх (translateY 0→−100%), страницы снова вниз, шлейф есть',bk.length>5&&bk[0].ty>-3&&bk[bk.length-1].ty<-bk[0].h+2&&go2.ty>5&&gi2.ty<-5&&mid2.trails===4,JSON.stringify(bk.filter((v,i)=>i%15===0).map(x=>Math.round(x.ty))))
+     await p.evaluate(()=>{ window.__an.length=0; window.__icMotMs=2500; }); await click('.ic-mot-cap a[href="#/"]'); await W(300); await click('.ic-mot-cap a[href="#/motifs"]'); await click('.ic-mot-cap a[href="#/"]'); await W(3600); await p.evaluate(()=>{ window.__icMotMs=450; });
+     const an2=await p.evaluate(()=>window.__an.filter(x=>/ic-wrap/.test(x)).length);
+     ok(T+'повторные нажатия во время перехода игнорируются (итог — главная, один переход: 2 анимации страницы)',(await hash())==='#/'&&an2===2,await hash()+' анимаций страницы '+an2);
    } else { await click('.ic-mot-cap a[href="#/"]'); await W(800); }
    const y1=await p.evaluate(()=>Math.round(scrollY)); ok(T+'главная — на прежнем месте прокрутки',reduce?Math.abs(y1-y0)<=40:y1>=0,y0+' → '+y1);
-   await p.evaluate(LOG); await click('.ic-mot-cap a[href="#/motifs"]'); await W(1000); await p.evaluate(()=>{ window.__ghostSeen=0; }); await p.goBack(); await W(1500);
-   ok(T+'«назад» браузера без анимации',(await hash())==='#/'&&(await p.evaluate(()=>window.__ghostSeen))===0,await hash());
-   await p.evaluate(LOG); await p.goto(BASE+'#/motifs'); await W(1500); ok(T+'прямой заход без анимации',(await p.evaluate(()=>window.__ghostSeen))===0&&(await p.$$('.ic-mot-ghost')).length===0);
+   await click('.ic-mot-cap a[href="#/motifs"]'); await W(1200); await p.evaluate(()=>{ window.__an.length=0; }); await p.goBack(); await W(1500);
+   const anb=await p.evaluate(()=>window.__an.filter(x=>/ic-wrap|ic-ch-outer-bar|ic-mot-shd/.test(x)).length);
+   ok(T+'«назад» браузера без анимации',(await hash())==='#/'&&anb===0,await hash()+' '+anb);
+   await p.evaluate(()=>{ window.__an.length=0; }); await p.goto(BASE+'#/motifs'); await W(1500); const and=await p.evaluate(()=>window.__an.filter(x=>/ic-wrap|ic-ch-outer-bar|ic-mot-shd/.test(x)).length); ok(T+'прямой заход без анимации',and===0);
+   if(!reduce){
+     // пять быстрых переключений: в конце ничего не осталось
+     await p.goto(BASE+'#/'); await W(2000);
+     for(let i=0;i<5;i++){ await p.evaluate(()=>{ window.__icMotMs=100; }); await click('.ic-mot-cap a[href="#/motifs"]'); await click('.ic-mot-cap a[href="#/motifs"]'); await W(700); await click('.ic-mot-cap a[href="#/"]'); await W(700); }
+     await click('.ic-mot-cap a[href="#/motifs"]'); await W(900); await p.evaluate(()=>{ window.__icMotMs=450; });
+     await p.evaluate(()=>window.scrollTo(0,900)); await W(500); await p.evaluate(()=>window.scrollTo(0,0)); await W(300);
+     const fa=await p.evaluate(AUDIT), fr2=await p.evaluate(REST);
+     ok(T+'после 5 быстрых переключений и прокрутки: нет mask/filter/клонов/will-change, transform/opacity/inline сняты, анимаций нет, одна строка разделов',fa.bad.length===0&&fa.clones===0&&fr2.bad.length===0&&fr2.anims===0&&(await p.$$('.ic-mot-rwrap')).length===1&&(await hash())==='#/motifs',JSON.stringify([fa,fr2]));
+   }
    await ctx.close();
   }
  }

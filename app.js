@@ -9,12 +9,11 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "253";
+  var APP_VER = "254";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
   if(!root){ root = document.createElement("div"); root.id = "iconologie"; (me && me.parentNode ? me.parentNode : document.body).appendChild(root); }
-  var motKeep = null;   // призраки перехода «Книги ⇄ Мотивы»: переживают смену разметки root
   // Единый sticky-контейнер шапки (.ic-stack): шапка сайта (.back-bar), меню
   // книги (.ic-booktabs) и, в главе, строка раздела (.ic-rbar) — ОДИН
   // sticky-элемент, прячется одним transform (installBookHide ниже). .back-bar
@@ -35,7 +34,6 @@
         desc.set.call(root, v);
         var st = root.querySelector(":scope > .ic-stack");
         if(st) st.insertBefore(bb, st.firstChild);
-        if(motKeep) motKeep.forEach(function(el){ if(el) root.appendChild(el); });
         if(motNav && motNav.pill) motPillResume();
       }});
   })();
@@ -3130,17 +3128,21 @@
   // Кадр на время загрузки при переходе: только шапка с переключателем (старая страница держится «призраком» поверх)
   function motFrame(){ return '<div class="ic-stack ic-mot-stack" id="ic-stack">'+motTop(motNav.to ? "motifs" : "books")+'</div>'; }
 
-  /* ---------- плавный переход «Книги ⇄ Мотивы» ----------
-     Только по нажатию на переключатель (прямой заход, «назад/вперёд» и обновление — без анимации). Уходящая и входящая страницы —
-     «призраки» (копии видимой части), лежат друг на друге под шапкой в области высотой с экран: уходящая сдвигается на 70 px и тает,
-     входящая проявляется; обе чуть смещаются вниз с размытием (blur). Строка разделов «Мотивов» выезжает вниз из-под переключателя (translateY) и уезжает обратно; всё — Web Animations.
-     Тёмный фон строки разделов — отдельный слой, он не сдвигается, только проявляется. Шапка (Библиотека, языки, переключатель) не трогается. */
+  /* ---------- переход «Книги ⇄ Мотивы» (v254) ----------
+     Только по нажатию на переключатель (прямой заход, «назад/вперёд» и обновление — без анимации). Только настоящие элементы и только transform/opacity
+     (Web Animations API). НИКАКИХ копий страниц, шлейфа, масок (mask-image), filter и окон-обёрток на страницах «Книг» и «Мотивов» — на iPhone они давали артефакты
+     (недорисованная строка, щели, срезанный верх, растворение в пустоту), которых нет в эмуляции.
+     Фаза 1 (0–150 мс, ease-in): текущая страница opacity 1→0 и сдвиг вниз на 12px; строка разделов при уходе с «Мотивов» уезжает вверх (translateY 0→−100%, 150 мс).
+     Смена содержимого — мгновенно, пока страница невидима; прокрутка выставляется до показа. Фаза 2 (150–450 мс, ease-out): новая страница opacity 0→1 и сдвиг −12px→0;
+     строка разделов выезжает сверху (translateY −100%→0, 300 мс) — её контейнер (.ic-mot-rclip, overflow:hidden) обрезает только саму строку.
+     Подложка переключателя переезжает 450 мс одновременно. После конца анимации снимаются (fill:none), на страницах не остаётся transform/opacity/will-change. */
   var motNav = null, motHomeY = 0, libMetas = null;
-  var MOT_EASE = "cubic-bezier(.65,0,.35,1)", MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
+  var MOT_EASE = "cubic-bezier(.65,0,.35,1)", MOT_IN = "cubic-bezier(.4,0,1,1)", MOT_OUT = "cubic-bezier(0,0,.2,1)", MOT_DIM = "rgba(236,229,212,.62)", MOT_LIT = "rgb(236,229,212)";
+  function motScale(){ return (window.__icMotMs || 450)/450; }   // __icMotMs — только для замедления в тестах
   // подложка и подписи переключателя: Web Animations (переживают пересборку разметки — после неё анимация запускается заново с нужного места)
   function motPillAnim(nav, to, elapsed){
     var cap = nav && nav.querySelector(".ic-mot-cap"); if(!cap) return;
-    var dur = (window.__icMotMs || 550), el = Math.max(0, elapsed || 0);
+    var dur = (window.__icMotMs || 450), el = Math.max(0, elapsed || 0);
     cap.setAttribute("data-pos", to);
     var pill = cap.querySelector(".ic-mot-pill"), as = cap.querySelectorAll("a");
     [].forEach.call(as, function(a, i){ a.classList.toggle("on", i === to); });
@@ -3153,93 +3155,19 @@
     if(!motNav || !motNav.pill) return;
     motPillAnim(document.getElementById("ic-booktabs"), motNav.to, performance.now() - motNav.t0);
   }
-  // призрак видимой части страницы (только содержимое под строкой разделов): исчезает/проявляется по прозрачности, без сдвига и размытия
-  function motGhost(){
-    var bt = document.getElementById("ic-booktabs"); if(!bt) return null;
-    var rwEl = root.querySelector(":scope > .ic-stack .ic-mot-rwrap");
-    var T = Math.round(Math.max(bt.getBoundingClientRect().bottom, rwEl ? rwEl.getBoundingClientRect().bottom : 0)), PAD = 0, vw = document.documentElement.clientWidth, vh = window.innerHeight;
-    var wrap = root.querySelector(":scope > .ic-wrap");
-    var g = document.createElement("div"); g.className = "ic-mot-ghost";
-    g.style.cssText = "left:0;width:"+vw+"px;top:"+T+"px;height:"+Math.max(0, vh-T)+"px";
-    var inn = document.createElement("div"); inn.className = "ic-mot-gin"; g.appendChild(inn);
-    function put(src, r){
-      var c = src.cloneNode(true); c.removeAttribute("id"); [].forEach.call(c.querySelectorAll("[id]"), function(x){ x.removeAttribute("id"); });
-      // вне экрана копия не нужна: строки и блоки за границей видимой области остаются пустыми заготовками той же высоты
-      var so = src.querySelectorAll("li, section"), co = c.querySelectorAll("li, section");
-      if(so.length === co.length) for(var i = 0; i < so.length; i++){
-        var q = so[i].getBoundingClientRect();
-        if(q.bottom < T - 120 || q.top > vh + 120){ co[i].style.height = q.height+"px"; co[i].style.overflow = "hidden"; co[i].innerHTML = ""; }
-      }
-      c.style.position = "absolute"; c.style.margin = "0"; c.style.left = (r.left+PAD)+"px"; c.style.top = (r.top-T)+"px"; c.style.width = r.width+"px";
-      inn.appendChild(c);
-    }
-    if(wrap) put(wrap, wrap.getBoundingClientRect());
-    return {g:g, real:[wrap]};
-  }
-  // копия строки разделов (с линией и тенью) для ухода вверх при возврате на «Книги»
-  function motStripGhost(){
-    var rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap"); if(!rw) return null;
-    var r = rw.getBoundingClientRect(), c = rw.cloneNode(true);
-    c.removeAttribute("id"); [].forEach.call(c.querySelectorAll("[id]"), function(x){ x.removeAttribute("id"); });
-    c.className = "ic-mot-rwrap ic-mot-gstrip"; c.style.cssText = "position:fixed;left:0;width:"+document.documentElement.clientWidth+"px;top:"+r.top+"px;height:"+r.height+"px;z-index:8;pointer-events:none";
-    var tb = c.querySelector(".ic-mot-tabs");   // прокручиваемая строка вкладок с маской — отдельный композитный слой в Safari: в копии это обычный блок без маски
-    if(tb){ tb.style.overflow = "hidden"; tb.style.webkitMaskImage = "none"; tb.style.maskImage = "none"; }
-    return c;
-  }
-  // строка разделов: выезд вниз из-под переключателя / уход вверх (translateY), линия над ней и тень под ней — по прозрачности
-  function motStripAnim(rw, dir, opt, elapsed){
-    var bar = rw.querySelector(".ic-ch-outer-bar"), parts = [rw.querySelector(".ic-mot-shd")], inn = dir === "in";
-    function go(node, fr){ var an = node.animate(fr, opt); if(elapsed) an.currentTime = elapsed; return an; }
-    if(bar) go(bar, [{transform:"translate3d(0,"+(inn ? "-100%" : "0")+",0)"}, {transform:"translate3d(0,"+(inn ? "0" : "-100%")+",0)"}]);
-    parts.forEach(function(e){ if(e) go(e, [{opacity: inn ? 0 : 1}, {opacity: inn ? 1 : 0}]); });
-  }
-  // Кадры слоя страницы (ключи — по выровненному кривой времени 0…1): сдвиг ±300px; прозрачность разведена по времени — уходящая почти исчезает к 40%,
-  // входящая проявляется с 30% до 100% (две плотные страницы одновременно не видны); маска у стыка (140/180px × sin(πt)); шлейф — 2 слабые копии
-  // со смещением вверх до 6px × скорость и непрозрачностью не выше 0,06. Прозрачность — на слое-окне (g), сдвиг и маска — на его содержимом (gin):
-  // окно неподвижно и мягко (24px) срезает верх под шапкой.
-  function motFrames(kind, k){
-    var g = [], gin = [], N = 20;
-    for(var i = 0; i <= N; i++){
-      var u = i/N, sp = Math.sin(Math.PI*u), y = kind === "out" ? 300*u : -300*(1-u), vis;
-      if(kind === "out") vis = Math.max(0, 1 - u/0.4);
-      else { var q = Math.max(0, (u - 0.3)/0.7); vis = 1 - (1-q)*(1-q); }
-      g.push({offset:u, opacity: k ? 0.06*sp*(1 - k/4)*vis : vis});
-      var f = {offset:u, transform:"translate3d(0,"+(y - k*3*sp).toFixed(2)+"px,0)"};
-      f[kind === "out" ? "--mt" : "--mb"] = ((kind === "out" ? 140 : 180)*sp).toFixed(1)+"px";
-      gin.push(f);
-    }
-    return {g:g, gin:gin};
-  }
-  // слой страницы (g) + 2 копии шлейфа: запускается сразу (уходящая — в момент нажатия), elapsed — сколько времени уже прошло
-  function motLayerAnim(g, kind, opt, elapsed, layers){
-    var TRAIL = 2, last;
-    g.classList.add(kind === "out" ? "ic-mot-out" : "ic-mot-in");
-    if(!g.parentNode) root.appendChild(g);
-    var copies = [];
-    for(var k = 1; k <= TRAIL; k++){
-      var c = g.cloneNode(true); c.classList.add("ic-mot-trail"); c.setAttribute("aria-hidden", "true");
-      [].forEach.call(c.querySelectorAll("[id]"), function(x){ x.removeAttribute("id"); });
-      g.parentNode.insertBefore(c, g); c._k = k; copies.push(c); layers.push(c);
-    }
-    [g].concat(copies).forEach(function(el){
-      var fr = motFrames(kind, el._k || 0), a1 = el.animate(fr.g, opt), a2 = el.firstChild.animate(fr.gin, opt);
-      if(elapsed){ a1.currentTime = elapsed; a2.currentTime = elapsed; }
-      if(el === g) last = a1;
-    });
-    return last;
-  }
-  // Уход строки разделов (возврат на «Книги»): вся строка — фон, вкладки, лупа, тень — один слой: анимируется сам контейнер-копия (вверх на свою высоту
-  // и исчезает), у внутренних элементов анимаций нет; копия лежит ниже шапки/переключателя и уезжает под них.
-  function motStripOutAnim(c, opt){
-    c.animate([{transform:"translate3d(0,0,0)", opacity:1}, {opacity:1, offset:.7}, {transform:"translate3d(0,-100%,0)", opacity:0}], opt);
+  // строка разделов — настоящий элемент: сама строка (.ic-ch-outer-bar) едет внутри обрезающего контейнера, тень под ней — по прозрачности
+  function motStripAnim(rw, dir, opt){
+    var bar = rw.querySelector(".ic-ch-outer-bar"), shd = rw.querySelector(".ic-mot-shd"), inn = dir === "in";
+    if(bar) bar.animate([{transform:"translate3d(0,"+(inn ? "-100%" : "0")+",0)"}, {transform:"translate3d(0,"+(inn ? "0" : "-100%")+",0)"}], opt);
+    if(shd) shd.animate([{opacity: inn ? 0 : 1}, {opacity: inn ? 1 : 0}], opt);
   }
   function motNavEnd(){
     var n = motNav; if(!n) return;
-    (n.layers || []).forEach(function(el){ if(el && el.parentNode) el.parentNode.removeChild(el); });
-    (n.hidden || []).forEach(function(el){ if(el) el.style.visibility = ""; });
-    motKeep = null; clearTimeout(n.timer); motNav = null;
+    clearTimeout(n.timer); motNav = null;
+    var tb = root.querySelector(".ic-mot-tabs"); if(tb) tb.dispatchEvent(new Event("scroll"));   // затухание краёв вкладок возвращается после перехода
   }
   function motNavAbort(){ motNavEnd(); }
+  // фаза 2: новая страница уже в DOM (её рисует обычный render)
   function motNavRun(gen, to){
     var n = motNav; if(!n || n.started) return;
     if(gen !== renderGen || to !== n.to){ motNavEnd(); return; }
@@ -3247,26 +3175,13 @@
     // прокрутка входящей страницы выставляется ДО того, как она станет видимой
     window.scrollTo(0, n.to ? 0 : n.hy);
     if(n.to) delete namesUi.pos[location.hash];
-    var inc = n.reduce ? null : motGhost(), out = n.out;
-    if(!inc || !out || !inc.g.animate){ motNavEnd(); return; }
-    var dur = window.__icMotMs || 550, elapsed = performance.now() - n.t0;
-    if(elapsed >= dur){ motNavEnd(); return; }
-    n.hidden = inc.real; inc.real.forEach(function(el){ if(el) el.style.visibility = "hidden"; });
-    // Страницы — как быстрая прокрутка вниз (подробности — в motFrames). Уходящая страница и строка анимируются с момента нажатия (motNav.startOut),
-    // входящая подключается, когда готова, с поправкой на уже прошедшее время — всё заканчивается одновременно.
-    // Всё — transform/opacity/mask (Web Animations), без filter; после конца все слои (с копиями шлейфа) удаляются.
-    var opt = {duration:dur, easing:MOT_EASE, fill:"both"};
-    n.layers = n.layers || [];
-    n.layers.push(inc.g);
-    var last = motLayerAnim(inc.g, "in", opt, elapsed, n.layers);
-    n.layers.forEach(function(el){ if(el && !el.parentNode) root.appendChild(el); });
-    motKeep = n.layers;
-    var rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap");
-    if(rw) motStripAnim(rw, "in", {duration:dur, easing:MOT_EASE, fill:"backwards"}, elapsed);
-    var finished = false;
-    function fin(){ if(finished) return; finished = true; if(motNav === n) motNavEnd(); }
-    last.onfinish = fin; last.oncancel = fin;
-    setTimeout(fin, dur - elapsed + 400);
+    var wrap = root.querySelector(":scope > .ic-wrap"), rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap");
+    if(n.reduce || !wrap || !wrap.animate){ motNavEnd(); return; }
+    var D = 300*motScale(), opt = {duration:D, easing:MOT_OUT, fill:"none"};
+    var a = wrap.animate([{opacity:0, transform:"translate3d(0,-12px,0)"}, {opacity:1, transform:"translate3d(0,0,0)"}], opt);
+    if(rw) motStripAnim(rw, "in", opt);
+    a.onfinish = a.oncancel = function(){ if(motNav === n) motNavEnd(); };
+    setTimeout(function(){ if(motNav === n) motNavEnd(); }, D + 600);
   }
   // плитка/метка мотива не остаётся «нажатой»: после тапа фокус снимается (подсветки по :focus нет)
   root.addEventListener("click", function(e){
@@ -3282,20 +3197,18 @@
     var reduce = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
     if(from === 0) motHomeY = window.scrollY;
     if(window.scrollY > 1) window.scrollTo(0, 0);   // нажато не вверху: сначала страница без анимации наверх, потом переход (место главной запомнено)
-    var out = reduce ? null : motGhost();
-    if(out) out.strip = motStripGhost();
-    motNav = {from:from, to:to, dir: to ? -1 : 1, hy: motHomeY, reduce:reduce, out:out, started:false, pill:true, t0:performance.now()};
-    motPillAnim(nav, to, 0);                     // подложка стартует сразу, не дожидаясь страницы
-    if(out){
-      motNav.layers = [out.g, out.strip]; motNav.layers.forEach(function(el){ if(el) root.appendChild(el); });
-      motKeep = motNav.layers;
-      // уходящая страница и строка разделов (при возврате на «Книги» — уезжает вверх) начинают двигаться сразу, не дожидаясь входящей страницы
-      var dur0 = window.__icMotMs || 550, opt0 = {duration:dur0, easing:MOT_EASE, fill:"both"};
-      motLayerAnim(out.g, "out", opt0, 0, motNav.layers);
-      if(out.strip) motStripOutAnim(out.strip, opt0);
-    }
-    motNav.timer = setTimeout(motNavAbort, 5000);
-    location.hash = a.getAttribute("href").replace(/^#/, "");
+    var n = motNav = {from:from, to:to, hy: motHomeY, reduce:reduce, started:false, pill:true, t0:performance.now()}, k = motScale();
+    motPillAnim(nav, to, 0);                     // подложка стартует сразу
+    n.timer = setTimeout(motNavAbort, 4000 + 900*k);
+    var target = a.getAttribute("href").replace(/^#/, ""), done = false;
+    function go(){ if(done || motNav !== n) return; done = true; location.hash = target; }
+    if(reduce){ go(); return; }
+    // фаза 1: текущая страница уходит (и строка разделов уезжает вверх, если уходим с «Мотивов»), затем смена содержимого
+    var wrap = root.querySelector(":scope > .ic-wrap"), rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap"), o1 = {duration:150*k, easing:MOT_IN, fill:"forwards"};
+    var a1 = wrap && wrap.animate ? wrap.animate([{opacity:1, transform:"translate3d(0,0,0)"}, {opacity:0, transform:"translate3d(0,12px,0)"}], o1) : null;
+    if(rw && from === 1) motStripAnim(rw, "out", o1);
+    if(a1) a1.onfinish = go;
+    setTimeout(go, 150*k + 120);
   });
   // страницы готовятся заранее, в простое: переход стартует в тот же кадр, что и нажатие
   function motWarm(){
@@ -3388,6 +3301,7 @@
     function maskSync(){   // мягкое затухание краёв прокручиваемой строки вкладок: слева — только если прокручено от начала, справа — только если есть что листать
       var l = tabsEl.scrollLeft > 1 ? 24 : 0, r = tabsEl.scrollLeft + tabsEl.clientWidth < tabsEl.scrollWidth - 1 ? 24 : 0;
       tabsEl.style.setProperty("--ml", l+"px"); tabsEl.style.setProperty("--mr", r+"px");
+      tabsEl.classList.toggle("ic-mot-fade", !motNav && (l > 0 || r > 0));   // маска есть только в покое (во время перехода — нет)
     }
     function fill(){
       keepL = tabsEl.scrollLeft;
