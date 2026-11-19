@@ -106,7 +106,7 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   await p.goto(BASE+'#/motifs/iconologie/wreath'); await W(3000);
   await p.evaluate(()=>{ window.scrollTo(0,1400); window.__y=-1; addEventListener('click',()=>{ window.__y=Math.round(scrollY); },true); }); await W(600);
   const idc=await p.evaluate(()=>{ const a=[...document.querySelectorAll('.ic-mot-grid .ic-gal-item')].find(x=>x.getBoundingClientRect().top>200); return a&&a.dataset.id; });
-  await tap('.ic-mot-grid .ic-gal-item[data-id="'+idc+'"]'); await W(2500); ok(T+'тап по гравюре открывает карточку',new RegExp('#/iconologie/'+idc+'$').test(await hash()),await hash());
+  await tap('.ic-mot-grid .ic-gal-item[data-id="'+idc+'"]'); await W(2500); ok(T+'тап по гравюре открывает карточку',new RegExp('#/iconologie/'+idc+'([?]from=.*)?$').test(await hash()),await hash());
   const tags=await p.$$eval('.ic-mot-sec .ic-mot-tag',a=>a.map(x=>({t:x.textContent,h:x.getBoundingClientRect().height,href:x.getAttribute('href')}))); ok(T+'метки мотивов на карточке',tags.length>=1&&tags.every(x=>x.h>=43.5&&/^#\/motifs\/iconologie\//.test(x.href)),JSON.stringify(tags.slice(0,3)));
   const aft=await p.evaluate(()=>{ const s=[...document.querySelectorAll('.ic-sec')]; const i=s.findIndex(x=>x.classList.contains('ic-mot-sec')); return {i,prev:i>0&&s[i-1].querySelector('h3').textContent}; }); ok(T+'метки после «Что изображено»',aft.prev==='Что изображено',JSON.stringify(aft));
   await p.goBack(); await W(2500); const y0=await p.evaluate(()=>window.__y), y1=await p.evaluate(()=>Math.round(scrollY)); ok(T+'«назад» возвращает в сетку на то же место',(await hash())==='#/motifs/iconologie/wreath'&&Math.abs(y1-y0)<=40,y0+' → '+y1);
@@ -159,6 +159,62 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
     ok(T+l+': заголовки разделов «N мотивов», совпадающие по названию родители, числа на плитках — числа гравюр',nn.shn.length===9&&nn.shn.every(x=>shn.test(x))&&nn.w===wp+nn.w.replace(wp,'')&&nn.w.startsWith(wp)&&nn.p.startsWith(pl)&&nn.tn&&(l!=='ru'||nn.shn.every(x=>{ const n=parseInt(x),a=n%100,b=n%10; return x===n+' '+((a>10&&a<15)?'мотивов':b===1?'мотив':(b>=2&&b<=4)?'мотива':'мотивов'); })),JSON.stringify([nn.shn.slice(0,3),nn.w,nn.p]));
   }
   await p.goto(BASE+'#/motifs'); await setLang('ru'); await W(500);
+  {
+  // ---- v252: контекст мотива в статье, шапка сразу, миниатюры, фокус плиток, «ещё N» ----
+  await p.goto(BASE+'#/motifs'); await setLang('ru'); await W(500);
+  await p.goto(BASE+'#/motifs/iconologie/heart'); await W(3000);
+  const hi=await p.evaluate(()=>[...document.querySelectorAll('.ic-mot-grid .ic-gal-item')].map(a=>a.dataset.id));
+  const k0=Math.min(6,hi.length-2), idk=hi[k0];
+  await p.evaluate(()=>{ window.scrollTo(0,500); }); await W(400); const yg=await p.evaluate(()=>{ window.__y=Math.round(scrollY); return window.__y; });
+  await p.evaluate(id=>document.querySelector('.ic-mot-grid .ic-gal-item[data-id="'+id+'"]').click(),idk); await W(2500);
+  const h1=await hash(); ok(T+'статья из мотива: адрес с контекстом ?from=motif:<книги>:<мотив>',new RegExp('#/iconologie/'+idk+'[?]from=motif:iconologie:heart$').test(h1),h1);
+  const cap=await p.evaluate(()=>(document.querySelector('.ic-rp-mcap')||{}).textContent);
+  ok(T+'подпись пейджера «Сердце, N из M» (номер по порядку сетки)',cap==='Сердце, '+(k0+1)+' из '+hi.length,String(cap));
+  const nx=await p.evaluate(()=>{ const b=document.querySelector('.ic-rbar-nv[data-nav="next"]'); return b&&b.getAttribute('data-go'); });
+  ok(T+'«След.» ведёт к следующей гравюре мотива по порядку сетки',nx===hi[k0+1],nx+' vs '+hi[k0+1]);
+  await p.evaluate(()=>document.querySelector('.ic-rbar-nv[data-nav="next"]').click()); await W(2000);
+  const h2=await hash(), cap2=await p.evaluate(()=>(document.querySelector('.ic-rp-mcap')||{}).textContent);
+  ok(T+'после «След.»: следующая гравюра, контекст сохранён, подпись обновилась',new RegExp('#/iconologie/'+hi[k0+1]+'[?]from=motif:iconologie:heart$').test(h2)&&cap2==='Сердце, '+(k0+2)+' из '+hi.length,h2+' | '+cap2);
+  await p.evaluate(()=>document.querySelector('.ic-bt-back').click()); await W(2500);
+  const hb=await hash(), yb=await p.evaluate(()=>Math.round(scrollY));
+  ok(T+'стрелка «назад» в статье из мотива: страница этого мотива на то же место сетки (не «Гравюры» Рипы)',hb==='#/motifs/iconologie/heart'&&Math.abs(yb-yg)<=60,hb+' y '+yg+' → '+yb);
+  await p.evaluate(id=>document.querySelector('.ic-mot-grid .ic-gal-item[data-id="'+id+'"]').click(),idk); await W(2200);
+  await p.goBack(); await W(2500); const hb2=await hash(), yb2=await p.evaluate(()=>Math.round(scrollY));
+  ok(T+'кнопка «Назад» браузера из статьи: та же страница мотива и то же место',hb2==='#/motifs/iconologie/heart'&&Math.abs(yb2-yg)<=60,hb2+' y '+yg+' → '+yb2);
+  // прямой заход на статью с контекстом (без истории): стрелка ведёт на страницу мотива
+  await p.goto(BASE+'#/iconologie/'+idk+'?from=motif:iconologie:heart'); await W(3500);
+  const dcap=await p.evaluate(()=>(document.querySelector('.ic-rp-mcap')||{}).textContent); await p.evaluate(()=>document.querySelector('.ic-bt-back').click()); await W(2000);
+  ok(T+'статья по прямой ссылке с контекстом: подпись есть, стрелка ведёт на страницу мотива',dcap==='Сердце, '+(k0+1)+' из '+hi.length&&(await hash())==='#/motifs/iconologie/heart',dcap+' → '+await hash());
+  // обычный путь из книги — как раньше
+  await p.goto(BASE+'#/iconologie/p1-1'); await W(2500);
+  const plain=await p.evaluate(()=>({cap:!!document.querySelector('.ic-rp-mcap'),next:document.querySelector('.ic-rbar-nv[data-nav="next"]').getAttribute('data-go')}));
+  ok(T+'статья, открытая обычным путём: без подписи мотива, «След.» — следующая статья книги (p1-2)',!plain.cap&&plain.next==='p1-2',JSON.stringify(plain));
+  // миниатюры первого экрана
+  await p.goto(BASE+'#/motifs/iconologie/wreath'); await W(3000);
+  const th=await p.evaluate(()=>[...document.querySelectorAll('.ic-mot-grid img')].slice(0,6).map(i=>[i.getAttribute('fetchpriority'),i.getAttribute('loading')]));
+  ok(T+'первые 4 миниатюры: fetchpriority=high без lazy; дальше lazy',th.slice(0,4).every(x=>x[0]==='high'&&x[1]===null)&&th.slice(4).every(x=>x[1]==='lazy'),JSON.stringify(th));
+  // первый заход на мотив: шапка сразу, «Загрузка» только в области сетки
+  const pg=await ctx.newPage(); await pg.route(/books\/iconologie\/book\.json/, async r=>{ await new Promise(x=>setTimeout(x,2500)); try{ await r.continue(); }catch(e){} });
+  await pg.goto(BASE+'#/motifs/iconologie/wreath'); await W(900);
+  const early=await pg.evaluate(()=>({hdr:!!document.querySelector('.back-bar')&&!!document.querySelector('.ic-mot-cap'),strip:(document.querySelector('.ic-mot-ttl')||{}).textContent,h1:(document.querySelector('.ic-mot-h1')||{}).textContent,wait:!!document.querySelector('.ic-mot-wait'),fullLoading:!!document.querySelector('#iconologie > .ic-loading'),grid:document.querySelectorAll('.ic-mot-grid .ic-gal-item').length}));
+  ok(T+'первый заход на мотив: шапка, переключатель, строка с названием и заголовок — сразу; «Загрузка» только в области сетки',early.hdr&&/Венок · 80 гравюр/.test(early.strip||'')&&early.h1==='Венок'&&early.wait&&!early.fullLoading&&early.grid===0,JSON.stringify(early));
+  await pg.waitForSelector('.ic-mot-grid .ic-gal-item',{timeout:20000}); const late=await pg.evaluate(()=>({n:document.querySelectorAll('.ic-mot-grid .ic-gal-item').length,wait:!!document.querySelector('.ic-mot-wait')}));
+  ok(T+'после загрузки сетка на месте, «Загрузка» исчезла',late.n>=70&&!late.wait,JSON.stringify(late)); await pg.close();
+  // плитки и метки не остаются нажатыми после возврата
+  await p.goto(BASE+'#/motifs'); await W(2500); await p.evaluate(()=>document.querySelector('.ic-mot-tile[data-id="wreath"]').click()); await W(2500); await p.goBack(); await W(2500);
+  const pr=await p.evaluate(()=>{ const t=[...document.querySelectorAll('.ic-mot-tile, .ic-mot-tag, .ic-mot-allbtn')]; const bgs=new Set(t.filter(x=>x.classList.contains('ic-mot-tile')).map(x=>getComputedStyle(x).backgroundColor)); return {n:t.length,bgs:[...bgs],ae:document.activeElement&&document.activeElement.tagName,pressed:t.filter(x=>x.matches(':focus, :active')).length}; });
+  ok(T+'после перехода и возврата ни одна плитка не остаётся нажатой (фокус снят, один цвет фона)',pr.n>20&&pr.bgs.length===1&&pr.ae==='BODY'&&pr.pressed===0,JSON.stringify(pr));
+  await p.goto(BASE+'#/iconologie/p1-1'); await W(2500); await p.evaluate(()=>document.querySelector('.ic-mot-sec .ic-mot-tag').click()); await W(2500); await p.goBack(); await W(2500);
+  const pr2=await p.evaluate(()=>({tags:[...document.querySelectorAll('.ic-mot-tag')].filter(x=>x.matches(':focus, :active')).length,ae:document.activeElement&&document.activeElement.tagName}));
+  ok(T+'после возврата на карточку метка мотива не нажата',pr2.tags===0&&pr2.ae==='BODY',JSON.stringify(pr2));
+  // «ещё N» у мотива с большим числом вложенных («Птица»)
+  await p.goto(BASE+'#/motifs/iconologie/bird'); await W(3000);
+  const bk=await p.evaluate(()=>({tags:document.querySelectorAll('.ic-mot-kids .ic-mot-tag').length,vis:[...document.querySelectorAll('.ic-mot-kids .ic-mot-tag')].filter(e=>getComputedStyle(e).display!=='none').length,more:(document.querySelector('.ic-mot-more')||{}).textContent,h:document.querySelector('.ic-mot-more')&&Math.round(document.querySelector('.ic-mot-more').getBoundingClientRect().height)}));
+  ok(T+'«Птица»: первые 10 меток и кнопка «ещё N» (≥44px)',bk.tags>10&&bk.vis===10&&bk.more==='ещё '+(bk.tags-10)&&bk.h>=44,JSON.stringify(bk));
+  await p.evaluate(()=>document.querySelector('.ic-mot-more').click()); await W(400);
+  const bk2=await p.evaluate(()=>({vis:[...document.querySelectorAll('.ic-mot-kids .ic-mot-tag')].filter(e=>getComputedStyle(e).display!=='none').length,more:!!document.querySelector('.ic-mot-more')}));
+  ok(T+'тап по «ещё N» раскрывает остальные метки на месте, кнопка исчезает',bk2.vis===bk.tags&&!bk2.more,JSON.stringify(bk2));
+  }
   // языки
   for(const [l,books,motifs,find,all1,sub,first] of [['en','Books','Motifs','Find a motif','All objects','Find engravings by the objects they show','Wreath'],['fr','Livres','Motifs','Chercher un motif','Tous les objets','Chercher des gravures par les objets représentés','Couronne'],['ru','Книги','Мотивы','Найти мотив','Все предметы','Поиск гравюр по изображённым предметам','Венок']]){
    await p.goto(BASE+'#/motifs'); await setLang(l); await W(500);

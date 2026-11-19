@@ -166,8 +166,9 @@ select.ic-sort{font-size:.85em;padding:4px 0;border:0;border-bottom:1px solid va
 .ic-group summary{cursor:pointer;list-style:none;-webkit-tap-highlight-color:transparent}
 .ic-group summary::-webkit-details-marker{display:none}
 .ic-group summary h2{font-size:1.02em;font-weight:600;margin:0;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;
-  padding:10px 0;border-bottom:2px solid transparent;
-  border-image:linear-gradient(to right,transparent,var(--ink) 12%,var(--ink) 88%,transparent) 1}
+  padding:10px 0;border-bottom:2px solid transparent;position:relative}
+.ic-group summary h2::before{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;pointer-events:none;   /* затухающая линия — псевдоэлементом (border-image в Safari рисует резкие концы) */
+  background:linear-gradient(to right,transparent,var(--ink) 12%,var(--ink) 88%,transparent)}
 .ic-group[open] summary h2{color:var(--accent)}
 .ic-group summary h2::after{content:"";width:9px;height:9px;flex:none;margin-left:10px;
   border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
@@ -2136,3 +2137,15 @@ html.ic-hs-lock{overflow:hidden !important}
 /* название мотива и число гравюр в строке страницы мотива: по центру, одна строка, многоточие */
 .ic-rbar .ic-mot-bar .ic-mot-ttl{flex:1 1 0;min-width:0;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(var(--cream),.92);font-size:15px;line-height:38px;padding:0 4px}
 .ic-stack-flow .ic-mot-rwrap .ic-ch-outer{padding:0;margin:0;max-width:none}   /* .ic-ch-outer — блок (не display:contents), поэтому без боковых полей: тёмная строка во всю ширину */
+
+/* метки вложенных мотивов: первые 10, остальные — по кнопке «ещё N» */
+.ic .ic-mot-kids:not(.ic-mot-open) .ic-mot-kx{display:none}
+.ic .ic-mot-more{display:inline-flex;align-items:center;min-height:44px;box-sizing:border-box;padding:0 14px;border-radius:8px;border:0;font:inherit;font-size:.86em;cursor:pointer;
+  background:rgba(28,24,19,.1);box-shadow:inset 0 0 0 1px rgba(28,24,19,.22);color:var(--ink)}
+.ic .ic-mot-more:active{background:rgba(28,24,19,.2)}
+.ic .ic-mot-wait{margin:34px 0;color:var(--soft);text-align:center}
+/* статья из мотива: подпись «Сердце, 5 из 24» над кнопками Пред./След. */
+.ic .ic-rp-mcap{margin:26px 0 -18px;text-align:center;color:var(--soft);font-size:.92em}
+/* нажатая плитка/метка не остаётся серой: без подсветки касания и фокуса */
+.ic .ic-mot-tile,.ic .ic-mot-tag,.ic .ic-mot-more,.ic .ic-mot-allbtn{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}
+.ic .ic-mot-tile:focus,.ic .ic-mot-tag:focus,.ic .ic-mot-more:focus,.ic .ic-mot-allbtn:focus{outline:none}

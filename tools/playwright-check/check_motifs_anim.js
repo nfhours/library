@@ -58,12 +58,14 @@ function thick(arr){ // число подряд идущих отсчётов з
      ok(T+'в середине: строка частично выдвинута (translateY между −100% и 0), клип overflow:hidden, тень частично прозрачна',ms&&ms.ty<-3&&ms.ty>-ms.h+3&&ms.h>30&&ms.ov==='hidden'&&ms.sh>0.02&&ms.sh<0.98,JSON.stringify(ms));
      ok(T+'линии между переключателем и строкой разделов нет совсем (ни в покое, ни во время выезда)',run.every(x=>x.strips.every(y=>!y.hr))&&(await p.$$('.ic-mot-hr')).length===0);
      const go=mid.g.find(x=>x.out), gi=mid.g.find(x=>!x.out);
-     ok(T+'в середине: уходящая страница сдвинута вниз (0<ty<300), входящая — сверху (−300<ty<0), прозрачность по 1−(ty/300)², маска у стыка, filter нет',mid.g.length===2&&go.ty>5&&go.ty<295&&gi.ty<-5&&gi.ty>-295&&Math.abs(go.op-(1-Math.pow(go.ty/300,2)))<0.08&&Math.abs(gi.op-(1-Math.pow(gi.ty/300,2)))<0.08&&go.mk&&gi.mk&&mid.g.every(x=>x.fl==='none'),JSON.stringify(mid.g));
+     const fo=ty=>Math.max(0,1-(ty/300)/0.4), fi=ty=>{ const q=Math.max(0,((1+ty/300)-0.3)/0.7); return 1-(1-q)*(1-q); };
+     ok(T+'в середине: уходящая сдвинута вниз (0<ty<300), входящая сверху (−300<ty<0), маска у стыка, filter нет; на 50% уходящая почти исчезла (opacity<0,15)',mid.g.length===2&&go.ty>5&&go.ty<295&&gi.ty<-5&&gi.ty>-295&&go.mk&&gi.mk&&mid.g.every(x=>x.fl==='none')&&go.op<0.15,JSON.stringify(mid.g));
+     const sep=run.filter(x=>x.g.length===2); ok(T+'прозрачность разведена по времени: по формулам (уходящая 1−u/0,4, входящая с 30%), никогда обе плотные одновременно, на 50% уходящая < 0,15',sep.length>20&&sep.every(x=>{ const a=x.g.find(y=>y.out), b=x.g.find(y=>!y.out); return Math.abs(a.op-fo(a.ty))<0.09&&Math.abs(b.op-fi(b.ty))<0.09&&!(a.op>0.45&&b.op>0.45); })&&sep.filter(x=>{ const a=x.g.find(y=>y.out); return a.ty>=150; }).every(x=>x.g.find(y=>y.out).op<0.15),sep.length+' кадров');
      ok(T+'в середине: шлейф — 3 полупрозрачные копии на страницу (aria-hidden, ≤0,22, без filter)',mid.trails===6&&mid.trAria&&mid.trFl&&mid.trOp>0.01&&mid.trOp<=0.221,'копий '+mid.trails+' макс. непрозрачность '+mid.trOp.toFixed(3));
      const mxo=Math.max(...run.map(x=>(x.g.find(y=>y.out)||{ty:0}).ty)), mni=Math.min(...run.map(x=>(x.g.find(y=>!y.out)||{ty:0}).ty)), e0=run.slice(0,2), e1=run.slice(-2); ok(T+'размах: уходящая до +300, входящая от −300; в начале и конце копий шлейфа почти не видно, filter нигде',mxo>=285&&mni<=-285&&run.every(x=>x.g.every(g=>g.fl==='none')&&x.trFl)&&e0.every(x=>x.trOp<0.06)&&e1.every(x=>x.trOp<0.06),'ty '+mxo.toFixed(0)+'/'+mni.toFixed(0));
      const seq=run.map(x=>x.strips.find(y=>!y.ghost)).filter(Boolean), tys=seq.map(x=>x.ty);
      ok(T+'строка выезжает монотонно от −100% до 0, фон непрозрачный',tys[0]<=-seq[0].h+2&&Math.abs(tys[tys.length-1])<1&&tys.every((v,i)=>i===0||v>=tys[i-1]-0.01)&&seq.every(x=>/rgb[(]/.test(x.bg||'')),tys.filter((v,i)=>i%10===0).map(v=>Math.round(v)).join(','));
-     ok(T+'нет кадра без страниц (на каждом кадре два слоя, суммарная непрозрачность ≈ 1)',run.length>=20&&run.every(x=>x.n>=2&&(x.g.map(y=>y.op).reduce((a,b)=>a+b,0))>=0.9),run.length+' кадров');
+     ok(T+'нет пустого кадра: на каждом кадре два слоя, суммарная непрозрачность двух страниц ≥ 0,2 (между фазами не «пусто»)',run.length>=20&&run.every(x=>x.n>=2&&(x.g.map(y=>y.op).reduce((a,b)=>a+b,0))>=0.2),run.length+' кадров');
    } else ok(T+'reduce: призраков нет, страница меняется мгновенно',run.length===0&&(await p.evaluate(()=>window.__ghostSeen))===0);
    const hd=L.filter(x=>x.btTop!=null).map(x=>x.bbTop+'/'+x.bbH+'/'+x.btTop+'/'+x.btH); ok(T+'шапка: тот же элемент, не двигалась, высота не менялась',new Set(hd).size===1&&L.every(x=>x.bbSame),[...new Set(hd)].join(' | '));
    if(!reduce){ const pp=L.map(x=>x.pill).filter(v=>v!=null); ok(T+'подложка движется плавно и приходит в 143',pp.some(v=>v>1&&v<142)&&pp[pp.length-1]===143,pp.filter((v,i)=>i%12===0).map(v=>Math.round(v*10)/10).join(',')); }
@@ -91,6 +93,16 @@ function thick(arr){ // число подряд идущих отсчётов з
      ok(T+'переход стартует сразу: подложка — в обработчике нажатия, все остальные анимации (уходящая, входящая страницы, строка) — не позже 2 кадров (34 мс)',tm.anim.length>=8&&last<=Math.max(tm.f1.dt,34)&&tm.f1.running>=5,'первая анимация '+first.toFixed(1)+' мс, последняя '+last.toFixed(1)+' мс, первый кадр через '+tm.f1.dt.toFixed(0)+' мс, слоёв '+tm.f1.ghosts+', анимаций '+tm.f1.running);
      const L3=await p.evaluate(()=>window.__log), tc=L3.filter(x=>x.tc).pop().tc, fr=L3.filter(x=>x.t>=tc);
      ok(T+'нет пустого кадра между страницами (все кадры от нажатия до конца)',fr.filter(x=>x.t-tc<380).every(x=>x.n>=1),'');
+   }
+   if(!reduce){
+     // возврат на «Книги» (обычная скорость): строка разделов уезжает вверх сразу, к концу исчезает полностью, слоёв не остаётся
+     await p.evaluate(()=>window.scrollTo(0,0)); await click('.ic-mot-cap a[href="#/"]'); await W(1500);
+     await click('.ic-mot-cap a[href="#/motifs"]'); await W(1500);
+     await p.evaluate(LOG); await click('.ic-mot-cap a[href="#/"]'); await W(1500);
+     const LB=await p.evaluate(()=>window.__log), tb=LB.filter(x=>x.tc).pop().tc, fb=LB.filter(x=>x.t>=tb), gs=fb.map(x=>({t:x.t-tb,s:x.strips.find(y=>y.ghost)})).filter(x=>x.s);
+     const first=gs.find(x=>x.s.ty<-0.1), lastG=gs[gs.length-1];
+     ok(T+'возврат на «Книги»: строка начинает уезжать вверх сразу (не дожидаясь главной), к концу уехала целиком и исчезла',gs.length>5&&first&&first.t<200&&lastG.s.ty<-lastG.s.h+3&&fb.filter(x=>x.t-tb>700).every(x=>!x.strips.some(y=>y.ghost)&&x.n===0),'первый сдвиг через '+(first?first.t.toFixed(0):'нет')+' мс, кадров со строкой '+gs.length+', после 700 мс слоёв нет');
+     await click('.ic-mot-cap a[href="#/motifs"]'); await W(1500);
    }
    // 3) повторные нажатия, обратно, прокрутка
    if(!reduce){
