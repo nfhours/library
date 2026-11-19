@@ -28,6 +28,11 @@ const info=p=>p.evaluate(()=>({hash:location.hash,h1:(document.querySelector('h1
   await go('#/grosson/plates');
   const bars=await p.evaluate(()=>{ const r=document.querySelector('.ic-rbar'), t=document.getElementById('ic-booktabs'); const g=e=>e?[Math.round(e.getBoundingClientRect().left),Math.round(e.getBoundingClientRect().width)]:null; return {rb:g(r),bt:g(t),row:document.querySelector('.ic-rbar-row')?g(document.querySelector('.ic-rbar-row')):null}; });
   ok(tag+'полосы шапки во всю ширину',bars.rb&&bars.rb[0]===0&&bars.rb[1]===w&&bars.bt&&bars.bt[1]===w,JSON.stringify(bars));
+  // строка раздела показывает текущее значение; плитки облегают изображение
+  const lb0=await p.$eval('[data-rb="part"]',e=>e.textContent.trim());
+  ok(tag+'строка раздела показывает значение («Все части ▾»)',/Все части/.test(lb0)&&/▾/.test(lb0),lb0);
+  const empt=await p.$$eval('.ic-gal-img',e=>Math.max(...e.map(g=>{ const r=g.getBoundingClientRect(),i=g.querySelector('img').getBoundingClientRect(); return 1-i.height/r.height; })));
+  ok(tag+'плитки без пустых полей > 15% высоты',empt<=0.15,empt.toFixed(3));
   // шторка «Часть»
   await p.tap('[data-rb="part"]'); await W(600);
   const rows=await p.$$eval('#ic-gro-part [data-f]',e=>e.map(x=>x.textContent.trim()+(x.getAttribute('aria-pressed')==='true'?'*':'')));
@@ -36,7 +41,7 @@ const info=p=>p.evaluate(()=>({hash:location.hash,h1:(document.querySelector('h1
   ok(tag+'строки шторки ≥ 44',rh.every(x=>x>=44),rh.join(','));
   await p.tap('#ic-gro-part [data-f="3"]'); await W(900);
   const s3=await info(p), lbl=await p.$eval('[data-rb="part"]',e=>e.textContent.trim());
-  ok(tag+'часть III: сетка переключилась (5 таблиц, 1 заголовок)',s3.items===5&&s3.heads===1&&/3/.test(lbl),JSON.stringify([s3.items,s3.heads,lbl]));
+  ok(tag+'часть III: сетка переключилась (5 таблиц, 1 заголовок), в строке — название части',s3.items===5&&s3.heads===1&&/Часть третья/.test(lbl)&&/▾/.test(lbl),JSON.stringify([s3.items,s3.heads,lbl]));
   await p.tap('[data-rb="part"]'); await W(600); await p.tap('#ic-gro-part [data-f="all"]'); await W(900);
   ok(tag+'«Все части»: 47 таблиц',(await info(p)).items===47);
   // карточка: открывается тапом; «назад» — на то же место сетки
@@ -52,15 +57,32 @@ const info=p=>p.evaluate(()=>({hash:location.hash,h1:(document.querySelector('h1
   // примечания: pl1-4 (таблица 1)
   await go('#/grosson/plate/1');
   if(w<600){ await p.tap('.ic-hotspot[data-id="pl1-4"]'); await W(800); } else { await p.evaluate(()=>document.querySelector('.ic-obj[data-id="pl1-4"] .ic-obj-sum').click()); await W(800); }
+  if(w<600){
+   const sh=await p.evaluate(()=>{ const s=document.querySelector('#ic-gro-obj'), pn=s.querySelector('.ic-rb-sheet-panel'), cs=getComputedStyle(pn); const nv=s.querySelector('.ic-gro-nv'); const r=nv.getBoundingClientRect(); return {open:s.classList.contains('ic-rb-sheet-open'),bg:cs.backgroundColor,old:!!document.querySelector('.ic-sheet'),title:s.querySelector('.ic-rb-sheet-head-title').textContent,nv:[Math.round(r.width),Math.round(r.height)]}; });
+   ok(tag+'окно предмета — тёмная шторка строки раздела (не светлая панель)',sh.open&&sh.bg==='rgb(22, 19, 15)'&&!sh.old&&/^4\./.test(sh.title),JSON.stringify(sh));
+   ok(tag+'кнопки ‹ › шторки ≥ 44',sh.nv[0]>=44&&sh.nv[1]>=44,sh.nv.join('×'));
+   await p.evaluate(()=>document.querySelector('#ic-gro-obj .ic-gro-nv[data-d="1"]').click()); await W(300);
+   ok(tag+'› переключает на следующий предмет таблицы',/^5\./.test(await p.$eval('#ic-gro-obj .ic-rb-sheet-head-title',e=>e.textContent)));
+   const grn=await p.evaluate(()=>{ const bad=[]; document.querySelectorAll('#ic-gro-obj *').forEach(e=>{ const cs=getComputedStyle(e); [cs.color,cs.backgroundColor,cs.borderTopColor].forEach(c=>{ const m=/rgba?\((\d+), (\d+), (\d+)/.exec(c); if(m&&+m[2]>+m[1]+20&&+m[2]>+m[3]+20) bad.push(c); }); }); return bad.length; });
+   ok(tag+'в шторке предмета нет зелёного',grn===0,String(grn));
+   await p.evaluate(()=>{ const s=document.querySelector('#ic-gro-obj .ic-rb-sheet-close'); if(s) s.click(); }); await W(500);
+  }
+  { const gr=await p.evaluate(()=>{ const bad=[]; const chk=(e,k)=>{ const cs=getComputedStyle(e); [cs.color,cs.backgroundColor,cs.borderTopColor].forEach(c=>{ const m=/rgba?\((\d+), (\d+), (\d+)/.exec(c); if(m&&+m[2]>+m[1]+20&&+m[2]>+m[3]+20) bad.push(k+':'+c); }); };
+      document.querySelectorAll('.ic-hotspot, .ic-hotspot span, .ic-obj-dot, .ic-obj-dot.on, .ic-gro-seg *, .ic-rbar *').forEach(e=>chk(e,e.className)); return bad; });
+    ok(tag+'на карточке нет зелёного (метки, точки, переключатель)',gr.length===0,gr.slice(0,3).join(' | '));
+    const ht=await p.$eval('.ic-hotspot',e=>{ const r=e.getBoundingClientRect(), a=getComputedStyle(e,'::after'); return [Math.round(r.width),Math.round(r.height),a.width,a.height,getComputedStyle(e.querySelector('span')).backgroundColor]; });
+    ok(tag+'метка на гравюре: тёмная шапка, зона нажатия ≥ 44',ht[4]==='rgb(22, 19, 15)'&&parseFloat(ht[2])>=44&&parseFloat(ht[3])>=44,JSON.stringify(ht));
+    const seg=await p.evaluate(()=>{ const s=document.querySelector('.ic-gro-seg'); const b=[...s.querySelectorAll('.ic-chip')]; return {pill:!!document.querySelector('.ic-view-toggle,.ic-ov-b'),h:b.map(x=>Math.round(x.getBoundingClientRect().height)),on:getComputedStyle(b[0]).backgroundColor}; });
+    ok(tag+'переключатель — стандартные сегменты (не красная таблетка), ≥ 44',!seg.pill&&seg.h.every(x=>x>=44)&&!/142, 43, 29/.test(seg.on),JSON.stringify(seg)); }
   const nt=await p.evaluate(()=>{ const e=document.querySelector('.ic-gro-note'); if(!e) return null; const r=e.getBoundingClientRect(); return {t:e.textContent.slice(0,120),vis:r.width>0&&r.height>0,fs:parseFloat(getComputedStyle(e).fontSize)}; });
   ok(tag+'примечание видно (с пометкой «Примечание», мелкий шрифт)',nt&&nt.vis&&/^Примечание/.test(nt.t)&&nt.fs<16,JSON.stringify(nt));
-  await p.evaluate(()=>{ const s=document.querySelector('.ic-sheet-close'); if(s) s.click(); });
+  await p.evaluate(()=>{ const s=document.querySelector('#ic-gro-obj .ic-rb-sheet-close'); if(s) s.click(); });
   const q1=await p.evaluate(()=>{ const e=document.querySelector('.ic-obj[data-id="pl37-1"]'); return !!e; }); // не на этой таблице
   // [?] в легенде pl37-1 → кружок
   await go('#/grosson/pl37-1');
-  const qm=await p.evaluate(()=>{ const sb=document.querySelector('.ic-sheet-body')||document.querySelector('.ic-obj[open] .ic-obj-body, .ic-obj-d[open] .ic-obj-body'); return sb?sb.querySelectorAll('.ic-qm').length:-1; });
+  const qm=await p.evaluate(()=>{ return document.querySelectorAll('.ic-gro-ob-body .ic-qm, .ic-obj-d[open] .ic-obj-body .ic-qm').length; });
   ok(tag+'[?] в легенде — кружок-пояснение (pl37-1)',qm>=2,String(qm));
-  await p.evaluate(()=>{ const s=document.querySelector('.ic-sheet-close'); if(s) s.click(); });
+  await p.evaluate(()=>{ const s=document.querySelector('#ic-gro-obj .ic-rb-sheet-close'); if(s) s.click(); });
   // Пред./След.
   await go('#/grosson/plate/5');
   await p.evaluate(()=>document.querySelector('.ic-rbar-nv[data-nav="next"]').click()); await W(1800); const nx=await info(p);

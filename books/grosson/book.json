@@ -98,7 +98,11 @@
       "caption_ru": "на средства г-на Мишеля, почётного члена Академии живописи и скульптуры Марселя",
       "caption_en": "at the expense of M. Michel, honorary member of the Academy of Painting and Sculpture of Marseille",
       "title_ru": "Таблица I. Греческие монеты Массалии",
-      "title_en": "Plate I. Greek Coins of Massalia"
+      "title_en": "Plate I. Greek Coins of Massalia",
+      "thumb": [
+        700,
+        253
+      ]
     },
     {
       "n": 2,
@@ -106,7 +110,11 @@
       "caption_ru": "на средства г-на Барриг де Фонтанье, Королевской академии живописи и скульптуры Марселя",
       "caption_en": "at the expense of M. Barrigue de Fontainieu of the Royal Academy of Painting and Sculpture of Marseille",
       "title_ru": "Таблица II. Монеты Массалии",
-      "title_en": "Plate II. Coins of Massalia"
+      "title_en": "Plate II. Coins of Massalia",
+      "thumb": [
+        700,
+        358
+      ]
     },
     {
       "n": 3,
@@ -123,6 +131,10 @@
       ],
       "intro_en": [
         "The medals contained in this Plate are all in bronze, and of the same size as the engravings."
+      ],
+      "thumb": [
+        700,
+        278
       ]
     },
     {
@@ -140,6 +152,10 @@
       ],
       "intro_en": [
         "ALL the medals contained in this Plate are in bronze, and of the same size as the engravings."
+      ],
+      "thumb": [
+        700,
+        220
       ]
     },
     {
@@ -157,6 +173,10 @@
       ],
       "intro_en": [
         "The medals included under nos. 1, 2, 3, 5, 6 and 7 are of the same size as the engravings; those designated by the other numbers have been enlarged somewhat; they are all in bronze."
+      ],
+      "thumb": [
+        700,
+        365
       ]
     },
     {
@@ -174,6 +194,10 @@
       ],
       "intro_en": [
         "The medals of the following Plates are those which served as coinage under the reigns of the Kings of France of the first and second dynasty, Sovereigns of Marseille. These medals are gold sols, half-sols, and third-sols, struck in this City. The scale of the medals is enlarged by half in the Engravings, and even by two-thirds in some of them."
+      ],
+      "thumb": [
+        700,
+        432
       ]
     },
     {
@@ -191,6 +215,10 @@
       ],
       "intro_en": [
         "The medals contained in this Plate are again gold sols and third-sols; their size is much smaller than the engravings."
+      ],
+      "thumb": [
+        700,
+        277
       ]
     },
     {
@@ -208,7 +236,11 @@
       ],
       "caption_fr": "Aux depens de Mr Mtre Cathalan avocat en la Cour",
       "caption_ru": "на средства г-на мэтра Каталана, адвоката при Суде",
-      "caption_en": "at the expense of M. Cathalan, advocate at the Court"
+      "caption_en": "at the expense of M. Cathalan, advocate at the Court",
+      "thumb": [
+        700,
+        365
+      ]
     },
     {
       "n": 9,
@@ -225,7 +257,11 @@
       ],
       "caption_fr": "Aux depens de Mr Roubier de l'Ac. de P. et Sculp. de Marrseille",
       "caption_ru": "на средства г-на Рубье, Академии живописи и скульптуры Марселя",
-      "caption_en": "at the expense of M. Roubier, of the Academy of Painting and Sculpture of Marseille"
+      "caption_en": "at the expense of M. Roubier, of the Academy of Painting and Sculpture of Marseille",
+      "thumb": [
+        700,
+        314
+      ]
     },
     {
       "n": 10,
@@ -233,7 +269,11 @@
       "title_en": "Plate X. Bas-relief of the three Brothers; Altar of Cybele",
       "caption_fr": "Aux depens de Mr Mestre d'Aigalades Tres.r Gal de France",
       "caption_ru": "на средства г-на Местра д'Эгалад, генерального казначея Франции",
-      "caption_en": "at the expense of M. Mestre d'Aigalades, General Treasurer of France"
+      "caption_en": "at the expense of M. Mestre d'Aigalades, General Treasurer of France",
+      "thumb": [
+        1180,
+        1600
+      ]
     },
     {
       "n": 11,
@@ -241,7 +281,11 @@
       "title_en": "Plate XI. Statue attributed to Titus Annius Milo",
       "caption_fr": "Aux depens de Mr des fermes du Roy a Marslle de Lac. de P. et Sculp. de la dte ville",
       "caption_ru": "на средства г-на откупщика королевских пошлин в Марселе, Академии живописи и скульптуры этого города",
-      "caption_en": "at the expense of M. of the King's farms (tax office) at Marseille, of the Academy of Painting and Sculpture of that city"
+      "caption_en": "at the expense of M. of the King's farms (tax office) at Marseille, of the Academy of Painting and Sculpture of that city",
+      "thumb": [
+        1053,
+        1600
+      ]
     },
     {
       "n": 12,
@@ -249,7 +293,11 @@
       "title_en": "Plate XII. Bas-reliefs: a mother's instruction, a boar hunt, conjugal fidelity",
       "caption_fr": "Aux depens de Mr Le Marquis de Glandeves Niozelles",
       "caption_ru": "на средства г-на маркиза де Гландев Ниозель",
-      "caption_en": "at the expense of M. the Marquis de Glandevès Niozelles"
+      "caption_en": "at the expense of M. the Marquis de Glandevès Niozelles",
+      "thumb": [
+        1177,
+        1600
+      ]
     },
     {
       "n": 13,
@@ -257,7 +305,11 @@
       "title_en": "Plate XIII. Inscribed altar fragment; bas-relief of conjugal fidelity",
       "caption_fr": "Aux depens de Mr Duranti de la Calade, Conseiller en la Cour des Comptes, aydes et finances, Daix",
       "caption_ru": "на средства г-на Дюранти де ла Калада, советника Счётной палаты, податей и финансов, Экс",
-      "caption_en": "at the expense of M. Duranti de la Calade, Councillor at the Court of Accounts, Aides and Finances, Aix"
+      "caption_en": "at the expense of M. Duranti de la Calade, Councillor at the Court of Accounts, Aides and Finances, Aix",
+      "thumb": [
+        1156,
+        1600
+      ]
     },
     {
       "n": 14,
@@ -265,7 +317,11 @@
       "title_en": "Plate XIV. Tomb of Titus Tannonius; bas-relief of a boat",
       "caption_fr": "Aux depens de Mr Rouviere",
       "caption_ru": "на средства г-на Рувьера",
-      "caption_en": "at the expense of M. Rouvière"
+      "caption_en": "at the expense of M. Rouvière",
+      "thumb": [
+        1107,
+        1600
+      ]
     },
     {
       "n": 15,
@@ -273,7 +329,11 @@
       "title_en": "Plate XV. Candelabrum, Priest of Jupiter, statue of Minerva, medallion",
       "caption_fr": "Aux depens de Mr Boyer de Fonscolombe Recteur de l'Academie de Peinture de Marseille",
       "caption_ru": "на средства г-на Буайе де Фонсколомба, ректора Марсельской академии живописи",
-      "caption_en": "at the expense of M. Boyer de Fonscolombe, Rector of the Marseille Academy of Painting"
+      "caption_en": "at the expense of M. Boyer de Fonscolombe, Rector of the Marseille Academy of Painting",
+      "thumb": [
+        1048,
+        1600
+      ]
     },
     {
       "n": 16,
@@ -281,7 +341,11 @@
       "title_en": "Plate XVI. Mercury, Jupiter, an alabaster urn, an inscribed pebble",
       "caption_fr": "Aux depens de Mr le Baron de la tour d'aigues Co.ller au Parlement Ho.re de L'Ac. de P. et Sculp. de Marseille",
       "caption_ru": "на средства барона де Ла Тур д'Эг, советника парламента, почётного члена Академии живописи и скульптуры Марселя",
-      "caption_en": "at the expense of the Baron de La Tour d'Aigues, Councillor at the Parlement, honorary member of the Marseille Academy of Painting and Sculpture"
+      "caption_en": "at the expense of the Baron de La Tour d'Aigues, Councillor at the Parlement, honorary member of the Marseille Academy of Painting and Sculpture",
+      "thumb": [
+        1074,
+        1600
+      ]
     },
     {
       "n": 17,
@@ -289,7 +353,11 @@
       "title_en": "Plate XVII. Bas-relief of Artemon; bone dice-cup",
       "caption_fr": "Aux depens de Mr Clary Ancien Echevin",
       "caption_ru": "на средства г-на Клари, бывшего эшевена",
-      "caption_en": "at the expense of M. Clary, former Échevin"
+      "caption_en": "at the expense of M. Clary, former Échevin",
+      "thumb": [
+        1134,
+        1600
+      ]
     },
     {
       "n": 18,
@@ -297,7 +365,11 @@
       "title_en": "Plate XVIII. Tomb of Melitine; a fool's-head marotte; a Mars-and-Minerva amulet",
       "caption_fr": "Aux depens de Mr Picaudeau de Chemilly Lt. Gal. des mareschaussees de france",
       "caption_ru": "на средства г-на Пико до де Шёмийи, генерал-лейтенанта французских мареша́сских войск",
-      "caption_en": "at the expense of M. Picaudeau de Chemilly, Lieutenant-General of the French Constabulary (maréchaussée)"
+      "caption_en": "at the expense of M. Picaudeau de Chemilly, Lieutenant-General of the French Constabulary (maréchaussée)",
+      "thumb": [
+        1175,
+        1600
+      ]
     },
     {
       "n": 19,
@@ -305,7 +377,11 @@
       "title_en": "Plate XIX. Philosophers beneath a portico; votive statue to Jupiter Dolichenus",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1009,
+        1600
+      ]
     },
     {
       "n": 20,
@@ -313,7 +389,11 @@
       "title_en": "Plate XX. Valisinius's vow; relief of Cybele; a horse-head bronze",
       "caption_fr": "Aux depens de Mr S.G",
       "caption_ru": "на средства г-на S.G",
-      "caption_en": "at the expense of M. S.G"
+      "caption_en": "at the expense of M. S.G",
+      "thumb": [
+        1204,
+        1600
+      ]
     },
     {
       "n": 21,
@@ -321,7 +401,11 @@
       "title_en": "Plate XXI. Two sarcophagi: a magistrate, and the manumission ceremony",
       "caption_fr": "Aux Depens De Mr Paul, lieutenant General civil en la Seneschausee Des Academies De Marseille",
       "caption_ru": "на средства г-на Поля, генерал-лейтенанта по гражданским делам сенешальства, члена марсельских академий",
-      "caption_en": "at the expense of M. Paul, Lieutenant-General for civil affairs of the Seneschalsy, member of the Academies of Marseille"
+      "caption_en": "at the expense of M. Paul, Lieutenant-General for civil affairs of the Seneschalsy, member of the Academies of Marseille",
+      "thumb": [
+        1215,
+        1600
+      ]
     },
     {
       "n": 22,
@@ -329,7 +413,11 @@
       "title_en": "Plate XXII. Two Roman sarcophagi: cupid-smiths, and Julia Quintina",
       "caption_fr": "Aux Depens de Mr Escalon ancien Echevin",
       "caption_ru": "на средства г-на Эскалона, бывшего эшевена",
-      "caption_en": "at the expense of M. Escalon, former Échevin"
+      "caption_en": "at the expense of M. Escalon, former Échevin",
+      "thumb": [
+        1282,
+        1600
+      ]
     },
     {
       "n": 23,
@@ -337,7 +425,11 @@
       "title_en": "Plate XXIII. Grotesque pilasters and a baptistery column",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1079,
+        1600
+      ]
     },
     {
       "n": 24,
@@ -345,7 +437,11 @@
       "title_en": "Plate XXIV. Grotesque column, frieze, and arch-band of the St. Lazarus altar",
       "caption_fr": "Aux Depens de Mr Chaumel Lt. Gl. Criminel en la Senechaussee",
       "caption_ru": "на средства г-на Шомеля, генерал-лейтенанта по уголовным делам сенешальства",
-      "caption_en": "at the expense of M. Chaumel, Lieutenant-General for criminal affairs of the Seneschalsy"
+      "caption_en": "at the expense of M. Chaumel, Lieutenant-General for criminal affairs of the Seneschalsy",
+      "thumb": [
+        1080,
+        1600
+      ]
     },
     {
       "n": 25,
@@ -353,7 +449,11 @@
       "title_en": "Plate XXV. Jupiter Serapis, Minerva, a sea god, a Priapus amulet",
       "caption_fr": "Aux Depens de Mr F.N. Badaraque negot.t",
       "caption_ru": "на средства г-на Ф. Н. Бадарака, негоцианта",
-      "caption_en": "at the expense of M. F.N. Badaraque, merchant"
+      "caption_en": "at the expense of M. F.N. Badaraque, merchant",
+      "thumb": [
+        1080,
+        1600
+      ]
     },
     {
       "n": 26,
@@ -361,7 +461,11 @@
       "title_en": "Plate XXVI. Grotesque capitals and bases of the Saint-Victor cloister",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1062,
+        1600
+      ]
     },
     {
       "n": 27,
@@ -369,7 +473,11 @@
       "title_en": "Plate XXVII. Saint-Victor cloister capitals and a now-lost tomb",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1119,
+        1600
+      ]
     },
     {
       "n": 28,
@@ -377,7 +485,11 @@
       "title_en": "Plate XXVIII. A sea-dredged frieze, a bollard capital, a lion-head tomb",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1188,
+        1600
+      ]
     },
     {
       "n": 29,
@@ -385,7 +497,11 @@
       "title_en": "Plate XXIX. Lamps, a foot-soldier's sword, and the seal of Cossutius Chresimus",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1143,
+        1600
+      ]
     },
     {
       "n": 30,
@@ -393,7 +509,11 @@
       "title_en": "Plate XXX. A crab incense-holder, a key, an urn, a lacrimatory, and lamps",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1129,
+        1600
+      ]
     },
     {
       "n": 31,
@@ -401,7 +521,11 @@
       "title_en": "Plate XXXI. Knife-handles, a patera, vessels, and an enigmatic object",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1111,
+        1600
+      ]
     },
     {
       "n": 32,
@@ -409,7 +533,11 @@
       "title_en": "Plate XXXII. A patera, a weight, an altar, an alabaster vase, lacrimatories, and the Leudemus urn",
       "caption_fr": "Aux Depens de Mr Eisden Laine",
       "caption_ru": "на средства г-на Эйсдена-старшего",
-      "caption_en": "at the expense of M. Eisden the elder"
+      "caption_en": "at the expense of M. Eisden the elder",
+      "thumb": [
+        1133,
+        1600
+      ]
     },
     {
       "n": 33,
@@ -417,7 +545,11 @@
       "title_en": "Plate XXXIII. Urns, a hydria, rings, and lamps (closing Part III)",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1021,
+        1600
+      ]
     },
     {
       "n": 34,
@@ -425,7 +557,11 @@
       "title_en": "Plate XXXIV. Façade of the house of Titus Annius Milo",
       "caption_fr": "Aux depens De M *** Negociant",
       "caption_ru": "на средства г-на ***, негоцианта",
-      "caption_en": "at the expense of M. ***, merchant"
+      "caption_en": "at the expense of M. ***, merchant",
+      "thumb": [
+        1103,
+        1600
+      ]
     },
     {
       "n": 35,
@@ -433,7 +569,11 @@
       "title_en": "Plate XXXV. Pyramidal tomb of the hamlet of la Pène",
       "caption_fr": "Aux Depens De Mr Magnan de l'Acad.e de P. et Sc. de Marseille",
       "caption_ru": "на средства г-на Маньяна, члена Академии живописи и скульптуры Марселя",
-      "caption_en": "at the expense of M. Magnan, of the Academy of Painting and Sculpture of Marseille"
+      "caption_en": "at the expense of M. Magnan, of the Academy of Painting and Sculpture of Marseille",
+      "thumb": [
+        1150,
+        1600
+      ]
     },
     {
       "n": 36,
@@ -441,7 +581,11 @@
       "title_en": "Plate XXXVI. Plan of the cellars of the Abbey of Saint-Sauveur",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1400,
+        714
+      ]
     },
     {
       "n": 37,
@@ -449,7 +593,11 @@
       "title_en": "Plate XXXVII. Four Greek funerary inscriptions",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1091,
+        1600
+      ]
     },
     {
       "n": 38,
@@ -457,7 +605,11 @@
       "title_en": "Plate XXXVIII. Four Latin and Greek funerary inscriptions (the ascia debate)",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1078,
+        1600
+      ]
     },
     {
       "n": 39,
@@ -465,7 +617,11 @@
       "title_en": "Plate XXXIX. Five Latin and Greek epitaphs",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1091,
+        1600
+      ]
     },
     {
       "n": 40,
@@ -473,7 +629,11 @@
       "title_en": "Plate XL. Four Latin epitaphs",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1108,
+        1600
+      ]
     },
     {
       "n": 41,
@@ -481,7 +641,11 @@
       "title_en": "Plate XLI. Five Latin epitaphs (the vow of a Claudian-Legion knight)",
       "caption_fr": "Aux depens de l'Auteur",
       "caption_ru": "на средства автора",
-      "caption_en": "at the expense of the Author"
+      "caption_en": "at the expense of the Author",
+      "thumb": [
+        1108,
+        1600
+      ]
     },
     {
       "n": 42,
@@ -489,7 +653,11 @@
       "title_en": "Plate XLII. Three Latin and Greek inscriptions (the Saint-Sauveur Dendrophores)",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1076,
+        1600
+      ]
     },
     {
       "n": 43,
@@ -497,7 +665,11 @@
       "title_en": "Inscription fragments 1-8 (wood engraving)",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1011,
+        1096
+      ]
     },
     {
       "n": 44,
@@ -505,7 +677,11 @@
       "title_en": "Inscription fragments 9-17 (wood engraving)",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        749,
+        1100
+      ]
     },
     {
       "n": 45,
@@ -513,7 +689,11 @@
       "title_en": "Inscription fragments 18-21 (wood engraving)",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1600,
+        1035
+      ]
     },
     {
       "n": 46,
@@ -521,7 +701,11 @@
       "title_en": "Inscription fragments 22-26 (wood engraving)",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        942,
+        1600
+      ]
     },
     {
       "n": 47,
@@ -529,7 +713,11 @@
       "title_en": "Greek fragments 1-6 (wood engraving)",
       "caption_fr": "",
       "caption_ru": "",
-      "caption_en": ""
+      "caption_en": "",
+      "thumb": [
+        1600,
+        1281
+      ]
     }
   ],
   "about": {

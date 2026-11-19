@@ -2193,3 +2193,34 @@ html.ic-flow-page .ic:has(.ic-mot-stack){min-height:calc(100lvh + var(--top2,111
 .ic .ic-gro-note{margin:14px 0 0;padding-top:10px;font-size:.78em;line-height:1.45;color:var(--soft);background:linear-gradient(90deg,transparent,var(--rule) 18%,var(--rule) 82%,transparent) top/100% 1px no-repeat}
 .ic .ic-gro-note b{font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:.92em}
 .ic .ic-rp-gro .ic-gro-sform{margin:14px 0 8px}
+
+/* Гроссон: плитки «Таблиц» облегают изображение (пропорция из plates[].thumb), без пустых полей — как сетка «Гравюры» Рипы, но не 4:5 */
+.ic .ic-rp-gro .ic-gal-grid{align-items:start}
+.ic .ic-rp-gro .ic-rp-gimg{aspect-ratio:auto;padding:2px}
+.ic .ic-rp-gro .ic-rp-gimg img{position:static;inset:auto;display:block;width:100%;height:auto;max-width:100%}
+/* метки-номера на гравюре и точки списка: цвета сайта (тёмная шапка со светлой цифрой, акцент у выбранной); зона нажатия ≥ 44px */
+.ic-hotspot span,.ic-hotspot.on span{background:#16130f;color:rgb(236,229,212);box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.ic-hotspot.focus span{background:var(--accent);color:#fff}
+.ic-hotspot::after{content:"";position:absolute;left:50%;top:50%;width:max(100%,44px);height:max(100%,44px);transform:translate(-50%,-50%)}
+.ic-obj-dot.on{background:var(--accent);border-color:var(--accent)}
+/* переключатель «Список предметов / Как в книге» — стандартные сегменты сайта (.ic-seg > .ic-chip, «вариант 3»), нажатие только заливкой */
+.ic .ic-gro-seg{margin-top:28px;gap:10px}
+.ic .ic-gro-seg .ic-chip{min-height:44px;padding:0 14px;transition:none}
+.ic .ic-gro-seg .ic-chip:active{transform:none}
+/* окно предмета — тёмная шторка строки раздела: голова ‹ название › Закрыть; блоки — поля карточки Рипы на тёмном */
+button.ic-gro-nv{flex:none;width:44px;height:44px;border:1px solid rgba(236,229,212,.3);border-radius:10px;background:transparent;padding:0;font:22px/1 var(--serif);color:rgb(236,229,212);cursor:pointer;display:flex;align-items:center;justify-content:center}
+button.ic-gro-nv:active{background:rgba(236,229,212,.14)}
+button.ic-gro-nv:disabled{opacity:.35}
+@media (hover:hover){button.ic-gro-nv:not(:disabled):hover{background:rgba(236,229,212,.14);border-color:rgba(236,229,212,.45)}}
+.ic-gro-objsheet .ic-rb-sheet-head-title{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ic-gro-ob-body{color:rgba(236,229,212,.92)}
+.ic-gro-ob-body .ic-obj-img{border-color:rgba(236,229,212,.2)}
+.ic-gro-ob-body .ic-sec:first-child,.ic-gro-ob-body .ic-obj-img+.ic-sec{margin-top:22px}
+.ic-gro-ob-body .ic-sec h3{color:rgba(236,229,212,.6);--fc:rgba(236,229,212,.14)}
+.ic-gro-ob-body .ic-attrs li{--fc:rgba(236,229,212,.14)}
+.ic-gro-ob-body .ic-attrs span,.ic-gro-ob-body .ic-attrs b,.ic-gro-ob-body .ic-text{color:rgba(236,229,212,.92)}
+.ic-gro-ob-body .ic-gro-note{color:rgba(236,229,212,.6);background:linear-gradient(90deg,transparent,rgba(236,229,212,.14) 18%,rgba(236,229,212,.14) 82%,transparent) top/100% 1px no-repeat}
+.ic-gro-ob-body a{color:rgb(236,229,212)}
+.ic .ic-gro-grid > .ic-pl-h:first-child{margin-top:22px}
+.ic-obj-name{font-size:1em;line-height:1.4}
+.ic-obj-sum{gap:14px;min-height:44px}

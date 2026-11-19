@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "263";
+  var APP_VER = "264";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3025,6 +3025,8 @@
     var m = p.meta || {}, L = state.lang;
     return (L==="fr" ? (m.title_fr || m.title_en) : L==="en" ? m.title_en : "") || m.title_ru || t("plateTitle",{n:p.n});
   }
+  // короткое имя таблицы для пейджера и подсказок: «Таблица I» (до первой точки), иначе полное
+  function groPlateShort(p){ var f = groPlateTitle(p); return f.split(/\.\s/)[0]; }
   function groNoteOf(it){
     var L = state.lang;
     return (L==="fr" ? (it.note_fr || it.note_en) : L==="en" ? it.note_en : "") || it.note_ru || "";
@@ -3076,19 +3078,19 @@
     restoreState(book.slug);
     var G = groPlates(book), parts = book.meta.parts || [];
     if(!/^[1-5]$/.test(state.filter)) state.filter = "all";
-    function partLbl(){ return state.filter==="all" ? t("rpPart") : t("rpPart")+" "+state.filter; }
+    function partLbl(){ return (state.filter==="all" ? t("rpPartAll") : partLabel(book, +state.filter))+" ▾"; }
     function gridHtml(){
       return parts.filter(function(pt){ return state.filter==="all" || String(pt.n)===state.filter; }).map(function(pt){
         var pls = G.list.filter(function(p){ return p.part===pt.n; }); if(!pls.length) return "";
         return '<h2 class="ic-pl-h" data-part="'+pt.n+'">'+esc(partLabel(book, pt.n))+'</h2><ul class="ic-gal ic-gal-grid">'+pls.map(function(p){
-          var o = p.objs[0], src = o.img && o.img[0] ? BASE+"books/"+book.slug+"/img/"+o.img[0] : "";
-          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book,"plate/"+p.n))+'" data-plate="'+esc(p.n)+'" data-anchor="t'+esc(p.n)+'"><span class="ic-gal-img ic-rp-gimg">'+(src ? '<img loading="lazy" decoding="async" src="'+esc(src)+'" alt="">' : "")+'</span>'+
+          var o = p.objs[0], src = o.img && o.img[0] ? BASE+"books/"+book.slug+"/img/"+o.img[0] : "", th = p.meta && p.meta.thumb;
+          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book,"plate/"+p.n))+'" data-plate="'+esc(p.n)+'" data-anchor="t'+esc(p.n)+'"><span class="ic-gal-img ic-rp-gimg">'+(src ? '<img loading="lazy" decoding="async" src="'+esc(src)+'"'+(th ? ' width="'+th[0]+'" height="'+th[1]+'"' : "")+' alt="">' : "")+'</span>'+
             '<span class="ic-gal-cap">'+esc(groPlateTitle(p))+'<small class="ic-gal-pg">'+esc(t("pageAbbr"))+' '+esc(o.page||"")+'</small></span></a></li>';
         }).join("")+'</ul>';
       }).join("");
     }
     var rbar = '<div class="ic-rbar-row">'+
-        '<button type="button" class="ic-rbar-sort ic-rbar-partb'+(state.filter!=="all" ? " ic-rbar-on" : "")+'" data-rb="part"><span class="ic-rbar-sort-label">'+esc(partLbl())+'</span></button>'+
+        '<button type="button" class="ic-rbar-sort ic-rbar-partb'+(state.filter!=="all" ? " ic-rbar-on" : "")+'" data-rb="part" aria-label="'+esc(t("rpPart"))+'"><span class="ic-rbar-sort-label">'+esc(partLbl())+'</span></button>'+
       '</div>'+langSwitch()+
       rbSheetHtml("ic-gro-part", "", "",
         '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpPart"))+'">'+
@@ -3096,7 +3098,7 @@
             return '<button type="button" class="ic-tv-typerow" data-f="'+x[0]+'" aria-pressed="'+(state.filter===x[0])+'"><span>'+esc(x[1])+'</span></button>'; }).join("")+
         '</div>');
     root.innerHTML = ripaShell(book, "plates", rbar, null, "#/")+
-      '<div class="ic-ch-outer"><div class="ic-wrap ic-rp ic-rp-gro"><header class="ic-head ic-rp-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr ic-rp-h1">'+esc(t("audTables"))+'</h1></header>'+
+      '<div class="ic-ch-outer"><div class="ic-wrap ic-rp ic-rp-gro"><header class="ic-head ic-rp-head"><h1 class="ic-h-fr ic-rp-h1">'+esc(t("audTables"))+'</h1></header>'+
         '<div class="ic-gro-grid">'+gridHtml()+'</div></div></div>';
     ripaBind(book, gen, rbSheets);
     var partEl = root.querySelector("#ic-gro-part"), partBtn = root.querySelector('[data-rb="part"]'), grid = root.querySelector(".ic-gro-grid");
@@ -3174,7 +3176,7 @@
     var rbar = '<div class="ic-rbar-row"><button type="button" class="ic-rbar-lbl ic-rbar-lbl-b" data-rb="top"><span class="ic-rbar-pos-ch">'+esc(t("hmSearch"))+'</span></button></div>'+langSwitch();
     root.innerHTML = ripaShell(book, "search", rbar, null, "#/")+
       '<div class="ic-ch-outer"><div class="ic-wrap ic-rp ic-rp-gro">'+
-        '<header class="ic-head ic-rp-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr ic-rp-h1">'+esc(t("hmSearch"))+'</h1></header>'+
+        '<header class="ic-head ic-rp-head"><h1 class="ic-h-fr ic-rp-h1">'+esc(t("hmSearch"))+'</h1></header>'+
         '<form class="ic-home-search ic-gro-sform" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srAllPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("hmSearch"))+'">'+
           '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>'+
         '<div class="ic-sr ic-gro-sr" aria-live="polite"></div></div></div>';
@@ -3236,6 +3238,7 @@
     location.replace(h);
   }
 
+  var groObj = null;     // окно предмета текущей карточки: {open(i), body}
   var groFocus = null;   // номер таблицы, к которой должна прокрутиться сетка при возврате из карточки через вкладку «Таблицы»
   function groToList(book, n){
     groFocus = n; namesUi.pos[location.hash] = window.scrollY;
@@ -3260,12 +3263,18 @@
     var pgLbl = esc(t("pageAbbr"))+' '+esc(objs[0].page||"");
     var rbar = '<div class="ic-rbar-row">'+
         '<button type="button" class="ic-rbar-lbl ic-rbar-lbl-b" data-rb="tolist" aria-label="'+esc(t("audTables")+": "+title)+'"><span class="ic-rbar-pos-ch">'+esc(title)+'</span><span class="ic-rbar-pos-pg">'+pgLbl+'</span></button>'+
-        '<button type="button" class="ic-rbar-nv" data-nav="prev" data-go="'+(prev?prev.n:"")+'"'+(prev?' title="'+esc(groPlateTitle(prev))+'"':" disabled")+'>'+t("navPrev")+'</button>'+
-        '<button type="button" class="ic-rbar-nv" data-nav="next" data-go="'+(next?next.n:"")+'"'+(next?' title="'+esc(groPlateTitle(next))+'"':" disabled")+'>'+t("navNext")+'</button>'+
-      '</div>'+langSwitch();
+        '<button type="button" class="ic-rbar-nv" data-nav="prev" data-go="'+(prev?prev.n:"")+'"'+(prev?' title="'+esc(groPlateShort(prev))+'"':" disabled")+'>'+t("navPrev")+'</button>'+
+        '<button type="button" class="ic-rbar-nv" data-nav="next" data-go="'+(next?next.n:"")+'"'+(next?' title="'+esc(groPlateShort(next))+'"':" disabled")+'>'+t("navNext")+'</button>'+
+      '</div>'+langSwitch()+
+      rbSheetHtml("ic-gro-obj", "ic-gro-objsheet",
+        '<button type="button" class="ic-gro-nv" data-d="-1" aria-label="'+esc(t("prevArticle"))+'">‹</button>'+
+        '<span class="ic-rb-sheet-head-title"></span>'+
+        '<button type="button" class="ic-gro-nv" data-d="1" aria-label="'+esc(t("nextArticle"))+'">›</button>'+
+        '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>',
+        '<div class="ic-gro-ob-body"></div>');
     var pager = '<div class="ic-pager ic-rp-pager">'+
-        (prev ? '<button type="button" class="ic-rp-nb ic-rp-nb-prev" data-go="'+prev.n+'">'+RP_CHEV_L+'<span class="ic-rp-nb-t"><small>'+t("rpPrevFull")+'</small><span>'+esc(groPlateTitle(prev))+'</span></span></button>' : '<span></span>')+
-        (next ? '<button type="button" class="ic-rp-nb ic-rp-nb-next" data-go="'+next.n+'"><span class="ic-rp-nb-t"><small>'+t("rpNextFull")+'</small><span>'+esc(groPlateTitle(next))+'</span></span>'+RP_CHEV_R+'</button>' : '<span></span>')+
+        (prev ? '<button type="button" class="ic-rp-nb ic-rp-nb-prev" data-go="'+prev.n+'">'+RP_CHEV_L+'<span class="ic-rp-nb-t"><small>'+t("rpPrevFull")+'</small><span>'+esc(groPlateShort(prev))+'</span></span></button>' : '<span></span>')+
+        (next ? '<button type="button" class="ic-rp-nb ic-rp-nb-next" data-go="'+next.n+'"><span class="ic-rp-nb-t"><small>'+t("rpNextFull")+'</small><span>'+esc(groPlateShort(next))+'</span></span>'+RP_CHEV_R+'</button>' : '<span></span>')+
       '</div>';
     root.innerHTML = ripaShell(book, "plates", rbar, RIPA_CTX)+
       '<div class="ic-ch-outer"><div class="ic-wrap ic-rp ic-rp-gro"><div class="ic-top-row">'+langSwitch()+'</div>'+
@@ -3273,9 +3282,9 @@
         introHtml+
         '<div class="ic-plate-wrap"><img class="ic-fade-img" src="'+esc(src)+'" alt="">'+hotspots+'</div>'+
         (cap ? '<p class="ic-plate-caption">'+esc(cap)+'</p>' : "")+
-        '<div class="ic-view-toggle" role="group">'+
-          '<button type="button" class="ic-ov-b" data-view="list" aria-pressed="true">'+t("viewList")+'</button>'+
-          '<button type="button" class="ic-ov-b" data-view="book" aria-pressed="false">'+t("viewBook")+'</button>'+
+        '<div class="ic-seg ic-gro-seg" role="group">'+
+          '<button type="button" class="ic-chip" data-view="list" aria-pressed="true">'+t("viewList")+'</button>'+
+          '<button type="button" class="ic-chip" data-view="book" aria-pressed="false">'+t("viewBook")+'</button>'+
         '</div>'+
         '<div class="ic-view-body" data-view="list">'+objListHtml(book, objs)+'</div>'+
         pager+
@@ -3285,11 +3294,24 @@
     var toListB = root.querySelector('[data-rb="tolist"]'); if(toListB) toListB.addEventListener("click", function(){ groToList(book, n); });
     var tabL = root.querySelector('.ic-bt-tabs a[href="'+hrefFor(book,"plates")+'"]');
     if(tabL) tabL.addEventListener("click", function(e){ if(e.metaKey||e.ctrlKey||e.shiftKey||e.button) return; e.preventDefault(); groToList(book, n); });
+    // окно предмета: тёмная шторка строки раздела (makeRbSheet), ‹ › — по предметам этой таблицы
+    var obEl = root.querySelector("#ic-gro-obj"), obBody = obEl.querySelector(".ic-gro-ob-body"), obTitle = obEl.querySelector(".ic-rb-sheet-head-title"), obIdx = 0;
+    var obApi = makeRbSheet(obEl, null, {registry: rbSheets, onClose: function(){ highlightHotspot(null); }});
+    function obShow(i){
+      if(i < 0 || i >= objs.length) return;
+      obIdx = i; var it = objs[i];
+      obTitle.textContent = (it.num ? it.num+". " : "")+titleOf(it);
+      obBody.innerHTML = objectDetailHtml(book, it); bindObjectDetail(book, it, obBody);
+      obEl.querySelector('[data-d="-1"]').disabled = i === 0; obEl.querySelector('[data-d="1"]').disabled = i === objs.length-1;
+      obEl.querySelector(".ic-rb-sheet-panel").scrollTop = 0; highlightHotspot(it.id);
+    }
+    obEl.querySelectorAll(".ic-gro-nv").forEach(function(b){ b.addEventListener("click", function(){ obShow(obIdx + (+b.getAttribute("data-d"))); }); });
+    groObj = {open: function(i){ obShow(i); if(!obApi.isOpen()) obApi.open(); }, body: obBody};
     wireObjList(book, objs);
     var viewBody = root.querySelector(".ic-view-body");
-    root.querySelectorAll(".ic-view-toggle .ic-ov-b").forEach(function(b){
+    root.querySelectorAll(".ic-gro-seg .ic-chip").forEach(function(b){
       b.addEventListener("click", function(){
-        root.querySelectorAll(".ic-view-toggle .ic-ov-b").forEach(function(x){ x.setAttribute("aria-pressed", x===b); });
+        root.querySelectorAll(".ic-gro-seg .ic-chip").forEach(function(x){ x.setAttribute("aria-pressed", x===b); });
         var v = b.getAttribute("data-view"); viewBody.setAttribute("data-view", v);
         if(v==="book"){ viewBody.innerHTML = '<div class="ic-text ic-book-text">'+bookTextHtml(book, objs)+'</div>'; wireBookText(book, objs, viewBody); }
         else { viewBody.innerHTML = objListHtml(book, objs); wireObjList(book, objs); }
@@ -3307,7 +3329,7 @@
     if(focusId && book.byId[focusId]){
       if(isPhoneWidth()){
         openObjectSheet(book, objs, objs.indexOf(book.byId[focusId]));
-        if(hl){ var sbody = document.querySelector(".ic-sheet-body"), m1 = groMarkWord(sbody, hl.q); if(m1) hlFadeOut(null, [m1], gen); }
+        if(hl){ var m1 = groMarkWord(groObj && groObj.body, hl.q); if(m1) hlFadeOut(null, [m1], gen); }
       } else {
         openObjectInline(book, focusId);
         if(hl) setTimeout(function(){
@@ -3318,7 +3340,7 @@
       }
     } else if(keepPos) restoreBlockPos(keepPos, gen);
     else toTop();
-    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return !!activeSheetClose || !!sv || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return !!sv || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
     nudgeRepaint();
   }
   function renderGroRoute(book, p){
@@ -6734,6 +6756,7 @@
     sheetScrollY = null;
   }
   function openObjectSheet(book, objs, idx){
+    if(isGro(book) && groObj){ groObj.open(idx); return; }
     var it = objs[idx];
     var d = document.createElement("div");
     d.className = "ic ic-sheet";
