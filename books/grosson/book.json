@@ -873,5 +873,6 @@
   },
   "sourceIsFrench": true,
   "libAuthor": {"ru": "Жан-Батист-Бернар Гроссон", "en": "Jean-Baptiste-Bernard Grosson", "fr": "Jean-Baptiste-Bernard Grosson"},
-  "libTitle": {"ru": "Собрание древностей Марселя", "en": "Marseille Antiquities", "fr": "Antiquités marseillaises"}
+  "libTitle": {"ru": "Собрание древностей Марселя", "en": "Marseille Antiquities", "fr": "Antiquités marseillaises"},
+  "libDesc": {"ru": "Опись древностей и памятников Марселя: монеты и медали, рельефы, статуи, светильники, надгробия и надписи. Все 249 предметов — на 47 гравированных таблицах, с переводом.", "en": "A catalogue of the antiquities and monuments of Marseille: coins and medals, reliefs, statues, lamps, tombs and inscriptions. All 249 objects on 47 engraved plates, with translations.", "fr": "Description des antiquités et monuments de Marseille : monnaies et médailles, bas-reliefs, statues, lampes, tombeaux et inscriptions. 249 objets sur 47 planches gravées."}
 }

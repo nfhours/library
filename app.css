@@ -2224,3 +2224,8 @@ button.ic-gro-nv:disabled{opacity:.35}
 .ic .ic-gro-grid > .ic-pl-h:first-child{margin-top:22px}
 .ic-obj-name{font-size:1em;line-height:1.4}
 .ic-obj-sum{gap:14px;min-height:44px}
+/* «Таблица I, № 4» — мелко сверху (шторка предмета, список «Предметы», результаты лупы) */
+.ic .ic-gro-ref{display:block;font-size:.72em;line-height:1.3;color:var(--soft);letter-spacing:.03em}
+.ic-gro-objsheet .ic-rb-sheet-head-title{display:flex;flex-direction:column;gap:1px;line-height:1.25;font-weight:400;letter-spacing:0}
+.ic-gro-objsheet .ic-gro-ref{color:rgba(236,229,212,.6);font-size:.78em;letter-spacing:.03em}
+.ic-gro-objsheet .ic-gro-ttl{font-weight:600;font-size:1em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}

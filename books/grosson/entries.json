@@ -2796,7 +2796,7 @@
       "group_fr": "Planche IV",
       "group_en": "IV",
       "group_page": "42",
-      "flag": "non décrit par Grosson (lacune du texte original)",
+      "flag": "Гроссон этот предмет не описывает (лакуна в тексте оригинала).",
       "type": "medal",
       "material_fr": "bronze",
       "material_ru": "бронза",
@@ -2832,7 +2832,9 @@
       "legend_ru": "",
       "legend_en": "",
       "name_fr": "Tête / Deux anneaux",
-      "group_frtrans": "Planche IV"
+      "group_frtrans": "Planche IV",
+      "flag_fr": "non décrit par Grosson (lacune du texte original)",
+      "flag_en": "Not described by Grosson (a gap in the original text)."
     },
     {
       "id": "pl5-1",
@@ -6246,7 +6248,7 @@
       "group_fr": "Planche XV",
       "group_en": "XV",
       "group_page": "129",
-      "flag": "légende réelle (Pompée Trogue/Justin) mais sous le nom de Catumandus, chef des Saluvii, non \"Caraumandus\"; le lien avec cette statue précise reste une conjecture de Grosson",
+      "flag": "Легенда подлинная (Помпей Трог / Юстин), но вождя салувиев зовут Катуманд, а не «Караумандус»; связь именно с этой статуей — догадка Гроссона.",
       "type": "statue",
       "material_fr": "bronze",
       "material_ru": "бронза",
@@ -6291,7 +6293,9 @@
       "findspot_ru": "улица Консулов",
       "findspot_en": "rue des Consuls",
       "name_fr": "Statue de bronze de la Déesse Minerve",
-      "group_frtrans": "Planche XV"
+      "group_frtrans": "Planche XV",
+      "flag_fr": "légende réelle (Pompée Trogue/Justin) mais sous le nom de Catumandus, chef des Saluvii, non \"Caraumandus\"; le lien avec cette statue précise reste une conjecture de Grosson",
+      "flag_en": "The legend is genuine (Pompeius Trogus / Justin), but the chief of the Saluvii is called Catumandus, not “Caraumandus”; the link with this particular statue remains Grosson's conjecture."
     },
     {
       "id": "pl15-4",
@@ -8232,7 +8236,7 @@
       "group_fr": "Planche XXVII",
       "group_en": "XXVII",
       "group_page": "176",
-      "flag": "monument aujourd'hui disparu",
+      "flag": "Памятник ныне утрачен.",
       "type": "tomb",
       "material_fr": "marbre blanc",
       "material_ru": "белый мрамор",
@@ -8271,7 +8275,9 @@
       "findspot_ru": "Марсель; перенесена в ризницу древней церкви Обсерванс",
       "findspot_en": "Marseille; moved to the sacristy of the old Church of the Observance",
       "name_fr": "Tombeau romain cannelé en godrons (aujourd'hui perdu)",
-      "group_frtrans": "Planche XXVII"
+      "group_frtrans": "Planche XXVII",
+      "flag_fr": "monument aujourd'hui disparu",
+      "flag_en": "The monument has since been lost."
     },
     {
       "id": "pl28-1",
@@ -9609,7 +9615,7 @@
       "group_fr": "Planche XXXI",
       "group_en": "XXXI",
       "group_page": "196",
-      "flag": "usage incertain, objet de débat avec Caylus",
+      "flag": "Назначение неясно; предмет спора с Кайлюсом.",
       "type": "object",
       "material_fr": "terre cuite",
       "material_ru": "терракота",
@@ -9663,7 +9669,9 @@
       "findspot_ru": "Кролонгет (Камарг); Марсельский залив; Корсика (Аяччо)",
       "findspot_en": "Craulonguette (Camargue); the Gulf of Marseille; Corsica (Ajaccio)",
       "name_fr": "Vase énigmatique à boules d'argile (amulette présumée pour Neptune)",
-      "group_frtrans": "Planche XXXI"
+      "group_frtrans": "Planche XXXI",
+      "flag_fr": "usage incertain, objet de débat avec Caylus",
+      "flag_en": "Use uncertain; a point of debate with Caylus."
     },
     {
       "id": "pl32-1",
@@ -11193,7 +11201,7 @@
       "group_fr": "Planche XXXVIII",
       "group_en": "XXXVIII",
       "group_page": "243",
-      "flag": "lecture de l'outil (ascia = outil de maçon) confirmée par la recherche moderne; le sens exact du rite de dédicace reste débattu et diffère de l'explication de Grosson",
+      "flag": "Толкование орудия (ascia — каменщицкий инструмент) подтверждено современными исследованиями; точный смысл обряда посвящения остаётся спорным и отличается от объяснения Гроссона.",
       "type": "tomb",
       "material_fr": "pierre froide",
       "material_ru": "\"холодный камень\"",
@@ -11250,7 +11258,9 @@
       "findspot_ru": "сад г-на Пьера Базана",
       "findspot_en": "the garden of M. Pierre Bazan",
       "name_fr": "Autel funéraire des frères Rufinus, Charito, Lucillus et Flavianus (débat sur l'ascia)",
-      "group_frtrans": "Planche XXXVIII"
+      "group_frtrans": "Planche XXXVIII",
+      "flag_fr": "lecture de l'outil (ascia = outil de maçon) confirmée par la recherche moderne; le sens exact du rite de dédicace reste débattu et diffère de l'explication de Grosson",
+      "flag_en": "The reading of the tool (ascia = a mason's tool) is confirmed by modern research; the exact meaning of the dedication rite remains debated and differs from Grosson's explanation."
     },
     {
       "id": "pl38-2",
@@ -11634,7 +11644,7 @@
       "group_fr": "Planche XXXIX",
       "group_en": "XXXIX",
       "group_page": "250",
-      "flag": "lecture disputée (Ruffi vs Guesnay)",
+      "flag": "Чтение спорно (Рюффи и Гене).",
       "type": "tomb",
       "material_fr": "",
       "material_ru": "",
@@ -11682,7 +11692,9 @@
       "findspot_ru": "улица Сен-Жак",
       "findspot_en": "rue Saint-Jacques",
       "name_fr": "Fragment d'épitaphe de Quartia Irvatilla",
-      "group_frtrans": "Planche XXXIX"
+      "group_frtrans": "Planche XXXIX",
+      "flag_fr": "lecture disputée (Ruffi vs Guesnay)",
+      "flag_en": "Reading disputed (Ruffi vs Guesnay)."
     },
     {
       "id": "pl39-5",
@@ -12375,7 +12387,7 @@
       "group_fr": "Planche XLII",
       "group_en": "XLII",
       "group_page": "265",
-      "flag": "monument volé après le décès d'Henri de Valois",
+      "flag": "Памятник украден после смерти Анри де Валуа.",
       "type": "tomb",
       "material_fr": "",
       "material_ru": "",
@@ -12423,7 +12435,9 @@
       "group_frtrans": "Planche XLII",
       "note_ru": "В печати «quinze jours» (пятнадцать), а в надписи DIEB. XVI (шестнадцать); в печати также «mieilleux» (опечатка, mielleux); текст оставлен как напечатан, RU/EN следуют французскому.",
       "note_en": "The book prints “quinze jours” (fifteen) while the inscription has DIEB. XVI (sixteen); it also prints “mieilleux” (misprint for mielleux); the text is left as printed, RU/EN follow the French.",
-      "note_fr": "Le livre imprime « quinze jours » alors que l'inscription porte DIEB. XVI (seize) ; il imprime aussi « mieilleux » (coquille pour mielleux) ; texte laissé tel qu'imprimé."
+      "note_fr": "Le livre imprime « quinze jours » alors que l'inscription porte DIEB. XVI (seize) ; il imprime aussi « mieilleux » (coquille pour mielleux) ; texte laissé tel qu'imprimé.",
+      "flag_fr": "monument volé après le décès d'Henri de Valois",
+      "flag_en": "The monument was stolen after the death of Henri de Valois."
     },
     {
       "id": "pl42-3",
@@ -13629,7 +13643,7 @@
       "group_fr": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs",
       "group_en": "Epitaphs, inscriptions and fragments reported by various Authors",
       "group_page": "288",
-      "flag": "l'archéologie moderne contredit Grosson: le temple était bien sur le point le plus élevé (Butte des Moulins)",
+      "flag": "Современная археология противоречит Гроссону: храм действительно стоял на самой высокой точке (холм Мулен).",
       "type": "fragment",
       "material_fr": "",
       "material_ru": "",
@@ -13677,7 +13691,9 @@
       "findspot_ru": "",
       "findspot_en": "",
       "name_fr": "Inscription du Collège des Flamines d'Apollon et des Dendrophores de Marseille",
-      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs",
+      "flag_fr": "l'archéologie moderne contredit Grosson: le temple était bien sur le point le plus élevé (Butte des Moulins)",
+      "flag_en": "Modern archaeology contradicts Grosson: the temple did stand on the highest point (the Butte des Moulins)."
     },
     {
       "id": "frag-22",
