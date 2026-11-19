@@ -1987,10 +1987,13 @@ html.ic-hs-lock{overflow:hidden !important}
    Слои (и копии шлейфа) удаляются целиком по окончании (app.js motNavEnd). */
 @property --mt{syntax:"<length>";inherits:false;initial-value:0px}
 @property --mb{syntax:"<length>";inherits:false;initial-value:0px}
-.ic .ic-mot-ghost{position:fixed;overflow:hidden;z-index:8;pointer-events:none;will-change:transform,opacity}
-.ic .ic-mot-gin{position:absolute;left:0;top:0;width:100%;height:100%}
-.ic .ic-mot-ghost.ic-mot-out{-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 var(--mt));mask-image:linear-gradient(180deg,transparent 0,#000 var(--mt))}
-.ic .ic-mot-ghost.ic-mot-in{-webkit-mask-image:linear-gradient(0deg,transparent 0,#000 var(--mb));mask-image:linear-gradient(0deg,transparent 0,#000 var(--mb))}
+.ic .ic-mot-ghost{position:fixed;overflow:hidden;z-index:7;pointer-events:none;will-change:opacity;   /* окно неподвижно: мягко (24px) срезает верх под шапкой */
+  -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 24px);mask-image:linear-gradient(180deg,transparent 0,#000 24px)}
+.ic .ic-mot-gin{position:absolute;left:0;top:0;width:100%;height:100%;will-change:transform}
+.ic .ic-mot-out > .ic-mot-gin{-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 var(--mt));mask-image:linear-gradient(180deg,transparent 0,#000 var(--mt))}
+.ic .ic-mot-in > .ic-mot-gin{-webkit-mask-image:linear-gradient(0deg,transparent 0,#000 var(--mb));mask-image:linear-gradient(0deg,transparent 0,#000 var(--mb))}
+/* копия строки разделов при уходе: один слой, внутри ничего не анимируется */
+.ic .ic-mot-gstrip *{transition:none!important;animation:none!important;will-change:auto!important}
 /* строка разделов «Мотивов»: выезжает вниз из-под переключателя в обрезающем контейнере; под ней мягкая тень (линии между переключателем и строкой нет) */
 .ic .ic-mot-rwrap{position:relative}
 .ic .ic-mot-rclip{overflow:hidden}
@@ -2149,3 +2152,6 @@ html.ic-hs-lock{overflow:hidden !important}
 /* нажатая плитка/метка не остаётся серой: без подсветки касания и фокуса */
 .ic .ic-mot-tile,.ic .ic-mot-tag,.ic .ic-mot-more,.ic .ic-mot-allbtn{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}
 .ic .ic-mot-tile:focus,.ic .ic-mot-tag:focus,.ic .ic-mot-more:focus,.ic .ic-mot-allbtn:focus{outline:none}
+
+/* «Мотивы»: бумага корня всегда под нижней панелью Safari (lvh — наибольшая высота окна, плюс нижний отступ safe-area); тёмный фон html виден только при отскоке сверху */
+html.ic-flow-page .ic:has(.ic-mot-stack){min-height:100lvh;padding-bottom:env(safe-area-inset-bottom,0px)}

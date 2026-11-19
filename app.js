@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "252";
+  var APP_VER = "253";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3156,7 +3156,8 @@
   // призрак видимой части страницы (только содержимое под строкой разделов): исчезает/проявляется по прозрачности, без сдвига и размытия
   function motGhost(){
     var bt = document.getElementById("ic-booktabs"); if(!bt) return null;
-    var T = Math.round(bt.getBoundingClientRect().bottom), PAD = 0, vw = document.documentElement.clientWidth, vh = window.innerHeight;
+    var rwEl = root.querySelector(":scope > .ic-stack .ic-mot-rwrap");
+    var T = Math.round(Math.max(bt.getBoundingClientRect().bottom, rwEl ? rwEl.getBoundingClientRect().bottom : 0)), PAD = 0, vw = document.documentElement.clientWidth, vh = window.innerHeight;
     var wrap = root.querySelector(":scope > .ic-wrap");
     var g = document.createElement("div"); g.className = "ic-mot-ghost";
     g.style.cssText = "left:0;width:"+vw+"px;top:"+T+"px;height:"+Math.max(0, vh-T)+"px";
@@ -3180,7 +3181,9 @@
     var rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap"); if(!rw) return null;
     var r = rw.getBoundingClientRect(), c = rw.cloneNode(true);
     c.removeAttribute("id"); [].forEach.call(c.querySelectorAll("[id]"), function(x){ x.removeAttribute("id"); });
-    c.className = "ic-mot-rwrap ic-mot-gstrip"; c.style.cssText = "position:fixed;left:0;width:"+document.documentElement.clientWidth+"px;top:"+r.top+"px;height:"+r.height+"px;z-index:9;pointer-events:none";
+    c.className = "ic-mot-rwrap ic-mot-gstrip"; c.style.cssText = "position:fixed;left:0;width:"+document.documentElement.clientWidth+"px;top:"+r.top+"px;height:"+r.height+"px;z-index:8;pointer-events:none";
+    var tb = c.querySelector(".ic-mot-tabs");   // прокручиваемая строка вкладок с маской — отдельный композитный слой в Safari: в копии это обычный блок без маски
+    if(tb){ tb.style.overflow = "hidden"; tb.style.webkitMaskImage = "none"; tb.style.maskImage = "none"; }
     return c;
   }
   // строка разделов: выезд вниз из-под переключателя / уход вверх (translateY), линия над ней и тень под ней — по прозрачности
@@ -3191,22 +3194,25 @@
     parts.forEach(function(e){ if(e) go(e, [{opacity: inn ? 0 : 1}, {opacity: inn ? 1 : 0}]); });
   }
   // Кадры слоя страницы (ключи — по выровненному кривой времени 0…1): сдвиг ±300px; прозрачность разведена по времени — уходящая почти исчезает к 40%,
-  // входящая проявляется с 30% до 100% (две плотные страницы одновременно не видны); маска у стыка (140/180px × sin(πt)); шлейф — копия со смещением вверх.
+  // входящая проявляется с 30% до 100% (две плотные страницы одновременно не видны); маска у стыка (140/180px × sin(πt)); шлейф — 2 слабые копии
+  // со смещением вверх до 6px × скорость и непрозрачностью не выше 0,06. Прозрачность — на слое-окне (g), сдвиг и маска — на его содержимом (gin):
+  // окно неподвижно и мягко (24px) срезает верх под шапкой.
   function motFrames(kind, k){
-    var fr = [], N = 20;
+    var g = [], gin = [], N = 20;
     for(var i = 0; i <= N; i++){
       var u = i/N, sp = Math.sin(Math.PI*u), y = kind === "out" ? 300*u : -300*(1-u), vis;
       if(kind === "out") vis = Math.max(0, 1 - u/0.4);
       else { var q = Math.max(0, (u - 0.3)/0.7); vis = 1 - (1-q)*(1-q); }
-      var f = {offset:u, transform:"translate3d(0,"+(y - k*14*sp).toFixed(2)+"px,0)", opacity: k ? 0.22*sp*(1 - k/5)*vis : vis};
+      g.push({offset:u, opacity: k ? 0.06*sp*(1 - k/4)*vis : vis});
+      var f = {offset:u, transform:"translate3d(0,"+(y - k*3*sp).toFixed(2)+"px,0)"};
       f[kind === "out" ? "--mt" : "--mb"] = ((kind === "out" ? 140 : 180)*sp).toFixed(1)+"px";
-      fr.push(f);
+      gin.push(f);
     }
-    return fr;
+    return {g:g, gin:gin};
   }
-  // слой страницы (g) + 3 копии шлейфа: запускается сразу (уходящая — в момент нажатия), elapsed — сколько времени уже прошло
+  // слой страницы (g) + 2 копии шлейфа: запускается сразу (уходящая — в момент нажатия), elapsed — сколько времени уже прошло
   function motLayerAnim(g, kind, opt, elapsed, layers){
-    var TRAIL = 3, last;
+    var TRAIL = 2, last;
     g.classList.add(kind === "out" ? "ic-mot-out" : "ic-mot-in");
     if(!g.parentNode) root.appendChild(g);
     var copies = [];
@@ -3216,9 +3222,16 @@
       g.parentNode.insertBefore(c, g); c._k = k; copies.push(c); layers.push(c);
     }
     [g].concat(copies).forEach(function(el){
-      var an = el.animate(motFrames(kind, el._k || 0), opt); if(elapsed) an.currentTime = elapsed; if(el === g) last = an;
+      var fr = motFrames(kind, el._k || 0), a1 = el.animate(fr.g, opt), a2 = el.firstChild.animate(fr.gin, opt);
+      if(elapsed){ a1.currentTime = elapsed; a2.currentTime = elapsed; }
+      if(el === g) last = a1;
     });
     return last;
+  }
+  // Уход строки разделов (возврат на «Книги»): вся строка — фон, вкладки, лупа, тень — один слой: анимируется сам контейнер-копия (вверх на свою высоту
+  // и исчезает), у внутренних элементов анимаций нет; копия лежит ниже шапки/переключателя и уезжает под них.
+  function motStripOutAnim(c, opt){
+    c.animate([{transform:"translate3d(0,0,0)", opacity:1}, {opacity:1, offset:.7}, {transform:"translate3d(0,-100%,0)", opacity:0}], opt);
   }
   function motNavEnd(){
     var n = motNav; if(!n) return;
@@ -3279,7 +3292,7 @@
       // уходящая страница и строка разделов (при возврате на «Книги» — уезжает вверх) начинают двигаться сразу, не дожидаясь входящей страницы
       var dur0 = window.__icMotMs || 550, opt0 = {duration:dur0, easing:MOT_EASE, fill:"both"};
       motLayerAnim(out.g, "out", opt0, 0, motNav.layers);
-      if(out.strip) motStripAnim(out.strip, "out", opt0, 0);
+      if(out.strip) motStripOutAnim(out.strip, opt0);
     }
     motNav.timer = setTimeout(motNavAbort, 5000);
     location.hash = a.getAttribute("href").replace(/^#/, "");
