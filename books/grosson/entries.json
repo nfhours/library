@@ -203,10 +203,10 @@
         "La coiffure de Diane, dans la Médaille du n°. 4. varie des premieres; elle a de vraies Boucles d'oreilles en perles, au lieu du Trident; elle n'a point de colier. Le Lion représenté sur le revers, est moins bien dessiné; les lettres MASSA sont au haut, & dans le bas, AAE. Cette Médaille paroît être d'une époque postérieure à celle des précédentes; elle a moins de noblesse & moins d'exactitude dans le dessein."
       ],
       "text_ru": [
-        "Причёска Дианы на монете №4 отличается от предыдущих: у неё настоящие жемчужные серьги вместо трезубца, и нет ожерелья. Лев на обороте изображён менее искусно; буквы MASSA расположены вверху, а внизу — AAE. Эта монета, по-видимому, относится к более позднему периоду, чем предыдущие: в ней меньше благородства и меньше точности в рисунке. [На гравюре внизу читается ΛΛΕ, а не AAE — расхождение с текстом Гроссона.]"
+        "Причёска Дианы на монете №4 отличается от предыдущих: у неё настоящие жемчужные серьги вместо трезубца, и нет ожерелья. Лев на обороте изображён менее искусно; буквы MASSA расположены вверху, а внизу — AAE. Эта монета, по-видимому, относится к более позднему периоду, чем предыдущие: в ней меньше благородства и меньше точности в рисунке."
       ],
       "text_en": [
-        "The hairstyle of Diana on the medal no. 4 differs from the earlier ones; she has true pearl earrings instead of the Trident, and no necklace. The Lion shown on the reverse is less well drawn; the letters MASSA are at the top, and at the bottom, AAE. This medal appears to be of a later period than the preceding ones; it has less nobility and less accuracy in the design. [The engraving reads ΛΛΕ at the bottom, not AAE — a discrepancy with Grosson's text.]"
+        "The hairstyle of Diana on the medal no. 4 differs from the earlier ones; she has true pearl earrings instead of the Trident, and no necklace. The Lion shown on the reverse is less well drawn; the letters MASSA are at the top, and at the bottom, AAE. This medal appears to be of a later period than the preceding ones; it has less nobility and less accuracy in the design."
       ],
       "motifs": [
         "diana",
@@ -215,14 +215,17 @@
       "obverse_fr": "Diane, boucles d'oreilles en perles, sans collier",
       "obverse_ru": "Диана, жемчужные серьги, без ожерелья",
       "obverse_en": "Diana, pearl earrings, no necklace",
-      "reverse_fr": "lion (dessin moins soigné), MASSA / ΛΛΕ",
-      "reverse_ru": "лев (менее тщательный рисунок), MASSA / ΛΛΕ",
-      "reverse_en": "lion (less careful drawing), MASSA / ΛΛΕ",
-      "legend_fr": "MASSA ΛΛΕ",
-      "legend_ru": "MASSA ΛΛΕ",
-      "legend_en": "MASSA ΛΛΕ",
+      "reverse_fr": "lion (dessin moins soigné), MASSA / AAE",
+      "reverse_ru": "лев (менее тщательный рисунок), MASSA / AAE",
+      "reverse_en": "lion (less careful drawing), MASSA / AAE",
+      "legend_fr": "MASSA AAE",
+      "legend_ru": "MASSA AAE",
+      "legend_en": "MASSA AAE",
       "name_fr": "Diane (boucles de perles) / Lion",
-      "group_frtrans": "Planche I"
+      "group_frtrans": "Planche I",
+      "note_ru": "На гравюре внизу читается ΛΛΕ (или ΛΜΕ), нечётко; в тексте книги напечатано «AAE».",
+      "note_en": "On the engraving the lower letters read ΛΛΕ (or ΛΜΕ), unclear; the book's text prints “AAE”.",
+      "note_fr": "Sur la gravure, en bas : ΛΛΕ (ou ΛΜΕ), peu net ; le texte imprime « AAE »."
     },
     {
       "id": "pl1-5",
@@ -258,11 +261,11 @@
         "Le revers de cette Médaille, est un Lion, la gueule béante, avec les lettres MASSA, & au bas A, H en caracteres grecs; la contre-marque est différente des précédentes, & désigne un autre Monétaire."
       ],
       "text_ru": [
-        "Под номером 5 вновь представлен бюст Дианы с диадемой, с обнажённым плечом, ухо украшено трезубцем; причёска — сетчатая, с короткими волосами; ожерелье — простая лента. Наши гражданки, вероятно, в старину проявляли в уборах головы не меньше непостоянства, чем в наши дни; монетчики и гравёры копировали эти причёски с моды, бытовавшей во время перечеканки или изготовления новых штемпелей. [На гравюре внизу видно четыре знака, примерно ΑΗΠΙ, а не только Α, Η, как у Гроссона — чтение предположительное.]",
+        "Под номером 5 вновь представлен бюст Дианы с диадемой, с обнажённым плечом, ухо украшено трезубцем; причёска — сетчатая, с короткими волосами; ожерелье — простая лента. Наши гражданки, вероятно, в старину проявляли в уборах головы не меньше непостоянства, чем в наши дни; монетчики и гравёры копировали эти причёски с моды, бытовавшей во время перечеканки или изготовления новых штемпелей.",
         "Оборот этой монеты — лев с раскрытой пастью, с буквами MASSA, а внизу — греческие буквы Α, Η; клеймо отличается от предыдущих и указывает на другого монетчика."
       ],
       "text_en": [
-        "The number 5 again shows the Bust of Diana adorned with the diadem, the shoulder bare, the ear decorated with a Trident; the hairstyle is in a net, with short hair; the necklace is a simple ribbon. Our Citizenesses probably once put as much inconstancy into their head-dressing as they do in our own day; the Moneyers and Engravers copied these hairstyles after the fashion in vogue at the time of a recoinage or new dies. [The engraving shows four characters at the bottom, roughly ΑΗΠΙ, not just Α, Η as in Grosson's text — reading tentative.]",
+        "The number 5 again shows the Bust of Diana adorned with the diadem, the shoulder bare, the ear decorated with a Trident; the hairstyle is in a net, with short hair; the necklace is a simple ribbon. Our Citizenesses probably once put as much inconstancy into their head-dressing as they do in our own day; the Moneyers and Engravers copied these hairstyles after the fashion in vogue at the time of a recoinage or new dies.",
         "The reverse of this medal is a Lion, jaws open, with the letters MASSA, and below, the Greek letters Α, Η; the countermark differs from the preceding ones and denotes another moneyer."
       ],
       "motifs": [
@@ -273,14 +276,17 @@
       "obverse_fr": "Diane, épaule découverte, coiffure à rézeau",
       "obverse_ru": "Диана, обнажённое плечо, сетчатая причёска",
       "obverse_en": "Diana, bare shoulder, netted hairstyle",
-      "reverse_fr": "lion, gueule béante, MASSA / ΑΗΠΙ",
-      "reverse_ru": "лев с открытой пастью, MASSA / ΑΗΠΙ",
-      "reverse_en": "lion with open jaws, MASSA / ΑΗΠΙ",
-      "legend_fr": "MASSA ΑΗΠΙ",
-      "legend_ru": "MASSA ΑΗΠΙ",
-      "legend_en": "MASSA ΑΗΠΙ",
+      "reverse_fr": "lion, gueule béante, MASSA / ΑΗ",
+      "reverse_ru": "лев с открытой пастью, MASSA / ΑΗ",
+      "reverse_en": "lion with open jaws, MASSA / ΑΗ",
+      "legend_fr": "MASSA ΑΗ",
+      "legend_ru": "MASSA ΑΗ",
+      "legend_en": "MASSA ΑΗ",
       "name_fr": "Diane / Lion",
-      "group_frtrans": "Planche I"
+      "group_frtrans": "Planche I",
+      "note_ru": "На гравюре внизу видны, по-видимому, четыре знака (примерно ΑΗΠΙ) — чтение неуверенное; в тексте книги только «A, H en caractères grecs».",
+      "note_en": "On the engraving four characters seem to appear at the bottom (roughly ΑΗΠΙ) — reading uncertain; the book's text gives only “A, H in Greek characters”.",
+      "note_fr": "Sur la gravure, en bas, quatre signes semblent visibles (environ ΑΗΠΙ), lecture incertaine ; le texte donne seulement « A, H en caracteres grecs »."
     },
     {
       "id": "pl1-6",
@@ -1415,27 +1421,30 @@
         "Le chiffre 7, désigne une Médaille au Buste de Diane, la tête ornée du Diadême, & l'oreille d'un Trident; la contre-marque est un Lambda; le revers est un Lion, la patte gauche levée. Cette Médaille a un caractère décidé grec, dans la tête de Diane; elle est particulièrement remarquable, en ce que dans le revers, après l'abréviation MASSA qui est au haut, on voit dans le bas, les lettres IPL en caractères grecs."
       ],
       "text_ru": [
-        "Число 7 обозначает монету с бюстом Дианы, голова украшена диадемой, у уха — трезубец; клеймо — лямбда; оборот — лев с поднятой левой лапой. У этой монеты ярко выраженный греческий характер в изображении головы Дианы; она особенно примечательна тем, что на обороте, после сокращения MASSA вверху, внизу видны буквы ΙΠΛ греческими знаками. [Начертание нижних букв на самой гравюре читается не вполне однозначно; следуем чтению Гроссона.]"
+        "Число 7 обозначает монету с бюстом Дианы, голова украшена диадемой, у уха — трезубец; клеймо — лямбда; оборот — лев с поднятой левой лапой. У этой монеты ярко выраженный греческий характер в изображении головы Дианы; она особенно примечательна тем, что на обороте, после сокращения MASSA вверху, внизу видны буквы IPL греческими знаками."
       ],
       "text_en": [
-        "The number 7 designates a medal with the Bust of Diana, her head adorned with the Diadem, and her ear with a Trident; the countermark is a Lambda; the reverse is a Lion, the left paw raised. This medal has a decidedly Greek character in Diana's head; it is particularly remarkable in that on the reverse, after the abbreviation MASSA which is at the top, one sees at the bottom, the letters IPL in Greek characters. [The engraving's lower letters are not entirely unambiguous on close inspection; Grosson's own reading is followed here.]"
+        "The number 7 designates a medal with the Bust of Diana, her head adorned with the Diadem, and her ear with a Trident; the countermark is a Lambda; the reverse is a Lion, the left paw raised. This medal has a decidedly Greek character in Diana's head; it is particularly remarkable in that on the reverse, after the abbreviation MASSA which is at the top, one sees at the bottom, the letters IPL in Greek characters."
       ],
       "obverse_fr": "buste de Diane, diadème, trident en boucle d'oreille, contremarque Lambda",
       "obverse_ru": "бюст Дианы, диадема, трезубец-серьга, клеймо лямбда",
       "obverse_en": "bust of Diana, diadem, trident earring, countermark Lambda",
-      "reverse_fr": "lion, patte gauche levée, MASSA / ΙΠΛ",
-      "reverse_ru": "лев с поднятой левой лапой, MASSA / ΙΠΛ",
-      "reverse_en": "lion, left paw raised, MASSA / ΙΠΛ",
+      "reverse_fr": "lion, patte gauche levée, MASSA / IPL",
+      "reverse_ru": "лев с поднятой левой лапой, MASSA / IPL",
+      "reverse_en": "lion, left paw raised, MASSA / IPL",
       "motifs": [
         "diana",
         "trident",
         "lion"
       ],
-      "legend_fr": "MASSA ΙΠΛ",
-      "legend_ru": "MASSA ΙΠΛ",
-      "legend_en": "MASSA ΙΠΛ",
+      "legend_fr": "MASSA IPL",
+      "legend_ru": "MASSA IPL",
+      "legend_en": "MASSA IPL",
       "name_fr": "Diane (trident) / Lion",
-      "group_frtrans": "Planche II"
+      "group_frtrans": "Planche II",
+      "note_ru": "На гравюре внизу читается ΗΠΛ или ΙΠΛ, нечётко; в тексте книги напечатано «IPL» латиницей («греческими буквами»).",
+      "note_en": "On the engraving the lower letters read ΗΠΛ or ΙΠΛ, unclear; the book's text prints “IPL” in Latin type (“in Greek characters”).",
+      "note_fr": "Sur la gravure, en bas : ΗΠΛ ou ΙΠΛ, peu net ; le texte imprime « IPL » en caractères latins (« en caractères grecs »)."
     },
     {
       "id": "pl2-8",
@@ -2927,7 +2936,10 @@
       "legend_ru": "MASSALIETON",
       "legend_en": "MASSALIETON",
       "name_fr": "Tête (laurier, raisin) / Taureau",
-      "group_frtrans": "Planche V"
+      "group_frtrans": "Planche V",
+      "note_ru": "В тексте книги слова MASSALIETON для №2 нет; надпись только на гравюре (по-гречески), читается ненадёжно.",
+      "note_en": "The book's text does not give MASSALIETON for no. 2; the inscription appears only on the engraving (in Greek) and is not reliably legible.",
+      "note_fr": "Le texte ne donne pas MASSALIETON pour le n° 2 ; l'inscription n'existe que sur la gravure (en grec), lecture peu sûre."
     },
     {
       "id": "pl5-3",
@@ -5069,10 +5081,10 @@
         "No. 5. La Médaille marquée de ce chiffre, est une de ces productions éphémères, que l'esprit de faction engendre dans les ténèbres du crime, pendant les horreurs des guerres civiles. C'est au trop célèbre Charles de Casaulx, à qui elle est due. Ce Particulier s'étant fait élire premier Consul, par la faveur de la Comtesse de Sault, & de la faction opposée à Henri le Grand, sous le prétexte du maintien de la Religion Catholique, mais dans le vrai pour satisfaire son ambition, ne fut pas plutôt entré dans l'exercice de cette charge en 1591, qu'il commença à exciter des troubles funestes dans Marseille, où la plus grande & la plus saine partie des Citoyens, tenoit pour le parti du légitime Souverain. Casaulx s'étant fait confirmer dans l'exercice de cette place jusques en 1595, à force de violence, & en écartant des charges publiques tous les bons Sujets de Sa Majesté, devint pendant cette intervalle, le vrai tyran de sa Patrie. C'étoit un homme d'un caractère ardent, entreprenant jusques à la témérité, plus intrépide que prudent, & d'un génie plus vif qu'éclairé; il mit par ses intrigues Marseille dans la plus grande désolation, & faillit occasionner la perte de cette Ville; il s'étoit lié avec les Puissances ennemies de la France, & avoit reçu des Galères & des Troupes Espagnoles dans Marseille. Après des excès multipliés, dont on peut voir le détail dans Ruffi, il subit le sort réservé aux rébelles, ayant été tué le 17 Février 1696 [1596], par Pierre de Libertat, Capitaine de la Porte Royale, qui remit par cette action la Ville sous l'obéissance du Roi. Pendant que Casaulx exerçoit son pouvoir tyrannique sur sa patrie, il avoit osé faire frapper une Médaille d'or à l'instar des Potentats: c'est celle gravée dans cette Planche; on voit d'un côté les armes de Casaulx, qui sont d'or à la bande d'azur, chargée de trois étoiles d'argent, à la couronne de Comte; au revers, un Emblème d'une licorne trempant la corne dans l'eau, avec cette dévise: SERVARI ET SERVARE MEVM EST, par allusion à ses entreprises, qu'il coloroit du faux prétexte du bien public. Ce Casaulx, selon Ruffi, descendoit d'un Marchand de Gascogne, nommé Vidal de Casaulx, qui étoit venu s'établir à Marseille, & s'y étoit marié en 1483. Cette Médaille, par le peu d'exactitude du dessein, nous montre à quel point les Arts sont négligés pendant les malheurs des guerres intestines."
       ],
       "text_ru": [
-        "№5. Монета под этим числом — одно из тех недолговечных порождений, которые дух мятежа порождает во мраке преступления в ужасах гражданских войн. Ею мы обязаны слишком печально известному Карлу де Казо. Этот частный человек, добившийся избрания первым консулом благодаря покровительству графини де Со и партии, враждебной Генриху Великому, под предлогом сохранения Католической веры, но на деле ради удовлетворения своего честолюбия, едва вступив в отправление этой должности в 1591 году, принялся разжигать гибельные смуты в Марселе, где наибольшая и наиболее здравая часть Граждан держалась стороны законного Государя. Казо, силой утвердившийся в этой должности вплоть до 1595 года и устранявший от общественных постов всех добрых подданных Его Величества, стал за это время истинным тираном своего Отечества. Это был человек пылкого нрава, предприимчивый до дерзости, более отважный, чем осмотрительный, более живого, чем просвещённого ума; своими интригами он поверг Марсель в величайшее разорение и едва не стал причиной гибели этого Города; он вступил в союз с державами, враждебными Франции, и принял в Марселе испанские галеры и войска. После многочисленных бесчинств, подробности которых можно найти у Рюффи, он испытал участь, уготованную мятежникам, будучи убит 17 февраля 1596 года Пьером де Либерта, капитаном Королевских ворот, который этим деянием вернул Город под власть Короля. Пока Казо осуществлял свою тираническую власть над своим отечеством, он осмелился велеть отчеканить золотую Медаль наподобие государей: это та, что выгравирована на этой Таблице; на ней видны с одной стороны гербы Казо — золото с лазурной перевязью, обременённой тремя серебряными звёздами, увенчанные графской короной; на обороте — изображение единорога, окунающего рог в воду, с девизом: SERVARI ET SERVARE MEVM EST (сохраниться самому и сохранить — вот мой удел), в намёке на его предприятия, которые он выдавал за ложный предлог общественного блага. Этот Казо, по свидетельству Рюффи, происходил от гасконского купца по имени Видаль де Казо, переселившегося в Марсель и женившегося там в 1483 году. Эта монета, по недостаточной точности рисунка, показывает нам, до какой степени Искусства оказываются в небрежении во время бедствий внутренних войн."
+        "№5. Монета под этим числом — одно из тех недолговечных порождений, которые дух мятежа порождает во мраке преступления в ужасах гражданских войн. Ею мы обязаны слишком печально известному Карлу де Казо. Этот частный человек, добившийся избрания первым консулом благодаря покровительству графини де Со и партии, враждебной Генриху Великому, под предлогом сохранения Католической веры, но на деле ради удовлетворения своего честолюбия, едва вступив в отправление этой должности в 1591 году, принялся разжигать гибельные смуты в Марселе, где наибольшая и наиболее здравая часть Граждан держалась стороны законного Государя. Казо, силой утвердившийся в этой должности вплоть до 1595 года и устранявший от общественных постов всех добрых подданных Его Величества, стал за это время истинным тираном своего Отечества. Это был человек пылкого нрава, предприимчивый до дерзости, более отважный, чем осмотрительный, более живого, чем просвещённого ума; своими интригами он поверг Марсель в величайшее разорение и едва не стал причиной гибели этого Города; он вступил в союз с державами, враждебными Франции, и принял в Марселе испанские галеры и войска. После многочисленных бесчинств, подробности которых можно найти у Рюффи, он испытал участь, уготованную мятежникам, будучи убит 17 февраля 1596 года Пьером де Либерта, капитаном Королевских ворот, который этим деянием вернул Город под власть Короля. Пока Казо осуществлял свою тираническую власть над своим отечеством, он осмелился велеть отчеканить золотую Медаль наподобие государей: это та, что выгравирована на этой Таблице; на ней видны с одной стороны гербы Казо — золото с лазурной перевязью, обременённой тремя серебряными звёздами, увенчанные графской короной; на обороте — изображение единорога, окунающего рог в воду, с девизом: SERVARI ET SERVARE MEVM EST, в намёке на его предприятия, которые он выдавал за ложный предлог общественного блага. Этот Казо, по свидетельству Рюффи, происходил от гасконского купца по имени Видаль де Казо, переселившегося в Марсель и женившегося там в 1483 году. Эта монета, по недостаточной точности рисунка, показывает нам, до какой степени Искусства оказываются в небрежении во время бедствий внутренних войн."
       ],
       "text_en": [
-        "No. 5. The medal marked with this number is one of those ephemeral productions that the spirit of faction engenders in the darkness of crime, during the horrors of civil wars. It is owed to the all-too-notorious Charles de Casaulx. This private individual, having had himself elected First Consul through the favor of the Countess of Sault and of the faction opposed to Henri the Great, under the pretext of upholding the Catholic Religion, but in truth to satisfy his ambition, had no sooner entered into the exercise of this office in 1591 than he began to stir up fatal troubles in Marseille, where the greater and soundest part of the Citizens held for the party of the legitimate Sovereign. Casaulx, having had himself confirmed in this office by force until 1595, and excluding all good Subjects of His Majesty from public offices, became during this interval the true tyrant of his Homeland. He was a man of an ardent character, enterprising to the point of rashness, more intrepid than prudent, and of a mind more lively than enlightened; through his intrigues he plunged Marseille into the greatest desolation, and nearly brought about the loss of this City; he had allied himself with the Powers hostile to France, and had received Spanish Galleys and Troops into Marseille. After multiplied excesses, the details of which may be seen in Ruffy, he suffered the fate reserved for rebels, having been killed on 17 February 1596, by Pierre de Libertat, Captain of the Royal Gate, who by this action restored the City to obedience to the King. While Casaulx exercised his tyrannical power over his homeland, he had dared to have a gold Medal struck after the manner of Sovereigns: it is the one engraved on this Plate; one sees on one side the arms of Casaulx, which are gold with an azure bend, charged with three silver stars, surmounted by a Count's crown; on the reverse, an Emblem of a unicorn dipping its horn in water, with this motto: SERVARI ET SERVARE MEVM EST (to be preserved myself, and to preserve, is my task), in allusion to his undertakings, which he colored with the false pretext of the public good. This Casaulx, according to Ruffy, was descended from a Gascon Merchant named Vidal de Casaulx, who had come to settle in Marseille, and had married there in 1483. This medal, through the lack of exactness of its design, shows us to what degree the Arts are neglected during the misfortunes of internal wars."
+        "No. 5. The medal marked with this number is one of those ephemeral productions that the spirit of faction engenders in the darkness of crime, during the horrors of civil wars. It is owed to the all-too-notorious Charles de Casaulx. This private individual, having had himself elected First Consul through the favor of the Countess of Sault and of the faction opposed to Henri the Great, under the pretext of upholding the Catholic Religion, but in truth to satisfy his ambition, had no sooner entered into the exercise of this office in 1591 than he began to stir up fatal troubles in Marseille, where the greater and soundest part of the Citizens held for the party of the legitimate Sovereign. Casaulx, having had himself confirmed in this office by force until 1595, and excluding all good Subjects of His Majesty from public offices, became during this interval the true tyrant of his Homeland. He was a man of an ardent character, enterprising to the point of rashness, more intrepid than prudent, and of a mind more lively than enlightened; through his intrigues he plunged Marseille into the greatest desolation, and nearly brought about the loss of this City; he had allied himself with the Powers hostile to France, and had received Spanish Galleys and Troops into Marseille. After multiplied excesses, the details of which may be seen in Ruffy, he suffered the fate reserved for rebels, having been killed on 17 February 1596, by Pierre de Libertat, Captain of the Royal Gate, who by this action restored the City to obedience to the King. While Casaulx exercised his tyrannical power over his homeland, he had dared to have a gold Medal struck after the manner of Sovereigns: it is the one engraved on this Plate; one sees on one side the arms of Casaulx, which are gold with an azure bend, charged with three silver stars, surmounted by a Count's crown; on the reverse, an Emblem of a unicorn dipping its horn in water, with this motto: SERVARI ET SERVARE MEVM EST, in allusion to his undertakings, which he colored with the false pretext of the public good. This Casaulx, according to Ruffy, was descended from a Gascon Merchant named Vidal de Casaulx, who had come to settle in Marseille, and had married there in 1483. This medal, through the lack of exactness of its design, shows us to what degree the Arts are neglected during the misfortunes of internal wars."
       ],
       "obverse_fr": "armoiries de Charles de Casaulx: d'or à la bande d'azur chargée de trois étoiles d'argent, timbrées d'une couronne de comte",
       "obverse_ru": "герб Карла де Казо: золото с лазурной перевязью с тремя серебряными звёздами, увенчан графской короной",
@@ -5082,7 +5094,10 @@
       "reverse_en": "a unicorn dipping its horn in water, motto SERVARI ET SERVARE MEVM EST",
       "motifs": [],
       "name_fr": "Armoiries de Casaulx / Licorne — médaille du tyran Casaulx",
-      "group_frtrans": "Planche IX"
+      "group_frtrans": "Planche IX",
+      "note_ru": "Девиз SERVARI ET SERVARE MEVM EST Гроссон не переводит; смысл (пояснение редакции): «быть спасённым и спасать — моё дело».",
+      "note_en": "Grosson does not translate the motto SERVARI ET SERVARE MEVM EST; sense (editorial gloss): “to be saved and to save is my task”.",
+      "note_fr": "Grosson ne traduit pas la devise SERVARI ET SERVARE MEVM EST ; sens (glose de l'édition) : « être sauvé et sauver est mon affaire »."
     },
     {
       "id": "pl9-6",
@@ -5973,7 +5988,10 @@
       "findspot_ru": "кладбище Паради",
       "findspot_en": "public Cemetery of Paradis",
       "name_fr": "Tombeau de Titus Tannonius (épitaphe latine)",
-      "group_frtrans": "Planche XIV"
+      "group_frtrans": "Planche XIV",
+      "note_ru": "На гравюре надпись сокращённая (DULCISSIMO T. INNOCENTIS … ANNOS V.M.VI.D.VI. …); в легенде — развёрнутый текст книги (с. 125).",
+      "note_en": "The engraving carries an abbreviated inscription (DULCISSIMO T. INNOCENTIS … ANNOS V.M.VI.D.VI. …); the legend gives the book's expanded text (p. 125).",
+      "note_fr": "La gravure porte une inscription abrégée (DULCISSIMO T. INNOCENTIS … ANNOS V.M.VI.D.VI. …) ; la légende donne le texte développé du livre (p. 125)."
     },
     {
       "id": "pl14-2",
@@ -6581,14 +6599,17 @@
       "reverse_ru": "",
       "reverse_en": "",
       "motifs": [],
-      "legend_fr": "MASSI FOGU K ASVA AVT",
-      "legend_ru": "MASSI FOGU K ASVA AVT",
-      "legend_en": "MASSI FOGU K ASVA AVT",
+      "legend_fr": "MASSI FO K ASVA AVT",
+      "legend_ru": "MASSI FO K ASVA AVT",
+      "legend_en": "MASSI FO K ASVA AVT",
       "findspot_fr": "Marseille (attribution disputée: Caylus y voit un galet du Rhône)",
       "findspot_ru": "Марсель (спорная атрибуция: Кайлюс считал его ронским голышом)",
       "findspot_en": "Marseille (disputed: Caylus took it for a Rhône pebble)",
       "name_fr": "Galet inscrit (tessère présumée du collège des Dendrophores)",
-      "group_frtrans": "Planche XVI"
+      "group_frtrans": "Planche XVI",
+      "note_ru": "На гравюре надпись греческими буквами (ΜΑΣΣΙ / ΦΩ… / Κ / ΑΣΥΑ·ΑΥΤ); справа от ΦΩ видны ещё знаки (ΥΥ/ΥΝ?), не читаются. В тексте — латиницей, как в легенде.",
+      "note_en": "On the engraving the inscription is in Greek letters (ΜΑΣΣΙ / ΦΩ… / Κ / ΑΣΥΑ·ΑΥΤ); further signs right of ΦΩ (ΥΥ/ΥΝ?) are illegible. The text gives it in Latin letters, as in the legend.",
+      "note_fr": "Sur la gravure l'inscription est en lettres grecques (ΜΑΣΣΙ / ΦΩ… / Κ / ΑΣΥΑ·ΑΥΤ) ; à droite de ΦΩ d'autres signes (ΥΥ/ΥΝ ?) sont illisibles. Le texte la donne en lettres latines, comme la légende."
     },
     {
       "id": "pl17-1",
@@ -6651,7 +6672,10 @@
       "findspot_ru": "улица Негрель",
       "findspot_en": "rue de Negrel",
       "name_fr": "Bas-relief grec: couronne au nom du peuple pour Artemone, femme d'Apollonius Icesius",
-      "group_frtrans": "Planche XVII"
+      "group_frtrans": "Planche XVII",
+      "note_ru": "На гравюре буква в ΑΠΟΛΛΩΝΙΟΥ читается как Π или ΠΠ, нечётко; разбивка строк и «—» в легенде редакционные.",
+      "note_en": "On the engraving the letter in ΑΠΟΛΛΩΝΙΟΥ reads as Π or ΠΠ, unclear; the line breaks and “—” in the legend are editorial.",
+      "note_fr": "Sur la gravure la lettre de ΑΠΟΛΛΩΝΙΟΥ se lit Π ou ΠΠ, peu net ; les coupures de lignes et le « — » de la légende sont éditoriaux."
     },
     {
       "id": "pl17-2",
@@ -8164,7 +8188,7 @@
       ],
       "text_ru": [
         "Капители, представленные на этой таблице, также относятся к числу тех, что украшают клуатр аббатства Сен-Виктор, и принадлежат к тому же роду, что и на предыдущей таблице, то есть к гротескам.",
-        "Капитель под № 1 выполнена из камня Кап-Куронн; она одна из самых своеобразных и подтверждает то, что я уже отмечал в предварительном рассуждении: эти капители вовсе не были изначально созданы для украшения этих мест; в самом деле, можно ли найти предмет, более несовместимый с монашеским целомудрием и зданием, посвящённым христианской религии? Чудовища, у которых открыто выставлены напоказ мужские органы в состоянии возбуждения, могли изначально предназначаться лишь для украшения какого-либо светского, причём весьма нецеломудренного, здания; таково мнение Виньолы, полагавшего, что капители, украшенные изображениями животных, должны были предназначаться для украшения храмов (78).",
+        "Капитель под № 1 выполнена из камня Кап-Куронн; она одна из самых своеобразных и подтверждает то, что я уже отмечал в предварительном рассуждении: эти капители вовсе не были изначально созданы для украшения этих мест; в самом деле, можно ли найти предмет, более несовместимый с монашеским целомудрием и зданием, посвящённым христианской религии? Чудовища, у которых открыто выставлены напоказ мужские органы в состоянии возбуждения, могли изначально предназначаться лишь для украшения какого-либо светского, и притом весьма мирского, здания; таково мнение Виньолы, полагавшего, что капители, украшенные изображениями животных, должны были предназначаться для украшения храмов (78).",
         "Капитель под № 2 — одна из самых любопытных и наиболее искусно исполненных; в ней узнаётся умение художника владеть резцом; она выполнена из белого мрамора и прекрасно сохранилась, несмотря на свою глубокую древность: она целиком составлена из переплетающихся завитков рассечённых листьев, расположенных в противоположных направлениях. Этот род капителей являет своего рода богатство убранства, небезразличное взгляду, хотя и бесконечно уступающее красотам подлинной коринфской капители в её точных пропорциях.",
         "№ 3, 4 и 5 — также гротески, отличные от тех, что на предыдущей таблице; но о них нельзя составить никакого суждения. Они служат разве что для указания разновидностей этого рода и для доказательства причудливости вкуса.",
         "(78) «Архитектура» Виньолы, с. 113, издание в 4-ю долю листа, 1760. Париж, у Жомбера, где он приводит две античные капители, одна из которых взята из храма Юпитера в Риме."
@@ -10407,7 +10431,7 @@
         "(94) Ruffi, Hist. de Marseille, tom. 2, pag. 391."
       ],
       "text_ru": [
-        "№ 7. Золотое кольцо, найденное в марсельском порту при ловле ракушек, согласно сообщению Рюффи (94). На его щитке было изображение Иисуса Христа, соединяющего руки двух лиц разного пола; это указывает на один из тех перстней, что назывались annuli pronubi, или geniales, — одним словом, подлинные свадебные кольца. Это кольцо должно относиться к первым векам христианства, поскольку слово, выгравированное под тремя фигурами, греческое: читается ΟΤΟΝΟΙΑ, то есть Concordia — «согласие», союз двух супругов.",
+        "№ 7. Золотое кольцо, найденное в марсельском порту при ловле ракушек, согласно сообщению Рюффи (94). На его щитке было изображение Иисуса Христа, соединяющего руки двух лиц разного пола; это указывает на один из тех перстней, что назывались annuli pronubi, или geniales, — одним словом, подлинные свадебные кольца. Это кольцо должно относиться к первым векам христианства, поскольку слово, выгравированное под тремя фигурами, греческое: читается OTONOIA, то есть Concordia — «согласие», союз двух супругов.",
         "(94) Рюффи, «История Марселя», т. 2, с. 391."
       ],
       "text_en": [
@@ -10421,14 +10445,17 @@
       "reverse_ru": "",
       "reverse_en": "",
       "motifs": [],
-      "legend_fr": "ΟΤΟΝΟΙΑ",
-      "legend_ru": "ΟΤΟΝΟΙΑ",
-      "legend_en": "ΟΤΟΝΟΙΑ",
+      "legend_fr": "OTONOIA",
+      "legend_ru": "OTONOIA",
+      "legend_en": "OTONOIA",
       "findspot_fr": "Port de Marseille",
       "findspot_ru": "марсельский порт",
       "findspot_en": "the Harbor of Marseille",
       "name_fr": "Anneau d'or nuptial (Concordia)",
-      "group_frtrans": "Planche XXXIII"
+      "group_frtrans": "Planche XXXIII",
+      "note_ru": "В печати OTONOIA латиницей (для Concordia ожидалось бы OMONOIA); на гравюре кольца видно только OTONO…, остальное обрезано.",
+      "note_en": "The book prints OTONOIA in Latin letters (OMONOIA would be expected for Concordia); on the engraving of the ring only OTONO… is visible, the rest is cut off.",
+      "note_fr": "Le livre imprime OTONOIA en lettres latines (on attendrait OMONOIA pour Concordia) ; sur la gravure de l'anneau on ne voit que OTONO…, le reste est coupé."
     },
     {
       "id": "pl33-7",
@@ -10931,14 +10958,17 @@
       "reverse_ru": "",
       "reverse_en": "",
       "motifs": [],
-      "legend_fr": "ΕΤΟΥΣ ΣΙΤ ΛΛΗΝΟΣ ΑΓΑΝΑΙΟΥ Κ Θ ΑΠΟΛΛΟΦΑΝΕΣ ΒΟΗΘΟΥ ΧΡΗΣΤΕ ΚΑΙ ΑΛΥΠΕ ΧΑΙΡΕ ΖΗΣ ΑΣΕ ΤΗ ΨΒ ΕΥΣΕΒ ΦΙΛΟΤΕΚΝΕ",
-      "legend_ru": "ΕΤΟΥΣ ΣΙΤ ΛΛΗΝΟΣ ΑΓΑΝΑΙΟΥ Κ Θ ΑΠΟΛΛΟΦΑΝΕΣ ΒΟΗΘΟΥ ΧΡΗΣΤΕ ΚΑΙ ΑΛΥΠΕ ΧΑΙΡΕ ΖΗΣ ΑΣΕ ΤΗ ΨΒ ΕΥΣΕΒ ΦΙΛΟΤΕΚΝΕ",
-      "legend_en": "ΕΤΟΥΣ ΣΙΤ ΛΛΗΝΟΣ ΑΓΑΝΑΙΟΥ Κ Θ ΑΠΟΛΛΟΦΑΝΕΣ ΒΟΗΘΟΥ ΧΡΗΣΤΕ ΚΑΙ ΑΛΥΠΕ ΧΑΙΡΕ ΖΗΣ ΑΣΕ ΤΗ ΨΒ ΕΥΣΕΒ ΦΙΛΟΤΕΚΝΕ",
+      "legend_fr": "ΕΤΟΥΣ [?]ΙΤ ΛΛΗΝΟΣ ΑΓΑΝΑΙΟΥ Κ Θ ΑΠΟΛΛΟΦΑΝΕΣ ΒΟΗΘΟΥ ΧΡΗΣΤΕ ΚΑΙ ΑΛΥΠΕ ΧΑΙΡΕ ΖΗΣ ΑΣΕ ΤΗ [?]Β ΕΥΣΕΒ ΦΙΛΟΤΕΚΝΕ",
+      "legend_ru": "ΕΤΟΥΣ [?]ΙΤ ΛΛΗΝΟΣ ΑΓΑΝΑΙΟΥ Κ Θ ΑΠΟΛΛΟΦΑΝΕΣ ΒΟΗΘΟΥ ΧΡΗΣΤΕ ΚΑΙ ΑΛΥΠΕ ΧΑΙΡΕ ΖΗΣ ΑΣΕ ΤΗ [?]Β ΕΥΣΕΒ ΦΙΛΟΤΕΚΝΕ",
+      "legend_en": "ΕΤΟΥΣ [?]ΙΤ ΛΛΗΝΟΣ ΑΓΑΝΑΙΟΥ Κ Θ ΑΠΟΛΛΟΦΑΝΕΣ ΒΟΗΘΟΥ ΧΡΗΣΤΕ ΚΑΙ ΑΛΥΠΕ ΧΑΙΡΕ ΖΗΣ ΑΣΕ ΤΗ [?]Β ΕΥΣΕΒ ΦΙΛΟΤΕΚΝΕ",
       "findspot_fr": "quartier du Canet",
       "findspot_ru": "квартал Кане",
       "findspot_en": "the Canet quarter",
       "name_fr": "Cippe d'Apollophanes, fils de Boétus (calendrier lunaire marseillais)",
-      "group_frtrans": "Planche XXXVII"
+      "group_frtrans": "Planche XXXVII",
+      "note_ru": "На гравюре в строках «ΕΤΟΥΣ …ΙΤ» и «…Β» архаичные знаки (с чертой сверху), Γ/Υ в ΑΓΑΝΑΙΟΥ неразличимы; в тексте книги только латинский перевод надписи.",
+      "note_en": "On the engraving the lines “ΕΤΟΥΣ …ΙΤ” and “…Β” contain archaic signs (with a bar above); Γ/Υ in ΑΓΑΝΑΙΟΥ cannot be told apart; the book's text gives only a Latin rendering of the inscription.",
+      "note_fr": "Sur la gravure les lignes « ΕΤΟΥΣ …ΙΤ » et « …Β » portent des signes archaïques (avec barre) ; Γ/Υ dans ΑΓΑΝΑΙΟΥ indistincts ; le texte ne donne qu'une version latine de l'inscription."
     },
     {
       "id": "pl37-2",
@@ -11009,14 +11039,17 @@
       "reverse_ru": "",
       "reverse_en": "",
       "motifs": [],
-      "legend_fr": "ΚΑΗ ΦΕΝΗ ΠΟΣΙΔΟΝΑΚΤΟΣ ΔΙΟΝΥΣΙΟΣ ΙΟΥΛΙΟΣ ΔΣ ΚΑΙ ΔΙΑΣ ΝΙΚΟΣ ΤΗ ΜΗΤΡΙ ΜΝΗΜΗΣ ΧΑΡΙΝ",
-      "legend_ru": "ΚΑΗ ΦΕΝΗ ΠΟΣΙΔΟΝΑΚΤΟΣ ΔΙΟΝΥΣΙΟΣ ΙΟΥΛΙΟΣ ΔΣ ΚΑΙ ΔΙΑΣ ΝΙΚΟΣ ΤΗ ΜΗΤΡΙ ΜΝΗΜΗΣ ΧΑΡΙΝ",
-      "legend_en": "ΚΑΗ ΦΕΝΗ ΠΟΣΙΔΟΝΑΚΤΟΣ ΔΙΟΝΥΣΙΟΣ ΙΟΥΛΙΟΣ ΔΣ ΚΑΙ ΔΙΑΣ ΝΙΚΟΣ ΤΗ ΜΗΤΡΙ ΜΝΗΜΗΣ ΧΑΡΙΝ",
+      "legend_fr": "ΚΑΗ ΦΕΝΗ ΠΟΣΙΔΟΝΑΚΤΟΣ ΔΙΟΝΥΣΙΟΣ ΙΟΥΛΙΟ[?] [?]Σ ΚΑΙ ΔΙΑΣ ΝΙΚΟ[?] ΤΗ ΜΗΤΡΙ ΜΝΗΜΗΣ ΧΑΡΙΝ",
+      "legend_ru": "ΚΑΗ ΦΕΝΗ ΠΟΣΙΔΟΝΑΚΤΟΣ ΔΙΟΝΥΣΙΟΣ ΙΟΥΛΙΟ[?] [?]Σ ΚΑΙ ΔΙΑΣ ΝΙΚΟ[?] ΤΗ ΜΗΤΡΙ ΜΝΗΜΗΣ ΧΑΡΙΝ",
+      "legend_en": "ΚΑΗ ΦΕΝΗ ΠΟΣΙΔΟΝΑΚΤΟΣ ΔΙΟΝΥΣΙΟΣ ΙΟΥΛΙΟ[?] [?]Σ ΚΑΙ ΔΙΑΣ ΝΙΚΟ[?] ΤΗ ΜΗΤΡΙ ΜΝΗΜΗΣ ΧΑΡΙΝ",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
       "findspot_en": "Marseille",
       "name_fr": "Pilier funéraire de Caia Lephena (la \"Pierre froide\", débat érudit sur sa traduction)",
-      "group_frtrans": "Planche XXXVII"
+      "group_frtrans": "Planche XXXVII",
+      "note_ru": "На гравюре правые края строк закрыты штриховкой (ΝΙΚΟΥ…, ΟΥΛΙΟ…); первая буква строки 4 читается как Ο или Δ неуверенно.",
+      "note_en": "On the engraving the right ends of the lines are covered by hatching (ΝΙΚΟΥ…, ΟΥΛΙΟ…); the first letter of line 4 reads as Ο or Δ, uncertain.",
+      "note_fr": "Sur la gravure, les fins de lignes sont couvertes de hachures (ΝΙΚΟΥ…, ΟΥΛΙΟ…) ; la première lettre de la ligne 4 se lit Ο ou Δ, incertain."
     },
     {
       "id": "pl37-3",
@@ -11069,14 +11102,17 @@
       "reverse_ru": "",
       "reverse_en": "",
       "motifs": [],
-      "legend_fr": "ΧΑΡΜΟΛΑΩ ΘΡΑΣΩΝΟΣ ΚΑΙ ΜΕ ΝΩΝ ΧΑΡΙΣ ΟΑΠΕΛΕΥΘΕΡΟΣ",
-      "legend_ru": "ΧΑΡΜΟΛΑΩ ΘΡΑΣΩΝΟΣ ΚΑΙ ΜΕ ΝΩΝ ΧΑΡΙΣ ΟΑΠΕΛΕΥΘΕΡΟΣ",
-      "legend_en": "ΧΑΡΜΟΛΑΩ ΘΡΑΣΩΝΟΣ ΚΑΙ ΜΕ ΝΩΝ ΧΑΡΙΣ ΟΑΠΕΛΕΥΘΕΡΟΣ",
+      "legend_fr": "ΧΑΡΜΟΛΑΩ ΘΡΑΣΩΝΟΣ Κ[?]Ι ΜΕ ΝΩΝ ΧΑΡΙΣ ΟΑΠΕΛΕΥΘΕΡΟΣ",
+      "legend_ru": "ΧΑΡΜΟΛΑΩ ΘΡΑΣΩΝΟΣ Κ[?]Ι ΜΕ ΝΩΝ ΧΑΡΙΣ ΟΑΠΕΛΕΥΘΕΡΟΣ",
+      "legend_en": "ΧΑΡΜΟΛΑΩ ΘΡΑΣΩΝΟΣ Κ[?]Ι ΜΕ ΝΩΝ ΧΑΡΙΣ ΟΑΠΕΛΕΥΘΕΡΟΣ",
       "findspot_fr": "place devant l'église Saint-Victor",
       "findspot_ru": "площадь перед церковью Сен-Виктор",
       "findspot_en": "the square before the Church of Saint-Victor",
       "name_fr": "Pierre sépulcrale de Carmolaus, érigée par l'affranchi Charles",
-      "group_frtrans": "Planche XXXVII"
+      "group_frtrans": "Planche XXXVII",
+      "note_ru": "На гравюре: ΚΛΙΜΕ/ΝΩΝ (Α или Λ — неоднозначно), лунарная сигма; в легенде знаки приведены к обычным.",
+      "note_en": "On the engraving: ΚΛΙΜΕ/ΝΩΝ (Α or Λ — ambiguous), lunate sigma; the legend normalizes the letter forms.",
+      "note_fr": "Sur la gravure : ΚΛΙΜΕ/ΝΩΝ (Α ou Λ — ambigu), sigma lunaire ; la légende normalise les formes des lettres."
     },
     {
       "id": "pl37-4",
@@ -11391,7 +11427,10 @@
       "findspot_ru": "площадь Арсенала, Дарс",
       "findspot_en": "the Arsenal square, the Darse",
       "name_fr": "Autel de Pompeia Muska pour son nourrisson Hius Pompeius Felicianus",
-      "group_frtrans": "Planche XXXVIII"
+      "group_frtrans": "Planche XXXVIII",
+      "note_ru": "На камне MVSK (без A), слова разделены сердечками; в тексте книги MVSKA.",
+      "note_en": "On the stone MVSK (without A), words separated by hearts; the book's text has MVSKA.",
+      "note_fr": "Sur la pierre MVSK (sans A), mots séparés par des cœurs ; le texte du livre a MVSKA."
     },
     {
       "id": "pl39-1",
@@ -11451,7 +11490,10 @@
       "findspot_ru": "гласис цитадели Сен-Николя",
       "findspot_en": "the glacis of the Citadel of St. Nicolas",
       "name_fr": "Épitaphe de Titus Maccius Marcellus",
-      "group_frtrans": "Planche XXXIX"
+      "group_frtrans": "Planche XXXIX",
+      "note_ru": "Во французском переводе имя разорвано: «à Titus Maccius, Marcellus son fils», тогда как в надписи и заголовке T. MACCIO MARCELLO — один человек (Тит Маккий Марцелл); RU/EN следуют французскому.",
+      "note_en": "The French rendering splits the name: “à Titus Maccius, Marcellus son fils”, whereas the inscription and the title (T. MACCIO MARCELLO) name one man (Titus Maccius Marcellus); RU/EN follow the French.",
+      "note_fr": "La traduction française coupe le nom : « à Titus Maccius, Marcellus son fils », alors que l'inscription et le titre (T. MACCIO MARCELLO) désignent un seul homme ; RU/EN suivent le français."
     },
     {
       "id": "pl39-2",
@@ -12375,7 +12417,10 @@
       "findspot_ru": "королевский сад, Марсель",
       "findspot_en": "the King's garden, Marseille",
       "name_fr": "Épitaphe de la petite Seandilla",
-      "group_frtrans": "Planche XLII"
+      "group_frtrans": "Planche XLII",
+      "note_ru": "В печати «quinze jours» (пятнадцать), а в надписи DIEB. XVI (шестнадцать); в печати также «mieilleux» (опечатка, mielleux); текст оставлен как напечатан, RU/EN следуют французскому.",
+      "note_en": "The book prints “quinze jours” (fifteen) while the inscription has DIEB. XVI (sixteen); it also prints “mieilleux” (misprint for mielleux); the text is left as printed, RU/EN follow the French.",
+      "note_fr": "Le livre imprime « quinze jours » alors que l'inscription porte DIEB. XVI (seize) ; il imprime aussi « mieilleux » (coquille pour mielleux) ; texte laissé tel qu'imprimé."
     },
     {
       "id": "pl42-3",
@@ -12438,7 +12483,10 @@
       "findspot_ru": "античные подвалы аббатства Сен-Совёр",
       "findspot_en": "the ancient cellars of the Abbey of Saint-Sauveur",
       "name_fr": "Inscription grecque pour Titus Porcius Proclus Aelianus (carrière d'un officier romain)",
-      "group_frtrans": "Planche XLII"
+      "group_frtrans": "Planche XLII",
+      "note_ru": "Греческий текст на гравюре (12 строк) сильно искажён, часть знаков нечитаема; легенда — нормализованное начало; в тексте книги только латинский перевод.",
+      "note_en": "The Greek text on the engraving (12 lines) is badly distorted and partly illegible; the legend is a normalized beginning; the book's text gives only a Latin rendering.",
+      "note_fr": "Le texte grec de la gravure (12 lignes) est très déformé et en partie illisible ; la légende est un début normalisé ; le texte ne donne qu'une version latine."
     },
     {
       "id": "frag-1",
@@ -13215,7 +13263,10 @@
       "findspot_ru": "",
       "findspot_en": "",
       "name_fr": "Épitaphe de Julia, par Tycarus, faiseur de ceintures de l'empereur Julien",
-      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs",
+      "note_ru": "В печати ANN. XXL (опечатка оригинала, вероятно XXX), в переводе «trente ans»; текст оставлен как напечатан.",
+      "note_en": "The book prints ANN. XXL (a misprint, probably XXX), while the rendering says “trente ans”; the text is left as printed.",
+      "note_fr": "Le livre imprime ANN. XXL (coquille, probablement XXX), la traduction dit « trente ans » ; texte laissé tel qu'imprimé."
     },
     {
       "id": "frag-15",
@@ -13494,7 +13545,10 @@
       "findspot_ru": "",
       "findspot_en": "",
       "name_fr": "Épitaphe de Flavia Telesphoriana et Flavia Fronti, dotées par testament",
-      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs",
+      "note_ru": "В печати «Tes-/mento dotare» (опечатка: пропущена t, должно быть Testamento); текст оставлен как напечатан.",
+      "note_en": "The book prints “Tes-/mento dotare” (misprint: the t is missing, Testamento); the text is left as printed.",
+      "note_fr": "Le livre imprime « Tes-/mento dotare » (coquille : t manquant, Testamento) ; texte laissé tel qu'imprimé."
     },
     {
       "id": "frag-20",
@@ -13674,7 +13728,10 @@
       "findspot_ru": "",
       "findspot_en": "",
       "name_fr": "Épitaphe de Caius Vecticius Neon, par sa nourrice Vecticia Eucarpia",
-      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs",
+      "note_ru": "В печати ANNOS XII, а во французском переводе «onze ans» (одиннадцать): расхождение внутри самой книги; текст оставлен как напечатан.",
+      "note_en": "The book prints ANNOS XII but its French rendering says “onze ans” (eleven): an inconsistency in the book itself; the text is left as printed.",
+      "note_fr": "Le livre imprime ANNOS XII mais sa traduction française dit « onze ans » : incohérence du livre lui-même ; texte laissé tel qu'imprimé."
     },
     {
       "id": "frag-23",
