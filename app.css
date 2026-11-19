@@ -2125,3 +2125,14 @@ html.ic-hs-lock{overflow:hidden !important}
   .ic-pc-expl,
   .ic-pc-pager
 )::after{top:-1px}
+
+/* «Мотивы» (каталог и страница мотива) — схема «шапка уезжает нативно» (HANDOFF, раздел 10): «Библиотека» и переключатель — обычная часть страницы,
+   прилипает только строка под переключателем (её обёртка .ic-mot-rwrap с обрезающим контейнером выезда). Стек и .ic-ch-outer-bar — display:contents
+   (как у страницы эмблемы), кроме .ic-ch-outer-bar внутри обёртки: он едет при выезде (transform) и должен быть блоком. */
+.ic-stack-flow .ic-mot-rwrap{position:sticky;top:env(safe-area-inset-top, 0px);z-index:9}
+.ic-stack-flow .ic-mot-rwrap .ic-ch-outer-bar{display:block}
+.ic-stack-flow .ic-mot-rwrap .ic-rbar{position:relative;top:auto}
+.ic-stack-flow .ic-mot-rwrap .ic-rbar::before{display:none}
+/* название мотива и число гравюр в строке страницы мотива: по центру, одна строка, многоточие */
+.ic-rbar .ic-mot-bar .ic-mot-ttl{flex:1 1 0;min-width:0;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:rgba(var(--cream),.92);font-size:15px;line-height:38px;padding:0 4px}
+.ic-stack-flow .ic-mot-rwrap .ic-ch-outer{padding:0;margin:0;max-width:none}   /* .ic-ch-outer — блок (не display:contents), поэтому без боковых полей: тёмная строка во всю ширину */

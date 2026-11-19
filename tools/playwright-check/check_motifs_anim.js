@@ -45,6 +45,7 @@ function thick(arr){ // число подряд идущих отсчётов з
    await p.evaluate(LOG);
    await click('.ic-mot-cap a[href="#/motifs"]');
    if(!reduce){
+     const top1=await p.evaluate(()=>({y:Math.round(scrollY),gh:document.querySelectorAll('.ic-mot-ghost').length})); ok(T+'нажато не вверху главной (300): страница сразу без анимации наверх, переход идёт',top1.y===0&&top1.gh>=1,JSON.stringify(top1));
      await W(1300); const sh=await p.screenshot(); if(!process.env.NOSHOT) require('fs').writeFileSync(path.join(OUT,'anim-fwd-'+vp.name+'.png'),sh);
      const rb=await p.evaluate(()=>{ const w=document.querySelector('#ic-stack .ic-mot-rwrap'); if(!w) return null; const r=w.getBoundingClientRect(); return {t:r.top,h:r.height}; });
      if(rb){ const y=rb.t+3; const px=await p.evaluate(eval(PIX),[sh.toString('base64'),[[1,y],[3,y],[vp.w-3,y],[vp.w-2,y]]]); ok(T+'середина: строка частично выдвинута, у левого и правого края она тёмная (бумаги нет)',px.every(c=>c[0]<60&&c[1]<60&&c[2]<60),JSON.stringify(px)); }

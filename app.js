@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "250";
+  var APP_VER = "251";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3120,7 +3120,7 @@
   }
   function motShell(strip){
     // строка разделов: обрезающий контейнер (из него она выезжает вниз из-под переключателя), линия над ней и мягкая тень под ней
-    return '<div class="ic-stack ic-mot-stack" id="ic-stack">'+motTop("motifs")+(strip ? '<div class="ic-mot-rwrap"><div class="ic-mot-rclip">'+ripaBarWrap(strip)+'</div><i class="ic-mot-shd"></i></div>' : "")+'</div>';
+    return '<div class="ic-stack ic-mot-stack ic-stack-flow" id="ic-stack">'+motTop("motifs")+(strip ? '<div class="ic-mot-rwrap"><div class="ic-mot-rclip">'+ripaBarWrap(strip)+'</div><i class="ic-mot-shd"></i></div>' : "")+'</div>';
   }
   // Кадр на время загрузки при переходе: только шапка с переключателем (старая страница держится «призраком» поверх)
   function motFrame(){ return '<div class="ic-stack ic-mot-stack" id="ic-stack">'+motTop(motNav.to ? "motifs" : "books")+'</div>'; }
@@ -3253,6 +3253,7 @@
     if(motNav) return;                           // переход уже идёт
     var reduce = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
     if(from === 0) motHomeY = window.scrollY;
+    if(window.scrollY > 1) window.scrollTo(0, 0);   // нажато не вверху: сначала страница без анимации наверх, потом переход (место главной запомнено)
     var out = reduce ? null : motGhost();
     if(out) out.strip = motStripGhost();
     motNav = {from:from, to:to, dir: to ? -1 : 1, hy: motHomeY, reduce:reduce, out:out, started:false, pill:true, t0:performance.now()};
@@ -3282,8 +3283,26 @@
     if(L === "fr") return n+" "+(n === 1 ? "gravure" : "gravures");
     return n+" "+(n === 1 ? "engraving" : "engravings");
   }
+  // «22 мотива» / «22 motifs»: число мотивов в разделе (число на плитке — число гравюр)
+  function motMotifsN(n){
+    var L = state.lang;
+    if(L === "ru"){ var a = n % 100, b = n % 10; return n+" "+((a > 10 && a < 15) ? "мотивов" : b === 1 ? "мотив" : (b >= 2 && b <= 4) ? "мотива" : "мотивов"); }
+    return n+" "+(n === 1 ? "motif" : "motifs");
+  }
+  // мотив-родитель, названный так же, как раздел («Оружие» в разделе «Оружие»), подписывается «Оружие, всё» / «All weapons» / «Toutes les armes»
+  function motSameAsSection(n){
+    var c = MOT_ALL_LBL.ru[n.category]; if(!c) return false;
+    var lab = norm(t(MOT_CAT_KEY[n.category])), nm = norm(motName(n));
+    if(!lab || !nm) return false;
+    var k = 0; while(k < nm.length && k < lab.length && nm.charAt(k) === lab.charAt(k)) k++;
+    return Math.abs(nm.length - lab.length) <= 1 && k >= nm.length - 1 && k >= lab.length - 1 && nm.length > 3;
+  }
+  function motTileName(n){
+    if(!motSameAsSection(n)) return motName(n);
+    return state.lang === "ru" ? motName(n)+", всё" : MOT_ALL_LBL[state.lang][n.category];
+  }
   function motTile(n, cur, cls){
-    return '<a class="ic-mot-tile'+(cls ? " "+cls : "")+'" href="'+esc(motHref(cur.param, n.id))+'" data-id="'+esc(n.id)+'"><span class="ic-mot-nm">'+esc(motName(n))+'</span><span class="ic-mot-n" aria-label="'+esc(t("motCount",{n:n.all.length}))+'">'+n.all.length+'</span></a>';
+    return '<a class="ic-mot-tile'+(cls ? " "+cls : "")+'" href="'+esc(motHref(cur.param, n.id))+'" data-id="'+esc(n.id)+'"><span class="ic-mot-nm">'+esc(motTileName(n))+'</span><span class="ic-mot-n" aria-label="'+esc(t("motCount",{n:n.all.length}))+'">'+n.all.length+'</span></a>';
   }
   var MOT_LOUPE = '<button type="button" class="ic-mot-loupe" aria-label="'+"%L%"+'">'+ICON_SEARCH+'</button>';
   function motLoupe(){ return MOT_LOUPE.replace("%L%", esc(t("motFind"))); }
@@ -3319,6 +3338,7 @@
         '<div class="ic-mot-body"></div>'+
       '</div><div id="ic-rb-dim"></div>';
     ripaBind(MOT_BOOK, gen, rbSheets);
+    flowOn();   // шапка уезжает нативно (HANDOFF, раздел 10): «Библиотека» и переключатель — часть страницы, прилипает только строка разделов
     motBindBooks(cur, null);
     var bar = root.querySelector(".ic-mot-bar"), tabsEl = bar.querySelector(".ic-mot-tabs"), body = root.querySelector(".ic-mot-body"),
         findIn = bar.querySelector(".ic-mot-findin");
@@ -3361,13 +3381,13 @@
         html = '<header class="ic-head ic-rp-head"><h1 class="ic-h-fr ic-rp-h1">'+esc(t("motTitle"))+'</h1><p class="ic-sub ic-mot-sub">'+esc(t("motSub"))+'</p></header>';
         cats.forEach(function(c){
           var L = ix.list.filter(function(n){ return n.category === c; }), top = roots(L).sort(motSort).slice(0, 8);
-          html += '<section class="ic-mot-sect"><h2 class="ic-mot-sh"><span>'+esc(t(MOT_CAT_KEY[c]))+'</span><span class="ic-mot-shn">'+L.length+'</span></h2>'+
+          html += '<section class="ic-mot-sect"><h2 class="ic-mot-sh"><span>'+esc(t(MOT_CAT_KEY[c]))+'</span><span class="ic-mot-shn">'+esc(motMotifsN(L.length))+'</span></h2>'+
             '<div class="ic-mot-grid2">'+top.map(function(n){ return motTile(n, cur, ""); }).join("")+'</div>'+
             '<button type="button" class="ic-mot-allbtn" data-cat="'+esc(c)+'">'+esc(MOT_ALL_LBL[state.lang][c])+' · '+L.length+'</button></section>';
         });
       } else {
         var L2 = ix.list.filter(function(n){ return n.category === motUi.cat; }), inS = {}; L2.forEach(function(n){ inS[n.id] = 1; });
-        html = '<h2 class="ic-mot-sh ic-mot-sh1"><span>'+esc(t(MOT_CAT_KEY[motUi.cat]))+'</span><span class="ic-mot-shn">'+L2.length+'</span></h2>'+
+        html = '<h2 class="ic-mot-sh ic-mot-sh1"><span>'+esc(t(MOT_CAT_KEY[motUi.cat]))+'</span><span class="ic-mot-shn">'+esc(motMotifsN(L2.length))+'</span></h2>'+
           '<div class="ic-mot-fams">'+family(roots(L2), inS)+'</div>';
       }
       body.innerHTML = html;
@@ -3394,7 +3414,6 @@
     state.scroll = 0; if(motNav) motNavRun(gen, 1); else restoreOrTop(gen);
     motWarm();
     if(motUi.find && !motUi.q.trim()) setFind(true);
-    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return document.activeElement === findIn; }});
     nudgeRepaint();
   }
   function motThumb(book, it){
@@ -3422,7 +3441,7 @@
       return '<li><a class="ic-gal-item" href="'+esc(hrefFor(x.book, x.it.id))+'" data-slug="'+esc(x.book.slug)+'" data-id="'+esc(x.it.id)+'" data-anchor="'+esc(x.book.slug+"-"+x.it.id)+'"><span class="ic-gal-img ic-rp-gimg">'+(th ? '<img loading="lazy" decoding="async" src="'+esc(th)+'" alt="">' : "")+'</span>'+
         '<span class="ic-gal-cap">'+esc(titleOf(x.it))+'<small class="ic-gal-pg">'+(many ? esc(names[x.book.slug]||x.book.slug)+' · ' : "")+esc(t("pageAbbr"))+' '+esc(x.it.page)+'</small></span></a></li>';
     }).join("")+'</ul>' : '<p class="ic-empty">'+esc(t("motNone"))+'</p>';
-    var strip = '<div class="ic-mot-bar ic-mot-bar-m"><button type="button" class="ic-mot-back" aria-label="'+esc(t("rbBack"))+'">'+ICON_BACK+'</button><span class="ic-mot-sp"></span>'+motLoupe()+'</div>';
+    var strip = '<div class="ic-mot-bar ic-mot-bar-m"><button type="button" class="ic-mot-back" aria-label="'+esc(t("rbBack"))+'">'+ICON_BACK+'</button><span class="ic-mot-ttl">'+(n && items.length ? esc(motName(n)+" · "+motNum(items.length)) : esc(t("motTitle")))+'</span>'+motLoupe()+'</div>';
     root.innerHTML = motShell(strip)+
       '<div class="ic-wrap ic-rp ic-mot"><div class="ic-top-row">'+langSwitch()+'</div>'+
         '<header class="ic-head"><h1 class="ic-h-fr ic-mot-h1">'+head+'</h1>'+
@@ -3430,6 +3449,7 @@
         (kids.length ? '<div class="ic-mot-tags ic-mot-kids">'+kids.map(function(c){ return '<a class="ic-mot-tag" href="'+esc(motHref(cur.param, c.id))+'">'+esc(motName(c))+'</a>'; }).join("")+'</div>' : "")+
         motBooksChips(cur)+grid+'</div><div id="ic-rb-dim"></div>';
     ripaBind(MOT_BOOK, gen, rbSheets);
+    flowOn();
     motBindBooks(cur, p.mid);
     // назад — в каталог на тот же раздел и место прокрутки (если пришли из каталога — шаг истории назад)
     root.querySelector(".ic-mot-back").addEventListener("click", function(){
@@ -3441,7 +3461,6 @@
       if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); ripaOpen(books[a.getAttribute("data-slug")], a.getAttribute("data-id"), ""); }
     }); });
     state.scroll = 0; restoreOrTop(gen);
-    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return false; }});
     nudgeRepaint();
   }
   // Метки мотивов на карточке статьи (после «Что изображено»): разметка секции; если данные ещё не загружены — заполняется позже

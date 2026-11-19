@@ -52,7 +52,7 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   ok(T+'разделы по порядку, пустые не показаны',cat.sects.map(s=>s.h).join()===want.slice(1).join(),cat.sects.map(s=>s.h).join());
   ok(T+'до 8 плиток в разделе, по 2 в ряд',cat.sects.every(s=>s.tiles>=1&&s.tiles<=8)&&cat.sects[0].tiles===8&&cat.cols===2,JSON.stringify(cat.sects.map(s=>s.tiles))+' cols '+cat.cols);
   ok(T+'плитка: ≈52 px, скругление 8, тонкая рамка',cat.tile.h>=50&&cat.tile.h<=64&&cat.tile.rad==='8px'&&cat.tile.bw==='1px',JSON.stringify(cat.tile));
-  ok(T+'кнопка «Все предметы · N» во всю ширину',/^Все предметы · \d+$/.test(cat.sects[0].btn)&&cat.sects[0].btnW>=cat.sects[0].secW-2&&cat.sects[0].n===cat.sects[0].btn.split(' · ')[1],cat.sects[0].btn+' / '+cat.sects[0].n);
+  ok(T+'кнопка «Все предметы · N» во всю ширину',/^Все предметы · \d+$/.test(cat.sects[0].btn)&&cat.sects[0].btnW>=cat.sects[0].secW-2&&parseInt(cat.sects[0].n)===+cat.sects[0].btn.split(' · ')[1]&&/^\d+ мотив(а|ов)?$/.test(cat.sects[0].n),cat.sects[0].btn+' / '+cat.sects[0].n);
   const first=await p.$$eval('.ic-mot-sect:first-of-type .ic-mot-tile',r=>r.map(x=>x.querySelector('.ic-mot-nm').textContent+':'+x.querySelector('.ic-mot-n').textContent));
   ok(T+'первый — «Венок», по частоте, названия с заглавной',first[0]==='Венок:80'&&first.every(x=>/^[А-ЯЁ]/.test(x)),first.slice(0,3).join(', '));
   // кнопка «Все предметы»
@@ -126,6 +126,39 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   // заголовок раздела каталога — обычный заголовок, без полосы и абсолютного позиционирования (v246–v249: класс тени совпал с классом заголовка)
   await p.goto(BASE+'#/motifs'); await W(2500); const sh1=await p.evaluate(()=>{ const h=document.querySelector('h2.ic-mot-sh'), c=getComputedStyle(h); return {pos:c.position,bg:c.backgroundImage,h:Math.round(h.getBoundingClientRect().height)}; });
   ok(T+'заголовок раздела каталога: не абсолютный, без фона-градиента',sh1.pos==='static'&&sh1.bg==='none'&&sh1.h<40,JSON.stringify(sh1));
+  // шапка уезжает нативно (v251, HANDOFF раздел 10): «Библиотека» и переключатель — часть страницы, прилипает только строка разделов
+  await p.goto(BASE+'#/motifs'); await W(2500);
+  const flowGeo=async y=>{ await p.evaluate(y=>window.scrollTo(0,y),y); await W(350); return p.evaluate(()=>{ const r=e=>e.getBoundingClientRect(), bbE=document.querySelector('.back-bar'), bb=r(bbE), bt=r(document.getElementById('ic-booktabs')), rw=r(document.querySelector('.ic-mot-rwrap')), t=r(document.querySelector('.ic-mot-tile')); return {y:Math.round(scrollY),bbT:Math.round(bb.top),btB:Math.round(bt.bottom),rwT:Math.round(rw.top),rwH:Math.round(rw.height),tile:t.top+scrollY,bbPos:getComputedStyle(bbE).position,tr:getComputedStyle(bbE).transform,cls:[document.documentElement.className,bbE.className,document.getElementById('ic-stack').className,document.getElementById('ic-booktabs').className,document.getElementById('ic-rbar').className].join('|'),bg:getComputedStyle(document.documentElement).backgroundColor}; }); };
+  const gg=[]; for(const y of [0,600,450,900,300,0]) gg.push(await flowGeo(y));
+  ok(T+'после прокрутки вниз наверху только строка разделов (прилипла к 0), её высота постоянна',gg.slice(1,5).every(g=>Math.abs(g.rwT)<=1&&g.rwH===gg[0].rwH),JSON.stringify(gg.map(g=>[g.y,g.rwT,g.rwH])));
+  ok(T+'«Библиотека» и переключатель — часть страницы: при прокрутке вверх не выскакивают (уходят вместе с прокруткой), без transform',gg.slice(1,5).every(g=>Math.abs(g.bbT+g.y)<=1&&g.btB<0&&g.bbPos==='relative'&&g.tr==='none'),JSON.stringify(gg.map(g=>[g.y,g.bbT,g.btB,g.bbPos])));
+  ok(T+'содержимое не прыгает: позиция плитки в документе постоянна при любой прокрутке',gg.every(g=>Math.abs(g.tile-gg[0].tile)<=1.5),gg.map(g=>Math.round(g.tile)).join(','));
+  ok(T+'возврат наверх: шапка на месте, как в начале',gg[5].bbT===gg[0].bbT&&gg[5].rwT===gg[0].rwT&&gg[0].bbT===0,JSON.stringify([gg[0].bbT,gg[5].bbT,gg[0].rwT,gg[5].rwT]));
+  ok(T+'нет следов старого скрытия (ic-bb-hidden, ic-stack-hidden, ic-rbar-snap), html — ic-flow-page и тёмный фон (нет щели при оттягивании)',gg.every(g=>!/ic-bb-hidden|ic-stack-hidden|ic-rbar-snap/.test(g.cls)&&/ic-flow-page/.test(g.cls)&&/ic-stack-flow/.test(g.cls)&&g.bg==='rgb(22, 19, 15)'),gg[1].cls+' '+gg[1].bg);
+  const rbw=await p.evaluate(()=>{ const r=document.querySelector('.ic-mot-rwrap .ic-rbar').getBoundingClientRect(); return [Math.round(r.left),Math.round(r.width),innerWidth]; }); ok(T+'тёмная строка разделов — во всю ширину экрана (нет бумаги по краям)',rbw[0]===0&&rbw[1]===rbw[2],JSON.stringify(rbw));
+  // после перехода с главной (прокрутка главной вниз, потом «Мотивы»)
+  await p.goto(BASE+'#/'); await p.waitForSelector('.ic-lib-row',{timeout:30000}); await W(2500); await p.evaluate(()=>window.scrollTo(0,300)); await W(400);
+  await p.evaluate(()=>document.querySelector('.ic-mot-cap a[href="#/motifs"]').click()); await W(1800);
+  const gf=await flowGeo(0), gf2=await flowGeo(700), gf3=await flowGeo(500);
+  ok(T+'после перехода с главной (нажато не вверху → главная сначала наверх без анимации): шапка нативная, следов скрытия нет, строка прилипает',gf.y===0&&!/ic-bb-hidden|ic-stack-hidden/.test(gf.cls)&&gf2.rwT===0&&gf2.bbT===-700&&gf3.bbT===-500&&gf3.btB<0&&Math.abs(gf3.tile-gf.tile)<=1.5,JSON.stringify([gf,gf2.bbT,gf3.bbT]));
+  await p.evaluate(()=>window.scrollTo(0,0)); await W(300);
+  await p.goto(BASE+'#/'); await W(1500); const homeCls=await p.evaluate(()=>({flow:document.documentElement.classList.contains('ic-flow-page'),pos:getComputedStyle(document.querySelector('.ic-stack')).position}));
+  ok(T+'главная библиотеки не изменилась: без ic-flow-page, липкая шапка',!homeCls.flow&&homeCls.pos==='sticky',JSON.stringify(homeCls));
+  // страница мотива: в строке стрелка, по центру название и число, лупа справа
+  for(const [l,want] of [['ru','Венок · 80 гравюр'],['en','Wreath · 80 engravings'],['fr','Couronne · 80 gravures']]){
+    await p.goto(BASE+'#/motifs'); await setLang(l); await p.goto(BASE+'#/motifs/iconologie/wreath'); await W(3000);
+    const mt=await p.evaluate(()=>{ const t=document.querySelector('.ic-mot-ttl'), c=getComputedStyle(t), r=t.getBoundingClientRect(), b=document.querySelector('.ic-mot-back').getBoundingClientRect(), lo=document.querySelector('.ic-mot-loupe').getBoundingClientRect(); return {txt:t.textContent,ov:c.overflow,ws:c.whiteSpace,te:c.textOverflow,center:Math.abs((r.left+r.right)/2-innerWidth/2)<=40,between:r.left>=b.right-1&&r.right<=lo.left+1,h1:document.querySelector('.ic-mot-h1').textContent,cnt:document.querySelector('.ic-mot-count').textContent}; });
+    ok(T+l+': строка страницы мотива — «'+want+'» по центру, одна строка, многоточие; большой заголовок остаётся',mt.txt===want&&mt.ov==='hidden'&&mt.ws==='nowrap'&&mt.te==='ellipsis'&&mt.center&&mt.between&&mt.h1.length>0,JSON.stringify(mt));
+  }
+  await p.goto(BASE+'#/motifs'); await setLang('ru'); await W(500);
+  // подписи чисел: заголовок раздела — «N мотива», плитка — число гравюр, родитель с названием раздела
+  for(const [l,shn,wp,pl] of [['ru',/^\d+ мотив(а|ов)?$/,'Оружие, всё','Растение, всё'],['en',/^\d+ motifs?$/,'All weapons','All plants'],['fr',/^\d+ motifs?$/,'Toutes les armes','Toutes les plantes']]){
+    await p.goto(BASE+'#/motifs'); await setLang(l); await W(500);
+    const nn=await p.evaluate(()=>({shn:[...document.querySelectorAll('.ic-mot-shn')].map(e=>e.textContent),w:(document.querySelector('.ic-mot-tile[data-id="weapon"]')||{}).textContent,tn:[...document.querySelectorAll('.ic-mot-tile .ic-mot-n')].every(e=>/^\d+$/.test(e.textContent))}));
+    await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="растение"]').click()); await W(500); nn.p=await p.evaluate(()=>(document.querySelector('.ic-mot-tile[data-id="plant"]')||{textContent:''}).textContent); await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="all"]').click()); await W(300);
+    ok(T+l+': заголовки разделов «N мотивов», совпадающие по названию родители, числа на плитках — числа гравюр',nn.shn.length===9&&nn.shn.every(x=>shn.test(x))&&nn.w===wp+nn.w.replace(wp,'')&&nn.w.startsWith(wp)&&nn.p.startsWith(pl)&&nn.tn&&(l!=='ru'||nn.shn.every(x=>{ const n=parseInt(x),a=n%100,b=n%10; return x===n+' '+((a>10&&a<15)?'мотивов':b===1?'мотив':(b>=2&&b<=4)?'мотива':'мотивов'); })),JSON.stringify([nn.shn.slice(0,3),nn.w,nn.p]));
+  }
+  await p.goto(BASE+'#/motifs'); await setLang('ru'); await W(500);
   // языки
   for(const [l,books,motifs,find,all1,sub,first] of [['en','Books','Motifs','Find a motif','All objects','Find engravings by the objects they show','Wreath'],['fr','Livres','Motifs','Chercher un motif','Tous les objets','Chercher des gravures par les objets représentés','Couronne'],['ru','Книги','Мотивы','Найти мотив','Все предметы','Поиск гравюр по изображённым предметам','Венок']]){
    await p.goto(BASE+'#/motifs'); await setLang(l); await W(500);
