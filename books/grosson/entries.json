@@ -595,10 +595,10 @@
         "Médaille semblable à la précédente; le revers varie, par les lettres MASSA au haut, & en bas, TAA."
       ],
       "text_ru": [
-        "Монета, схожая с предыдущей; оборот отличается буквами MASSA вверху и ТАА внизу. [На гравюре внизу читается ТАΛ, а не ТАА — расхождение с текстом Гроссона.]"
+        "Монета, схожая с предыдущей; оборот отличается буквами MASSA вверху и ТАА внизу."
       ],
       "text_en": [
-        "A medal similar to the preceding one; the reverse differs, with the letters MASSA at the top, and TAA at the bottom. [The engraving reads TAΛ at the bottom, not TAA — a discrepancy with Grosson's text.]"
+        "A medal similar to the preceding one; the reverse differs, with the letters MASSA at the top, and TAA at the bottom."
       ],
       "motifs": [
         "diana",
@@ -614,7 +614,10 @@
       "legend_ru": "MASSA TAΛ",
       "legend_en": "MASSA TAΛ",
       "name_fr": "Diane / Lion",
-      "group_frtrans": "Planche I"
+      "group_frtrans": "Planche I",
+      "note_ru": "На гравюре внизу читается ТАΛ; в тексте книги напечатано «ТАА».",
+      "note_en": "On the engraving the lower letters read TAΛ; the book's text prints “TAA”.",
+      "note_fr": "Sur la gravure, en bas : TAΛ ; le texte imprime « TAA »."
     },
     {
       "id": "pl1-12",

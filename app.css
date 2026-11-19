@@ -2188,3 +2188,8 @@ html.ic-flow-page .ic:has(.ic-mot-stack){min-height:calc(100lvh + var(--top2,111
 /* Сессия «Книги | Мотивы» (v258): обе панели живут в DOM, скрытая — вне потока, нулевой высоты, раскладка уже посчитана */
 .ic .ic-pane-off{position:absolute;left:0;right:0;top:0;max-height:0;overflow:hidden;visibility:hidden;pointer-events:none}
 .ic .ic-mot-rwrap.ic-mot-rw-off{display:none}
+
+/* Гроссон: примечание к записи (note_ru/en/fr) — мелким шрифтом под текстом, отделено линией с затуханием к краям */
+.ic .ic-gro-note{margin:14px 0 0;padding-top:10px;font-size:.78em;line-height:1.45;color:var(--soft);background:linear-gradient(90deg,transparent,var(--rule) 18%,var(--rule) 82%,transparent) top/100% 1px no-repeat}
+.ic .ic-gro-note b{font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:.92em}
+.ic .ic-rp-gro .ic-gro-sform{margin:14px 0 8px}

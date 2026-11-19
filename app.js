@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "262";
+  var APP_VER = "263";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -378,6 +378,11 @@
     rpSrPh:       {ru:"Поиск по всему тексту", en:"Search the full text", fr:"Recherche dans tout le texte"},
     rpFindPh:     {ru:"Название или предмет", en:"Title or subject", fr:"Titre ou sujet"},
     rpPartAll:    {ru:"Все части", en:"All parts", fr:"Toutes les parties"},
+    grNote:       {ru:"Примечание", en:"Note", fr:"Note"},
+    grQm:         {ru:"Знак на гравюре не читается.", en:"The character cannot be read on the engraving.", fr:"Signe illisible sur la gravure."},
+    grDiscours:   {ru:"Вступительное рассуждение", en:"Preliminary Discourse", fr:"Discours préliminaire"},
+    grNoRes:      {ru:"Ничего не найдено.", en:"Nothing found.", fr:"Aucun résultat."},
+    grSrHint:     {ru:"Ищет слово в тексте записей (описания, надписи, примечания) и во вступительном рассуждении.", en:"Finds a word in the entries (descriptions, inscriptions, notes) and in the preliminary discourse.", fr:"Cherche un mot dans les notices (descriptions, inscriptions, notes) et dans le discours préliminaire."},
     rpPrevFull:   {ru:"Предыдущая", en:"Previous", fr:"Précédente"},
     rpNextFull:   {ru:"Следующая", en:"Next", fr:"Suivante"},
     rpSrHint:     {ru:"Ищет слово во всём тексте статей: в названиях, описаниях и переводах.", en:"Finds a word anywhere in the articles: titles, descriptions and translations.", fr:"Cherche un mot dans tous les textes : titres, descriptions et traductions."},
@@ -1183,6 +1188,7 @@
         }
         return;
       }
+      if(isGro(book)){ renderGroRoute(book, p); return; }
       var isPlateBook = book.meta.viewer==="plate";
       var hasHome = !!(book.meta.home && book.meta.chapters);
       // Legacy #/<slug>/home[,/gallery,/search] -> новые адреса обложки/
@@ -1328,6 +1334,7 @@
 
   function go(book, id){ state.scroll = window.scrollY; location.hash = forcedBook ? "#/"+id : "#/"+book.slug+"/"+id; }
   function goIndex(book){
+    if(isGro(book)){ location.hash = hrefFor(book, "plates"); return; }
     if(book.meta.home && book.meta.chapters) location.hash = hrefFor(book, "search");
     else location.hash = forcedBook ? "" : "#/"+book.slug;
   }
@@ -2564,6 +2571,8 @@
   // Альчато: тот же каркас, что у Рипы (обложка, «Эмблемы · Гравюры», лупа); данные — text.json + _translation_v2 (alcLoad).
   function isAlc(book){ return !!book && book.slug==="alciato"; }
   function isRpLayout(book){ return isRipa(book) || isAud(book) || isAlc(book); }
+  // Гроссон: viewer "plate" в общем каркасе книги (Таблицы · Текст · Поиск; карточка таблицы — renderGroCard)
+  function isGro(book){ return !!book && book.slug==="grosson"; }
   var RIPA_CTX = {ripa:1};
   // «Найти статью» в новом виде — только названия (RU/EN/FR и оригинальное французское заглавие); предметы и текст ищет лупа
   function ripaFindKey(it){
@@ -2578,6 +2587,7 @@
   }
   var ripaHl = null;   // {id, q}: слово, к которому ведёт результат поиска (подсветка в статье)
   function ripaTabs(book){
+    if(isGro(book)) return [["plates", t("audTables"), hrefFor(book,"plates")], ["text", t("bkTabText"), hrefFor(book,"text")], ["search", t("hmSearch"), hrefFor(book,"search")]];
     if(isAlc(book)) return [["list", t("alcEmb"), hrefFor(book,"list")], ["plates", t("hmGallery"), hrefFor(book,"plates")]];
     if(isAud(book)) return [["plates", t("audTables"), hrefFor(book,"plates")], ["preface", t("audPreface"), hrefFor(book,"preface")]];
     return [["list", t("rpTabArticles"), hrefFor(book,"list")], ["plates", t("hmGallery"), hrefFor(book,"plates")]];
@@ -2592,7 +2602,7 @@
     return '<div class="ic-ch-outer ic-ch-outer-bar"><div class="ic-rbar ic-rbar-rp" id="ic-rbar">'+inner+'</div></div>';
   }
   function ripaShell(book, active, rbarInner, ctxTypes, parentOverride){
-    return bookShell(book, active, {tabsOpts:{tabs:ripaTabs(book), parentHref:(parentOverride || (!active ? "#/" : ctxTypes ? hrefFor(book, isAud(book) ? "plates" : "list") : coverHref(book))), ctxTypes:ctxTypes, searchSheet:isAud(book) ? "" : ripaLoupeSheet()}, rbarHtml: rbarInner ? ripaBarWrap(rbarInner) : ""})+
+    return bookShell(book, active, {tabsOpts:{tabs:ripaTabs(book), parentHref:(parentOverride || (!active ? "#/" : ctxTypes ? hrefFor(book, (isAud(book) || isGro(book)) ? "plates" : "list") : coverHref(book))), ctxTypes:ctxTypes, searchSheet:(isAud(book) || isGro(book)) ? "" : ripaLoupeSheet()}, rbarHtml: rbarInner ? ripaBarWrap(rbarInner) : ""})+
       '<div id="ic-rb-dim"></div>';
   }
   // Переход в статью из списка/сетки/поиска: запоминаем, откуда пришли (уголок «назад»
@@ -3000,6 +3010,331 @@
     if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
     installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
     nudgeRepaint();
+  }
+
+  /* ---------- Гроссон (viewer "plate"): «Таблицы» · «Текст» · «Поиск» в общем каркасе книги ----------
+     Тот же bookShell/ripaShell, что у Рипы и Одрана; прежняя логика шапки (installBookHide). Карточка таблицы — renderPlate (ниже) в новом каркасе. */
+  function groPlates(book){
+    if(book._gro) return book._gro;
+    var by = {}, list = [], meta = {};
+    (book.meta.plates||[]).forEach(function(p){ meta[String(p.n)] = p; });
+    book.items.forEach(function(it){ var k = String(it.plate); if(!by[k]){ by[k] = {n:k, part:it.part, objs:[], meta:meta[k] || {}}; list.push(by[k]); } by[k].objs.push(it); });
+    return (book._gro = {list:list, by:by});
+  }
+  function groPlateTitle(p){
+    var m = p.meta || {}, L = state.lang;
+    return (L==="fr" ? (m.title_fr || m.title_en) : L==="en" ? m.title_en : "") || m.title_ru || t("plateTitle",{n:p.n});
+  }
+  function groNoteOf(it){
+    var L = state.lang;
+    return (L==="fr" ? (it.note_fr || it.note_en) : L==="en" ? it.note_en : "") || it.note_ru || "";
+  }
+  // [?] в легендах и сведениях — кружок-пояснение, как в других книгах
+  function groFieldHtml(val){
+    var s = String(val), n = (s.match(/\[\?\]/g) || []).length;
+    if(!n) return esc(s);
+    var msg = t("grQm"), list = []; for(var i = 0; i < n; i++) list.push(msg);
+    return inl(s, {list:list, i:0});
+  }
+  function groPrefaceBlocks(book){
+    var a = book.meta.about || {}, L = state.lang, src = a[L] || a.fr || a.ru || [];
+    return src.map(function(s, i){
+      s = String(s);
+      return s.charAt(0)==="§" ? {n:i+1, t:"h", lv:2, text:s.slice(1)} : {n:i+1, t:"p", text:s};
+    });
+  }
+  function groOpen(book, n, id, q){
+    var h = hrefFor(book, "plate/"+n);
+    chCtx = {hash: h, type:"ripa", label:""};
+    ripaHl = q && q.trim() ? {id:id || "", q:q.trim()} : null;
+    namesUi.pos[location.hash] = window.scrollY;
+    location.hash = h.replace(/^#/,"");
+  }
+  // Подсветка слова, с которым пришли из поиска, внутри контейнера: первое вхождение; возвращает <mark> или null
+  function groMarkWord(container, q){
+    var words = norm(q).split(/\s+/).filter(Boolean); if(!container || !words.length) return null;
+    var walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, null), node, found = null;
+    while((node = walker.nextNode())){
+      if(node.parentNode.closest(".ic-lang,.ic-nav-pager,.ic-pager,button,.ic-qm")) continue;
+      var nt = norm(node.data);
+      if(nt.length !== node.data.length) continue;
+      for(var i = 0; i < words.length; i++){ var ix = wsFind(nt, words[i]); if(ix >= 0){ found = {node:node, ix:ix, len:words[i].length}; break; } }
+      if(found) break;
+    }
+    if(!found) return null;
+    var r = document.createRange(); r.setStart(found.node, found.ix); r.setEnd(found.node, found.ix+found.len);
+    var m = document.createElement("mark"); m.className = "ic-ch-mark"; r.surroundContents(m);
+    return m;
+  }
+  function groScrollTo(el, gen){
+    var edge = viewEdge(), ty = Math.max(0, window.scrollY + el.getBoundingClientRect().top - edge - Math.round((window.innerHeight - edge) * 0.22));
+    holdAt(gen, ty); hardScrollTo(ty);
+  }
+
+  function renderGroPlates(book){
+    var gen = renderGen, keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null, rbSheets = [];
+    restoreState(book.slug);
+    var G = groPlates(book), parts = book.meta.parts || [];
+    if(!/^[1-5]$/.test(state.filter)) state.filter = "all";
+    function partLbl(){ return state.filter==="all" ? t("rpPart") : t("rpPart")+" "+state.filter; }
+    function gridHtml(){
+      return parts.filter(function(pt){ return state.filter==="all" || String(pt.n)===state.filter; }).map(function(pt){
+        var pls = G.list.filter(function(p){ return p.part===pt.n; }); if(!pls.length) return "";
+        return '<h2 class="ic-pl-h" data-part="'+pt.n+'">'+esc(partLabel(book, pt.n))+'</h2><ul class="ic-gal ic-gal-grid">'+pls.map(function(p){
+          var o = p.objs[0], src = o.img && o.img[0] ? BASE+"books/"+book.slug+"/img/"+o.img[0] : "";
+          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book,"plate/"+p.n))+'" data-plate="'+esc(p.n)+'" data-anchor="t'+esc(p.n)+'"><span class="ic-gal-img ic-rp-gimg">'+(src ? '<img loading="lazy" decoding="async" src="'+esc(src)+'" alt="">' : "")+'</span>'+
+            '<span class="ic-gal-cap">'+esc(groPlateTitle(p))+'<small class="ic-gal-pg">'+esc(t("pageAbbr"))+' '+esc(o.page||"")+'</small></span></a></li>';
+        }).join("")+'</ul>';
+      }).join("");
+    }
+    var rbar = '<div class="ic-rbar-row">'+
+        '<button type="button" class="ic-rbar-sort ic-rbar-partb'+(state.filter!=="all" ? " ic-rbar-on" : "")+'" data-rb="part"><span class="ic-rbar-sort-label">'+esc(partLbl())+'</span></button>'+
+      '</div>'+langSwitch()+
+      rbSheetHtml("ic-gro-part", "", "",
+        '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpPart"))+'">'+
+          [["all", t("rpPartAll")]].concat(parts.map(function(pt){ return [String(pt.n), partLabel(book, pt.n)]; })).map(function(x){
+            return '<button type="button" class="ic-tv-typerow" data-f="'+x[0]+'" aria-pressed="'+(state.filter===x[0])+'"><span>'+esc(x[1])+'</span></button>'; }).join("")+
+        '</div>');
+    root.innerHTML = ripaShell(book, "plates", rbar, null, "#/")+
+      '<div class="ic-ch-outer"><div class="ic-wrap ic-rp ic-rp-gro"><header class="ic-head ic-rp-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr ic-rp-h1">'+esc(t("audTables"))+'</h1></header>'+
+        '<div class="ic-gro-grid">'+gridHtml()+'</div></div></div>';
+    ripaBind(book, gen, rbSheets);
+    var partEl = root.querySelector("#ic-gro-part"), partBtn = root.querySelector('[data-rb="part"]'), grid = root.querySelector(".ic-gro-grid");
+    var partApi = makeRbSheet(partEl, partBtn, {registry: rbSheets});
+    partBtn.addEventListener("click", function(){ partApi.toggle(); });
+    partEl.querySelector(".ic-tv-typelist").addEventListener("click", function(e){
+      var b = e.target.closest("[data-f]"); if(!b) return;
+      state.filter = b.getAttribute("data-f"); keep(book.slug);
+      grid.innerHTML = gridHtml();
+      partBtn.classList.toggle("ic-rbar-on", state.filter!=="all");
+      partBtn.querySelector(".ic-rbar-sort-label").textContent = partLbl();
+      partEl.querySelectorAll("[data-f]").forEach(function(x){ x.setAttribute("aria-pressed", x.getAttribute("data-f")===state.filter); });
+      partApi.close(); hardScrollTo(0);
+    });
+    grid.addEventListener("click", function(e){
+      var a = e.target.closest(".ic-gal-item");
+      if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); groOpen(book, a.getAttribute("data-plate"), "", ""); }
+    });
+    state.scroll = 0;
+    if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
+    nudgeRepaint();
+  }
+
+  function groScans(book){
+    return ((book.meta.about && book.meta.about.pages) || []).map(function(f){ return BASE+"books/"+book.slug+"/pages/"+f; });
+  }
+  function renderGroText(book){
+    var gen = renderGen, keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null, rbSheets = [], L = state.lang;
+    restoreState(book.slug);
+    var scans = groScans(book), blocks = groPrefaceBlocks(book), hl = ripaHl && ripaHl.id==="" ? ripaHl : null; ripaHl = null;
+    var rbar = '<div class="ic-rbar-row">'+
+        '<button type="button" class="ic-rbar-lbl ic-rbar-lbl-b" data-rb="top"><span class="ic-rbar-pos-ch">'+esc(t("grDiscours"))+'</span></button>'+
+        (scans.length ? '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false">'+esc(t("svScan"))+'</button>' : "")+
+      '</div>'+langSwitch();
+    root.innerHTML = ripaShell(book, "text", rbar, null, "#/")+
+      '<div class="ic-ch-outer"><div class="ic-wrap ic-ch-wrap ic-rp-gro">'+
+        '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("grDiscours"))+'</h1></header>'+
+        '<div class="ic-text ic-ch-body" lang="'+L+'">'+blocks.map(function(b){ return blockHtml(book, b, "preface", null); }).join("")+'</div>'+
+      '</div></div>';
+    root.querySelectorAll(".ic-ch-body [data-n]").forEach(function(el){ el.setAttribute("data-anchor", "g"+el.getAttribute("data-n")); });
+    ripaBind(book, gen, rbSheets);
+    var scanB = root.querySelector('[data-rb="scan"]'), topB = root.querySelector('[data-rb="top"]');
+    if(scanB) scanB.addEventListener("click", function(){ openImgFull(scans, t("grDiscours")); });
+    if(topB) topB.addEventListener("click", function(){ hardScrollTo(0); });
+    state.scroll = 0;
+    var mk = null;
+    if(hl){
+      var m = groMarkWord(root.querySelector(".ic-ch-body"), hl.q);
+      if(m){ mk = m; groScrollTo(m, gen); hlFadeOut(null, [m], gen); }
+    }
+    if(!mk){ if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen); }
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return !!sv; }});
+    nudgeRepaint();
+  }
+
+  var groSearchUi = {q:""};
+  function groDocs(book){
+    var L = state.lang;
+    if(book._groDocs && book._groDocs.L===L) return book._groDocs.list;
+    var list = [];
+    groPrefaceBlocks(book).forEach(function(b){ list.push({kind:"p", n:b.n, title:t("grDiscours"), texts:[b.text]}); });
+    book.items.forEach(function(it){
+      var txt = (textFor(it, book) || []).slice();
+      [fieldVal(it,"legend"), fieldVal(it,"obverse"), fieldVal(it,"reverse"), fieldVal(it,"material"), fieldVal(it,"findspot"), groNoteOf(it)].forEach(function(v){ if(v) txt.push(v); });
+      list.push({kind:"e", id:it.id, plate:it.plate, title:(it.num ? it.num+". " : "")+titleOf(it), page:it.page, texts:txt.map(function(x){ return String(x).replace(/¶/g," "); }), head:[it.fr, it.ru, it.en||"", it.name_fr||""].join(" ")});
+    });
+    list.forEach(function(d){ d.nt = d.texts.map(norm); d.nh = norm((d.title||"")+" "+(d.head||"")); });
+    book._groDocs = {L:L, list:list};
+    return list;
+  }
+  function renderGroSearch(book){
+    var gen = renderGen, rbSheets = [], keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null;
+    restoreState(book.slug);
+    var rbar = '<div class="ic-rbar-row"><button type="button" class="ic-rbar-lbl ic-rbar-lbl-b" data-rb="top"><span class="ic-rbar-pos-ch">'+esc(t("hmSearch"))+'</span></button></div>'+langSwitch();
+    root.innerHTML = ripaShell(book, "search", rbar, null, "#/")+
+      '<div class="ic-ch-outer"><div class="ic-wrap ic-rp ic-rp-gro">'+
+        '<header class="ic-head ic-rp-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr ic-rp-h1">'+esc(t("hmSearch"))+'</h1></header>'+
+        '<form class="ic-home-search ic-gro-sform" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srAllPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("hmSearch"))+'">'+
+          '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>'+
+        '<div class="ic-sr ic-gro-sr" aria-live="polite"></div></div></div>';
+    ripaBind(book, gen, rbSheets);
+    var form = root.querySelector(".ic-gro-sform"), q = form.querySelector(".ic-search"), box = root.querySelector(".ic-gro-sr"), timer = 0;
+    q.value = groSearchUi.q; wireSearchClear(q);
+    function snippet(d, words){
+      for(var i = 0; i < d.texts.length; i++){
+        var raw = d.texts[i], nr = d.nt[i];
+        if(nr.length !== raw.length) continue;
+        for(var k = 0; k < words.length; k++){
+          var ix = wsFind(nr, words[k]);
+          if(ix >= 0){
+            var a0 = Math.max(0, ix-40), b0 = Math.min(raw.length, ix+words[k].length+70);
+            return (a0>0?"…":"")+esc(raw.slice(a0,ix))+"<mark>"+esc(raw.slice(ix,ix+words[k].length))+"</mark>"+esc(raw.slice(ix+words[k].length,b0))+(b0<raw.length?"…":"");
+          }
+        }
+      }
+      return "";
+    }
+    function run(){
+      groSearchUi.q = q.value;
+      var nq = norm(q.value.trim());
+      if(!nq){ box.innerHTML = '<p class="ic-sr-hint">'+esc(t("grSrHint"))+'</p>'; return; }
+      var words = nq.split(/\s+/).filter(Boolean);
+      var res = groDocs(book).filter(function(d){ return words.every(function(w){ return wsFind(d.nh, w)>-1 || d.nt.some(function(x){ return wsFind(x, w)>-1; }); }); });
+      if(!res.length){ box.innerHTML = '<p class="ic-sr-hint">'+esc(t("grNoRes"))+'</p>'; return; }
+      var LIM = 60;
+      box.innerHTML = '<p class="ic-sr-hint">'+esc(t("found",{n:res.length}))+'</p><ul class="ic-sr-ul">'+res.slice(0,LIM).map(function(d){
+        var sn = snippet(d, words);
+        var href = d.kind==="p" ? hrefFor(book,"text") : hrefFor(book,"plate/"+d.plate);
+        var meta = d.kind==="p" ? esc(t("bkTabText")) : esc(t("pageAbbr"))+' '+esc(d.page||"");
+        return '<li><a class="ic-sr-a ic-rp-sra" href="'+esc(href)+'" data-kind="'+d.kind+'" data-id="'+esc(d.id||"")+'" data-plate="'+esc(d.plate||"")+'"><span class="ic-rp-srb"><span class="ic-sr-t">'+esc(d.title)+'</span>'+(sn ? '<span class="ic-sr-snip">'+sn+'</span>' : "")+'</span><span class="ic-rp-srp">'+meta+'</span></a></li>';
+      }).join("")+'</ul>'+(res.length>LIM ? '<p class="ic-sr-hint">'+esc(t("rpSrMore",{n:res.length-LIM}))+'</p>' : "");
+    }
+    q.addEventListener("input", function(){ clearTimeout(timer); timer = setTimeout(run, 120); });
+    form.addEventListener("submit", function(e){ e.preventDefault(); clearTimeout(timer); run(); q.blur(); });
+    box.addEventListener("click", function(e){
+      var a = e.target.closest("a.ic-sr-a"); if(!a) return;
+      e.preventDefault();
+      if(a.getAttribute("data-kind")==="p"){
+        chCtx = {hash:hrefFor(book,"text"), type:"ripa", label:""};
+        ripaHl = {id:"", q:q.value.trim()}; namesUi.pos[location.hash] = window.scrollY;
+        location.hash = hrefFor(book,"text").replace(/^#/,"");
+      } else groOpen(book, a.getAttribute("data-plate"), a.getAttribute("data-id"), q.value);
+    });
+    var topB = root.querySelector('[data-rb="top"]'); if(topB) topB.addEventListener("click", function(){ hardScrollTo(0); });
+    run();
+    state.scroll = 0;
+    if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return false; }});
+    nudgeRepaint();
+  }
+  // Пред./След. карточек таблиц — заменяют запись истории
+  function groStep(book, n){
+    var h = hrefFor(book, "plate/"+n);
+    if(ctxActiveFor(RIPA_CTX)) chCtx = {hash:h, type:"ripa", label:""};
+    ripaHl = null;
+    location.replace(h);
+  }
+
+  var groFocus = null;   // номер таблицы, к которой должна прокрутиться сетка при возврате из карточки через вкладку «Таблицы»
+  function groToList(book, n){
+    groFocus = n; namesUi.pos[location.hash] = window.scrollY;
+    var h = hrefFor(book, "plates");
+    if(location.hash === h){ route(); return; }
+    location.hash = h.replace(/^#/,"");
+  }
+  // Карточка таблицы: гравюра с метками, список предметов (содержимое прежнее) в общем каркасе книги; «Пред./След.» по порядку книги
+  function renderGroCard(book, plateNum, opts){
+    var gen = renderGen, n = String(plateNum), G = groPlates(book), P = G.by[n], keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null, rbSheets = [];
+    if(!P){ location.replace(hrefFor(book,"plates")); return; }
+    restoreState(book.slug);
+    var objs = P.objs, plateMeta = P.meta, src = BASE+"books/"+book.slug+"/img/"+objs[0].plate_img, title = groPlateTitle(P);
+    var introArr = plateMeta["intro_"+state.lang] || plateMeta.intro_ru;
+    var introHtml = introArr && introArr.length ? '<div class="ic-plate-intro ic-text">'+paraHtml(introArr)+'</div>' : "";
+    var cap = plateMeta["caption_"+state.lang] || plateMeta.caption_ru || plateMeta.caption_fr || "";
+    var hotspots = objs.map(function(it){
+      var box = it.bbox || [0,0,10,10];
+      return '<button type="button" class="ic-hotspot'+(ready(it, book)?" on":"")+'" data-id="'+it.id+'" style="left:'+box[0]+'%;top:'+box[1]+'%;width:'+box[2]+'%;height:'+box[3]+'%" aria-label="'+esc(it.num||"")+'"><span>'+esc(it.num||"")+'</span></button>';
+    }).join("");
+    var pi = G.list.indexOf(P), prev = pi > 0 ? G.list[pi-1] : null, next = pi < G.list.length-1 ? G.list[pi+1] : null;
+    var pgLbl = esc(t("pageAbbr"))+' '+esc(objs[0].page||"");
+    var rbar = '<div class="ic-rbar-row">'+
+        '<button type="button" class="ic-rbar-lbl ic-rbar-lbl-b" data-rb="tolist" aria-label="'+esc(t("audTables")+": "+title)+'"><span class="ic-rbar-pos-ch">'+esc(title)+'</span><span class="ic-rbar-pos-pg">'+pgLbl+'</span></button>'+
+        '<button type="button" class="ic-rbar-nv" data-nav="prev" data-go="'+(prev?prev.n:"")+'"'+(prev?' title="'+esc(groPlateTitle(prev))+'"':" disabled")+'>'+t("navPrev")+'</button>'+
+        '<button type="button" class="ic-rbar-nv" data-nav="next" data-go="'+(next?next.n:"")+'"'+(next?' title="'+esc(groPlateTitle(next))+'"':" disabled")+'>'+t("navNext")+'</button>'+
+      '</div>'+langSwitch();
+    var pager = '<div class="ic-pager ic-rp-pager">'+
+        (prev ? '<button type="button" class="ic-rp-nb ic-rp-nb-prev" data-go="'+prev.n+'">'+RP_CHEV_L+'<span class="ic-rp-nb-t"><small>'+t("rpPrevFull")+'</small><span>'+esc(groPlateTitle(prev))+'</span></span></button>' : '<span></span>')+
+        (next ? '<button type="button" class="ic-rp-nb ic-rp-nb-next" data-go="'+next.n+'"><span class="ic-rp-nb-t"><small>'+t("rpNextFull")+'</small><span>'+esc(groPlateTitle(next))+'</span></span>'+RP_CHEV_R+'</button>' : '<span></span>')+
+      '</div>';
+    root.innerHTML = ripaShell(book, "plates", rbar, RIPA_CTX)+
+      '<div class="ic-ch-outer"><div class="ic-wrap ic-rp ic-rp-gro"><div class="ic-top-row">'+langSwitch()+'</div>'+
+        '<header class="ic-head"><p class="ic-kicker">'+esc(partLabel(book, P.part))+'</p><h1 class="ic-h-fr">'+esc(title)+'</h1></header>'+
+        introHtml+
+        '<div class="ic-plate-wrap"><img class="ic-fade-img" src="'+esc(src)+'" alt="">'+hotspots+'</div>'+
+        (cap ? '<p class="ic-plate-caption">'+esc(cap)+'</p>' : "")+
+        '<div class="ic-view-toggle" role="group">'+
+          '<button type="button" class="ic-ov-b" data-view="list" aria-pressed="true">'+t("viewList")+'</button>'+
+          '<button type="button" class="ic-ov-b" data-view="book" aria-pressed="false">'+t("viewBook")+'</button>'+
+        '</div>'+
+        '<div class="ic-view-body" data-view="list">'+objListHtml(book, objs)+'</div>'+
+        pager+
+      '</div></div>';
+    ripaBind(book, gen, rbSheets);
+    root.querySelectorAll("[data-go]").forEach(function(b){ b.addEventListener("click", function(){ var g = b.getAttribute("data-go"); if(g) groStep(book, g); }); });
+    var toListB = root.querySelector('[data-rb="tolist"]'); if(toListB) toListB.addEventListener("click", function(){ groToList(book, n); });
+    var tabL = root.querySelector('.ic-bt-tabs a[href="'+hrefFor(book,"plates")+'"]');
+    if(tabL) tabL.addEventListener("click", function(e){ if(e.metaKey||e.ctrlKey||e.shiftKey||e.button) return; e.preventDefault(); groToList(book, n); });
+    wireObjList(book, objs);
+    var viewBody = root.querySelector(".ic-view-body");
+    root.querySelectorAll(".ic-view-toggle .ic-ov-b").forEach(function(b){
+      b.addEventListener("click", function(){
+        root.querySelectorAll(".ic-view-toggle .ic-ov-b").forEach(function(x){ x.setAttribute("aria-pressed", x===b); });
+        var v = b.getAttribute("data-view"); viewBody.setAttribute("data-view", v);
+        if(v==="book"){ viewBody.innerHTML = '<div class="ic-text ic-book-text">'+bookTextHtml(book, objs)+'</div>'; wireBookText(book, objs, viewBody); }
+        else { viewBody.innerHTML = objListHtml(book, objs); wireObjList(book, objs); }
+      });
+    });
+    root.querySelectorAll(".ic-hotspot").forEach(function(b){
+      b.addEventListener("click", function(){
+        var id = b.getAttribute("data-id");
+        if(isPhoneWidth()) openObjectSheet(book, objs, objs.indexOf(book.byId[id])); else openObjectInline(book, id);
+      });
+    });
+    var hl = ripaHl && ripaHl.id ? ripaHl : null; ripaHl = null;
+    var focusId = hl ? hl.id : (opts && opts.focus);
+    state.scroll = 0;
+    if(focusId && book.byId[focusId]){
+      if(isPhoneWidth()){
+        openObjectSheet(book, objs, objs.indexOf(book.byId[focusId]));
+        if(hl){ var sbody = document.querySelector(".ic-sheet-body"), m1 = groMarkWord(sbody, hl.q); if(m1) hlFadeOut(null, [m1], gen); }
+      } else {
+        openObjectInline(book, focusId);
+        if(hl) setTimeout(function(){
+          if(gen !== renderGen) return;
+          var li = root.querySelector('.ic-obj[data-id="'+focusId+'"]'), m2 = li && groMarkWord(li, hl.q);
+          if(m2){ groScrollTo(m2, gen); hlFadeOut(null, [m2], gen); }
+        }, 150);
+      }
+    } else if(keepPos) restoreBlockPos(keepPos, gen);
+    else toTop();
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return !!activeSheetClose || !!sv || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
+    nudgeRepaint();
+  }
+  function renderGroRoute(book, p){
+    var v = p.view;
+    if((!v && !p.id) || v==="home" || v==="about" || v==="find" || v==="list" || v==="tavola" || v==="names" || v==="chapter"){ location.replace(hrefFor(book,"plates")); return; }
+    try{
+      if(v==="plates") renderGroPlates(book);
+      else if(v==="text") renderGroText(book);
+      else if(v==="search") renderGroSearch(book);
+      else if(v==="plate") renderGroCard(book, p.plateNum);
+      else if(p.id && book.byId[p.id]) renderGroCard(book, book.byId[p.id].plate, {focus:p.id});
+      else location.replace(hrefFor(book,"plates"));
+    }catch(err){
+      if(window.console && console.error) console.error("grosson render failed", err);
+      unlockBodyScroll();
+    }
   }
 
   /* ---------- Мотивы: поиск гравюр по изображённым предметам (#/motifs) ----------
@@ -6255,7 +6590,7 @@
         var val = fieldVal(it, key);
         if(!val) return;
         var label = book.meta.fields[key][state.lang] || book.meta.fields[key].ru;
-        fieldsHtml += '<li><b>'+esc(label)+'</b><span>'+esc(val)+'</span></li>';
+        fieldsHtml += '<li><b>'+esc(label)+'</b><span>'+(isGro(book) ? groFieldHtml(val) : esc(val))+'</span></li>';
       });
     }
     var translArr = textFor(it, book);
@@ -6269,6 +6604,7 @@
     return imgHtml+
       (fieldsHtml?'<section class="ic-sec"><h3>'+t("infoSec")+'</h3><ul class="ic-attrs">'+fieldsHtml+'</ul></section>':"")+
       (transl?'<section class="ic-sec"><h3>'+t("translSec")+'</h3><div class="ic-text">'+transl+'</div></section>':"")+
+      (isGro(book) && groNoteOf(it) ? '<p class="ic-gro-note"><b>'+esc(t("grNote"))+'.</b> '+esc(groNoteOf(it))+'</p>' : "")+
       ((hasScans||hasFr)?renderOriginal(it,book):"");
   }
   function bindObjectDetail(book, it, container){
@@ -6281,7 +6617,7 @@
   }
   function objListHtml(book, objs){
     return '<ul class="ic-objlist">'+objs.map(function(it){
-      return '<li class="ic-obj" data-id="'+it.id+'">'+
+      return '<li class="ic-obj" data-id="'+it.id+'" data-anchor="o'+it.id+'">'+
         '<details class="ic-obj-d">'+
           '<summary class="ic-obj-sum">'+
             '<span class="ic-obj-num">'+esc(it.num||"")+'</span>'+
@@ -6333,7 +6669,9 @@
       if(!arr || !arr.length) return "";
       var html = paraHtml(arr);
       var marker = '<a href="#" class="ic-numref" data-id="'+it.id+'">'+esc(it.num||"")+'</a> ';
-      return html.replace(/^<p>/, "<p>"+marker);
+      html = html.replace(/^<p>/, "<p>"+marker);
+      if(isGro(book) && groNoteOf(it)) html += '<p class="ic-gro-note"><b>'+esc(t("grNote"))+'.</b> '+esc(groNoteOf(it))+'</p>';
+      return html;
     }).join("");
   }
   function wireBookText(book, objs, container){
@@ -6435,6 +6773,7 @@
     },{passive:true});
   }
   function renderPlate(book, plateNum, opts){
+    if(isGro(book)){ renderGroCard(book, plateNum, opts); return; }
     var n = String(plateNum);
     var objs = book.items.filter(function(it){ return String(it.plate)===n; });
     if(!objs.length){ goIndex(book); return; }
