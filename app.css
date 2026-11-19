@@ -2035,24 +2035,34 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-mot-grid{margin-top:16px}
 .ic .ic-mot-grid .ic-gal-cap{display:block;-webkit-line-clamp:unset;overflow:visible}
 .ic .ic-mot-kids{margin:12px 0 0}
-/* выбор книги: одна светлая кнопка (как плитки мотивов) и тёмная шторка из-под строки разделов (тот же .ic-rb-sheet, что «Часть»/«Порядок» Рипы) */
-.ic .ic-mot-bookbtn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;height:44px;box-sizing:border-box;margin:14px 0 0;padding:0 14px;border-radius:9px;
-  background:var(--sheet);border:1px solid rgba(28,24,19,.22);color:var(--ink);font:inherit;font-size:.95em;line-height:1.2;text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.ic .ic-mot-bookbtn:active{background:#e6dec9}
+/* выбор книги: раскрывающееся поле во всю ширину колонки (светлый фон, рамка 1px, скругление 10, как плитки); раскрывается анимацией высоты (app.js, motBkSet) */
+.ic .ic-mot-bk{margin:14px 0 0;border:1px solid rgba(28,24,19,.22);border-radius:10px;background:var(--sheet);overflow:hidden}
+.ic .ic-mot-bookbtn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;height:44px;box-sizing:border-box;margin:0;padding:0 14px;border:0;border-radius:0;
+  background:transparent;color:var(--ink);font:inherit;font-size:.95em;line-height:1.2;text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .ic .ic-mot-bookbtn:focus{outline:none}
-.ic .ic-mot-bookbtn .ic-mot-chev{flex:none;transition:transform .2s ease}
-.ic .ic-mot-bookbtn[aria-pressed="true"] .ic-mot-chev{transform:rotate(180deg)}
-.ic .ic-mot-bkttl{font-family:var(--serif);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:rgba(236,229,212,.7);padding:12px 14px 4px}
-.ic .ic-mot-bkrow{gap:12px;justify-content:flex-start}
-.ic .ic-mot-bkth{flex:none;width:34px;height:46px;display:block}
-.ic .ic-mot-bkth img{width:34px;height:46px;object-fit:cover;border-radius:3px;display:block;box-shadow:0 0 0 1px rgba(236,229,212,.2)}
+.ic .ic-mot-bookbtn:focus-visible{outline:2px solid rgba(28,24,19,.5);outline-offset:-3px;border-radius:9px}
+.ic .ic-mot-bookbtn .ic-mot-chev{flex:none;transition:transform .28s ease}
+.ic .ic-mot-bk.ic-open .ic-mot-chev{transform:rotate(180deg)}
+@media (prefers-reduced-motion:reduce){.ic .ic-mot-bookbtn .ic-mot-chev{transition:none}}
+.ic .ic-mot-bkbody{overflow:hidden;padding:0 0 6px}
+.ic .ic-mot-bkbody[hidden]{display:none}
+.ic .ic-mot-bkrow{position:relative;display:flex;align-items:center;gap:12px;width:calc(100% - 12px);min-height:56px;box-sizing:border-box;margin:0 6px;padding:8px 10px;border:0;border-radius:8px;background:transparent;
+  font:inherit;text-align:left;color:var(--ink);cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:inset 0 0 0 1px transparent}
+.ic .ic-mot-bkrow:focus{outline:none}
+.ic .ic-mot-bkrow:focus-visible{outline:2px solid rgba(28,24,19,.5);outline-offset:-2px}
+.ic .ic-mot-bkrow + .ic-mot-bkrow::before{content:"";position:absolute;left:10px;right:10px;top:-1px;height:1px;background:linear-gradient(90deg,rgba(28,24,19,0),rgba(28,24,19,.22) 18%,rgba(28,24,19,.22) 82%,rgba(28,24,19,0));pointer-events:none}
+.ic .ic-mot-bkrow[aria-checked="true"]{background:rgba(255,255,255,.5);box-shadow:inset 0 0 0 1px rgba(28,24,19,.2)}
+.ic .ic-mot-bkrow[aria-checked="true"]::before,.ic .ic-mot-bkrow[aria-checked="true"] + .ic-mot-bkrow::before{opacity:0}
+.ic .ic-mot-bkth{flex:none;width:30px;height:42px;display:flex;align-items:center}
+.ic .ic-mot-bkth img{width:30px;height:42px;object-fit:cover;border-radius:3px;display:block;box-shadow:0 0 0 1px rgba(28,24,19,.25)}
+.ic .ic-mot-bkth2{width:44px}
+.ic .ic-mot-bkth2 img{width:24px;height:34px}
+.ic .ic-mot-bkth2 img + img{margin-left:-6px}
 .ic .ic-mot-bktx{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:2px}
-.ic .ic-mot-bktx b{font-weight:500}
-.ic .ic-mot-bktx small{font-size:.82em;color:rgba(236,229,212,.6);line-height:1.3}
-.ic .ic-mot-chk{flex:none;visibility:hidden;color:rgb(236,229,212)}
-.ic .ic-mot-bkrow[aria-pressed="true"] .ic-mot-chk{visibility:visible}
-.ic .ic-mot-bsheet .ic-rb-sheet-slide{will-change:auto}   /* на страницах «Мотивов» will-change не используется (артефакты на iPhone); анимация сдвига шторки работает и без него */
-.ic .ic-mot-bknote{margin:8px 14px 0;padding-bottom:calc(16px + env(safe-area-inset-bottom));font-size:.78em;line-height:1.4;color:rgba(236,229,212,.5)}
+.ic .ic-mot-bktx b{font-weight:500;font-size:.95em}
+.ic .ic-mot-bktx small{font-size:.8em;color:var(--soft);line-height:1.3}
+.ic .ic-mot-chk{flex:none;visibility:hidden;color:var(--ink)}
+.ic .ic-mot-bkrow[aria-checked="true"] .ic-mot-chk{visibility:visible}
 /* метки на карточке статьи и на странице мотива */
 .ic .ic-mot-sec[hidden]{display:none}
 .ic .ic-mot-tags{display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:8px}

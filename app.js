@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "260";
+  var APP_VER = "261";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -147,8 +147,6 @@
     motBkBtn:     {ru:"Книги: {b}", en:"Books: {b}", fr:"Livres : {b}"},
     motBkAllS:    {ru:"все", en:"all", fr:"tous"},
     motBkTtl:     {ru:"Искать в книгах", en:"Search in books", fr:"Chercher dans les livres"},
-    motBkNote:    {ru:"Другие книги появятся здесь, когда для них будут размечены мотивы", en:"Other books will appear here once their motifs are marked up", fr:"D’autres livres apparaîtront ici lorsque leurs motifs seront balisés"},
-    motBkWith:    {ru:"с мотивами", en:"with motifs", fr:"avec motifs"},
     motOf:        {ru:"из", en:"of", fr:"sur"},
     motTabBooks:  {ru:"Книги", en:"Books", fr:"Livres"},
     motNone:      {ru:"Ничего не найдено", en:"Nothing found", fr:"Aucun résultat"},
@@ -1927,7 +1925,7 @@
     // .ic-rbar) и есть на страницах БЕЗ строки раздела вовсе — там .ic-rbar
     // нет, и низ «стека» — это просто низ самого headerStackH() (шапка+
     // вкладки), без высоты капсулы.
-    var bottom = rbar && rbar.closest(".ic-mot-rwrap") ? rbar.getBoundingClientRect().bottom : headerStackH() + (rbar ? rbar.getBoundingClientRect().height : 0);   // «Мотивы»: строка прилипает сама — низ берём из реального положения
+    var bottom = headerStackH() + (rbar ? rbar.getBoundingClientRect().height : 0);
     var maxh = Math.max(120, vh - bottom - 8);
     document.documentElement.style.setProperty("--ic-sheet-maxh", maxh+"px");
     // --ic-rbar-bottom — тот же "bottom" (нижняя граница .ic-rbar от верха
@@ -3007,6 +3005,7 @@
   var MOT_CATS = ["предмет","оружие","животное","растение","небесное","поза и жест","черта фигуры","место и постройка","персонаж"];
   var MOT_CAT_KEY = {"предмет":"motCObj","оружие":"motCWeap","животное":"motCAnim","растение":"motCPlant","небесное":"motCSky","поза и жест":"motCPose","черта фигуры":"motCTrait","место и постройка":"motCPlace","персонаж":"motCChar"};
   var MOT = {ready:false, cbs:null, books:[], byArt:{}, vocab:{}};
+  var MOT_CUR = "all";   // выбранные книги страницы «Мотивы» (param адреса)
   var MOT_BOOK = {slug:"motifs", meta:{}};
   var motUi = {q:"", cat:"all", find:false};
   var MOT_ALL_LBL = {
@@ -3065,16 +3064,13 @@
     return {nodes:nodes, list:order.filter(function(n){ return n.all.length > 0; })};
   }
   function motSort(a, b){ return b.all.length - a.all.length || motName(a).localeCompare(motName(b), state.lang); }
-  // Выбор книги: одна кнопка «Книги: все ▾» под строкой-пояснением и тёмная шторка из-под строки разделов (тот же механизм makeRbSheet, что у «Часть»/«Порядок» Рипы)
+  // Выбор книги: раскрывающееся поле «Книги: все ▾» (заголовок-кнопка + строки «Все книги» / по книге); раскрывается на месте анимацией высоты контейнера (~280 мс, ease-out) и opacity строк
   var MOT_CHEV = '<svg class="ic-mot-chev" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true"><path d="M1.5 1.5 6 6l4.5-4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var MOT_CHK = '<svg class="ic-mot-chk" width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true"><path d="M1.5 6.5 5.5 10.5 14.5 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var T_BK = 280;
   function motBookLabel(cur){ return t("motBkBtn",{b: cur.all ? t("motBkAllS") : motBookName(MOT.books.filter(function(b){ return b.slug === cur.sel[0]; })[0] || {name:{}, slug:cur.sel[0]})}); }
-  function motBooksBtn(cur){
-    if(MOT.books.length < 2) return "";   // у одной книги выбирать нечего
-    return '<button type="button" class="ic-mot-bookbtn" aria-haspopup="true" aria-pressed="false">'+esc(motBookLabel(cur))+MOT_CHEV+'</button>';
-  }
   function motBkCount(b){ var seen = {}; Object.keys(b.bind).forEach(function(k){ b.bind[k].forEach(function(a){ seen[a] = 1; }); }); return Object.keys(seen).length; }
-  // сведения для строк шторки (обложка, автор, год) — из library.json и book.json; грузятся один раз
+  // сведения для строк (обложка, автор, год) — из library.json и book.json; грузятся один раз
   function motBookInfo(cb){
     if(MOT.info){ cb(MOT.info); return; }
     loadLibrary(function(list){
@@ -3093,36 +3089,77 @@
     var L = state.lang, a = m.libAuthor ? (m.libAuthor[L] || m.libAuthor.ru) : m.author;
     return [a, m.year].filter(Boolean).join(", ");
   }
-  function motBooksSheetHtml(cur, info){
+  function motBkRows(cur, info){
     var names = MOT.books.map(function(b){ return motBookName(b); }).join(", ");
-    var rows = '<button type="button" class="ic-tv-typerow ic-mot-bkrow" data-bk="all" aria-pressed="'+cur.all+'"><span class="ic-mot-bkth"></span><span class="ic-mot-bktx"><b>'+esc(t("motAllBooks"))+'</b><small>'+esc(names)+'</small></span>'+MOT_CHK+'</button>'+
+    function th(slug){ var inf = info && info[slug]; return inf && inf.thumb ? '<img src="'+esc(inf.thumb)+'" alt="" decoding="async">' : ""; }
+    return '<button type="button" class="ic-mot-bkrow ic-mot-bkall" role="radio" data-bk="all" aria-checked="'+cur.all+'"><span class="ic-mot-bkth ic-mot-bkth2">'+MOT.books.slice(0,2).map(function(b){ return th(b.slug); }).join("")+'</span><span class="ic-mot-bktx"><b>'+esc(t("motAllBooks"))+'</b><small>'+esc(names)+'</small></span>'+MOT_CHK+'</button>'+
       MOT.books.map(function(b){
         var inf = info && info[b.slug], sub = inf ? motBkSub(inf.m) : "";
-        return '<button type="button" class="ic-tv-typerow ic-mot-bkrow" data-bk="'+esc(b.slug)+'" aria-pressed="'+(!cur.all && cur.sel[0] === b.slug)+'"><span class="ic-mot-bkth">'+(inf && inf.thumb ? '<img src="'+esc(inf.thumb)+'" alt="" decoding="async">' : "")+'</span>'+
-          '<span class="ic-mot-bktx"><b>'+esc(motBookName(b))+'</b><small>'+esc((sub ? sub+" · " : "")+motNum(motBkCount(b))+" "+t("motBkWith"))+'</small></span>'+MOT_CHK+'</button>';
+        return '<button type="button" class="ic-mot-bkrow" role="radio" data-bk="'+esc(b.slug)+'" aria-checked="'+(!cur.all && cur.sel[0] === b.slug)+'"><span class="ic-mot-bkth">'+th(b.slug)+'</span>'+
+          '<span class="ic-mot-bktx"><b>'+esc(motBookName(b))+'</b><small>'+esc((sub ? sub+" · " : "")+motNum(motBkCount(b)))+'</small></span>'+MOT_CHK+'</button>';
       }).join("");
-    return rbSheetHtml("ic-mot-bsheet", "ic-mot-bsheet", '<span class="ic-mot-bkttl">'+esc(t("motBkTtl"))+'</span>',
-      '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("motBkTtl"))+'">'+rows+'</div><p class="ic-mot-bknote">'+esc(t("motBkNote"))+'</p>');
   }
-  // host — контейнер страницы с кнопками «Книги: …» (клик по ним перехватывается делегированием); шторка живёт в обёртке строки разделов
+  function motBooksBtn(cur){
+    if(MOT.books.length < 2) return "";   // у одной книги выбирать нечего
+    return '<div class="ic-mot-bk"><button type="button" class="ic-mot-bookbtn" aria-expanded="false" aria-haspopup="true"><span class="ic-mot-bkhl">'+esc(motBookLabel(cur))+'</span>'+MOT_CHEV+'</button>'+
+      '<div class="ic-mot-bkbody" role="radiogroup" aria-label="'+esc(t("motBkTtl"))+'" hidden>'+motBkRows(cur, MOT.info)+'</div></div>';
+  }
+  function motBkReduce(){ return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches); }
+  // раскрыть/свернуть: только высота контейнера и opacity строк (transform страницы не используется); done — по окончании
+  function motBkSet(box, open, done){
+    var hd = box.querySelector(".ic-mot-bookbtn"), body = box.querySelector(".ic-mot-bkbody"), hl = box.querySelector(".ic-mot-bkhl");
+    if(box.classList.contains("ic-open") === open){ if(done) done(); return; }
+    box.classList.toggle("ic-open", open); hd.setAttribute("aria-expanded", open ? "true" : "false");
+    if(open) hl.textContent = t("motBkTtl");
+    body.getAnimations().forEach(function(a){ a.cancel(); });
+    var rows = [].slice.call(body.querySelectorAll(".ic-mot-bkrow"));
+    rows.forEach(function(r){ r.getAnimations().forEach(function(a){ a.cancel(); }); });
+    if(motBkReduce()){ body.hidden = !open; if(done) done(); return; }
+    var H = open ? (body.hidden = false, body.scrollHeight) : body.offsetHeight;
+    var a = body.animate([{height:(open ? 0 : H)+"px"},{height:(open ? H : 0)+"px"}], {duration:T_BK, easing:"cubic-bezier(0,0,.2,1)", fill:"both"});
+    rows.forEach(function(r){ r.animate([{opacity:open ? 0 : 1},{opacity:open ? 1 : 0}], {duration:T_BK, easing:"cubic-bezier(0,0,.2,1)", fill:"both"}); });
+    a.onfinish = function(){
+      a.cancel(); rows.forEach(function(r){ r.getAnimations().forEach(function(x){ x.cancel(); }); });
+      if(!open) body.hidden = true;
+      if(done) done();
+    };
+  }
+  var motBkDoc = false;
+  // host — контейнер со всеми такими полями страницы (делегирование); cur — выбранные книги, mid — мотив (или null)
   function motMountBooks(host, cur, mid){
-    var rw = root.querySelector(":scope > .ic-stack .ic-mot-rwrap"); if(!rw || MOT.books.length < 2) return null;
-    var old = rw.querySelector(".ic-rb-sheet"); if(old) rw.removeChild(old);
-    var holder = document.createElement("div"); holder.innerHTML = motBooksSheetHtml(cur, MOT.info);
-    var sh = holder.firstChild; rw.appendChild(sh);
-    var reg = [], api = makeRbSheet(sh, {setAttribute:function(k, v){ [].forEach.call(root.querySelectorAll(".ic-mot-bookbtn"), function(b){ b.setAttribute(k, v); }); }}, {registry:reg});
-    if(!MOT.info) motBookInfo(function(){ if(sh.isConnected){ var h = document.createElement("div"); h.innerHTML = motBooksSheetHtml(cur, MOT.info); var wasOpen = api.isOpen(); var ns = h.firstChild; sh.querySelector(".ic-rb-sheet-panel").innerHTML = ns.querySelector(".ic-rb-sheet-panel").innerHTML; } });
+    if(!host || MOT.books.length < 2) return;
+    if(!MOT.info) motBookInfo(function(){ [].forEach.call(root.querySelectorAll(".ic-mot-bkbody"), function(b){ b.innerHTML = motBkRows(cur, MOT.info); }); });
     host.addEventListener("click", function(e){
-      var b = e.target.closest(".ic-mot-bookbtn"); if(!b) return;
-      api.toggle();
-    });
-    sh.addEventListener("click", function(e){
+      var box = e.target.closest(".ic-mot-bk"); if(!box) return;
+      if(e.target.closest(".ic-mot-bookbtn")){
+        var open = !box.classList.contains("ic-open");
+        motBkSet(box, open);
+        if(!open) box.querySelector(".ic-mot-bkhl").textContent = motBookLabel(cur);
+        return;
+      }
       var r = e.target.closest("[data-bk]"); if(!r) return;
-      var s = r.getAttribute("data-bk"); api.close();
-      if(s === (cur.all ? "all" : cur.sel[0])) return;
-      location.replace(motHref(s, mid));
+      var sl = r.getAttribute("data-bk"), same = sl === (cur.all ? "all" : cur.sel[0]);
+      box.querySelector(".ic-mot-bkhl").textContent = motBookLabel(motSelect(sl));   // выбор сразу виден в заголовке
+      [].forEach.call(box.querySelectorAll("[data-bk]"), function(x){ x.setAttribute("aria-checked", x === r ? "true" : "false"); });
+      motBkSet(box, false, function(){ if(!same) location.replace(motHref(sl, mid)); });
     });
-    return api;
+    host.addEventListener("keydown", function(e){
+      var box = e.target.closest && e.target.closest(".ic-mot-bk"); if(!box) return;
+      if(e.key === "Escape" && box.classList.contains("ic-open")){ e.preventDefault(); motBkSet(box, false); box.querySelector(".ic-mot-bkhl").textContent = motBookLabel(cur); box.querySelector(".ic-mot-bookbtn").focus(); return; }
+      if((e.key === "ArrowDown" || e.key === "ArrowUp") && e.target.closest(".ic-mot-bkbody")){
+        var rows = [].slice.call(box.querySelectorAll(".ic-mot-bkrow")), i = rows.indexOf(e.target.closest(".ic-mot-bkrow"));
+        e.preventDefault(); rows[(i + (e.key === "ArrowDown" ? 1 : rows.length - 1)) % rows.length].focus();
+      }
+    });
+    if(!motBkDoc){   // тап вне поля сворачивает его без изменений (один слушатель на документ)
+      motBkDoc = true;
+      document.addEventListener("click", function(e){
+        [].forEach.call(document.querySelectorAll(".ic-mot-bk.ic-open"), function(box){
+          if(box.contains(e.target)) return;
+          motBkSet(box, false); var hl = box.querySelector(".ic-mot-bkhl"), cu = motSelect(MOT_CUR); hl.textContent = motBookLabel(cu);
+        });
+      }, true);
+    }
   }
   // Шапка «Мотивов» и главной библиотеки: переключатель «Книги | Мотивы» (одна капсула, подложка выбранной половины переезжает)
   function motTop(active){
@@ -3380,7 +3417,7 @@
       '</div>';
     rbarEl.innerHTML = strip;
     pane.innerHTML = '<div class="ic-top-row">'+langSwitch()+'</div><div class="ic-mot-body"></div>';
-    var bkBtn = motBooksBtn(cur);
+    var bkBtn = motBooksBtn(cur); MOT_CUR = cur.param;
     motMountBooks(pane, cur, null);
     var bar = rbarEl.querySelector(".ic-mot-bar"), tabsEl = bar.querySelector(".ic-mot-tabs"), body = pane.querySelector(".ic-mot-body"),
         findIn = bar.querySelector(".ic-mot-findin");
@@ -3486,7 +3523,7 @@
         '<div class="ic-mot-bkhost">'+motBooksBtn(cur)+'</div>'+grid+'</div><div id="ic-rb-dim"></div>';
     ripaBind(MOT_BOOK, gen, rbSheets);
     flowOn();
-    motMountBooks(root.querySelector(".ic-mot-bkhost"), cur, p.mid);
+    MOT_CUR = cur.param; motMountBooks(root.querySelector(".ic-mot-bkhost"), cur, p.mid);
     // назад — в каталог на тот же раздел и место прокрутки (если пришли из каталога — шаг истории назад)
     root.querySelector(".ic-mot-back").addEventListener("click", function(){
       if(cameFromHash && /^#\/motifs(\/[^\/]*)?$/.test(cameFromHash)) history.back(); else location.hash = "#/motifs";
