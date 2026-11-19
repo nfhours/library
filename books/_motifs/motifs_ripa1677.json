@@ -1,8038 +1,2578 @@
 {
+ "book": "iconologie",
  "source": "books/iconologie/entries.json attrs[].what (Ripa 1677)",
- "n_motifs": 439,
- "n_merged": 7,
- "n_articles": 444,
- "categories": [
-  "животное",
-  "место и постройка",
-  "небесное",
-  "оружие",
-  "персонаж",
-  "поза и жест",
-  "предмет",
-  "растение",
-  "черта фигуры"
- ],
- "motifs": [
-  {
-   "id": "wreath",
-   "ru": "венок",
-   "en": "wreath",
-   "fr": "couronne",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "amaranth-wreath",
-    "flower-wreath",
-    "grass-crown",
-    "hemp-wreath",
-    "hyacinth-wreath",
-    "hyssop-wreath",
-    "iris-crown",
-    "juniper-wreath",
-    "laurel-crown",
-    "leaf-wreath",
-    "mulberry-wreath",
-    "myrtle-wreath",
-    "oak-crown",
-    "olive-crown",
-    "palm-crown",
-    "poppy-wreath",
-    "rose-wreath",
-    "rue-wreath",
-    "thorn-crown",
-    "vine-wreath",
-    "wheat-wreath"
-   ],
-   "count": 11,
-   "count_with_children": 80,
-   "merged_from": [],
-   "articles": [
-    "p1-66",
-    "p1-83",
-    "p1-136",
-    "p1-172",
-    "p2-5",
-    "p2-23",
-    "p2-27",
-    "p2-89",
-    "p2-98",
-    "p2-103",
-    "p2-250"
-   ]
-  },
-  {
-   "id": "weapon",
-   "ru": "оружие",
-   "en": "weapons",
-   "fr": "armes",
-   "category": "оружие",
-   "parent": null,
-   "children": [
-    "arrow",
-    "bow",
-    "club",
-    "dagger",
-    "javelin",
-    "musket",
-    "pike",
-    "spear",
-    "sword"
-   ],
-   "count": 5,
-   "count_with_children": 75,
-   "merged_from": [],
-   "articles": [
-    "p1-16",
-    "p1-54",
-    "p2-7",
-    "p2-100",
-    "p2-114"
-   ]
-  },
-  {
-   "id": "wing",
-   "ru": "крылья",
-   "en": "wings",
-   "fr": "ailes",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 74,
-   "count_with_children": 74,
-   "merged_from": [],
-   "articles": [
-    "p1-5",
-    "p1-6",
-    "p1-9",
-    "p1-11",
-    "p1-15",
-    "p1-17",
-    "p1-36",
-    "p1-37",
-    "p1-42",
-    "p1-54",
-    "p1-57",
-    "p1-60",
-    "p1-76",
-    "p1-79",
-    "p1-81",
-    "p1-84",
-    "p1-93",
-    "p1-114",
-    "p1-119",
-    "p1-126",
-    "p1-127",
-    "p1-151",
-    "p1-154",
-    "p1-156",
-    "p1-167",
-    "p1-173",
-    "p2-17",
-    "p2-18",
-    "p2-19",
-    "p2-20",
-    "p2-21",
-    "p2-22",
-    "p2-24",
-    "p2-25",
-    "p2-26",
-    "p2-27",
-    "p2-28",
-    "p2-29",
-    "p2-30",
-    "p2-31",
-    "p2-32",
-    "p2-33",
-    "p2-34",
-    "p2-35",
-    "p2-36",
-    "p2-59",
-    "p2-62",
-    "p2-65",
-    "p2-66",
-    "p2-70",
-    "p2-82",
-    "p2-83",
-    "p2-84",
-    "p2-84a",
-    "p2-91",
-    "p2-97",
-    "p2-98",
-    "p2-99",
-    "p2-105",
-    "p2-105c",
-    "p2-105d",
-    "p2-111",
-    "p2-121",
-    "p2-171",
-    "p2-175",
-    "p2-180",
-    "p2-188",
-    "p2-193",
-    "p2-205",
-    "p2-215",
-    "p2-218",
-    "p2-239",
-    "p2-243",
-    "p2-256"
-   ]
-  },
-  {
-   "id": "bird",
-   "ru": "птица",
-   "en": "bird",
-   "fr": "oiseau",
-   "category": "животное",
-   "parent": null,
-   "children": [
-    "chick",
-    "crane",
-    "crow",
-    "dove",
-    "eagle",
-    "falcon",
-    "hen",
-    "kingfisher",
-    "magpie",
-    "nightingale",
-    "owl",
-    "partridge",
-    "peacock",
-    "pelican",
-    "pheasant",
-    "phoenix",
-    "quail",
-    "raven",
-    "rooster",
-    "sparrow",
-    "stork",
-    "swallow",
-    "swan",
-    "turtledove",
-    "vulture",
-    "wren"
-   ],
-   "count": 3,
-   "count_with_children": 68,
-   "merged_from": [],
-   "articles": [
-    "p1-5",
-    "p2-1",
-    "p2-97"
-   ]
-  },
-  {
-   "id": "book",
-   "ru": "книга",
-   "en": "book",
-   "fr": "livre",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 39,
-   "count_with_children": 39,
-   "merged_from": [],
-   "articles": [
-    "p1-2",
-    "p1-3",
-    "p1-16",
-    "p1-29",
-    "p1-30",
-    "p1-34",
-    "p1-42",
-    "p1-49",
-    "p1-51",
-    "p1-64",
-    "p1-76",
-    "p1-94",
-    "p1-96",
-    "p1-98",
-    "p1-104",
-    "p1-123",
-    "p1-131",
-    "p1-143",
-    "p1-144",
-    "p1-148",
-    "p1-149",
-    "p1-156",
-    "p1-166",
-    "p1-171",
-    "p2-7",
-    "p2-49",
-    "p2-51",
-    "p2-73",
-    "p2-74",
-    "p2-107",
-    "p2-125",
-    "p2-137",
-    "p2-151",
-    "p2-170",
-    "p2-201",
-    "p2-202",
-    "p2-226",
-    "p2-250",
-    "p2-262"
-   ]
-  },
-  {
-   "id": "crown",
-   "ru": "корона",
-   "en": "crown",
-   "fr": "couronne",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "diadem",
-    "radiant-crown",
-    "star-crown",
-    "tiara"
-   ],
-   "count": 33,
-   "count_with_children": 37,
-   "merged_from": [],
-   "articles": [
-    "p1-2",
-    "p1-6",
-    "p1-15",
-    "p1-22",
-    "p1-35",
-    "p1-49",
-    "p1-70",
-    "p1-75",
-    "p1-78",
-    "p1-88",
-    "p1-100",
-    "p1-107",
-    "p1-139",
-    "p1-157",
-    "p2-7",
-    "p2-51a",
-    "p2-52",
-    "p2-53",
-    "p2-54",
-    "p2-57",
-    "p2-73",
-    "p2-77",
-    "p2-111",
-    "p2-141",
-    "p2-145",
-    "p2-151",
-    "p2-153",
-    "p2-154",
-    "p2-180",
-    "p2-199",
-    "p2-235",
-    "p2-249",
-    "p2-253"
-   ]
-  },
-  {
-   "id": "flower",
-   "ru": "цветы",
-   "en": "flowers",
-   "fr": "fleurs",
-   "category": "растение",
-   "parent": null,
-   "children": [
-    "bean-flower",
-    "bouquet",
-    "heliotrope",
-    "lily",
-    "narcissus",
-    "poppy",
-    "rose",
-    "sunflower",
-    "tulip"
-   ],
-   "count": 11,
-   "count_with_children": 29,
-   "merged_from": [],
-   "articles": [
-    "p1-17",
-    "p1-89",
-    "p2-17",
-    "p2-18",
-    "p2-21",
-    "p2-22",
-    "p2-23",
-    "p2-65",
-    "p2-134",
-    "p2-140",
-    "p2-234"
-   ]
-  },
-  {
-   "id": "musical-instrument",
-   "ru": "музыкальные инструменты",
-   "en": "musical instruments",
-   "fr": "instruments de musique",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "cornett",
-    "flute",
-    "harp",
-    "horn",
-    "lute",
-    "lyre",
-    "oboe",
-    "panpipes",
-    "trumpet",
-    "viol"
-   ],
-   "count": 2,
-   "count_with_children": 29,
-   "merged_from": [],
-   "articles": [
-    "p2-7",
-    "p2-107"
-   ]
-  },
-  {
-   "id": "armor",
-   "ru": "доспехи",
-   "en": "armor",
-   "fr": "armure",
-   "category": "оружие",
-   "parent": null,
-   "children": [
-    "cuirass",
-    "helmet"
-   ],
-   "count": 10,
-   "count_with_children": 28,
-   "merged_from": [],
-   "articles": [
-    "p1-3",
-    "p1-10",
-    "p1-141",
-    "p2-15",
-    "p2-41",
-    "p2-196",
-    "p2-203",
-    "p2-213",
-    "p2-225",
-    "p2-235"
-   ]
-  },
-  {
-   "id": "eye",
-   "ru": "глаз",
-   "en": "eye",
-   "fr": "œil",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [
-    "lowered-eyes",
-    "open-eyes",
-    "raised-eyes"
-   ],
-   "count": 10,
-   "count_with_children": 27,
-   "merged_from": [],
-   "articles": [
-    "p1-102",
-    "p1-110",
-    "p1-123",
-    "p1-125",
-    "p1-140",
-    "p2-82",
-    "p2-130",
-    "p2-166",
-    "p2-193",
-    "p2-260"
-   ]
-  },
-  {
-   "id": "lion",
-   "ru": "лев",
-   "en": "lion",
-   "fr": "lion",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 26,
-   "count_with_children": 26,
-   "merged_from": [],
-   "articles": [
-    "p1-65",
-    "p1-67",
-    "p1-97",
-    "p1-139",
-    "p1-140",
-    "p1-156",
-    "p1-163",
-    "p1-168",
-    "p2-6",
-    "p2-40",
-    "p2-48",
-    "p2-62a",
-    "p2-65",
-    "p2-67",
-    "p2-68",
-    "p2-86",
-    "p2-87",
-    "p2-96",
-    "p2-105d",
-    "p2-117",
-    "p2-118",
-    "p2-129",
-    "p2-153",
-    "p2-155",
-    "p2-180",
-    "p2-237"
-   ]
-  },
-  {
-   "id": "scroll",
-   "ru": "свиток",
-   "en": "scroll",
-   "fr": "rouleau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 26,
-   "count_with_children": 26,
-   "merged_from": [],
-   "articles": [
-    "p1-33",
-    "p1-54",
-    "p1-56",
-    "p1-72",
-    "p1-84",
-    "p1-113",
-    "p1-165",
-    "p2-69",
-    "p2-78",
-    "p2-103",
-    "p2-106",
-    "p2-107",
-    "p2-113",
-    "p2-128",
-    "p2-137",
-    "p2-148",
-    "p2-157",
-    "p2-158",
-    "p2-163",
-    "p2-164",
-    "p2-168",
-    "p2-174",
-    "p2-175",
-    "p2-186",
-    "p2-189",
-    "p2-234"
-   ]
-  },
-  {
-   "id": "sword",
-   "ru": "меч",
-   "en": "sword",
-   "fr": "épée",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [
-    "broken-sword",
-    "flaming-sword",
-    "rapier",
-    "scimitar"
-   ],
-   "count": 20,
-   "count_with_children": 26,
-   "merged_from": [],
-   "articles": [
-    "p1-10",
-    "p1-31",
-    "p1-126",
-    "p1-139",
-    "p2-15",
-    "p2-41",
-    "p2-48",
-    "p2-52",
-    "p2-53",
-    "p2-57",
-    "p2-63",
-    "p2-64",
-    "p2-65",
-    "p2-67",
-    "p2-68",
-    "p2-104",
-    "p2-147",
-    "p2-212",
-    "p2-213",
-    "p2-235"
-   ]
-  },
-  {
-   "id": "branch",
-   "ru": "ветвь",
-   "en": "branch",
-   "fr": "branche",
-   "category": "растение",
-   "parent": null,
-   "children": [
-    "cedar-branch",
-    "cypress-branch",
-    "lotus-branch",
-    "oak-branch",
-    "olive-branch",
-    "palm-branch",
-    "pine-branch",
-    "rose-branch"
-   ],
-   "count": 2,
-   "count_with_children": 25,
-   "merged_from": [],
-   "articles": [
-    "p2-5",
-    "p2-23"
-   ]
-  },
-  {
-   "id": "heart",
-   "ru": "сердце",
-   "en": "heart",
-   "fr": "cœur",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "flaming-heart"
-   ],
-   "count": 21,
-   "count_with_children": 24,
-   "merged_from": [],
-   "articles": [
-    "p1-4",
-    "p1-27",
-    "p1-30",
-    "p1-32",
-    "p1-61",
-    "p1-120",
-    "p1-145",
-    "p1-155",
-    "p1-164",
-    "p2-55",
-    "p2-84",
-    "p2-97",
-    "p2-101",
-    "p2-109",
-    "p2-122",
-    "p2-128",
-    "p2-135",
-    "p2-147",
-    "p2-161",
-    "p2-168",
-    "p2-198"
-   ]
-  },
-  {
-   "id": "sceptre",
-   "ru": "скипетр",
-   "en": "sceptre",
-   "fr": "sceptre",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "fool-sceptre"
-   ],
-   "count": 23,
-   "count_with_children": 24,
-   "merged_from": [],
-   "articles": [
-    "p1-16",
-    "p1-42",
-    "p1-64",
-    "p1-86",
-    "p1-88",
-    "p1-98",
-    "p1-100",
-    "p1-102",
-    "p1-131",
-    "p1-163",
-    "p2-2",
-    "p2-7",
-    "p2-57",
-    "p2-77",
-    "p2-96",
-    "p2-116",
-    "p2-130",
-    "p2-145",
-    "p2-153",
-    "p2-199",
-    "p2-228",
-    "p2-253",
-    "p2-260"
-   ]
-  },
-  {
-   "id": "snake",
-   "ru": "змея",
-   "en": "snake",
-   "fr": "serpent",
-   "category": "животное",
-   "parent": null,
-   "children": [
-    "asp",
-    "ouroboros"
-   ],
-   "count": 22,
-   "count_with_children": 24,
-   "merged_from": [],
-   "articles": [
-    "p1-3",
-    "p1-83",
-    "p1-89",
-    "p1-92",
-    "p1-95",
-    "p1-120",
-    "p1-122",
-    "p1-146",
-    "p1-147",
-    "p2-6",
-    "p2-52",
-    "p2-58",
-    "p2-64",
-    "p2-95",
-    "p2-128",
-    "p2-130",
-    "p2-166",
-    "p2-189",
-    "p2-194",
-    "p2-201",
-    "p2-222",
-    "p2-234"
-   ]
-  },
-  {
-   "id": "hand",
-   "ru": "рука",
-   "en": "hand",
-   "fr": "main",
-   "category": "поза и жест",
-   "parent": null,
-   "children": [
-    "clasped-hands",
-    "hand-at-ear",
-    "hand-on-cheek",
-    "hand-on-chest",
-    "hand-on-hip",
-    "hand-to-mouth",
-    "hidden-hands",
-    "joined-hands",
-    "pointing-hand",
-    "raised-hand"
-   ],
-   "count": 1,
-   "count_with_children": 23,
-   "merged_from": [],
-   "articles": [
-    "p2-260"
-   ]
-  },
-  {
-   "id": "laurel-crown",
-   "ru": "лавровый венок",
-   "en": "laurel wreath",
-   "fr": "couronne de laurier",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 23,
-   "count_with_children": 23,
-   "merged_from": [],
-   "articles": [
-    "p1-2",
-    "p1-6",
-    "p1-33",
-    "p1-58",
-    "p1-64",
-    "p1-95",
-    "p1-98",
-    "p1-132",
-    "p1-163",
-    "p1-167",
-    "p2-64",
-    "p2-66",
-    "p2-73",
-    "p2-74",
-    "p2-78",
-    "p2-79",
-    "p2-84a",
-    "p2-98",
-    "p2-99",
-    "p2-111",
-    "p2-171",
-    "p2-228",
-    "p2-248"
-   ]
-  },
-  {
-   "id": "compass",
-   "ru": "циркуль",
-   "en": "compass",
-   "fr": "compas",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 21,
-   "count_with_children": 21,
-   "merged_from": [],
-   "articles": [
-    "p1-15",
-    "p1-20",
-    "p1-47",
-    "p1-87",
-    "p1-93",
-    "p1-99",
-    "p1-111",
-    "p1-116",
-    "p1-124",
-    "p1-133",
-    "p1-135",
-    "p1-161",
-    "p2-152",
-    "p2-191",
-    "p2-243",
-    "p2-244",
-    "p2-246",
-    "p2-255",
-    "p2-256",
-    "p2-258",
-    "p2-261"
-   ]
-  },
-  {
-   "id": "cup",
-   "ru": "кубок",
-   "en": "cup",
-   "fr": "coupe",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 21,
-   "count_with_children": 21,
-   "merged_from": [
-    {
-     "id": "bowl",
-     "ru": "чаша"
-    }
-   ],
-   "articles": [
-    "p1-9",
-    "p1-27",
-    "p1-71",
-    "p1-117",
-    "p1-142",
-    "p1-164",
-    "p2-21",
-    "p2-22",
-    "p2-24",
-    "p2-25",
-    "p2-26",
-    "p2-30",
-    "p2-89",
-    "p2-122",
-    "p2-135",
-    "p2-137",
-    "p2-143",
-    "p2-149",
-    "p2-151",
-    "p2-199",
-    "p2-236"
-   ]
-  },
-  {
-   "id": "helmet",
-   "ru": "шлем",
-   "en": "helmet",
-   "fr": "casque",
-   "category": "оружие",
-   "parent": "armor",
-   "children": [
-    "morion"
-   ],
-   "count": 18,
-   "count_with_children": 20,
-   "merged_from": [],
-   "articles": [
-    "p1-38",
-    "p1-49",
-    "p1-89",
-    "p1-137",
-    "p1-139",
-    "p1-140",
-    "p1-149",
-    "p2-21",
-    "p2-40",
-    "p2-41",
-    "p2-62a",
-    "p2-63",
-    "p2-68",
-    "p2-84a",
-    "p2-85",
-    "p2-94",
-    "p2-135",
-    "p2-213"
-   ]
-  },
-  {
-   "id": "zodiac",
-   "ru": "зодиак",
-   "en": "zodiac",
-   "fr": "zodiaque",
-   "category": "небесное",
-   "parent": null,
-   "children": [
-    "aquarius",
-    "aries",
-    "cancer",
-    "capricorn",
-    "gemini",
-    "leo",
-    "libra",
-    "pisces",
-    "sagittarius",
-    "scorpio",
-    "taurus",
-    "virgo"
-   ],
-   "count": 3,
-   "count_with_children": 20,
-   "merged_from": [],
-   "articles": [
-    "p1-8",
-    "p1-69",
-    "p1-124"
-   ]
-  },
-  {
-   "id": "globe",
-   "ru": "глобус",
-   "en": "globe",
-   "fr": "globe",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 19,
-   "count_with_children": 19,
-   "merged_from": [],
-   "articles": [
-    "p1-20",
-    "p1-45",
-    "p1-100",
-    "p1-151",
-    "p1-160",
-    "p1-166",
-    "p2-3",
-    "p2-7",
-    "p2-33",
-    "p2-34",
-    "p2-72",
-    "p2-96",
-    "p2-170",
-    "p2-219",
-    "p2-243",
-    "p2-246",
-    "p2-250",
-    "p2-253",
-    "p2-254"
-   ]
-  },
-  {
-   "id": "star",
-   "ru": "звезда",
-   "en": "star",
-   "fr": "étoile",
-   "category": "небесное",
-   "parent": null,
-   "children": [],
-   "count": 19,
-   "count_with_children": 19,
-   "merged_from": [],
-   "articles": [
-    "p1-11",
-    "p1-15",
-    "p1-24",
-    "p1-58",
-    "p1-79",
-    "p1-160",
-    "p2-13",
-    "p2-16",
-    "p2-33",
-    "p2-34",
-    "p2-35",
-    "p2-36",
-    "p2-230",
-    "p2-239",
-    "p2-248",
-    "p2-253",
-    "p2-254",
-    "p2-255",
-    "p2-258"
-   ]
-  },
-  {
-   "id": "cornucopia",
-   "ru": "рог изобилия",
-   "en": "cornucopia",
-   "fr": "corne d'abondance",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 18,
-   "count_with_children": 18,
-   "merged_from": [],
-   "articles": [
-    "p1-1",
-    "p1-71",
-    "p1-77",
-    "p1-87",
-    "p1-115",
-    "p1-126",
-    "p2-3",
-    "p2-6",
-    "p2-7",
-    "p2-11",
-    "p2-27",
-    "p2-29",
-    "p2-56",
-    "p2-59",
-    "p2-60",
-    "p2-84a",
-    "p2-153",
-    "p2-224"
-   ]
-  },
-  {
-   "id": "flame",
-   "ru": "пламя",
-   "en": "flame",
-   "fr": "flamme",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 18,
-   "count_with_children": 18,
-   "merged_from": [
-    {
-     "id": "fire",
-     "ru": "огонь"
-    }
-   ],
-   "articles": [
-    "p1-10",
-    "p1-31",
-    "p1-45",
-    "p1-56",
-    "p1-58",
-    "p1-126",
-    "p1-143",
-    "p1-145",
-    "p2-4",
-    "p2-12",
-    "p2-48",
-    "p2-100",
-    "p2-115",
-    "p2-125",
-    "p2-145",
-    "p2-146",
-    "p2-201",
-    "p2-213"
-   ]
-  },
-  {
-   "id": "torch",
-   "ru": "факел",
-   "en": "torch",
-   "fr": "torche",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 18,
-   "count_with_children": 18,
-   "merged_from": [],
-   "articles": [
-    "p1-17",
-    "p1-29",
-    "p1-46",
-    "p1-74",
-    "p1-113",
-    "p1-158",
-    "p2-10",
-    "p2-68",
-    "p2-70",
-    "p2-97",
-    "p2-108",
-    "p2-125",
-    "p2-184",
-    "p2-189",
-    "p2-210",
-    "p2-213",
-    "p2-216",
-    "p2-242"
-   ]
-  },
-  {
-   "id": "veil",
-   "ru": "покров",
-   "en": "veil",
-   "fr": "voile",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 17,
-   "count_with_children": 17,
-   "merged_from": [],
-   "articles": [
-    "p1-11",
-    "p1-82",
-    "p1-93",
-    "p1-128",
-    "p1-138",
-    "p1-143",
-    "p2-8",
-    "p2-116",
-    "p2-134",
-    "p2-136",
-    "p2-139",
-    "p2-161",
-    "p2-202",
-    "p2-208",
-    "p2-209",
-    "p2-229",
-    "p2-258"
-   ]
-  },
-  {
-   "id": "mirror",
-   "ru": "зеркало",
-   "en": "mirror",
-   "fr": "miroir",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 16,
-   "count_with_children": 16,
-   "merged_from": [],
-   "articles": [
-    "p1-19",
-    "p1-42",
-    "p1-111",
-    "p1-113",
-    "p1-123",
-    "p1-137",
-    "p1-151",
-    "p2-43",
-    "p2-102",
-    "p2-104",
-    "p2-123",
-    "p2-144",
-    "p2-151",
-    "p2-178",
-    "p2-231",
-    "p2-259"
-   ]
-  },
-  {
-   "id": "nudity",
-   "ru": "нагота",
-   "en": "nudity",
-   "fr": "nudité",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 16,
-   "count_with_children": 16,
-   "merged_from": [],
-   "articles": [
-    "p1-19",
-    "p1-58",
-    "p1-68",
-    "p1-71",
-    "p1-82",
-    "p1-105",
-    "p1-120",
-    "p1-166",
-    "p2-2",
-    "p2-33",
-    "p2-152",
-    "p2-175",
-    "p2-187",
-    "p2-188",
-    "p2-201",
-    "p2-227"
-   ]
-  },
-  {
-   "id": "spear",
-   "ru": "копьё",
-   "en": "spear",
-   "fr": "lance",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [],
-   "count": 16,
-   "count_with_children": 16,
-   "merged_from": [],
-   "articles": [
-    "p1-3",
-    "p1-65",
-    "p1-107",
-    "p1-153",
-    "p1-167",
-    "p2-40",
-    "p2-57",
-    "p2-58",
-    "p2-63",
-    "p2-65a",
-    "p2-84a",
-    "p2-85",
-    "p2-117",
-    "p2-142",
-    "p2-171",
-    "p2-172"
-   ]
-  },
-  {
-   "id": "raised-eyes",
-   "ru": "взор к небу",
-   "en": "eyes raised to heaven",
-   "fr": "regard levé vers le ciel",
-   "category": "поза и жест",
-   "parent": "eye",
-   "children": [],
-   "count": 15,
-   "count_with_children": 15,
-   "merged_from": [],
-   "articles": [
-    "p1-9",
-    "p1-37",
-    "p1-81",
-    "p1-112",
-    "p1-121",
-    "p1-128",
-    "p1-161",
-    "p2-113",
-    "p2-126",
-    "p2-137",
-    "p2-146",
-    "p2-158",
-    "p2-159",
-    "p2-163",
-    "p2-168"
-   ]
-  },
-  {
-   "id": "shield",
-   "ru": "щит",
-   "en": "shield",
-   "fr": "bouclier",
-   "category": "оружие",
-   "parent": null,
-   "children": [],
-   "count": 15,
-   "count_with_children": 15,
-   "merged_from": [],
-   "articles": [
-    "p1-65",
-    "p1-149",
-    "p2-41",
-    "p2-48",
-    "p2-57",
-    "p2-63",
-    "p2-64",
-    "p2-67",
-    "p2-68",
-    "p2-85",
-    "p2-138",
-    "p2-142",
-    "p2-171",
-    "p2-172",
-    "p2-195"
-   ]
-  },
-  {
-   "id": "fruit",
-   "ru": "плоды",
-   "en": "fruit",
-   "fr": "fruits",
-   "category": "растение",
-   "parent": null,
-   "children": [
-    "apple",
-    "golden-apple",
-    "grapes",
-    "peach",
-    "pomegranate",
-    "quince"
-   ],
-   "count": 2,
-   "count_with_children": 13,
-   "merged_from": [],
-   "articles": [
-    "p1-77",
-    "p2-46"
-   ]
-  },
-  {
-   "id": "sun",
-   "ru": "солнце",
-   "en": "sun",
-   "fr": "soleil",
-   "category": "небесное",
-   "parent": null,
-   "children": [
-    "eclipsed-sun"
-   ],
-   "count": 12,
-   "count_with_children": 13,
-   "merged_from": [],
-   "articles": [
-    "p1-42",
-    "p1-53",
-    "p1-113",
-    "p1-156",
-    "p1-166",
-    "p1-167",
-    "p2-4",
-    "p2-14",
-    "p2-17",
-    "p2-84a",
-    "p2-174",
-    "p2-253"
-   ]
-  },
-  {
-   "id": "chain",
-   "ru": "цепь",
-   "en": "chain",
-   "fr": "chaîne",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 12,
-   "count_with_children": 12,
-   "merged_from": [],
-   "articles": [
-    "p1-30",
-    "p1-123",
-    "p1-158",
-    "p2-55",
-    "p2-84",
-    "p2-96",
-    "p2-128",
-    "p2-140",
-    "p2-155",
-    "p2-236",
-    "p2-247",
-    "p2-251"
-   ]
-  },
-  {
-   "id": "clock",
-   "ru": "часы",
-   "en": "clock",
-   "fr": "horloge",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "hourglass",
-    "sundial"
-   ],
-   "count": 6,
-   "count_with_children": 12,
-   "merged_from": [],
-   "articles": [
-    "p1-54",
-    "p1-100",
-    "p1-108",
-    "p1-134",
-    "p1-159",
-    "p2-124"
-   ]
-  },
-  {
-   "id": "vessel",
-   "ru": "сосуд",
-   "en": "vessel",
-   "fr": "vase",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "fire-vessel",
-    "urn"
-   ],
-   "count": 10,
-   "count_with_children": 12,
-   "merged_from": [
-    {
-     "id": "glass-vessel",
-     "ru": "стеклянный сосуд"
-    }
-   ],
-   "articles": [
-    "p1-31",
-    "p1-56",
-    "p1-72",
-    "p2-4",
-    "p2-45",
-    "p2-104",
-    "p2-134",
-    "p2-156",
-    "p2-185",
-    "p2-250"
-   ]
-  },
-  {
-   "id": "jewel",
-   "ru": "драгоценность",
-   "en": "jewel",
-   "fr": "joyau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 11,
-   "count_with_children": 11,
-   "merged_from": [],
-   "articles": [
-    "p1-35",
-    "p1-67",
-    "p1-87",
-    "p1-90",
-    "p1-142",
-    "p2-51a",
-    "p2-96",
-    "p2-104",
-    "p2-156",
-    "p2-199",
-    "p2-251"
-   ]
-  },
-  {
-   "id": "rays",
-   "ru": "лучи",
-   "en": "rays",
-   "fr": "rayons",
-   "category": "небесное",
-   "parent": null,
-   "children": [],
-   "count": 11,
-   "count_with_children": 11,
-   "merged_from": [],
-   "articles": [
-    "p1-22",
-    "p1-71",
-    "p2-91",
-    "p2-113",
-    "p2-126",
-    "p2-127",
-    "p2-147",
-    "p2-151",
-    "p2-159",
-    "p2-240",
-    "p2-256"
-   ]
-  },
-  {
-   "id": "scales",
-   "ru": "весы",
-   "en": "scales",
-   "fr": "balance",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 11,
-   "count_with_children": 11,
-   "merged_from": [],
-   "articles": [
-    "p1-48",
-    "p1-162",
-    "p2-52",
-    "p2-53",
-    "p2-54",
-    "p2-114",
-    "p2-131",
-    "p2-151",
-    "p2-178",
-    "p2-212",
-    "p2-250"
-   ]
-  },
-  {
-   "id": "stone",
-   "ru": "камень",
-   "en": "stone",
-   "fr": "pierre",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "pebble",
-    "touchstone",
-    "triangular-stone"
-   ],
-   "count": 8,
-   "count_with_children": 11,
-   "merged_from": [],
-   "articles": [
-    "p1-39",
-    "p1-117",
-    "p1-119",
-    "p1-149",
-    "p1-154",
-    "p2-90",
-    "p2-164",
-    "p2-165"
-   ]
-  },
-  {
-   "id": "bow",
-   "ru": "лук",
-   "en": "bow",
-   "fr": "arc",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [],
-   "count": 10,
-   "count_with_children": 10,
-   "merged_from": [],
-   "articles": [
-    "p1-5",
-    "p1-25",
-    "p1-75",
-    "p1-114",
-    "p2-8",
-    "p2-70",
-    "p2-78",
-    "p2-89",
-    "p2-97",
-    "p2-241"
-   ]
-  },
-  {
-   "id": "cloud",
-   "ru": "облако",
-   "en": "cloud",
-   "fr": "nuage",
-   "category": "небесное",
-   "parent": null,
-   "children": [],
-   "count": 10,
-   "count_with_children": 10,
-   "merged_from": [],
-   "articles": [
-    "p1-20",
-    "p1-122",
-    "p1-131",
-    "p2-1",
-    "p2-2",
-    "p2-17",
-    "p2-20",
-    "p2-82",
-    "p2-175",
-    "p2-220"
-   ]
-  },
-  {
-   "id": "staff",
-   "ru": "посох",
-   "en": "staff",
-   "fr": "bâton",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "crook"
-   ],
-   "count": 9,
-   "count_with_children": 10,
-   "merged_from": [],
-   "articles": [
-    "p1-43",
-    "p1-50",
-    "p1-55",
-    "p1-85",
-    "p1-95",
-    "p1-147",
-    "p2-107",
-    "p2-196",
-    "p2-207"
-   ]
-  },
-  {
-   "id": "arrow",
-   "ru": "стрела",
-   "en": "arrow",
-   "fr": "flèche",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-5",
-    "p1-9",
-    "p1-114",
-    "p1-137",
-    "p2-8",
-    "p2-14",
-    "p2-62a",
-    "p2-65a",
-    "p2-237"
-   ]
-  },
-  {
-   "id": "belt",
-   "ru": "пояс",
-   "en": "belt",
-   "fr": "ceinture",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "ivy-belt"
-   ],
-   "count": 8,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-102",
-    "p1-136",
-    "p1-172",
-    "p2-13",
-    "p2-14",
-    "p2-16",
-    "p2-35",
-    "p2-36"
-   ]
-  },
-  {
-   "id": "blindfold",
-   "ru": "повязка на глазах",
-   "en": "blindfold",
-   "fr": "bandeau",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-25",
-    "p1-50",
-    "p1-57",
-    "p1-100",
-    "p2-65a",
-    "p2-105",
-    "p2-188",
-    "p2-207",
-    "p2-224"
-   ]
-  },
-  {
-   "id": "cupid",
-   "ru": "купидон",
-   "en": "Cupid",
-   "fr": "Cupidon",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-25",
-    "p1-52",
-    "p1-66",
-    "p1-142",
-    "p2-60",
-    "p2-70",
-    "p2-97",
-    "p2-105c",
-    "p2-240"
-   ]
-  },
-  {
-   "id": "dog",
-   "ru": "собака",
-   "en": "dog",
-   "fr": "chien",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-62",
-    "p1-125",
-    "p2-45",
-    "p2-52",
-    "p2-121",
-    "p2-193",
-    "p2-217",
-    "p2-241",
-    "p2-259"
-   ]
-  },
-  {
-   "id": "dove",
-   "ru": "голубь",
-   "en": "dove",
-   "fr": "colombe",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-71",
-    "p1-149",
-    "p1-155",
-    "p2-54",
-    "p2-105a",
-    "p2-121",
-    "p2-137",
-    "p2-173",
-    "p2-229"
-   ]
-  },
-  {
-   "id": "elephant",
-   "ru": "слон",
-   "en": "elephant",
-   "fr": "éléphant",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-22",
-    "p1-73",
-    "p1-91",
-    "p1-126",
-    "p1-143",
-    "p1-159",
-    "p1-165",
-    "p2-6",
-    "p2-65"
-   ]
-  },
-  {
-   "id": "flower-wreath",
-   "ru": "венок из цветов",
-   "en": "flower wreath",
-   "fr": "couronne de fleurs",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-1",
-    "p1-19",
-    "p1-52",
-    "p2-3",
-    "p2-9",
-    "p2-35",
-    "p2-38",
-    "p2-75",
-    "p2-92"
-   ]
-  },
-  {
-   "id": "javelin",
-   "ru": "дротик",
-   "en": "javelin",
-   "fr": "javelot",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-19",
-    "p1-38",
-    "p1-141",
-    "p1-146",
-    "p2-8",
-    "p2-117",
-    "p2-138",
-    "p2-239",
-    "p2-240"
-   ]
-  },
-  {
-   "id": "olive-branch",
-   "ru": "оливковая ветвь",
-   "en": "olive branch",
-   "fr": "branche d'olivier",
-   "category": "растение",
-   "parent": "branch",
-   "children": [],
-   "count": 9,
-   "count_with_children": 9,
-   "merged_from": [],
-   "articles": [
-    "p1-71",
-    "p2-38",
-    "p2-56",
-    "p2-84",
-    "p2-108",
-    "p2-114",
-    "p2-137",
-    "p2-138",
-    "p2-167"
-   ]
-  },
-  {
-   "id": "deer",
-   "ru": "олень",
-   "en": "deer",
-   "fr": "cerf",
-   "category": "животное",
-   "parent": null,
-   "children": [
-    "stag-head"
-   ],
-   "count": 6,
-   "count_with_children": 8,
-   "merged_from": [],
-   "articles": [
-    "p1-37",
-    "p1-63",
-    "p1-137",
-    "p2-44",
-    "p2-93",
-    "p2-119"
-   ]
-  },
-  {
-   "id": "palm-branch",
-   "ru": "пальмовая ветвь",
-   "en": "palm branch",
-   "fr": "branche de palmier",
-   "category": "растение",
-   "parent": "branch",
-   "children": [],
-   "count": 8,
-   "count_with_children": 8,
-   "merged_from": [],
-   "articles": [
-    "p1-58",
-    "p1-130",
-    "p1-136",
-    "p1-166",
-    "p2-125",
-    "p2-141",
-    "p2-154",
-    "p2-171"
-   ]
-  },
-  {
-   "id": "purse",
-   "ru": "кошелёк",
-   "en": "purse",
-   "fr": "bourse",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 8,
-   "count_with_children": 8,
-   "merged_from": [],
-   "articles": [
-    "p1-18",
-    "p1-116",
-    "p1-157",
-    "p2-51",
-    "p2-156",
-    "p2-169",
-    "p2-182",
-    "p2-229"
-   ]
-  },
-  {
-   "id": "square",
-   "ru": "угольник",
-   "en": "square",
-   "fr": "équerre",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 8,
-   "count_with_children": 8,
-   "merged_from": [],
-   "articles": [
-    "p1-56",
-    "p1-99",
-    "p1-111",
-    "p1-123",
-    "p2-51",
-    "p2-244",
-    "p2-246",
-    "p2-252"
-   ]
-  },
-  {
-   "id": "trumpet",
-   "ru": "труба",
-   "en": "trumpet",
-   "fr": "trompette",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 8,
-   "count_with_children": 8,
-   "merged_from": [],
-   "articles": [
-    "p1-90",
-    "p2-74",
-    "p2-82",
-    "p2-84",
-    "p2-186",
-    "p2-205",
-    "p2-206",
-    "p2-248"
-   ]
-  },
-  {
-   "id": "breast",
-   "ru": "грудь",
-   "en": "breast",
-   "fr": "sein",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [
-    "bare-breast"
-   ],
-   "count": 2,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p2-176",
-    "p2-248"
-   ]
-  },
-  {
-   "id": "club",
-   "ru": "палица",
-   "en": "club",
-   "fr": "massue",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-158",
-    "p1-168",
-    "p2-62a",
-    "p2-63",
-    "p2-65",
-    "p2-86",
-    "p2-87"
-   ]
-  },
-  {
-   "id": "coin",
-   "ru": "монета",
-   "en": "coin",
-   "fr": "pièce de monnaie",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-35",
-    "p2-149",
-    "p2-156",
-    "p2-169",
-    "p2-199",
-    "p2-224",
-    "p2-236"
-   ]
-  },
-  {
-   "id": "cross",
-   "ru": "крест",
-   "en": "cross",
-   "fr": "croix",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-61",
-    "p1-64",
-    "p1-121",
-    "p1-143",
-    "p2-114",
-    "p2-158",
-    "p2-172"
-   ]
-  },
-  {
-   "id": "farming-tool",
-   "ru": "орудие земледелия",
-   "en": "farming tool",
-   "fr": "outil agricole",
-   "category": "предмет",
-   "parent": null,
-   "children": [
-    "coulter",
-    "hoe",
-    "plowshare",
-    "pruning-hook",
-    "rake",
-    "spade"
-   ],
-   "count": 1,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-54"
-   ]
-  },
-  {
-   "id": "lyre",
-   "ru": "лира",
-   "en": "lyre",
-   "fr": "lyre",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-75",
-    "p1-132",
-    "p2-70",
-    "p2-78",
-    "p2-89",
-    "p2-248",
-    "p2-250"
-   ]
-  },
-  {
-   "id": "mask",
-   "ru": "маска",
-   "en": "mask",
-   "fr": "masque",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-103",
-    "p2-76",
-    "p2-150",
-    "p2-186",
-    "p2-197",
-    "p2-198",
-    "p2-247"
-   ]
-  },
-  {
-   "id": "rooster",
-   "ru": "петух",
-   "en": "rooster",
-   "fr": "coq",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-40",
-    "p1-51",
-    "p1-95",
-    "p1-147",
-    "p1-149",
-    "p1-156",
-    "p1-162"
-   ]
-  },
-  {
-   "id": "ruler",
-   "ru": "мера длины",
-   "en": "foot measure",
-   "fr": "mesure du pied",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-99",
-    "p1-123",
-    "p2-244",
-    "p2-256",
-    "p2-257",
-    "p2-258",
-    "p2-261"
-   ]
-  },
-  {
-   "id": "thorns",
-   "ru": "шипы",
-   "en": "thorns",
-   "fr": "épines",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-32",
-    "p1-79",
-    "p1-118",
-    "p1-145",
-    "p1-154",
-    "p2-164",
-    "p2-211"
-   ]
-  },
-  {
-   "id": "yoke",
-   "ru": "ярмо",
-   "en": "yoke",
-   "fr": "joug",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 7,
-   "count_with_children": 7,
-   "merged_from": [],
-   "articles": [
-    "p1-92",
-    "p1-109",
-    "p1-118",
-    "p1-141",
-    "p1-154",
-    "p2-164",
-    "p2-235"
-   ]
-  },
-  {
-   "id": "caduceus",
-   "ru": "кадуцей",
-   "en": "caduceus",
-   "fr": "caducée",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 6,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p1-33",
-    "p1-60",
-    "p2-65",
-    "p2-83",
-    "p2-105b",
-    "p2-105d"
-   ]
-  },
-  {
-   "id": "falcon",
-   "ru": "сокол",
-   "en": "falcon",
-   "fr": "faucon",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 6,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p1-26",
-    "p1-55",
-    "p1-89",
-    "p1-135",
-    "p1-165",
-    "p2-47"
-   ]
-  },
-  {
-   "id": "fish",
-   "ru": "рыба",
-   "en": "fish",
-   "fr": "poisson",
-   "category": "животное",
-   "parent": null,
-   "children": [
-    "electric-ray",
-    "remora"
-   ],
-   "count": 4,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p1-66",
-    "p1-121",
-    "p2-65",
-    "p2-148"
-   ]
-  },
-  {
-   "id": "hourglass",
-   "ru": "песочные часы",
-   "en": "hourglass",
-   "fr": "sablier",
-   "category": "предмет",
-   "parent": "clock",
-   "children": [],
-   "count": 6,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p1-5",
-    "p1-14",
-    "p1-49",
-    "p1-156",
-    "p2-97",
-    "p2-256"
-   ]
-  },
-  {
-   "id": "lamb",
-   "ru": "ягнёнок",
-   "en": "lamb",
-   "fr": "agneau",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 6,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p1-78",
-    "p1-149",
-    "p2-114",
-    "p2-121",
-    "p2-143",
-    "p2-155"
-   ]
-  },
-  {
-   "id": "olive-crown",
-   "ru": "оливковый венок",
-   "en": "olive wreath",
-   "fr": "couronne d'olivier",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 6,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p1-47",
-    "p1-91",
-    "p1-101",
-    "p1-115",
-    "p2-29",
-    "p2-109"
-   ]
-  },
-  {
-   "id": "open-arms",
-   "ru": "раскрытые руки",
-   "en": "open arms",
-   "fr": "bras ouverts",
-   "category": "поза и жест",
-   "parent": null,
-   "children": [],
-   "count": 6,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p1-22",
-    "p1-101",
-    "p1-110",
-    "p1-112",
-    "p2-51a",
-    "p2-123"
-   ]
-  },
-  {
-   "id": "peacock",
-   "ru": "павлин",
-   "en": "peacock",
-   "fr": "paon",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 6,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p2-1",
-    "p2-103",
-    "p2-179",
-    "p2-206",
-    "p2-219",
-    "p2-231"
-   ]
-  },
-  {
-   "id": "tree",
-   "ru": "дерево",
-   "en": "tree",
-   "fr": "arbre",
-   "category": "растение",
-   "parent": null,
-   "children": [
-    "elm",
-    "oak",
-    "sapling"
-   ],
-   "count": 1,
-   "count_with_children": 6,
-   "merged_from": [],
-   "articles": [
-    "p1-23"
-   ]
-  },
-  {
-   "id": "bare-breast",
-   "ru": "обнажённая грудь",
-   "en": "bare breast",
-   "fr": "poitrine nue",
-   "category": "черта фигуры",
-   "parent": "breast",
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-4",
-    "p1-72",
-    "p1-85",
-    "p1-124",
-    "p1-132"
-   ]
-  },
-  {
-   "id": "bridle",
-   "ru": "узда",
-   "en": "bridle",
-   "fr": "bride",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-139",
-    "p1-159",
-    "p2-118",
-    "p2-159",
-    "p2-208"
-   ]
-  },
-  {
-   "id": "celestial-sphere",
-   "ru": "небесная сфера",
-   "en": "celestial sphere",
-   "fr": "sphère céleste",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-15",
-    "p1-53",
-    "p1-69",
-    "p1-83",
-    "p1-93"
-   ]
-  },
-  {
-   "id": "crane",
-   "ru": "журавль",
-   "en": "crane",
-   "fr": "grue",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-154",
-    "p1-156",
-    "p1-171",
-    "p2-200",
-    "p2-261"
-   ]
-  },
-  {
-   "id": "dagger",
-   "ru": "кинжал",
-   "en": "dagger",
-   "fr": "poignard",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p2-77",
-    "p2-191",
-    "p2-192",
-    "p2-228",
-    "p2-237"
-   ]
-  },
-  {
-   "id": "dragon",
-   "ru": "дракон",
-   "en": "dragon",
-   "fr": "dragon",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-19",
-    "p2-87",
-    "p2-96",
-    "p2-172",
-    "p2-213"
-   ]
-  },
-  {
-   "id": "eagle",
-   "ru": "орёл",
-   "en": "eagle",
-   "fr": "aigle",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-87",
-    "p1-97",
-    "p1-129",
-    "p2-145",
-    "p2-253"
-   ]
-  },
-  {
-   "id": "ears-of-grain",
-   "ru": "колосья",
-   "en": "ears of grain",
-   "fr": "épis",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [
-    {
-     "id": "wheat",
-     "ru": "колос пшеницы"
-    }
-   ],
-   "articles": [
-    "p1-68",
-    "p1-115",
-    "p2-6",
-    "p2-122",
-    "p2-176"
-   ]
-  },
-  {
-   "id": "flute",
-   "ru": "флейта",
-   "en": "flute",
-   "fr": "flûte",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-63",
-    "p1-104",
-    "p1-132",
-    "p1-150",
-    "p2-75"
-   ]
-  },
-  {
-   "id": "hand-on-chest",
-   "ru": "рука на груди",
-   "en": "hand on chest",
-   "fr": "main sur la poitrine",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-37",
-    "p1-126",
-    "p1-128",
-    "p2-50",
-    "p2-113"
-   ]
-  },
-  {
-   "id": "kneeling",
-   "ru": "коленопреклонение",
-   "en": "kneeling",
-   "fr": "agenouillement",
-   "category": "поза и жест",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-112",
-    "p2-97",
-    "p2-158",
-    "p2-159",
-    "p2-161"
-   ]
-  },
-  {
-   "id": "lamp",
-   "ru": "лампа",
-   "en": "lamp",
-   "fr": "lampe",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-51",
-    "p1-148",
-    "p1-156",
-    "p1-171",
-    "p1-174"
-   ]
-  },
-  {
-   "id": "myrtle-wreath",
-   "ru": "венок из мирта",
-   "en": "myrtle wreath",
-   "fr": "couronne de myrte",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [
-    {
-     "id": "myrtle-crown",
-     "ru": "миртовый венец"
-    }
-   ],
-   "articles": [
-    "p1-4",
-    "p1-127",
-    "p2-22",
-    "p2-70",
-    "p2-105a"
-   ]
-  },
-  {
-   "id": "plumb-line",
-   "ru": "отвес",
-   "en": "plumb line",
-   "fr": "fil à plomb",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-44",
-    "p1-99",
-    "p1-123",
-    "p1-133",
-    "p2-131"
-   ]
-  },
-  {
-   "id": "rods",
-   "ru": "розги",
-   "en": "rods",
-   "fr": "verges",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-27",
-    "p1-72",
-    "p2-94",
-    "p2-127",
-    "p2-211"
-   ]
-  },
-  {
-   "id": "scourge",
-   "ru": "бич",
-   "en": "scourge",
-   "fr": "fouet",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-25",
-    "p1-34",
-    "p1-121",
-    "p1-174",
-    "p2-167"
-   ]
-  },
-  {
-   "id": "vine",
-   "ru": "виноградная лоза",
-   "en": "vine",
-   "fr": "vigne",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-4",
-    "p1-21",
-    "p2-109",
-    "p2-176",
-    "p2-214"
-   ]
-  },
-  {
-   "id": "wand",
-   "ru": "жезл",
-   "en": "wand",
-   "fr": "baguette",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-47",
-    "p1-56",
-    "p1-117",
-    "p1-140",
-    "p1-156"
-   ]
-  },
-  {
-   "id": "wheat-wreath",
-   "ru": "венок из колосьев",
-   "en": "wheat wreath",
-   "fr": "couronne d'épis",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-8",
-    "p2-10",
-    "p2-24",
-    "p2-25",
-    "p2-33"
-   ]
-  },
-  {
-   "id": "wheel",
-   "ru": "колесо",
-   "en": "wheel",
-   "fr": "roue",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 5,
-   "count_with_children": 5,
-   "merged_from": [],
-   "articles": [
-    "p1-57",
-    "p1-160",
-    "p2-59",
-    "p2-160",
-    "p2-185"
-   ]
-  },
-  {
-   "id": "bull",
-   "ru": "бык",
-   "en": "bull",
-   "fr": "taureau",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p2-44",
-    "p2-65",
-    "p2-133",
-    "p2-204"
-   ]
-  },
-  {
-   "id": "censer",
-   "ru": "кадило",
-   "en": "censer",
-   "fr": "encensoir",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-112",
-    "p2-5",
-    "p2-13",
-    "p2-161"
-   ]
-  },
-  {
-   "id": "child",
-   "ru": "младенец",
-   "en": "infant",
-   "fr": "enfant",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-126",
-    "p1-130",
-    "p2-184",
-    "p2-243"
-   ]
-  },
-  {
-   "id": "circle",
-   "ru": "круг",
-   "en": "circle",
-   "fr": "cercle",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-54",
-    "p1-124",
-    "p2-33",
-    "p2-34"
-   ]
-  },
-  {
-   "id": "crocodile",
-   "ru": "крокодил",
-   "en": "crocodile",
-   "fr": "crocodile",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p2-8",
-    "p2-68",
-    "p2-148",
-    "p2-187"
-   ]
-  },
-  {
-   "id": "crow",
-   "ru": "ворона",
-   "en": "crow",
-   "fr": "corneille",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-101",
-    "p1-170",
-    "p2-93",
-    "p2-230"
-   ]
-  },
-  {
-   "id": "cuirass",
-   "ru": "нагрудник",
-   "en": "cuirass",
-   "fr": "cuirasse",
-   "category": "оружие",
-   "parent": "armor",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-139",
-    "p1-140",
-    "p1-149",
-    "p2-68"
-   ]
-  },
-  {
-   "id": "donkey",
-   "ru": "осёл",
-   "en": "donkey",
-   "fr": "âne",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p2-179",
-    "p2-207",
-    "p2-208",
-    "p2-220"
-   ]
-  },
-  {
-   "id": "ear",
-   "ru": "ухо",
-   "en": "ear",
-   "fr": "oreille",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-36",
-    "p1-140",
-    "p1-150",
-    "p2-82"
-   ]
-  },
-  {
-   "id": "feather",
-   "ru": "перо на шлеме",
-   "en": "feather",
-   "fr": "plume",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-38",
-    "p2-8",
-    "p2-82",
-    "p2-183"
-   ]
-  },
-  {
-   "id": "fur",
-   "ru": "мех",
-   "en": "fur",
-   "fr": "fourrure",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p2-12",
-    "p2-34",
-    "p2-50",
-    "p2-65"
-   ]
-  },
-  {
-   "id": "grapes",
-   "ru": "виноградная гроздь",
-   "en": "grapes",
-   "fr": "grappe de raisin",
-   "category": "растение",
-   "parent": "fruit",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-68",
-    "p2-11",
-    "p2-27",
-    "p2-49"
-   ]
-  },
-  {
-   "id": "harp",
-   "ru": "арфа",
-   "en": "harp",
-   "fr": "harpe",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-127",
-    "p2-71",
-    "p2-105c",
-    "p2-250"
-   ]
-  },
-  {
-   "id": "leaf",
-   "ru": "лист",
-   "en": "leaf",
-   "fr": "feuille",
-   "category": "растение",
-   "parent": null,
-   "children": [
-    "almond-leaf",
-    "elm-leaf",
-    "mulberry-leaf"
-   ],
-   "count": 2,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p2-92",
-    "p2-134"
-   ]
-  },
-  {
-   "id": "lily",
-   "ru": "лилия",
-   "en": "lily",
-   "fr": "lys",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-19",
-    "p1-20",
-    "p1-138",
-    "p2-174"
-   ]
-  },
-  {
-   "id": "loose-hair",
-   "ru": "распущенные волосы",
-   "en": "loose hair",
-   "fr": "cheveux dénoués",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p2-54",
-    "p2-152",
-    "p2-201",
-    "p2-211"
-   ]
-  },
-  {
-   "id": "lute",
-   "ru": "лютня",
-   "en": "lute",
-   "fr": "luth",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-104",
-    "p2-44",
-    "p2-49",
-    "p2-226"
-   ]
-  },
-  {
-   "id": "moon",
-   "ru": "луна",
-   "en": "moon",
-   "fr": "lune",
-   "category": "небесное",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-38",
-    "p1-53",
-    "p1-80",
-    "p2-227"
-   ]
-  },
-  {
-   "id": "mouth-band",
-   "ru": "повязка на устах",
-   "en": "band across the mouth",
-   "fr": "bandeau sur la bouche",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [
-    {
-     "id": "gag",
-     "ru": "повязка на рту"
-    },
-    {
-     "id": "bandaged-mouth",
-     "ru": "стянутые повязкой уста"
-    }
-   ],
-   "articles": [
-    "p2-16",
-    "p2-51",
-    "p2-148",
-    "p2-247"
-   ]
-  },
-  {
-   "id": "oak-crown",
-   "ru": "дубовый венок",
-   "en": "oak wreath",
-   "fr": "couronne de chêne",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-10",
-    "p2-28",
-    "p2-99",
-    "p2-100"
-   ]
-  },
-  {
-   "id": "pelican",
-   "ru": "пеликан",
-   "en": "pelican",
-   "fr": "pélican",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-23",
-    "p2-97",
-    "p2-112",
-    "p2-210"
-   ]
-  },
-  {
-   "id": "pig",
-   "ru": "свинья",
-   "en": "pig",
-   "fr": "porc",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p2-200",
-    "p2-208",
-    "p2-210",
-    "p2-227"
-   ]
-  },
-  {
-   "id": "quiver",
-   "ru": "колчан",
-   "en": "quiver",
-   "fr": "carquois",
-   "category": "оружие",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-150",
-    "p2-8",
-    "p2-62a",
-    "p2-97"
-   ]
-  },
-  {
-   "id": "raised-hand",
-   "ru": "поднятая рука",
-   "en": "raised hand",
-   "fr": "main levée",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-36",
-    "p2-69",
-    "p2-91",
-    "p2-206"
-   ]
-  },
-  {
-   "id": "rosary",
-   "ru": "чётки",
-   "en": "rosary",
-   "fr": "chapelet",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-54",
-    "p1-112",
-    "p2-161",
-    "p2-202"
-   ]
-  },
-  {
-   "id": "rose",
-   "ru": "роза",
-   "en": "rose",
-   "fr": "rose",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-79",
-    "p2-70",
-    "p2-92",
-    "p2-110"
-   ]
-  },
-  {
-   "id": "ship",
-   "ru": "корабль",
-   "en": "ship",
-   "fr": "navire",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-28",
-    "p2-61",
-    "p2-162",
-    "p2-255"
-   ]
-  },
-  {
-   "id": "stork",
-   "ru": "аист",
-   "en": "stork",
-   "fr": "cigogne",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-73",
-    "p1-126",
-    "p2-109",
-    "p2-119"
-   ]
-  },
-  {
-   "id": "temple",
-   "ru": "храм",
-   "en": "temple",
-   "fr": "temple",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p2-7",
-    "p2-105a",
-    "p2-142",
-    "p2-229"
-   ]
-  },
-  {
-   "id": "tongue",
-   "ru": "язык",
-   "en": "tongue",
-   "fr": "langue",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-125",
-    "p2-192",
-    "p2-197",
-    "p2-217"
-   ]
-  },
-  {
-   "id": "tortoise",
-   "ru": "черепаха",
-   "en": "tortoise",
-   "fr": "tortue",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-138",
-    "p2-47",
-    "p2-50",
-    "p2-233"
-   ]
-  },
-  {
-   "id": "two-faces",
-   "ru": "два лица",
-   "en": "two faces",
-   "fr": "deux visages",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-96",
-    "p1-135",
-    "p1-137",
-    "p1-160"
-   ]
-  },
-  {
-   "id": "wolf",
-   "ru": "волк",
-   "en": "wolf",
-   "fr": "loup",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 4,
-   "count_with_children": 4,
-   "merged_from": [],
-   "articles": [
-    "p1-18",
-    "p2-41",
-    "p2-182",
-    "p2-202"
-   ]
-  },
-  {
-   "id": "apple",
-   "ru": "яблоко",
-   "en": "apple",
-   "fr": "pomme",
-   "category": "растение",
-   "parent": "fruit",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-168",
-    "p2-105a",
-    "p2-108"
-   ]
-  },
-  {
-   "id": "ball",
-   "ru": "шар",
-   "en": "ball",
-   "fr": "boule",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-42",
-    "p1-53",
-    "p1-78"
-   ]
-  },
-  {
-   "id": "barefoot",
-   "ru": "босые ноги",
-   "en": "bare feet",
-   "fr": "pieds nus",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-4",
-    "p1-32",
-    "p2-180"
-   ]
-  },
-  {
-   "id": "beehive",
-   "ru": "улей",
-   "en": "beehive",
-   "fr": "ruche",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-13",
-    "p1-63",
-    "p2-38"
-   ]
-  },
-  {
-   "id": "bouquet",
-   "ru": "букет",
-   "en": "bouquet",
-   "fr": "bouquet",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-9",
-    "p2-13",
-    "p2-45"
-   ]
-  },
-  {
-   "id": "brazier",
-   "ru": "жаровня",
-   "en": "brazier",
-   "fr": "brasero",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-185",
-    "p2-225",
-    "p2-232"
-   ]
-  },
-  {
-   "id": "candle",
-   "ru": "свеча",
-   "en": "candle",
-   "fr": "bougie",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-126",
-    "p2-135",
-    "p2-230"
-   ]
-  },
-  {
-   "id": "capricorn",
-   "ru": "знак Козерога",
-   "en": "sign of Capricorn",
-   "fr": "signe du Capricorne",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-14",
-    "p2-30",
-    "p2-34"
-   ]
-  },
-  {
-   "id": "clasped-hands",
-   "ru": "сплетённые руки",
-   "en": "clasped hands",
-   "fr": "mains jointes",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-61",
-    "p2-146",
-    "p2-158"
-   ]
-  },
-  {
-   "id": "column",
-   "ru": "колонна",
-   "en": "column",
-   "fr": "colonne",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-31",
-    "p1-153",
-    "p2-121"
-   ]
-  },
-  {
-   "id": "flaming-heart",
-   "ru": "пылающее сердце",
-   "en": "flaming heart",
-   "fr": "cœur enflammé",
-   "category": "предмет",
-   "parent": "heart",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-9",
-    "p1-37",
-    "p2-115"
-   ]
-  },
-  {
-   "id": "gold",
-   "ru": "золото",
-   "en": "gold",
-   "fr": "or",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-94",
-    "p2-104",
-    "p2-120"
-   ]
-  },
-  {
-   "id": "grace",
-   "ru": "Грация",
-   "en": "Grace",
-   "fr": "Grâce",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-105a",
-    "p2-105b",
-    "p2-110"
-   ]
-  },
-  {
-   "id": "grass-crown",
-   "ru": "венец из травы",
-   "en": "grass crown",
-   "fr": "couronne de gazon",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-10",
-    "p2-99",
-    "p2-100"
-   ]
-  },
-  {
-   "id": "hammer",
-   "ru": "молоток",
-   "en": "hammer",
-   "fr": "marteau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-12",
-    "p1-106",
-    "p2-250"
-   ]
-  },
-  {
-   "id": "hare",
-   "ru": "заяц",
-   "en": "hare",
-   "fr": "lièvre",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-59",
-    "p2-148",
-    "p2-230"
-   ]
-  },
-  {
-   "id": "key",
-   "ru": "ключ",
-   "en": "key",
-   "fr": "clé",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-16",
-    "p1-62",
-    "p2-172"
-   ]
-  },
-  {
-   "id": "lantern",
-   "ru": "фонарь",
-   "en": "lantern",
-   "fr": "lanterne",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-43",
-    "p2-150",
-    "p2-193"
-   ]
-  },
-  {
-   "id": "lightning",
-   "ru": "молния",
-   "en": "lightning",
-   "fr": "foudre",
-   "category": "небесное",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-26",
-    "p1-49",
-    "p2-105d"
-   ]
-  },
-  {
-   "id": "mantle",
-   "ru": "мантия",
-   "en": "mantle",
-   "fr": "manteau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-3",
-    "p1-35",
-    "p1-103"
-   ]
-  },
-  {
-   "id": "minerva",
-   "ru": "Минерва",
-   "en": "Minerva",
-   "fr": "Minerve",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-107",
-    "p2-58",
-    "p2-85"
-   ]
-  },
-  {
-   "id": "nail",
-   "ru": "гвоздь",
-   "en": "nail",
-   "fr": "clou",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-89",
-    "p1-97",
-    "p1-106"
-   ]
-  },
-  {
-   "id": "net",
-   "ru": "сеть",
-   "en": "net",
-   "fr": "filet",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-127",
-    "p2-162",
-    "p2-195"
-   ]
-  },
-  {
-   "id": "pearl",
-   "ru": "жемчуг",
-   "en": "pearl",
-   "fr": "perle",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-39",
-    "p2-69",
-    "p2-236"
-   ]
-  },
-  {
-   "id": "pegasus",
-   "ru": "Пегас",
-   "en": "Pegasus",
-   "fr": "Pégase",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-83",
-    "p2-84a",
-    "p2-239"
-   ]
-  },
-  {
-   "id": "pen",
-   "ru": "перо",
-   "en": "pen",
-   "fr": "plume",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-34",
-    "p1-96",
-    "p1-104"
-   ]
-  },
-  {
-   "id": "plant",
-   "ru": "растение",
-   "en": "plant",
-   "fr": "plante",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-72",
-    "p2-127",
-    "p2-199"
-   ]
-  },
-  {
-   "id": "pointing-hand",
-   "ru": "указывающая рука",
-   "en": "pointing hand",
-   "fr": "main qui pointe",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-4",
-    "p1-90",
-    "p2-179"
-   ]
-  },
-  {
-   "id": "scorpion",
-   "ru": "скорпион",
-   "en": "scorpion",
-   "fr": "scorpion",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-6",
-    "p2-198",
-    "p2-214"
-   ]
-  },
-  {
-   "id": "siren",
-   "ru": "сирена",
-   "en": "siren",
-   "fr": "sirène",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-127",
-    "p2-41",
-    "p2-102"
-   ]
-  },
-  {
-   "id": "skull",
-   "ru": "череп",
-   "en": "skull",
-   "fr": "crâne",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-3",
-    "p2-157",
-    "p2-166"
-   ]
-  },
-  {
-   "id": "smoke",
-   "ru": "дым",
-   "en": "smoke",
-   "fr": "fumée",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-10",
-    "p1-46",
-    "p2-100"
-   ]
-  },
-  {
-   "id": "stream",
-   "ru": "ручей",
-   "en": "stream",
-   "fr": "ruisseau",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-23",
-    "p1-37",
-    "p1-122"
-   ]
-  },
-  {
-   "id": "tablet",
-   "ru": "табличка",
-   "en": "tablet",
-   "fr": "tablette",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-81",
-    "p2-91",
-    "p2-96"
-   ]
-  },
-  {
-   "id": "trophy",
-   "ru": "трофеи",
-   "en": "trophies",
-   "fr": "trophées",
-   "category": "оружие",
-   "parent": null,
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p2-7",
-    "p2-41",
-    "p2-96"
-   ]
-  },
-  {
-   "id": "viol",
-   "ru": "виола",
-   "en": "viol",
-   "fr": "viole",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-104",
-    "p2-249",
-    "p2-250"
-   ]
-  },
-  {
-   "id": "vulture",
-   "ru": "гриф",
-   "en": "vulture",
-   "fr": "vautour",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 3,
-   "count_with_children": 3,
-   "merged_from": [],
-   "articles": [
-    "p1-105",
-    "p2-43",
-    "p2-101"
-   ]
-  },
-  {
-   "id": "abyss",
-   "ru": "пропасть",
-   "en": "abyss",
-   "fr": "abîme",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-10",
-    "p1-122"
-   ]
-  },
-  {
-   "id": "aries",
-   "ru": "знак Овна",
-   "en": "sign of Aries",
-   "fr": "signe du Bélier",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-13",
-    "p2-21"
-   ]
-  },
-  {
-   "id": "basket",
-   "ru": "корзина",
-   "en": "basket",
-   "fr": "panier",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-28",
-    "p2-46"
-   ]
-  },
-  {
-   "id": "bee",
-   "ru": "пчела",
-   "en": "bee",
-   "fr": "abeille",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-13",
-    "p1-40"
-   ]
-  },
-  {
-   "id": "big-belly",
-   "ru": "большой живот",
-   "en": "big belly",
-   "fr": "gros ventre",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-182",
-    "p2-200"
-   ]
-  },
-  {
-   "id": "blind",
-   "ru": "слепота",
-   "en": "blindness",
-   "fr": "cécité",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-120",
-    "p1-173"
-   ]
-  },
-  {
-   "id": "boar",
-   "ru": "вепрь",
-   "en": "boar",
-   "fr": "sanglier",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-65",
-    "p2-86"
-   ]
-  },
-  {
-   "id": "bowed-head",
-   "ru": "склонённая голова",
-   "en": "bowed head",
-   "fr": "tête inclinée",
-   "category": "поза и жест",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-78",
-    "p1-102"
-   ]
-  },
-  {
-   "id": "camel",
-   "ru": "верблюд",
-   "en": "camel",
-   "fr": "chameau",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-44",
-    "p2-5"
-   ]
-  },
-  {
-   "id": "cancer",
-   "ru": "знак Рака",
-   "en": "sign of Cancer",
-   "fr": "signe du Cancer",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-24",
-    "p2-33"
-   ]
-  },
-  {
-   "id": "cap",
-   "ru": "колпак вольноотпущенника",
-   "en": "freedman's cap",
-   "fr": "bonnet de la liberté",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-86",
-    "p2-183"
-   ]
-  },
-  {
-   "id": "cat",
-   "ru": "кошка",
-   "en": "cat",
-   "fr": "chat",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-86",
-    "p1-125"
-   ]
-  },
-  {
-   "id": "chameleon",
-   "ru": "хамелеон",
-   "en": "chameleon",
-   "fr": "caméléon",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-63",
-    "p2-1"
-   ]
-  },
-  {
-   "id": "chick",
-   "ru": "цыплёнок",
-   "en": "chick",
-   "fr": "poussin",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-59",
-    "p2-174"
-   ]
-  },
-  {
-   "id": "cornett",
-   "ru": "цинк",
-   "en": "cornett",
-   "fr": "cornet à bouquin",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-78",
-    "p2-79"
-   ]
-  },
-  {
-   "id": "dolphin",
-   "ru": "дельфин",
-   "en": "dolphin",
-   "fr": "dauphin",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-7",
-    "p1-26"
-   ]
-  },
-  {
-   "id": "elm",
-   "ru": "вяз",
-   "en": "elm",
-   "fr": "orme",
-   "category": "растение",
-   "parent": "tree",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-4",
-    "p1-21"
-   ]
-  },
-  {
-   "id": "fetters",
-   "ru": "оковы",
-   "en": "fetters",
-   "fr": "fers",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-92",
-    "p2-164"
-   ]
-  },
-  {
-   "id": "file",
-   "ru": "напильник",
-   "en": "file",
-   "fr": "lime",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-2",
-    "p1-72"
-   ]
-  },
-  {
-   "id": "flaming-sword",
-   "ru": "пламенеющий меч",
-   "en": "flaming sword",
-   "fr": "épée flamboyante",
-   "category": "оружие",
-   "parent": "sword",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-54",
-    "p2-114"
-   ]
-  },
-  {
-   "id": "fountain",
-   "ru": "источник",
-   "en": "fountain",
-   "fr": "source",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-114",
-    "p2-165"
-   ]
-  },
-  {
-   "id": "frog",
-   "ru": "лягушка",
-   "en": "frog",
-   "fr": "grenouille",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-36",
-    "p1-152"
-   ]
-  },
-  {
-   "id": "goat",
-   "ru": "коза",
-   "en": "goat",
-   "fr": "chèvre",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-34",
-    "p2-214"
-   ]
-  },
-  {
-   "id": "hook",
-   "ru": "крючок",
-   "en": "hook",
-   "fr": "hameçon",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-127",
-    "p2-234"
-   ]
-  },
-  {
-   "id": "hydra",
-   "ru": "гидра",
-   "en": "hydra",
-   "fr": "hydre",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-194",
-    "p2-238"
-   ]
-  },
-  {
-   "id": "ivy",
-   "ru": "плющ",
-   "en": "ivy",
-   "fr": "lierre",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-14",
-    "p2-220"
-   ]
-  },
-  {
-   "id": "joined-hands",
-   "ru": "сложенные руки",
-   "en": "joined hands",
-   "fr": "mains jointes",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-118",
-    "p1-161"
-   ]
-  },
-  {
-   "id": "leo",
-   "ru": "знак Льва",
-   "en": "sign of Leo",
-   "fr": "signe du Lion",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-13",
-    "p2-25"
-   ]
-  },
-  {
-   "id": "libra",
-   "ru": "знак Весов",
-   "en": "sign of Libra",
-   "fr": "signe de la Balance",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-27",
-    "p2-36"
-   ]
-  },
-  {
-   "id": "magnetic-compass",
-   "ru": "буссоль",
-   "en": "magnetic compass",
-   "fr": "boussole",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-251",
-    "p2-255"
-   ]
-  },
-  {
-   "id": "mitre",
-   "ru": "митра",
-   "en": "mitre",
-   "fr": "mitre",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-151",
-    "p2-180"
-   ]
-  },
-  {
-   "id": "monkey",
-   "ru": "обезьяна",
-   "en": "monkey",
-   "fr": "singe",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-2",
-    "p1-125"
-   ]
-  },
-  {
-   "id": "morion",
-   "ru": "морион",
-   "en": "morion",
-   "fr": "morion",
-   "category": "оружие",
-   "parent": "helmet",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-65",
-    "p2-138"
-   ]
-  },
-  {
-   "id": "mulberry-wreath",
-   "ru": "венок из тутовых листьев",
-   "en": "mulberry-leaf wreath",
-   "fr": "couronne de feuilles de mûrier",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-137",
-    "p2-233"
-   ]
-  },
-  {
-   "id": "nest",
-   "ru": "гнездо",
-   "en": "nest",
-   "fr": "nid",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-48",
-    "p1-59"
-   ]
-  },
-  {
-   "id": "note",
-   "ru": "нота",
-   "en": "musical note",
-   "fr": "note de musique",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-250",
-    "p2-262"
-   ]
-  },
-  {
-   "id": "oak-branch",
-   "ru": "дубовая ветвь",
-   "en": "oak branch",
-   "fr": "branche de chêne",
-   "category": "растение",
-   "parent": "branch",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-65",
-    "p1-136"
-   ]
-  },
-  {
-   "id": "owl",
-   "ru": "сова",
-   "en": "owl",
-   "fr": "chouette",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-30",
-    "p2-230"
-   ]
-  },
-  {
-   "id": "palm-crown",
-   "ru": "пальмовый венец",
-   "en": "palm crown",
-   "fr": "couronne de palmier",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-142",
-    "p2-143"
-   ]
-  },
-  {
-   "id": "pedestal",
-   "ru": "постамент",
-   "en": "pedestal",
-   "fr": "piédestal",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-60",
-    "p2-111"
-   ]
-  },
-  {
-   "id": "phoenix",
-   "ru": "феникс",
-   "en": "phoenix",
-   "fr": "phénix",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-4",
-    "p2-89"
-   ]
-  },
-  {
-   "id": "plan",
-   "ru": "план здания",
-   "en": "building plan",
-   "fr": "plan d'architecture",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-154",
-    "p2-257"
-   ]
-  },
-  {
-   "id": "plowshare",
-   "ru": "лемех плуга",
-   "en": "plowshare",
-   "fr": "soc de charrue",
-   "category": "предмет",
-   "parent": "farming-tool",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-39",
-    "p2-88"
-   ]
-  },
-  {
-   "id": "pomegranate",
-   "ru": "гранат",
-   "en": "pomegranate",
-   "fr": "grenade",
-   "category": "растение",
-   "parent": "fruit",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-2",
-    "p2-95"
-   ]
-  },
-  {
-   "id": "poppy",
-   "ru": "мак",
-   "en": "poppy",
-   "fr": "pavot",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-68",
-    "p2-16"
-   ]
-  },
-  {
-   "id": "poppy-wreath",
-   "ru": "венок из маков",
-   "en": "poppy wreath",
-   "fr": "couronne de pavots",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-114",
-    "p2-242"
-   ]
-  },
-  {
-   "id": "radiant-crown",
-   "ru": "лучистый венец",
-   "en": "radiant crown",
-   "fr": "couronne radiée",
-   "category": "предмет",
-   "parent": "crown",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-3",
-    "p2-96"
-   ]
-  },
-  {
-   "id": "rainbow",
-   "ru": "радуга",
-   "en": "rainbow",
-   "fr": "arc-en-ciel",
-   "category": "небесное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-127",
-    "p2-43"
-   ]
-  },
-  {
-   "id": "ram",
-   "ru": "баран",
-   "en": "ram",
-   "fr": "bélier",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-35",
-    "p2-49"
-   ]
-  },
-  {
-   "id": "razor",
-   "ru": "бритва",
-   "en": "razor",
-   "fr": "rasoir",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-160",
-    "p2-217"
-   ]
-  },
-  {
-   "id": "reed",
-   "ru": "тростник",
-   "en": "reed",
-   "fr": "roseau",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-122",
-    "p2-2"
-   ]
-  },
-  {
-   "id": "ribbon",
-   "ru": "лента",
-   "en": "ribbon",
-   "fr": "ruban",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-79",
-    "p2-80"
-   ]
-  },
-  {
-   "id": "rock",
-   "ru": "скала",
-   "en": "rock",
-   "fr": "rocher",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-14",
-    "p1-98"
-   ]
-  },
-  {
-   "id": "rope",
-   "ru": "верёвка",
-   "en": "rope",
-   "fr": "corde",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-125",
-    "p1-157"
-   ]
-  },
-  {
-   "id": "rose-wreath",
-   "ru": "венок из роз",
-   "en": "rose wreath",
-   "fr": "couronne de roses",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-90",
-    "p2-26"
-   ]
-  },
-  {
-   "id": "rudder",
-   "ru": "руль",
-   "en": "rudder",
-   "fr": "gouvernail",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-47",
-    "p2-62"
-   ]
-  },
-  {
-   "id": "sagittarius",
-   "ru": "знак Стрельца",
-   "en": "sign of Sagittarius",
-   "fr": "signe du Sagittaire",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-13",
-    "p2-29"
-   ]
-  },
-  {
-   "id": "sapling",
-   "ru": "молодое деревце",
-   "en": "sapling",
-   "fr": "jeune arbre",
-   "category": "растение",
-   "parent": "tree",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-8",
-    "p1-12"
-   ]
-  },
-  {
-   "id": "scimitar",
-   "ru": "ятаган",
-   "en": "scimitar",
-   "fr": "cimeterre",
-   "category": "оружие",
-   "parent": "sword",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-140",
-    "p2-203"
-   ]
-  },
-  {
-   "id": "seal",
-   "ru": "печать",
-   "en": "seal",
-   "fr": "sceau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-62",
-    "p1-149"
-   ]
-  },
-  {
-   "id": "severed-head",
-   "ru": "отрубленная голова",
-   "en": "severed head",
-   "fr": "tête coupée",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-8",
-    "p2-203"
-   ]
-  },
-  {
-   "id": "sheaf",
-   "ru": "сноп",
-   "en": "sheaf",
-   "fr": "gerbe",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-1",
-    "p2-39"
-   ]
-  },
-  {
-   "id": "sieve",
-   "ru": "решето",
-   "en": "sieve",
-   "fr": "crible",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-25",
-    "p1-41"
-   ]
-  },
-  {
-   "id": "silver",
-   "ru": "серебро",
-   "en": "silver",
-   "fr": "argent",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-94",
-    "p2-120"
-   ]
-  },
-  {
-   "id": "skeleton",
-   "ru": "скелет",
-   "en": "skeleton",
-   "fr": "squelette",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-103",
-    "p2-53"
-   ]
-  },
-  {
-   "id": "spur",
-   "ru": "шпора",
-   "en": "spur",
-   "fr": "éperon",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-124",
-    "p2-183"
-   ]
-  },
-  {
-   "id": "stag-head",
-   "ru": "оленья голова",
-   "en": "stag head",
-   "fr": "tête de cerf",
-   "category": "животное",
-   "parent": "deer",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-170",
-    "p2-87"
-   ]
-  },
-  {
-   "id": "stake",
-   "ru": "кол",
-   "en": "stake",
-   "fr": "pieu",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-12",
-    "p2-109"
-   ]
-  },
-  {
-   "id": "swallow",
-   "ru": "ласточка",
-   "en": "swallow",
-   "fr": "hirondelle",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-48",
-    "p2-251"
-   ]
-  },
-  {
-   "id": "table",
-   "ru": "стол",
-   "en": "table",
-   "fr": "table",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-12",
-    "p2-106"
-   ]
-  },
-  {
-   "id": "taurus",
-   "ru": "знак Тельца",
-   "en": "sign of Taurus",
-   "fr": "signe du Taureau",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-14",
-    "p2-22"
-   ]
-  },
-  {
-   "id": "tears",
-   "ru": "слёзы",
-   "en": "tears",
-   "fr": "larmes",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-114",
-    "p2-168"
-   ]
-  },
-  {
-   "id": "throne",
-   "ru": "трон",
-   "en": "throne",
-   "fr": "trône",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-16",
-    "p2-94"
-   ]
-  },
-  {
-   "id": "tiger",
-   "ru": "тигр",
-   "en": "tiger",
-   "fr": "tigre",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-196",
-    "p2-228"
-   ]
-  },
-  {
-   "id": "triangle",
-   "ru": "треугольник",
-   "en": "triangle",
-   "fr": "triangle",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-42",
-    "p1-151"
-   ]
-  },
-  {
-   "id": "venus",
-   "ru": "Венера",
-   "en": "Venus",
-   "fr": "Vénus",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-240",
-    "p2-258"
-   ]
-  },
-  {
-   "id": "vine-wreath",
-   "ru": "венок из виноградных листьев",
-   "en": "vine-leaf wreath",
-   "fr": "couronne de feuilles de vigne",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-11",
-    "p2-95"
-   ]
-  },
-  {
-   "id": "virgo",
-   "ru": "знак Девы",
-   "en": "sign of Virgo",
-   "fr": "signe de la Vierge",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p2-14",
-    "p2-26"
-   ]
-  },
-  {
-   "id": "waves",
-   "ru": "волны",
-   "en": "waves",
-   "fr": "vagues",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-156",
-    "p2-255"
-   ]
-  },
-  {
-   "id": "worm",
-   "ru": "червь",
-   "en": "worm",
-   "fr": "ver",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 2,
-   "count_with_children": 2,
-   "merged_from": [],
-   "articles": [
-    "p1-120",
-    "p2-168"
-   ]
-  },
-  {
-   "id": "almond-leaf",
-   "ru": "листья миндаля",
-   "en": "almond leaves",
-   "fr": "feuilles d'amandier",
-   "category": "растение",
-   "parent": "leaf",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-40"
-   ]
-  },
-  {
-   "id": "alms",
-   "ru": "подаяние",
-   "en": "alms-giving",
-   "fr": "aumône",
-   "category": "поза и жест",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-112"
-   ]
-  },
-  {
-   "id": "altar",
-   "ru": "алтарь",
-   "en": "altar",
-   "fr": "autel",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-126"
-   ]
-  },
-  {
-   "id": "amaranth-wreath",
-   "ru": "венок из амаранта",
-   "en": "amaranth wreath",
-   "fr": "couronne d'amarante",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-3"
-   ]
-  },
-  {
-   "id": "anchor",
-   "ru": "якорь",
-   "en": "anchor",
-   "fr": "ancre",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-61"
-   ]
-  },
-  {
-   "id": "anvil",
-   "ru": "наковальня",
-   "en": "anvil",
-   "fr": "enclume",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-250"
-   ]
-  },
-  {
-   "id": "aquarius",
-   "ru": "знак Водолея",
-   "en": "sign of Aquarius",
-   "fr": "signe du Verseau",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-31"
-   ]
-  },
-  {
-   "id": "asp",
-   "ru": "аспид",
-   "en": "asp",
-   "fr": "aspic",
-   "category": "животное",
-   "parent": "snake",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-68"
-   ]
-  },
-  {
-   "id": "astrolabe",
-   "ru": "астролябия",
-   "en": "astrolabe",
-   "fr": "astrolabe",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-254"
-   ]
-  },
-  {
-   "id": "banner",
-   "ru": "знамя",
-   "en": "banner",
-   "fr": "bannière",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-41"
-   ]
-  },
-  {
-   "id": "basilisk",
-   "ru": "василиск",
-   "en": "basilisk",
-   "fr": "basilic",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-184"
-   ]
-  },
-  {
-   "id": "bat",
-   "ru": "летучая мышь",
-   "en": "bat",
-   "fr": "chauve-souris",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-16"
-   ]
-  },
-  {
-   "id": "bean-flower",
-   "ru": "цветы бобов",
-   "en": "bean flowers",
-   "fr": "fleurs de fève",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-73"
-   ]
-  },
-  {
-   "id": "bell",
-   "ru": "колокольчик",
-   "en": "bell",
-   "fr": "clochette",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-156"
-   ]
-  },
-  {
-   "id": "bellows",
-   "ru": "мех для раздувания огня",
-   "en": "bellows",
-   "fr": "soufflet",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-183"
-   ]
-  },
-  {
-   "id": "bit",
-   "ru": "удила",
-   "en": "bit",
-   "fr": "mors",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-235"
-   ]
-  },
-  {
-   "id": "boots",
-   "ru": "полусапожки",
-   "en": "half-boots",
-   "fr": "brodequins",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-127"
-   ]
-  },
-  {
-   "id": "bracelet",
-   "ru": "браслет",
-   "en": "bracelet",
-   "fr": "bracelet",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-142"
-   ]
-  },
-  {
-   "id": "bread",
-   "ru": "хлеб",
-   "en": "bread",
-   "fr": "pain",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-114"
-   ]
-  },
-  {
-   "id": "broken-sword",
-   "ru": "сломанный меч",
-   "en": "broken sword",
-   "fr": "épée brisée",
-   "category": "оружие",
-   "parent": "sword",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-163"
-   ]
-  },
-  {
-   "id": "brush",
-   "ru": "кисть",
-   "en": "brush",
-   "fr": "pinceau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-12"
-   ]
-  },
-  {
-   "id": "burning-straw",
-   "ru": "горящая солома",
-   "en": "burning straw",
-   "fr": "paille enflammée",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-197"
-   ]
-  },
-  {
-   "id": "casket",
-   "ru": "шкатулка",
-   "en": "casket",
-   "fr": "coffret",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-169"
-   ]
-  },
-  {
-   "id": "cat-crest",
-   "ru": "кошачий нашлемник",
-   "en": "cat crest",
-   "fr": "cimier en forme de chat",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-141"
-   ]
-  },
-  {
-   "id": "cedar-branch",
-   "ru": "ветка кедра",
-   "en": "cedar branch",
-   "fr": "branche de cèdre",
-   "category": "растение",
-   "parent": "branch",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-101"
-   ]
-  },
-  {
-   "id": "chair",
-   "ru": "кресло",
-   "en": "armchair",
-   "fr": "fauteuil",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-2"
-   ]
-  },
-  {
-   "id": "chariot",
-   "ru": "колесница",
-   "en": "chariot",
-   "fr": "char",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-105a"
-   ]
-  },
-  {
-   "id": "chart",
-   "ru": "карта",
-   "en": "chart",
-   "fr": "carte",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-255"
-   ]
-  },
-  {
-   "id": "chimera",
-   "ru": "Химера",
-   "en": "Chimera",
-   "fr": "Chimère",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-84a"
-   ]
-  },
-  {
-   "id": "chisel",
-   "ru": "резец",
-   "en": "chisel",
-   "fr": "ciseau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-12"
-   ]
-  },
-  {
-   "id": "cicada",
-   "ru": "цикада",
-   "en": "cicada",
-   "fr": "cigale",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-250"
-   ]
-  },
-  {
-   "id": "cloak",
-   "ru": "плащ",
-   "en": "cloak",
-   "fr": "manteau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-193"
-   ]
-  },
-  {
-   "id": "coral-necklace",
-   "ru": "коралловое ожерелье",
-   "en": "coral necklace",
-   "fr": "collier de corail",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-6"
-   ]
-  },
-  {
-   "id": "coulter",
-   "ru": "чересло",
-   "en": "coulter",
-   "fr": "coutre",
-   "category": "предмет",
-   "parent": "farming-tool",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-8"
-   ]
-  },
-  {
-   "id": "crayfish",
-   "ru": "рак",
-   "en": "crayfish",
-   "fr": "écrevisse",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-80"
-   ]
-  },
-  {
-   "id": "crook",
-   "ru": "пастуший посох",
-   "en": "shepherd's crook",
-   "fr": "houlette",
-   "category": "предмет",
-   "parent": "staff",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-80"
-   ]
-  },
-  {
-   "id": "crucifix",
-   "ru": "распятие",
-   "en": "crucifix",
-   "fr": "crucifix",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-109"
-   ]
-  },
-  {
-   "id": "cube",
-   "ru": "куб",
-   "en": "cube",
-   "fr": "cube",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-228"
-   ]
-  },
-  {
-   "id": "cuttlefish",
-   "ru": "каракатица",
-   "en": "cuttlefish",
-   "fr": "seiche",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-169"
-   ]
-  },
-  {
-   "id": "cypress-branch",
-   "ru": "ветвь кипариса",
-   "en": "cypress branch",
-   "fr": "rameau de cyprès",
-   "category": "растение",
-   "parent": "branch",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-191"
-   ]
-  },
-  {
-   "id": "devil",
-   "ru": "Дьявол",
-   "en": "Devil",
-   "fr": "Diable",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-114"
-   ]
-  },
-  {
-   "id": "dew",
-   "ru": "роса",
-   "en": "dew",
-   "fr": "rosée",
-   "category": "небесное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-42"
-   ]
-  },
-  {
-   "id": "diadem",
-   "ru": "диадема",
-   "en": "diadem",
-   "fr": "diadème",
-   "category": "предмет",
-   "parent": "crown",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-7"
-   ]
-  },
-  {
-   "id": "die",
-   "ru": "игральная кость",
-   "en": "die",
-   "fr": "dé",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-110"
-   ]
-  },
-  {
-   "id": "distaff",
-   "ru": "прялка",
-   "en": "distaff",
-   "fr": "quenouille",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-223"
-   ]
-  },
-  {
-   "id": "eclipsed-sun",
-   "ru": "затмившееся солнце",
-   "en": "eclipsed sun",
-   "fr": "soleil éclipsé",
-   "category": "небесное",
-   "parent": "sun",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-134"
-   ]
-  },
-  {
-   "id": "electric-ray",
-   "ru": "рыба-торпедо",
-   "en": "torpedo fish",
-   "fr": "torpille",
-   "category": "животное",
-   "parent": "fish",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-223"
-   ]
-  },
-  {
-   "id": "elm-leaf",
-   "ru": "вязовый лист",
-   "en": "elm leaf",
-   "fr": "feuille d'orme",
-   "category": "растение",
-   "parent": "leaf",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-95"
-   ]
-  },
-  {
-   "id": "ermine",
-   "ru": "горностай",
-   "en": "ermine",
-   "fr": "hermine",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-128"
-   ]
-  },
-  {
-   "id": "fan",
-   "ru": "веер",
-   "en": "fan",
-   "fr": "éventail",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-85"
-   ]
-  },
-  {
-   "id": "feather-garland",
-   "ru": "перьевая гирлянда",
-   "en": "feather garland",
-   "fr": "guirlande de plumes",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-71"
-   ]
-  },
-  {
-   "id": "fire-vessel",
-   "ru": "сосуд с огнём",
-   "en": "vessel of fire",
-   "fr": "vase de feu",
-   "category": "предмет",
-   "parent": "vessel",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-56"
-   ]
-  },
-  {
-   "id": "food",
-   "ru": "яства",
-   "en": "food",
-   "fr": "mets",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-106"
-   ]
-  },
-  {
-   "id": "fool-sceptre",
-   "ru": "шутовской жезл",
-   "en": "fool's sceptre",
-   "fr": "marotte",
-   "category": "предмет",
-   "parent": "sceptre",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-105c"
-   ]
-  },
-  {
-   "id": "forelock",
-   "ru": "чёлка спереди, лысина сзади",
-   "en": "forelock",
-   "fr": "toupet",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-160"
-   ]
-  },
-  {
-   "id": "fort",
-   "ru": "крепость",
-   "en": "fort",
-   "fr": "fort",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-251"
-   ]
-  },
-  {
-   "id": "four-arms",
-   "ru": "четыре руки",
-   "en": "four arms",
-   "fr": "quatre bras",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-150"
-   ]
-  },
-  {
-   "id": "fox",
-   "ru": "лиса",
-   "en": "fox",
-   "fr": "renard",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-64"
-   ]
-  },
-  {
-   "id": "frost",
-   "ru": "иней",
-   "en": "frost",
-   "fr": "givre",
-   "category": "небесное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-20"
-   ]
-  },
-  {
-   "id": "gemini",
-   "ru": "знак Близнецов",
-   "en": "sign of Gemini",
-   "fr": "signe des Gémeaux",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-23"
-   ]
-  },
-  {
-   "id": "golden-apple",
-   "ru": "золотое яблоко",
-   "en": "golden apple",
-   "fr": "pomme d'or",
-   "category": "предмет",
-   "parent": "fruit",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-87"
-   ]
-  },
-  {
-   "id": "golden-fleece",
-   "ru": "золотое руно",
-   "en": "golden fleece",
-   "fr": "toison d'or",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-65"
-   ]
-  },
-  {
-   "id": "grain",
-   "ru": "зерно",
-   "en": "grain",
-   "fr": "grain",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-95"
-   ]
-  },
-  {
-   "id": "grating",
-   "ru": "решётка",
-   "en": "grating",
-   "fr": "grille",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-121"
-   ]
-  },
-  {
-   "id": "griffin",
-   "ru": "гриф (грифон)",
-   "en": "griffin",
-   "fr": "griffon",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-120"
-   ]
-  },
-  {
-   "id": "grindstone",
-   "ru": "точильное колесо",
-   "en": "grindstone",
-   "fr": "meule à aiguiser",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-107"
-   ]
-  },
-  {
-   "id": "hand-at-ear",
-   "ru": "рука у уха",
-   "en": "hand at ear",
-   "fr": "main près de l'oreille",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-64"
-   ]
-  },
-  {
-   "id": "hand-on-cheek",
-   "ru": "щека на руке",
-   "en": "cheek on hand",
-   "fr": "joue sur la main",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-94"
-   ]
-  },
-  {
-   "id": "hand-on-hip",
-   "ru": "рука на боку",
-   "en": "hand on hip",
-   "fr": "main sur la hanche",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-211"
-   ]
-  },
-  {
-   "id": "hand-to-mouth",
-   "ru": "рука у рта",
-   "en": "hand at mouth",
-   "fr": "main à la bouche",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-106"
-   ]
-  },
-  {
-   "id": "hat",
-   "ru": "шляпа",
-   "en": "hat",
-   "fr": "chapeau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-88"
-   ]
-  },
-  {
-   "id": "headband",
-   "ru": "повязка на челе",
-   "en": "headband",
-   "fr": "bandeau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-146"
-   ]
-  },
-  {
-   "id": "heliotrope",
-   "ru": "гелиотроп",
-   "en": "heliotrope",
-   "fr": "héliotrope",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-82"
-   ]
-  },
-  {
-   "id": "hemp-wreath",
-   "ru": "венок из конопли",
-   "en": "hemp wreath",
-   "fr": "couronne de chanvre",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-59"
-   ]
-  },
-  {
-   "id": "hen",
-   "ru": "курица",
-   "en": "hen",
-   "fr": "poule",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-59"
-   ]
-  },
-  {
-   "id": "hidden-hands",
-   "ru": "скрытые под одеянием руки",
-   "en": "hands hidden under robe",
-   "fr": "mains cachées sous le vêtement",
-   "category": "поза и жест",
-   "parent": "hand",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-108"
-   ]
-  },
-  {
-   "id": "hoe",
-   "ru": "мотыга",
-   "en": "hoe",
-   "fr": "houe",
-   "category": "предмет",
-   "parent": "farming-tool",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-251"
-   ]
-  },
-  {
-   "id": "horn",
-   "ru": "горн",
-   "en": "horn",
-   "fr": "cor",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-75"
-   ]
-  },
-  {
-   "id": "horse",
-   "ru": "конь",
-   "en": "horse",
-   "fr": "cheval",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-7"
-   ]
-  },
-  {
-   "id": "host",
-   "ru": "гостия",
-   "en": "host",
-   "fr": "hostie",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-9"
-   ]
-  },
-  {
-   "id": "hyacinth-wreath",
-   "ru": "венок из гиацинтов",
-   "en": "hyacinth wreath",
-   "fr": "couronne de jacinthes",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-158"
-   ]
-  },
-  {
-   "id": "hyssop-wreath",
-   "ru": "венец из иссопа",
-   "en": "hyssop wreath",
-   "fr": "couronne d'hysope",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-167"
-   ]
-  },
-  {
-   "id": "incense",
-   "ru": "фимиам",
-   "en": "incense",
-   "fr": "encens",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-204"
-   ]
-  },
-  {
-   "id": "iris-crown",
-   "ru": "венец из ириса",
-   "en": "iris crown",
-   "fr": "couronne d'iris",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-105d"
-   ]
-  },
-  {
-   "id": "ivy-belt",
-   "ru": "пояс из плюща",
-   "en": "ivy belt",
-   "fr": "ceinture de lierre",
-   "category": "предмет",
-   "parent": "belt",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-66"
-   ]
-  },
-  {
-   "id": "ivy-garland",
-   "ru": "гирлянда из плюща",
-   "en": "ivy garland",
-   "fr": "guirlande de lierre",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-76"
-   ]
-  },
-  {
-   "id": "jacobs-staff",
-   "ru": "посох Иакова",
-   "en": "Jacob's staff",
-   "fr": "bâton de Jacob",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-245"
-   ]
-  },
-  {
-   "id": "juniper-wreath",
-   "ru": "венок из можжевельника",
-   "en": "juniper wreath",
-   "fr": "couronne de genévrier",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-97"
-   ]
-  },
-  {
-   "id": "kingfisher",
-   "ru": "зимородок",
-   "en": "kingfisher",
-   "fr": "martin-pêcheur",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-21"
-   ]
-  },
-  {
-   "id": "leaf-wreath",
-   "ru": "венок из листьев",
-   "en": "leaf wreath",
-   "fr": "couronne de feuilles",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-169"
-   ]
-  },
-  {
-   "id": "ledger",
-   "ru": "счётная книга",
-   "en": "ledger",
-   "fr": "livre de comptes",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-162"
-   ]
-  },
-  {
-   "id": "letter",
-   "ru": "грамота",
-   "en": "sealed letter",
-   "fr": "lettre scellée",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-74"
-   ]
-  },
-  {
-   "id": "level",
-   "ru": "уровень",
-   "en": "level",
-   "fr": "niveau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-99"
-   ]
-  },
-  {
-   "id": "lizard",
-   "ru": "ящерица",
-   "en": "lizard",
-   "fr": "lézard",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-162"
-   ]
-  },
-  {
-   "id": "lotus-branch",
-   "ru": "ветка лотоса",
-   "en": "lotus branch",
-   "fr": "branche de lotus",
-   "category": "растение",
-   "parent": "branch",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-14"
-   ]
-  },
-  {
-   "id": "lowered-eyes",
-   "ru": "опущенные глаза",
-   "en": "lowered eyes",
-   "fr": "yeux baissés",
-   "category": "поза и жест",
-   "parent": "eye",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-165"
-   ]
-  },
-  {
-   "id": "magpie",
-   "ru": "сорока",
-   "en": "magpie",
-   "fr": "pie",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-123"
-   ]
-  },
-  {
-   "id": "mayfly",
-   "ru": "однодневная муха",
-   "en": "mayfly",
-   "fr": "éphémère",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-92"
-   ]
-  },
-  {
-   "id": "meadow",
-   "ru": "луг",
-   "en": "meadow",
-   "fr": "prairie",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-32"
-   ]
-  },
-  {
-   "id": "medusa-head",
-   "ru": "голова Медузы",
-   "en": "head of Medusa",
-   "fr": "tête de Méduse",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-68"
-   ]
-  },
-  {
-   "id": "millstone",
-   "ru": "жёрнов",
-   "en": "millstone",
-   "fr": "meule",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-119"
-   ]
-  },
-  {
-   "id": "mole",
-   "ru": "крот",
-   "en": "mole",
-   "fr": "taupe",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-181"
-   ]
-  },
-  {
-   "id": "monster",
-   "ru": "чудовище",
-   "en": "monster",
-   "fr": "monstre",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-41"
-   ]
-  },
-  {
-   "id": "mountain",
-   "ru": "гора",
-   "en": "mountain",
-   "fr": "montagne",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-90"
-   ]
-  },
-  {
-   "id": "mouth",
-   "ru": "уста",
-   "en": "mouth",
-   "fr": "bouche",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-82"
-   ]
-  },
-  {
-   "id": "mulberry-leaf",
-   "ru": "листья тутовника",
-   "en": "mulberry leaves",
-   "fr": "feuilles de mûrier",
-   "category": "растение",
-   "parent": "leaf",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-40"
-   ]
-  },
-  {
-   "id": "musket",
-   "ru": "мушкет",
-   "en": "musket",
-   "fr": "mousquet",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-217"
-   ]
-  },
-  {
-   "id": "myrtle",
-   "ru": "мирт",
-   "en": "myrtle",
-   "fr": "myrte",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-110"
-   ]
-  },
-  {
-   "id": "narcissus",
-   "ru": "нарцисс",
-   "en": "narcissus",
-   "fr": "narcisse",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-103"
-   ]
-  },
-  {
-   "id": "nightingale",
-   "ru": "соловей",
-   "en": "nightingale",
-   "fr": "rossignol",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-250"
-   ]
-  },
-  {
-   "id": "nimbus",
-   "ru": "нимб",
-   "en": "nimbus",
-   "fr": "nimbe",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-109"
-   ]
-  },
-  {
-   "id": "numbers",
-   "ru": "числа",
-   "en": "numbers",
-   "fr": "nombres",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-139"
-   ]
-  },
-  {
-   "id": "oak",
-   "ru": "дуб",
-   "en": "oak",
-   "fr": "chêne",
-   "category": "растение",
-   "parent": "tree",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-128"
-   ]
-  },
-  {
-   "id": "oboe",
-   "ru": "гобой",
-   "en": "oboe",
-   "fr": "hautbois",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-75"
-   ]
-  },
-  {
-   "id": "open-eyes",
-   "ru": "открытые глаза",
-   "en": "open eyes",
-   "fr": "yeux ouverts",
-   "category": "поза и жест",
-   "parent": "eye",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-156"
-   ]
-  },
-  {
-   "id": "ouroboros",
-   "ru": "змея, кусающая свой хвост",
-   "en": "ouroboros",
-   "fr": "ouroboros",
-   "category": "животное",
-   "parent": "snake",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-130"
-   ]
-  },
-  {
-   "id": "panpipes",
-   "ru": "семиствольная флейта",
-   "en": "panpipes",
-   "fr": "flûte de Pan",
-   "category": "предмет",
-   "parent": "musical-instrument",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-80"
-   ]
-  },
-  {
-   "id": "panther",
-   "ru": "пантера",
-   "en": "panther",
-   "fr": "panthère",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-234"
-   ]
-  },
-  {
-   "id": "partridge",
-   "ru": "куропатка",
-   "en": "partridge",
-   "fr": "perdrix",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-187"
-   ]
-  },
-  {
-   "id": "peach",
-   "ru": "персик",
-   "en": "peach",
-   "fr": "pêche",
-   "category": "растение",
-   "parent": "fruit",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-46"
-   ]
-  },
-  {
-   "id": "pebble",
-   "ru": "камешек",
-   "en": "pebble",
-   "fr": "caillou",
-   "category": "предмет",
-   "parent": "stone",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-261"
-   ]
-  },
-  {
-   "id": "pheasant",
-   "ru": "фазан",
-   "en": "pheasant",
-   "fr": "faisan",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-173"
-   ]
-  },
-  {
-   "id": "pick",
-   "ru": "кирка",
-   "en": "pickaxe",
-   "fr": "pioche",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-251"
-   ]
-  },
-  {
-   "id": "pike",
-   "ru": "пика",
-   "en": "pike",
-   "fr": "pique",
-   "category": "оружие",
-   "parent": "weapon",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-10"
-   ]
-  },
-  {
-   "id": "pine-branch",
-   "ru": "сосновая ветвь",
-   "en": "pine branch",
-   "fr": "branche de pin",
-   "category": "растение",
-   "parent": "branch",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-22"
-   ]
-  },
-  {
-   "id": "pisces",
-   "ru": "знак Рыб",
-   "en": "sign of Pisces",
-   "fr": "signe des Poissons",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-32"
-   ]
-  },
-  {
-   "id": "playing-card",
-   "ru": "игральная карта",
-   "en": "playing card",
-   "fr": "carte à jouer",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-226"
-   ]
-  },
-  {
-   "id": "porcupine",
-   "ru": "дикобраз",
-   "en": "porcupine",
-   "fr": "porc-épic",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-217"
-   ]
-  },
-  {
-   "id": "proserpine",
-   "ru": "Прозерпина",
-   "en": "Proserpine",
-   "fr": "Proserpine",
-   "category": "персонаж",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-242"
-   ]
-  },
-  {
-   "id": "pruning-hook",
-   "ru": "садовый серп",
-   "en": "pruning hook",
-   "fr": "serpe",
-   "category": "предмет",
-   "parent": "farming-tool",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-144"
-   ]
-  },
-  {
-   "id": "puffed-cheeks",
-   "ru": "раздутые щёки",
-   "en": "puffed cheeks",
-   "fr": "joues gonflées",
-   "category": "поза и жест",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-19"
-   ]
-  },
-  {
-   "id": "pyralis",
-   "ru": "пиралис",
-   "en": "pyralis",
-   "fr": "pyrale",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-4"
-   ]
-  },
-  {
-   "id": "pyramid",
-   "ru": "пирамида",
-   "en": "pyramid",
-   "fr": "pyramide",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-70"
-   ]
-  },
-  {
-   "id": "quail",
-   "ru": "перепёл",
-   "en": "quail",
-   "fr": "caille",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-215"
-   ]
-  },
-  {
-   "id": "quince",
-   "ru": "айва",
-   "en": "quince",
-   "fr": "coing",
-   "category": "растение",
-   "parent": "fruit",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-92"
-   ]
-  },
-  {
-   "id": "rake",
-   "ru": "грабли",
-   "en": "rake",
-   "fr": "râteau",
-   "category": "предмет",
-   "parent": "farming-tool",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-41"
-   ]
-  },
-  {
-   "id": "rapier",
-   "ru": "рапира",
-   "en": "rapier",
-   "fr": "rapière",
-   "category": "оружие",
-   "parent": "sword",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-89"
-   ]
-  },
-  {
-   "id": "rat",
-   "ru": "крыса",
-   "en": "rat",
-   "fr": "rat",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-192"
-   ]
-  },
-  {
-   "id": "raven",
-   "ru": "ворон",
-   "en": "raven",
-   "fr": "corbeau",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-209"
-   ]
-  },
-  {
-   "id": "remora",
-   "ru": "рыба-прилипала",
-   "en": "remora",
-   "fr": "rémora",
-   "category": "животное",
-   "parent": "fish",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-137"
-   ]
-  },
-  {
-   "id": "ring",
-   "ru": "перстень",
-   "en": "ring",
-   "fr": "anneau",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-152"
-   ]
-  },
-  {
-   "id": "rose-branch",
-   "ru": "ветка розового куста",
-   "en": "rose branch",
-   "fr": "branche de rosier",
-   "category": "растение",
-   "parent": "branch",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-169"
-   ]
-  },
-  {
-   "id": "rue-wreath",
-   "ru": "венок из руты",
-   "en": "rue wreath",
-   "fr": "couronne de rue",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-23"
-   ]
-  },
-  {
-   "id": "sack",
-   "ru": "мешок",
-   "en": "sack",
-   "fr": "sac",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-95"
-   ]
-  },
-  {
-   "id": "salamander",
-   "ru": "саламандра",
-   "en": "salamander",
-   "fr": "salamandre",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-4"
-   ]
-  },
-  {
-   "id": "scorpio",
-   "ru": "знак Скорпиона",
-   "en": "sign of Scorpio",
-   "fr": "signe du Scorpion",
-   "category": "небесное",
-   "parent": "zodiac",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-28"
-   ]
-  },
-  {
-   "id": "screw",
-   "ru": "винт",
-   "en": "screw",
-   "fr": "vis",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-13"
-   ]
-  },
-  {
-   "id": "sea",
-   "ru": "море",
-   "en": "sea",
-   "fr": "mer",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-180"
-   ]
-  },
-  {
-   "id": "shadow",
-   "ru": "тень",
-   "en": "shadow",
-   "fr": "ombre",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-152"
-   ]
-  },
-  {
-   "id": "shroud",
-   "ru": "покрывало",
-   "en": "shroud",
-   "fr": "linceul",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-53"
-   ]
-  },
-  {
-   "id": "six-arms",
-   "ru": "шесть рук",
-   "en": "six arms",
-   "fr": "six bras",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-57"
-   ]
-  },
-  {
-   "id": "six-legs",
-   "ru": "шесть ног",
-   "en": "six legs",
-   "fr": "six jambes",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-57"
-   ]
-  },
-  {
-   "id": "snake-tail",
-   "ru": "змеиный хвост",
-   "en": "snake tail",
-   "fr": "queue de serpent",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-234"
-   ]
-  },
-  {
-   "id": "sock",
-   "ru": "комическая обувь (сокк)",
-   "en": "comic shoe (sock)",
-   "fr": "brodequin comique (socque)",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-76"
-   ]
-  },
-  {
-   "id": "spade",
-   "ru": "заступ",
-   "en": "spade",
-   "fr": "bêche",
-   "category": "предмет",
-   "parent": "farming-tool",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-88"
-   ]
-  },
-  {
-   "id": "sparrow",
-   "ru": "воробей",
-   "en": "sparrow",
-   "fr": "moineau",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-51"
-   ]
-  },
-  {
-   "id": "sphere",
-   "ru": "сфера",
-   "en": "sphere",
-   "fr": "sphère",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-105a"
-   ]
-  },
-  {
-   "id": "star-crown",
-   "ru": "венец из звёзд",
-   "en": "crown of stars",
-   "fr": "couronne d'étoiles",
-   "category": "предмет",
-   "parent": "crown",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-72"
-   ]
-  },
-  {
-   "id": "statue",
-   "ru": "статуя",
-   "en": "statue",
-   "fr": "statue",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-258"
-   ]
-  },
-  {
-   "id": "stick",
-   "ru": "палочка",
-   "en": "stick",
-   "fr": "bâtonnet",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-232"
-   ]
-  },
-  {
-   "id": "sundial",
-   "ru": "солнечные часы",
-   "en": "sundial",
-   "fr": "cadran solaire",
-   "category": "предмет",
-   "parent": "clock",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-256"
-   ]
-  },
-  {
-   "id": "sunflower",
-   "ru": "подсолнечник",
-   "en": "sunflower",
-   "fr": "tournesol",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-147"
-   ]
-  },
-  {
-   "id": "swan",
-   "ru": "лебедь",
-   "en": "swan",
-   "fr": "cygne",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-24"
-   ]
-  },
-  {
-   "id": "talon",
-   "ru": "коготь",
-   "en": "talon",
-   "fr": "serre",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-198"
-   ]
-  },
-  {
-   "id": "thorn-crown",
-   "ru": "терновый венец",
-   "en": "crown of thorns",
-   "fr": "couronne d'épines",
-   "category": "предмет",
-   "parent": "wreath",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-145"
-   ]
-  },
-  {
-   "id": "thread",
-   "ru": "нить",
-   "en": "thread",
-   "fr": "fil",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-134"
-   ]
-  },
-  {
-   "id": "three-faces",
-   "ru": "три лика",
-   "en": "three faces",
-   "fr": "trois visages",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-57"
-   ]
-  },
-  {
-   "id": "thyme",
-   "ru": "тимьян",
-   "en": "thyme",
-   "fr": "thym",
-   "category": "растение",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-40"
-   ]
-  },
-  {
-   "id": "thyrsus",
-   "ru": "тирс",
-   "en": "thyrsus",
-   "fr": "thyrse",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-81"
-   ]
-  },
-  {
-   "id": "tiara",
-   "ru": "тройная корона",
-   "en": "triple crown",
-   "fr": "tiare",
-   "category": "предмет",
-   "parent": "crown",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-172"
-   ]
-  },
-  {
-   "id": "toad",
-   "ru": "жаба",
-   "en": "toad",
-   "fr": "crapaud",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-212"
-   ]
-  },
-  {
-   "id": "tomb",
-   "ru": "гробница",
-   "en": "tomb",
-   "fr": "tombeau",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-157"
-   ]
-  },
-  {
-   "id": "torn-sails",
-   "ru": "изорванные паруса",
-   "en": "torn sails",
-   "fr": "voiles déchirées",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-61"
-   ]
-  },
-  {
-   "id": "touchstone",
-   "ru": "пробирный камень",
-   "en": "touchstone",
-   "fr": "pierre de touche",
-   "category": "предмет",
-   "parent": "stone",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-56"
-   ]
-  },
-  {
-   "id": "triangular-stone",
-   "ru": "треугольный камень",
-   "en": "triangular stone",
-   "fr": "pierre triangulaire",
-   "category": "предмет",
-   "parent": "stone",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-132"
-   ]
-  },
-  {
-   "id": "trident",
-   "ru": "трезубец",
-   "en": "trident",
-   "fr": "trident",
-   "category": "оружие",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-242"
-   ]
-  },
-  {
-   "id": "tripod",
-   "ru": "треножник",
-   "en": "tripod",
-   "fr": "trépied",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-42"
-   ]
-  },
-  {
-   "id": "tulip",
-   "ru": "тюльпан",
-   "en": "tulip",
-   "fr": "tulipe",
-   "category": "растение",
-   "parent": "flower",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-181"
-   ]
-  },
-  {
-   "id": "turtledove",
-   "ru": "горлица",
-   "en": "turtledove",
-   "fr": "tourterelle",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-116"
-   ]
-  },
-  {
-   "id": "two-heads",
-   "ru": "две головы",
-   "en": "two heads",
-   "fr": "deux têtes",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-198"
-   ]
-  },
-  {
-   "id": "unicorn",
-   "ru": "единорог",
-   "en": "unicorn",
-   "fr": "licorne",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-177"
-   ]
-  },
-  {
-   "id": "urn",
-   "ru": "урна",
-   "en": "urn",
-   "fr": "urne",
-   "category": "предмет",
-   "parent": "vessel",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-2"
-   ]
-  },
-  {
-   "id": "water",
-   "ru": "вода",
-   "en": "water",
-   "fr": "eau",
-   "category": "место и постройка",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-2"
-   ]
-  },
-  {
-   "id": "watering-can",
-   "ru": "лейка",
-   "en": "watering can",
-   "fr": "arrosoir",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-19"
-   ]
-  },
-  {
-   "id": "wick",
-   "ru": "фитиль",
-   "en": "wick",
-   "fr": "mèche",
-   "category": "предмет",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-130"
-   ]
-  },
-  {
-   "id": "wild-beast",
-   "ru": "дикий зверь",
-   "en": "wild beast",
-   "fr": "bête sauvage",
-   "category": "животное",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-117"
-   ]
-  },
-  {
-   "id": "wooden-leg",
-   "ru": "деревянная нога",
-   "en": "wooden leg",
-   "fr": "jambe de bois",
-   "category": "черта фигуры",
-   "parent": null,
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p2-197"
-   ]
-  },
-  {
-   "id": "wren",
-   "ru": "королёк",
-   "en": "wren",
-   "fr": "roitelet",
-   "category": "животное",
-   "parent": "bird",
-   "children": [],
-   "count": 1,
-   "count_with_children": 1,
-   "merged_from": [],
-   "articles": [
-    "p1-129"
-   ]
-  }
- ],
+ "bindings": {
+  "wreath": [
+   "p1-66",
+   "p1-83",
+   "p1-136",
+   "p1-172",
+   "p2-5",
+   "p2-23",
+   "p2-27",
+   "p2-89",
+   "p2-98",
+   "p2-103",
+   "p2-250"
+  ],
+  "weapon": [
+   "p1-16",
+   "p1-54",
+   "p2-7",
+   "p2-100",
+   "p2-114"
+  ],
+  "wing": [
+   "p1-5",
+   "p1-6",
+   "p1-9",
+   "p1-11",
+   "p1-15",
+   "p1-17",
+   "p1-36",
+   "p1-37",
+   "p1-42",
+   "p1-54",
+   "p1-57",
+   "p1-60",
+   "p1-76",
+   "p1-79",
+   "p1-81",
+   "p1-84",
+   "p1-93",
+   "p1-114",
+   "p1-119",
+   "p1-126",
+   "p1-127",
+   "p1-151",
+   "p1-154",
+   "p1-156",
+   "p1-167",
+   "p1-173",
+   "p2-17",
+   "p2-18",
+   "p2-19",
+   "p2-20",
+   "p2-21",
+   "p2-22",
+   "p2-24",
+   "p2-25",
+   "p2-26",
+   "p2-27",
+   "p2-28",
+   "p2-29",
+   "p2-30",
+   "p2-31",
+   "p2-32",
+   "p2-33",
+   "p2-34",
+   "p2-35",
+   "p2-36",
+   "p2-59",
+   "p2-62",
+   "p2-65",
+   "p2-66",
+   "p2-70",
+   "p2-82",
+   "p2-83",
+   "p2-84",
+   "p2-84a",
+   "p2-91",
+   "p2-97",
+   "p2-98",
+   "p2-99",
+   "p2-105",
+   "p2-105c",
+   "p2-105d",
+   "p2-111",
+   "p2-121",
+   "p2-171",
+   "p2-175",
+   "p2-180",
+   "p2-188",
+   "p2-193",
+   "p2-205",
+   "p2-215",
+   "p2-218",
+   "p2-239",
+   "p2-243",
+   "p2-256"
+  ],
+  "bird": [
+   "p1-5",
+   "p2-1",
+   "p2-97"
+  ],
+  "book": [
+   "p1-2",
+   "p1-3",
+   "p1-16",
+   "p1-29",
+   "p1-30",
+   "p1-34",
+   "p1-42",
+   "p1-49",
+   "p1-51",
+   "p1-64",
+   "p1-76",
+   "p1-94",
+   "p1-96",
+   "p1-98",
+   "p1-104",
+   "p1-123",
+   "p1-131",
+   "p1-143",
+   "p1-144",
+   "p1-148",
+   "p1-149",
+   "p1-156",
+   "p1-166",
+   "p1-171",
+   "p2-7",
+   "p2-49",
+   "p2-51",
+   "p2-73",
+   "p2-74",
+   "p2-107",
+   "p2-125",
+   "p2-137",
+   "p2-151",
+   "p2-170",
+   "p2-201",
+   "p2-202",
+   "p2-226",
+   "p2-250",
+   "p2-262"
+  ],
+  "crown": [
+   "p1-2",
+   "p1-6",
+   "p1-15",
+   "p1-22",
+   "p1-35",
+   "p1-49",
+   "p1-70",
+   "p1-75",
+   "p1-78",
+   "p1-88",
+   "p1-100",
+   "p1-107",
+   "p1-139",
+   "p1-157",
+   "p2-7",
+   "p2-51a",
+   "p2-52",
+   "p2-53",
+   "p2-54",
+   "p2-57",
+   "p2-73",
+   "p2-77",
+   "p2-111",
+   "p2-141",
+   "p2-145",
+   "p2-151",
+   "p2-153",
+   "p2-154",
+   "p2-180",
+   "p2-199",
+   "p2-235",
+   "p2-249",
+   "p2-253"
+  ],
+  "flower": [
+   "p1-17",
+   "p1-89",
+   "p2-17",
+   "p2-18",
+   "p2-21",
+   "p2-22",
+   "p2-23",
+   "p2-65",
+   "p2-134",
+   "p2-140",
+   "p2-234"
+  ],
+  "musical-instrument": [
+   "p2-7",
+   "p2-107"
+  ],
+  "armor": [
+   "p1-3",
+   "p1-10",
+   "p1-141",
+   "p2-15",
+   "p2-41",
+   "p2-196",
+   "p2-203",
+   "p2-213",
+   "p2-225",
+   "p2-235"
+  ],
+  "eye": [
+   "p1-102",
+   "p1-110",
+   "p1-123",
+   "p1-125",
+   "p1-140",
+   "p2-82",
+   "p2-130",
+   "p2-166",
+   "p2-193",
+   "p2-260"
+  ],
+  "lion": [
+   "p1-65",
+   "p1-67",
+   "p1-97",
+   "p1-139",
+   "p1-140",
+   "p1-156",
+   "p1-163",
+   "p1-168",
+   "p2-6",
+   "p2-40",
+   "p2-48",
+   "p2-62a",
+   "p2-65",
+   "p2-67",
+   "p2-68",
+   "p2-86",
+   "p2-87",
+   "p2-96",
+   "p2-105d",
+   "p2-117",
+   "p2-118",
+   "p2-129",
+   "p2-153",
+   "p2-155",
+   "p2-180",
+   "p2-237"
+  ],
+  "scroll": [
+   "p1-33",
+   "p1-54",
+   "p1-56",
+   "p1-72",
+   "p1-84",
+   "p1-113",
+   "p1-165",
+   "p2-69",
+   "p2-78",
+   "p2-103",
+   "p2-106",
+   "p2-107",
+   "p2-113",
+   "p2-128",
+   "p2-137",
+   "p2-148",
+   "p2-157",
+   "p2-158",
+   "p2-163",
+   "p2-164",
+   "p2-168",
+   "p2-174",
+   "p2-175",
+   "p2-186",
+   "p2-189",
+   "p2-234"
+  ],
+  "sword": [
+   "p1-10",
+   "p1-31",
+   "p1-126",
+   "p1-139",
+   "p2-15",
+   "p2-41",
+   "p2-48",
+   "p2-52",
+   "p2-53",
+   "p2-57",
+   "p2-63",
+   "p2-64",
+   "p2-65",
+   "p2-67",
+   "p2-68",
+   "p2-104",
+   "p2-147",
+   "p2-212",
+   "p2-213",
+   "p2-235"
+  ],
+  "branch": [
+   "p2-5",
+   "p2-23"
+  ],
+  "heart": [
+   "p1-4",
+   "p1-27",
+   "p1-30",
+   "p1-32",
+   "p1-61",
+   "p1-120",
+   "p1-145",
+   "p1-155",
+   "p1-164",
+   "p2-55",
+   "p2-84",
+   "p2-97",
+   "p2-101",
+   "p2-109",
+   "p2-122",
+   "p2-128",
+   "p2-135",
+   "p2-147",
+   "p2-161",
+   "p2-168",
+   "p2-198"
+  ],
+  "sceptre": [
+   "p1-16",
+   "p1-42",
+   "p1-64",
+   "p1-86",
+   "p1-88",
+   "p1-98",
+   "p1-100",
+   "p1-102",
+   "p1-131",
+   "p1-163",
+   "p2-2",
+   "p2-7",
+   "p2-57",
+   "p2-77",
+   "p2-96",
+   "p2-116",
+   "p2-130",
+   "p2-145",
+   "p2-153",
+   "p2-199",
+   "p2-228",
+   "p2-253",
+   "p2-260"
+  ],
+  "snake": [
+   "p1-3",
+   "p1-83",
+   "p1-89",
+   "p1-92",
+   "p1-95",
+   "p1-120",
+   "p1-122",
+   "p1-146",
+   "p1-147",
+   "p2-6",
+   "p2-52",
+   "p2-58",
+   "p2-64",
+   "p2-95",
+   "p2-128",
+   "p2-130",
+   "p2-166",
+   "p2-189",
+   "p2-194",
+   "p2-201",
+   "p2-222",
+   "p2-234"
+  ],
+  "laurel-crown": [
+   "p1-2",
+   "p1-6",
+   "p1-33",
+   "p1-58",
+   "p1-64",
+   "p1-95",
+   "p1-98",
+   "p1-132",
+   "p1-163",
+   "p1-167",
+   "p2-64",
+   "p2-66",
+   "p2-73",
+   "p2-74",
+   "p2-78",
+   "p2-79",
+   "p2-84a",
+   "p2-98",
+   "p2-99",
+   "p2-111",
+   "p2-171",
+   "p2-228",
+   "p2-248"
+  ],
+  "compass": [
+   "p1-15",
+   "p1-20",
+   "p1-47",
+   "p1-87",
+   "p1-93",
+   "p1-99",
+   "p1-111",
+   "p1-116",
+   "p1-124",
+   "p1-133",
+   "p1-135",
+   "p1-161",
+   "p2-152",
+   "p2-191",
+   "p2-243",
+   "p2-244",
+   "p2-246",
+   "p2-255",
+   "p2-256",
+   "p2-258",
+   "p2-261"
+  ],
+  "cup": [
+   "p1-9",
+   "p1-27",
+   "p1-71",
+   "p1-117",
+   "p1-142",
+   "p1-164",
+   "p2-21",
+   "p2-22",
+   "p2-24",
+   "p2-25",
+   "p2-26",
+   "p2-30",
+   "p2-89",
+   "p2-122",
+   "p2-135",
+   "p2-137",
+   "p2-143",
+   "p2-149",
+   "p2-151",
+   "p2-199",
+   "p2-236"
+  ],
+  "helmet": [
+   "p1-38",
+   "p1-49",
+   "p1-89",
+   "p1-137",
+   "p1-139",
+   "p1-140",
+   "p1-149",
+   "p2-21",
+   "p2-40",
+   "p2-41",
+   "p2-62a",
+   "p2-63",
+   "p2-68",
+   "p2-84a",
+   "p2-85",
+   "p2-94",
+   "p2-135",
+   "p2-213"
+  ],
+  "zodiac": [
+   "p1-8",
+   "p1-69",
+   "p1-124"
+  ],
+  "globe": [
+   "p1-20",
+   "p1-45",
+   "p1-100",
+   "p1-151",
+   "p1-160",
+   "p1-166",
+   "p2-3",
+   "p2-7",
+   "p2-33",
+   "p2-34",
+   "p2-72",
+   "p2-96",
+   "p2-170",
+   "p2-219",
+   "p2-243",
+   "p2-246",
+   "p2-250",
+   "p2-253",
+   "p2-254"
+  ],
+  "star": [
+   "p1-11",
+   "p1-15",
+   "p1-24",
+   "p1-58",
+   "p1-79",
+   "p1-160",
+   "p2-13",
+   "p2-16",
+   "p2-33",
+   "p2-34",
+   "p2-35",
+   "p2-36",
+   "p2-230",
+   "p2-239",
+   "p2-248",
+   "p2-253",
+   "p2-254",
+   "p2-255",
+   "p2-258"
+  ],
+  "cornucopia": [
+   "p1-1",
+   "p1-71",
+   "p1-77",
+   "p1-87",
+   "p1-115",
+   "p1-126",
+   "p2-3",
+   "p2-6",
+   "p2-7",
+   "p2-11",
+   "p2-27",
+   "p2-29",
+   "p2-56",
+   "p2-59",
+   "p2-60",
+   "p2-84a",
+   "p2-153",
+   "p2-224"
+  ],
+  "flame": [
+   "p1-10",
+   "p1-31",
+   "p1-45",
+   "p1-56",
+   "p1-58",
+   "p1-126",
+   "p1-143",
+   "p1-145",
+   "p2-4",
+   "p2-12",
+   "p2-48",
+   "p2-100",
+   "p2-115",
+   "p2-125",
+   "p2-145",
+   "p2-146",
+   "p2-201",
+   "p2-213"
+  ],
+  "torch": [
+   "p1-17",
+   "p1-29",
+   "p1-46",
+   "p1-74",
+   "p1-113",
+   "p1-158",
+   "p2-10",
+   "p2-68",
+   "p2-70",
+   "p2-97",
+   "p2-108",
+   "p2-125",
+   "p2-184",
+   "p2-189",
+   "p2-210",
+   "p2-213",
+   "p2-216",
+   "p2-242"
+  ],
+  "veil": [
+   "p1-11",
+   "p1-82",
+   "p1-93",
+   "p1-128",
+   "p1-138",
+   "p1-143",
+   "p2-8",
+   "p2-116",
+   "p2-134",
+   "p2-136",
+   "p2-139",
+   "p2-161",
+   "p2-202",
+   "p2-208",
+   "p2-209",
+   "p2-229",
+   "p2-258"
+  ],
+  "mirror": [
+   "p1-19",
+   "p1-42",
+   "p1-111",
+   "p1-113",
+   "p1-123",
+   "p1-137",
+   "p1-151",
+   "p2-43",
+   "p2-102",
+   "p2-104",
+   "p2-123",
+   "p2-144",
+   "p2-151",
+   "p2-178",
+   "p2-231",
+   "p2-259"
+  ],
+  "nudity": [
+   "p1-19",
+   "p1-58",
+   "p1-68",
+   "p1-71",
+   "p1-82",
+   "p1-105",
+   "p1-120",
+   "p1-166",
+   "p2-2",
+   "p2-33",
+   "p2-152",
+   "p2-175",
+   "p2-187",
+   "p2-188",
+   "p2-201",
+   "p2-227"
+  ],
+  "spear": [
+   "p1-3",
+   "p1-65",
+   "p1-107",
+   "p1-153",
+   "p1-167",
+   "p2-40",
+   "p2-57",
+   "p2-58",
+   "p2-63",
+   "p2-65a",
+   "p2-84a",
+   "p2-85",
+   "p2-117",
+   "p2-142",
+   "p2-171",
+   "p2-172"
+  ],
+  "raised-eyes": [
+   "p1-9",
+   "p1-37",
+   "p1-81",
+   "p1-112",
+   "p1-121",
+   "p1-128",
+   "p1-161",
+   "p2-113",
+   "p2-126",
+   "p2-137",
+   "p2-146",
+   "p2-158",
+   "p2-159",
+   "p2-163",
+   "p2-168"
+  ],
+  "shield": [
+   "p1-65",
+   "p1-149",
+   "p2-41",
+   "p2-48",
+   "p2-57",
+   "p2-63",
+   "p2-64",
+   "p2-67",
+   "p2-68",
+   "p2-85",
+   "p2-138",
+   "p2-142",
+   "p2-171",
+   "p2-172",
+   "p2-195"
+  ],
+  "fruit": [
+   "p1-77",
+   "p2-46"
+  ],
+  "sun": [
+   "p1-42",
+   "p1-53",
+   "p1-113",
+   "p1-156",
+   "p1-166",
+   "p1-167",
+   "p2-4",
+   "p2-14",
+   "p2-17",
+   "p2-84a",
+   "p2-174",
+   "p2-253"
+  ],
+  "chain": [
+   "p1-30",
+   "p1-123",
+   "p1-158",
+   "p2-55",
+   "p2-84",
+   "p2-96",
+   "p2-128",
+   "p2-140",
+   "p2-155",
+   "p2-236",
+   "p2-247",
+   "p2-251"
+  ],
+  "clock": [
+   "p1-54",
+   "p1-100",
+   "p1-108",
+   "p1-134",
+   "p1-159",
+   "p2-124"
+  ],
+  "vessel": [
+   "p1-31",
+   "p1-56",
+   "p1-72",
+   "p2-4",
+   "p2-45",
+   "p2-104",
+   "p2-134",
+   "p2-156",
+   "p2-185",
+   "p2-250"
+  ],
+  "jewel": [
+   "p1-35",
+   "p1-67",
+   "p1-87",
+   "p1-90",
+   "p1-142",
+   "p2-51a",
+   "p2-96",
+   "p2-104",
+   "p2-156",
+   "p2-199",
+   "p2-251"
+  ],
+  "rays": [
+   "p1-22",
+   "p1-71",
+   "p2-91",
+   "p2-113",
+   "p2-126",
+   "p2-127",
+   "p2-147",
+   "p2-151",
+   "p2-159",
+   "p2-240",
+   "p2-256"
+  ],
+  "scales": [
+   "p1-48",
+   "p1-162",
+   "p2-52",
+   "p2-53",
+   "p2-54",
+   "p2-114",
+   "p2-131",
+   "p2-151",
+   "p2-178",
+   "p2-212",
+   "p2-250"
+  ],
+  "stone": [
+   "p1-39",
+   "p1-117",
+   "p1-119",
+   "p1-149",
+   "p1-154",
+   "p2-90",
+   "p2-164",
+   "p2-165"
+  ],
+  "bow": [
+   "p1-5",
+   "p1-25",
+   "p1-75",
+   "p1-114",
+   "p2-8",
+   "p2-70",
+   "p2-78",
+   "p2-89",
+   "p2-97",
+   "p2-241"
+  ],
+  "cloud": [
+   "p1-20",
+   "p1-122",
+   "p1-131",
+   "p2-1",
+   "p2-2",
+   "p2-17",
+   "p2-20",
+   "p2-82",
+   "p2-175",
+   "p2-220"
+  ],
+  "staff": [
+   "p1-43",
+   "p1-50",
+   "p1-55",
+   "p1-85",
+   "p1-95",
+   "p1-147",
+   "p2-107",
+   "p2-196",
+   "p2-207"
+  ],
+  "arrow": [
+   "p1-5",
+   "p1-9",
+   "p1-114",
+   "p1-137",
+   "p2-8",
+   "p2-14",
+   "p2-62a",
+   "p2-65a",
+   "p2-237"
+  ],
+  "belt": [
+   "p1-102",
+   "p1-136",
+   "p1-172",
+   "p2-13",
+   "p2-14",
+   "p2-16",
+   "p2-35",
+   "p2-36"
+  ],
+  "blindfold": [
+   "p1-25",
+   "p1-50",
+   "p1-57",
+   "p1-100",
+   "p2-65a",
+   "p2-105",
+   "p2-188",
+   "p2-207",
+   "p2-224"
+  ],
+  "cupid": [
+   "p1-25",
+   "p1-52",
+   "p1-66",
+   "p1-142",
+   "p2-60",
+   "p2-70",
+   "p2-97",
+   "p2-105c",
+   "p2-240"
+  ],
+  "dog": [
+   "p1-62",
+   "p1-125",
+   "p2-45",
+   "p2-52",
+   "p2-121",
+   "p2-193",
+   "p2-217",
+   "p2-241",
+   "p2-259"
+  ],
+  "dove": [
+   "p1-71",
+   "p1-149",
+   "p1-155",
+   "p2-54",
+   "p2-105a",
+   "p2-121",
+   "p2-137",
+   "p2-173",
+   "p2-229"
+  ],
+  "elephant": [
+   "p1-22",
+   "p1-73",
+   "p1-91",
+   "p1-126",
+   "p1-143",
+   "p1-159",
+   "p1-165",
+   "p2-6",
+   "p2-65"
+  ],
+  "flower-wreath": [
+   "p1-1",
+   "p1-19",
+   "p1-52",
+   "p2-3",
+   "p2-9",
+   "p2-35",
+   "p2-38",
+   "p2-75",
+   "p2-92"
+  ],
+  "javelin": [
+   "p1-19",
+   "p1-38",
+   "p1-141",
+   "p1-146",
+   "p2-8",
+   "p2-117",
+   "p2-138",
+   "p2-239",
+   "p2-240"
+  ],
+  "olive-branch": [
+   "p1-71",
+   "p2-38",
+   "p2-56",
+   "p2-84",
+   "p2-108",
+   "p2-114",
+   "p2-137",
+   "p2-138",
+   "p2-167"
+  ],
+  "deer": [
+   "p1-37",
+   "p1-63",
+   "p1-137",
+   "p2-44",
+   "p2-93",
+   "p2-119"
+  ],
+  "palm-branch": [
+   "p1-58",
+   "p1-130",
+   "p1-136",
+   "p1-166",
+   "p2-125",
+   "p2-141",
+   "p2-154",
+   "p2-171"
+  ],
+  "purse": [
+   "p1-18",
+   "p1-116",
+   "p1-157",
+   "p2-51",
+   "p2-156",
+   "p2-169",
+   "p2-182",
+   "p2-229"
+  ],
+  "square": [
+   "p1-56",
+   "p1-99",
+   "p1-111",
+   "p1-123",
+   "p2-51",
+   "p2-244",
+   "p2-246",
+   "p2-252"
+  ],
+  "trumpet": [
+   "p1-90",
+   "p2-74",
+   "p2-82",
+   "p2-84",
+   "p2-186",
+   "p2-205",
+   "p2-206",
+   "p2-248"
+  ],
+  "breast": [
+   "p2-176",
+   "p2-248"
+  ],
+  "club": [
+   "p1-158",
+   "p1-168",
+   "p2-62a",
+   "p2-63",
+   "p2-65",
+   "p2-86",
+   "p2-87"
+  ],
+  "coin": [
+   "p1-35",
+   "p2-149",
+   "p2-156",
+   "p2-169",
+   "p2-199",
+   "p2-224",
+   "p2-236"
+  ],
+  "cross": [
+   "p1-61",
+   "p1-64",
+   "p1-121",
+   "p1-143",
+   "p2-114",
+   "p2-158",
+   "p2-172"
+  ],
+  "farming-tool": [
+   "p1-54"
+  ],
+  "lyre": [
+   "p1-75",
+   "p1-132",
+   "p2-70",
+   "p2-78",
+   "p2-89",
+   "p2-248",
+   "p2-250"
+  ],
+  "mask": [
+   "p1-103",
+   "p2-76",
+   "p2-150",
+   "p2-186",
+   "p2-197",
+   "p2-198",
+   "p2-247"
+  ],
+  "rooster": [
+   "p1-40",
+   "p1-51",
+   "p1-95",
+   "p1-147",
+   "p1-149",
+   "p1-156",
+   "p1-162"
+  ],
+  "ruler": [
+   "p1-99",
+   "p1-123",
+   "p2-244",
+   "p2-256",
+   "p2-257",
+   "p2-258",
+   "p2-261"
+  ],
+  "thorns": [
+   "p1-32",
+   "p1-79",
+   "p1-118",
+   "p1-145",
+   "p1-154",
+   "p2-164",
+   "p2-211"
+  ],
+  "yoke": [
+   "p1-92",
+   "p1-109",
+   "p1-118",
+   "p1-141",
+   "p1-154",
+   "p2-164",
+   "p2-235"
+  ],
+  "caduceus": [
+   "p1-33",
+   "p1-60",
+   "p2-65",
+   "p2-83",
+   "p2-105b",
+   "p2-105d"
+  ],
+  "falcon": [
+   "p1-26",
+   "p1-55",
+   "p1-89",
+   "p1-135",
+   "p1-165",
+   "p2-47"
+  ],
+  "fish": [
+   "p1-66",
+   "p1-121",
+   "p2-65",
+   "p2-148"
+  ],
+  "hourglass": [
+   "p1-5",
+   "p1-14",
+   "p1-49",
+   "p1-156",
+   "p2-97",
+   "p2-256"
+  ],
+  "lamb": [
+   "p1-78",
+   "p1-149",
+   "p2-114",
+   "p2-121",
+   "p2-143",
+   "p2-155"
+  ],
+  "olive-crown": [
+   "p1-47",
+   "p1-91",
+   "p1-101",
+   "p1-115",
+   "p2-29",
+   "p2-109"
+  ],
+  "open-arms": [
+   "p1-22",
+   "p1-101",
+   "p1-110",
+   "p1-112",
+   "p2-51a",
+   "p2-123"
+  ],
+  "peacock": [
+   "p2-1",
+   "p2-103",
+   "p2-179",
+   "p2-206",
+   "p2-219",
+   "p2-231"
+  ],
+  "tree": [
+   "p1-23"
+  ],
+  "bare-breast": [
+   "p1-4",
+   "p1-72",
+   "p1-85",
+   "p1-124",
+   "p1-132"
+  ],
+  "bridle": [
+   "p1-139",
+   "p1-159",
+   "p2-118",
+   "p2-159",
+   "p2-208"
+  ],
+  "celestial-sphere": [
+   "p1-15",
+   "p1-53",
+   "p1-69",
+   "p1-83",
+   "p1-93"
+  ],
+  "crane": [
+   "p1-154",
+   "p1-156",
+   "p1-171",
+   "p2-200",
+   "p2-261"
+  ],
+  "dagger": [
+   "p2-77",
+   "p2-191",
+   "p2-192",
+   "p2-228",
+   "p2-237"
+  ],
+  "dragon": [
+   "p1-19",
+   "p2-87",
+   "p2-96",
+   "p2-172",
+   "p2-213"
+  ],
+  "eagle": [
+   "p1-87",
+   "p1-97",
+   "p1-129",
+   "p2-145",
+   "p2-253"
+  ],
+  "ears-of-grain": [
+   "p1-68",
+   "p1-115",
+   "p2-6",
+   "p2-122",
+   "p2-176"
+  ],
+  "flute": [
+   "p1-63",
+   "p1-104",
+   "p1-132",
+   "p1-150",
+   "p2-75"
+  ],
+  "hand-on-chest": [
+   "p1-37",
+   "p1-126",
+   "p1-128",
+   "p2-50",
+   "p2-113"
+  ],
+  "kneeling": [
+   "p1-112",
+   "p2-97",
+   "p2-158",
+   "p2-159",
+   "p2-161"
+  ],
+  "lamp": [
+   "p1-51",
+   "p1-148",
+   "p1-156",
+   "p1-171",
+   "p1-174"
+  ],
+  "myrtle-wreath": [
+   "p1-4",
+   "p1-127",
+   "p2-22",
+   "p2-70",
+   "p2-105a"
+  ],
+  "plumb-line": [
+   "p1-44",
+   "p1-99",
+   "p1-123",
+   "p1-133",
+   "p2-131"
+  ],
+  "rods": [
+   "p1-27",
+   "p1-72",
+   "p2-94",
+   "p2-127",
+   "p2-211"
+  ],
+  "scourge": [
+   "p1-25",
+   "p1-34",
+   "p1-121",
+   "p1-174",
+   "p2-167"
+  ],
+  "vine": [
+   "p1-4",
+   "p1-21",
+   "p2-109",
+   "p2-176",
+   "p2-214"
+  ],
+  "wand": [
+   "p1-47",
+   "p1-56",
+   "p1-117",
+   "p1-140",
+   "p1-156"
+  ],
+  "wheat-wreath": [
+   "p1-8",
+   "p2-10",
+   "p2-24",
+   "p2-25",
+   "p2-33"
+  ],
+  "wheel": [
+   "p1-57",
+   "p1-160",
+   "p2-59",
+   "p2-160",
+   "p2-185"
+  ],
+  "bull": [
+   "p2-44",
+   "p2-65",
+   "p2-133",
+   "p2-204"
+  ],
+  "censer": [
+   "p1-112",
+   "p2-5",
+   "p2-13",
+   "p2-161"
+  ],
+  "child": [
+   "p1-126",
+   "p1-130",
+   "p2-184",
+   "p2-243"
+  ],
+  "circle": [
+   "p1-54",
+   "p1-124",
+   "p2-33",
+   "p2-34"
+  ],
+  "crocodile": [
+   "p2-8",
+   "p2-68",
+   "p2-148",
+   "p2-187"
+  ],
+  "crow": [
+   "p1-101",
+   "p1-170",
+   "p2-93",
+   "p2-230"
+  ],
+  "cuirass": [
+   "p1-139",
+   "p1-140",
+   "p1-149",
+   "p2-68"
+  ],
+  "donkey": [
+   "p2-179",
+   "p2-207",
+   "p2-208",
+   "p2-220"
+  ],
+  "ear": [
+   "p1-36",
+   "p1-140",
+   "p1-150",
+   "p2-82"
+  ],
+  "feather": [
+   "p1-38",
+   "p2-8",
+   "p2-82",
+   "p2-183"
+  ],
+  "fur": [
+   "p2-12",
+   "p2-34",
+   "p2-50",
+   "p2-65"
+  ],
+  "grapes": [
+   "p1-68",
+   "p2-11",
+   "p2-27",
+   "p2-49"
+  ],
+  "harp": [
+   "p1-127",
+   "p2-71",
+   "p2-105c",
+   "p2-250"
+  ],
+  "leaf": [
+   "p2-92",
+   "p2-134"
+  ],
+  "lily": [
+   "p1-19",
+   "p1-20",
+   "p1-138",
+   "p2-174"
+  ],
+  "loose-hair": [
+   "p2-54",
+   "p2-152",
+   "p2-201",
+   "p2-211"
+  ],
+  "lute": [
+   "p1-104",
+   "p2-44",
+   "p2-49",
+   "p2-226"
+  ],
+  "moon": [
+   "p1-38",
+   "p1-53",
+   "p1-80",
+   "p2-227"
+  ],
+  "mouth-band": [
+   "p2-16",
+   "p2-51",
+   "p2-148",
+   "p2-247"
+  ],
+  "oak-crown": [
+   "p1-10",
+   "p2-28",
+   "p2-99",
+   "p2-100"
+  ],
+  "pelican": [
+   "p1-23",
+   "p2-97",
+   "p2-112",
+   "p2-210"
+  ],
+  "pig": [
+   "p2-200",
+   "p2-208",
+   "p2-210",
+   "p2-227"
+  ],
+  "quiver": [
+   "p1-150",
+   "p2-8",
+   "p2-62a",
+   "p2-97"
+  ],
+  "raised-hand": [
+   "p1-36",
+   "p2-69",
+   "p2-91",
+   "p2-206"
+  ],
+  "rosary": [
+   "p1-54",
+   "p1-112",
+   "p2-161",
+   "p2-202"
+  ],
+  "rose": [
+   "p1-79",
+   "p2-70",
+   "p2-92",
+   "p2-110"
+  ],
+  "ship": [
+   "p1-28",
+   "p2-61",
+   "p2-162",
+   "p2-255"
+  ],
+  "stork": [
+   "p1-73",
+   "p1-126",
+   "p2-109",
+   "p2-119"
+  ],
+  "temple": [
+   "p2-7",
+   "p2-105a",
+   "p2-142",
+   "p2-229"
+  ],
+  "tongue": [
+   "p1-125",
+   "p2-192",
+   "p2-197",
+   "p2-217"
+  ],
+  "tortoise": [
+   "p1-138",
+   "p2-47",
+   "p2-50",
+   "p2-233"
+  ],
+  "two-faces": [
+   "p1-96",
+   "p1-135",
+   "p1-137",
+   "p1-160"
+  ],
+  "wolf": [
+   "p1-18",
+   "p2-41",
+   "p2-182",
+   "p2-202"
+  ],
+  "apple": [
+   "p1-168",
+   "p2-105a",
+   "p2-108"
+  ],
+  "ball": [
+   "p1-42",
+   "p1-53",
+   "p1-78"
+  ],
+  "barefoot": [
+   "p1-4",
+   "p1-32",
+   "p2-180"
+  ],
+  "beehive": [
+   "p1-13",
+   "p1-63",
+   "p2-38"
+  ],
+  "bouquet": [
+   "p2-9",
+   "p2-13",
+   "p2-45"
+  ],
+  "brazier": [
+   "p2-185",
+   "p2-225",
+   "p2-232"
+  ],
+  "candle": [
+   "p2-126",
+   "p2-135",
+   "p2-230"
+  ],
+  "capricorn": [
+   "p2-14",
+   "p2-30",
+   "p2-34"
+  ],
+  "clasped-hands": [
+   "p1-61",
+   "p2-146",
+   "p2-158"
+  ],
+  "column": [
+   "p1-31",
+   "p1-153",
+   "p2-121"
+  ],
+  "flaming-heart": [
+   "p1-9",
+   "p1-37",
+   "p2-115"
+  ],
+  "gold": [
+   "p2-94",
+   "p2-104",
+   "p2-120"
+  ],
+  "grace": [
+   "p2-105a",
+   "p2-105b",
+   "p2-110"
+  ],
+  "grass-crown": [
+   "p1-10",
+   "p2-99",
+   "p2-100"
+  ],
+  "hammer": [
+   "p1-12",
+   "p1-106",
+   "p2-250"
+  ],
+  "hare": [
+   "p1-59",
+   "p2-148",
+   "p2-230"
+  ],
+  "key": [
+   "p1-16",
+   "p1-62",
+   "p2-172"
+  ],
+  "lantern": [
+   "p1-43",
+   "p2-150",
+   "p2-193"
+  ],
+  "lightning": [
+   "p1-26",
+   "p1-49",
+   "p2-105d"
+  ],
+  "mantle": [
+   "p1-3",
+   "p1-35",
+   "p1-103"
+  ],
+  "minerva": [
+   "p1-107",
+   "p2-58",
+   "p2-85"
+  ],
+  "nail": [
+   "p1-89",
+   "p1-97",
+   "p1-106"
+  ],
+  "net": [
+   "p1-127",
+   "p2-162",
+   "p2-195"
+  ],
+  "pearl": [
+   "p2-39",
+   "p2-69",
+   "p2-236"
+  ],
+  "pegasus": [
+   "p2-83",
+   "p2-84a",
+   "p2-239"
+  ],
+  "pen": [
+   "p1-34",
+   "p1-96",
+   "p1-104"
+  ],
+  "plant": [
+   "p1-72",
+   "p2-127",
+   "p2-199"
+  ],
+  "pointing-hand": [
+   "p1-4",
+   "p1-90",
+   "p2-179"
+  ],
+  "scorpion": [
+   "p2-6",
+   "p2-198",
+   "p2-214"
+  ],
+  "siren": [
+   "p1-127",
+   "p2-41",
+   "p2-102"
+  ],
+  "skull": [
+   "p1-3",
+   "p2-157",
+   "p2-166"
+  ],
+  "smoke": [
+   "p1-10",
+   "p1-46",
+   "p2-100"
+  ],
+  "stream": [
+   "p1-23",
+   "p1-37",
+   "p1-122"
+  ],
+  "tablet": [
+   "p2-81",
+   "p2-91",
+   "p2-96"
+  ],
+  "trophy": [
+   "p2-7",
+   "p2-41",
+   "p2-96"
+  ],
+  "viol": [
+   "p1-104",
+   "p2-249",
+   "p2-250"
+  ],
+  "vulture": [
+   "p1-105",
+   "p2-43",
+   "p2-101"
+  ],
+  "abyss": [
+   "p1-10",
+   "p1-122"
+  ],
+  "aries": [
+   "p2-13",
+   "p2-21"
+  ],
+  "basket": [
+   "p2-28",
+   "p2-46"
+  ],
+  "bee": [
+   "p1-13",
+   "p1-40"
+  ],
+  "big-belly": [
+   "p2-182",
+   "p2-200"
+  ],
+  "blind": [
+   "p1-120",
+   "p1-173"
+  ],
+  "boar": [
+   "p1-65",
+   "p2-86"
+  ],
+  "bowed-head": [
+   "p1-78",
+   "p1-102"
+  ],
+  "camel": [
+   "p1-44",
+   "p2-5"
+  ],
+  "cancer": [
+   "p2-24",
+   "p2-33"
+  ],
+  "cap": [
+   "p1-86",
+   "p2-183"
+  ],
+  "cat": [
+   "p1-86",
+   "p1-125"
+  ],
+  "chameleon": [
+   "p1-63",
+   "p2-1"
+  ],
+  "chick": [
+   "p1-59",
+   "p2-174"
+  ],
+  "cornett": [
+   "p2-78",
+   "p2-79"
+  ],
+  "dolphin": [
+   "p1-7",
+   "p1-26"
+  ],
+  "elm": [
+   "p1-4",
+   "p1-21"
+  ],
+  "fetters": [
+   "p1-92",
+   "p2-164"
+  ],
+  "file": [
+   "p1-2",
+   "p1-72"
+  ],
+  "flaming-sword": [
+   "p2-54",
+   "p2-114"
+  ],
+  "fountain": [
+   "p1-114",
+   "p2-165"
+  ],
+  "frog": [
+   "p1-36",
+   "p1-152"
+  ],
+  "goat": [
+   "p2-34",
+   "p2-214"
+  ],
+  "hook": [
+   "p1-127",
+   "p2-234"
+  ],
+  "hydra": [
+   "p2-194",
+   "p2-238"
+  ],
+  "ivy": [
+   "p1-14",
+   "p2-220"
+  ],
+  "joined-hands": [
+   "p1-118",
+   "p1-161"
+  ],
+  "leo": [
+   "p2-13",
+   "p2-25"
+  ],
+  "libra": [
+   "p2-27",
+   "p2-36"
+  ],
+  "magnetic-compass": [
+   "p2-251",
+   "p2-255"
+  ],
+  "mitre": [
+   "p2-151",
+   "p2-180"
+  ],
+  "monkey": [
+   "p1-2",
+   "p1-125"
+  ],
+  "morion": [
+   "p2-65",
+   "p2-138"
+  ],
+  "mulberry-wreath": [
+   "p1-137",
+   "p2-233"
+  ],
+  "nest": [
+   "p1-48",
+   "p1-59"
+  ],
+  "note": [
+   "p2-250",
+   "p2-262"
+  ],
+  "oak-branch": [
+   "p1-65",
+   "p1-136"
+  ],
+  "owl": [
+   "p1-30",
+   "p2-230"
+  ],
+  "palm-crown": [
+   "p2-142",
+   "p2-143"
+  ],
+  "pedestal": [
+   "p1-60",
+   "p2-111"
+  ],
+  "phoenix": [
+   "p2-4",
+   "p2-89"
+  ],
+  "plan": [
+   "p2-154",
+   "p2-257"
+  ],
+  "plowshare": [
+   "p2-39",
+   "p2-88"
+  ],
+  "pomegranate": [
+   "p1-2",
+   "p2-95"
+  ],
+  "poppy": [
+   "p1-68",
+   "p2-16"
+  ],
+  "poppy-wreath": [
+   "p1-114",
+   "p2-242"
+  ],
+  "radiant-crown": [
+   "p1-3",
+   "p2-96"
+  ],
+  "rainbow": [
+   "p1-127",
+   "p2-43"
+  ],
+  "ram": [
+   "p2-35",
+   "p2-49"
+  ],
+  "razor": [
+   "p2-160",
+   "p2-217"
+  ],
+  "reed": [
+   "p1-122",
+   "p2-2"
+  ],
+  "ribbon": [
+   "p2-79",
+   "p2-80"
+  ],
+  "rock": [
+   "p1-14",
+   "p1-98"
+  ],
+  "rope": [
+   "p1-125",
+   "p1-157"
+  ],
+  "rose-wreath": [
+   "p1-90",
+   "p2-26"
+  ],
+  "rudder": [
+   "p1-47",
+   "p2-62"
+  ],
+  "sagittarius": [
+   "p2-13",
+   "p2-29"
+  ],
+  "sapling": [
+   "p1-8",
+   "p1-12"
+  ],
+  "scimitar": [
+   "p1-140",
+   "p2-203"
+  ],
+  "seal": [
+   "p1-62",
+   "p1-149"
+  ],
+  "severed-head": [
+   "p2-8",
+   "p2-203"
+  ],
+  "sheaf": [
+   "p1-1",
+   "p2-39"
+  ],
+  "sieve": [
+   "p1-25",
+   "p1-41"
+  ],
+  "silver": [
+   "p2-94",
+   "p2-120"
+  ],
+  "skeleton": [
+   "p1-103",
+   "p2-53"
+  ],
+  "spur": [
+   "p2-124",
+   "p2-183"
+  ],
+  "stag-head": [
+   "p1-170",
+   "p2-87"
+  ],
+  "stake": [
+   "p1-12",
+   "p2-109"
+  ],
+  "swallow": [
+   "p1-48",
+   "p2-251"
+  ],
+  "table": [
+   "p2-12",
+   "p2-106"
+  ],
+  "taurus": [
+   "p2-14",
+   "p2-22"
+  ],
+  "tears": [
+   "p2-114",
+   "p2-168"
+  ],
+  "throne": [
+   "p1-16",
+   "p2-94"
+  ],
+  "tiger": [
+   "p2-196",
+   "p2-228"
+  ],
+  "triangle": [
+   "p1-42",
+   "p1-151"
+  ],
+  "venus": [
+   "p2-240",
+   "p2-258"
+  ],
+  "vine-wreath": [
+   "p2-11",
+   "p2-95"
+  ],
+  "virgo": [
+   "p2-14",
+   "p2-26"
+  ],
+  "waves": [
+   "p1-156",
+   "p2-255"
+  ],
+  "worm": [
+   "p1-120",
+   "p2-168"
+  ],
+  "almond-leaf": [
+   "p1-40"
+  ],
+  "alms": [
+   "p2-112"
+  ],
+  "altar": [
+   "p1-126"
+  ],
+  "amaranth-wreath": [
+   "p1-3"
+  ],
+  "anchor": [
+   "p1-61"
+  ],
+  "anvil": [
+   "p2-250"
+  ],
+  "aquarius": [
+   "p2-31"
+  ],
+  "asp": [
+   "p2-68"
+  ],
+  "astrolabe": [
+   "p2-254"
+  ],
+  "banner": [
+   "p2-41"
+  ],
+  "basilisk": [
+   "p2-184"
+  ],
+  "bat": [
+   "p2-16"
+  ],
+  "bean-flower": [
+   "p1-73"
+  ],
+  "bell": [
+   "p1-156"
+  ],
+  "bellows": [
+   "p2-183"
+  ],
+  "bit": [
+   "p2-235"
+  ],
+  "boots": [
+   "p1-127"
+  ],
+  "bracelet": [
+   "p2-142"
+  ],
+  "bread": [
+   "p2-114"
+  ],
+  "broken-sword": [
+   "p2-163"
+  ],
+  "brush": [
+   "p1-12"
+  ],
+  "burning-straw": [
+   "p2-197"
+  ],
+  "casket": [
+   "p2-169"
+  ],
+  "cat-crest": [
+   "p1-141"
+  ],
+  "cedar-branch": [
+   "p1-101"
+  ],
+  "chair": [
+   "p1-2"
+  ],
+  "chariot": [
+   "p2-105a"
+  ],
+  "chart": [
+   "p2-255"
+  ],
+  "chimera": [
+   "p2-84a"
+  ],
+  "chisel": [
+   "p1-12"
+  ],
+  "cicada": [
+   "p2-250"
+  ],
+  "cloak": [
+   "p2-193"
+  ],
+  "coral-necklace": [
+   "p2-6"
+  ],
+  "coulter": [
+   "p1-8"
+  ],
+  "crayfish": [
+   "p1-80"
+  ],
+  "crook": [
+   "p2-80"
+  ],
+  "crucifix": [
+   "p1-109"
+  ],
+  "cube": [
+   "p2-228"
+  ],
+  "cuttlefish": [
+   "p1-169"
+  ],
+  "cypress-branch": [
+   "p2-191"
+  ],
+  "devil": [
+   "p2-114"
+  ],
+  "dew": [
+   "p1-42"
+  ],
+  "diadem": [
+   "p2-7"
+  ],
+  "die": [
+   "p2-110"
+  ],
+  "distaff": [
+   "p2-223"
+  ],
+  "eclipsed-sun": [
+   "p1-134"
+  ],
+  "electric-ray": [
+   "p2-223"
+  ],
+  "elm-leaf": [
+   "p2-95"
+  ],
+  "ermine": [
+   "p1-128"
+  ],
+  "fan": [
+   "p1-85"
+  ],
+  "feather-garland": [
+   "p2-71"
+  ],
+  "fire-vessel": [
+   "p2-56"
+  ],
+  "food": [
+   "p2-106"
+  ],
+  "fool-sceptre": [
+   "p2-105c"
+  ],
+  "forelock": [
+   "p2-160"
+  ],
+  "fort": [
+   "p2-251"
+  ],
+  "four-arms": [
+   "p1-150"
+  ],
+  "fox": [
+   "p1-64"
+  ],
+  "frost": [
+   "p2-20"
+  ],
+  "gemini": [
+   "p2-23"
+  ],
+  "golden-apple": [
+   "p2-87"
+  ],
+  "golden-fleece": [
+   "p2-65"
+  ],
+  "grain": [
+   "p2-95"
+  ],
+  "grating": [
+   "p1-121"
+  ],
+  "griffin": [
+   "p2-120"
+  ],
+  "grindstone": [
+   "p2-107"
+  ],
+  "hand-at-ear": [
+   "p1-64"
+  ],
+  "hand-on-cheek": [
+   "p1-94"
+  ],
+  "hand-on-hip": [
+   "p2-211"
+  ],
+  "hand-to-mouth": [
+   "p2-106"
+  ],
+  "hat": [
+   "p2-88"
+  ],
+  "headband": [
+   "p1-146"
+  ],
+  "heliotrope": [
+   "p1-82"
+  ],
+  "hemp-wreath": [
+   "p1-59"
+  ],
+  "hen": [
+   "p1-59"
+  ],
+  "hidden-hands": [
+   "p2-108"
+  ],
+  "hoe": [
+   "p2-251"
+  ],
+  "horn": [
+   "p2-75"
+  ],
+  "horse": [
+   "p2-7"
+  ],
+  "host": [
+   "p1-9"
+  ],
+  "hyacinth-wreath": [
+   "p1-158"
+  ],
+  "hyssop-wreath": [
+   "p2-167"
+  ],
+  "incense": [
+   "p2-204"
+  ],
+  "iris-crown": [
+   "p2-105d"
+  ],
+  "ivy-belt": [
+   "p2-66"
+  ],
+  "ivy-garland": [
+   "p2-76"
+  ],
+  "jacobs-staff": [
+   "p2-245"
+  ],
+  "juniper-wreath": [
+   "p1-97"
+  ],
+  "kingfisher": [
+   "p1-21"
+  ],
+  "leaf-wreath": [
+   "p1-169"
+  ],
+  "ledger": [
+   "p1-162"
+  ],
+  "letter": [
+   "p1-74"
+  ],
+  "level": [
+   "p1-99"
+  ],
+  "lizard": [
+   "p1-162"
+  ],
+  "lotus-branch": [
+   "p2-14"
+  ],
+  "lowered-eyes": [
+   "p1-165"
+  ],
+  "magpie": [
+   "p2-123"
+  ],
+  "mayfly": [
+   "p2-92"
+  ],
+  "meadow": [
+   "p1-32"
+  ],
+  "medusa-head": [
+   "p2-68"
+  ],
+  "millstone": [
+   "p2-119"
+  ],
+  "mole": [
+   "p2-181"
+  ],
+  "monster": [
+   "p2-41"
+  ],
+  "mountain": [
+   "p2-90"
+  ],
+  "mouth": [
+   "p2-82"
+  ],
+  "mulberry-leaf": [
+   "p1-40"
+  ],
+  "musket": [
+   "p2-217"
+  ],
+  "myrtle": [
+   "p2-110"
+  ],
+  "narcissus": [
+   "p2-103"
+  ],
+  "nightingale": [
+   "p2-250"
+  ],
+  "nimbus": [
+   "p2-109"
+  ],
+  "numbers": [
+   "p1-139"
+  ],
+  "oak": [
+   "p2-128"
+  ],
+  "oboe": [
+   "p2-75"
+  ],
+  "open-eyes": [
+   "p1-156"
+  ],
+  "ouroboros": [
+   "p1-130"
+  ],
+  "panpipes": [
+   "p2-80"
+  ],
+  "panther": [
+   "p2-234"
+  ],
+  "partridge": [
+   "p2-187"
+  ],
+  "peach": [
+   "p2-46"
+  ],
+  "pebble": [
+   "p2-261"
+  ],
+  "pheasant": [
+   "p2-173"
+  ],
+  "pick": [
+   "p2-251"
+  ],
+  "pike": [
+   "p1-10"
+  ],
+  "pine-branch": [
+   "p1-22"
+  ],
+  "pisces": [
+   "p2-32"
+  ],
+  "playing-card": [
+   "p2-226"
+  ],
+  "porcupine": [
+   "p2-217"
+  ],
+  "proserpine": [
+   "p2-242"
+  ],
+  "pruning-hook": [
+   "p1-144"
+  ],
+  "puffed-cheeks": [
+   "p2-19"
+  ],
+  "pyralis": [
+   "p2-4"
+  ],
+  "pyramid": [
+   "p1-70"
+  ],
+  "quail": [
+   "p2-215"
+  ],
+  "quince": [
+   "p1-92"
+  ],
+  "rake": [
+   "p1-41"
+  ],
+  "rapier": [
+   "p1-89"
+  ],
+  "rat": [
+   "p2-192"
+  ],
+  "raven": [
+   "p2-209"
+  ],
+  "remora": [
+   "p1-137"
+  ],
+  "ring": [
+   "p1-152"
+  ],
+  "rose-branch": [
+   "p1-169"
+  ],
+  "rue-wreath": [
+   "p1-23"
+  ],
+  "sack": [
+   "p2-95"
+  ],
+  "salamander": [
+   "p2-4"
+  ],
+  "scorpio": [
+   "p2-28"
+  ],
+  "screw": [
+   "p1-13"
+  ],
+  "sea": [
+   "p2-180"
+  ],
+  "shadow": [
+   "p2-152"
+  ],
+  "shroud": [
+   "p2-53"
+  ],
+  "six-arms": [
+   "p2-57"
+  ],
+  "six-legs": [
+   "p2-57"
+  ],
+  "snake-tail": [
+   "p2-234"
+  ],
+  "sock": [
+   "p2-76"
+  ],
+  "spade": [
+   "p2-88"
+  ],
+  "sparrow": [
+   "p2-51"
+  ],
+  "sphere": [
+   "p2-105a"
+  ],
+  "star-crown": [
+   "p2-72"
+  ],
+  "statue": [
+   "p2-258"
+  ],
+  "stick": [
+   "p2-232"
+  ],
+  "sundial": [
+   "p2-256"
+  ],
+  "sunflower": [
+   "p2-147"
+  ],
+  "swan": [
+   "p1-24"
+  ],
+  "talon": [
+   "p2-198"
+  ],
+  "thorn-crown": [
+   "p1-145"
+  ],
+  "thread": [
+   "p2-134"
+  ],
+  "three-faces": [
+   "p2-57"
+  ],
+  "thyme": [
+   "p1-40"
+  ],
+  "thyrsus": [
+   "p2-81"
+  ],
+  "tiara": [
+   "p2-172"
+  ],
+  "toad": [
+   "p2-212"
+  ],
+  "tomb": [
+   "p2-157"
+  ],
+  "torn-sails": [
+   "p2-61"
+  ],
+  "touchstone": [
+   "p1-56"
+  ],
+  "triangular-stone": [
+   "p2-132"
+  ],
+  "trident": [
+   "p2-242"
+  ],
+  "tripod": [
+   "p1-42"
+  ],
+  "tulip": [
+   "p2-181"
+  ],
+  "turtledove": [
+   "p2-116"
+  ],
+  "two-heads": [
+   "p2-198"
+  ],
+  "unicorn": [
+   "p2-177"
+  ],
+  "urn": [
+   "p2-2"
+  ],
+  "water": [
+   "p2-2"
+  ],
+  "watering-can": [
+   "p2-19"
+  ],
+  "wick": [
+   "p1-130"
+  ],
+  "wild-beast": [
+   "p1-117"
+  ],
+  "wooden-leg": [
+   "p2-197"
+  ],
+  "wren": [
+   "p1-129"
+  ]
+ },
+ "merged": {
+  "cup": [
+   {
+    "id": "bowl",
+    "ru": "чаша"
+   }
+  ],
+  "flame": [
+   {
+    "id": "fire",
+    "ru": "огонь"
+   }
+  ],
+  "vessel": [
+   {
+    "id": "glass-vessel",
+    "ru": "стеклянный сосуд"
+   }
+  ],
+  "ears-of-grain": [
+   {
+    "id": "wheat",
+    "ru": "колос пшеницы"
+   }
+  ],
+  "myrtle-wreath": [
+   {
+    "id": "myrtle-crown",
+    "ru": "миртовый венец"
+   }
+  ],
+  "mouth-band": [
+   {
+    "id": "gag",
+    "ru": "повязка на рту"
+   },
+   {
+    "id": "bandaged-mouth",
+    "ru": "стянутые повязкой уста"
+   }
+  ]
+ },
  "doubtful": [
   {
    "article": "p1-9",
@@ -8326,7 +2866,6 @@
   }
  ],
  "singletons": [
-  "hand",
   "farming-tool",
   "tree",
   "almond-leaf",

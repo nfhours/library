@@ -45,7 +45,8 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
     await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="all"]').click()); await W(900);
   }
   ok(T+'справа лупа',await p.evaluate(()=>{ const l=document.querySelector('.ic-mot-loupe').getBoundingClientRect(), t=document.querySelector('.ic-mot-tabs').getBoundingClientRect(); return l.left>=t.right-1 && l.height>=38; }));
-  ok(T+'фильтра книг нет (файл мотивов у одной книги)',(await p.$$('.ic-mot-books')).length===0);
+  const chips0=await p.$$eval('.ic-mot-books .ic-mot-chip',a=>a.map(x=>x.textContent+':'+x.getAttribute('aria-pressed')+':'+Math.round(x.getBoundingClientRect().height)));
+  ok(T+'фильтр книг виден: «Все книги» (выбрано), «Иконология», «Образы богов древних», зона касания ≥44',chips0.join('|').replace(/:4[4-9]|:[5-9]\d/g,'')==='Все книги:true|Иконология:false|Образы богов древних:false'&&chips0.every(x=>+x.split(':')[2]>=44),chips0.join('|'));
   // каталог
   const cat=await p.evaluate(()=>({h1:document.querySelector('.ic-rp-h1').textContent,sub:document.querySelector('.ic-mot-sub').textContent,sects:[...document.querySelectorAll('.ic-mot-sect')].map(s=>({h:s.querySelector('.ic-mot-sh span').textContent,n:s.querySelector('.ic-mot-shn').textContent,tiles:s.querySelectorAll('.ic-mot-tile').length,btn:s.querySelector('.ic-mot-allbtn').textContent,btnW:Math.round(s.querySelector('.ic-mot-allbtn').getBoundingClientRect().width),secW:Math.round(s.getBoundingClientRect().width)})),tile:(()=>{ const t=document.querySelector('.ic-mot-tile'),r=t.getBoundingClientRect(),c=getComputedStyle(t); return {h:Math.round(r.height),rad:c.borderRadius,bw:c.borderTopWidth}; })(),cols:(()=>{ const t=[...document.querySelectorAll('.ic-mot-sect:first-of-type .ic-mot-tile')].map(x=>Math.round(x.getBoundingClientRect().left)); return [...new Set(t)].length; })()}));
   ok(T+'каталог: заголовок «Мотивы» и пояснение',cat.h1==='Мотивы'&&/Поиск гравюр/.test(cat.sub),cat.h1+' | '+cat.sub);
@@ -54,7 +55,7 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   ok(T+'плитка: ≈52 px, скругление 8, тонкая рамка',cat.tile.h>=50&&cat.tile.h<=64&&cat.tile.rad==='8px'&&cat.tile.bw==='1px',JSON.stringify(cat.tile));
   ok(T+'кнопка «Все предметы · N» во всю ширину',/^Все предметы · \d+$/.test(cat.sects[0].btn)&&cat.sects[0].btnW>=cat.sects[0].secW-2&&parseInt(cat.sects[0].n)===+cat.sects[0].btn.split(' · ')[1]&&/^\d+ мотив(а|ов)?$/.test(cat.sects[0].n),cat.sects[0].btn+' / '+cat.sects[0].n);
   const first=await p.$$eval('.ic-mot-sect:first-of-type .ic-mot-tile',r=>r.map(x=>x.querySelector('.ic-mot-nm').textContent+':'+x.querySelector('.ic-mot-n').textContent));
-  ok(T+'первый — «Венок», по частоте, названия с заглавной',first[0]==='Венок:80'&&first.every(x=>/^[А-ЯЁ]/.test(x)),first.slice(0,3).join(', '));
+  ok(T+'первый — «Венок», по частоте, названия с заглавной',/^Венок:(8\d|9\d|1\d\d)$/.test(first[0])&&first.every(x=>/^[А-ЯЁ]/.test(x)),first.slice(0,3).join(', '));
   // кнопка «Все предметы»
   await tap('.ic-mot-allbtn[data-cat="предмет"]'); await W(600);
   const tb=await p.evaluate(()=>({on:document.querySelector('.ic-mot-tab[aria-pressed="true"]').textContent,fams:document.querySelectorAll('.ic-mot-fam').length,sect:document.querySelectorAll('.ic-mot-sect').length,y:Math.round(scrollY)}));
@@ -84,7 +85,7 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   await p.evaluate(()=>{ window.scrollTo(0,500); window.__y=-1; addEventListener('click',()=>{ window.__y=Math.round(scrollY); },true); }); await W(500);
   await p.evaluate(()=>document.querySelector('.ic-mot-tile[data-id="wreath"]').click()); await W(3000); ok(T+'тап по плитке → #/motifs/all/wreath',(await hash())==='#/motifs/all/wreath',await hash());
   const g=await p.evaluate(()=>({n:document.querySelectorAll('.ic-mot-grid .ic-gal-item').length,cnt:document.querySelector('.ic-mot-count').textContent,h1:document.querySelector('.ic-mot-h1').textContent,cap:document.querySelector('.ic-gal-cap').textContent,small:document.querySelector('.ic-gal-cap small').textContent,kids:document.querySelectorAll('.ic-mot-kids .ic-mot-tag').length,back:!!document.querySelector('.ic-mot-back'),loupe:!!document.querySelector('.ic-mot-loupe'),cols:[...new Set([...document.querySelectorAll('.ic-mot-grid .ic-gal-item')].slice(0,6).map(x=>Math.round(x.getBoundingClientRect().left)))].length,tabs:document.querySelectorAll('.ic-mot-tab').length,on:document.querySelector('.ic-mot-bt a.on').textContent.trim()}));
-  ok(T+'мотив: название с заглавной, «N гравюр · Иконология»',g.h1==='Венок'&&/^\d+ гравюр · Иконология$/.test(g.cnt)&&g.n>=70,JSON.stringify([g.h1,g.cnt,g.n]));
+  ok(T+'мотив: название с заглавной, «N гравюр · Иконология»',g.h1==='Венок'&&/^\d+ гравюр · Иконология, Образы богов древних$/.test(g.cnt)&&g.n>=70,JSON.stringify([g.h1,g.cnt,g.n]));
   ok(T+'мотив: вложенные мотивы метками, сетка по 2, название и страница',g.kids>=15&&g.cols===2&&/с\. \d/.test(g.small)&&g.cap.length>g.small.length,JSON.stringify([g.kids,g.cols,g.small]));
   ok(T+'мотив: в тёмной строке стрелка назад и лупа, вкладок нет, выбраны «Мотивы»',g.back&&g.loupe&&g.tabs===0&&g.on==='Мотивы');
   const allShown=await p.evaluate(()=>{ const c=document.querySelector('.ic-gal-cap'); return getComputedStyle(c).overflow==='visible'; }); ok(T+'сетка и подписи целиком (не обрезаны)',allShown);
@@ -224,6 +225,86 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   }
   await p.goto(BASE+'#/motifs/iconologie/snake'); await W(2000); const lab=await p.evaluate(()=>[document.querySelector('.ic-mot-h1').textContent,document.querySelector('.ic-mot-count').textContent]); ok(T+'ru: мотив «Змея»',lab[0]==='Змея'&&/гравюр/.test(lab[1]),lab.join(' | '));
   if(!process.env.NOSHOT){ await p.goto(BASE+'#/'); await W(1500); await p.screenshot({path:path.join(OUT,'motifs-home-'+vp.name+'.png')}); await p.goto(BASE+'#/motifs'); await W(1500); await p.screenshot({path:path.join(OUT,'motifs-cat-'+vp.name+'.png')}); await p.goto(BASE+'#/motifs/iconologie/snake'); await W(2500); await p.screenshot({path:path.join(OUT,'motifs-grid-'+vp.name+'.png')}); }
+
+  // ===== v259: общий словарь, привязки по книгам, фильтр книг, Картари в мотивах =====
+  {
+   const J=await p.evaluate(async()=>{ const g=u=>fetch('books/_motifs/'+u,{cache:'no-cache'}).then(r=>r.json()); const ix=await g('index.json'), v=await g(ix.vocab), bs=await Promise.all(ix.books.map(b=>g(b.file))); return {ix,v,bs}; });
+   const V={}; J.v.motifs.forEach(m=>V[m.id]=m);
+   ok(T+'словарь и обе привязки грузятся; index.json: путь к словарю, у книг слаг/файл/названия RU/EN/FR',J.ix.vocab==='motifs_vocab.json'&&J.ix.books.map(b=>b.slug).join()==='iconologie,cartari'&&J.ix.books.every(b=>b.file&&b.name.ru&&b.name.en&&b.name.fr)&&J.v.motifs.length>=450,JSON.stringify(J.ix.books.map(b=>b.name.ru)));
+   ok(T+'словарь: у каждого id ru/en/fr, category, parent, children; 20 новых мотивов Картари на месте',J.v.motifs.every(m=>m.ru&&m.en&&m.fr&&m.category&&'parent' in m&&Array.isArray(m.children)&&(m.parent===null||V[m.parent]))&&['beard','horns','medallion','kalathos','sphinx','cerberus'].every(i=>V[i]),'мотивов '+J.v.motifs.length);
+   const bk=J.bs.map(b=>Object.keys(b.bindings));
+   ok(T+'привязки: только «id мотива → id», все id есть в словаре, счётчиков нет, у Картари id гравюр e####',bk.every(a=>a.every(i=>V[i]))&&J.bs.every(b=>Object.values(b.bindings).every(x=>Array.isArray(x)&&x.length))&&J.bs.every(b=>!('motifs' in b)&&!('count' in b))&&Object.values(J.bs[1].bindings).every(x=>x.every(i=>/^e\d{4}[a-z]?$/.test(i))),bk.map(a=>a.length).join('/'));
+   ok(T+'мотива «рука» (hand) нет ни в словаре, ни в привязках; дочерние (поднятая рука и др.) остались без этого родителя',!V.hand&&bk.every(a=>a.indexOf('hand')<0)&&V['raised-hand']&&V['raised-hand'].parent===null&&V['pointing-hand']&&V['hand-on-chest'],'');
+  }
+  {
+  await p.goto(BASE+'#/motifs'); await setLang('ru'); await p.waitForSelector('.ic-mot-chip',{timeout:30000}); await W(800);
+  const nTile=async id=>p.evaluate(id=>{ const t=document.querySelector('.ic-mot-tile[data-id="'+id+'"]'); return t?+t.querySelector('.ic-mot-n').textContent:null; },id);
+  const hdrN=async()=>p.evaluate(()=>[...document.querySelectorAll('.ic-mot-sect')].map(s=>s.querySelector('.ic-mot-shn').textContent).join());
+  const cntAll=await nTile('wreath'), hdrAll=await hdrN();
+  await p.evaluate(()=>document.querySelector('.ic-mot-chip[data-mb="iconologie"]').click()); await W(900);
+  const cntIc=await nTile('wreath'), hdrIc=await hdrN(), hIc=await hash(), prIc=await p.$$eval('.ic-mot-chip',a=>a.map(x=>x.getAttribute('aria-pressed')).join());
+  await p.evaluate(()=>document.querySelector('.ic-mot-chip[data-mb="cartari"]').click()); await W(900);
+  const cntBoth=await nTile('wreath'), hBoth=await hash(), prBoth=await p.$$eval('.ic-mot-chip',a=>a.map(x=>x.getAttribute('aria-pressed')).join());
+  await p.evaluate(()=>document.querySelector('.ic-mot-chip[data-mb="iconologie"]').click()); await W(900);
+  const cntCa=await nTile('wreath'), hCa=await hash(), hdrCa=await hdrN();
+  ok(T+'фильтр: выбор книги меняет адрес и пересчитывает числа плиток и разделов; можно выбрать несколько; «Все книги» сбрасывает',hIc==='#/motifs/iconologie'&&prIc==='false,true,false'&&hBoth==='#/motifs/iconologie+cartari'&&prBoth==='false,true,true'&&hCa==='#/motifs/cartari'&&cntIc===80&&cntAll>cntIc&&cntCa>0&&cntCa<cntAll&&cntIc+cntCa>=cntAll&&hdrIc!==hdrCa&&hdrAll!==hdrIc&&cntBoth===cntAll,JSON.stringify({cntAll,cntIc,cntBoth,cntCa,hdrAll,hdrIc,hdrCa}));
+  await p.evaluate(()=>document.querySelector('.ic-mot-chip[data-mb="all"]').click()); await W(900);
+  ok(T+'«Все книги» → #/motifs/all',(await hash())==='#/motifs/all'&&(await p.$$eval('.ic-mot-chip',a=>a.map(x=>x.getAttribute('aria-pressed')).join()))==='true,false,false',await hash());
+  // «Позы и жесты»: рука как самостоятельного мотива нет
+  await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="поза и жест"]').click()); await W(700);
+  const poses=await p.$$eval('.ic-mot-tile',a=>a.map(x=>x.dataset.id));
+  ok(T+'вкладка «Позы и жесты»: «руки» нет, дочерние на месте отдельными мотивами',poses.indexOf('hand')<0&&poses.indexOf('raised-hand')>=0,poses.slice(0,8).join());
+  await p.evaluate(()=>document.querySelector('.ic-mot-tab[data-cat="all"]').click()); await W(300);
+  // змея при «Все книги»: гравюры обеих книг с подписью книги; при одной книге подписи книги нет
+  await p.goto(BASE+'#/motifs/all/snake'); await p.waitForSelector('.ic-mot-grid li',{timeout:40000}); await W(1500);
+  const sn=await p.evaluate(()=>[...document.querySelectorAll('.ic-mot-grid .ic-gal-item')].map(a=>({s:a.dataset.slug,id:a.dataset.id,cap:a.querySelector('small').textContent,href:a.getAttribute('href'),img:(a.querySelector('img')||{}).src})));
+  const sl=new Set(sn.map(x=>x.s));
+  ok(T+'«Змея» при «Все книги»: гравюры обеих книг, под каждой подпись книги, у Картари — адрес карточки гравюры с контекстом',sl.has('iconologie')&&sl.has('cartari')&&sn.every(x=>x.cap.indexOf(x.s==='cartari'?'Образы богов древних · ':'Иконология · ')===0)&&sn.filter(x=>x.s==='cartari').every(x=>/^#\/cartari\/plate\/e\d{4}\?from=motif:all:snake$/.test(x.href)&&/engravings\/thumb\/.+_t\.webp$/.test(x.img)),sn.length+' шт., Картари '+sn.filter(x=>x.s==='cartari').length);
+  await p.goto(BASE+'#/motifs/cartari/snake'); await p.waitForSelector('.ic-mot-grid li',{timeout:40000}); await W(1200);
+  const sc=await p.evaluate(()=>({caps:[...document.querySelectorAll('.ic-mot-grid small')].map(x=>x.textContent),cnt:document.querySelector('.ic-mot-count').textContent,sl:[...new Set([...document.querySelectorAll('.ic-mot-grid .ic-gal-item')].map(a=>a.dataset.slug))].join()}));
+  ok(T+'«Змея» при одной книге (Картари): без подписи книги, только гравюры Картари',sc.sl==='cartari'&&sc.caps.length>3&&sc.caps.every(x=>x.indexOf('Образы')<0&&x.indexOf('Иконология')<0)&&/Образы богов древних$/.test(sc.cnt),sc.cnt);
+  // гравюра Картари из сетки: открытие, «назад» на то же место, «След.» по мотиву
+  await p.goto(BASE+'#/motifs/all/snake'); await p.waitForSelector('.ic-mot-grid li',{timeout:40000}); await W(1500);
+  const ids=await p.$$eval('.ic-mot-grid .ic-gal-item',a=>a.map(x=>x.dataset.slug+'|'+x.dataset.id));
+  const k=ids.findIndex(x=>x.startsWith('cartari|'))+3, tgt=ids[k];
+  await p.evaluate(k=>{ const a=document.querySelectorAll('.ic-mot-grid .ic-gal-item')[k]; window.scrollTo(0,Math.max(0,a.getBoundingClientRect().top+scrollY-200)); },k); await W(600);
+  const y0=await p.evaluate(k=>({y:Math.round(scrollY),top:Math.round(document.querySelectorAll('.ic-mot-grid .ic-gal-item')[k].getBoundingClientRect().top)}),k);
+  await p.evaluate(k=>document.querySelectorAll('.ic-mot-grid .ic-gal-item')[k].click(),k); await p.waitForSelector('.ic-pc',{timeout:30000}); await W(1200);
+  const pc=await p.evaluate(()=>({h:location.hash,cnt:document.querySelector('.ic-pc-count').textContent,title:document.querySelector('.ic-pc-title').textContent,img:!!document.querySelector('.ic-pc-fig img'),it:!!document.querySelector('.ic-pc-it'),read:/#\/cartari\/ch\//.test((document.querySelector('.ic-pc-read')||{}).href||''),prev:!!document.querySelector('.ic-pc-pill[rel=prev]'),next:!!document.querySelector('.ic-pc-pill[rel=next]')}));
+  ok(T+'тап по гравюре Картари в сетке мотива открывает карточку гравюры (крупно, подпись, ссылка на главу) с контекстом «Змея, k из n»',pc.h==='#/cartari/plate/'+tgt.split('|')[1]+'?from=motif:all:snake'&&/^Змея, \d+ из \d+$/.test(pc.cnt)&&pc.cnt.indexOf('Змея, '+(k+1)+' из '+ids.length)===0&&pc.img&&pc.read&&pc.prev&&pc.next,JSON.stringify(pc));
+  // След.: соседняя гравюра мотива, запись истории заменяется
+  await p.evaluate(()=>document.querySelector('.ic-pc-pill[rel=next]').click()); await W(1800);
+  const nx=await p.evaluate(()=>({h:location.hash,cnt:(document.querySelector('.ic-pc-count')||{}).textContent,len:history.length}));
+  const nid=ids[k+1], nIsC=nid&&nid.startsWith('cartari|');
+  ok(T+'«След.» идёт по гравюре мотива (как в сетке), контекст сохраняется',nid&&nx.h.indexOf(nIsC?'#/cartari/plate/'+nid.split('|')[1]:'#/iconologie/'+nid.split('|')[1])===0&&/from=motif:all:snake$/.test(nx.h)&&nx.cnt&&nx.cnt.indexOf('Змея, '+(k+2)+' из '+ids.length)===0,JSON.stringify(nx)+' ждём '+nid);
+  await p.evaluate(()=>document.querySelector('.ic-pc-pill[rel=prev], .ic-rp-nb-prev') && document.querySelector('.ic-pc-pill[rel=prev], .ic-rp-nb-prev').click()); await W(1500);
+  const pv=await hash(); ok(T+'«Пред.» возвращает на предыдущую гравюру мотива',pv==='#/cartari/plate/'+tgt.split('|')[1]+'?from=motif:all:snake',pv);
+  await p.evaluate(()=>document.querySelector('.ic-bt-back').click()); await p.waitForSelector('.ic-mot-grid li',{timeout:30000}); await W(1500);
+  const y1=await p.evaluate(k=>({h:location.hash,y:Math.round(scrollY),top:Math.round(document.querySelectorAll('.ic-mot-grid .ic-gal-item')[k].getBoundingClientRect().top)}),k);
+  ok(T+'«назад» из гравюры возвращает в сетку мотива на то же место (запись истории после Пред./След. не копилась)',y1.h==='#/motifs/all/snake'&&Math.abs(y1.y-y0.y)<=3&&Math.abs(y1.top-y0.top)<=3,JSON.stringify([y0,y1]));
+  // метки у гравюры Картари
+  const data=await p.evaluate(async()=>{ const b=await fetch('books/_motifs/motifs_cartari.json').then(r=>r.json()); const c={}; Object.values(b.bindings).forEach(a=>a.forEach(i=>c[i]=(c[i]||0)+1)); const e=Object.entries(c).sort((a,b)=>b[1]-a[1]); return {many:e[0],few:e.filter(x=>x[1]>=2&&x[1]<=4)[0]}; });
+  await p.goto(BASE+'#/cartari/plate/'+data.few[0]); await p.waitForSelector('.ic-pc',{timeout:30000}); await W(1500);
+  const tg2=await p.$$eval('.ic-pc .ic-mot-sec .ic-mot-tag',a=>a.map(x=>({t:x.textContent,h:Math.round(x.getBoundingClientRect().height),href:x.getAttribute('href')})));
+  ok(T+'метки мотивов у гравюры Картари: 44px, ведут на #/motifs/cartari/<id>, заголовок «Мотивы», без «ещё» когда ≤10',tg2.length===data.few[1]&&tg2.every(x=>x.h>=44&&/^#\/motifs\/cartari\/[a-z-]+$/.test(x.href))&&(await p.$$('.ic-pc .ic-mot-more')).length===0,tg2.length+' меток, ожидали '+data.few[1]);
+  await p.evaluate(()=>document.querySelector('.ic-pc .ic-mot-tag').click()); await W(1200);
+  ok(T+'тап по метке открывает мотив Картари',/^#\/motifs\/cartari\/[a-z-]+$/.test(await hash()),await hash());
+  await p.goto(BASE+'#/cartari/plate/'+data.many[0]); await p.waitForSelector('.ic-pc .ic-mot-sec .ic-mot-tag',{timeout:30000}); await W(1200);
+  const mm=await p.evaluate(()=>{ const v=[...document.querySelectorAll('.ic-pc .ic-mot-tag')].filter(x=>x.offsetParent!==null).length, all=document.querySelectorAll('.ic-pc .ic-mot-tag').length, b=document.querySelector('.ic-pc .ic-mot-more'); return {v,all,more:b&&b.textContent}; });
+  await p.evaluate(()=>document.querySelector('.ic-pc .ic-mot-more').click()); await W(300);
+  const mm2=await p.evaluate(()=>({v:[...document.querySelectorAll('.ic-pc .ic-mot-tag')].filter(x=>x.offsetParent!==null).length,more:!!document.querySelector('.ic-pc .ic-mot-more')}));
+  ok(T+'у гравюры с >10 мотивов: первые 10 и «ещё N»; тап раскрывает остальные',data.many[1]>10&&mm.all===data.many[1]&&mm.v===10&&mm.more==='ещё '+(mm.all-10)&&mm2.v===mm.all&&!mm2.more,JSON.stringify([mm,mm2]));
+  // прямой заход на гравюру с контекстом (без загрузки Иконологии заранее)
+  await p.goto(BASE+'#/cartari/plate/'+tgt.split('|')[1]+'?from=motif:cartari:snake'); await p.waitForSelector('.ic-pc',{timeout:40000}); await W(1500);
+  const dc=await p.evaluate(()=>(document.querySelector('.ic-pc-count')||{}).textContent); ok(T+'прямой заход на гравюру с ?from=motif: подпись контекста есть',/^Змея, \d+ из \d+$/.test(dc),dc);
+  // язык: подписи фильтра и гравюр
+  for(const [l,names,all] of [['en','Iconology|Images of the Gods','All books'],['fr','Iconologie|Images des Dieux','Tous les livres']]){
+    await setLang(l); await p.goto(BASE+'#/motifs/all/snake'); await p.waitForSelector('.ic-mot-chip',{timeout:30000}); await W(1500);
+    const ch=await p.$$eval('.ic-mot-chip',a=>a.map(x=>x.textContent)); const cp=await p.$$eval('.ic-mot-grid .ic-gal-item[data-slug="cartari"] .ic-gal-cap',a=>a.slice(0,2).map(x=>x.textContent));
+    ok(T+l+': фильтр книг и подписи Картари',ch[0]===all&&ch.slice(1).join('|')===names&&cp.length===2&&cp.every(x=>x.indexOf(names.split('|')[1])>=0),JSON.stringify([ch,cp]));
+  }
+  await setLang('ru');
+  }
   await ctx.close();
  }
  ok('консоль без ошибок',errs.length===0,errs.slice(0,4).join(' | ')); await br.close(); console.log(bad?('FAILS '+bad):'ALL OK'); process.exit(bad?1:0);

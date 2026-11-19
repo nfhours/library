@@ -1,0 +1,4320 @@
+{
+ "note": "Общий словарь мотивов для всех книг: id, ru/en/fr, category, parent, children. Привязки к гравюрам/статьям — в файлах книг (index.json). Счётчики считает сайт.",
+ "categories": [
+  "животное",
+  "место и постройка",
+  "небесное",
+  "оружие",
+  "персонаж",
+  "поза и жест",
+  "предмет",
+  "растение",
+  "черта фигуры"
+ ],
+ "motifs": [
+  {
+   "id": "wreath",
+   "ru": "венок",
+   "en": "wreath",
+   "fr": "couronne",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "amaranth-wreath",
+    "flower-wreath",
+    "grass-crown",
+    "hemp-wreath",
+    "hyacinth-wreath",
+    "hyssop-wreath",
+    "iris-crown",
+    "juniper-wreath",
+    "laurel-crown",
+    "leaf-wreath",
+    "mulberry-wreath",
+    "myrtle-wreath",
+    "oak-crown",
+    "olive-crown",
+    "palm-crown",
+    "poppy-wreath",
+    "rose-wreath",
+    "rue-wreath",
+    "thorn-crown",
+    "vine-wreath",
+    "wheat-wreath"
+   ]
+  },
+  {
+   "id": "weapon",
+   "ru": "оружие",
+   "en": "weapons",
+   "fr": "armes",
+   "category": "оружие",
+   "parent": null,
+   "children": [
+    "arrow",
+    "axe",
+    "bow",
+    "club",
+    "dagger",
+    "javelin",
+    "musket",
+    "pike",
+    "spear",
+    "sword"
+   ]
+  },
+  {
+   "id": "wing",
+   "ru": "крылья",
+   "en": "wings",
+   "fr": "ailes",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bird",
+   "ru": "птица",
+   "en": "bird",
+   "fr": "oiseau",
+   "category": "животное",
+   "parent": null,
+   "children": [
+    "chick",
+    "crane",
+    "crow",
+    "dove",
+    "eagle",
+    "falcon",
+    "hen",
+    "kingfisher",
+    "magpie",
+    "nightingale",
+    "owl",
+    "partridge",
+    "peacock",
+    "pelican",
+    "pheasant",
+    "phoenix",
+    "quail",
+    "raven",
+    "rooster",
+    "sparrow",
+    "stork",
+    "swallow",
+    "swan",
+    "turtledove",
+    "vulture",
+    "wren"
+   ]
+  },
+  {
+   "id": "book",
+   "ru": "книга",
+   "en": "book",
+   "fr": "livre",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "crown",
+   "ru": "корона",
+   "en": "crown",
+   "fr": "couronne",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "diadem",
+    "radiant-crown",
+    "star-crown",
+    "tiara"
+   ]
+  },
+  {
+   "id": "flower",
+   "ru": "цветы",
+   "en": "flowers",
+   "fr": "fleurs",
+   "category": "растение",
+   "parent": null,
+   "children": [
+    "bean-flower",
+    "bouquet",
+    "heliotrope",
+    "lily",
+    "narcissus",
+    "poppy",
+    "rose",
+    "sunflower",
+    "tulip"
+   ]
+  },
+  {
+   "id": "musical-instrument",
+   "ru": "музыкальные инструменты",
+   "en": "musical instruments",
+   "fr": "instruments de musique",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "cornett",
+    "flute",
+    "harp",
+    "horn",
+    "lute",
+    "lyre",
+    "oboe",
+    "panpipes",
+    "tambourine",
+    "trumpet",
+    "viol"
+   ]
+  },
+  {
+   "id": "armor",
+   "ru": "доспехи",
+   "en": "armor",
+   "fr": "armure",
+   "category": "оружие",
+   "parent": null,
+   "children": [
+    "cuirass",
+    "helmet"
+   ]
+  },
+  {
+   "id": "eye",
+   "ru": "глаз",
+   "en": "eye",
+   "fr": "œil",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": [
+    "lowered-eyes",
+    "open-eyes",
+    "raised-eyes"
+   ]
+  },
+  {
+   "id": "lion",
+   "ru": "лев",
+   "en": "lion",
+   "fr": "lion",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "scroll",
+   "ru": "свиток",
+   "en": "scroll",
+   "fr": "rouleau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sword",
+   "ru": "меч",
+   "en": "sword",
+   "fr": "épée",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": [
+    "broken-sword",
+    "flaming-sword",
+    "rapier",
+    "scimitar"
+   ]
+  },
+  {
+   "id": "branch",
+   "ru": "ветвь",
+   "en": "branch",
+   "fr": "branche",
+   "category": "растение",
+   "parent": null,
+   "children": [
+    "cedar-branch",
+    "cypress-branch",
+    "lotus-branch",
+    "oak-branch",
+    "olive-branch",
+    "palm-branch",
+    "pine-branch",
+    "rose-branch"
+   ]
+  },
+  {
+   "id": "heart",
+   "ru": "сердце",
+   "en": "heart",
+   "fr": "cœur",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "flaming-heart"
+   ]
+  },
+  {
+   "id": "sceptre",
+   "ru": "скипетр",
+   "en": "sceptre",
+   "fr": "sceptre",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "fool-sceptre"
+   ]
+  },
+  {
+   "id": "snake",
+   "ru": "змея",
+   "en": "snake",
+   "fr": "serpent",
+   "category": "животное",
+   "parent": null,
+   "children": [
+    "asp",
+    "ouroboros"
+   ]
+  },
+  {
+   "id": "laurel-crown",
+   "ru": "лавровый венок",
+   "en": "laurel wreath",
+   "fr": "couronne de laurier",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "compass",
+   "ru": "циркуль",
+   "en": "compass",
+   "fr": "compas",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cup",
+   "ru": "кубок",
+   "en": "cup",
+   "fr": "coupe",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "helmet",
+   "ru": "шлем",
+   "en": "helmet",
+   "fr": "casque",
+   "category": "оружие",
+   "parent": "armor",
+   "children": [
+    "morion"
+   ]
+  },
+  {
+   "id": "zodiac",
+   "ru": "зодиак",
+   "en": "zodiac",
+   "fr": "zodiaque",
+   "category": "небесное",
+   "parent": null,
+   "children": [
+    "aquarius",
+    "aries",
+    "cancer",
+    "capricorn",
+    "gemini",
+    "leo",
+    "libra",
+    "pisces",
+    "sagittarius",
+    "scorpio",
+    "taurus",
+    "virgo"
+   ]
+  },
+  {
+   "id": "globe",
+   "ru": "глобус",
+   "en": "globe",
+   "fr": "globe",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "star",
+   "ru": "звезда",
+   "en": "star",
+   "fr": "étoile",
+   "category": "небесное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cornucopia",
+   "ru": "рог изобилия",
+   "en": "cornucopia",
+   "fr": "corne d'abondance",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "flame",
+   "ru": "пламя",
+   "en": "flame",
+   "fr": "flamme",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "torch",
+   "ru": "факел",
+   "en": "torch",
+   "fr": "torche",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "veil",
+   "ru": "покров",
+   "en": "veil",
+   "fr": "voile",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mirror",
+   "ru": "зеркало",
+   "en": "mirror",
+   "fr": "miroir",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "nudity",
+   "ru": "нагота",
+   "en": "nudity",
+   "fr": "nudité",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "spear",
+   "ru": "копьё",
+   "en": "spear",
+   "fr": "lance",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "raised-eyes",
+   "ru": "взор к небу",
+   "en": "eyes raised to heaven",
+   "fr": "regard levé vers le ciel",
+   "category": "поза и жест",
+   "parent": "eye",
+   "children": []
+  },
+  {
+   "id": "shield",
+   "ru": "щит",
+   "en": "shield",
+   "fr": "bouclier",
+   "category": "оружие",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "fruit",
+   "ru": "плоды",
+   "en": "fruit",
+   "fr": "fruits",
+   "category": "растение",
+   "parent": null,
+   "children": [
+    "apple",
+    "golden-apple",
+    "grapes",
+    "peach",
+    "pomegranate",
+    "quince"
+   ]
+  },
+  {
+   "id": "sun",
+   "ru": "солнце",
+   "en": "sun",
+   "fr": "soleil",
+   "category": "небесное",
+   "parent": null,
+   "children": [
+    "eclipsed-sun"
+   ]
+  },
+  {
+   "id": "chain",
+   "ru": "цепь",
+   "en": "chain",
+   "fr": "chaîne",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "clock",
+   "ru": "часы",
+   "en": "clock",
+   "fr": "horloge",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "hourglass",
+    "sundial"
+   ]
+  },
+  {
+   "id": "vessel",
+   "ru": "сосуд",
+   "en": "vessel",
+   "fr": "vase",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "fire-vessel",
+    "urn"
+   ]
+  },
+  {
+   "id": "jewel",
+   "ru": "драгоценность",
+   "en": "jewel",
+   "fr": "joyau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rays",
+   "ru": "лучи",
+   "en": "rays",
+   "fr": "rayons",
+   "category": "небесное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "scales",
+   "ru": "весы",
+   "en": "scales",
+   "fr": "balance",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "stone",
+   "ru": "камень",
+   "en": "stone",
+   "fr": "pierre",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "pebble",
+    "touchstone",
+    "triangular-stone"
+   ]
+  },
+  {
+   "id": "bow",
+   "ru": "лук",
+   "en": "bow",
+   "fr": "arc",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "cloud",
+   "ru": "облако",
+   "en": "cloud",
+   "fr": "nuage",
+   "category": "небесное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "staff",
+   "ru": "посох",
+   "en": "staff",
+   "fr": "bâton",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "crook"
+   ]
+  },
+  {
+   "id": "arrow",
+   "ru": "стрела",
+   "en": "arrow",
+   "fr": "flèche",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "belt",
+   "ru": "пояс",
+   "en": "belt",
+   "fr": "ceinture",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "ivy-belt"
+   ]
+  },
+  {
+   "id": "blindfold",
+   "ru": "повязка на глазах",
+   "en": "blindfold",
+   "fr": "bandeau",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cupid",
+   "ru": "купидон",
+   "en": "Cupid",
+   "fr": "Cupidon",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "dog",
+   "ru": "собака",
+   "en": "dog",
+   "fr": "chien",
+   "category": "животное",
+   "parent": null,
+   "children": [
+    "cerberus"
+   ]
+  },
+  {
+   "id": "dove",
+   "ru": "голубь",
+   "en": "dove",
+   "fr": "colombe",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "elephant",
+   "ru": "слон",
+   "en": "elephant",
+   "fr": "éléphant",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "flower-wreath",
+   "ru": "венок из цветов",
+   "en": "flower wreath",
+   "fr": "couronne de fleurs",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "javelin",
+   "ru": "дротик",
+   "en": "javelin",
+   "fr": "javelot",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "olive-branch",
+   "ru": "оливковая ветвь",
+   "en": "olive branch",
+   "fr": "branche d'olivier",
+   "category": "растение",
+   "parent": "branch",
+   "children": []
+  },
+  {
+   "id": "deer",
+   "ru": "олень",
+   "en": "deer",
+   "fr": "cerf",
+   "category": "животное",
+   "parent": null,
+   "children": [
+    "stag-head"
+   ]
+  },
+  {
+   "id": "palm-branch",
+   "ru": "пальмовая ветвь",
+   "en": "palm branch",
+   "fr": "branche de palmier",
+   "category": "растение",
+   "parent": "branch",
+   "children": []
+  },
+  {
+   "id": "purse",
+   "ru": "кошелёк",
+   "en": "purse",
+   "fr": "bourse",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "square",
+   "ru": "угольник",
+   "en": "square",
+   "fr": "équerre",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "trumpet",
+   "ru": "труба",
+   "en": "trumpet",
+   "fr": "trompette",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "breast",
+   "ru": "грудь",
+   "en": "breast",
+   "fr": "sein",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": [
+    "bare-breast"
+   ]
+  },
+  {
+   "id": "club",
+   "ru": "палица",
+   "en": "club",
+   "fr": "massue",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "coin",
+   "ru": "монета",
+   "en": "coin",
+   "fr": "pièce de monnaie",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cross",
+   "ru": "крест",
+   "en": "cross",
+   "fr": "croix",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "farming-tool",
+   "ru": "орудие земледелия",
+   "en": "farming tool",
+   "fr": "outil agricole",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "coulter",
+    "hoe",
+    "plowshare",
+    "pruning-hook",
+    "rake",
+    "sickle",
+    "spade"
+   ]
+  },
+  {
+   "id": "lyre",
+   "ru": "лира",
+   "en": "lyre",
+   "fr": "lyre",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "mask",
+   "ru": "маска",
+   "en": "mask",
+   "fr": "masque",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rooster",
+   "ru": "петух",
+   "en": "rooster",
+   "fr": "coq",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "ruler",
+   "ru": "мера длины",
+   "en": "foot measure",
+   "fr": "mesure du pied",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "thorns",
+   "ru": "шипы",
+   "en": "thorns",
+   "fr": "épines",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "yoke",
+   "ru": "ярмо",
+   "en": "yoke",
+   "fr": "joug",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "caduceus",
+   "ru": "кадуцей",
+   "en": "caduceus",
+   "fr": "caducée",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "falcon",
+   "ru": "сокол",
+   "en": "falcon",
+   "fr": "faucon",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "fish",
+   "ru": "рыба",
+   "en": "fish",
+   "fr": "poisson",
+   "category": "животное",
+   "parent": null,
+   "children": [
+    "electric-ray",
+    "remora"
+   ]
+  },
+  {
+   "id": "hourglass",
+   "ru": "песочные часы",
+   "en": "hourglass",
+   "fr": "sablier",
+   "category": "предмет",
+   "parent": "clock",
+   "children": []
+  },
+  {
+   "id": "lamb",
+   "ru": "ягнёнок",
+   "en": "lamb",
+   "fr": "agneau",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "olive-crown",
+   "ru": "оливковый венок",
+   "en": "olive wreath",
+   "fr": "couronne d'olivier",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "open-arms",
+   "ru": "раскрытые руки",
+   "en": "open arms",
+   "fr": "bras ouverts",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "peacock",
+   "ru": "павлин",
+   "en": "peacock",
+   "fr": "paon",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "tree",
+   "ru": "дерево",
+   "en": "tree",
+   "fr": "arbre",
+   "category": "растение",
+   "parent": null,
+   "children": [
+    "elm",
+    "oak",
+    "sapling"
+   ]
+  },
+  {
+   "id": "bare-breast",
+   "ru": "обнажённая грудь",
+   "en": "bare breast",
+   "fr": "poitrine nue",
+   "category": "черта фигуры",
+   "parent": "breast",
+   "children": []
+  },
+  {
+   "id": "bridle",
+   "ru": "узда",
+   "en": "bridle",
+   "fr": "bride",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "reins"
+   ]
+  },
+  {
+   "id": "celestial-sphere",
+   "ru": "небесная сфера",
+   "en": "celestial sphere",
+   "fr": "sphère céleste",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "crane",
+   "ru": "журавль",
+   "en": "crane",
+   "fr": "grue",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "dagger",
+   "ru": "кинжал",
+   "en": "dagger",
+   "fr": "poignard",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "dragon",
+   "ru": "дракон",
+   "en": "dragon",
+   "fr": "dragon",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "eagle",
+   "ru": "орёл",
+   "en": "eagle",
+   "fr": "aigle",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "ears-of-grain",
+   "ru": "колосья",
+   "en": "ears of grain",
+   "fr": "épis",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "flute",
+   "ru": "флейта",
+   "en": "flute",
+   "fr": "flûte",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "hand-on-chest",
+   "ru": "рука на груди",
+   "en": "hand on chest",
+   "fr": "main sur la poitrine",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "kneeling",
+   "ru": "коленопреклонение",
+   "en": "kneeling",
+   "fr": "agenouillement",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "lamp",
+   "ru": "лампа",
+   "en": "lamp",
+   "fr": "lampe",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "myrtle-wreath",
+   "ru": "венок из мирта",
+   "en": "myrtle wreath",
+   "fr": "couronne de myrte",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "plumb-line",
+   "ru": "отвес",
+   "en": "plumb line",
+   "fr": "fil à plomb",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rods",
+   "ru": "розги",
+   "en": "rods",
+   "fr": "verges",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "scourge",
+   "ru": "бич",
+   "en": "scourge",
+   "fr": "fouet",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "vine",
+   "ru": "виноградная лоза",
+   "en": "vine",
+   "fr": "vigne",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "wand",
+   "ru": "жезл",
+   "en": "wand",
+   "fr": "baguette",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "wheat-wreath",
+   "ru": "венок из колосьев",
+   "en": "wheat wreath",
+   "fr": "couronne d'épis",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "wheel",
+   "ru": "колесо",
+   "en": "wheel",
+   "fr": "roue",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bull",
+   "ru": "бык",
+   "en": "bull",
+   "fr": "taureau",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "censer",
+   "ru": "кадило",
+   "en": "censer",
+   "fr": "encensoir",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "child",
+   "ru": "младенец",
+   "en": "infant",
+   "fr": "enfant",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "circle",
+   "ru": "круг",
+   "en": "circle",
+   "fr": "cercle",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "crocodile",
+   "ru": "крокодил",
+   "en": "crocodile",
+   "fr": "crocodile",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "crow",
+   "ru": "ворона",
+   "en": "crow",
+   "fr": "corneille",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "cuirass",
+   "ru": "нагрудник",
+   "en": "cuirass",
+   "fr": "cuirasse",
+   "category": "оружие",
+   "parent": "armor",
+   "children": []
+  },
+  {
+   "id": "donkey",
+   "ru": "осёл",
+   "en": "donkey",
+   "fr": "âne",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "ear",
+   "ru": "ухо",
+   "en": "ear",
+   "fr": "oreille",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "feather",
+   "ru": "перо на шлеме",
+   "en": "feather",
+   "fr": "plume",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "fur",
+   "ru": "мех",
+   "en": "fur",
+   "fr": "fourrure",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "grapes",
+   "ru": "виноградная гроздь",
+   "en": "grapes",
+   "fr": "grappe de raisin",
+   "category": "растение",
+   "parent": "fruit",
+   "children": []
+  },
+  {
+   "id": "harp",
+   "ru": "арфа",
+   "en": "harp",
+   "fr": "harpe",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "leaf",
+   "ru": "лист",
+   "en": "leaf",
+   "fr": "feuille",
+   "category": "растение",
+   "parent": null,
+   "children": [
+    "almond-leaf",
+    "elm-leaf",
+    "mulberry-leaf"
+   ]
+  },
+  {
+   "id": "lily",
+   "ru": "лилия",
+   "en": "lily",
+   "fr": "lys",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "loose-hair",
+   "ru": "распущенные волосы",
+   "en": "loose hair",
+   "fr": "cheveux dénoués",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "lute",
+   "ru": "лютня",
+   "en": "lute",
+   "fr": "luth",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "moon",
+   "ru": "луна",
+   "en": "moon",
+   "fr": "lune",
+   "category": "небесное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mouth-band",
+   "ru": "повязка на устах",
+   "en": "band across the mouth",
+   "fr": "bandeau sur la bouche",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "oak-crown",
+   "ru": "дубовый венок",
+   "en": "oak wreath",
+   "fr": "couronne de chêne",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "pelican",
+   "ru": "пеликан",
+   "en": "pelican",
+   "fr": "pélican",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "pig",
+   "ru": "свинья",
+   "en": "pig",
+   "fr": "porc",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "quiver",
+   "ru": "колчан",
+   "en": "quiver",
+   "fr": "carquois",
+   "category": "оружие",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "raised-hand",
+   "ru": "поднятая рука",
+   "en": "raised hand",
+   "fr": "main levée",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rosary",
+   "ru": "чётки",
+   "en": "rosary",
+   "fr": "chapelet",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rose",
+   "ru": "роза",
+   "en": "rose",
+   "fr": "rose",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "ship",
+   "ru": "корабль",
+   "en": "ship",
+   "fr": "navire",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "stork",
+   "ru": "аист",
+   "en": "stork",
+   "fr": "cigogne",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "temple",
+   "ru": "храм",
+   "en": "temple",
+   "fr": "temple",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tongue",
+   "ru": "язык",
+   "en": "tongue",
+   "fr": "langue",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tortoise",
+   "ru": "черепаха",
+   "en": "tortoise",
+   "fr": "tortue",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "two-faces",
+   "ru": "два лица",
+   "en": "two faces",
+   "fr": "deux visages",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "wolf",
+   "ru": "волк",
+   "en": "wolf",
+   "fr": "loup",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "apple",
+   "ru": "яблоко",
+   "en": "apple",
+   "fr": "pomme",
+   "category": "растение",
+   "parent": "fruit",
+   "children": []
+  },
+  {
+   "id": "ball",
+   "ru": "шар",
+   "en": "ball",
+   "fr": "boule",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "barefoot",
+   "ru": "босые ноги",
+   "en": "bare feet",
+   "fr": "pieds nus",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "beehive",
+   "ru": "улей",
+   "en": "beehive",
+   "fr": "ruche",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bouquet",
+   "ru": "букет",
+   "en": "bouquet",
+   "fr": "bouquet",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "brazier",
+   "ru": "жаровня",
+   "en": "brazier",
+   "fr": "brasero",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "candle",
+   "ru": "свеча",
+   "en": "candle",
+   "fr": "bougie",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "capricorn",
+   "ru": "знак Козерога",
+   "en": "sign of Capricorn",
+   "fr": "signe du Capricorne",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "clasped-hands",
+   "ru": "сплетённые руки",
+   "en": "clasped hands",
+   "fr": "mains jointes",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "column",
+   "ru": "колонна",
+   "en": "column",
+   "fr": "colonne",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "flaming-heart",
+   "ru": "пылающее сердце",
+   "en": "flaming heart",
+   "fr": "cœur enflammé",
+   "category": "предмет",
+   "parent": "heart",
+   "children": []
+  },
+  {
+   "id": "gold",
+   "ru": "золото",
+   "en": "gold",
+   "fr": "or",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "grace",
+   "ru": "Грация",
+   "en": "Grace",
+   "fr": "Grâce",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "grass-crown",
+   "ru": "венец из травы",
+   "en": "grass crown",
+   "fr": "couronne de gazon",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "hammer",
+   "ru": "молоток",
+   "en": "hammer",
+   "fr": "marteau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hare",
+   "ru": "заяц",
+   "en": "hare",
+   "fr": "lièvre",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "key",
+   "ru": "ключ",
+   "en": "key",
+   "fr": "clé",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "lantern",
+   "ru": "фонарь",
+   "en": "lantern",
+   "fr": "lanterne",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "lightning",
+   "ru": "молния",
+   "en": "lightning",
+   "fr": "foudre",
+   "category": "небесное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mantle",
+   "ru": "мантия",
+   "en": "mantle",
+   "fr": "manteau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "minerva",
+   "ru": "Минерва",
+   "en": "Minerva",
+   "fr": "Minerve",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "nail",
+   "ru": "гвоздь",
+   "en": "nail",
+   "fr": "clou",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "net",
+   "ru": "сеть",
+   "en": "net",
+   "fr": "filet",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pearl",
+   "ru": "жемчуг",
+   "en": "pearl",
+   "fr": "perle",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pegasus",
+   "ru": "Пегас",
+   "en": "Pegasus",
+   "fr": "Pégase",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pen",
+   "ru": "перо",
+   "en": "pen",
+   "fr": "plume",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "plant",
+   "ru": "растение",
+   "en": "plant",
+   "fr": "plante",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pointing-hand",
+   "ru": "указывающая рука",
+   "en": "pointing hand",
+   "fr": "main qui pointe",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "scorpion",
+   "ru": "скорпион",
+   "en": "scorpion",
+   "fr": "scorpion",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "siren",
+   "ru": "сирена",
+   "en": "siren",
+   "fr": "sirène",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "skull",
+   "ru": "череп",
+   "en": "skull",
+   "fr": "crâne",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "smoke",
+   "ru": "дым",
+   "en": "smoke",
+   "fr": "fumée",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "stream",
+   "ru": "ручей",
+   "en": "stream",
+   "fr": "ruisseau",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tablet",
+   "ru": "табличка",
+   "en": "tablet",
+   "fr": "tablette",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "trophy",
+   "ru": "трофеи",
+   "en": "trophies",
+   "fr": "trophées",
+   "category": "оружие",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "viol",
+   "ru": "виола",
+   "en": "viol",
+   "fr": "viole",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "vulture",
+   "ru": "гриф",
+   "en": "vulture",
+   "fr": "vautour",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "abyss",
+   "ru": "пропасть",
+   "en": "abyss",
+   "fr": "abîme",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "aries",
+   "ru": "знак Овна",
+   "en": "sign of Aries",
+   "fr": "signe du Bélier",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "basket",
+   "ru": "корзина",
+   "en": "basket",
+   "fr": "panier",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bee",
+   "ru": "пчела",
+   "en": "bee",
+   "fr": "abeille",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "big-belly",
+   "ru": "большой живот",
+   "en": "big belly",
+   "fr": "gros ventre",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "blind",
+   "ru": "слепота",
+   "en": "blindness",
+   "fr": "cécité",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "boar",
+   "ru": "вепрь",
+   "en": "boar",
+   "fr": "sanglier",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bowed-head",
+   "ru": "склонённая голова",
+   "en": "bowed head",
+   "fr": "tête inclinée",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "camel",
+   "ru": "верблюд",
+   "en": "camel",
+   "fr": "chameau",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cancer",
+   "ru": "знак Рака",
+   "en": "sign of Cancer",
+   "fr": "signe du Cancer",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "cap",
+   "ru": "колпак вольноотпущенника",
+   "en": "freedman's cap",
+   "fr": "bonnet de la liberté",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cat",
+   "ru": "кошка",
+   "en": "cat",
+   "fr": "chat",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "chameleon",
+   "ru": "хамелеон",
+   "en": "chameleon",
+   "fr": "caméléon",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "chick",
+   "ru": "цыплёнок",
+   "en": "chick",
+   "fr": "poussin",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "cornett",
+   "ru": "цинк",
+   "en": "cornett",
+   "fr": "cornet à bouquin",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "dolphin",
+   "ru": "дельфин",
+   "en": "dolphin",
+   "fr": "dauphin",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "elm",
+   "ru": "вяз",
+   "en": "elm",
+   "fr": "orme",
+   "category": "растение",
+   "parent": "tree",
+   "children": []
+  },
+  {
+   "id": "fetters",
+   "ru": "оковы",
+   "en": "fetters",
+   "fr": "fers",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "file",
+   "ru": "напильник",
+   "en": "file",
+   "fr": "lime",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "flaming-sword",
+   "ru": "пламенеющий меч",
+   "en": "flaming sword",
+   "fr": "épée flamboyante",
+   "category": "оружие",
+   "parent": "sword",
+   "children": []
+  },
+  {
+   "id": "fountain",
+   "ru": "источник",
+   "en": "fountain",
+   "fr": "source",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "frog",
+   "ru": "лягушка",
+   "en": "frog",
+   "fr": "grenouille",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "goat",
+   "ru": "коза",
+   "en": "goat",
+   "fr": "chèvre",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hook",
+   "ru": "крючок",
+   "en": "hook",
+   "fr": "hameçon",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hydra",
+   "ru": "гидра",
+   "en": "hydra",
+   "fr": "hydre",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "ivy",
+   "ru": "плющ",
+   "en": "ivy",
+   "fr": "lierre",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "joined-hands",
+   "ru": "сложенные руки",
+   "en": "joined hands",
+   "fr": "mains jointes",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "leo",
+   "ru": "знак Льва",
+   "en": "sign of Leo",
+   "fr": "signe du Lion",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "libra",
+   "ru": "знак Весов",
+   "en": "sign of Libra",
+   "fr": "signe de la Balance",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "magnetic-compass",
+   "ru": "буссоль",
+   "en": "magnetic compass",
+   "fr": "boussole",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mitre",
+   "ru": "митра",
+   "en": "mitre",
+   "fr": "mitre",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "monkey",
+   "ru": "обезьяна",
+   "en": "monkey",
+   "fr": "singe",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "morion",
+   "ru": "морион",
+   "en": "morion",
+   "fr": "morion",
+   "category": "оружие",
+   "parent": "helmet",
+   "children": []
+  },
+  {
+   "id": "mulberry-wreath",
+   "ru": "венок из тутовых листьев",
+   "en": "mulberry-leaf wreath",
+   "fr": "couronne de feuilles de mûrier",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "nest",
+   "ru": "гнездо",
+   "en": "nest",
+   "fr": "nid",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "note",
+   "ru": "нота",
+   "en": "musical note",
+   "fr": "note de musique",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "oak-branch",
+   "ru": "дубовая ветвь",
+   "en": "oak branch",
+   "fr": "branche de chêne",
+   "category": "растение",
+   "parent": "branch",
+   "children": []
+  },
+  {
+   "id": "owl",
+   "ru": "сова",
+   "en": "owl",
+   "fr": "chouette",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "palm-crown",
+   "ru": "пальмовый венец",
+   "en": "palm crown",
+   "fr": "couronne de palmier",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "pedestal",
+   "ru": "постамент",
+   "en": "pedestal",
+   "fr": "piédestal",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "phoenix",
+   "ru": "феникс",
+   "en": "phoenix",
+   "fr": "phénix",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "plan",
+   "ru": "план здания",
+   "en": "building plan",
+   "fr": "plan d'architecture",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "plowshare",
+   "ru": "лемех плуга",
+   "en": "plowshare",
+   "fr": "soc de charrue",
+   "category": "предмет",
+   "parent": "farming-tool",
+   "children": []
+  },
+  {
+   "id": "pomegranate",
+   "ru": "гранат",
+   "en": "pomegranate",
+   "fr": "grenade",
+   "category": "растение",
+   "parent": "fruit",
+   "children": []
+  },
+  {
+   "id": "poppy",
+   "ru": "мак",
+   "en": "poppy",
+   "fr": "pavot",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "poppy-wreath",
+   "ru": "венок из маков",
+   "en": "poppy wreath",
+   "fr": "couronne de pavots",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "radiant-crown",
+   "ru": "лучистый венец",
+   "en": "radiant crown",
+   "fr": "couronne radiée",
+   "category": "предмет",
+   "parent": "crown",
+   "children": []
+  },
+  {
+   "id": "rainbow",
+   "ru": "радуга",
+   "en": "rainbow",
+   "fr": "arc-en-ciel",
+   "category": "небесное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "ram",
+   "ru": "баран",
+   "en": "ram",
+   "fr": "bélier",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "razor",
+   "ru": "бритва",
+   "en": "razor",
+   "fr": "rasoir",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "reed",
+   "ru": "тростник",
+   "en": "reed",
+   "fr": "roseau",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "ribbon",
+   "ru": "лента",
+   "en": "ribbon",
+   "fr": "ruban",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rock",
+   "ru": "скала",
+   "en": "rock",
+   "fr": "rocher",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rope",
+   "ru": "верёвка",
+   "en": "rope",
+   "fr": "corde",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rose-wreath",
+   "ru": "венок из роз",
+   "en": "rose wreath",
+   "fr": "couronne de roses",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "rudder",
+   "ru": "руль",
+   "en": "rudder",
+   "fr": "gouvernail",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sagittarius",
+   "ru": "знак Стрельца",
+   "en": "sign of Sagittarius",
+   "fr": "signe du Sagittaire",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "sapling",
+   "ru": "молодое деревце",
+   "en": "sapling",
+   "fr": "jeune arbre",
+   "category": "растение",
+   "parent": "tree",
+   "children": []
+  },
+  {
+   "id": "scimitar",
+   "ru": "ятаган",
+   "en": "scimitar",
+   "fr": "cimeterre",
+   "category": "оружие",
+   "parent": "sword",
+   "children": []
+  },
+  {
+   "id": "seal",
+   "ru": "печать",
+   "en": "seal",
+   "fr": "sceau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "severed-head",
+   "ru": "отрубленная голова",
+   "en": "severed head",
+   "fr": "tête coupée",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sheaf",
+   "ru": "сноп",
+   "en": "sheaf",
+   "fr": "gerbe",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sieve",
+   "ru": "решето",
+   "en": "sieve",
+   "fr": "crible",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "silver",
+   "ru": "серебро",
+   "en": "silver",
+   "fr": "argent",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "skeleton",
+   "ru": "скелет",
+   "en": "skeleton",
+   "fr": "squelette",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "spur",
+   "ru": "шпора",
+   "en": "spur",
+   "fr": "éperon",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "stag-head",
+   "ru": "оленья голова",
+   "en": "stag head",
+   "fr": "tête de cerf",
+   "category": "животное",
+   "parent": "deer",
+   "children": []
+  },
+  {
+   "id": "stake",
+   "ru": "кол",
+   "en": "stake",
+   "fr": "pieu",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "swallow",
+   "ru": "ласточка",
+   "en": "swallow",
+   "fr": "hirondelle",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "table",
+   "ru": "стол",
+   "en": "table",
+   "fr": "table",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "taurus",
+   "ru": "знак Тельца",
+   "en": "sign of Taurus",
+   "fr": "signe du Taureau",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "tears",
+   "ru": "слёзы",
+   "en": "tears",
+   "fr": "larmes",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "throne",
+   "ru": "трон",
+   "en": "throne",
+   "fr": "trône",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tiger",
+   "ru": "тигр",
+   "en": "tiger",
+   "fr": "tigre",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "triangle",
+   "ru": "треугольник",
+   "en": "triangle",
+   "fr": "triangle",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "venus",
+   "ru": "Венера",
+   "en": "Venus",
+   "fr": "Vénus",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "vine-wreath",
+   "ru": "венок из виноградных листьев",
+   "en": "vine-leaf wreath",
+   "fr": "couronne de feuilles de vigne",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "virgo",
+   "ru": "знак Девы",
+   "en": "sign of Virgo",
+   "fr": "signe de la Vierge",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "waves",
+   "ru": "волны",
+   "en": "waves",
+   "fr": "vagues",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "worm",
+   "ru": "червь",
+   "en": "worm",
+   "fr": "ver",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "almond-leaf",
+   "ru": "листья миндаля",
+   "en": "almond leaves",
+   "fr": "feuilles d'amandier",
+   "category": "растение",
+   "parent": "leaf",
+   "children": []
+  },
+  {
+   "id": "alms",
+   "ru": "подаяние",
+   "en": "alms-giving",
+   "fr": "aumône",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "altar",
+   "ru": "алтарь",
+   "en": "altar",
+   "fr": "autel",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "amaranth-wreath",
+   "ru": "венок из амаранта",
+   "en": "amaranth wreath",
+   "fr": "couronne d'amarante",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "anchor",
+   "ru": "якорь",
+   "en": "anchor",
+   "fr": "ancre",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "anvil",
+   "ru": "наковальня",
+   "en": "anvil",
+   "fr": "enclume",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "aquarius",
+   "ru": "знак Водолея",
+   "en": "sign of Aquarius",
+   "fr": "signe du Verseau",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "asp",
+   "ru": "аспид",
+   "en": "asp",
+   "fr": "aspic",
+   "category": "животное",
+   "parent": "snake",
+   "children": []
+  },
+  {
+   "id": "astrolabe",
+   "ru": "астролябия",
+   "en": "astrolabe",
+   "fr": "astrolabe",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "banner",
+   "ru": "знамя",
+   "en": "banner",
+   "fr": "bannière",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "basilisk",
+   "ru": "василиск",
+   "en": "basilisk",
+   "fr": "basilic",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bat",
+   "ru": "летучая мышь",
+   "en": "bat",
+   "fr": "chauve-souris",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bean-flower",
+   "ru": "цветы бобов",
+   "en": "bean flowers",
+   "fr": "fleurs de fève",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "bell",
+   "ru": "колокольчик",
+   "en": "bell",
+   "fr": "clochette",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bellows",
+   "ru": "мех для раздувания огня",
+   "en": "bellows",
+   "fr": "soufflet",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bit",
+   "ru": "удила",
+   "en": "bit",
+   "fr": "mors",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "boots",
+   "ru": "полусапожки",
+   "en": "half-boots",
+   "fr": "brodequins",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bracelet",
+   "ru": "браслет",
+   "en": "bracelet",
+   "fr": "bracelet",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bread",
+   "ru": "хлеб",
+   "en": "bread",
+   "fr": "pain",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "broken-sword",
+   "ru": "сломанный меч",
+   "en": "broken sword",
+   "fr": "épée brisée",
+   "category": "оружие",
+   "parent": "sword",
+   "children": []
+  },
+  {
+   "id": "brush",
+   "ru": "кисть",
+   "en": "brush",
+   "fr": "pinceau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "burning-straw",
+   "ru": "горящая солома",
+   "en": "burning straw",
+   "fr": "paille enflammée",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "casket",
+   "ru": "шкатулка",
+   "en": "casket",
+   "fr": "coffret",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cat-crest",
+   "ru": "кошачий нашлемник",
+   "en": "cat crest",
+   "fr": "cimier en forme de chat",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cedar-branch",
+   "ru": "ветка кедра",
+   "en": "cedar branch",
+   "fr": "branche de cèdre",
+   "category": "растение",
+   "parent": "branch",
+   "children": []
+  },
+  {
+   "id": "chair",
+   "ru": "кресло",
+   "en": "armchair",
+   "fr": "fauteuil",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "chariot",
+   "ru": "колесница",
+   "en": "chariot",
+   "fr": "char",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "chart",
+   "ru": "карта",
+   "en": "chart",
+   "fr": "carte",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "chimera",
+   "ru": "Химера",
+   "en": "Chimera",
+   "fr": "Chimère",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "chisel",
+   "ru": "резец",
+   "en": "chisel",
+   "fr": "ciseau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cicada",
+   "ru": "цикада",
+   "en": "cicada",
+   "fr": "cigale",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cloak",
+   "ru": "плащ",
+   "en": "cloak",
+   "fr": "manteau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "coral-necklace",
+   "ru": "коралловое ожерелье",
+   "en": "coral necklace",
+   "fr": "collier de corail",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "coulter",
+   "ru": "чересло",
+   "en": "coulter",
+   "fr": "coutre",
+   "category": "предмет",
+   "parent": "farming-tool",
+   "children": []
+  },
+  {
+   "id": "crayfish",
+   "ru": "рак",
+   "en": "crayfish",
+   "fr": "écrevisse",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "crook",
+   "ru": "пастуший посох",
+   "en": "shepherd's crook",
+   "fr": "houlette",
+   "category": "предмет",
+   "parent": "staff",
+   "children": []
+  },
+  {
+   "id": "crucifix",
+   "ru": "распятие",
+   "en": "crucifix",
+   "fr": "crucifix",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cube",
+   "ru": "куб",
+   "en": "cube",
+   "fr": "cube",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cuttlefish",
+   "ru": "каракатица",
+   "en": "cuttlefish",
+   "fr": "seiche",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cypress-branch",
+   "ru": "ветвь кипариса",
+   "en": "cypress branch",
+   "fr": "rameau de cyprès",
+   "category": "растение",
+   "parent": "branch",
+   "children": []
+  },
+  {
+   "id": "devil",
+   "ru": "Дьявол",
+   "en": "Devil",
+   "fr": "Diable",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "dew",
+   "ru": "роса",
+   "en": "dew",
+   "fr": "rosée",
+   "category": "небесное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "diadem",
+   "ru": "диадема",
+   "en": "diadem",
+   "fr": "diadème",
+   "category": "предмет",
+   "parent": "crown",
+   "children": []
+  },
+  {
+   "id": "die",
+   "ru": "игральная кость",
+   "en": "die",
+   "fr": "dé",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "distaff",
+   "ru": "прялка",
+   "en": "distaff",
+   "fr": "quenouille",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "eclipsed-sun",
+   "ru": "затмившееся солнце",
+   "en": "eclipsed sun",
+   "fr": "soleil éclipsé",
+   "category": "небесное",
+   "parent": "sun",
+   "children": []
+  },
+  {
+   "id": "electric-ray",
+   "ru": "рыба-торпедо",
+   "en": "torpedo fish",
+   "fr": "torpille",
+   "category": "животное",
+   "parent": "fish",
+   "children": []
+  },
+  {
+   "id": "elm-leaf",
+   "ru": "вязовый лист",
+   "en": "elm leaf",
+   "fr": "feuille d'orme",
+   "category": "растение",
+   "parent": "leaf",
+   "children": []
+  },
+  {
+   "id": "ermine",
+   "ru": "горностай",
+   "en": "ermine",
+   "fr": "hermine",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "fan",
+   "ru": "веер",
+   "en": "fan",
+   "fr": "éventail",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "feather-garland",
+   "ru": "перьевая гирлянда",
+   "en": "feather garland",
+   "fr": "guirlande de plumes",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "fire-vessel",
+   "ru": "сосуд с огнём",
+   "en": "vessel of fire",
+   "fr": "vase de feu",
+   "category": "предмет",
+   "parent": "vessel",
+   "children": []
+  },
+  {
+   "id": "food",
+   "ru": "яства",
+   "en": "food",
+   "fr": "mets",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "fool-sceptre",
+   "ru": "шутовской жезл",
+   "en": "fool's sceptre",
+   "fr": "marotte",
+   "category": "предмет",
+   "parent": "sceptre",
+   "children": []
+  },
+  {
+   "id": "forelock",
+   "ru": "чёлка спереди, лысина сзади",
+   "en": "forelock",
+   "fr": "toupet",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "fort",
+   "ru": "крепость",
+   "en": "fort",
+   "fr": "fort",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "four-arms",
+   "ru": "четыре руки",
+   "en": "four arms",
+   "fr": "quatre bras",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "fox",
+   "ru": "лиса",
+   "en": "fox",
+   "fr": "renard",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "frost",
+   "ru": "иней",
+   "en": "frost",
+   "fr": "givre",
+   "category": "небесное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "gemini",
+   "ru": "знак Близнецов",
+   "en": "sign of Gemini",
+   "fr": "signe des Gémeaux",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "golden-apple",
+   "ru": "золотое яблоко",
+   "en": "golden apple",
+   "fr": "pomme d'or",
+   "category": "предмет",
+   "parent": "fruit",
+   "children": []
+  },
+  {
+   "id": "golden-fleece",
+   "ru": "золотое руно",
+   "en": "golden fleece",
+   "fr": "toison d'or",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "grain",
+   "ru": "зерно",
+   "en": "grain",
+   "fr": "grain",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "grating",
+   "ru": "решётка",
+   "en": "grating",
+   "fr": "grille",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "griffin",
+   "ru": "гриф (грифон)",
+   "en": "griffin",
+   "fr": "griffon",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "grindstone",
+   "ru": "точильное колесо",
+   "en": "grindstone",
+   "fr": "meule à aiguiser",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hand-at-ear",
+   "ru": "рука у уха",
+   "en": "hand at ear",
+   "fr": "main près de l'oreille",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hand-on-cheek",
+   "ru": "щека на руке",
+   "en": "cheek on hand",
+   "fr": "joue sur la main",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hand-on-hip",
+   "ru": "рука на боку",
+   "en": "hand on hip",
+   "fr": "main sur la hanche",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hand-to-mouth",
+   "ru": "рука у рта",
+   "en": "hand at mouth",
+   "fr": "main à la bouche",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hat",
+   "ru": "шляпа",
+   "en": "hat",
+   "fr": "chapeau",
+   "category": "предмет",
+   "parent": null,
+   "children": [
+    "kalathos"
+   ]
+  },
+  {
+   "id": "headband",
+   "ru": "повязка на челе",
+   "en": "headband",
+   "fr": "bandeau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "heliotrope",
+   "ru": "гелиотроп",
+   "en": "heliotrope",
+   "fr": "héliotrope",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "hemp-wreath",
+   "ru": "венок из конопли",
+   "en": "hemp wreath",
+   "fr": "couronne de chanvre",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "hen",
+   "ru": "курица",
+   "en": "hen",
+   "fr": "poule",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "hidden-hands",
+   "ru": "скрытые под одеянием руки",
+   "en": "hands hidden under robe",
+   "fr": "mains cachées sous le vêtement",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hoe",
+   "ru": "мотыга",
+   "en": "hoe",
+   "fr": "houe",
+   "category": "предмет",
+   "parent": "farming-tool",
+   "children": []
+  },
+  {
+   "id": "horn",
+   "ru": "горн",
+   "en": "horn",
+   "fr": "cor",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "horse",
+   "ru": "конь",
+   "en": "horse",
+   "fr": "cheval",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "host",
+   "ru": "гостия",
+   "en": "host",
+   "fr": "hostie",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hyacinth-wreath",
+   "ru": "венок из гиацинтов",
+   "en": "hyacinth wreath",
+   "fr": "couronne de jacinthes",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "hyssop-wreath",
+   "ru": "венец из иссопа",
+   "en": "hyssop wreath",
+   "fr": "couronne d'hysope",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "incense",
+   "ru": "фимиам",
+   "en": "incense",
+   "fr": "encens",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "iris-crown",
+   "ru": "венец из ириса",
+   "en": "iris crown",
+   "fr": "couronne d'iris",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "ivy-belt",
+   "ru": "пояс из плюща",
+   "en": "ivy belt",
+   "fr": "ceinture de lierre",
+   "category": "предмет",
+   "parent": "belt",
+   "children": []
+  },
+  {
+   "id": "ivy-garland",
+   "ru": "гирлянда из плюща",
+   "en": "ivy garland",
+   "fr": "guirlande de lierre",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "jacobs-staff",
+   "ru": "посох Иакова",
+   "en": "Jacob's staff",
+   "fr": "bâton de Jacob",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "juniper-wreath",
+   "ru": "венок из можжевельника",
+   "en": "juniper wreath",
+   "fr": "couronne de genévrier",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "kingfisher",
+   "ru": "зимородок",
+   "en": "kingfisher",
+   "fr": "martin-pêcheur",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "leaf-wreath",
+   "ru": "венок из листьев",
+   "en": "leaf wreath",
+   "fr": "couronne de feuilles",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "ledger",
+   "ru": "счётная книга",
+   "en": "ledger",
+   "fr": "livre de comptes",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "letter",
+   "ru": "грамота",
+   "en": "sealed letter",
+   "fr": "lettre scellée",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "level",
+   "ru": "уровень",
+   "en": "level",
+   "fr": "niveau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "lizard",
+   "ru": "ящерица",
+   "en": "lizard",
+   "fr": "lézard",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "lotus-branch",
+   "ru": "ветка лотоса",
+   "en": "lotus branch",
+   "fr": "branche de lotus",
+   "category": "растение",
+   "parent": "branch",
+   "children": []
+  },
+  {
+   "id": "lowered-eyes",
+   "ru": "опущенные глаза",
+   "en": "lowered eyes",
+   "fr": "yeux baissés",
+   "category": "поза и жест",
+   "parent": "eye",
+   "children": []
+  },
+  {
+   "id": "magpie",
+   "ru": "сорока",
+   "en": "magpie",
+   "fr": "pie",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "mayfly",
+   "ru": "однодневная муха",
+   "en": "mayfly",
+   "fr": "éphémère",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "meadow",
+   "ru": "луг",
+   "en": "meadow",
+   "fr": "prairie",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "medusa-head",
+   "ru": "голова Медузы",
+   "en": "head of Medusa",
+   "fr": "tête de Méduse",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "millstone",
+   "ru": "жёрнов",
+   "en": "millstone",
+   "fr": "meule",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mole",
+   "ru": "крот",
+   "en": "mole",
+   "fr": "taupe",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "monster",
+   "ru": "чудовище",
+   "en": "monster",
+   "fr": "monstre",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mountain",
+   "ru": "гора",
+   "en": "mountain",
+   "fr": "montagne",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mouth",
+   "ru": "уста",
+   "en": "mouth",
+   "fr": "bouche",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mulberry-leaf",
+   "ru": "листья тутовника",
+   "en": "mulberry leaves",
+   "fr": "feuilles de mûrier",
+   "category": "растение",
+   "parent": "leaf",
+   "children": []
+  },
+  {
+   "id": "musket",
+   "ru": "мушкет",
+   "en": "musket",
+   "fr": "mousquet",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "myrtle",
+   "ru": "мирт",
+   "en": "myrtle",
+   "fr": "myrte",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "narcissus",
+   "ru": "нарцисс",
+   "en": "narcissus",
+   "fr": "narcisse",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "nightingale",
+   "ru": "соловей",
+   "en": "nightingale",
+   "fr": "rossignol",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "nimbus",
+   "ru": "нимб",
+   "en": "nimbus",
+   "fr": "nimbe",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "numbers",
+   "ru": "числа",
+   "en": "numbers",
+   "fr": "nombres",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "oak",
+   "ru": "дуб",
+   "en": "oak",
+   "fr": "chêne",
+   "category": "растение",
+   "parent": "tree",
+   "children": []
+  },
+  {
+   "id": "oboe",
+   "ru": "гобой",
+   "en": "oboe",
+   "fr": "hautbois",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "open-eyes",
+   "ru": "открытые глаза",
+   "en": "open eyes",
+   "fr": "yeux ouverts",
+   "category": "поза и жест",
+   "parent": "eye",
+   "children": []
+  },
+  {
+   "id": "ouroboros",
+   "ru": "змея, кусающая свой хвост",
+   "en": "ouroboros",
+   "fr": "ouroboros",
+   "category": "животное",
+   "parent": "snake",
+   "children": []
+  },
+  {
+   "id": "panpipes",
+   "ru": "семиствольная флейта",
+   "en": "panpipes",
+   "fr": "flûte de Pan",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "panther",
+   "ru": "пантера",
+   "en": "panther",
+   "fr": "panthère",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "partridge",
+   "ru": "куропатка",
+   "en": "partridge",
+   "fr": "perdrix",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "peach",
+   "ru": "персик",
+   "en": "peach",
+   "fr": "pêche",
+   "category": "растение",
+   "parent": "fruit",
+   "children": []
+  },
+  {
+   "id": "pebble",
+   "ru": "камешек",
+   "en": "pebble",
+   "fr": "caillou",
+   "category": "предмет",
+   "parent": "stone",
+   "children": []
+  },
+  {
+   "id": "pheasant",
+   "ru": "фазан",
+   "en": "pheasant",
+   "fr": "faisan",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "pick",
+   "ru": "кирка",
+   "en": "pickaxe",
+   "fr": "pioche",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pike",
+   "ru": "пика",
+   "en": "pike",
+   "fr": "pique",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "pine-branch",
+   "ru": "сосновая ветвь",
+   "en": "pine branch",
+   "fr": "branche de pin",
+   "category": "растение",
+   "parent": "branch",
+   "children": []
+  },
+  {
+   "id": "pisces",
+   "ru": "знак Рыб",
+   "en": "sign of Pisces",
+   "fr": "signe des Poissons",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "playing-card",
+   "ru": "игральная карта",
+   "en": "playing card",
+   "fr": "carte à jouer",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "porcupine",
+   "ru": "дикобраз",
+   "en": "porcupine",
+   "fr": "porc-épic",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "proserpine",
+   "ru": "Прозерпина",
+   "en": "Proserpine",
+   "fr": "Proserpine",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pruning-hook",
+   "ru": "садовый серп",
+   "en": "pruning hook",
+   "fr": "serpe",
+   "category": "предмет",
+   "parent": "farming-tool",
+   "children": []
+  },
+  {
+   "id": "puffed-cheeks",
+   "ru": "раздутые щёки",
+   "en": "puffed cheeks",
+   "fr": "joues gonflées",
+   "category": "поза и жест",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pyralis",
+   "ru": "пиралис",
+   "en": "pyralis",
+   "fr": "pyrale",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pyramid",
+   "ru": "пирамида",
+   "en": "pyramid",
+   "fr": "pyramide",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "quail",
+   "ru": "перепёл",
+   "en": "quail",
+   "fr": "caille",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "quince",
+   "ru": "айва",
+   "en": "quince",
+   "fr": "coing",
+   "category": "растение",
+   "parent": "fruit",
+   "children": []
+  },
+  {
+   "id": "rake",
+   "ru": "грабли",
+   "en": "rake",
+   "fr": "râteau",
+   "category": "предмет",
+   "parent": "farming-tool",
+   "children": []
+  },
+  {
+   "id": "rapier",
+   "ru": "рапира",
+   "en": "rapier",
+   "fr": "rapière",
+   "category": "оружие",
+   "parent": "sword",
+   "children": []
+  },
+  {
+   "id": "rat",
+   "ru": "крыса",
+   "en": "rat",
+   "fr": "rat",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "raven",
+   "ru": "ворон",
+   "en": "raven",
+   "fr": "corbeau",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "remora",
+   "ru": "рыба-прилипала",
+   "en": "remora",
+   "fr": "rémora",
+   "category": "животное",
+   "parent": "fish",
+   "children": []
+  },
+  {
+   "id": "ring",
+   "ru": "перстень",
+   "en": "ring",
+   "fr": "anneau",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "rose-branch",
+   "ru": "ветка розового куста",
+   "en": "rose branch",
+   "fr": "branche de rosier",
+   "category": "растение",
+   "parent": "branch",
+   "children": []
+  },
+  {
+   "id": "rue-wreath",
+   "ru": "венок из руты",
+   "en": "rue wreath",
+   "fr": "couronne de rue",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "sack",
+   "ru": "мешок",
+   "en": "sack",
+   "fr": "sac",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "salamander",
+   "ru": "саламандра",
+   "en": "salamander",
+   "fr": "salamandre",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "scorpio",
+   "ru": "знак Скорпиона",
+   "en": "sign of Scorpio",
+   "fr": "signe du Scorpion",
+   "category": "небесное",
+   "parent": "zodiac",
+   "children": []
+  },
+  {
+   "id": "screw",
+   "ru": "винт",
+   "en": "screw",
+   "fr": "vis",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sea",
+   "ru": "море",
+   "en": "sea",
+   "fr": "mer",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "shadow",
+   "ru": "тень",
+   "en": "shadow",
+   "fr": "ombre",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "shroud",
+   "ru": "покрывало",
+   "en": "shroud",
+   "fr": "linceul",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "six-arms",
+   "ru": "шесть рук",
+   "en": "six arms",
+   "fr": "six bras",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "six-legs",
+   "ru": "шесть ног",
+   "en": "six legs",
+   "fr": "six jambes",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "snake-tail",
+   "ru": "змеиный хвост",
+   "en": "snake tail",
+   "fr": "queue de serpent",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sock",
+   "ru": "комическая обувь (сокк)",
+   "en": "comic shoe (sock)",
+   "fr": "brodequin comique (socque)",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "spade",
+   "ru": "заступ",
+   "en": "spade",
+   "fr": "bêche",
+   "category": "предмет",
+   "parent": "farming-tool",
+   "children": []
+  },
+  {
+   "id": "sparrow",
+   "ru": "воробей",
+   "en": "sparrow",
+   "fr": "moineau",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "sphere",
+   "ru": "сфера",
+   "en": "sphere",
+   "fr": "sphère",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "star-crown",
+   "ru": "венец из звёзд",
+   "en": "crown of stars",
+   "fr": "couronne d'étoiles",
+   "category": "предмет",
+   "parent": "crown",
+   "children": []
+  },
+  {
+   "id": "statue",
+   "ru": "статуя",
+   "en": "statue",
+   "fr": "statue",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "stick",
+   "ru": "палочка",
+   "en": "stick",
+   "fr": "bâtonnet",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sundial",
+   "ru": "солнечные часы",
+   "en": "sundial",
+   "fr": "cadran solaire",
+   "category": "предмет",
+   "parent": "clock",
+   "children": []
+  },
+  {
+   "id": "sunflower",
+   "ru": "подсолнечник",
+   "en": "sunflower",
+   "fr": "tournesol",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "swan",
+   "ru": "лебедь",
+   "en": "swan",
+   "fr": "cygne",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "talon",
+   "ru": "коготь",
+   "en": "talon",
+   "fr": "serre",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "thorn-crown",
+   "ru": "терновый венец",
+   "en": "crown of thorns",
+   "fr": "couronne d'épines",
+   "category": "предмет",
+   "parent": "wreath",
+   "children": []
+  },
+  {
+   "id": "thread",
+   "ru": "нить",
+   "en": "thread",
+   "fr": "fil",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "three-faces",
+   "ru": "три лика",
+   "en": "three faces",
+   "fr": "trois visages",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "thyme",
+   "ru": "тимьян",
+   "en": "thyme",
+   "fr": "thym",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "thyrsus",
+   "ru": "тирс",
+   "en": "thyrsus",
+   "fr": "thyrse",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tiara",
+   "ru": "тройная корона",
+   "en": "triple crown",
+   "fr": "tiare",
+   "category": "предмет",
+   "parent": "crown",
+   "children": []
+  },
+  {
+   "id": "toad",
+   "ru": "жаба",
+   "en": "toad",
+   "fr": "crapaud",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tomb",
+   "ru": "гробница",
+   "en": "tomb",
+   "fr": "tombeau",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "torn-sails",
+   "ru": "изорванные паруса",
+   "en": "torn sails",
+   "fr": "voiles déchirées",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "touchstone",
+   "ru": "пробирный камень",
+   "en": "touchstone",
+   "fr": "pierre de touche",
+   "category": "предмет",
+   "parent": "stone",
+   "children": []
+  },
+  {
+   "id": "triangular-stone",
+   "ru": "треугольный камень",
+   "en": "triangular stone",
+   "fr": "pierre triangulaire",
+   "category": "предмет",
+   "parent": "stone",
+   "children": []
+  },
+  {
+   "id": "trident",
+   "ru": "трезубец",
+   "en": "trident",
+   "fr": "trident",
+   "category": "оружие",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tripod",
+   "ru": "треножник",
+   "en": "tripod",
+   "fr": "trépied",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tulip",
+   "ru": "тюльпан",
+   "en": "tulip",
+   "fr": "tulipe",
+   "category": "растение",
+   "parent": "flower",
+   "children": []
+  },
+  {
+   "id": "turtledove",
+   "ru": "горлица",
+   "en": "turtledove",
+   "fr": "tourterelle",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "two-heads",
+   "ru": "две головы",
+   "en": "two heads",
+   "fr": "deux têtes",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "unicorn",
+   "ru": "единорог",
+   "en": "unicorn",
+   "fr": "licorne",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "urn",
+   "ru": "урна",
+   "en": "urn",
+   "fr": "urne",
+   "category": "предмет",
+   "parent": "vessel",
+   "children": []
+  },
+  {
+   "id": "water",
+   "ru": "вода",
+   "en": "water",
+   "fr": "eau",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "watering-can",
+   "ru": "лейка",
+   "en": "watering can",
+   "fr": "arrosoir",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "wick",
+   "ru": "фитиль",
+   "en": "wick",
+   "fr": "mèche",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "wild-beast",
+   "ru": "дикий зверь",
+   "en": "wild beast",
+   "fr": "bête sauvage",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "wooden-leg",
+   "ru": "деревянная нога",
+   "en": "wooden leg",
+   "fr": "jambe de bois",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "wren",
+   "ru": "королёк",
+   "en": "wren",
+   "fr": "roitelet",
+   "category": "животное",
+   "parent": "bird",
+   "children": []
+  },
+  {
+   "id": "beard",
+   "ru": "борода",
+   "en": "beard",
+   "fr": "barbe",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "medallion",
+   "ru": "медальон",
+   "en": "medallion",
+   "fr": "médaillon",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "horns",
+   "ru": "рога на голове",
+   "en": "horns",
+   "fr": "cornes",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sickle",
+   "ru": "серп",
+   "en": "sickle",
+   "fr": "faucille",
+   "category": "предмет",
+   "parent": "farming-tool",
+   "children": []
+  },
+  {
+   "id": "satyr",
+   "ru": "сатир",
+   "en": "satyr",
+   "fr": "satyre",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "shell",
+   "ru": "раковина",
+   "en": "shell",
+   "fr": "coquille",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "kalathos",
+   "ru": "калаф",
+   "en": "kalathos",
+   "fr": "calathos",
+   "category": "предмет",
+   "parent": "hat",
+   "children": []
+  },
+  {
+   "id": "steps",
+   "ru": "ступени",
+   "en": "steps",
+   "fr": "degrés",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tambourine",
+   "ru": "бубен",
+   "en": "tambourine",
+   "fr": "tambourin",
+   "category": "предмет",
+   "parent": "musical-instrument",
+   "children": []
+  },
+  {
+   "id": "axe",
+   "ru": "топор",
+   "en": "axe",
+   "fr": "hache",
+   "category": "оружие",
+   "parent": "weapon",
+   "children": []
+  },
+  {
+   "id": "oar",
+   "ru": "весло",
+   "en": "oar",
+   "fr": "rame",
+   "category": "предмет",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pine-cone",
+   "ru": "сосновая шишка",
+   "en": "pine cone",
+   "fr": "pomme de pin",
+   "category": "растение",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "reins",
+   "ru": "вожжи",
+   "en": "reins",
+   "fr": "rênes",
+   "category": "предмет",
+   "parent": "bridle",
+   "children": []
+  },
+  {
+   "id": "cave",
+   "ru": "пещера",
+   "en": "cave",
+   "fr": "grotte",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "centaur",
+   "ru": "кентавр",
+   "en": "centaur",
+   "fr": "centaure",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "cerberus",
+   "ru": "Цербер",
+   "en": "Cerberus",
+   "fr": "Cerbère",
+   "category": "животное",
+   "parent": "dog",
+   "children": []
+  },
+  {
+   "id": "harpy",
+   "ru": "гарпия",
+   "en": "harpy",
+   "fr": "harpie",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "obelisk",
+   "ru": "обелиск",
+   "en": "obelisk",
+   "fr": "obélisque",
+   "category": "место и постройка",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "snake-hair",
+   "ru": "змеи вместо волос",
+   "en": "snakes for hair",
+   "fr": "serpents en guise de cheveux",
+   "category": "черта фигуры",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "sphinx",
+   "ru": "сфинкс",
+   "en": "sphinx",
+   "fr": "sphinx",
+   "category": "животное",
+   "parent": null,
+   "children": []
+  }
+ ]
+}

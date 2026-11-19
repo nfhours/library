@@ -1,6 +1,24 @@
 {
-  "note": "Реестр файлов мотивов по книгам. Чтобы добавить книгу: положить motifs_<...>.json (формат как у motifs_ripa1677.json) и дописать строку сюда.",
-  "books": [
-    { "slug": "iconologie", "file": "motifs_ripa1677.json", "name": { "ru": "Иконология", "en": "Iconology", "fr": "Iconologie" } }
-  ]
+ "note": "Реестр мотивов. vocab — общий словарь; books — привязки «id мотива → id статей/гравюр» по книгам. Чтобы добавить книгу: положить файл привязок и дописать строку.",
+ "vocab": "motifs_vocab.json",
+ "books": [
+  {
+   "slug": "iconologie",
+   "file": "motifs_ripa1677.json",
+   "name": {
+    "ru": "Иконология",
+    "en": "Iconology",
+    "fr": "Iconologie"
+   }
+  },
+  {
+   "slug": "cartari",
+   "file": "motifs_cartari.json",
+   "name": {
+    "ru": "Образы богов древних",
+    "en": "Images of the Gods",
+    "fr": "Images des Dieux"
+   }
+  }
+ ]
 }
