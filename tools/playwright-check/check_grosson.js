@@ -99,6 +99,47 @@ const greenCount=p=>p.evaluate(()=>{ const bad=[]; document.querySelectorAll('.i
   await p.evaluate(()=>document.querySelectorAll('.ic-numref')[2].click()); await W(800); const nsh=await sheet(); ok(tag+'номер в «Как в книге» открывает шторку предмета',nsh.open&&/№ 3$/.test(nsh.ref),JSON.stringify(nsh&&nsh.ref)); await closeSheet();
   await p.evaluate(()=>document.querySelector('.ic-gro-seg .ic-chip[data-view="list"]').click()); await W(400); ok(tag+'«Список предметов» возвращается',(await p.$$('.ic-obj')).length>=5);
   ok(tag+'на карточке нет зелёного',(await greenCount(p))===0);
+  // ---- шторка предмета: вмещает всё содержимое, прокрутка внутри (pl38-1: длинный текст и примечание) ----
+  await setLang('ru'); await go('#/grosson/pl38-1');
+  const sc1=await p.evaluate(()=>{ const s=document.querySelector('#ic-gro-obj'), pn=s.querySelector('.ic-rb-sheet-panel'), b=s.querySelector('.ic-gro-ob-body'), r=pn.getBoundingClientRect(); const secs=[...b.querySelectorAll('.ic-sec h3')].map(x=>x.textContent); b.scrollTop=b.scrollHeight; const notes=[...b.querySelectorAll('.ic-gro-note')]; const ln=notes[notes.length-1], lr=ln&&ln.getBoundingClientRect(); return {ih:innerHeight,top:Math.round(r.top),bottom:Math.round(r.bottom),canScroll:b.scrollHeight>b.clientHeight,ovy:getComputedStyle(b).overflowY,secs:secs,notes:notes.length,noteVisible:lr?(lr.bottom<=r.bottom+1&&lr.top>=r.top):false,scrolledTo:b.scrollTop>0}; });
+  ok(tag+'шторка предмета: до нижнего края экрана (не дальше 12 px)',sc1.bottom<=sc1.ih&&sc1.ih-sc1.bottom<=12,JSON.stringify([sc1.top,sc1.bottom,sc1.ih]));
+  ok(tag+'шторка предмета: внутренняя прокрутка, «Сведения», «Перевод» и примечания доступны',sc1.canScroll&&sc1.ovy==='auto'&&sc1.secs.join()==='Сведения,Перевод'&&sc1.notes>=1&&sc1.noteVisible&&sc1.scrolledTo,JSON.stringify(sc1));
+  const hd=await p.evaluate(()=>{ const s=document.querySelector('#ic-gro-obj'); const bs=[...s.querySelectorAll('.ic-rb-sheet-head button')]; return {n:bs.length,sz:bs.map(b=>Math.round(b.getBoundingClientRect().width)+'x'+Math.round(b.getBoundingClientRect().height)),border:bs.map(b=>getComputedStyle(b).borderTopWidth),close:!!s.querySelector('.ic-gro-x')}; });
+  ok(tag+'шапка шторки: ‹ › × — тонкие знаки без рамок, зоны 44 (как крестик лупы)',hd.n===3&&hd.sz.every(x=>x==='44x44')&&hd.border.every(x=>x==='0px')&&hd.close,JSON.stringify(hd));
+  await p.evaluate(()=>document.querySelector('#ic-gro-obj .ic-gro-x').click()); await W(500); ok(tag+'«×» закрывает шторку',!(await sheet()).open);
+  await p.evaluate(()=>document.querySelector('.ic-hotspot').click()); await W(600); await p.keyboard.press('Escape'); await W(500); ok(tag+'Esc закрывает шторку',!(await sheet()).open);
+  // ---- карточка таблицы: без точек у строк списка ----
+  await go('#/grosson/plate/1'); ok(tag+'в списке предметов таблицы нет красных точек',(await p.$$('.ic-obj-dot')).length===0);
+  // ---- поиск: начало слова после любого небуквенного знака, ё/е, регистр; RU/EN/FR ----
+  for(const L of ['ru','en','fr']){
+   await setLang(L); await go('#/grosson/items'); const resI={}, resL={};
+   for(const q of ['лев','бык','крест','Apollon','lion','ЛЕВ','Лев']){ await p.fill('.ic-rbar-findin',q); await W(450); resI[q]=await p.evaluate(()=>document.querySelectorAll('.ic-row-item').length); }
+   await p.fill('.ic-rbar-findin',''); await W(300); await p.evaluate(()=>document.querySelector('[data-rb="booksearch"]').click()); await W(700);
+   for(const q of ['лев','бык','крест','Apollon','lion']){ await p.fill('#ic-rb-sheet .ic-search',q); await W(700); resL[q]=await p.evaluate(()=>document.querySelectorAll('#ic-rb-sheet a.ic-sr-a').length); }
+   ok(tag+L+': «Предметы» — «лев», «бык», «крест», «Apollon», «lion» находят предметы',Object.values(resI).every(x=>x>0),JSON.stringify(resI));
+   ok(tag+L+': лупа — «лев», «бык», «крест», «Apollon», «lion» находят предметы',Object.values(resL).every(x=>x>0),JSON.stringify(resL));
+  }
+  await setLang('ru'); await go('#/grosson/items'); await p.fill('.ic-rbar-findin','лев'); await W(500);
+  ok(tag+'слово после «/» и «(» находится: есть строки «Диана / лев» и «Диана (трезубец) / лев в кирасе»',(await p.evaluate(()=>{ const t=[...document.querySelectorAll('.ic-row-item .ic-tv-ru')].map(e=>e.textContent); return t.some(x=>x.indexOf(' / лев')>=0)&&t.some(x=>x.indexOf('(трезубец) / лев')>=0); })));
+  // ---- «Найдено N» — только при запросе; часть в «Предметах» отдельно от «Таблиц» ----
+  await go('#/grosson/plates'); await p.tap('[data-rb="part"]'); await W(500); await p.tap('#ic-gro-part [data-f="3"]'); await W(700);
+  await go('#/grosson/items'); await p.fill('.ic-rbar-findin',''); await W(500); const lbI=await p.$eval('[data-rb="part"]',e=>e.textContent.trim()); ok(tag+'часть из «Таблиц» не переходит в «Предметы»',/Все части/.test(lbI)&&(await info(p)).rows===249,lbI);
+  await p.tap('[data-rb="part"]'); await W(500); await p.tap('#ic-gro-part [data-f="2"]'); await W(700);
+  const c1=await p.evaluate(()=>({rows:document.querySelectorAll('.ic-row-item').length,count:document.querySelector('.ic-rp-count').textContent}));
+  ok(tag+'выбрана только часть: строки «Найдено» нет',c1.rows>0&&c1.rows<249&&c1.count==='',JSON.stringify(c1));
+  await p.fill('.ic-rbar-findin','лев'); await W(500); const c2=await p.$eval('.ic-rp-count',e=>e.textContent); ok(tag+'введён запрос: «Найдено: N»',/Найдено: \d+/.test(c2),c2);
+  await p.fill('.ic-rbar-findin','Диана'); await W(500); const emp=await p.evaluate(()=>(document.querySelector('.ic-empty')||{}).textContent||'');
+  ok(tag+'в выбранной части нет совпадений: подсказка про «Все части»',/Все части/.test(emp),emp);
+  await p.fill('.ic-rbar-findin',''); await W(400); ok(tag+'без запроса «Найдено» пусто',(await p.$eval('.ic-rp-count',e=>e.textContent))==='');
+  // ---- заголовок группы: одно название таблицы ----
+  await go('#/grosson/items'); const gh=await p.evaluate(()=>{ const h=document.querySelector('.ic-rp-sec h2'); return {t:h.textContent,gfr:!!h.querySelector('.ic-gfr'),spans:h.querySelectorAll('span').length}; });
+  ok(tag+'заголовок группы: «Таблица I. Греческие монеты Массалии» один раз',gh.t==='Таблица I. Греческие монеты Массалии'&&!gh.gfr&&gh.spans===1,JSON.stringify(gh));
+  // ---- обложка = обложка Рипы по стилю ----
+  const cvs=async hh=>{ await p.goto(BASE+'?r='+(++nav)+hh); await W(2800); return p.evaluate(()=>{ const P=['fontFamily','fontSize','fontWeight','fontStyle','lineHeight','letterSpacing','textTransform','color','backgroundColor','borderRadius','boxShadow','paddingTop','paddingBottom','paddingLeft','paddingRight','marginTop','marginBottom','textAlign','gap','display']; const o={}; [['.ic-wrap','wrap'],['.ic-kicker','kicker'],['.ic-title','title'],['.ic-home-author','author'],['.ic-home-ed span','ed'],['.ic-home-tiles','tiles'],['.ic-home-tile','tile'],['.ic-home-tile b','tb'],['.ic-home-tile span','ts'],['.ic-home-fig','fig'],['.ic-home-blurb','blurb']].forEach(([s,n])=>{ const e=document.querySelector(s); if(!e){o[n]=null;return;} const cs=getComputedStyle(e),x={}; P.forEach(k=>x[k]=cs[k]); o[n]=x; }); const t=document.querySelector('.ic-home-tile').getBoundingClientRect(); o.tileH=Math.round(t.height); o.tileX=[Math.round(t.left),Math.round(t.width)]; o.titleLines=Math.round(document.querySelector('.ic-title').getBoundingClientRect().height/parseFloat(getComputedStyle(document.querySelector('.ic-title')).lineHeight)); return o; }); };
+  const cg=await cvs('#/grosson'), cr=await cvs('#/iconologie'); const diffs=[]; for(const k of Object.keys(cr)){ if(typeof cr[k]!=='object'||!cr[k]) continue; if(!cg[k]){ diffs.push(k+': нет'); continue; } for(const q of Object.keys(cr[k])) if(cg[k][q]!==cr[k][q]) diffs.push(k+'.'+q+': '+cg[k][q]+' ≠ '+cr[k][q]); }
+  ok(tag+'обложка Гроссона и Рипы: те же шрифты, цвета, отступы, радиусы',diffs.length===0,diffs.slice(0,4).join(' | '));
+  ok(tag+'обложка: плитки одинаковой высоты и ширины',cg.tileH===cr.tileH&&cg.tileX.join()===cr.tileX.join(),JSON.stringify([cg.tileH,cr.tileH,cg.tileX,cr.tileX]));
+  ok(tag+'обложка: название не длиннее 3 строк',cg.titleLines<=3,String(cg.titleLines));
   // ---- лупа ----
   await go('#/grosson/items'); await p.evaluate(()=>document.querySelector('[data-rb="booksearch"]').click()); await W(700);
   await p.fill('#ic-rb-sheet .ic-search','ascia'); await W(900);

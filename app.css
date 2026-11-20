@@ -2229,3 +2229,16 @@ button.ic-gro-nv:disabled{opacity:.35}
 .ic-gro-objsheet .ic-rb-sheet-head-title{display:flex;flex-direction:column;gap:1px;line-height:1.25;font-weight:400;letter-spacing:0}
 .ic-gro-objsheet .ic-gro-ref{color:rgba(236,229,212,.6);font-size:.78em;letter-spacing:.03em}
 .ic-gro-objsheet .ic-gro-ttl{font-weight:600;font-size:1em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* шторка предмета: прокручивается ОДИН блок под шапкой (как списки в шторках Рипы) — высота до низа экрана, низ растворяется в фон */
+.ic-rb-sheet-panel .ic-gro-ob-body{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+  padding-bottom:calc(48px + env(safe-area-inset-bottom));-webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 48px),transparent);mask-image:linear-gradient(to bottom,#000 calc(100% - 48px),transparent)}
+/* шапка шторки как у других шторок: тонкие знаки без рамок, зоны 44px, нажатие — заливка (вариант 3); закрытие — «×» как у крестика лупы, затемнение, Esc */
+.ic-gro-objsheet .ic-rb-sheet-head{gap:2px;padding-bottom:6px}
+.ic-gro-objsheet button.ic-gro-nv,.ic-gro-objsheet button.ic-gro-x{flex:none;width:44px;height:44px;border:0;border-radius:8px;background:none;padding:0;font:200 28px/1 var(--serif);letter-spacing:0;text-transform:none;color:rgba(236,229,212,.75);display:flex;align-items:center;justify-content:center;cursor:pointer}
+.ic-gro-objsheet button.ic-gro-x{font-size:30px}
+.ic-gro-objsheet button.ic-gro-nv:disabled{opacity:.3}
+.ic-gro-objsheet button.ic-gro-nv:not(:disabled):active,.ic-gro-objsheet button.ic-gro-x:active{background:rgba(236,229,212,.14);transform:none;color:rgb(236,229,212)}
+@media (hover:hover){.ic-gro-objsheet button.ic-gro-nv:not(:disabled):hover,.ic-gro-objsheet button.ic-gro-x:hover{background:rgba(236,229,212,.14);color:rgb(236,229,212)}}
+/* список предметов на странице таблицы: без точек (все предметы переведены — признак ничего не различал) */
+.ic-obj-sum{grid-template-columns:auto 1fr}
