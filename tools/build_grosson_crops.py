@@ -26,6 +26,7 @@
 import argparse
 import json
 import os
+import re
 import sys
 
 from PIL import Image
@@ -79,6 +80,10 @@ def main():
         labelled, unlabelled = {}, []
         for b in boxes:
             lb = str(b.get("label") or "").strip()
+            m = re.match(r"^(\d+(?:\s*[-–]\s*\d+)?)(?=$|[\s(,;:.])", lb)   # подпись «1 (комментарий…)» → номер «1»; комментарий игнорируется
+            if m and m.group(1) != lb:
+                notes.append("лист %s: к подписи «%s…» дописан комментарий — для сопоставления взят номер «%s»" % (img, lb[:20], m.group(1)))
+                lb = re.sub(r"\s*[-–]\s*", "-", m.group(1))
             if lb:
                 if lb in labelled:
                     notes.append("лист %s: подпись «%s» повторяется — взята первая рамка" % (img, lb))
