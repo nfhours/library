@@ -16,6 +16,14 @@ Claude Artifact с базой на claude.ai) — здесь то же само�
     python3 tools/crop-editor/server.py iconologie --port 8809
 
 Работает для любой книги — просто передай имя папки из ~/Projects/photos/.
+
+Книга grosson — отдельный режим: редактор открывает 47 гравированных таблиц из
+books/grosson/img/ (по порядку книги) с ТЕКУЩЕЙ разметкой предметов (bbox из
+books/grosson/entries.json, подпись рамки = номер предмета в книге). Правки
+сохраняются в books/grosson/_crops/crops.json; на сайт они попадают после
+    python3 tools/build_grosson_crops.py --apply
+(без --apply скрипт только показывает, что изменится).
+    python3 tools/crop-editor/server.py grosson
 """
 import sys
 import os
@@ -107,6 +115,30 @@ def list_images(book_dir):
     return out, skipped
 
 
+def load_grosson():
+    """Режим grosson: изображения таблиц, стартовая разметка и подписи для боковой панели.
+    Только чтение entries.json/book.json — сайт и данные не трогаются.
+    Возвращает (список файлов таблиц, {файл: стартовые рамки}, {файл: сведения для панели})."""
+    base = os.path.join(LIBRARY_ROOT, "books", "grosson")
+    with open(os.path.join(base, "entries.json"), "r", encoding="utf-8") as f:
+        items = json.load(f)["items"]
+    with open(os.path.join(base, "book.json"), "r", encoding="utf-8") as f:
+        plates = {str(p["n"]): p for p in json.load(f).get("plates", [])}
+    images, seeds, info = [], {}, {}
+    for it in items:
+        img = it["plate_img"]
+        if img not in seeds:
+            images.append(img)
+            seeds[img] = []
+            p = plates.get(str(it["plate"]), {})
+            info[img] = {"title": p.get("title_ru") or ("Таблица %s" % it["plate"]), "lines": []}
+        x, y, w, h = it["bbox"]
+        label = str(it.get("num") or "")
+        seeds[img].append({"x": x, "y": y, "w": w, "h": h, "label": label})
+        info[img]["lines"].append("%s — %s" % (label or "(без номера)", it.get("ru") or it.get("fr") or it["id"]))
+    return images, seeds, info
+
+
 def empty_entry():
     return {"boxes": [], "noPlate": False, "flagged": False, "updatedAt": None}
 
@@ -175,7 +207,7 @@ def write_inventory_csv(csv_path, images, crops_data):
                 w.writerow([img, box_label(box, i), box_coords(box), "да" if flagged else ""])
 
 
-def make_handler(book, book_dir, images, store, emblems_by_frame):
+def make_handler(book, book_dir, images, store, emblems_by_frame, seeds=None, info=None):
     images_set = set(images)
 
     class Handler(BaseHTTPRequestHandler):
@@ -213,9 +245,15 @@ def make_handler(book, book_dir, images, store, emblems_by_frame):
                     os.path.join(HERE, "index.html"), "text/html; charset=utf-8"
                 )
             elif path == "/api/config":
-                self._send_json({"book": book, "images": images, "emblemsByFrame": emblems_by_frame})
+                self._send_json({"book": book, "images": images, "emblemsByFrame": emblems_by_frame, "info": info or {}})
             elif path == "/api/crops":
-                self._send_json(store.get_all())
+                data = store.get_all()
+                if seeds:
+                    # стартовая разметка (ещё не сохранённая правкой): помечена seed — редактор считает такие листы не просмотренными
+                    merged = {img: {"boxes": boxes, "noPlate": False, "flagged": False, "updatedAt": None, "seed": True} for img, boxes in seeds.items()}
+                    merged.update(data)
+                    data = merged
+                self._send_json(data)
             elif path.startswith("/photos/"):
                 rel = path[len("/photos/"):]
                 fp = os.path.normpath(os.path.join(book_dir, rel))
@@ -269,31 +307,39 @@ def main():
     ap.add_argument("book", help="имя папки книги, напр. cartari")
     ap.add_argument("--port", type=int, default=8808)
     ap.add_argument("--no-open", action="store_true", help="не открывать браузер сам")
+    ap.add_argument("--crops", help="другой файл для сохранения (для проверок; по умолчанию books/<книга>/_crops/crops.json)")
     args = ap.parse_args()
 
-    book_dir = os.path.join(PHOTOS_ROOT, args.book)
-    if not os.path.isdir(book_dir):
-        print(f"Нет папки с фото: {book_dir}")
-        sys.exit(1)
-
-    images, skipped = list_images(book_dir)
+    seeds, info = None, None
+    if args.book == "grosson":
+        book_dir = os.path.join(LIBRARY_ROOT, "books", "grosson", "img")
+        images, seeds, info = load_grosson()
+        skipped = []
+    else:
+        book_dir = os.path.join(PHOTOS_ROOT, args.book)
+        if not os.path.isdir(book_dir):
+            print(f"Нет папки с фото: {book_dir}")
+            sys.exit(1)
+        images, skipped = list_images(book_dir)
     if not images:
         print(f"В {book_dir} не нашлось файлов .jpg/.jpeg/.png")
         sys.exit(1)
     if skipped:
         print(f"Пропущено не-картиночных файлов: {len(skipped)} -> {', '.join(skipped[:10])}" + (" …" if len(skipped) > 10 else ""))
 
-    crops_path = os.path.join(LIBRARY_ROOT, "books", args.book, "_crops", "crops.json")
+    crops_path = os.path.abspath(args.crops) if args.crops else os.path.join(LIBRARY_ROOT, "books", args.book, "_crops", "crops.json")
     store = CropsStore(crops_path)
 
     emblems_by_frame = load_alciato_emblems_by_frame() if args.book == "alciato" else {}
     if args.book == "alciato":
         print(f"Эмблемы (из origin/grok-review) для боковой панели: {len(emblems_by_frame)} кадров")
 
-    handler = make_handler(args.book, book_dir, images, store, emblems_by_frame)
+    handler = make_handler(args.book, book_dir, images, store, emblems_by_frame, seeds, info)
     server = ThreadingHTTPServer(("127.0.0.1", args.port), handler)
     url = f"http://127.0.0.1:{args.port}/"
-    print(f"{args.book}: {len(images)} фото из {book_dir}")
+    print(f"{args.book}: {len(images)} " + ("таблиц из " if args.book == "grosson" else "фото из ") + book_dir)
+    if args.book == "grosson":
+        print("Рамки — текущая разметка из entries.json (подпись = номер предмета); после правок: python3 tools/build_grosson_crops.py --apply")
     print(f"Сохраняется в {crops_path}")
     print(f"Открой в браузере: {url}  (Ctrl+C — остановить)")
     if not args.no_open:
