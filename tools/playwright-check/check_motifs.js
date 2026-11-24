@@ -73,10 +73,13 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   await p.fill(q,'зме'); await W(500); let rows=await p.$$eval('.ic-mot-tile .ic-mot-nm',r=>r.map(x=>x.textContent));
   ok(T+'поиск «зме» (с начала слова)',rows.length>=1&&rows.every(x=>/(^|[\s-])зме/i.test(x)),rows.join(', '));
   await p.fill(q,'вен'); await W(500); rows=await p.$$eval('.ic-mot-tile .ic-mot-nm',r=>r.map(x=>x.textContent));
-  ok(T+'поиск «вен»',rows.length>=5&&rows.every(x=>/(^|[\s-])вен/i.test(x)),rows.slice(0,6).join(', '));
+  ok(T+'поиск «вен»: вхождение в любом месте, сначала с начала названия',rows.length>=5&&/^вен/i.test(rows[0])&&rows.some(x=>x.toLowerCase().indexOf('вен')>0),rows.slice(0,6).join(', '));
   await p.fill(q,'мея'); await W(400);
-  const none=await p.$eval('.ic-mot-body .ic-empty',e=>e.textContent).catch(()=>null);
-  ok(T+'не с начала слова — «Ничего не найдено» без подсказки про hyver',none==='Ничего не найдено'&&!/hyver/.test(await p.evaluate(()=>document.body.innerText)),String(none));
+  const mey=await p.$$eval('.ic-mot-tile .ic-mot-nm',r=>r.map(x=>x.textContent));
+  ok(T+'вхождение в середине слова — «мея» находит «Змея»',mey.some(x=>/^Змея/.test(x)),mey.join(', '));
+  await p.fill(q,'zzzqqq'); await W(400);
+  const none=await p.$eval('.ic-mot-body .ic-mot-nf',e=>e.innerText).catch(()=>null);
+  ok(T+'ничего нет — «Мотив не найден» и ссылка поиска по текстам книг',/Мотив не найден/.test(none||'')&&/Искать «zzzqqq» в текстах книг/.test(none||''),String(none).replace(/\n+/g,' | '));
   await tap('.ic-mot-findx'); await W(500);
   const cl=await p.evaluate(()=>({tabs:getComputedStyle(document.querySelector('.ic-mot-tabs')).display!=='none',q:document.querySelector('.ic-mot-findin').value,cat:document.querySelectorAll('.ic-mot-sect').length>0}));
   ok(T+'крестик закрывает поле, возвращает вкладки и каталог',cl.tabs&&cl.q===''&&cl.cat,JSON.stringify(cl));

@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "268";
+  var APP_VER = "269";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -151,6 +151,9 @@
     motOf:        {ru:"из", en:"of", fr:"sur"},
     motTabBooks:  {ru:"Книги", en:"Books", fr:"Livres"},
     motNone:      {ru:"Ничего не найдено", en:"Nothing found", fr:"Aucun résultat"},
+    motNF:        {ru:"Мотив не найден", en:"Motif not found", fr:"Motif introuvable"},
+    motNFText:    {ru:"Искать «{q}» в текстах книг", en:"Search “{q}” in the book texts", fr:"Chercher « {q} » dans les textes des livres"},
+    motNFBook:    {ru:"Искать в книге {b}", en:"Search in {b}", fr:"Chercher dans {b}"},
     motBooks:     {ru:"Книги", en:"Books", fr:"Livres"},
     motFind:      {ru:"Найти мотив", en:"Find a motif", fr:"Chercher un motif"},
     motCats:      {ru:"Категории", en:"Categories", fr:"Catégories"},
@@ -1489,6 +1492,8 @@
       if(a && /\/ch\//.test(a.getAttribute("href")||"")) searchReopen = {hash: location.hash, query: sheetInput.value, top: sheetEl.querySelector(".ic-sr").scrollTop};
     });
     btn.addEventListener("click", function(){ sheetApi.toggle(); });
+    // из «Мотивов» («Искать в книге …»): открыть поиск книги (шторку лупы) с тем же запросом
+    if(motBookQ != null){ var bq = motBookQ; motBookQ = null; setTimeout(function(){ if(gen === renderGen) sheetApi.open(bq); }, 0); }   // после остальной сборки страницы
     return sheetApi;
   }
   function toTop(noImgSnap){
@@ -3439,6 +3444,7 @@
   var MOT_CATS = ["предмет","оружие","животное","растение","небесное","поза и жест","черта фигуры","место и постройка","персонаж"];
   var MOT_CAT_KEY = {"предмет":"motCObj","оружие":"motCWeap","животное":"motCAnim","растение":"motCPlant","небесное":"motCSky","поза и жест":"motCPose","черта фигуры":"motCTrait","место и постройка":"motCPlace","персонаж":"motCChar"};
   var MOT = {ready:false, cbs:null, books:[], byArt:{}, vocab:{}};
+  var motBookQ = null;   // запрос из «Мотивов», с которым открыть поиск книги (см. ripaBind)
   var MOT_CUR = "all";   // выбранные книги страницы «Мотивы» (param адреса)
   var MOT_BOOK = {slug:"motifs", meta:{}};
   var motUi = {q:"", cat:"all", find:false};
@@ -3483,7 +3489,7 @@
   // индекс мотивов по выбранным книгам: число гравюр у родителя — с учётом дочерних
   function motBuild(sel){
     var nodes = {}, order = [];
-    Object.keys(MOT.vocab).forEach(function(id){ var m = MOT.vocab[id]; var n = nodes[id] = {id:id, ru:m.ru, en:m.en, fr:m.fr, category:m.category, parent:m.parent || null, own:[], kids:[]}; order.push(n); });
+    Object.keys(MOT.vocab).forEach(function(id){ var m = MOT.vocab[id]; var n = nodes[id] = {id:id, ru:m.ru, en:m.en, fr:m.fr, category:m.category, syn:m.syn || null, parent:m.parent || null, own:[], kids:[]}; order.push(n); });
     MOT.books.forEach(function(b){
       if(sel.indexOf(b.slug) < 0) return;
       Object.keys(b.bind).forEach(function(id){ var n = nodes[id]; if(n) b.bind[id].forEach(function(a){ n.own.push(b.slug+"|"+a); }); });
@@ -3498,6 +3504,30 @@
     }
     order.forEach(allOf);
     return {nodes:nodes, list:order.filter(function(n){ return n.all.length > 0; })};
+  }
+  // Поиск мотивов: по ru/en/fr и синонимам (syn), независимо от языка интерфейса; вхождение в любом месте,
+  // без регистра, ё=е, без диакритики. Ранг: 0 — с начала названия, 1 — с начала слова, 2 — внутри.
+  function motNorm(x){
+    return String(x||"").toLowerCase().replace(/й/g,"\uE000").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\uE000/g,"й")
+      .replace(/ё/g,"е").replace(/[’ʼ]/g,"'");
+  }
+  function motRankStr(c, nq, words){
+    var i = c.indexOf(nq);
+    if(i === 0) return 0;
+    if(i < 0) return words.length > 1 && words.every(function(w){ return c.indexOf(w) > -1; }) ? 2 : -1;
+    for(; i > -1; i = c.indexOf(nq, i+1)) if(!/[\p{L}\p{N}]/u.test(c.charAt(i-1))) return 1;
+    return 2;
+  }
+  function motMatch(n, nq, words){
+    var best = -1, synHit = null, nameHit = false, k, r;
+    ["ru","en","fr"].forEach(function(L){ if(!n[L]) return; r = motRankStr(motNorm(n[L]), nq, words); if(r > -1){ nameHit = true; if(best < 0 || r < best) best = r; } });
+    if(!nameHit && n.syn){
+      ["ru","en","fr"].forEach(function(L){ (n.syn[L] || []).forEach(function(w){
+        var r2 = motRankStr(motNorm(w), nq, words);
+        if(r2 > -1 && (best < 0 || r2 < best)){ best = r2; synHit = w; }
+      }); });
+    }
+    return best < 0 ? null : {rank:best, syn:synHit};
   }
   function motSort(a, b){ return b.all.length - a.all.length || motName(a).localeCompare(motName(b), state.lang); }
   // Выбор книги: раскрывающееся поле «Книги: все ▾» (заголовок-кнопка + строки «Все книги» / по книге); раскрывается на месте анимацией высоты контейнера (~280 мс, ease-out) и opacity строк
@@ -3833,8 +3863,13 @@
     if(!motSameAsSection(n)) return motName(n);
     return state.lang === "ru" ? motName(n)+", всё" : MOT_ALL_LBL[state.lang][n.category];
   }
-  function motTile(n, cur, cls){
-    return '<a class="ic-mot-tile'+(cls ? " "+cls : "")+'" href="'+esc(motHref(cur.param, n.id))+'" data-id="'+esc(n.id)+'"><span class="ic-mot-nm">'+esc(motTileName(n))+'</span><span class="ic-mot-n" aria-label="'+esc(t("motCount",{n:n.all.length}))+'">'+n.all.length+'</span></a>';
+  // ничего не найдено: общего поиска по текстам на сайте нет, есть поиск внутри каждой книги (#/<слаг>/search) — ведём в него с тем же запросом
+  function motNotFoundHtml(q){
+    return '<div class="ic-empty ic-mot-nf"><p class="ic-mot-nf1">'+esc(t("motNF"))+'</p><p class="ic-mot-nf2">'+esc(t("motNFText",{q:q.replace(/\$/g,"$$$$")}))+'</p>'+
+      '<ul class="ic-mot-nfl">'+MOT.books.map(function(b){ return '<li><a href="#/'+esc(b.slug)+'" data-nfq="'+esc(q)+'">'+esc(t("motNFBook",{b:motBookName(b)}))+'</a></li>'; }).join("")+'</ul></div>';
+  }
+  function motTile(n, cur, cls, syn){
+    return '<a class="ic-mot-tile'+(cls ? " "+cls : "")+'" href="'+esc(motHref(cur.param, n.id))+'" data-id="'+esc(n.id)+'"><span class="ic-mot-nm">'+esc(motTileName(n))+(syn ? '<small class="ic-mot-syn">'+esc(syn)+'</small>' : "")+'</span><span class="ic-mot-n" aria-label="'+esc(t("motCount",{n:n.all.length}))+'">'+n.all.length+'</span></a>';
   }
   var MOT_LOUPE = '<button type="button" class="ic-mot-loupe" aria-label="'+"%L%"+'">'+ICON_SEARCH+'</button>';
   function motLoupe(){ return MOT_LOUPE.replace("%L%", esc(t("motFind"))); }
@@ -3901,8 +3936,10 @@
       maskSync();
       var html = "";
       if(words.length){
-        var S = ix.list.filter(function(n){ return words.every(function(w){ return wsFind(norm(motName(n)), w) > -1; }); }).sort(motSort);
-        html = bkBtn+(S.length ? '<div class="ic-mot-grid2">'+S.map(function(n){ return motTile(n, cur, ""); }).join("")+'</div>' : '<p class="ic-empty">'+esc(t("motNone"))+'</p>');
+        var mq = motNorm(motUi.q.trim().replace(/\s+/g," ")), mw = mq.split(" "), hits = {};
+        var S = ix.list.filter(function(n){ var m = motMatch(n, mq, mw); if(m) hits[n.id] = m; return !!m; })
+          .sort(function(a, b){ return hits[a.id].rank - hits[b.id].rank || motSort(a, b); });
+        html = bkBtn+(S.length ? '<div class="ic-mot-grid2">'+S.map(function(n){ return motTile(n, cur, "", hits[n.id].syn); }).join("")+'</div>' : motNotFoundHtml(motUi.q.trim()));
       } else if(motUi.cat === "all"){
         html = '<header class="ic-head ic-rp-head"><h1 class="ic-h-fr ic-rp-h1">'+esc(t("motTitle"))+'</h1><p class="ic-sub ic-mot-sub">'+esc(t("motSub"))+'</p>'+bkBtn+'</header>';
         cats.forEach(function(c){
@@ -3934,6 +3971,7 @@
     tabsEl.addEventListener("click", function(e){ var b = e.target.closest("[data-cat]"); if(b) pickCat(b.getAttribute("data-cat")); });
     body.addEventListener("click", function(e){
       var b = e.target.closest(".ic-mot-allbtn"); if(b){ pickCat(b.getAttribute("data-cat")); return; }
+      var nf = e.target.closest("a[data-nfq]"); if(nf){ motBookQ = nf.getAttribute("data-nfq"); return; }   // поиск по книге получает тот же запрос
       // переход в мотив: место запоминается заранее (обычный переход по ссылке в WebKit сбрасывает прокрутку до события)
       var a = e.target.closest("a.ic-mot-tile");
       if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); namesUi.pos[location.hash] = window.scrollY; location.hash = a.getAttribute("href").replace(/^#/,""); }

@@ -2024,6 +2024,9 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-mot-tile .ic-mot-nm{min-width:0;overflow-wrap:anywhere}
 .ic .ic-mot-tile .ic-mot-n{flex:none;color:var(--soft);font-variant-numeric:tabular-nums;font-size:.9em}
 .ic .ic-mot-kid .ic-mot-nm{color:var(--soft)}
+.ic .ic-mot-syn{display:block;margin-top:2px;font-size:.78em;line-height:1.2;color:var(--soft)}
+.ic .ic-mot-nf p{margin:0}.ic .ic-mot-nf1{color:var(--ink)}.ic .ic-mot-nf2{margin-top:10px!important}
+.ic .ic-mot-nfl{list-style:none;margin:8px 0 0;padding:0}.ic .ic-mot-nfl li{margin:6px 0}.ic .ic-mot-nfl a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 .ic .ic-mot-tile:active{background:#e6dec9}
 .ic .ic-mot-allbtn{display:block;width:100%;height:48px;margin-top:8px;border:0;border-radius:8px;background:#16130f;color:rgba(236,229,212,.94);
   font:inherit;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
