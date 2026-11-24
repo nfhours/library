@@ -4,7 +4,7 @@
 const { webkit } = require('playwright'); const path = require('path');
 const BASE = process.env.BASE || 'http://localhost:8977/index.html', OUT = path.join(__dirname, 'out'); const W = ms => new Promise(r => setTimeout(r, ms));
 let bad = 0; const ok = (n, c, x) => { if (!c) bad++; console.log((c ? 'ok  ' : 'FAIL ') + n + (x ? ' ' + x : '')); };
-const QS = ['апо', 'ap', 'APOL', 'медуз', 'змея', 'snake', 'serpent', 'вен'];
+const QS = ['апо', 'вен', 'медуз', 'зевс', 'юпитер', 'zeus', 'гермес', 'афродита', 'аполлон', 'apol', 'ap', 'змея', 'snake', 'serpent'];
 (async () => {
   const br = await webkit.launch(); const errs = [];
   const ctx = await br.newContext({ viewport: { width: 390, height: 844 } }); const p = await ctx.newPage();
@@ -21,14 +21,22 @@ const QS = ['апо', 'ap', 'APOL', 'медуз', 'змея', 'snake', 'serpent'
     await setLang(L);
     for (const q of QS) {
       const r = await ask(q); table[L + ' «' + q + '»'] = r.tiles.length ? r.tiles.length + ': ' + r.tiles.slice(0, 6).map(t => t.n).join(', ') : (r.nf ? '— (не найден)' : '— ?');
-      if (L === 'ru' && q === 'ap') await p.screenshot({ path: path.join(OUT, 'motsearch-ru-ap.png') });
+      if (L === 'ru' && q === 'зевс') await p.screenshot({ path: path.join(OUT, 'motsearch-ru-zeus.png') });
     }
     // очистка
     await p.evaluate(() => document.querySelector('.ic-mot-findx').click()); await W(200);
   }
   Object.keys(table).forEach(k => console.log(k.padEnd(14), table[k]));
   // независимость от языка интерфейса
-  await setLang('ru'); let r = await ask('ap'); ok('RU «ap» находит мотивы (по en)', r.tiles.length > 0, r.tiles.length + '');
+  await setLang('ru'); let r = await ask('ap'); ok('RU «ap» (2 символа): только с начала слов, находит', r.tiles.length > 0, r.tiles.map(t => t.n).join(','));
+  r = await ask('апо'); ok('RU «апо»: Аполлон есть, «Полусапожки» нет', r.tiles.some(t => t.n === 'Аполлон') && !r.tiles.some(t => /Полусапожки/.test(t.n)), r.tiles.map(t => t.n).join(','));
+  r = await ask('зевс'); ok('RU «зевс» → Юпитер, подсказка «Зевс»', r.tiles.length === 1 && r.tiles[0].n === 'Юпитер' && r.tiles[0].syn === 'Зевс', JSON.stringify(r.tiles));
+  r = await ask('zeus'); ok('RU «zeus» → Юпитер, подсказка «Zeus»', r.tiles.some(t => t.n === 'Юпитер' && t.syn === 'Zeus'), JSON.stringify(r.tiles));
+  r = await ask('гермес'); ok('RU «гермес» → Меркурий', r.tiles.length >= 1 && r.tiles[0].n === 'Меркурий' && r.tiles[0].syn === 'Гермес', JSON.stringify(r.tiles));
+  r = await ask('афродита'); ok('RU «афродита» → Венера', r.tiles.length === 1 && r.tiles[0].n === 'Венера', JSON.stringify(r.tiles));
+  r = await ask('юпитер'); ok('RU «юпитер» → Юпитер без подсказки', r.tiles.length === 1 && r.tiles[0].n === 'Юпитер' && r.tiles[0].syn === '', JSON.stringify(r.tiles));
+  r = await ask('вен'); { const i = r.tiles.findIndex(t => t.n === 'Венера'); ok('RU «вен»: Венера в выдаче (место ' + (i + 1) + ')', i >= 0, r.tiles.slice(0, 8).map(t => t.n).join(',')); }
+  r = await ask('apol'); ok('RU «apol» → Аполлон (по en-названию)', r.tiles.some(t => t.n === 'Аполлон'), JSON.stringify(r.tiles));
   r = await ask('медуз'); ok('RU «медуз» находит', r.tiles.length > 0, r.tiles.map(t => t.n).join(','));
   await setLang('en'); r = await ask('медуз'); ok('EN «медуз» находит (по ru), название на языке интерфейса', r.tiles.length > 0 && r.tiles.every(t => !/[а-я]/i.test(t.n)), r.tiles.map(t => t.n).join(','));
   await setLang('ru'); r = await ask('ЗМЕЯ'); ok('регистр: «ЗМЕЯ» = «змея»', r.tiles.length === (await ask('змея')).tiles.length && r.tiles.length > 0);
@@ -53,9 +61,9 @@ const QS = ['апо', 'ap', 'APOL', 'медуз', 'змея', 'snake', 'serpent'
   }
 
   // синонимы: подставляем syn в загруженный словарь (данные синонимов не добавляются в репозиторий)
-  await p.route('**/books/_motifs/motifs_vocab.json', async route => { const resp = await route.fetch(); const j = await resp.json(); const m = j.motifs.find(x => x.id === 'snake') || j.motifs[0]; m.syn = { ru: ['гад'], en: ['viper'], fr: ['vipère'] }; await route.fulfill({ response: resp, json: j }); });
+  await p.route('**/books/_motifs/motifs_vocab.json', async route => { const resp = await route.fetch(); const j = await resp.json(); const m = j.motifs.find(x => x.id === 'snake') || j.motifs[0]; m.syn = { ru: ['гадюка'], en: ['viper'], fr: ['vipère'] }; await route.fulfill({ response: resp, json: j }); });
   await p.goto(BASE + '#/motifs'); await W(1500); await setLang('ru');
-  r = await ask('гад'); ok('по синониму находит и показывает «название · слово» мелко', r.tiles.length === 1 && r.tiles[0].syn === 'гад', JSON.stringify(r.tiles));
+  r = await ask('гадюк'); ok('по синониму находит и показывает «название · слово» мелко', r.tiles.length === 1 && r.tiles[0].syn === 'гадюка', JSON.stringify(r.tiles));
   await p.screenshot({ path: path.join(OUT, 'motsearch-syn.png') });
   r = await ask('змея'); ok('по названию подсказки синонима нет', r.tiles.length > 0 && r.tiles.every(t => t.syn === ''), JSON.stringify(r.tiles.slice(0, 2)));
   await setLang('en'); r = await ask('vipe'); ok('EN: синоним на любом языке, название на языке интерфейса', r.tiles.length === 1 && r.tiles[0].syn === 'viper' && !/[а-я]/i.test(r.tiles[0].n), JSON.stringify(r.tiles));

@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "269";
+  var APP_VER = "270";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3505,18 +3505,18 @@
     order.forEach(allOf);
     return {nodes:nodes, list:order.filter(function(n){ return n.all.length > 0; })};
   }
-  // Поиск мотивов: по ru/en/fr и синонимам (syn), независимо от языка интерфейса; вхождение в любом месте,
+  // Поиск мотивов: по ru/en/fr и синонимам (syn), независимо от языка интерфейса; вхождение в любом месте (внутри слова — с 4 символов),
   // без регистра, ё=е, без диакритики. Ранг: 0 — с начала названия, 1 — с начала слова, 2 — внутри.
   function motNorm(x){
     return String(x||"").toLowerCase().replace(/й/g,"\uE000").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\uE000/g,"й")
       .replace(/ё/g,"е").replace(/[’ʼ]/g,"'");
   }
   function motRankStr(c, nq, words){
-    var i = c.indexOf(nq);
+    var i = c.indexOf(nq), inner = nq.length >= 4;   // короче 4 символов — только с начала слова; внутри слова — от 4
     if(i === 0) return 0;
-    if(i < 0) return words.length > 1 && words.every(function(w){ return c.indexOf(w) > -1; }) ? 2 : -1;
+    if(i < 0) return inner && words.length > 1 && words.every(function(w){ return c.indexOf(w) > -1; }) ? 2 : -1;
     for(; i > -1; i = c.indexOf(nq, i+1)) if(!/[\p{L}\p{N}]/u.test(c.charAt(i-1))) return 1;
-    return 2;
+    return inner ? 2 : -1;
   }
   function motMatch(n, nq, words){
     var best = -1, synHit = null, nameHit = false, k, r;

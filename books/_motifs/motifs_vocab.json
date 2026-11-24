@@ -604,7 +604,21 @@
    "fr": "Cupidon",
    "category": "персонаж",
    "parent": null,
-   "children": []
+   "children": [],
+   "syn": {
+    "ru": [
+     "Эрот",
+     "Амур"
+    ],
+    "en": [
+     "Eros",
+     "Amor"
+    ],
+    "fr": [
+     "Éros",
+     "Amour"
+    ]
+   }
   },
   {
    "id": "dog",
@@ -1576,7 +1590,21 @@
    "fr": "Minerve",
    "category": "персонаж",
    "parent": null,
-   "children": []
+   "children": [],
+   "syn": {
+    "ru": [
+     "Афина",
+     "Паллада"
+    ],
+    "en": [
+     "Athena",
+     "Pallas"
+    ],
+    "fr": [
+     "Athéna",
+     "Pallas"
+    ]
+   }
   },
   {
    "id": "nail",
@@ -2404,7 +2432,18 @@
    "fr": "Vénus",
    "category": "персонаж",
    "parent": null,
-   "children": []
+   "children": [],
+   "syn": {
+    "ru": [
+     "Афродита"
+    ],
+    "en": [
+     "Aphrodite"
+    ],
+    "fr": [
+     "Aphrodite"
+    ]
+   }
   },
   {
    "id": "vine-wreath",
@@ -3603,7 +3642,18 @@
    "fr": "Proserpine",
    "category": "персонаж",
    "parent": null,
-   "children": []
+   "children": [],
+   "syn": {
+    "ru": [
+     "Персефона"
+    ],
+    "en": [
+     "Persephone"
+    ],
+    "fr": [
+     "Perséphone"
+    ]
+   }
   },
   {
    "id": "pruning-hook",
@@ -4313,6 +4363,1064 @@
    "en": "sphinx",
    "fr": "sphinx",
    "category": "животное",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "jupiter",
+   "ru": "Юпитер",
+   "en": "Jupiter",
+   "fr": "Jupiter",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Зевс"
+    ],
+    "en": [
+     "Zeus"
+    ],
+    "fr": [
+     "Zeus"
+    ]
+   }
+  },
+  {
+   "id": "juno",
+   "ru": "Юнона",
+   "en": "Juno",
+   "fr": "Junon",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Гера"
+    ],
+    "en": [
+     "Hera"
+    ],
+    "fr": [
+     "Héra"
+    ]
+   }
+  },
+  {
+   "id": "apollo",
+   "ru": "Аполлон",
+   "en": "Apollo",
+   "fr": "Apollon",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Феб"
+    ],
+    "en": [
+     "Phoebus"
+    ],
+    "fr": [
+     "Phébus"
+    ]
+   }
+  },
+  {
+   "id": "diana",
+   "ru": "Диана",
+   "en": "Diana",
+   "fr": "Diane",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Артемида",
+     "Цинтия"
+    ],
+    "en": [
+     "Artemis",
+     "Cynthia"
+    ],
+    "fr": [
+     "Artémis",
+     "Cynthie"
+    ]
+   }
+  },
+  {
+   "id": "mercury",
+   "ru": "Меркурий",
+   "en": "Mercury",
+   "fr": "Mercure",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Гермес"
+    ],
+    "en": [
+     "Hermes"
+    ],
+    "fr": [
+     "Hermès"
+    ]
+   }
+  },
+  {
+   "id": "mars",
+   "ru": "Марс",
+   "en": "Mars",
+   "fr": "Mars",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Арес"
+    ],
+    "en": [
+     "Ares"
+    ],
+    "fr": [
+     "Arès"
+    ]
+   }
+  },
+  {
+   "id": "neptune",
+   "ru": "Нептун",
+   "en": "Neptune",
+   "fr": "Neptune",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Посейдон"
+    ],
+    "en": [
+     "Poseidon"
+    ],
+    "fr": [
+     "Poséidon"
+    ]
+   }
+  },
+  {
+   "id": "pluto",
+   "ru": "Плутон",
+   "en": "Pluto",
+   "fr": "Pluton",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Аид",
+     "Гадес"
+    ],
+    "en": [
+     "Hades"
+    ],
+    "fr": [
+     "Hadès"
+    ]
+   }
+  },
+  {
+   "id": "vulcan",
+   "ru": "Вулкан",
+   "en": "Vulcan",
+   "fr": "Vulcain",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Гефест"
+    ],
+    "en": [
+     "Hephaestus"
+    ],
+    "fr": [
+     "Héphaïstos"
+    ]
+   }
+  },
+  {
+   "id": "saturn",
+   "ru": "Сатурн",
+   "en": "Saturn",
+   "fr": "Saturne",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Кронос"
+    ],
+    "en": [
+     "Cronus"
+    ],
+    "fr": [
+     "Cronos"
+    ]
+   }
+  },
+  {
+   "id": "bacchus",
+   "ru": "Вакх",
+   "en": "Bacchus",
+   "fr": "Bacchus",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Дионис",
+     "Бахус"
+    ],
+    "en": [
+     "Dionysus"
+    ],
+    "fr": [
+     "Dionysos"
+    ]
+   }
+  },
+  {
+   "id": "ceres",
+   "ru": "Церера",
+   "en": "Ceres",
+   "fr": "Cérès",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Деметра"
+    ],
+    "en": [
+     "Demeter"
+    ],
+    "fr": [
+     "Déméter"
+    ]
+   }
+  },
+  {
+   "id": "cybele",
+   "ru": "Кибела",
+   "en": "Cybele",
+   "fr": "Cybèle",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Рея",
+     "Опс",
+     "Берекинтия",
+     "Великая матерь"
+    ],
+    "en": [
+     "Rhea",
+     "Ops",
+     "Berecynthia",
+     "Great Mother"
+    ],
+    "fr": [
+     "Rhéa",
+     "Ops",
+     "Bérécynthe",
+     "Grande Mère"
+    ]
+   }
+  },
+  {
+   "id": "janus",
+   "ru": "Янус",
+   "en": "Janus",
+   "fr": "Janus",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hercules",
+   "ru": "Геркулес",
+   "en": "Hercules",
+   "fr": "Hercule",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Геракл"
+    ],
+    "en": [
+     "Heracles"
+    ],
+    "fr": [
+     "Héraclès"
+    ]
+   }
+  },
+  {
+   "id": "fortuna",
+   "ru": "Фортуна",
+   "en": "Fortuna",
+   "fr": "Fortune",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Тюхе"
+    ],
+    "en": [
+     "Tyche",
+     "Fortune"
+    ],
+    "fr": [
+     "Tyché",
+     "Fortuna"
+    ]
+   }
+  },
+  {
+   "id": "nemesis",
+   "ru": "Немесида",
+   "en": "Nemesis",
+   "fr": "Némésis",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Немезида"
+    ]
+   }
+  },
+  {
+   "id": "pan",
+   "ru": "Пан",
+   "en": "Pan",
+   "fr": "Pan",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "aesculapius",
+   "ru": "Эскулап",
+   "en": "Aesculapius",
+   "fr": "Esculape",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Эскулапий",
+     "Асклепий"
+    ],
+    "en": [
+     "Asclepius"
+    ],
+    "fr": [
+     "Asclépios"
+    ]
+   }
+  },
+  {
+   "id": "isis",
+   "ru": "Исида",
+   "en": "Isis",
+   "fr": "Isis",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Изида"
+    ]
+   }
+  },
+  {
+   "id": "nymphs",
+   "ru": "Нимфы",
+   "en": "Nymphs",
+   "fr": "Nymphes",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "muses",
+   "ru": "Музы",
+   "en": "Muses",
+   "fr": "Muses",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "furies",
+   "ru": "Фурии",
+   "en": "Furies",
+   "fr": "Furies",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Эринии",
+     "Эвмениды"
+    ],
+    "en": [
+     "Erinyes",
+     "Eumenides"
+    ],
+    "fr": [
+     "Érinyes",
+     "Euménides"
+    ]
+   }
+  },
+  {
+   "id": "fates",
+   "ru": "Парки",
+   "en": "Fates",
+   "fr": "Parques",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Мойры"
+    ],
+    "en": [
+     "Parcae",
+     "Moirai"
+    ],
+    "fr": [
+     "Moires"
+    ]
+   }
+  },
+  {
+   "id": "vesta",
+   "ru": "Веста",
+   "en": "Vesta",
+   "fr": "Vesta",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Гестия"
+    ],
+    "en": [
+     "Hestia"
+    ],
+    "fr": [
+     "Hestia"
+    ]
+   }
+  },
+  {
+   "id": "hebe",
+   "ru": "Геба",
+   "en": "Hebe",
+   "fr": "Hébé",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "iris",
+   "ru": "Ирида",
+   "en": "Iris",
+   "fr": "Iris",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hymen",
+   "ru": "Гименей",
+   "en": "Hymen",
+   "fr": "Hyménée",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "en": [
+     "Hymenaeus"
+    ]
+   }
+  },
+  {
+   "id": "aurora",
+   "ru": "Аврора",
+   "en": "Aurora",
+   "fr": "Aurore",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Эос"
+    ],
+    "en": [
+     "Eos"
+    ],
+    "fr": [
+     "Éos"
+    ]
+   }
+  },
+  {
+   "id": "hygieia",
+   "ru": "Гигия",
+   "en": "Hygieia",
+   "fr": "Hygie",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Салюс",
+     "Богиня Здоровья"
+    ],
+    "en": [
+     "Salus",
+     "Hygeia"
+    ],
+    "fr": [
+     "Salus",
+     "Hygée"
+    ]
+   }
+  },
+  {
+   "id": "lucina",
+   "ru": "Люцина",
+   "en": "Lucina",
+   "fr": "Lucine",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Илифия"
+    ],
+    "en": [
+     "Eileithyia"
+    ],
+    "fr": [
+     "Ilithyie"
+    ]
+   }
+  },
+  {
+   "id": "hecate",
+   "ru": "Геката",
+   "en": "Hecate",
+   "fr": "Hécate",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "bellona",
+   "ru": "Беллона",
+   "en": "Bellona",
+   "fr": "Bellone",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Энио"
+    ],
+    "en": [
+     "Enyo"
+    ],
+    "fr": [
+     "Enyo"
+    ]
+   }
+  },
+  {
+   "id": "victoria",
+   "ru": "Победа",
+   "en": "Victory",
+   "fr": "Victoire",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Ника",
+     "Виктория"
+    ],
+    "en": [
+     "Nike",
+     "Victoria"
+    ],
+    "fr": [
+     "Niké"
+    ]
+   }
+  },
+  {
+   "id": "volupia",
+   "ru": "Волупия",
+   "en": "Volupia",
+   "fr": "Volupia",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "angerona",
+   "ru": "Ангерона",
+   "en": "Angerona",
+   "fr": "Angerona",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "pomona",
+   "ru": "Помона",
+   "en": "Pomona",
+   "fr": "Pomone",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "vertumnus",
+   "ru": "Вертумн",
+   "en": "Vertumnus",
+   "fr": "Vertumne",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "priapus",
+   "ru": "Приап",
+   "en": "Priapus",
+   "fr": "Priape",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "silenus",
+   "ru": "Силен",
+   "en": "Silenus",
+   "fr": "Silène",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "comus",
+   "ru": "Ком",
+   "en": "Comus",
+   "fr": "Comus",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "en": [
+     "Komos"
+    ],
+    "fr": [
+     "Comos"
+    ]
+   }
+  },
+  {
+   "id": "momus",
+   "ru": "Мом",
+   "en": "Momus",
+   "fr": "Momus",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "charon",
+   "ru": "Харон",
+   "en": "Charon",
+   "fr": "Charon",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "harpocrates",
+   "ru": "Гарпократ",
+   "en": "Harpocrates",
+   "fr": "Harpocrate",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "anubis",
+   "ru": "Анубис",
+   "en": "Anubis",
+   "fr": "Anubis",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "serapis",
+   "ru": "Серапис",
+   "en": "Serapis",
+   "fr": "Sérapis",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "mithras",
+   "ru": "Митра (бог)",
+   "en": "Mithras",
+   "fr": "Mithra",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "en": [
+     "Mithra"
+    ]
+   }
+  },
+  {
+   "id": "attis",
+   "ru": "Аттис",
+   "en": "Attis",
+   "fr": "Attis",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "dioscuri",
+   "ru": "Кастор и Поллукс",
+   "en": "Castor and Pollux",
+   "fr": "Castor et Pollux",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Диоскуры"
+    ],
+    "en": [
+     "Dioscuri"
+    ],
+    "fr": [
+     "Dioscures"
+    ]
+   }
+  },
+  {
+   "id": "palaemon",
+   "ru": "Палемон",
+   "en": "Palaemon",
+   "fr": "Palémon",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Меликерт"
+    ],
+    "en": [
+     "Melicertes"
+    ],
+    "fr": [
+     "Mélicerte"
+    ]
+   }
+  },
+  {
+   "id": "glaucus",
+   "ru": "Главк",
+   "en": "Glaucus",
+   "fr": "Glaucus",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "galatea",
+   "ru": "Галатея",
+   "en": "Galatea",
+   "fr": "Galatée",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "amphitrite",
+   "ru": "Амфитрита",
+   "en": "Amphitrite",
+   "fr": "Amphitrite",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "scylla",
+   "ru": "Сцилла",
+   "en": "Scylla",
+   "fr": "Scylla",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "oceanus",
+   "ru": "Океан",
+   "en": "Oceanus",
+   "fr": "Océan",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "tiber",
+   "ru": "Тибр",
+   "en": "Tiber",
+   "fr": "Tibre",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "nile",
+   "ru": "Нил",
+   "en": "Nile",
+   "fr": "Nil",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "genius",
+   "ru": "Гений",
+   "en": "Genius",
+   "fr": "Génie",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "lares",
+   "ru": "Лары",
+   "en": "Lares",
+   "fr": "Lares",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Пенаты"
+    ],
+    "en": [
+     "Penates"
+    ],
+    "fr": [
+     "Pénates"
+    ]
+   }
+  },
+  {
+   "id": "terminus",
+   "ru": "Термин",
+   "en": "Terminus",
+   "fr": "Terme",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "typhon",
+   "ru": "Тифон",
+   "en": "Typhon",
+   "fr": "Typhon",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "horus",
+   "ru": "Гор",
+   "en": "Horus",
+   "fr": "Horus",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "demogorgon",
+   "ru": "Демогоргон",
+   "en": "Demogorgon",
+   "fr": "Démogorgon",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "giants",
+   "ru": "Гиганты",
+   "en": "Giants",
+   "fr": "Géants",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Гигант"
+    ],
+    "en": [
+     "Gigantes"
+    ],
+    "fr": [
+     "Gigantes"
+    ]
+   }
+  },
+  {
+   "id": "nyx",
+   "ru": "Ночь",
+   "en": "Night",
+   "fr": "Nuit",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Никта"
+    ],
+    "en": [
+     "Nyx"
+    ],
+    "fr": [
+     "Nyx"
+    ]
+   }
+  },
+  {
+   "id": "somnus",
+   "ru": "Сон",
+   "en": "Sleep",
+   "fr": "Sommeil",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Гипнос"
+    ],
+    "en": [
+     "Somnus",
+     "Hypnos"
+    ],
+    "fr": [
+     "Hypnos"
+    ]
+   }
+  },
+  {
+   "id": "daphne",
+   "ru": "Дафна",
+   "en": "Daphne",
+   "fr": "Daphné",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "adonis",
+   "ru": "Адонис",
+   "en": "Adonis",
+   "fr": "Adonis",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "marsyas",
+   "ru": "Марсий",
+   "en": "Marsyas",
+   "fr": "Marsyas",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "hyacinthus",
+   "ru": "Гиацинт",
+   "en": "Hyacinthus",
+   "fr": "Hyacinthe",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "en": [
+     "Hyacinth"
+    ]
+   }
+  },
+  {
+   "id": "quetzalcoatl",
+   "ru": "Кетцалькоатль",
+   "en": "Quetzalcoatl",
+   "fr": "Quetzalcoatl",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "Хомойока"
+    ],
+    "en": [
+     "Homoyoca"
+    ],
+    "fr": [
+     "Homoyoca"
+    ]
+   }
+  },
+  {
+   "id": "amida",
+   "ru": "Амида",
+   "en": "Amida",
+   "fr": "Amida",
+   "category": "персонаж",
+   "parent": null,
+   "children": []
+  },
+  {
+   "id": "kannon",
+   "ru": "Каннон",
+   "en": "Kannon",
+   "fr": "Kannon",
+   "category": "персонаж",
    "parent": null,
    "children": []
   }

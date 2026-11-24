@@ -1588,6 +1588,8 @@
    "e0430"
   ],
   "proserpine": [
+   "e0241",
+   "e0276",
    "e0574",
    "e0575",
    "e0576",
@@ -2052,6 +2054,12 @@
    "e0065"
   ],
   "venus": [
+   "e0472",
+   "e0474",
+   "e0476",
+   "e0479",
+   "e0484",
+   "e0489",
    "e0552"
   ],
   "viol": [
@@ -2062,6 +2070,308 @@
   ],
   "yoke": [
    "e0208"
+  ],
+  "jupiter": [
+   "e0156",
+   "e0167",
+   "e0170",
+   "e0172",
+   "e0178",
+   "e0180",
+   "e0182",
+   "e0188",
+   "e0339",
+   "e0359"
+  ],
+  "juno": [
+   "e0193",
+   "e0199",
+   "e0206",
+   "e0208"
+  ],
+  "apollo": [
+   "e0062",
+   "e0082",
+   "e0089",
+   "e0091",
+   "e0095",
+   "e0097",
+   "e0103",
+   "e0110",
+   "e0123",
+   "e0124",
+   "e0334",
+   "e0509",
+   "e0510"
+  ],
+  "diana": [
+   "e0128",
+   "e0132",
+   "e0137",
+   "e0334"
+  ],
+  "mercury": [
+   "e0302",
+   "e0311",
+   "e0313",
+   "e0321",
+   "e0336",
+   "e0499",
+   "e0539"
+  ],
+  "mars": [
+   "e0366",
+   "e0552",
+   "e0554"
+  ],
+  "neptune": [
+   "e0253",
+   "e0256"
+  ],
+  "pluto": [
+   "e0276"
+  ],
+  "vulcan": [
+   "e0339",
+   "e0363"
+  ],
+  "saturn": [
+   "e0065",
+   "e0068",
+   "e0070",
+   "e0072",
+   "e0571"
+  ],
+  "bacchus": [
+   "e0386",
+   "e0389",
+   "e0392",
+   "e0395"
+  ],
+  "ceres": [
+   "e0230",
+   "e0236"
+  ],
+  "cybele": [
+   "e0217",
+   "e0222"
+  ],
+  "janus": [
+   "e0075",
+   "e0080",
+   "e0572"
+  ],
+  "hercules": [
+   "e0325",
+   "e0329",
+   "e0334",
+   "e0542",
+   "e0543",
+   "e0544",
+   "e0545"
+  ],
+  "fortuna": [
+   "e0416",
+   "e0418",
+   "e0434",
+   "e0437",
+   "e0442",
+   "e0565",
+   "e0566"
+  ],
+  "nemesis": [
+   "e0420"
+  ],
+  "pan": [
+   "e0156",
+   "e0464"
+  ],
+  "aesculapius": [
+   "e0112",
+   "e0114"
+  ],
+  "isis": [
+   "e0147",
+   "e0149",
+   "e0514"
+  ],
+  "nymphs": [
+   "e0536"
+  ],
+  "muses": [
+   "e0087",
+   "e0089"
+  ],
+  "furies": [
+   "e0283"
+  ],
+  "fates": [
+   "e0292",
+   "e0295"
+  ],
+  "vesta": [
+   "e0228"
+  ],
+  "hebe": [
+   "e0085"
+  ],
+  "iris": [
+   "e0197"
+  ],
+  "hymen": [
+   "e0212"
+  ],
+  "aurora": [
+   "e0126"
+  ],
+  "hygieia": [
+   "e0119",
+   "e0121"
+  ],
+  "lucina": [
+   "e0135"
+  ],
+  "hecate": [
+   "e0140"
+  ],
+  "bellona": [
+   "e0342"
+  ],
+  "victoria": [
+   "e0375",
+   "e0377"
+  ],
+  "volupia": [
+   "e0349"
+  ],
+  "angerona": [
+   "e0352"
+  ],
+  "pomona": [
+   "e0239",
+   "e0269"
+  ],
+  "vertumnus": [
+   "e0269"
+  ],
+  "priapus": [
+   "e0404"
+  ],
+  "silenus": [
+   "e0555"
+  ],
+  "comus": [
+   "e0383"
+  ],
+  "momus": [
+   "e0428"
+  ],
+  "charon": [
+   "e0299"
+  ],
+  "harpocrates": [
+   "e0352",
+   "e0549"
+  ],
+  "anubis": [
+   "e0321",
+   "e0323"
+  ],
+  "serapis": [
+   "e0108"
+  ],
+  "mithras": [
+   "e0099",
+   "e0507"
+  ],
+  "attis": [
+   "e0579",
+   "e0580"
+  ],
+  "dioscuri": [
+   "e0201"
+  ],
+  "palaemon": [
+   "e0532"
+  ],
+  "glaucus": [
+   "e0244"
+  ],
+  "galatea": [
+   "e0246"
+  ],
+  "amphitrite": [
+   "e0253"
+  ],
+  "scylla": [
+   "e0251"
+  ],
+  "oceanus": [
+   "e0534"
+  ],
+  "tiber": [
+   "e0265"
+  ],
+  "nile": [
+   "e0267"
+  ],
+  "genius": [
+   "e0409",
+   "e0558",
+   "e0559",
+   "e0560",
+   "e0561",
+   "e0562"
+  ],
+  "lares": [
+   "e0407"
+  ],
+  "terminus": [
+   "e0540"
+  ],
+  "typhon": [
+   "e0399"
+  ],
+  "horus": [
+   "e0399",
+   "e0401",
+   "e0514"
+  ],
+  "demogorgon": [
+   "e0058"
+  ],
+  "giants": [
+   "e0359"
+  ],
+  "nyx": [
+   "e0317"
+  ],
+  "somnus": [
+   "e0317"
+  ],
+  "daphne": [
+   "e0095"
+  ],
+  "adonis": [
+   "e0489"
+  ],
+  "marsyas": [
+   "e0510"
+  ],
+  "hyacinthus": [
+   "e0509"
+  ],
+  "quetzalcoatl": [
+   "e0594",
+   "e0596",
+   "e0603"
+  ],
+  "amida": [
+   "e0613",
+   "e0614"
+  ],
+  "kannon": [
+   "e0612"
   ]
  },
  "doubtful": [
@@ -9631,6 +9941,7 @@
    "motifs": [
     "beard",
     "cloud",
+    "demogorgon",
     "nudity",
     "ouroboros",
     "snake"
@@ -9643,6 +9954,7 @@
    "has_caption": true,
    "plain": "В пещере у змеи Аполлон с лирой, сидящие старцы за столом и женщина с младенцами-купидонами.",
    "motifs": [
+    "apollo",
     "bare-breast",
     "beard",
     "child",
@@ -9668,6 +9980,7 @@
     "column",
     "grapes",
     "rock",
+    "saturn",
     "shell",
     "temple",
     "tree",
@@ -9689,6 +10002,7 @@
     "flame",
     "nudity",
     "ouroboros",
+    "saturn",
     "star",
     "veil"
    ]
@@ -9706,6 +10020,7 @@
     "pig",
     "raised-hand",
     "rays",
+    "saturn",
     "two-faces"
    ]
   },
@@ -9721,6 +10036,7 @@
     "crown",
     "fetters",
     "nudity",
+    "saturn",
     "sickle",
     "staff",
     "thread",
@@ -9737,6 +10053,7 @@
     "beard",
     "crown",
     "dagger",
+    "janus",
     "key",
     "mantle",
     "ring",
@@ -9755,6 +10072,7 @@
     "beard",
     "crown",
     "helmet",
+    "janus",
     "key",
     "spear",
     "throne"
@@ -9790,6 +10108,7 @@
    "has_caption": true,
    "plain": "Нагая лучистая фигура Солнца держит горящий факел и колосья.",
    "motifs": [
+    "apollo",
     "barefoot",
     "ears-of-grain",
     "flame",
@@ -9814,6 +10133,7 @@
     "cloak",
     "column",
     "cup",
+    "hebe",
     "temple",
     "tree",
     "vessel"
@@ -9826,12 +10146,14 @@
    "has_caption": true,
    "plain": "Аполлон с нимбом и лирой сидит среди муз с инструментами, внизу книга, лютня и флейта.",
    "motifs": [
+    "apollo",
     "bare-breast",
     "book",
     "flute",
     "laurel-crown",
     "lyre",
     "mantle",
+    "muses",
     "musical-instrument",
     "nimbus",
     "nudity",
@@ -9850,6 +10172,7 @@
     "celestial-sphere",
     "flute",
     "mask",
+    "muses",
     "musical-instrument",
     "tambourine",
     "tree"
@@ -9862,6 +10185,7 @@
    "has_caption": true,
    "plain": "Нагой Аполлон с нимбом, луком и тремя Грациями в руке окружён птицами, волком, лебедем и крокодилом.",
    "motifs": [
+    "apollo",
     "arrow",
     "bird",
     "bow",
@@ -9908,8 +10232,10 @@
    "has_caption": true,
    "plain": "Нагой Аполлон обнимает Дафну, у неё ветви на голове; в медальонах и внизу лиры с лавровой ветвью.",
    "motifs": [
+    "apollo",
     "bare-breast",
     "branch",
+    "daphne",
     "laurel-crown",
     "lyre",
     "mantle",
@@ -9926,6 +10252,7 @@
    "has_caption": true,
    "plain": "Нагой Аполлон с нимбом, колчаном и раскинутыми руками стоит на земле, у ног лук.",
    "motifs": [
+    "apollo",
     "arrow",
     "barefoot",
     "bow",
@@ -9951,6 +10278,7 @@
     "cave",
     "cloak",
     "hat",
+    "mithras",
     "pedestal",
     "rock"
    ]
@@ -9979,6 +10307,7 @@
    "has_caption": true,
    "plain": "Нагой Аполлон с нимбом держит лук и стрелу, нога на черепе быка, рядом медальон с быком и звёздами.",
    "motifs": [
+    "apollo",
     "arrow",
     "barefoot",
     "belt",
@@ -10045,6 +10374,7 @@
     "dog",
     "fur",
     "lion",
+    "serapis",
     "snake",
     "staff",
     "three-faces",
@@ -10058,6 +10388,7 @@
    "has_caption": true,
    "plain": "Сидящий Аполлон-Солнце с нимбом над четырьмя сосудами, один с пламенем, на другом лик солнца и луна.",
    "motifs": [
+    "apollo",
     "bare-breast",
     "cloak",
     "flame",
@@ -10077,6 +10408,7 @@
    "has_caption": true,
    "plain": "Бородатый Эскулап сидит на скамье со змеёй, обвившей посох, у ног собака, в медальоне стоящий Эскулап с мальчиком.",
    "motifs": [
+    "aesculapius",
     "barefoot",
     "beard",
     "caduceus",
@@ -10095,6 +10427,7 @@
    "has_caption": true,
    "plain": "Сидящий Эскулап с жезлом держит виноградную гроздь, перед ним стоящий жрец с петухами; медальоны со змеёй и лавровым профилем.",
    "motifs": [
+    "aesculapius",
     "altar",
     "bare-breast",
     "bird",
@@ -10134,6 +10467,7 @@
     "chair",
     "column",
     "cup",
+    "hygieia",
     "mantle",
     "snake",
     "staff",
@@ -10151,6 +10485,7 @@
     "bare-breast",
     "barefoot",
     "dog",
+    "hygieia",
     "loose-hair",
     "nudity",
     "snake",
@@ -10164,6 +10499,7 @@
    "has_caption": true,
    "plain": "Бог Солнца с сияющим нимбом правит колесницей, запряжённой конями, несущимися по облакам.",
    "motifs": [
+    "apollo",
     "chariot",
     "cloud",
     "horse",
@@ -10180,6 +10516,7 @@
    "has_caption": true,
    "plain": "Слева обнажённый Феб с факелом, щитом и плащом, справа обнажённая фигура с бараньей головой, указывающая рукой.",
    "motifs": [
+    "apollo",
     "cloak",
     "horns",
     "nudity",
@@ -10197,6 +10534,7 @@
    "has_caption": true,
    "plain": "Аврора с факелом стоит в колеснице, запряжённой крылатым конём Пегасом, среди облаков.",
    "motifs": [
+    "aurora",
     "chariot",
     "cloak",
     "cloud",
@@ -10216,6 +10554,7 @@
     "arrow",
     "barefoot",
     "bow",
+    "diana",
     "quiver"
    ]
   },
@@ -10231,6 +10570,7 @@
     "chariot",
     "cloak",
     "deer",
+    "diana",
     "dog",
     "fur",
     "moon",
@@ -10246,6 +10586,7 @@
    "has_caption": true,
    "plain": "Стоящая фигура Люцины, полностью закутанная в покрывало; в медальоне женщина с чашей и копьём.",
    "motifs": [
+    "lucina",
     "shroud",
     "veil"
    ]
@@ -10259,6 +10600,7 @@
    "motifs": [
     "barefoot",
     "bow",
+    "diana",
     "lion",
     "moon",
     "panther",
@@ -10271,7 +10613,9 @@
    "title": "Геката трёхликая",
    "has_caption": true,
    "plain": "Стоящая женщина в тунике с головами животных (бык, волк/собака) вместо головы; рука на боку.",
-   "motifs": []
+   "motifs": [
+    "hecate"
+   ]
   },
   "e0142": {
    "file": "0141_100",
@@ -10314,6 +10658,7 @@
     "barefoot",
     "feather",
     "helmet",
+    "isis",
     "palm-branch",
     "ship",
     "veil"
@@ -10327,6 +10672,7 @@
    "plain": "Исида со звёздной одеждой стоит у воды, в одной руке систр, в другой кувшин, полуопущенный в воду.",
    "motifs": [
     "barefoot",
+    "isis",
     "loose-hair",
     "moon",
     "mountain",
@@ -10350,6 +10696,8 @@
     "bird",
     "book",
     "horns",
+    "jupiter",
+    "pan",
     "staff",
     "tortoise",
     "wing"
@@ -10368,6 +10716,7 @@
     "cloak",
     "eagle",
     "feather",
+    "jupiter",
     "sceptre",
     "throne"
    ]
@@ -10384,6 +10733,7 @@
     "bird",
     "crown",
     "eagle",
+    "jupiter",
     "lyre",
     "sceptre",
     "star",
@@ -10400,6 +10750,7 @@
    "motifs": [
     "cloak",
     "cloud",
+    "jupiter",
     "lightning",
     "nudity",
     "star"
@@ -10446,6 +10797,7 @@
     "column",
     "eagle",
     "grace",
+    "jupiter",
     "laurel-crown",
     "nudity",
     "pedestal",
@@ -10464,6 +10816,7 @@
     "altar",
     "arrow",
     "beard",
+    "jupiter",
     "lightning",
     "nudity",
     "spear"
@@ -10483,6 +10836,7 @@
     "eagle",
     "feather",
     "helmet",
+    "jupiter",
     "nudity"
    ]
   },
@@ -10508,6 +10862,7 @@
     "fur",
     "hand-on-hip",
     "horns",
+    "jupiter",
     "loose-hair",
     "oak",
     "pedestal",
@@ -10525,6 +10880,7 @@
    "motifs": [
     "bird",
     "cup",
+    "juno",
     "lion",
     "peacock",
     "rays",
@@ -10542,6 +10898,7 @@
     "barefoot",
     "cloak",
     "crown",
+    "iris",
     "rainbow",
     "wing"
    ]
@@ -10558,6 +10915,7 @@
     "bird",
     "chair",
     "fruit",
+    "juno",
     "lion",
     "musical-instrument",
     "sceptre",
@@ -10576,6 +10934,7 @@
    "motifs": [
     "bridle",
     "cloak",
+    "dioscuri",
     "helmet",
     "horse",
     "spear",
@@ -10592,6 +10951,7 @@
     "barefoot",
     "helmet",
     "horns",
+    "juno",
     "leaf-wreath",
     "shield",
     "snake",
@@ -10610,6 +10970,7 @@
     "clasped-hands",
     "cloak",
     "flower",
+    "juno",
     "peacock",
     "yoke"
    ]
@@ -10625,6 +10986,7 @@
     "boots",
     "child",
     "cloak",
+    "hymen",
     "leaf-wreath",
     "torch"
    ]
@@ -10639,6 +11001,7 @@
     "chariot",
     "crook",
     "crown",
+    "cybele",
     "grapes",
     "helmet",
     "lion",
@@ -10657,6 +11020,7 @@
     "barefoot",
     "chariot",
     "cloak",
+    "cybele",
     "raised-hand",
     "statue",
     "wheel"
@@ -10671,7 +11035,8 @@
    "motifs": [
     "column",
     "spear",
-    "temple"
+    "temple",
+    "vesta"
    ]
   },
   "e0230": {
@@ -10681,6 +11046,7 @@
    "has_caption": true,
    "plain": "Церера в колеснице, запряжённой драконами, на облаках над морем, в вытянутой руке держит горящий факел.",
    "motifs": [
+    "ceres",
     "chariot",
     "cloud",
     "dragon",
@@ -10699,6 +11065,7 @@
    "plain": "Сидящая в каменной нише статуя Цереры, на вытянутой руке птица; по углам медальоны с профилями и колесницей.",
    "motifs": [
     "bird",
+    "ceres",
     "medallion",
     "statue"
    ]
@@ -10715,6 +11082,7 @@
     "dog",
     "farming-tool",
     "medallion",
+    "pomona",
     "sickle"
    ]
   },
@@ -10727,6 +11095,7 @@
    "motifs": [
     "barefoot",
     "bird",
+    "proserpine",
     "sceptre",
     "snake",
     "tree",
@@ -10743,6 +11112,7 @@
     "bare-breast",
     "beard",
     "branch",
+    "glaucus",
     "nudity",
     "water",
     "waves"
@@ -10756,6 +11126,7 @@
    "plain": "Обнажённая Галатея стоит на раковине-колеснице и держит над собой развевающееся покрывало.",
    "motifs": [
     "bare-breast",
+    "galatea",
     "loose-hair",
     "medallion",
     "nudity",
@@ -10792,6 +11163,7 @@
    "motifs": [
     "dog",
     "monster",
+    "scylla",
     "sea",
     "sword",
     "wing"
@@ -10804,9 +11176,11 @@
    "has_caption": true,
    "plain": "Нептун с трезубцем и Амфитрита стоят на раковине, запряжённой морскими конями.",
    "motifs": [
+    "amphitrite",
     "beard",
     "crown",
     "horse",
+    "neptune",
     "nudity",
     "reins",
     "sea",
@@ -10827,6 +11201,7 @@
     "cloak",
     "horns",
     "medallion",
+    "neptune",
     "nudity",
     "vessel",
     "wheel"
@@ -10886,6 +11261,7 @@
     "fruit",
     "nudity",
     "reed",
+    "tiber",
     "water",
     "wreath"
    ]
@@ -10902,6 +11278,7 @@
     "cornucopia",
     "fruit",
     "laurel-crown",
+    "nile",
     "nudity",
     "water"
    ]
@@ -10918,9 +11295,11 @@
     "dog",
     "medallion",
     "pointing-hand",
+    "pomona",
     "raised-hand",
     "spear",
-    "tree"
+    "tree",
+    "vertumnus"
    ]
   },
   "e0276": {
@@ -10934,6 +11313,8 @@
     "crown",
     "dog",
     "key",
+    "pluto",
+    "proserpine",
     "sceptre",
     "throne"
    ]
@@ -10947,6 +11328,7 @@
    "motifs": [
     "barefoot",
     "bird",
+    "furies",
     "snake",
     "snake-hair",
     "torch",
@@ -10993,6 +11375,7 @@
    "plain": "Три крылатые Парки сидят вместе, одна держит прялку, другая тянет нить.",
    "motifs": [
     "distaff",
+    "fates",
     "raised-hand",
     "thread",
     "wing"
@@ -11007,7 +11390,8 @@
    "motifs": [
     "chair",
     "crown",
-    "distaff"
+    "distaff",
+    "fates"
    ]
   },
   "e0297": {
@@ -11035,6 +11419,7 @@
    "plain": "Бородатый Харон в развевающемся плаще гребёт веслом в лодке по воде.",
    "motifs": [
     "beard",
+    "charon",
     "cloak",
     "nudity",
     "oar",
@@ -11054,6 +11439,7 @@
     "goat",
     "horns",
     "medallion",
+    "mercury",
     "nudity",
     "rooster",
     "wing"
@@ -11106,6 +11492,7 @@
     "column",
     "hat",
     "medallion",
+    "mercury",
     "nudity",
     "olive-branch",
     "statue",
@@ -11122,6 +11509,7 @@
     "altar",
     "flame",
     "laurel-crown",
+    "mercury",
     "statue",
     "wing"
    ]
@@ -11136,7 +11524,9 @@
     "child",
     "cloak",
     "nudity",
+    "nyx",
     "raised-hand",
+    "somnus",
     "star",
     "torch",
     "wing"
@@ -11149,7 +11539,9 @@
    "has_caption": true,
    "plain": "Три фигуры: Анубис с собачьей головой, воин в шапке с пером с кривой саблей и нагой Меркурий в крылатой шапке с ношей на плече; у ног крылатый кадуцей, рядом бюст на подставке.",
    "motifs": [
+    "anubis",
     "caduceus",
+    "mercury",
     "nudity",
     "scimitar",
     "statue",
@@ -11163,6 +11555,7 @@
    "has_caption": true,
    "plain": "Анубис с собачьей головой в плаще держит крылатый кадуцей и стоит на крокодиле; вокруг перо, ветвь, звёзды, бычья голова, маска, кувшин.",
    "motifs": [
+    "anubis",
     "branch",
     "bull",
     "caduceus",
@@ -11185,6 +11578,7 @@
     "bow",
     "chain",
     "club",
+    "hercules",
     "nudity",
     "quiver"
    ]
@@ -11206,6 +11600,7 @@
     "feather",
     "fur",
     "helmet",
+    "hercules",
     "medallion",
     "nudity"
    ]
@@ -11217,8 +11612,11 @@
    "has_caption": true,
    "plain": "Аполлон и Диана с полумесяцем и луком, Минерва в шлеме с копьём и Геркулес-нагой борются у треножника.",
    "motifs": [
+    "apollo",
     "bow",
+    "diana",
     "helmet",
+    "hercules",
     "medallion",
     "minerva",
     "moon",
@@ -11240,6 +11638,7 @@
     "feather",
     "helmet",
     "medallion",
+    "mercury",
     "minerva",
     "nudity",
     "wing"
@@ -11255,8 +11654,10 @@
     "axe",
     "beard",
     "eagle",
+    "jupiter",
     "minerva",
     "nudity",
+    "vulcan",
     "wing"
    ]
   },
@@ -11268,6 +11669,7 @@
    "plain": "Беллона в шлеме с факелом бежит вместе с двумя жрецами, раня себя, рядом дерево.",
    "motifs": [
     "barefoot",
+    "bellona",
     "feather",
     "helmet",
     "medallion",
@@ -11327,6 +11729,7 @@
     "laurel-crown",
     "nudity",
     "sun",
+    "volupia",
     "wing",
     "wreath"
    ]
@@ -11338,11 +11741,13 @@
    "has_caption": true,
    "plain": "Ангерона в одеянии с глазами, статуя на постаменте и крылатый Гарпократ с пальцем у рта рядом с деревом со змеёй и птицей.",
    "motifs": [
+    "angerona",
     "bird",
     "cap",
     "child",
     "eye",
     "hand-to-mouth",
+    "harpocrates",
     "mouth-band",
     "nudity",
     "pedestal",
@@ -11361,7 +11766,9 @@
    "motifs": [
     "chariot",
     "cloud",
+    "giants",
     "horse",
+    "jupiter",
     "lightning",
     "snake",
     "wheel"
@@ -11380,6 +11787,7 @@
     "hammer",
     "laurel-crown",
     "shield",
+    "vulcan",
     "wreath"
    ]
   },
@@ -11397,6 +11805,7 @@
     "feather",
     "helmet",
     "horse",
+    "mars",
     "shield",
     "spear",
     "wheel",
@@ -11455,6 +11864,7 @@
     "eagle",
     "palm-branch",
     "scorpion",
+    "victoria",
     "wing",
     "wreath"
    ]
@@ -11473,6 +11883,7 @@
     "helmet",
     "lamp",
     "spear",
+    "victoria",
     "wing"
    ]
   },
@@ -11500,6 +11911,7 @@
    "plain": "Ком с венком на голове, опираясь щекой на руку у двери, с опущенным факелом; на земле цветы.",
    "motifs": [
     "barefoot",
+    "comus",
     "flower",
     "hand-on-cheek",
     "moon",
@@ -11514,6 +11926,7 @@
    "has_caption": true,
    "plain": "Вакх, бородатый Сатир, сатиры и вакханки; веселье вокруг, ребёнок с козлёнком.",
    "motifs": [
+    "bacchus",
     "beard",
     "child",
     "goat",
@@ -11530,6 +11943,7 @@
    "has_caption": true,
    "plain": "Вакхическое шествие: Вакх в колеснице, запряжённой кентаврами, крылатый Купидон и вакханки.",
    "motifs": [
+    "bacchus",
     "beard",
     "centaur",
     "chariot",
@@ -11549,6 +11963,7 @@
    "has_caption": true,
    "plain": "Вакх с тирсом, всадник на слоне и малая колесница с ребёнком, запряжённая зверем.",
    "motifs": [
+    "bacchus",
     "chariot",
     "elephant",
     "lion",
@@ -11564,6 +11979,7 @@
    "has_caption": true,
    "plain": "Корабль Вакха с вёслами; на носу ребёнок Вакх, внизу дельфины и падающий в море человек.",
    "motifs": [
+    "bacchus",
     "child",
     "dolphin",
     "nudity",
@@ -11585,9 +12001,11 @@
     "bird",
     "crocodile",
     "falcon",
+    "horus",
     "loose-hair",
     "snake",
     "snake-tail",
+    "typhon",
     "wing"
    ]
   },
@@ -11602,6 +12020,7 @@
     "barefoot",
     "cloak",
     "eye",
+    "horus",
     "nudity",
     "staff",
     "wing"
@@ -11619,6 +12038,7 @@
     "donkey",
     "goat",
     "plant",
+    "priapus",
     "sickle"
    ]
   },
@@ -11632,6 +12052,7 @@
     "crook",
     "dog",
     "helmet",
+    "lares",
     "spear",
     "tree",
     "vessel"
@@ -11648,6 +12069,7 @@
     "child",
     "cornucopia",
     "fruit",
+    "genius",
     "laurel-crown",
     "wreath"
    ]
@@ -11661,6 +12083,7 @@
    "motifs": [
     "ball",
     "cornucopia",
+    "fortuna",
     "fruit",
     "mantle",
     "rudder"
@@ -11677,6 +12100,7 @@
     "bowed-head",
     "child",
     "clasped-hands",
+    "fortuna",
     "throne",
     "veil"
    ]
@@ -11689,6 +12113,7 @@
    "plain": "Две женщины: крылатая со свёрнутым мечом и лопастным предметом и вторая, подносящая чашу ко рту и стоящая у колеса.",
    "motifs": [
     "dagger",
+    "nemesis",
     "vessel",
     "wheel",
     "wing"
@@ -11743,6 +12168,7 @@
     "beard",
     "bowed-head",
     "cloak",
+    "momus",
     "nudity",
     "stick"
    ]
@@ -11785,6 +12211,7 @@
    "has_caption": true,
    "plain": "Крылатая женщина с раскинутыми руками стоит на скале.",
    "motifs": [
+    "fortuna",
     "open-arms",
     "rock",
     "wing"
@@ -11800,6 +12227,7 @@
     "child",
     "cornucopia",
     "cupid",
+    "fortuna",
     "fruit",
     "plowshare",
     "wing"
@@ -11833,6 +12261,7 @@
     "brazier",
     "dog",
     "flame",
+    "fortuna",
     "nudity",
     "wheel",
     "wing"
@@ -11917,6 +12346,7 @@
     "cupid",
     "horns",
     "nudity",
+    "pan",
     "panpipes",
     "satyr",
     "wing"
@@ -11930,7 +12360,8 @@
    "plain": "Женщина в одеждах держит в руке раковину, другая рука протянута; вокруг три медальона с фигурами.",
    "motifs": [
     "mantle",
-    "shell"
+    "shell",
+    "venus"
    ]
   },
   "e0474": {
@@ -11952,6 +12383,7 @@
     "pedestal",
     "swan",
     "temple",
+    "venus",
     "wheel"
    ]
   },
@@ -11966,6 +12398,7 @@
     "cloud",
     "cupid",
     "swan",
+    "venus",
     "wheel",
     "wing",
     "wreath"
@@ -11984,6 +12417,7 @@
     "grace",
     "loose-hair",
     "nudity",
+    "venus",
     "wing"
    ]
   },
@@ -12018,7 +12452,8 @@
     "mantle",
     "shield",
     "spear",
-    "veil"
+    "veil",
+    "venus"
    ]
   },
   "e0489": {
@@ -12028,12 +12463,14 @@
    "has_caption": true,
    "plain": "Бородатый человек с книгой, лежащий мёртвый Адонис и скорбящая женщина в покрове.",
    "motifs": [
+    "adonis",
     "beard",
     "book",
     "clasped-hands",
     "cloak",
     "nudity",
-    "veil"
+    "veil",
+    "venus"
    ]
   },
   "e0495": {
@@ -12077,6 +12514,7 @@
     "flower",
     "grace",
     "hat",
+    "mercury",
     "nudity",
     "wing"
    ]
@@ -12095,6 +12533,7 @@
     "dagger",
     "dog",
     "lion",
+    "mithras",
     "raven",
     "snake",
     "torch",
@@ -12108,9 +12547,11 @@
    "has_caption": false,
    "plain": "Коленопреклонённый Аполлон перед цветком, из которого поднимается Гиацинт с поднятыми руками, рядом Купидон.",
    "motifs": [
+    "apollo",
     "bow",
     "cupid",
     "flower",
+    "hyacinthus",
     "kneeling",
     "nudity",
     "open-arms",
@@ -12125,10 +12566,12 @@
    "has_caption": false,
    "plain": "Аполлон с лирой стоит перед привязанным Марсием, рядом на коленях маленькая фигура.",
    "motifs": [
+    "apollo",
     "beard",
     "flute",
     "kneeling",
     "lyre",
+    "marsyas",
     "nudity",
     "tree"
    ]
@@ -12179,6 +12622,8 @@
     "eagle",
     "feather",
     "helmet",
+    "horus",
+    "isis",
     "kalathos",
     "minerva",
     "spear",
@@ -12325,6 +12770,7 @@
     "dolphin",
     "medallion",
     "nudity",
+    "palaemon",
     "tree",
     "waves"
    ]
@@ -12338,6 +12784,7 @@
    "motifs": [
     "beard",
     "nudity",
+    "oceanus",
     "waves"
    ]
   },
@@ -12350,6 +12797,7 @@
    "motifs": [
     "bare-breast",
     "nudity",
+    "nymphs",
     "rock",
     "vessel",
     "water"
@@ -12390,6 +12838,7 @@
    "plain": "Обнажённый крылатый юноша сдерживает встающего на дыбы крылатого коня.",
    "motifs": [
     "horse",
+    "mercury",
     "nudity",
     "pegasus",
     "wing"
@@ -12403,7 +12852,8 @@
    "plain": "Герма Термина: сужающийся столб с бородатой головой в лавровом венке, внизу ноги, шар и два каменных блока по сторонам.",
    "motifs": [
     "beard",
-    "laurel-crown"
+    "laurel-crown",
+    "terminus"
    ]
   },
   "e0542": {
@@ -12416,6 +12866,7 @@
     "beard",
     "caduceus",
     "flame",
+    "hercules",
     "moon",
     "nudity",
     "snake",
@@ -12433,6 +12884,7 @@
    "motifs": [
     "beard",
     "fur",
+    "hercules",
     "lyre",
     "nudity"
    ]
@@ -12447,6 +12899,7 @@
     "beard",
     "bow",
     "fur",
+    "hercules",
     "nudity",
     "trophy"
    ]
@@ -12461,6 +12914,7 @@
     "apple",
     "barefoot",
     "club",
+    "hercules",
     "nudity"
    ]
   },
@@ -12528,6 +12982,7 @@
     "cornucopia",
     "fruit",
     "hand-to-mouth",
+    "harpocrates",
     "kalathos",
     "nudity",
     "staff"
@@ -12559,6 +13014,7 @@
     "beard",
     "cupid",
     "helmet",
+    "mars",
     "nudity",
     "spear",
     "venus",
@@ -12573,6 +13029,7 @@
    "plain": "Обнажённый воин с копьём стоит на закруглённом основании и придерживает большой круглый щит.",
    "motifs": [
     "beard",
+    "mars",
     "nudity",
     "shield",
     "spear"
@@ -12589,6 +13046,7 @@
     "bridle",
     "donkey",
     "nudity",
+    "silenus",
     "vine-wreath"
    ]
   },
@@ -12617,6 +13075,7 @@
    "plain": "Бородатый мужчина в тоге и сандалиях с посохом и свитком в руке; в медальоне портретная голова.",
    "motifs": [
     "beard",
+    "genius",
     "mantle",
     "medallion",
     "scroll",
@@ -12634,6 +13093,7 @@
     "book",
     "child",
     "cornucopia",
+    "genius",
     "kalathos",
     "pig",
     "snake",
@@ -12650,6 +13110,7 @@
    "motifs": [
     "cornucopia",
     "fruit",
+    "genius",
     "nudity",
     "rays",
     "star",
@@ -12664,6 +13125,7 @@
    "plain": "Сидящая закутанная в покров женщина; под ней мужская фигура с раскинутыми руками, вокруг четыре медальона со сценами.",
    "motifs": [
     "crown",
+    "genius",
     "medallion",
     "nudity",
     "open-arms",
@@ -12684,6 +13146,7 @@
     "cornucopia",
     "flame",
     "fruit",
+    "genius",
     "mantle",
     "nudity",
     "snake",
@@ -12715,6 +13178,7 @@
     "coin",
     "crown",
     "cup",
+    "fortuna",
     "hat",
     "helmet",
     "lyre",
@@ -12733,6 +13197,7 @@
    "plain": "Нагая женщина с развевающимися волосами плывёт верхом на лебеде по воде, держа парус.",
    "motifs": [
     "bird",
+    "fortuna",
     "loose-hair",
     "nudity",
     "swan",
@@ -12806,6 +13271,7 @@
    "motifs": [
     "beard",
     "leaf-wreath",
+    "saturn",
     "sickle"
    ]
   },
@@ -12817,6 +13283,7 @@
    "plain": "Двуликая голова юного Януса, два профиля спиной друг к другу.",
    "motifs": [
     "headband",
+    "janus",
     "loose-hair",
     "two-faces"
    ]
@@ -12883,6 +13350,7 @@
    "has_caption": false,
    "plain": "Аттис в остроконечном колпаке, ожерелье и широкой одежде, одна рука поднята, другая на животе.",
    "motifs": [
+    "attis",
     "belt",
     "cap",
     "raised-hand"
@@ -12895,6 +13363,7 @@
    "has_caption": false,
    "plain": "Аттис со спины в остроконечном капюшоне и облегающих чулках, рука поднята.",
    "motifs": [
+    "attis",
     "belt",
     "raised-hand"
    ]
@@ -12969,6 +13438,7 @@
    "motifs": [
     "feather",
     "moon",
+    "quetzalcoatl",
     "star"
    ]
   },
@@ -12995,7 +13465,8 @@
     "barefoot",
     "cross",
     "feather",
-    "pointing-hand"
+    "pointing-hand",
+    "quetzalcoatl"
    ]
   },
   "e0597": {
@@ -13062,6 +13533,7 @@
    "motifs": [
     "feather",
     "pyramid",
+    "quetzalcoatl",
     "steps"
    ]
   },
@@ -13134,6 +13606,7 @@
    "plain": "Нагая фигура в короне и с сиянием держит два копья; на торсе много малых лиц и рук.",
    "motifs": [
     "crown",
+    "kannon",
     "nudity",
     "rays",
     "spear",
@@ -13147,6 +13620,7 @@
    "has_caption": false,
    "plain": "Две полуобнажённые фигуры сидят на цветах, правая с сиянием раскинула руки; слева лев, луна и звезда.",
    "motifs": [
+    "amida",
     "lion",
     "moon",
     "nudity",
@@ -13164,6 +13638,7 @@
    "has_caption": false,
    "plain": "Полуобнажённая фигура сидит на цветке в круглом храме с колоколами на цепях; вокруг воины с саблями и щитом.",
    "motifs": [
+    "amida",
     "bell",
     "chain",
     "nudity",

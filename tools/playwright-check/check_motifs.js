@@ -73,10 +73,13 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   await p.fill(q,'зме'); await W(500); let rows=await p.$$eval('.ic-mot-tile .ic-mot-nm',r=>r.map(x=>x.textContent));
   ok(T+'поиск «зме» (с начала слова)',rows.length>=1&&rows.every(x=>/(^|[\s-])зме/i.test(x)),rows.join(', '));
   await p.fill(q,'вен'); await W(500); rows=await p.$$eval('.ic-mot-tile .ic-mot-nm',r=>r.map(x=>x.textContent));
-  ok(T+'поиск «вен»: вхождение в любом месте, сначала с начала названия',rows.length>=5&&/^вен/i.test(rows[0])&&rows.some(x=>x.toLowerCase().indexOf('вен')>0),rows.slice(0,6).join(', '));
+  ok(T+'поиск «вен» (короче 4 символов): только с начала слов',rows.length>=5&&rows.every(x=>/(^|[\s-,])вен/i.test(x)),rows.slice(0,6).join(', '));
   await p.fill(q,'мея'); await W(400);
   const mey=await p.$$eval('.ic-mot-tile .ic-mot-nm',r=>r.map(x=>x.textContent));
-  ok(T+'вхождение в середине слова — «мея» находит «Змея»',mey.some(x=>/^Змея/.test(x)),mey.join(', '));
+  ok(T+'«мея» (3 символа) внутри слова не ищется',mey.length===0,mey.join(', '));
+  await p.fill(q,'ноград'); await W(400);
+  const ing=await p.$$eval('.ic-mot-tile .ic-mot-nm',r=>r.map(x=>x.textContent));
+  ok(T+'«ноград» (с 4 символов) — вхождение внутри слова находит «виноград…»',ing.length>0&&ing.every(x=>/виноград/i.test(x)),ing.join(', '));
   await p.fill(q,'zzzqqq'); await W(400);
   const none=await p.$eval('.ic-mot-body .ic-mot-nf',e=>e.innerText).catch(()=>null);
   ok(T+'ничего нет — «Мотив не найден» и ссылка поиска по текстам книг',/Мотив не найден/.test(none||'')&&/Искать «zzzqqq» в текстах книг/.test(none||''),String(none).replace(/\n+/g,' | '));
