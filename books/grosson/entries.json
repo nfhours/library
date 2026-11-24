@@ -5453,7 +5453,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl10-full.webp"
+        "pl10-1.webp"
       ],
       "plate_img": "pl10-full.webp",
       "bbox": [
@@ -5516,7 +5516,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl10-full.webp"
+        "pl10-2.webp"
       ],
       "plate_img": "pl10-full.webp",
       "bbox": [
@@ -5660,7 +5660,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl12-full.webp"
+        "pl12-1.webp"
       ],
       "plate_img": "pl12-full.webp",
       "bbox": [
@@ -5720,7 +5720,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl12-full.webp"
+        "pl12-2.webp"
       ],
       "plate_img": "pl12-full.webp",
       "bbox": [
@@ -5834,7 +5834,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl13-full.webp"
+        "pl13-1.webp"
       ],
       "plate_img": "pl13-full.webp",
       "bbox": [
@@ -5888,7 +5888,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl13-full.webp"
+        "pl13-2.webp"
       ],
       "plate_img": "pl13-full.webp",
       "bbox": [
@@ -5951,7 +5951,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl14-full.webp"
+        "pl14-1.webp"
       ],
       "plate_img": "pl14-full.webp",
       "bbox": [
@@ -6017,7 +6017,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl14-full.webp"
+        "pl14-2.webp"
       ],
       "plate_img": "pl14-full.webp",
       "bbox": [
@@ -6071,7 +6071,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl14-full.webp"
+        "pl14-3.webp"
       ],
       "plate_img": "pl14-full.webp",
       "bbox": [
@@ -6131,7 +6131,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl15-full.webp"
+        "pl15-1.webp"
       ],
       "plate_img": "pl15-full.webp",
       "bbox": [
@@ -6197,7 +6197,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl15-full.webp"
+        "pl15-2.webp"
       ],
       "plate_img": "pl15-full.webp",
       "bbox": [
@@ -6254,7 +6254,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl15-full.webp"
+        "pl15-3.webp"
       ],
       "plate_img": "pl15-full.webp",
       "bbox": [
@@ -6316,7 +6316,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl15-full.webp"
+        "pl15-4.webp"
       ],
       "plate_img": "pl15-full.webp",
       "bbox": [
@@ -6385,7 +6385,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl16-full.webp"
+        "pl16-1.webp"
       ],
       "plate_img": "pl16-full.webp",
       "bbox": [
@@ -6439,7 +6439,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl16-full.webp"
+        "pl16-2.webp"
       ],
       "plate_img": "pl16-full.webp",
       "bbox": [
@@ -6496,7 +6496,7 @@
       "material_ru": "восточный алебастр",
       "material_en": "oriental alabaster",
       "img": [
-        "pl16-full.webp"
+        "pl16-3.webp"
       ],
       "plate_img": "pl16-full.webp",
       "bbox": [
@@ -6556,7 +6556,7 @@
       "material_ru": "известковый камень",
       "material_en": "limestone pebble",
       "img": [
-        "pl16-full.webp"
+        "pl16-4.webp"
       ],
       "plate_img": "pl16-full.webp",
       "bbox": [
@@ -6703,7 +6703,7 @@
       "material_ru": "бычья кость",
       "material_en": "ox bone",
       "img": [
-        "pl17-full.webp"
+        "pl17-2.webp"
       ],
       "plate_img": "pl17-full.webp",
       "bbox": [
@@ -6763,7 +6763,7 @@
       "material_ru": "гранит (т.н. «плавкий камень»)",
       "material_en": "granite (the so-called \"fusile stone\")",
       "img": [
-        "pl17-full.webp"
+        "pl17-3.webp"
       ],
       "plate_img": "pl17-full.webp",
       "bbox": [
@@ -6820,7 +6820,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl18-full.webp"
+        "pl18-1.webp"
       ],
       "plate_img": "pl18-full.webp",
       "bbox": [
@@ -6889,7 +6889,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl18-full.webp"
+        "pl18-2.webp"
       ],
       "plate_img": "pl18-full.webp",
       "bbox": [
@@ -6946,7 +6946,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl18-full.webp"
+        "pl18-3.webp"
       ],
       "plate_img": "pl18-full.webp",
       "bbox": [
@@ -7006,7 +7006,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl19-full.webp"
+        "pl19-1.webp"
       ],
       "plate_img": "pl19-full.webp",
       "bbox": [
@@ -7069,7 +7069,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl19-full.webp"
+        "pl19-2.webp"
       ],
       "plate_img": "pl19-full.webp",
       "bbox": [
@@ -7141,7 +7141,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl20-full.webp"
+        "pl20-1.webp"
       ],
       "plate_img": "pl20-full.webp",
       "bbox": [
@@ -7216,7 +7216,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl20-full.webp"
+        "pl20-2.webp"
       ],
       "plate_img": "pl20-full.webp",
       "bbox": [
@@ -7282,7 +7282,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl20-full.webp"
+        "pl20-3.webp"
       ],
       "plate_img": "pl20-full.webp",
       "bbox": [
@@ -7345,7 +7345,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl21-full.webp"
+        "pl21-1.webp"
       ],
       "plate_img": "pl21-full.webp",
       "bbox": [
@@ -7402,7 +7402,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl21-full.webp"
+        "pl21-2.webp"
       ],
       "plate_img": "pl21-full.webp",
       "bbox": [
@@ -7465,7 +7465,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl22-full.webp"
+        "pl22-1.webp"
       ],
       "plate_img": "pl22-full.webp",
       "bbox": [
@@ -7528,7 +7528,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl22-full.webp"
+        "pl22-2.webp"
       ],
       "plate_img": "pl22-full.webp",
       "bbox": [
@@ -7594,7 +7594,7 @@
       "material_ru": "белый статуарный мрамор",
       "material_en": "white statuary marble",
       "img": [
-        "pl23-full.webp"
+        "pl23-1.webp"
       ],
       "plate_img": "pl23-full.webp",
       "bbox": [
@@ -7651,7 +7651,7 @@
       "material_ru": "тёсаный камень, астрагал из белого мрамора",
       "material_en": "cut stone, astragal of white marble",
       "img": [
-        "pl23-full.webp"
+        "pl23-2.webp"
       ],
       "plate_img": "pl23-full.webp",
       "bbox": [
@@ -7711,7 +7711,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl24-full.webp"
+        "pl24-1.webp"
       ],
       "plate_img": "pl24-full.webp",
       "bbox": [
@@ -7765,7 +7765,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl24-full.webp"
+        "pl24-2.webp"
       ],
       "plate_img": "pl24-full.webp",
       "bbox": [
@@ -7819,7 +7819,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl24-full.webp"
+        "pl24-3.webp"
       ],
       "plate_img": "pl24-full.webp",
       "bbox": [
@@ -7879,7 +7879,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl25-full.webp"
+        "pl25-1.webp"
       ],
       "plate_img": "pl25-full.webp",
       "bbox": [
@@ -7933,7 +7933,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl25-full.webp"
+        "pl25-2.webp"
       ],
       "plate_img": "pl25-full.webp",
       "bbox": [
@@ -7987,7 +7987,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl25-full.webp"
+        "pl25-3.webp"
       ],
       "plate_img": "pl25-full.webp",
       "bbox": [
@@ -8041,7 +8041,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl25-full.webp"
+        "pl25-4.webp"
       ],
       "plate_img": "pl25-full.webp",
       "bbox": [
@@ -8176,7 +8176,7 @@
       "material_ru": "камень Кап-Куронн; белый мрамор (№ 2)",
       "material_en": "Cap Couronne stone; white marble (no. 2)",
       "img": [
-        "pl27-full.webp"
+        "pl27-1.webp"
       ],
       "plate_img": "pl27-full.webp",
       "bbox": [
@@ -8242,7 +8242,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl27-full.webp"
+        "pl27-2.webp"
       ],
       "plate_img": "pl27-full.webp",
       "bbox": [
@@ -8298,7 +8298,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl28-full.webp"
+        "pl28-1.webp"
       ],
       "plate_img": "pl28-full.webp",
       "bbox": [
@@ -8352,7 +8352,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl28-full.webp"
+        "pl28-2.webp"
       ],
       "plate_img": "pl28-full.webp",
       "bbox": [
@@ -8406,7 +8406,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl28-full.webp"
+        "pl28-3.webp"
       ],
       "plate_img": "pl28-full.webp",
       "bbox": [
@@ -8625,7 +8625,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl29-full.webp"
+        "pl29-4.webp"
       ],
       "plate_img": "pl29-full.webp",
       "bbox": [
@@ -8682,7 +8682,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl29-full.webp"
+        "pl29-5.webp"
       ],
       "plate_img": "pl29-full.webp",
       "bbox": [
@@ -8736,7 +8736,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl29-full.webp"
+        "pl29-6.webp"
       ],
       "plate_img": "pl29-full.webp",
       "bbox": [
@@ -8844,7 +8844,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl29-full.webp"
+        "pl29-8.webp"
       ],
       "plate_img": "pl29-full.webp",
       "bbox": [
@@ -8904,7 +8904,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl30-full.webp"
+        "pl30-1.webp"
       ],
       "plate_img": "pl30-full.webp",
       "bbox": [
@@ -8964,7 +8964,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl30-full.webp"
+        "pl30-2.webp"
       ],
       "plate_img": "pl30-full.webp",
       "bbox": [
@@ -9018,7 +9018,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl30-full.webp"
+        "pl30-3.webp"
       ],
       "plate_img": "pl30-full.webp",
       "bbox": [
@@ -9072,7 +9072,7 @@
       "material_ru": "терракота; штукатурка (шов)",
       "material_en": "terra cotta; plaster (join)",
       "img": [
-        "pl30-full.webp"
+        "pl30-4.webp"
       ],
       "plate_img": "pl30-full.webp",
       "bbox": [
@@ -9126,7 +9126,7 @@
       "material_ru": "стекло",
       "material_en": "glass",
       "img": [
-        "pl30-full.webp"
+        "pl30-5.webp"
       ],
       "plate_img": "pl30-full.webp",
       "bbox": [
@@ -9183,7 +9183,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl30-full.webp"
+        "pl30-6.webp"
       ],
       "plate_img": "pl30-full.webp",
       "bbox": [
@@ -9237,7 +9237,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl30-full.webp"
+        "pl30-7.webp"
       ],
       "plate_img": "pl30-full.webp",
       "bbox": [
@@ -9291,7 +9291,7 @@
       "material_ru": "бронза",
       "material_en": "bronze",
       "img": [
-        "pl31-full.webp"
+        "pl31-1.webp"
       ],
       "plate_img": "pl31-full.webp",
       "bbox": [
@@ -9405,7 +9405,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl31-full.webp"
+        "pl31-3.webp"
       ],
       "plate_img": "pl31-full.webp",
       "bbox": [
@@ -9459,7 +9459,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl31-full.webp"
+        "pl31-4.webp"
       ],
       "plate_img": "pl31-full.webp",
       "bbox": [
@@ -9513,7 +9513,7 @@
       "material_ru": "стекло",
       "material_en": "glass",
       "img": [
-        "pl31-full.webp"
+        "pl31-5.webp"
       ],
       "plate_img": "pl31-full.webp",
       "bbox": [
@@ -9567,7 +9567,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl31-full.webp"
+        "pl31-6.webp"
       ],
       "plate_img": "pl31-full.webp",
       "bbox": [
@@ -9621,7 +9621,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl31-full.webp"
+        "pl31-7.webp"
       ],
       "plate_img": "pl31-full.webp",
       "bbox": [
@@ -9692,7 +9692,7 @@
       "material_ru": "нефрит",
       "material_en": "jade",
       "img": [
-        "pl32-full.webp"
+        "pl32-1.webp"
       ],
       "plate_img": "pl32-full.webp",
       "bbox": [
@@ -9752,7 +9752,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl32-full.webp"
+        "pl32-2.webp"
       ],
       "plate_img": "pl32-full.webp",
       "bbox": [
@@ -9806,7 +9806,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl32-full.webp"
+        "pl32-3.webp"
       ],
       "plate_img": "pl32-full.webp",
       "bbox": [
@@ -9866,7 +9866,7 @@
       "material_ru": "алебастр",
       "material_en": "alabaster",
       "img": [
-        "pl32-full.webp"
+        "pl32-4.webp"
       ],
       "plate_img": "pl32-full.webp",
       "bbox": [
@@ -9923,7 +9923,7 @@
       "material_ru": "стекло",
       "material_en": "glass",
       "img": [
-        "pl32-full.webp"
+        "pl32-5.webp"
       ],
       "plate_img": "pl32-full.webp",
       "bbox": [
@@ -9977,7 +9977,7 @@
       "material_ru": "стекло",
       "material_en": "glass",
       "img": [
-        "pl32-full.webp"
+        "pl32-6.webp"
       ],
       "plate_img": "pl32-full.webp",
       "bbox": [
@@ -10034,7 +10034,7 @@
       "material_ru": "терракота; медная пластина",
       "material_en": "terra cotta; copper plate",
       "img": [
-        "pl32-full.webp"
+        "pl32-7.webp"
       ],
       "plate_img": "pl32-full.webp",
       "bbox": [
@@ -10103,7 +10103,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl32-full.webp"
+        "pl32-8.webp"
       ],
       "plate_img": "pl32-full.webp",
       "bbox": [
@@ -10157,7 +10157,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl33-full.webp"
+        "pl33-1.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10211,7 +10211,7 @@
       "material_ru": "медь",
       "material_en": "copper",
       "img": [
-        "pl33-full.webp"
+        "pl33-2.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10265,7 +10265,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl33-full.webp"
+        "pl33-3.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10319,7 +10319,7 @@
       "material_ru": "позолоченная терракота",
       "material_en": "gilded terra cotta",
       "img": [
-        "pl33-full.webp"
+        "pl33-4.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10373,7 +10373,7 @@
       "material_ru": "стекло",
       "material_en": "glass",
       "img": [
-        "pl33-full.webp"
+        "pl33-5.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10427,7 +10427,7 @@
       "material_ru": "золото",
       "material_en": "gold",
       "img": [
-        "pl33-full.webp"
+        "pl33-6.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10487,7 +10487,7 @@
       "material_ru": "серебро",
       "material_en": "silver",
       "img": [
-        "pl33-full.webp"
+        "pl33-7.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10541,7 +10541,7 @@
       "material_ru": "медь",
       "material_en": "copper",
       "img": [
-        "pl33-full.webp"
+        "pl33-8.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10595,7 +10595,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl33-full.webp"
+        "pl33-9.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10649,7 +10649,7 @@
       "material_ru": "терракота",
       "material_en": "terra cotta",
       "img": [
-        "pl33-full.webp"
+        "pl33-10.webp"
       ],
       "plate_img": "pl33-full.webp",
       "bbox": [
@@ -10703,7 +10703,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl34-full.webp"
+        "pl34-1.webp"
       ],
       "plate_img": "pl34-full.webp",
       "bbox": [
@@ -10937,7 +10937,7 @@
       "material_ru": "белый статуарный мрамор",
       "material_en": "white statuary marble",
       "img": [
-        "pl37-full.webp"
+        "pl37-1.webp"
       ],
       "plate_img": "pl37-full.webp",
       "bbox": [
@@ -11000,7 +11000,7 @@
       "material_ru": "обычный мрамор",
       "material_en": "common marble",
       "img": [
-        "pl37-full.webp"
+        "pl37-2.webp"
       ],
       "plate_img": "pl37-full.webp",
       "bbox": [
@@ -11081,7 +11081,7 @@
       "material_ru": "камень Кап-Куронн",
       "material_en": "Cap Couronne stone",
       "img": [
-        "pl37-full.webp"
+        "pl37-3.webp"
       ],
       "plate_img": "pl37-full.webp",
       "bbox": [
@@ -11144,7 +11144,7 @@
       "material_ru": "белый статуарный мрамор",
       "material_en": "white statuary marble",
       "img": [
-        "pl37-full.webp"
+        "pl37-4.webp"
       ],
       "plate_img": "pl37-full.webp",
       "bbox": [
@@ -11207,7 +11207,7 @@
       "material_ru": "\"холодный камень\"",
       "material_en": "\"cold stone\"",
       "img": [
-        "pl38-full.webp"
+        "pl38-1.webp"
       ],
       "plate_img": "pl38-full.webp",
       "bbox": [
@@ -11281,7 +11281,7 @@
       "material_ru": "\"холодный камень\"",
       "material_en": "\"cold stone\"",
       "img": [
-        "pl38-full.webp"
+        "pl38-2.webp"
       ],
       "plate_img": "pl38-full.webp",
       "bbox": [
@@ -11341,7 +11341,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl38-full.webp"
+        "pl38-3.webp"
       ],
       "plate_img": "pl38-full.webp",
       "bbox": [
@@ -11404,7 +11404,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl38-full.webp"
+        "pl38-4.webp"
       ],
       "plate_img": "pl38-full.webp",
       "bbox": [
@@ -11464,7 +11464,7 @@
       "material_ru": "арльский камень",
       "material_en": "Arles stone",
       "img": [
-        "pl39-full.webp"
+        "pl39-1.webp"
       ],
       "plate_img": "pl39-full.webp",
       "bbox": [
@@ -11527,7 +11527,7 @@
       "material_ru": "мрамор",
       "material_en": "marble",
       "img": [
-        "pl39-full.webp"
+        "pl39-2.webp"
       ],
       "plate_img": "pl39-full.webp",
       "bbox": [
@@ -11587,7 +11587,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl39-full.webp"
+        "pl39-3.webp"
       ],
       "plate_img": "pl39-full.webp",
       "bbox": [
@@ -11650,7 +11650,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl39-full.webp"
+        "pl39-4.webp"
       ],
       "plate_img": "pl39-full.webp",
       "bbox": [
@@ -11715,7 +11715,7 @@
       "material_ru": "\"холодный камень\"",
       "material_en": "\"cold stone\"",
       "img": [
-        "pl39-full.webp"
+        "pl39-5.webp"
       ],
       "plate_img": "pl39-full.webp",
       "bbox": [
@@ -11775,7 +11775,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl40-full.webp"
+        "pl40-1.webp"
       ],
       "plate_img": "pl40-full.webp",
       "bbox": [
@@ -11838,7 +11838,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl40-full.webp"
+        "pl40-2.webp"
       ],
       "plate_img": "pl40-full.webp",
       "bbox": [
@@ -11901,7 +11901,7 @@
       "material_ru": "обычный тёсаный камень",
       "material_en": "ordinary cut stone",
       "img": [
-        "pl40-full.webp"
+        "pl40-3.webp"
       ],
       "plate_img": "pl40-full.webp",
       "bbox": [
@@ -11958,7 +11958,7 @@
       "material_ru": "обычный тёсаный камень",
       "material_en": "ordinary cut stone",
       "img": [
-        "pl40-full.webp"
+        "pl40-4.webp"
       ],
       "plate_img": "pl40-full.webp",
       "bbox": [
@@ -12015,7 +12015,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl41-full.webp"
+        "pl41-1.webp"
       ],
       "plate_img": "pl41-full.webp",
       "bbox": [
@@ -12072,7 +12072,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl41-full.webp"
+        "pl41-2.webp"
       ],
       "plate_img": "pl41-full.webp",
       "bbox": [
@@ -12135,7 +12135,7 @@
       "material_ru": "камень каменоломни Касси",
       "material_en": "stone of the Cassis quarry",
       "img": [
-        "pl41-full.webp"
+        "pl41-3.webp"
       ],
       "plate_img": "pl41-full.webp",
       "bbox": [
@@ -12195,7 +12195,7 @@
       "material_ru": "камень каменоломни Касси",
       "material_en": "stone of the Cassis quarry",
       "img": [
-        "pl41-full.webp"
+        "pl41-4.webp"
       ],
       "plate_img": "pl41-full.webp",
       "bbox": [
@@ -12258,7 +12258,7 @@
       "material_ru": "белый мрамор",
       "material_en": "white marble",
       "img": [
-        "pl41-full.webp"
+        "pl41-5.webp"
       ],
       "plate_img": "pl41-full.webp",
       "bbox": [
@@ -12333,7 +12333,7 @@
       "material_ru": "камень каменоломни Касси",
       "material_en": "stone of the Cassis quarry",
       "img": [
-        "pl42-full.webp"
+        "pl42-1.webp"
       ],
       "plate_img": "pl42-full.webp",
       "bbox": [
@@ -12393,7 +12393,7 @@
       "material_ru": "",
       "material_en": "",
       "img": [
-        "pl42-full.webp"
+        "pl42-2.webp"
       ],
       "plate_img": "pl42-full.webp",
       "bbox": [
@@ -12458,7 +12458,7 @@
       "material_ru": "камень каменоломни Касси",
       "material_en": "stone of the Cassis quarry",
       "img": [
-        "pl42-full.webp"
+        "pl42-3.webp"
       ],
       "plate_img": "pl42-full.webp",
       "bbox": [

@@ -36,6 +36,9 @@
   .hb .boxlabel{position:absolute;left:2px;top:2px;width:54px;font-size:11px;color:#fff;background:var(--box);border:none;border-radius:3px;padding:1px 4px;outline:none}
   .hb .boxlabel::placeholder{color:rgba(255,255,255,.75)}
   .hb.saved .boxlabel{background:var(--box-saved)}
+  .hb.eraser{border:2px dashed #1f5fbf;background:rgba(31,95,191,.14)}
+  .hb.eraser .boxlabel{background:#1f5fbf}
+  .hb.eraser .handle{background:#1f5fbf}
   .hb .boxclose{position:absolute;right:-9px;top:-9px;width:18px;height:18px;border-radius:50%;background:#333;color:#fff;border:2px solid #fff;font-size:11px;line-height:14px;text-align:center;cursor:pointer}
   .hb .boxorder{position:absolute;right:16px;top:-9px;display:flex;gap:2px}
   .hb .boxorder button{width:16px;height:16px;border-radius:50%;background:#333;color:#fff;border:2px solid #fff;font-size:9px;line-height:10px;text-align:center;cursor:pointer;padding:0}
@@ -97,6 +100,7 @@
   </label>
   <div class="controls">
     <button id="addBoxB">+ Рамка</button>
+    <button id="addEraserB" hidden title="Зона вычитания: её область закрашивается бумагой во всех вырезках, которые она пересекает (подпись «−»)">+ Ластик</button>
     <button id="resetB">Сбросить рамки</button>
     <button id="saveB" class="primary">Сохранить</button>
   </div>
@@ -105,6 +109,7 @@
     <span><i class="sw" style="background:var(--box)"></i> не сохранено</span>
     <span><i class="sw" style="background:var(--box-saved)"></i> сохранено</span>
     <span><i class="sw" style="background:#946"></i> флажок</span>
+    <span><i class="sw" style="background:#1f5fbf"></i> ластик (только grosson)</span>
   </div>
   <p class="hint">На одной странице может быть несколько гравюр — добавляй рамку кнопкой «+ Рамка» на каждую. Рамка = гравюра + орнаментальная рамка вокруг неё, подпись внутри общей рамки — включайте. Сохраняется сразу в crops.json на диске, никуда во внешний сервис не уходит.</p>
 </main>
@@ -114,6 +119,7 @@
 <script>
 (function(){
   function defaultBox(){ return {x:8,y:8,w:84,h:84,label:''}; }
+  function isEraser(b){ return ['−','-','–','—'].indexOf(String(b.label||'').trim()) > -1; }
   function normBox(b){
     if(Array.isArray(b)) return {x:b[0],y:b[1],w:b[2],h:b[3],label:''};
     return {x:b.x,y:b.y,w:b.w,h:b.h,label:b.label||''};
@@ -207,7 +213,7 @@
     var isSaved = !!state.crops[fname] && !state.crops[fname].seed;
     state.boxes.forEach(function(box, i){
       var el = document.createElement('div');
-      el.className = 'hb' + (isSaved ? ' saved' : '');
+      el.className = 'hb' + (isSaved ? ' saved' : '') + (isEraser(box) ? ' eraser' : '');
       el.style.left = box.x+'%';
       el.style.top = box.y+'%';
       el.style.width = box.w+'%';
@@ -358,6 +364,12 @@
     state.boxes.push(defaultBox());
     renderBoxes();
   });
+  document.getElementById('addEraserB').addEventListener('click', function(){
+    state.noPlate = false;
+    noPlateBanner.hidden = true;
+    state.boxes.push({x:8,y:8,w:30,h:20,label:'−'});
+    renderBoxes();
+  });
   document.getElementById('resetB').addEventListener('click', function(){
     state.boxes = [];
     renderBoxes();
@@ -396,6 +408,7 @@
     state.images = cfg.images;
     state.emblemsByFrame = cfg.emblemsByFrame || {};
     state.info = cfg.info || {};
+    if(Object.keys(state.info).length) document.getElementById('addEraserB').hidden = false;   // ластик — только в режиме grosson
     bookTitleEl.textContent = cfg.book + ' — локальная обрезка';
     document.title = cfg.book + ' — Local Crop Editor';
     return fetch('/api/crops');

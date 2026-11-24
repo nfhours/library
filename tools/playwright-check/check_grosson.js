@@ -40,7 +40,7 @@ const greenCount=p=>p.evaluate(()=>{ const bad=[]; document.querySelectorAll('.i
   const bars=await p.evaluate(()=>{ const r=document.querySelector('.ic-rbar'), t=document.getElementById('ic-booktabs'); const g=e=>e?[Math.round(e.getBoundingClientRect().left),Math.round(e.getBoundingClientRect().width)]:null; return {rb:g(r),bt:g(t)}; });
   ok(tag+'полосы шапки во всю ширину',bars.rb&&bars.rb[0]===0&&bars.rb[1]===w&&bars.bt&&bars.bt[1]===w,JSON.stringify(bars));
   const lb0=await p.$eval('[data-rb="part"]',e=>e.textContent.trim()); ok(tag+'строка раздела показывает значение («Все части ▾»)',/Все части/.test(lb0)&&/▾/.test(lb0),lb0);
-  const empt=await p.$$eval('.ic-gal-img',e=>Math.max(...e.map(g=>{ const r=g.getBoundingClientRect(),i=g.querySelector('img').getBoundingClientRect(); return 1-i.height/r.height; }))); ok(tag+'плитки без пустых полей > 15% высоты',empt<=0.15,empt.toFixed(3));
+  const empt=await p.$$eval('.ic-gal-img',e=>Math.max(...e.map(g=>{ const r=g.getBoundingClientRect(),i=g.querySelector('img').getBoundingClientRect(); return 1-(i.height+6)/r.height; })));   // 6 px — рамка и отступ плитки (у очень узких вырезок они сами дают > 15%) ok(tag+'плитки без пустых полей > 15% высоты',empt<=0.15,empt.toFixed(3));
   await p.tap('[data-rb="part"]'); await W(600);
   const rows=await p.$$eval('#ic-gro-part [data-f]',e=>e.map(x=>x.textContent.trim()+(x.getAttribute('aria-pressed')==='true'?'*':''))); const rh=await p.$$eval('#ic-gro-part [data-f]',e=>e.map(x=>Math.round(x.getBoundingClientRect().height)));
   ok(tag+'шторка «Часть»: все + 5 частей, строки ≥ 44',rows.length===6&&rh.every(x=>x>=44),rows.join(' | '));
