@@ -18963,12 +18963,12 @@
       "text_ru": [
         "Этот мрачный образ, как мне кажется, довольно хорошо являет Размышление об этом последнем часе — в облике женщины, облачённой в траур и сидящей на гробнице, где она пристально смотрит на череп; а вокруг неё — свиток с надписью O MORS, QVAM AMARA EST MEMORIA TVA («О СМЕРТЬ, СКОЛЬ ГОРЬКА ПАМЯТЬ О ТЕБЕ!»).",
         "О Смерть, сколь горька память об имени твоём!",
-        "Это довольно подтверждается тем отвращением, которое живые существа питают к ней от природы, так что не без"
+        "Это довольно подтверждается тем отвращением, которое живые существа питают к ней от природы, так что не без […]"
       ],
       "text_fr": [
         "Ce tableau funeste represente assez bien, ce me semble, la Meditation de cette derniere fin par vne femme vêtuë de dueil, & assise sur vn tombeau, où elle regarde fixement vne teste de mort; & tout à l'entour d'elle est vn écriteau, avec ces mots, O MORS, QVAM AMARA EST MEMORIA TVA.",
         "O Mort, que de ton nom la memoire est amere!",
-        "Ce qui se verifie assez par l'aversion qu'ont naturellement pour elle les creatures vivantes; si bien que ce n'est pas sans"
+        "Ce qui se verifie assez par l'aversion qu'ont naturellement pour elle les creatures vivantes; si bien que ce n'est pas sans […]"
       ],
       "en": "Meditation on Death",
       "group_en": "Virtues and Piety (untitled in the book)",
@@ -18979,11 +18979,14 @@
       "text_en": [
         "This mournful image represents, it seems to me, rather well the Meditation upon this last end, by a woman clothed in mourning, and seated upon a tomb, where she fixedly regards a death's head; and all about her is a scroll, with these words, O MORS, QVAM AMARA EST MEMORIA TVA (“O death, how bitter is the remembrance of thee”).",
         "O Death, how bitter is the memory of thy name!",
-        "Which is sufficiently confirmed by the aversion that living creatures naturally bear toward her; so that it is not without"
+        "Which is sufficiently confirmed by the aversion that living creatures naturally bear toward her; so that it is not without […]"
       ],
       "name_fr": "Meditation de la mort",
       "group_frtrans": "Vertus et piété (sans titre dans le livre)",
-      "crop_verified": true
+      "crop_verified": true,
+      "note_ru": "В издании 1677 года фраза не закончена: вероятно, пропуск при наборе.",
+      "note_en": "The sentence is left unfinished in the 1677 edition, probably an omission in typesetting.",
+      "note_fr": "Phrase inachevée dans l'édition de 1677, probablement une omission à la composition."
     },
     {
       "id": "p2-158",
