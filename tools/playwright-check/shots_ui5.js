@@ -4,7 +4,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
 (async () => {
   const br = await webkit.launch(); const ctx = await br.newContext({ ...devices['iPhone 13'] }); const p = await ctx.newPage();
   const errs = []; p.on('pageerror', e => errs.push(e.message));
-  const shot = async n => p.screenshot({ path: 'out/ui5-' + n + '.png' });
+  const shot = async n => p.screenshot({ path: require('path').join(__dirname, 'out', 'ui5-' + n + '.png') });
   const go = async h => { await p.goto(BASE + '#/' + h); await p.evaluate(() => { sessionStorage.clear(); localStorage.setItem('ic-lang', 'ru'); }); await p.reload(); await W(2200); };
   await go('iconologie/list'); await shot('ripa-list');
   await p.click('[data-rb="sort"]'); await W(700); await shot('ripa-order-sheet');

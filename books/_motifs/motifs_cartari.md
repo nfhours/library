@@ -1,6 +1,6 @@
 # Мотивы Картари
 
-Гравюр: 252, с мотивами: 250. Мотивов: 303 (общих с Рипой 1677: 216, новых: 87). «Под вопросом»: 1315 записей. Гравюр без подписи: 94.
+Гравюр: 252, с мотивами: 251. Мотивов: 300 (общих с Рипой 1677: 213, новых: 87). «Под вопросом»: 1309 записей. Гравюр без подписи: 94.
 
 Как собрано: подсказки-кандидаты из подписей и текста глав (plates.json, chapters_ru.json), затем **каждая гравюра просмотрена по изображению**: в мотивы попало только то, что видно на гравюре. Названное в тексте, но не найденное на гравюре — в «под вопросом». id, названия, категории и родители Рипы сохранены; новые мотивы помечены.
 
@@ -11,23 +11,23 @@
 | 1 | нагота | nudity | 106 |
 | 2 | борода | beard | 72 |
 | 3 | крылья | wing | 61 |
-| 4 | рука | hand | 58 |
-| 5 | оружие | weapon | 58 |
-| 6 | босые ноги | barefoot | 39 |
-| 7 | плащ | cloak | 37 |
-| 8 | птица | bird | 35 |
-| 9 | венок | wreath | 35 |
-| 10 | младенец | child | 33 |
-| 11 | медальон | medallion | 32 |
-| 12 | доспехи | armor | 31 |
-| 13 | шлем | helmet | 28 |
-| 14 | змея | snake | 28 |
-| 15 | грудь | breast | 27 |
-| 16 | обнажённая грудь | bare-breast | 25 |
-| 17 | копьё | spear | 25 |
-| 18 | перо на шлеме | feather | 24 |
-| 19 | плоды | fruit | 23 |
-| 20 | лучи | rays | 23 |
+| 4 | оружие | weapon | 58 |
+| 5 | босые ноги | barefoot | 39 |
+| 6 | плащ | cloak | 37 |
+| 7 | птица | bird | 35 |
+| 8 | венок | wreath | 35 |
+| 9 | младенец | child | 33 |
+| 10 | медальон | medallion | 32 |
+| 11 | доспехи | armor | 31 |
+| 12 | шлем | helmet | 28 |
+| 13 | змея | snake | 28 |
+| 14 | грудь | breast | 27 |
+| 15 | обнажённая грудь | bare-breast | 25 |
+| 16 | копьё | spear | 25 |
+| 17 | перо на шлеме | feather | 24 |
+| 18 | плоды | fruit | 23 |
+| 19 | лучи | rays | 23 |
+| 20 | корона | crown | 22 |
 
 ## По разделам
 
@@ -65,7 +65,7 @@
 | коготь | talon | serre | talon | 2 | e0581, e0599 |
 | волк | wolf | loup | wolf | 2 | e0091, e0108 |
 | Химера | Chimera | Chimère | chimera | 1 | e0289 |
-| олень | deer | cerf | deer | 1 | e0132 |
+| олень | deer | cerf | deer | 1 (1 сам) | e0132 |
 | гриф (грифон) | griffin | griffon | griffin | 1 | e0547 |
 | гарпия ✦ | harpy | harpie | harpy | 1 | e0286 |
 | пантера | panther | panthère | panther | 1 | e0137 |
@@ -101,7 +101,7 @@
 | облако | cloud | nuage | cloud | 19 | e0041, e0044, e0058 |
 | звезда | star | étoile | star | 17 | e0044, e0068, e0103 |
 | луна | moon | lune | moon | 9 | e0110, e0132, e0137 |
-| солнце | sun | soleil | sun | 6 | e0041, e0044, e0110 |
+| солнце | sun | soleil | sun | 6 (6 сам) | e0041, e0044, e0110 |
 | молния | lightning | foudre | lightning | 4 | e0172, e0180, e0359 |
 | зодиак | zodiac | zodiaque | zodiac | 3 (2 сам) | e0041, e0044, e0574 |
 | &emsp;знак Близнецов | sign of Gemini | signe des Gémeaux | gemini | 1 | e0574 |
@@ -121,7 +121,7 @@
 | &emsp;кинжал | dagger | poignard | dagger | 3 | e0075, e0420, e0507 |
 | &emsp;топор ✦ | axe | hache | axe | 2 | e0182, e0339 |
 | доспехи | armor | armure | armor | 31 (8 сам) | e0007, e0080, e0093 |
-| &emsp;шлем | helmet | casque | helmet | 28 | e0007, e0080, e0093 |
+| &emsp;шлем | helmet | casque | helmet | 28 (28 сам) | e0007, e0080, e0093 |
 | &emsp;нагрудник | cuirass | cuirasse | cuirass | 7 | e0329, e0345, e0366 |
 | щит | shield | bouclier | shield | 13 | e0007, e0124, e0206 |
 | колчан | quiver | carquois | quiver | 7 | e0091, e0097, e0103 |
@@ -133,32 +133,104 @@
 | Мотив RU | EN | FR | id | Гравюр | Примеры |
 |---|---|---|---|---|---|
 | младенец | infant | enfant | child | 33 | e0041, e0062, e0065 |
-| купидон | Cupid | Cupidon | cupid | 15 | e0062, e0389, e0437 |
+| Аполлон ✦ | Apollo | Apollon | apollo | 16 | e0062, e0082, e0089 |
+| купидон | Cupid | Cupidon | cupid | 14 | e0062, e0389, e0437 |
+| Юпитер ✦ | Jupiter | Jupiter | jupiter | 12 | e0082, e0156, e0167 |
+| Фортуна | Fortuna | Fortune | fortuna | 8 | e0416, e0418, e0434 |
 | Минерва | Minerva | Minerve | minerva | 8 | e0334, e0336, e0339 |
+| Геркулес | Hercules | Hercule | hercules | 7 | e0325, e0329, e0334 |
+| Меркурий | Mercury | Mercure | mercury | 7 | e0302, e0311, e0313 |
+| Прозерпина | Proserpine | Proserpine | proserpine | 7 | e0140, e0241, e0276 |
+| Венера | Venus | Vénus | venus | 7 | e0472, e0474, e0476 |
+| Гений ✦ | Genius | Génie | genius | 6 | e0409, e0558, e0559 |
 | Грация | Grace | Grâce | grace | 6 | e0091, e0178, e0474 |
-| Прозерпина | Proserpine | Proserpine | proserpine | 4 | e0574, e0575, e0576 |
+| Сатурн ✦ | Saturn | Saturne | saturn | 5 | e0065, e0068, e0070 |
+| Вакх ✦ | Bacchus | Bacchus | bacchus | 4 | e0386, e0389, e0392 |
+| Диана | Diana | Diane | diana | 4 | e0128, e0132, e0137 |
+| Юнона ✦ | Juno | Junon | juno | 4 | e0193, e0199, e0206 |
 | сатир ✦ | satyr | satyre | satyr | 4 | e0386, e0464, e0516 |
+| Парки ✦ | Fates | Parques | fates | 3 | e0292, e0295, e0297 |
+| Гор ✦ | Horus | Horus | horus | 3 | e0399, e0401, e0514 |
+| Исида ✦ | Isis | Isis | isis | 3 | e0147, e0149, e0514 |
+| Янус ✦ | Janus | Janus | janus | 3 | e0075, e0080, e0572 |
+| Марс ✦ | Mars | Mars | mars | 3 | e0366, e0552, e0554 |
+| Кетцалькоатль ✦ | Quetzalcoatl | Quetzalcoatl | quetzalcoatl | 3 | e0594, e0596, e0603 |
+| Эскулап ✦ | Aesculapius | Esculape | aesculapius | 2 | e0112, e0114 |
+| Амида ✦ | Amida | Amida | amida | 2 | e0613, e0614 |
+| Анубис ✦ | Anubis | Anubis | anubis | 2 | e0321, e0323 |
+| Аттис ✦ | Attis | Attis | attis | 2 | e0579, e0580 |
+| Церера ✦ | Ceres | Cérès | ceres | 2 | e0230, e0236 |
+| Кибела ✦ | Cybele | Cybèle | cybele | 2 | e0217, e0222 |
+| Гарпократ ✦ | Harpocrates | Harpocrate | harpocrates | 2 | e0352, e0549 |
+| Гигия ✦ | Hygieia | Hygie | hygieia | 2 | e0119, e0121 |
 | голова Медузы | head of Medusa | tête de Méduse | medusa-head | 2 | e0519, e0548 |
+| Митра (бог) ✦ | Mithras | Mithra | mithras | 2 | e0099, e0507 |
+| Музы | Muses | Muses | muses | 2 | e0087, e0089 |
+| Нептун ✦ | Neptune | Neptune | neptune | 2 | e0253, e0256 |
+| Пан ✦ | Pan | Pan | pan | 2 | e0156, e0464 |
+| Помона ✦ | Pomona | Pomone | pomona | 2 | e0239, e0269 |
+| Победа ✦ | Victory | Victoire | victoria | 2 | e0375, e0377 |
+| Вулкан ✦ | Vulcan | Vulcain | vulcan | 2 | e0339, e0363 |
+| Адонис ✦ | Adonis | Adonis | adonis | 1 | e0489 |
+| Амфитрита ✦ | Amphitrite | Amphitrite | amphitrite | 1 | e0253 |
+| Ангерона ✦ | Angerona | Angerona | angerona | 1 | e0352 |
+| Аврора | Aurora | Aurore | aurora | 1 | e0126 |
+| Беллона ✦ | Bellona | Bellone | bellona | 1 | e0342 |
 | кентавр ✦ | centaur | centaure | centaur | 1 | e0389 |
-| Венера | Venus | Vénus | venus | 1 | e0552 |
+| Харон ✦ | Charon | Charon | charon | 1 | e0299 |
+| Ком ✦ | Comus | Comus | comus | 1 | e0383 |
+| Дафна ✦ | Daphne | Daphné | daphne | 1 | e0095 |
+| Демогоргон ✦ | Demogorgon | Démogorgon | demogorgon | 1 | e0058 |
+| Кастор и Поллукс ✦ | Castor and Pollux | Castor et Pollux | dioscuri | 1 | e0201 |
+| Фурии ✦ | Furies | Furies | furies | 1 | e0283 |
+| Галатея ✦ | Galatea | Galatée | galatea | 1 | e0246 |
+| Гиганты ✦ | Giants | Géants | giants | 1 | e0359 |
+| Главк ✦ | Glaucus | Glaucus | glaucus | 1 | e0244 |
+| Геба ✦ | Hebe | Hébé | hebe | 1 | e0085 |
+| Геката ✦ | Hecate | Hécate | hecate | 1 | e0140 |
+| Гиацинт ✦ | Hyacinthus | Hyacinthe | hyacinthus | 1 | e0509 |
+| Гименей ✦ | Hymen | Hyménée | hymen | 1 | e0212 |
+| Ирида ✦ | Iris | Iris | iris | 1 | e0197 |
+| Каннон ✦ | Kannon | Kannon | kannon | 1 | e0612 |
+| Лары ✦ | Lares | Lares | lares | 1 | e0407 |
+| Люцина ✦ | Lucina | Lucine | lucina | 1 | e0135 |
+| Марсий ✦ | Marsyas | Marsyas | marsyas | 1 | e0510 |
+| Мом ✦ | Momus | Momus | momus | 1 | e0428 |
+| Немесида ✦ | Nemesis | Némésis | nemesis | 1 | e0420 |
+| Нил ✦ | Nile | Nil | nile | 1 | e0267 |
+| Нимфы ✦ | Nymphs | Nymphes | nymphs | 1 | e0536 |
+| Ночь ✦ | Night | Nuit | nyx | 1 | e0317 |
+| Океан ✦ | Oceanus | Océan | oceanus | 1 | e0534 |
+| Палемон ✦ | Palaemon | Palémon | palaemon | 1 | e0532 |
+| Плутон ✦ | Pluto | Pluton | pluto | 1 | e0276 |
+| Приап ✦ | Priapus | Priape | priapus | 1 | e0404 |
+| Сцилла ✦ | Scylla | Scylla | scylla | 1 | e0251 |
+| Серапис ✦ | Serapis | Sérapis | serapis | 1 | e0108 |
+| Силен ✦ | Silenus | Silène | silenus | 1 | e0555 |
+| Сон ✦ | Sleep | Sommeil | somnus | 1 | e0317 |
+| Термин ✦ | Terminus | Terme | terminus | 1 | e0540 |
+| Тибр ✦ | Tiber | Tibre | tiber | 1 | e0265 |
+| Тифон ✦ | Typhon | Typhon | typhon | 1 | e0399 |
+| Вертумн ✦ | Vertumnus | Vertumne | vertumnus | 1 | e0269 |
+| Веста ✦ | Vesta | Vesta | vesta | 1 | e0228 |
+| Волупия ✦ | Volupia | Volupia | volupia | 1 | e0349 |
 
 ### поза и жест
 
 | Мотив RU | EN | FR | id | Гравюр | Примеры |
 |---|---|---|---|---|---|
-| рука | hand | main | hand | 58 (26 сам) | e0070, e0075, e0080 |
-| &emsp;поднятая рука | raised hand | main levée | raised-hand | 19 | e0070, e0082, e0107 |
-| &emsp;сплетённые руки | clasped hands | mains jointes | clasped-hands | 6 | e0174, e0208, e0418 |
-| &emsp;указывающая рука | pointing hand | main qui pointe | pointing-hand | 5 | e0107, e0269, e0567 |
-| &emsp;сложенные руки | joined hands | mains jointes | joined-hands | 4 | e0619, e0622, e0625 |
-| &emsp;рука у рта | hand at mouth | main à la bouche | hand-to-mouth | 3 | e0297, e0352, e0549 |
-| &emsp;рука у уха | hand at ear | main près de l'oreille | hand-at-ear | 2 | e0424, e0426 |
-| &emsp;рука на боку | hand on hip | main sur la hanche | hand-on-hip | 2 | e0188, e0620 |
-| &emsp;щека на руке | cheek on hand | joue sur la main | hand-on-cheek | 1 | e0383 |
-| &emsp;рука на груди | hand on chest | main sur la poitrine | hand-on-chest | 1 | e0632 |
+| поднятая рука | raised hand | main levée | raised-hand | 19 | e0070, e0082, e0107 |
 | раскрытые руки | open arms | bras ouverts | open-arms | 9 | e0070, e0097, e0434 |
+| сплетённые руки | clasped hands | mains jointes | clasped-hands | 6 | e0174, e0208, e0418 |
 | коленопреклонение | kneeling | agenouillement | kneeling | 5 | e0041, e0309, e0509 |
+| указывающая рука | pointing hand | main qui pointe | pointing-hand | 5 | e0107, e0269, e0567 |
+| сложенные руки | joined hands | mains jointes | joined-hands | 4 | e0619, e0622, e0625 |
 | склонённая голова | bowed head | tête inclinée | bowed-head | 3 | e0418, e0428, e0618 |
+| рука у рта | hand at mouth | main à la bouche | hand-to-mouth | 3 | e0297, e0352, e0549 |
+| рука у уха | hand at ear | main près de l'oreille | hand-at-ear | 2 | e0424, e0426 |
+| рука на боку | hand on hip | main sur la hanche | hand-on-hip | 2 | e0188, e0620 |
+| щека на руке | cheek on hand | joue sur la main | hand-on-cheek | 1 | e0383 |
+| рука на груди | hand on chest | main sur la poitrine | hand-on-chest | 1 | e0632 |
 
 ### предмет
 
@@ -196,7 +268,7 @@
 | шляпа | hat | chapeau | hat | 11 (8 сам) | e0099, e0105, e0311 |
 | &emsp;калаф ✦ | kalathos | calathos | kalathos | 3 | e0514, e0549, e0559 |
 | трон | throne | trône | throne | 11 | e0080, e0107, e0110 |
-| скипетр | sceptre | sceptre | sceptre | 9 | e0044, e0167, e0170 |
+| скипетр | sceptre | sceptre | sceptre | 9 (9 сам) | e0044, e0167, e0170 |
 | цепь | chain | chaîne | chain | 8 | e0085, e0101, e0145 |
 | кубок | cup | coupe | cup | 8 | e0085, e0119, e0193 |
 | шар | ball | boule | ball | 7 | e0167, e0170, e0349 |
@@ -210,7 +282,7 @@
 | корабль | ship | navire | ship | 6 | e0093, e0147, e0249 |
 | колпак вольноотпущенника | freedman's cap | bonnet de la liberté | cap | 5 | e0114, e0352, e0507 |
 | маска | mask | masque | mask | 5 | e0078, e0087, e0105 |
-| пояс | belt | ceinture | belt | 4 | e0099, e0103, e0579 |
+| пояс | belt | ceinture | belt | 4 (4 сам) | e0099, e0103, e0579 |
 | книга | book | livre | book | 4 | e0089, e0156, e0489 |
 | полусапожки | half-boots | brodequins | boots | 4 | e0114, e0176, e0212 |
 | ключ | key | clé | key | 4 | e0075, e0080, e0276 |
@@ -239,7 +311,6 @@
 | монета | coin | pièce de monnaie | coin | 1 | e0565 |
 | оковы | fetters | fers | fetters | 1 | e0072 |
 | глобус | globe | globe | globe | 1 | e0432 |
-| золотое яблоко | golden apple | pomme d'or | golden-apple | 1 | e0474 |
 | крючок | hook | hameçon | hook | 1 | e0349 |
 | лампа | lamp | lampe | lamp | 1 | e0377 |
 | грамота | sealed letter | lettre scellée | letter | 1 | e0117 |
@@ -299,7 +370,7 @@
 | два лица | two faces | deux visages | two-faces | 5 | e0070, e0075, e0572 |
 | змеиный хвост | snake tail | queue de serpent | snake-tail | 4 | e0286, e0289, e0399 |
 | повязка на глазах | blindfold | bandeau | blindfold | 2 | e0368, e0442 |
-| глаз | eye | œil | eye | 2 | e0352, e0401 |
+| глаз | eye | œil | eye | 2 (2 сам) | e0352, e0401 |
 | большой живот | big belly | gros ventre | big-belly | 1 | e0052 |
 | ухо | ear | oreille | ear | 1 | e0424 |
 | повязка на устах | band across the mouth | bandeau sur la bouche | mouth-band | 1 | e0352 |
@@ -315,17 +386,43 @@
 |---|---|---|---|---|---|
 | борода | beard | черта фигуры | — | 72 | e0041, e0058, e0062, e0068, e0072, e0075, e0080, e0093, e0099, e0105, e0107, e0108 … |
 | медальон | medallion | предмет | — | 32 | e0105, e0107, e0123, e0230, e0236, e0239, e0246, e0256, e0263, e0269, e0289, e0302 … |
+| Аполлон | apollo | персонаж | — | 16 | e0062, e0082, e0089, e0091, e0095, e0097, e0099, e0103, e0105, e0110, e0123, e0124 … |
 | рога на голове | horns | черта фигуры | — | 13 | e0101, e0124, e0156, e0176, e0188, e0206, e0256, e0263, e0289, e0302, e0464, e0516 … |
+| Юпитер | jupiter | персонаж | — | 12 | e0082, e0156, e0167, e0170, e0172, e0176, e0178, e0180, e0182, e0188, e0339, e0359 |
 | серп | sickle | предмет | farming-tool | 6 | e0072, e0078, e0239, e0404, e0565, e0571 |
+| Гений | genius | персонаж | — | 6 | e0409, e0558, e0559, e0560, e0561, e0562 |
+| Сатурн | saturn | персонаж | — | 5 | e0065, e0068, e0070, e0072, e0571 |
 | сатир | satyr | персонаж | — | 4 | e0386, e0464, e0516, e0556 |
 | раковина | shell | предмет | — | 4 | e0065, e0246, e0253, e0472 |
+| Юнона | juno | персонаж | — | 4 | e0193, e0199, e0206, e0208 |
+| Вакх | bacchus | персонаж | — | 4 | e0386, e0389, e0392, e0395 |
 | калаф | kalathos | предмет | hat | 3 | e0514, e0549, e0559 |
 | ступени | steps | место и постройка | — | 3 | e0512, e0603, e0617 |
 | бубен | tambourine | предмет | musical-instrument | 3 | e0087, e0516, e0556 |
+| Марс | mars | персонаж | — | 3 | e0366, e0552, e0554 |
+| Янус | janus | персонаж | — | 3 | e0075, e0080, e0572 |
+| Исида | isis | персонаж | — | 3 | e0147, e0149, e0514 |
+| Парки | fates | персонаж | — | 3 | e0292, e0295, e0297 |
+| Гор | horus | персонаж | — | 3 | e0399, e0401, e0514 |
+| Кетцалькоатль | quetzalcoatl | персонаж | — | 3 | e0594, e0596, e0603 |
 | топор | axe | оружие | weapon | 2 | e0182, e0339 |
 | весло | oar | предмет | — | 2 | e0299, e0395 |
 | сосновая шишка | pine-cone | растение | — | 2 | e0581, e0583 |
 | вожжи | reins | предмет | bridle | 2 | e0253, e0511 |
+| Нептун | neptune | персонаж | — | 2 | e0253, e0256 |
+| Вулкан | vulcan | персонаж | — | 2 | e0339, e0363 |
+| Церера | ceres | персонаж | — | 2 | e0230, e0236 |
+| Кибела | cybele | персонаж | — | 2 | e0217, e0222 |
+| Пан | pan | персонаж | — | 2 | e0156, e0464 |
+| Эскулап | aesculapius | персонаж | — | 2 | e0112, e0114 |
+| Гигия | hygieia | персонаж | — | 2 | e0119, e0121 |
+| Победа | victoria | персонаж | — | 2 | e0375, e0377 |
+| Помона | pomona | персонаж | — | 2 | e0239, e0269 |
+| Гарпократ | harpocrates | персонаж | — | 2 | e0352, e0549 |
+| Анубис | anubis | персонаж | — | 2 | e0321, e0323 |
+| Митра (бог) | mithras | персонаж | — | 2 | e0099, e0507 |
+| Аттис | attis | персонаж | — | 2 | e0579, e0580 |
+| Амида | amida | персонаж | — | 2 | e0613, e0614 |
 | пещера | cave | место и постройка | — | 1 | e0099 |
 | кентавр | centaur | персонаж | — | 1 | e0389 |
 | Цербер | cerberus | животное | dog | 1 | e0276 |
@@ -333,10 +430,51 @@
 | обелиск | obelisk | место и постройка | — | 1 | e0422 |
 | змеи вместо волос | snake-hair | черта фигуры | — | 1 | e0283 |
 | сфинкс | sphinx | животное | — | 1 | e0289 |
+| Плутон | pluto | персонаж | — | 1 | e0276 |
+| Немесида | nemesis | персонаж | — | 1 | e0420 |
+| Нимфы | nymphs | персонаж | — | 1 | e0536 |
+| Фурии | furies | персонаж | — | 1 | e0283 |
+| Веста | vesta | персонаж | — | 1 | e0228 |
+| Геба | hebe | персонаж | — | 1 | e0085 |
+| Ирида | iris | персонаж | — | 1 | e0197 |
+| Гименей | hymen | персонаж | — | 1 | e0212 |
+| Люцина | lucina | персонаж | — | 1 | e0135 |
+| Геката | hecate | персонаж | — | 1 | e0140 |
+| Беллона | bellona | персонаж | — | 1 | e0342 |
+| Волупия | volupia | персонаж | — | 1 | e0349 |
+| Ангерона | angerona | персонаж | — | 1 | e0352 |
+| Вертумн | vertumnus | персонаж | — | 1 | e0269 |
+| Приап | priapus | персонаж | — | 1 | e0404 |
+| Силен | silenus | персонаж | — | 1 | e0555 |
+| Ком | comus | персонаж | — | 1 | e0383 |
+| Мом | momus | персонаж | — | 1 | e0428 |
+| Харон | charon | персонаж | — | 1 | e0299 |
+| Серапис | serapis | персонаж | — | 1 | e0108 |
+| Кастор и Поллукс | dioscuri | персонаж | — | 1 | e0201 |
+| Палемон | palaemon | персонаж | — | 1 | e0532 |
+| Главк | glaucus | персонаж | — | 1 | e0244 |
+| Галатея | galatea | персонаж | — | 1 | e0246 |
+| Амфитрита | amphitrite | персонаж | — | 1 | e0253 |
+| Сцилла | scylla | персонаж | — | 1 | e0251 |
+| Океан | oceanus | персонаж | — | 1 | e0534 |
+| Тибр | tiber | персонаж | — | 1 | e0265 |
+| Нил | nile | персонаж | — | 1 | e0267 |
+| Лары | lares | персонаж | — | 1 | e0407 |
+| Термин | terminus | персонаж | — | 1 | e0540 |
+| Тифон | typhon | персонаж | — | 1 | e0399 |
+| Демогоргон | demogorgon | персонаж | — | 1 | e0058 |
+| Гиганты | giants | персонаж | — | 1 | e0359 |
+| Ночь | nyx | персонаж | — | 1 | e0317 |
+| Сон | somnus | персонаж | — | 1 | e0317 |
+| Дафна | daphne | персонаж | — | 1 | e0095 |
+| Адонис | adonis | персонаж | — | 1 | e0489 |
+| Марсий | marsyas | персонаж | — | 1 | e0510 |
+| Гиацинт | hyacinthus | персонаж | — | 1 | e0509 |
+| Каннон | kannon | персонаж | — | 1 | e0612 |
 
 ## Под вопросом
 
-### на гравюре неразборчиво / мелко: не уверен (470)
+### на гравюре неразборчиво / мелко: не уверен (464)
 
 | Мотив | id | Гравюр | Какие |
 |---|---|---|---|
@@ -350,7 +488,6 @@
 | шар | ball | 7 | e0442, e0472, e0526, e0537, e0538, e0550, e0554 |
 | лира | lyre | 6 | e0062, e0087, e0404, e0450, e0509, e0582 |
 | нагота | nudity | 6 | e0087, e0135, e0236, e0323, e0517, e0550 |
-| рука | hand | 6 | e0103, e0112, e0145, e0401, e0437, e0464 |
 | цветы | flower | 6 | e0124, e0126, e0197, e0199, e0416, e0621 |
 | перо на шлеме | feather | 6 | e0321, e0479, e0554, e0582, e0600, e0624 |
 | маска | mask | 6 | e0323, e0342, e0381, e0481, e0560, e0583 |
@@ -429,7 +566,7 @@
 | бык | bull | 2 | e0140, e0534 |
 | две головы | two-heads | 2 | e0140, e0571 |
 | шляпа | hat | 2 | e0222, e0302 |
-| тритон | triton | 2 | e0246, e0253 |
+| triton | triton | 2 | e0246, e0253 |
 | покров | veil | 2 | e0253, e0534 |
 | звезда | star | 2 | e0261, e0562 |
 | яблоко | apple | 2 | e0276, e0472 |
@@ -467,7 +604,7 @@
 | лист | leaf | 1 | e0089 |
 | голова Медузы | medusa-head | 1 | e0105 |
 | перстень | ring | 1 | e0114 |
-| нимфа | nymph | 1 | e0128 |
+| nymph | nymph | 1 | e0128 |
 | дубовый венок | oak-crown | 1 | e0188 |
 | лучистый венец | radiant-crown | 1 | e0230 |
 | мирт | myrtle | 1 | e0241 |
@@ -544,7 +681,7 @@
 | Венера | venus | 11 | e0078, e0193, e0253, e0363, e0428, e0450, e0499, e0524, e0536, e0569, e0603 |
 | вода | water | 10 | e0044, e0065, e0093, e0108, e0126, e0156, e0186, e0241, e0246, e0472 |
 | Прозерпина | proserpine | 10 | e0140, e0241, e0249, e0276, e0307, e0536, e0597, e0598a, e0598b, e0599 |
-| нимфа | nymph | 9 | e0044, e0087, e0176, e0246, e0251, e0259, e0276, e0389, e0518 |
+| nymph | nymph | 9 | e0044, e0087, e0176, e0246, e0251, e0259, e0276, e0389, e0518 |
 | сосуд | vessel | 9 | e0068, e0188, e0263, e0389, e0409, e0574, e0575, e0624, e0628 |
 | алтарь | altar | 9 | e0075, e0208, e0228, e0249, e0256, e0352, e0409, e0432, e0617 |
 | плоды | fruit | 9 | e0103, e0140, e0149, e0176, e0188, e0383, e0404, e0430, e0495 |
@@ -659,7 +796,7 @@
 | гробница | tomb | 1 | e0044 |
 | голова Медузы | medusa-head | 1 | e0058 |
 | серп | sickle | 1 | e0065 |
-| тритон | triton | 1 | e0065 |
+| triton | triton | 1 | e0065 |
 | чётки | rosary | 1 | e0091 |
 | сокол | falcon | 1 | e0093 |
 | баран | ram | 1 | e0093 |
