@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "274";
+  var APP_VER = "275";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -348,7 +348,7 @@
     plNoCap:      {ru:"У этой гравюры нет подписи в переводе.", en:"This engraving has no caption in the translation.", fr:"Cette gravure n’a pas de légende dans la traduction."},
     plEdition:    {ru:"издание\u00a01626", en:"1626\u00a0edition", fr:"édition\u00a0de\u00a01626"},
     plZoomLabel:  {ru:"Гравюра на весь экран", en:"Engraving, full screen", fr:"Gravure en plein écran"},
-    srHint:       {ru:"Можно искать слова, имена и номера страниц: «Фортуна», «Fortuna», «429».", en:"Search words, names and page numbers: “Fortuna”, “Фортуна”, “429”.", fr:"Cherchez des mots, des noms et des numéros de page : « Fortuna », « Фортуна », « 429 »."},
+    srHint:       {ru:"Можно искать слова и имена: «Фортуна», «Fortuna».", en:"Search words and names: “Fortuna”, “Фортуна”.", fr:"Cherchez des mots et des noms : « Fortuna », « Фортуна »."},
     srLoading:    {ru:"Загружаю тексты…", en:"Loading the texts…", fr:"Chargement des textes…"},
     srNone:       {ru:"Ничего не найдено. Попробуйте другую форму слова или старое написание, например «Lanuuio» вместо «Lanuvio».", en:"Nothing found. Try another form of the word or an old spelling, e.g. «Lanuuio» for «Lanuvio».", fr:"Rien trouvé. Essayez une autre forme du mot ou une ancienne graphie, par exemple « Lanuuio » pour « Lanuvio »."},
     srText:       {ru:"В тексте", en:"In the text", fr:"Dans le texte"},

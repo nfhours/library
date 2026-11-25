@@ -134,14 +134,10 @@ button.ic-info-toggle:hover{color:var(--accent)}
 /* Поиск и фильтры — без рамок и заливок, тонкие подчёркивания, как у
    переключателя языка: продолжение стиля сайта, а не форма из виджетов. */
 .ic-search-wrap{display:block;position:relative}
-input.ic-search{width:100%;font-size:1.05em;padding:8px 26px 8px 2px;border:0;border-bottom:1px solid var(--rule);
+input.ic-search{width:100%;font-size:1.05em;padding:8px 30px 8px 2px;border:0;border-bottom:1px solid var(--rule);
   border-radius:0;background:transparent;-webkit-appearance:none;appearance:none;box-shadow:none;margin:0;
   transition:border-color .2s}
 input.ic-search:focus{border-bottom-color:var(--accent);outline:0}
-button.ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-50%);
-  width:22px;height:22px;line-height:1;font-size:18px;color:var(--soft);
-  display:flex;align-items:center;justify-content:center;border-radius:50%;
-  transition:color .2s,background-color .2s}
 .ic-search-clear[hidden]{display:none}
 .ic-row{display:flex;flex-wrap:wrap;gap:18px 24px;align-items:center;margin-top:18px}
 .ic-seg{display:flex;flex-wrap:wrap;gap:18px}
@@ -724,8 +720,6 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   padding:0 34px 0 14px;font-size:18px;background:#1d1915;color:rgb(236,229,212)}
 .ic-rb-sheet-head .ic-home-search input.ic-search::placeholder{color:rgba(236,229,212,.5)}
 .ic-rb-sheet-head .ic-home-search input.ic-search:focus{border-color:rgba(236,229,212,.55)}
-.ic-rb-sheet-head .ic-search-clear{right:10px;color:rgba(236,229,212,.6)}
-@media (hover:hover){.ic-rb-sheet-head button.ic-search-clear:hover{color:rgb(236,229,212);background:rgba(236,229,212,.14)}}
 /* «Закрыть» — в стиле кнопок меню (вариант 3 на нажатие/hover), не светлая
    рамка-кнопка прежних раундов. */
 button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(236,229,212,.3);border-radius:10px;
@@ -960,7 +954,6 @@ li.ic-lib-wip{cursor:default;opacity:.45}
    (hover:hover) only matches devices that can actually hover, so touch
    never triggers these at all. */
 @media (hover:hover){
-  button.ic-search-clear:hover{color:var(--ink);background:var(--rule)}
   .ic-row-item:hover{background:var(--sheet)}
   li.ic-book-card:hover{border-color:var(--accent);transform:translateY(-2px);
     box-shadow:0 24px 46px -20px rgba(70,46,20,.5), inset 0 0 0 1px rgba(255,255,255,.4)}
@@ -1234,7 +1227,7 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
    крупной переделки навигации к поиску. */
 .ic-home-search{display:flex;gap:12px;align-items:center;margin-top:24px;
   background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:10px 16px}
-.ic-home-search input.ic-search{flex:1 1 auto;min-width:0;background:none;border:0;padding:8px 2px}
+.ic-home-search input.ic-search{flex:1 1 auto;min-width:0;background:none;border:0;padding:8px 30px 8px 2px}
 .ic-home-search input.ic-search:focus{border-bottom-color:transparent;outline:0}
 .ic-home-search .ic-search-wrap{flex:1 1 auto;min-width:0}
 .ic-home-search input.ic-search::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
@@ -1763,8 +1756,6 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic-rp-srp{flex:none;font-size:15px;color:rgba(236,229,212,.6);text-transform:none;letter-spacing:0;white-space:nowrap}
 /* соседние статьи: переносы только по словам */
 .ic .ic-rp-pager .ic-rp-nb-t,.ic .ic-rp-pager .ic-rp-nb-t span{hyphens:none;-webkit-hyphens:none;word-break:normal;overflow-wrap:normal}
-/* кнопка очистки поля в шторках Рипы: без серого кружка UA-кнопки */
-#ic-rb-sheet.ic-rp-loupe .ic-search-clear,#ic-ripa-find .ic-search-clear{background:none;border:0;border-radius:50%;padding:0;box-shadow:none;-webkit-appearance:none;appearance:none;color:rgba(236,229,212,.6);width:30px;height:30px;font-size:22px}
 /* шторка лупы лежит внутри .ic-booktabs: правило «.ic-booktabs a» (высота 36px) к результатам не относится */
 .ic .ic-booktabs .ic-rp-sra{height:auto;flex:none;display:flex;align-items:baseline;justify-content:space-between;text-align:left;border-radius:0}
 
@@ -1814,11 +1805,6 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic-rbar-rp .ic-rbar-row > .ic-rbar-sort,.ic-rbar-rp .ic-rbar-row > .ic-rbar-tvsearch{overflow:visible}
 .ic-rbar-rp .ic-rbar-row > button:first-child{border-radius:10px 0 0 10px}
 .ic-rbar-rp .ic-rbar-row > button:last-child{border-radius:0 10px 10px 0}
-/* крестик очистки: тонкий ×, без черты и рамки, зона касания 44px (полоса «Найти» и шторка лупы) */
-.ic .ic-rb-sheet-head .ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-50%);width:44px;height:44px;
-  padding:0;margin:0;border:0;border-left:0;border-radius:0;background:none;box-shadow:none;-webkit-appearance:none;appearance:none;
-  font-size:24px;font-weight:200;line-height:1;color:rgba(236,229,212,.6);display:flex;align-items:center;justify-content:center;text-transform:none;letter-spacing:0}
-@media (hover:hover){.ic .ic-rb-sheet-head .ic-search-clear:hover{background:none;color:rgb(236,229,212)}}
 /* шторки выбора («Часть», «Порядок», «Тип»): заканчиваются сразу после последнего варианта */
 .ic .ic-rb-sheet:not(.ic-rb-sheet-toc) .ic-rb-sheet-panel > .ic-tv-typelist{padding-bottom:calc(12px + env(safe-area-inset-bottom));-webkit-mask-image:none;mask-image:none}
 /* результаты лупы лежат внутри .ic-booktabs: правило «.ic-booktabs a» (высота 36px, flex) к ним не относится — строки налезали друг на друга */
@@ -1846,9 +1832,6 @@ html.ic-hs-lock{overflow:hidden !important}
 @media (max-width:460px){.ic .ic-rbar-findin::placeholder{letter-spacing:.045em}}
 .ic .ic-rbar-findin:not(:placeholder-shown){padding-right:30px}
 .ic .ic-rbar-findin::-webkit-search-cancel-button,.ic .ic-rbar-findin::-webkit-search-decoration{-webkit-appearance:none;display:none}
-.ic .ic-rbar-findx{position:absolute;right:2px;top:50%;transform:translateY(-50%);width:30px;height:30px;padding:0;margin:0;border:0;border-left:0;border-radius:0;background:none;box-shadow:none;
-  display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:200;line-height:1;letter-spacing:0;text-transform:none;color:rgba(var(--cream),.6)}
-.ic .ic-rbar-findx[hidden]{display:none}
 .ic-rbar-rp .ic-rbar-row > .ic-rbar-findcell:first-child{border-radius:10px 0 0 10px}
 .ic-rbar-rp .ic-rbar-findin{height:44px;margin:-4px 0}
 @media (max-height:500px) and (orientation:landscape){.ic .ic-rbar-row > .ic-rbar-findcell{height:30px}}
@@ -2009,7 +1992,6 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic-mot-findin{width:100%;box-sizing:border-box;height:36px;padding:0 42px 0 12px;border-radius:8px;border:1px solid rgba(var(--cream),.28);background:rgba(var(--cream),.06);color:rgb(var(--cream));font:inherit;font-size:16px;-webkit-appearance:none;appearance:none;outline:none}
 .ic-mot-findin::placeholder{color:rgba(var(--cream),.5)}
 .ic-mot-findin::-webkit-search-cancel-button{display:none}
-.ic-rbar .ic-mot-bar .ic-mot-findx{position:absolute;right:0;top:0;width:40px;height:36px;font-size:24px;line-height:1;color:rgba(var(--cream),.85)}
 /* каталог и вкладка раздела */
 .ic .ic-mot-sub{margin-top:6px}
 .ic .ic-mot-sect{margin-top:26px}
@@ -2245,3 +2227,22 @@ button.ic-gro-nv:disabled{opacity:.35}
 @media (hover:hover){.ic-gro-objsheet button.ic-gro-nv:not(:disabled):hover,.ic-gro-objsheet button.ic-gro-x:hover{background:rgba(236,229,212,.14);color:rgb(236,229,212)}}
 /* список предметов на странице таблицы: без точек (все предметы переведены — признак ничего не различал) */
 .ic-obj-sum{grid-template-columns:auto 1fr}
+/* крестик очистки поля — ОДИН общий стиль для всех полей поиска: тонкий ×, без кружка, рамки и фона,
+   зона касания 44×44, бледный цвет как у подсказки, темнеет только на :active (hover нет).
+   На светлой бумаге — --soft → --ink; в тёмных шторках — бледно-бумажный → бумажный. */
+.ic button.ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-50%);width:44px;height:44px;
+  padding:0;margin:0;border:0;border-radius:0;background:none;box-shadow:none;-webkit-appearance:none;appearance:none;
+  display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:200;line-height:1;
+  text-transform:none;letter-spacing:0;cursor:pointer;-webkit-tap-highlight-color:transparent;
+  color:var(--ic-clr,var(--soft));transition:color .12s}
+.ic button.ic-search-clear:active{color:var(--ic-clr-a,var(--ink))}
+.ic-rb-sheet-head,#ic-rb-sheet,#ic-ripa-find,.ic-rbar{--ic-clr:rgba(236,229,212,.6);--ic-clr-a:rgb(236,229,212)}
+.ic-rb-sheet-head .ic-search-clear{right:0}
+.ic-search-clear[hidden]{display:none!important}
+/* те же крестики в полосе «Найти» (.ic-rbar-findx) и в поиске «Мотивов» (.ic-mot-findx): общий вид, см. выше */
+.ic button.ic-rbar-findx,.ic .ic-rbar .ic-mot-bar button.ic-mot-findx{position:absolute!important;right:0!important;top:50%!important;transform:translateY(-50%)!important;
+  width:44px;height:44px;padding:0;margin:0;border:0;border-radius:0;background:none!important;box-shadow:none;-webkit-appearance:none;appearance:none;
+  display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:200;line-height:1;letter-spacing:0;text-transform:none;
+  cursor:pointer;-webkit-tap-highlight-color:transparent;color:var(--ic-clr,var(--soft));transition:color .12s}
+.ic button.ic-rbar-findx:active,.ic .ic-rbar .ic-mot-bar button.ic-mot-findx:active{color:var(--ic-clr-a,var(--ink))!important;background:none!important}
+.ic button.ic-rbar-findx[hidden],.ic .ic-rbar .ic-mot-bar button.ic-mot-findx[hidden]{display:none!important}
