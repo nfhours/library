@@ -4756,7 +4756,18 @@
    "fr": "Nymphes",
    "category": "персонаж",
    "parent": null,
-   "children": []
+   "children": [],
+   "syn": {
+    "ru": [
+     "нереиды"
+    ],
+    "en": [
+     "Nereids"
+    ],
+    "fr": [
+     "Néréides"
+    ]
+   }
   },
   {
    "id": "muses",
@@ -5423,6 +5434,26 @@
    "category": "персонаж",
    "parent": null,
    "children": []
+  },
+  {
+   "id": "tritons",
+   "ru": "Тритоны",
+   "en": "Tritons",
+   "fr": "Tritons",
+   "category": "персонаж",
+   "parent": null,
+   "children": [],
+   "syn": {
+    "ru": [
+     "тритон"
+    ],
+    "en": [
+     "Triton"
+    ],
+    "fr": [
+     "Triton"
+    ]
+   }
   }
  ]
 }

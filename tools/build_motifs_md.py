@@ -152,7 +152,7 @@ def build_cartari(vocab, car, rip, out):
         L += ['', '### %s (%d)' % (why, sum(len(v) for v in ms.values())), '', '| Мотив | id | Гравюр | Какие |', '|---|---|---|---|']
         for mid, pl in sorted(ms.items(), key=lambda kv: -len(kv[1])):
             pl = sorted(pl)
-            L.append('| %s | %s | %d | %s |' % (by_id.get(mid, {}).get('ru', mid), mid, len(pl), ', '.join(pl)))
+            L.append('| %s | %s | %d | %s |' % (by_id[mid]['ru'] if mid in by_id else '%s (нет в словаре)' % mid, mid, len(pl), ', '.join(pl)))
     L += ['', '### Замеченное на гравюре, но не внесённое в словарь (единичные предметы)', '']
     for name, pl in sorted(car.get('unmapped_extra', {}).items()):
         L.append('- %s: %s' % (name, ', '.join(pl)))
